@@ -1,40 +1,39 @@
 meta:
-  title: "Inflatable SUP Certification — CE, REACH, RoHS & Compliance Guide"
-  description: "Certification scope for inflatable SUP manufacturing: CE (EU models), BSCI, ISO 9001, REACH, RoHS. Certificate numbers available per project on request."
+  title: "Agrochemical Product Certification — ICAMA, FAO/WHO & Compliance Guide"
+  description: "Certification scope for agrochemical manufacturing: ICAMA registration, FAO/WHO specifications, ISO 9001, BSCI. Certificate details available per project on request."
   dateModified: "2026-08-20"
 
 sections:
   - title: "Direct Answer"
     directAnswer:
-      answer: "Agrospear holds BSCI, ISO 9001, ISO 25649, CE, REACH and RoHS certifications. CE applies to models destined for EU markets — not universally 'all products'."
+      answer: "Agrospear holds ISO 9001, BSCI and supports ICAMA registration and FAO/WHO specification compliance. ICAMA registration applies to products destined for the Chinese market — not universally 'all products'."
       condition: "Certification scope varies by target market and product configuration. Certificate numbers, validity and issuing authorities are available per project on request."
-      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      value: "ISO 9001 · BSCI · ICAMA · FAO/WHO · Batch Traceability"
       verifiedDate: "2026-08-20"
       sourceType: "certificate"
     body: |
       Certification is a key procurement concern and must be stated precisely.
-      Blanket claims like "CE on all products" can create trust issues if a buyer
+      Blanket claims like "ICAMA on all products" can create trust issues if a buyer
       later discovers the scope is narrower than expected.
 
   - title: "Certification details"
     body: |
       | Certification | Scope | Authority | Applies to |
       |---------------|-------|-----------|------------|
-      | BSCI | Social responsibility audit | amfori BSCI | Manufacturing facility |
       | ISO 9001 | Quality management system | Certifying body (available on request) | Manufacturing facility |
-      | ISO 25649 | Inflatable water craft safety | ISO | Applicable SUP models per market |
-      | CE | EU market conformity (EN ISO 6185 / 10087 / 10240) | EU notified body | Models destined for EU market |
-      | REACH | EU chemical safety | ECHA | Materials used in production |
-      | RoHS | Restriction of hazardous substances | EU directive | Electronic accessories (pumps) |
+      | BSCI | Social responsibility audit | amfori BSCI | Manufacturing facility |
+      | ICAMA | Chinese pesticide registration | Ministry of Agriculture, PRC | Products destined for Chinese market |
+      | FAO/WHO | International quality specifications | FAO/WHO | Applicable agrochemical products per market |
+      | Batch Traceability | Production records & test reports | Internal QA system | Every production batch |
 
   - title: "Important scope notes"
     body: |
-      - **CE** applies to models configured for EU market sale. A board built for US or Australian
-        distribution does not carry the CE mark unless specifically requested.
+      - **ICAMA** registration applies to products configured for Chinese market sale. A product built for
+        US or African distribution does not carry ICAMA registration unless specifically requested.
       - **ISO 9001** covers the manufacturing facility's quality management system, not individual
         product certification.
-      - **REACH** compliance covers materials used in production — documentation available for
-        importers who must register substances.
+      - **FAO/WHO** specification compliance covers product quality benchmarks — documentation available for
+        importers who must register products in destination countries.
       - Certificate numbers, validity dates and issuing authorities are available per project on
         request. We do not publish certificate numbers publicly for security reasons.
       - Third-party inspection available through SGS, TÜV, BV or Intertek for any shipment.
@@ -49,4 +48,4 @@ sections:
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'VERIFIED SPECIFICATIONS'
-  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, stability & content analysis test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'

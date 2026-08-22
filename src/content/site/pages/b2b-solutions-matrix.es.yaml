@@ -1,6 +1,6 @@
 meta:
   title: 'Matriz de soluciones para clientes B2B | {SITE}'
-  description: 'Matriz completa de soluciones B2B de Agrospear para 24 tipos de cliente: desde startups de outdoor hasta instituciones de conservación marina.'
+  description: 'Matriz completa de soluciones B2B de Agrospear para 24 tipos de cliente: desde startups agroquímicas hasta agencias de compras gubernamentales.'
   dateModified: '2026-08'
 
 hero:
@@ -13,62 +13,62 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Una sola fábrica sirve todas las vías B2B: fabricación OEM/ODM con MOQ confirmado por proyecto (muestra 1–2 unidades, piloto 20–50, volumen estándar 90–100+ por rollo de 150 m; co-branding desde menos de 20 unidades), marca privada sobre plataformas probadas, distribución mayorista y programas de flotas para resorts, clubes y escuelas. Muestras en 7–12 días; producción en 25–35 días tras el PO y el depósito.'
+  text: 'Una sola fábrica sirve todas las vías B2B: fabricación OEM/ODM con MOQ confirmado por proyecto (muestra 1–4 toneladas, piloto 5 toneladas, volumen estándar 20+ toneladas por lote; co-branding desde cantidades inferiores), marca privada sobre plataformas probadas, distribución mayorista y programas para distribuidores y cooperativas. Muestras en 7–12 días; producción en 25–35 días tras el PO y el depósito.'
   verified: '2026-08'
 
 solutions:
   title: Matriz de soluciones para clientes
   subtitle: 'Cada tipo de cliente, su necesidad principal y la página de solución Agrospear diseñada para él.'
   items:
-    - clientType: Fundador de startup de outdoor
+    - clientType: Fundador de startup agroquímica
       need: Creación de marca
-      solutionPage: Crea tu marca de SUP
+      solutionPage: Crea tu marca agroquímica
       link: /es/solutions/private-label
-    - clientType: Responsable de marca outdoor
-      need: Expansión de la marca outdoor a los deportes acuáticos
-      solutionPage: Expande tu marca outdoor a los deportes acuáticos
+    - clientType: Responsable de marca agroquímica
+      need: Expansión de la marca a protección de cultivos
+      solutionPage: Expande tu marca a protección de cultivos
       link: /es/solutions/private-label
-    - clientType: Propietario de tienda de surf
-      need: Mejora del negocio de surf
-      solutionPage: Lleva la tecnología hinchable a tu negocio de surf
+    - clientType: Minorista agrícola
+      need: Mejora del negocio agrícola
+      solutionPage: Lleva formulaciones OEM a tu negocio agrícola
       link: /es/products/fungicide
-    - clientType: Vendedor de Amazon
+    - clientType: Vendedor de e-commerce
       need: Crecimiento del e-commerce
       solutionPage: Diferenciación de producto y suministro rápido
       link: /es/solutions/private-label
-    - clientType: Marca de equipo de pesca
-      need: SUP de pesca
-      solutionPage: Crea tu marca de SUP de pesca
+    - clientType: Marca de herbicidas
+      need: Programa de herbicidas
+      solutionPage: Crea tu marca de herbicidas
       link: /es/products/biopesticide
-    - clientType: Marca de yoga y bienestar
-      need: Productos acuáticos de bienestar
-      solutionPage: Equipamiento de yoga SUP
+    - clientType: Marca de insecticidas
+      need: Programa de insecticidas
+      solutionPage: Soluciones de formulación de insecticidas
       link: /es/products/seed-treatment
     - clientType: Marca de creadores
       need: Marca de influencers
-      solutionPage: SUP de edición creador
+      solutionPage: Startup agroquímica de edición creador
       link: /es/solutions/private-label
-    - clientType: Fundador de club de paddle
-      need: Flota para club
-      solutionPage: Flota SUP comercial
+    - clientType: Fundador de cooperativa
+      need: Suministro cooperativo
+      solutionPage: Portafolio agroquímico comercial
       link: /es/solutions/registration-support
-    - clientType: Propietario de negocio de alquiler
-      need: Operaciones de alquiler
-      solutionPage: Solución de flota de alquiler duradera
+    - clientType: Propietario de negocio de distribución
+      need: Operaciones de distribución
+      solutionPage: Solución de suministro de distribución confiable
+      link: /es/solutions/distributors
+    - clientType: Responsable de suministro agrícola
+      need: Suministro agrícola
+      solutionPage: Paquete de productos de suministro agrícola
       link: /es/solutions/bulk-supply
-    - clientType: Responsable de actividades de resort
-      need: Experiencia hotelera
-      solutionPage: Paquete de actividades acuáticas para resorts
-      link: /es/solutions/bulk-supply
-    - clientType: Academia de deportes acuáticos
+    - clientType: Academia de formación agrícola
       need: Formación y educación
-      solutionPage: Programa de equipamiento para academias de SUP
+      solutionPage: Programa de productos para academias agrícolas
       link: /es/solutions/government-procurement
-    - clientType: Compañía de cruceros y yates
-      need: Experiencia náutica
-      solutionPage: Paquete de SUP portátil de lujo
-      link: /es/solutions/bulk-supply
-    - clientType: Comprador minorista outdoor
+    - clientType: Compañía de exportación y trading
+      need: Suministro de exportación
+      solutionPage: Paquete agroquímico de grado exportación
+      link: /es/product-development
+    - clientType: Comprador minorista agrícola
       need: Canal minorista
       solutionPage: Programa de etiqueta privada minorista
       link: /es/solutions/private-label
@@ -77,48 +77,44 @@ solutions:
       solutionPage: Socio OEM regional y de cadena de suministro
       link: /es/oem-manufacturing
     - clientType: Comprador de proyectos corporativos
-      need: Eventos corporativos
-      solutionPage: Paquete de eventos SUP corporativos
+      need: Compras corporativas
+      solutionPage: Paquete de compras agroquímicas corporativas
       link: /es/solutions/private-label
-    - clientType: Comprador de proyectos corporativos
-      need: Eventos corporativos
-      solutionPage: Paquete de eventos SUP corporativos
+    - clientType: Responsable de marca de protección de cultivos
+      need: Expansión de portafolio de protección de cultivos
+      solutionPage: Expande tu portafolio de protección de cultivos
       link: /es/solutions/private-label
-    - clientType: Responsable de marca de deportes acuáticos
-      need: Expansión de marca de deportes acuáticos
-      solutionPage: Expande tu cartera de deportes acuáticos
-      link: /es/solutions/private-label
-    - clientType: Propietario de marca de aventuras para mascotas
-      need: Outdoor con mascotas
-      solutionPage: Programa de paddle board para mascotas
+    - clientType: Propietario de marca de agricultura orgánica
+      need: Protección de cultivos orgánica
+      solutionPage: Programa de biopesticidas y orgánicos
       link: /es/product-development
-    - clientType: Operador de recreo de playa
-      need: Entretenimiento de playa
-      solutionPage: Soluciones completas de equipamiento para actividades de playa
+    - clientType: Operador de suministro rural
+      need: Suministro rural
+      solutionPage: Soluciones completas de equipamiento para suministro rural
+      link: /es/solutions/distributors
+    - clientType: Desarrollador de programas gubernamentales
+      need: Compras gubernamentales
+      solutionPage: Programa de compras agroquímicas gubernamentales
       link: /es/solutions/bulk-supply
-    - clientType: Desarrollador de parques acuáticos
-      need: Entretenimiento temático
-      solutionPage: Flota SUP para parques acuáticos comerciales
-      link: /es/solutions/bulk-supply
-    - clientType: Propietario de isla privada y club de lujo
-      need: Estilo de vida de alta gama
-      solutionPage: Colección SUP premium a medida
+    - clientType: Propietario de gran extensión y plantación
+      need: Suministro de alto volumen
+      solutionPage: Colección agroquímica premium a medida
       link: /es/product-development
-    - clientType: Oficina de turismo y operador de parque público
-      need: Proyectos de turismo público
-      solutionPage: Paquete de deportes acuáticos de destino
-      link: /es/solutions/bulk-supply
-    - clientType: Operador de campamento de verano y aventura infantil
-      need: Educación juvenil
-      solutionPage: Programa SUP de exploración infantil
+    - clientType: Ministerio de agricultura y agencia pública
+      need: Proyectos de compras públicas
+      solutionPage: Paquete de suministro nacional de protección de cultivos
+      link: /es/solutions/distributors
+    - clientType: Operador de formación y extensión agraria
+      need: Educación agraria
+      solutionPage: Programa agroquímico de extensión agraria
       link: /es/solutions/government-procurement
-    - clientType: Organización de rescate y seguridad acuática
-      need: Rescate profesional
-      solutionPage: Sistema SUP profesional de rescate acuático
+    - clientType: Organización de control de plagas y salud pública
+      need: Control de vectores profesional
+      solutionPage: Sistema agroquímico profesional de salud pública
       link: /es/solutions
-    - clientType: Institución de conservación e investigación marina
+    - clientType: Institución de investigación y conservación agrícola
       need: Investigación medioambiental
-      solutionPage: Plataforma SUP ecológica de investigación y monitorización
+      solutionPage: Plataforma ecológica de investigación y formulación sostenible
       link: /es/tourism-recreation
 
 cta:

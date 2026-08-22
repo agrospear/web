@@ -1,6 +1,6 @@
 meta:
   title: 'B2B Client Solutions Matrix | {SITE}'
-  description: 'Complete Agrospear B2B client solutions matrix covering 24 customer types — from outdoor startups to marine conservation institutions.'
+  description: 'Complete Agrospear B2B client solutions matrix covering 24 customer types — from agrochemical startups to government procurement agencies.'
   dateModified: '2026-08'
 
 hero:
@@ -13,62 +13,62 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'One factory serves every B2B route: OEM/ODM manufacturing with project-confirmed MOQ (sample 1–2 units, pilot 20–50, standard volume 90–100+ per 150 m roll; co-branding from 5–10 units), private label on proven platforms, wholesale distribution and fleet programs for resorts, clubs and schools. Every customer type maps to a specific solution set — samples in 7–12 days, production 25–35 days after PO and deposit.'
+  text: 'One factory serves every B2B route: OEM/ODM manufacturing with project-confirmed MOQ (sample 1–4 tons, pilot 5 tons, standard volume 20+ tons per batch; co-branding from lower quantities), private label on proven platforms, wholesale distribution and fleet programs for distributors and cooperatives. Every customer type maps to a specific solution set — samples in 7–12 days, production 25–35 days after PO and deposit.'
   verified: '2026-08'
 
 solutions:
   title: Client Solutions Matrix
   subtitle: 'Every customer type, their core need, and the Agrospear solution page designed for them.'
   items:
-    - clientType: Outdoor Startup Founder
+    - clientType: Agrochemical Startup Founder
       need: Brand Creation
-      solutionPage: Build Your SUP Brand
+      solutionPage: Build Your Agrochemical Brand
       link: /solutions/private-label
-    - clientType: Outdoor Brand Manager
-      need: Outdoor Brand Expansion Into Water Sports
-      solutionPage: Expand Outdoor Brand Into Water Sports
+    - clientType: Agrochemical Brand Manager
+      need: Brand Expansion Into Crop Protection
+      solutionPage: Expand Your Brand Into Crop Protection
       link: /solutions/private-label
-    - clientType: Surf Shop Owner
-      need: Surf Business Upgrade
-      solutionPage: Bring Inflatable Technology Into Surf Business
+    - clientType: Agricultural Retailer
+      need: Retail Business Upgrade
+      solutionPage: Bring OEM Formulations Into Your Retail Business
       link: /products/fungicide
-    - clientType: Amazon Seller
+    - clientType: E-Commerce Seller
       need: E-commerce Growth
       solutionPage: Product Differentiation & Fast Supply
       link: /solutions/private-label
-    - clientType: Fishing Gear Brand
-      need: Fishing SUP
-      solutionPage: Create Your Fishing SUP Brand
+    - clientType: Herbicide Brand
+      need: Herbicide Program
+      solutionPage: Create Your Herbicide Brand
       link: /products/biopesticide
-    - clientType: Yoga & Wellness Brand
-      need: Wellness Water Products
-      solutionPage: SUP Yoga Equipment Solutions
+    - clientType: Insecticide & Wellness Brand
+      need: Insecticide Program
+      solutionPage: Insecticide Formulation Solutions
       link: /products/seed-treatment
     - clientType: Creator Brand
       need: Influencer Brand
-      solutionPage: Creator Edition SUP Startup
+      solutionPage: Creator Edition Agrochemical Startup
       link: /solutions/private-label
-    - clientType: Paddle Club Founder
-      need: Club Fleet
-      solutionPage: Commercial SUP Fleet
+    - clientType: Cooperative Founder
+      need: Cooperative Supply
+      solutionPage: Commercial Agrochemical Portfolio
       link: /solutions/registration-support
-    - clientType: Rental Business Owner
-      need: Rental Operations
-      solutionPage: Durable Rental Fleet Solution
-      link: /solutions/rental-operators
-    - clientType: Resort Activity Manager
-      need: Hotel Experience
-      solutionPage: Resort Water Activity Package
+    - clientType: Distribution Business Owner
+      need: Distribution Operations
+      solutionPage: Reliable Distribution Supply Solution
+      link: /solutions/distributors
+    - clientType: Farm Supply Manager
+      need: Agricultural Supply
+      solutionPage: Farm Supply Product Package
       link: /solutions/bulk-supply
-    - clientType: Water Sports Academy
+    - clientType: Agricultural Training Academy
       need: Training & Education
-      solutionPage: SUP Academy Equipment Program
+      solutionPage: Agricultural Academy Product Program
       link: /solutions/government-procurement
-    - clientType: Cruise & Yacht Company
-      need: Yacht Experience
-      solutionPage: Luxury Portable SUP Package
+    - clientType: Export & Trading Company
+      need: Export Supply
+      solutionPage: Export-Grade Agrochemical Package
       link: /product-development
-    - clientType: Outdoor Retail Buyer
+    - clientType: Agricultural Retail Buyer
       need: Retail Channel
       solutionPage: Retail Private Label Program
       link: /solutions/retail-partners
@@ -77,44 +77,44 @@ solutions:
       solutionPage: Regional OEM & Supply Chain Partner
       link: /solutions/distributors
     - clientType: Corporate Project Buyer
-      need: Corporate Events
-      solutionPage: Corporate SUP Event Package
+      need: Corporate Procurement
+      solutionPage: Corporate Agrochemical Procurement Package
       link: /contact
-    - clientType: Water Sports Brand Manager
-      need: Water Sports Brand Expansion
-      solutionPage: Expand Your Water Sports Portfolio
+    - clientType: Crop Protection Brand Manager
+      need: Crop Protection Portfolio Expansion
+      solutionPage: Expand Your Crop Protection Portfolio
       link: /solutions/private-label
-    - clientType: Pet Adventure Brand Owner
-      need: Pet Outdoor
-      solutionPage: Pet-Friendly Paddle Board Program
+    - clientType: Organic Agriculture Brand Owner
+      need: Organic Crop Protection
+      solutionPage: Biopesticide & Organic Program
       link: /product-development
-    - clientType: Beach Recreation Operator
-      need: Beach Entertainment
-      solutionPage: Complete Beach Activity Equipment Solutions
-      link: /solutions/rental-operators
-    - clientType: Water Park Developer
-      need: Theme Entertainment
-      solutionPage: Commercial Water Park SUP Fleet
+    - clientType: Rural Supply Operator
+      need: Rural Supply
+      solutionPage: Complete Rural Supply Equipment Solutions
+      link: /solutions/distributors
+    - clientType: Government Program Developer
+      need: Government Procurement
+      solutionPage: Government Agrochemical Procurement Program
       link: /solutions/bulk-supply
-    - clientType: Private Island & Luxury Club Owner
-      need: High-End Lifestyle
-      solutionPage: Premium Custom SUP Collection
+    - clientType: Large Estate & Plantation Owner
+      need: High-Volume Supply
+      solutionPage: Premium Custom Agrochemical Collection
       link: /product-development
-    - clientType: Tourism Board & Public Park Operator
-      need: Public Tourism Projects
-      solutionPage: Destination Water Sports Package
-      link: /solutions/rental-operators
-    - clientType: Kids Adventure & Summer Camp Operator
-      need: Youth Education
-      solutionPage: Kids Exploration SUP Program
+    - clientType: Agricultural Ministry & Public Agency
+      need: Public Procurement Projects
+      solutionPage: National Crop Protection Supply Package
+      link: /solutions/distributors
+    - clientType: Farmer Training & Extension Operator
+      need: Farmer Education
+      solutionPage: Farmer Extension Agrochemical Program
       link: /solutions/government-procurement
-    - clientType: Water Rescue & Safety Organization
-      need: Professional Rescue
-      solutionPage: Professional Water Rescue SUP System
+    - clientType: Pest Control & Public Health Organization
+      need: Professional Vector Control
+      solutionPage: Professional Public Health Agrochemical System
       link: /product-development
-    - clientType: Marine Conservation & Research Institution
+    - clientType: Agricultural Research & Conservation Institution
       need: Environmental Research
-      solutionPage: Eco Research & Monitoring SUP Platform
+      solutionPage: Eco Research & Sustainable Formulation Platform
       link: /product-development
 
 cta:

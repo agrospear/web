@@ -1,28 +1,27 @@
 meta:
-  title: "Certificación de SUP inflable — Guía de CE, REACH, RoHS y conformidad"
-  description: "Alcance de certificación para fabricación de SUP hinchables: CE (modelos UE), BSCI, ISO 9001, REACH, RoHS. Números de certificado disponibles por proyecto."
+  title: "Certificación de Formulación Agroquímica — Guía de ICAMA, FAO/OMS, ISO 9001 y conformidad"
+  description: "Alcance de certificación para fabricación de formulaciones agroquímicas: ICAMA, FAO/OMS, BSCI, ISO 9001, trazabilidad por lote. Números de certificado disponibles por proyecto."
   dateModified: "2026-08-20"
 
 sections:
   - title: "Respuesta directa"
     directAnswer:
-      answer: "Agrospear posee certificaciones BSCI, ISO 9001, ISO 25649, CE, REACH y RoHS. CE aplica a modelos destinados al mercado europeo — no es 'todos los productos' universalmente."
+      answer: "Agrospear posee certificaciones BSCI, ISO 9001 e ICAMA, y prepara documentación FAO/OMS por proyecto. ICAMA es obligatorio para fabricación y exportación desde China; FAO/OMS se prepara según el mercado de destino."
       condition: "El alcance varía según mercado objetivo y configuración del producto. Números y validez disponibles por proyecto."
-      value: "BSCI · ISO 9001 · ISO 25649 · CE · REACH · RoHS"
+      value: "BSCI · ISO 9001 · ICAMA · FAO/OMS · Trazabilidad por Lote"
       verifiedDate: "2026-08-20"
       sourceType: "certificate"
     body: |
-      La certificación debe indicarse con precisión. Afirmaciones genéricas como "CE en todos los productos" pueden generar desconfianza si el comprador descubre que el alcance es más limitado.
+      La certificación debe indicarse con precisión. Afirmaciones genéricas como "FAO/OMS en todos los productos" pueden generar desconfianza si el comprador descubre que el alcance es más limitado.
 
       | Certificación | Alcance | Autoridad | Aplica a |
       |---------------|---------|-----------|----------|
       | BSCI | Auditoría de responsabilidad social | amfori BSCI | Instalación de fabricación |
       | ISO 9001 | Sistema de gestión de calidad | Organismo certificador | Instalación de fabricación |
-      | ISO 25649 | Seguridad de embarcaciones inflables | ISO | Modelos de SUP aplicables |
-      | CE | Conformidad mercado UE (EN ISO 6185/10087/10240) | Organismo notificado UE | Modelos destinados al mercado UE |
-      | REACH | Seguridad química UE | ECHA | Materiales de producción |
-      | RoHS | Restricción de sustancias peligrosas | Directiva UE | Accesorios electrónicos (bombas) |
+      | ICAMA | Registro de agroquímicos China | Ministerio de Agricultura | Todas las formulaciones fabricadas |
+      | FAO/OMS | Especificaciones de plaguicidas | FAO/OMS | Formulaciones según mercado de destino |
+      | Trazabilidad por Lote | Registros de producción y análisis | Interno | Todos los lotes de producción |
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de análisis de contenido y estabilidad, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'

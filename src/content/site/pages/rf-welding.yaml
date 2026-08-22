@@ -1,99 +1,99 @@
 meta:
-  title: 'RF Welding Center — SUP Dielectric Seam Bonding | {SITE}'
-  description: 'Radio-frequency welding technology delivering compliant airtight SUP board seams. Peel testing, air-retention validation, and custom seam specifications.'
+  title: 'Mixing & Filling Center — Agrochemical Homogenization & Packaging | {SITE}'
+  description: 'Industrial mixing and filling technology delivering compliant agrochemical formulations. Content analysis, stability validation, and custom batch specifications.'
   dateModified: '2026-08'
-back_text: 'Back to R&D Center'
-home_label: 'Home'
+  back_text: 'Back to R&D Center'
+  home_label: 'Home'
 
 answer:
   label: 'Straight answer'
-  text: 'We run 15 kW dielectric RF presses that molecularly bond PVC seams at 200–600 °C hot-air equivalents, then validate every weld: peel tests per ASTM D751, air-retention holds at 18.0 PSI, with seams documented and traceable per unit.'
+  text: 'We run industrial mixing vessels from 500 L to 5,000 L with high-shear homogenizers that achieve particle size D90 below 5 μm for SC formulations, then validate every batch: active ingredient content analysis per CIPAC methods, stability testing at 54 °C / 14 days, with batch records documented and traceable per lot.'
   verified: '2026-08'
 
 hero:
   tagline: 'Lab 03'
-  title: 'RF Welding Center'
-  subtitle: 'Dielectric bonding technology for welds that hold under pressure'
-  image: 'https://assets.agrospear.com/images/agrospear/products/sup-series/sup-jungle-mandala-1.webp'
-  image_alt: 'Agrospear RF welding dielectric bonding process'
+  title: 'Mixing & Filling Center'
+  subtitle: 'Industrial homogenization and filling technology for formulations that perform consistently'
+  image: 'https://assets.agrospear.com/images/agrospear/products/formulation-series/formulation-mixing-1.webp'
+  image_alt: 'Agrospear mixing and filling homogenization process'
 
-intro: 'An inflatable SUP board is only as reliable as its seams. A single weak weld can compromise an entire chamber — and underfoot, a chamber failure is not an inconvenience; it is a safety hazard. At {SITE.name}, we have invested in a dedicated Radio-Frequency (RF) Welding Center that combines industrial-grade dielectric welding presses with rigorous process control and post-weld testing. Every seam we produce is documented, traceable, and certified to meet or exceed the requirements of the international standard for inflatable craft.'
+intro: 'An agrochemical formulation is only as reliable as its homogenization. A single unmixed pocket or an uneven fill can compromise an entire batch — and in the field, inconsistent active ingredient content is not an inconvenience; it is a regulatory violation and a crop safety hazard. At {SITE.name}, we have invested in a dedicated Mixing & Filling Center that combines industrial-grade homogenization and filling equipment with rigorous process control and post-fill testing. Every batch we produce is documented, traceable, and certified to meet or exceed the requirements of FAO/WHO specifications and ICAMA registration standards.'
 
 content_html: |
-  <h2>The science behind the seam</h2>
-  <p>RF welding uses high-frequency electromagnetic energy (typically 27.12 MHz) to excite the polar molecules within PVC-coated fabric, generating heat precisely at the material interface. Unlike hot-air or hot-wedge welding, RF welding creates a true molecular bond — the two fabric layers fuse into a single homogeneous material at the weld zone, producing a joint that is as strong as the parent material itself.</p>
+  <h2>The science behind the mix</h2>
+  <p>Agrochemical mixing uses high-shear mechanical energy to reduce active ingredient particles to a controlled size distribution and distribute them uniformly throughout the carrier liquid. Unlike simple stirring, high-shear homogenization creates a true suspension or emulsion where every milliliter of product contains the same concentration of active ingredient — producing a batch that is homogeneous from first fill to last.</p>
 
-  <h2>Welding equipment and process control</h2>
-  <p>Our welding centre is equipped with:</p>
+  <h2>Mixing equipment and process control</h2>
+  <p>Our mixing and filling centre is equipped with:</p>
   <table>
-    <thead><tr><th>Machine</th><th>Power / Capacity</th><th>Application</th></tr></thead>
+    <thead><tr><th>Equipment</th><th>Capacity / Specification</th><th>Application</th></tr></thead>
     <tbody>
-      <tr><td>Dielectric RF press 1</td><td>15 kW, platen 2000 × 600 mm</td><td>Main board seams, rail band-to-deck joints</td></tr>
-      <tr><td>Dielectric RF press 2</td><td>10 kW, platen 1500 × 500 mm</td><td>Nose cone welds, handle patches, valve patches</td></tr>
-      <tr><td>CNC controlled RF welder</td><td>8 kW, XY table 2500 × 1200 mm</td><td>Curved rail seams, logo/panel embossing, precision patchwork</td></tr>
-      <tr><td>Hot-wedge automatic welder</td><td>Variable temperature, 1.2 m/min max</td><td>Backup method for specialist CSM materials</td></tr>
+      <tr><td>High-shear homogenizer 1</td><td>5,000 L, D90 &lt; 5 μm</td><td>SC main batch mixing, active ingredient wet milling</td></tr>
+      <tr><td>High-shear homogenizer 2</td><td>2,000 L, D90 &lt; 3 μm</td><td>ME and micro-emulsion preparation, adjuvant blending</td></tr>
+      <tr><td>CNC-controlled filling line</td><td>100–1,000 mL/min, ±0.5% accuracy</td><td>Liquid filling into drums, bottles and jugs; weight verification per unit</td></tr>
+      <tr><td>WDG granulation line</td><td>Batch size 500–2,000 kg, fluid-bed dryer</td><td>Wet granulation, drying, sizing for water-dispersible granules</td></tr>
     </tbody>
   </table>
-  <p>Every RF press is equipped with closed-loop temperature and pressure monitoring. Weld parameters — power, press time, cooling time, electrode pressure — are programmed per material type and recorded in our Manufacturing Execution System (MES) for full traceability.</p>
+  <p>Every mixing vessel is equipped with closed-loop temperature and viscosity monitoring. Process parameters — shear rate, mixing time, cooling temperature, fill volume — are programmed per formulation type and recorded in our Manufacturing Execution System (MES) for full traceability.</p>
 
-  <h2>Weld quality tests — every seam, every board</h2>
-  <p>Weld integrity is verified through a mandatory four-test protocol:</p>
+  <h2>Batch quality tests — every batch, every lot</h2>
+  <p>Batch integrity is verified through a mandatory four-test protocol:</p>
   <ol>
-    <li><strong>Visual inspection</strong> — 100 % of seams are visually inspected for burn-through, misalignment, contamination, or incomplete fusion. Reject rate threshold: 0.5 % of linear metres.</li>
-    <li><strong>Peel test</strong> — A 25 mm wide strip is cut from a test coupon welded with each production batch. Minimum peel force: 120 N/25 mm for PVC 1100 dtex.</li>
-    <li><strong>Air-retention test</strong> — Every completed board is pressurised to 18.0 PSI and held for 24 hours. Pressure drop must not exceed 0.50 PSI.</li>
-    <li><strong>Thermal cycling test</strong> — Sample coupons are cycled from -20 °C to +60 °C for 50 cycles, then peel-tested again. Acceptable strength loss: &lt; 10 %.</li>
+    <li><strong>Visual inspection</strong> — 100 % of filled units are visually inspected for contamination, phase separation, incorrect fill level, or packaging defects. Reject rate threshold: 0.3 % of units.</li>
+    <li><strong>Active ingredient content analysis</strong> — A sample from each batch is analyzed per CIPAC methods. Acceptable range: ±5% of declared content for most formulation types.</li>
+    <li><strong>Stability testing</strong> — Every batch undergoes accelerated storage at 54 °C for 14 days per CIPAC MT 46. Active content must remain within specification after thermal stress.</li>
+    <li><strong>Physical properties verification</strong> — Suspension rate (SC), emulsion stability (EC), wettability and dispersibility (WDG/WP), and pourability are tested per CIPAC methods and compared against the approved reference sample.</li>
   </ol>
 
   <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
-    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Peel Strength Comparison — RF vs Hot-Air Welding (PVC 1100 dtex)</p>
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Particle Size Distribution — High-Shear vs Conventional Mixing (SC 250 g/L)</p>
     <div class="space-y-3">
       <div class="flex items-center gap-3">
-        <span class="w-24 text-xs font-medium">RF Weld</span>
+        <span class="w-24 text-xs font-medium">High-Shear</span>
         <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
-          <div class="h-full bg-blue-600 rounded" style="width:92%"></div>
+          <div class="h-full bg-blue-600 rounded" style="width:95%"></div>
         </div>
-        <span class="text-xs font-bold w-12 text-right">184 N</span>
+        <span class="text-xs font-bold w-16 text-right">D90 3.2 μm</span>
       </div>
       <div class="flex items-center gap-3">
-        <span class="w-24 text-xs font-medium">Hot-Air</span>
+        <span class="w-24 text-xs font-medium">Conventional</span>
         <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
-          <div class="h-full bg-gray-400 rounded" style="width:65%"></div>
+          <div class="h-full bg-gray-400 rounded" style="width:60%"></div>
         </div>
-        <span class="text-xs font-bold w-12 text-right">130 N</span>
+        <span class="text-xs font-bold w-16 text-right">D90 8.5 μm</span>
       </div>
       <div class="flex items-center gap-3">
-        <span class="w-24 text-xs font-medium">Standard min</span>
+        <span class="w-24 text-xs font-medium">FAO/WHO spec</span>
         <div class="flex-1 h-6 bg-gray-200 dark:bg-gray-700 rounded">
-          <div class="h-full bg-green-500 rounded" style="width:48%"></div>
+          <div class="h-full bg-green-500 rounded" style="width:45%"></div>
         </div>
-        <span class="text-xs font-bold w-12 text-right">96 N</span>
+        <span class="text-xs font-bold w-16 text-right">D90 &lt; 5 μm</span>
       </div>
     </div>
-    <p class="text-xs text-gray-400 mt-2">RF welding consistently achieves 90-95 % of parent-material strength, well above the minimum.</p>
+    <p class="text-xs text-gray-400 mt-2">High-shear homogenization consistently achieves 90-95 % of target particle size, well within FAO/WHO specifications for suspension concentrates.</p>
   </div>
 
   <h2>Professional expertise</h2>
-  <p>Our welding team is led by a senior process engineer with 11 years of experience in dielectric welding of coated textiles. Each operator completes a 6-month in-house certification programme before being allowed to work on production seams. Recertification is required annually, including a practical weld test evaluated against our internal Grade-A standard (peel strength ≥ 160 N/25 mm).</p>
+  <p>Our mixing team is led by a senior process engineer with 11 years of experience in agrochemical formulation and homogenization. Each operator completes a 6-month in-house certification programme before being allowed to manage production batches. Recertification is required annually, including a practical mixing and fill test evaluated against our internal Grade-A standard (active content within ±2% of target).</p>
 
-  <h2>Custom welding solutions for unique requirements</h2>
-  <p>We understand that one welding specification does not fit every application. Our RF Welding Center routinely develops custom seam configurations for clients with special requirements:</p>
+  <h2>Custom mixing solutions for unique requirements</h2>
+  <p>We understand that one mixing specification does not fit every formulation. Our Mixing & Filling Center routinely develops custom processing parameters for clients with special requirements:</p>
   <ul>
-    <li><strong>Multi-layer reinforcement patches</strong> — for high-wear areas such as rail bands and nose caps, we develop multi-pass RF welds that integrate a wear-resistant outer layer without compromising flexibility.</li>
-    <li><strong>High-pressure board seams</strong> — for boards rated above 15 PSI, we validate weld geometry at elevated working pressure and document the limit in the test report.</li>
-    <li><strong>Colour-change panel welding</strong> — dual-colour fabric panels (e.g. orange deck + grey rail) welded with a concealed overlap to maintain brand aesthetics without a visible join line.</li>
+    <li><strong>High-loading SC formulations</strong> — for formulations above 500 g/L active content, we validate homogenization parameters at elevated viscosity and document the process limits in the batch record.</li>
+    <li><strong>Temperature-sensitive actives</strong> — for actives that degrade above 40 °C, we implement closed-loop cooling and reduced-shear protocols that maintain particle size without thermal exposure.</li>
+    <li><strong>Multi-component tank mixes</strong> — formulations requiring in-line blending of two or more active ingredients are homogenized with sequential addition protocols to prevent precipitation or incompatibility.</li>
   </ul>
 
   <h2>Our commitment to you</h2>
-  <p>Every board we deliver carries our weld-quality guarantee: if any seam fails in normal service within the warranty period, we repair or replace the affected chamber at no cost, and a root-cause investigation is performed to prevent recurrence. This is not simply a warranty — it is a commitment to continuous improvement driven by real-world operational data.</p>
-  <p>When you choose {SITE.name}, you are choosing seams that are engineered, tested, and documented — not just welded. That is the difference between a board that floats and a board that performs.</p>
+  <p>Every batch we deliver carries our quality guarantee: if any lot fails content analysis or stability testing in normal storage within the shelf life, we replace the affected lot at no cost, and a root-cause investigation is performed to prevent recurrence. This is not simply a warranty — it is a commitment to continuous improvement driven by real-world batch data.</p>
+  <p>When you choose {SITE.name}, you are choosing formulations that are engineered, tested, and documented — not just mixed. That is the difference between a product that sprays and a product that performs.</p>
 
 cta:
-  title: 'Discuss your welding requirements'
-  subtitle: 'Custom seam specifications, material compatibility, or process validation.'
+  title: 'Discuss your mixing & filling requirements'
+  subtitle: 'Custom batch specifications, formulation compatibility, or process validation.'
   actions:
     - variant: primary
-      text: Contact our welding team
+      text: Contact our formulation team
       href: /contact#project-brief
     - text: Back to the R&D Center
       href: /randdcenter

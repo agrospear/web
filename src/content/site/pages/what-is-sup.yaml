@@ -1,94 +1,95 @@
 meta:
-  title: 'What is an Inflatable SUP? — Beginner Guide | {SITE}'
-  description: 'What is an inflatable SUP? Complete guide to stand up paddle boards: construction, technology, uses, and how to choose your first board.'
+  title: 'What is Agrochemical Formulation? — Beginner Guide | {SITE}'
+  description: 'What is an agrochemical formulation? Complete guide to crop protection formulations: types, technology, uses, and how to choose your first formulation.'
   keywords:
-    - 'what is an isup'
-    - 'inflatable paddle board'
-    - 'stand up paddle board'
-    - 'sup for beginners'
+    - 'what is agrochemical formulation'
+    - 'crop protection formulation'
+    - 'pesticide formulation types'
+    - 'agrochemical formulation for beginners'
 label: Guide
-headline: 'What Is an Inflatable SUP? A Complete Guide to Stand-Up Paddle Boards'
-subtitle: A complete guide to understanding inflatable stand-up paddle boards —construction, technology, and how to choose.
+headline: 'What Is Agrochemical Formulation? A Complete Guide to Crop Protection Products'
+subtitle: A complete guide to understanding agrochemical formulations — types, technology, and how to choose.
 
 answer:
   label: 'Straight answer'
-  text: 'An inflatable SUP is a stand-up paddle board built from drop-stitch PVC fabric that becomes rigid when inflated to 12–15 PSI. It matches the performance of hard boards for most recreational and touring use, weighs roughly 8–10 kg, and packs down into a backpack for storage and travel.'
+  text: 'An agrochemical formulation is the physical form in which an active ingredient is delivered for crop protection — liquid formulations like SC, EC and WP, or dry formulations like WDG and DP. The formulation determines how the product mixes, sprays, and performs in the field. A well-designed formulation maximizes biological efficacy, storage stability, and user safety while meeting regulatory requirements for your target market.'
   verified: '2026-08'
 seo:
-  headline: 'What Is an Inflatable SUP? A Complete Guide to Stand-Up Paddle Boards'
-  description: 'Complete guide to inflatable stand-up paddle boards: construction, technology, uses, and how they compare to hard boards.'
+  headline: 'What Is Agrochemical Formulation? A Complete Guide to Crop Protection Products'
+  description: 'Complete guide to agrochemical formulations: types, technology, uses, and how they compare across liquid and dry categories.'
   datePublished: '2024-01-15'
   dateModified: '2026-06-01'
 body: |
-  <h2>What is an Inflatable SUP?</h2>
-  <p>An inflatable SUP (Stand-Up Paddle Board) is a portable watercraft made from drop-stitch PVC material that becomes rigid when inflated to high pressure (12-15 PSI). Unlike traditional hard boards made from foam and fiberglass, an inflatable SUP can be deflated, rolled up, and stored in a backpack-sized carrying case.</p>
-  <p>Despite being inflatable, modern SUPs match the rigidity and performance of hard boards for most recreational and touring applications. The key innovation is <strong>drop-stitch construction</strong>: thousands of polyester threads connect the top and bottom fabric layers, preventing the board from ballooning when pressurized.</p>
+  <h2>What is an Agrochemical Formulation?</h2>
+  <p>An agrochemical formulation is the finished product form in which a pesticide active ingredient (a.i.) is delivered to the end user. The active ingredient alone is rarely suitable for field use — it may be too concentrated, poorly soluble, unstable, or hazardous to handle. The formulation combines the active ingredient with adjuvants, solvents, carriers, and other co-formulants to create a product that is effective, safe, stable, and easy to apply.</p>
+  <p>Think of the active ingredient as the medicine and the formulation as the delivery system. The same active ingredient can be formulated in multiple ways — as a Suspension Concentrate (SC), an Emulsifiable Concentrate (EC), or a Water-Dispersible Granule (WDG) — each with different performance characteristics for different crops, climates, and application methods.</p>
 
-  <h2>How It Works: Drop-Stitch Technology</h2>
-  <p>The core of every inflatable SUP is the drop-stitch fabric. During manufacturing, thousands of threads are woven between two layers of PVC-coated fabric. When the board is inflated:</p>
+  <h2>How Formulation Works: The Core Technology</h2>
+  <p>Every formulation must solve three engineering challenges simultaneously:</p>
   <ul>
-    <li>The threads pull the top and bottom panels to a fixed distance apart</li>
-    <li>This creates a rigid, flat platform that resists bending and flexing</li>
-    <li>At 12-15 PSI, the board achieves stiffness comparable to EPS foam core boards</li>
+    <li><strong>Biological efficacy</strong> — The active ingredient must reach the target pest at the right concentration, with proper adhesion, spread, and penetration on the leaf surface or in the soil.</li>
+    <li><strong>Physical and chemical stability</strong> — The product must remain homogeneous and effective throughout its shelf life (typically 2 years), resisting sedimentation, crystallization, hydrolysis, and thermal degradation.</li>
+    <li><strong>Safety and handling</strong> — The formulation must minimize exposure risk to the applicator, be compatible with standard spraying equipment, and meet regulatory requirements for labeling, transport, and disposal.</li>
   </ul>
 
-  <h2>Key Components</h2>
+  <h2>Key Formulation Types</h2>
   <ul>
-    <li><strong>PVC Drop-Stitch Core</strong> —The primary structural layer providing rigidity</li>
-    <li><strong>Rail Bands</strong> —Reinforced edges that protect against abrasion and impact</li>
-    <li><strong>EVA Foam Deck Pad</strong> —Non-slip surface for standing comfort and traction</li>
-    <li><strong>Fin System</strong> —Removable fins for directional stability (typically 2+1 configuration)</li>
-    <li><strong>Valve</strong> —High-pressure one-way valve for inflation and deflation</li>
+    <li><strong>SC (Suspension Concentrate)</strong> — Solid active ingredient finely milled and suspended in water with dispersants and thickeners. Easy to measure, low odor, and non-flammable. The most versatile liquid formulation type.</li>
+    <li><strong>EC (Emulsifiable Concentrate)</strong> — Active ingredient dissolved in an organic solvent with emulsifiers. Forms a stable emulsion when mixed with water. Fast-acting and excellent penetration, but flammable and higher solvent content.</li>
+    <li><strong>WP (Wettable Powder)</strong> — Active ingredient adsorbed onto a solid carrier with dispersants and wetting agents. Simple and economical, but generates dust during handling and requires good agitation in the spray tank.</li>
+    <li><strong>WDG (Water-Dispersible Granule)</strong> — Granulated form of WP technology. Dust-free, free-flowing, easy to measure and package. Premium formulation type favored in regulated markets.</li>
+    <li><strong>DP (Dustable Powder)</strong> — Fine powder for direct application without dilution. Used in specific seed treatment and stored-product protection scenarios.</li>
+    <li><strong>ME (Microemulsion)</strong> — Thermodynamically stable, transparent or translucent liquid. Ultra-fine droplet size for maximum coverage. Lower solvent content than EC.</li>
   </ul>
 
-  <h2>Common Use Cases</h2>
+  <h2>Common Use Cases by Formulation Type</h2>
   <ul>
-    <li><strong>Flat Water Paddling</strong> —Lakes, calm bays, and slow-moving rivers</li>
-    <li><strong>Touring</strong> —Long-distance paddling on open water requiring glide efficiency</li>
-    <li><strong>Surfing</strong> —Small to medium waves (beginner to intermediate)</li>
-    <li><strong>Fishing</strong> —Quiet, shallow-water access for anglers</li>
-    <li><strong>Fitness</strong> —SUP yoga, pilates, and core training on water</li>
-    <li><strong>Travel</strong> —Portable design makes it ideal for airlines and road trips</li>
+    <li><strong>Herbicide programs</strong> — SC, EC and WDG dominate; foliar-applied with adjuvants for weed control in row crops and cereals</li>
+    <li><strong>Insecticide programs</strong> — EC, SC and ME for contact and systemic action; WDG for dust-free handling in greenhouse and field</li>
+    <li><strong>Fungicide programs</strong> — SC and WDG for protective and curative applications; WP for economical broad-acre use</li>
+    <li><strong>PGR (Plant Growth Regulator) programs</strong> — Low-dose SC and SL formulations for precise application rates</li>
+    <li><strong>Seed treatment</strong> — FS (Flowable Concentrate for Seed Treatment) and WP for coating onto seed</li>
+    <li><strong>Soil application</strong> — GR (Granule) and CS (Capsule Suspension) for controlled release in the root zone</li>
   </ul>
 
-  <h2>Inflatable vs Hard SUP: Key Differences</h2>
+  <h2>Liquid vs Dry Formulations: Key Differences</h2>
   <table>
-    <tr><th>Aspect</th><th>Inflatable SUP</th><th>Hard SUP (EPS/Fiberglass)</th></tr>
-    <tr><td>Portability</td><td>Packs into backpack</td><td>Requires roof rack or large vehicle</td></tr>
-    <tr><td>Durability</td><td>Impact-resistant, no dings</td><td>Can crack, dent, or delaminate</td></tr>
-    <tr><td>Storage</td><td>Fits in closet or car trunk</td><td>Needs dedicated storage space</td></tr>
-    <tr><td>Performance</td><td>Excellent for recreational and touring</td><td>Superior for racing and advanced surfing</td></tr>
-    <tr><td>Beginner Friendliness</td><td>Softer deck, less injury risk</td><td>Hard surface, less forgiving</td></tr>
-    <tr><td>Setup Time</td><td>3-5 minutes inflation</td><td>Ready to go</td></tr>
+    <tr><th>Aspect</th><th>Liquid Formulations (SC, EC, ME)</th><th>Dry Formulations (WDG, WP, DP)</th></tr>
+    <tr><td>Handling</td><td>Easy to pour and measure; no dust</td><td>Dust-free with WDG; WP generates dust</td></tr>
+    <tr><td>Stability</td><td>Requires anti-settling agents; 2-year shelf life</td><td>Inherently stable; longer shelf life typical</td></tr>
+    <tr><td>Packaging</td><td>Liquid-tight drums or bottles; heavier per unit a.i.</td><td>Lighter packaging; higher active loading possible</td></tr>
+    <tr><td>Performance</td><td>Excellent spray coverage; fast-acting</td><td>WDG matches liquid performance; WP slower to disperse</td></tr>
+    <tr><td>Regulatory preference</td><td>Widely accepted; solvent concerns for EC</td><td>WDG preferred in regulated markets for safety and dust-free handling</td></tr>
+    <tr><td>Cost</td><td>Lower per-kg production cost for SC; higher for ME</td><td>WDG premium; WP most economical</td></tr>
   </table>
 
-  <h2>How to Choose the Right SUP</h2>
-  <p>When selecting an inflatable SUP, consider these factors:</p>
+  <h2>How to Choose the Right Formulation</h2>
+  <p>When selecting a formulation type, consider these factors:</p>
   <ul>
-    <li><strong>Volume (liters)</strong> —Determines buoyancy. Higher volume supports more weight and provides stability.</li>
-    <li><strong>Length</strong> —Longer boards (11-14 ft) track better for touring; shorter boards (9-10 ft) are more maneuverable for surfing.</li>
-    <li><strong>Width</strong> —Wider boards (32-36 in) are more stable; narrower boards (28-31 in) are faster.</li>
-    <li><strong>Thickness</strong> —6-inch boards offer optimal rigidity; 4.7-inch boards are lighter and more portable.</li>
-    <li><strong>Construction Quality</strong> —Look for fusion-laminated or woven drop-stitch for durability.</li>
+    <li><strong>Active ingredient properties</strong> — Solubility, melting point, and chemical stability dictate which formulation types are technically feasible. An insoluble a.i. suits SC or WDG; a soluble a.i. suits SL or EC.</li>
+    <li><strong>Target pest and application method</strong> — Foliar sprays favor SC, EC and WDG; soil treatments favor GR and CS; seed treatments favor FS.</li>
+    <li><strong>Market and regulatory requirements</strong> — EU and North American markets increasingly prefer WDG and SC over WP and EC for environmental and safety reasons.</li>
+    <li><strong>Climate and storage conditions</td> — Tropical markets may require enhanced thermal stability; dry formulations tolerate heat better than EC.</li>
+    <li><strong>Cost targets</strong> — WP is the most economical; WDG commands a premium; SC sits between WP and WDG.</li>
   </ul>
 
   <h2>Frequently Asked Questions</h2>
-  <h3>Is an inflatable SUP as rigid as a hard board?</h3>
-  <p>At proper inflation (12-15 PSI), modern drop-stitch SUPs achieve comparable rigidity for recreational paddling. Hard boards still offer an edge for racing and advanced surfing due to their lighter weight and more refined flex characteristics.</p>
+  <h3>What is the difference between an active ingredient and a formulation?</h3>
+  <p>The active ingredient (a.i.) is the biologically active chemical that controls the pest. The formulation is the complete product — active ingredient plus adjuvants, carriers, solvents and packaging — that makes the a.i. effective, stable, safe, and ready to use.</p>
 
-  <h3>How long does it take to inflate?</h3>
-  <p>With a dual-action pump, most boards reach 12-15 PSI in 3-5 minutes. Electric pumps are available and reduce inflation time to approximately 2 minutes.</p>
+  <h3>Why does the same active ingredient come in different formulations?</h3>
+  <p>Different crops, climates, equipment, and regulatory environments demand different delivery systems. An EC may penetrate waxy leaf surfaces better, while an SC avoids flammable solvents, and a WDG eliminates dust — all from the same active ingredient.</p>
 
-  <h3>Can I take an inflatable SUP on an airplane?</h3>
-  <p>Yes. When deflated and rolled, most SUPs fit into a backpack that meets airline checked baggage requirements. Always check with your airline for size and weight limits.</p>
+  <h3>How long does formulation development take?</h3>
+  <p>A standard formulation adaptation on an existing platform takes 7–12 days for the first sample. A fully custom formulation with new adjuvant systems and stability testing runs 4–8 weeks. Your project engineer confirms the timeline during feasibility review.</p>
 
-  <h3>How durable are inflatable SUPs?</h3>
-  <p>Inflatable SUPs are highly durable. The military-grade PVC construction resists impacts, punctures, and UV damage. Minor punctures can be repaired in the field with the included repair kit.</p>
+  <h3>What stability testing is required?</h3>
+  <p>Standard stability testing includes accelerated storage at 54 °C for 14 days (CIPAC Method MT 46), freeze-thaw cycling, and long-term ambient storage data. FAO/WHO specifications define the test protocols and acceptance criteria for each formulation type.</p>
 
-  <h3>What maintenance is required?</h3>
-  <p>Rinse with fresh water after saltwater use. Store in a cool, dry place away from direct sunlight. Partially inflate during long-term storage to maintain shape without stressing seams.</p>
+  <h3>What documentation comes with a formulation?</h3>
+  <p>Each production batch ships with a Certificate of Analysis (CoA) covering active ingredient content, physical properties, and stability data. ICAMA and FAO/WHO documentation is prepared per project for your target markets.</p>
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Ready to source boards?</strong> See <a href="/oem-manufacturing">what we can build for your brand</a> and how boards are manufactured at the <a href="/factory">factory</a>.</p>
+    <p><strong>Ready to source formulations?</strong> See <a href="/oem-manufacturing">what we can build for your brand</a> and how formulations are manufactured at the <a href="/factory">factory</a>.</p>
   </div>

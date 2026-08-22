@@ -1,59 +1,59 @@
 meta:
-  title: 'SUP Compliance by Market — CE, REACH, RoHS, BSCI, ISO 9001 Requirements | Agrospear'
-  description: 'Compliance guide for inflatable SUP boards by market: CE (EU), CPSIA (USA), AS/NZS (AU), ISO 9001, BSCI, REACH and RoHS — scope and docs per market.'
+  title: 'Agrochemical Compliance by Market — ICAMA, FAO/WHO, EPA Requirements | Agrospear'
+  description: 'Compliance guide for agrochemical products by market: ICAMA (China), EPA (USA), EU Regulation 1107/2009, ISO 9001, FAO/WHO — scope and docs per market.'
   dateModified: '2026-08-21'
   keywords:
-    - 'SUP compliance by market'
-    - 'CE certification SUP'
-    - 'inflatable SUP regulations'
-    - 'SUP REACH compliance'
-    - 'SUP RoHS compliance'
-    - 'BSCI audit SUP factory'
-    - 'ISO 9001 SUP manufacturer'
+    - 'agrochemical compliance by market'
+    - 'ICAMA registration agrochemical'
+    - 'agrochemical regulations'
+    - 'agrochemical FAO/WHO compliance'
+    - 'EPA registration agrochemical'
+    - 'ISO 9001 agrochemical manufacturer'
+    - 'agrochemical product registration'
 
 hero:
   tagline: 'Compliance Guide'
-  title: 'SUP Compliance by Market'
-  subtitle: 'Every target market has distinct certification, labeling and documentation requirements. This guide maps the compliance landscape for inflatable SUP boards across major markets — EU, North America, Australia and beyond — so you can specify the right scope at quotation time, not after production.'
+  title: 'Agrochemical Compliance by Market'
+  subtitle: 'Every target market has distinct registration, labeling and documentation requirements. This guide maps the compliance landscape for agrochemical products across major markets — China, EU, North America, Africa, LATAM and beyond — so you can specify the right scope at quotation time, not after production.'
 
 answer:
   label: 'Quick answer'
-  text: 'For EU: CE marking is mandatory for boards sold in the European Economic Area — we certify models destined for EU markets, scope confirmed per project. For USA: CPSIA and state-level VOC regulations apply. For Australia: AS/NZS 1586 compliance. All markets: ISO 9001 (factory), BSCI (social audit), REACH and RoHS (materials) are standard across our production regardless of destination. Compliance scope and costs are itemized in your quotation — no post-production surprises.'
+  text: 'For China: ICAMA registration is mandatory for products sold domestically — we register models destined for the Chinese market, scope confirmed per project. For EU: Regulation 1107/2009 and CLP labeling apply. For USA: EPA registration and state-level requirements apply. For Africa and LATAM: country-specific registration with FAO/WHO specification support. All markets: ISO 9001 (factory) and batch-level traceability are standard across our production regardless of destination. Compliance scope and costs are itemized in your quotation — no post-production surprises.'
   verified: '2026-08'
 
 market_cards:
   tagline: Requirements by Region
   title: 'Compliance Requirements by Target Market'
-  subtitle: 'Certification scope is confirmed per project during the feasibility review. The following shows typical requirements by market.'
+  subtitle: 'Registration scope is confirmed per project during the feasibility review. The following shows typical requirements by market.'
   grid: 'sm:grid-cols-2 lg:grid-cols-4'
   features:
-    - icon: EU
+    - icon: CN
       icon_bg: blue
-      title: 'European Union'
-      desc: 'CE marking mandatory. REACH (chemical safety), RoHS (restricted substances), ISO 9001 factory certification. Product-specific testing per PPE or recreational craft directive as applicable. Labeling in official language of destination country. BSCI social audit available.'
-    - icon: US
+      title: 'China'
+      desc: 'ICAMA registration mandatory. FAO/WHO specification compliance. ISO 9001 factory certification. Product-specific efficacy and toxicology data per active ingredient. Labeling per Chinese pesticide labeling standards. Batch-level traceability required.'
+    - icon: EU
       icon_bg: green
-      title: 'United States'
-      desc: 'CPSIA compliance (consumer product safety). California Prop 65 and state-level VOC regulations for PVC and adhesive emissions. No federal CE equivalent. ASTM testing available on request. FTC labeling requirements for country-of-origin and material content.'
-    - icon: AU
+      title: 'European Union'
+      desc: 'Regulation 1107/2009 for active substance approval. CLP labeling (GHS classification). REACH (chemical safety) where applicable. Product-specific dossier per member state or zonal assessment. BSCI social audit available.'
+    - icon: US
       icon_bg: purple
-      title: 'Australia & New Zealand'
-      desc: 'AS/NZS 1586 for inflatable watercraft. Australian Consumer Law guarantees. Import documentation and conformity assessment per Australian Border Force requirements. REACH-equivalent chemical safety documentation. BSCI social audit available.'
+      title: 'United States'
+      desc: 'EPA registration for pesticide products. State-level registration (California DPR, etc.). FIFRA labeling requirements. Toxicology and residue data per EPA data requirements. FTC labeling for country-of-origin.'
     - icon: GL
       icon_bg: orange
-      title: 'Global / Multi-Market'
-      desc: 'ISO 9001:2015 factory certification (audited annually). BSCI social compliance audit. REACH and RoHS material compliance across all production regardless of destination. Batch-level traceability and test reports available for any market. Custom certification scope confirmed per project.'
+      title: 'Africa / LATAM / Global'
+      desc: 'FAO/WHO specifications as quality benchmark. Country-specific registration with local authorities. Import documentation and conformity assessment per destination. ISO 9001 factory certification. Custom registration scope confirmed per project.'
 
 certifications_detail:
   heading: 'Our Certification Scope'
   body: |
     The following certifications are held or available across our production. Specific certification scope for your project is confirmed during the feasibility review and itemized in your quotation.
 
-    - **ISO 9001:2015** — Factory quality management system, audited annually by accredited third party. Covers the full manufacturing process from incoming material inspection through final packaging.
-    - **CE marking** — Applied to models destined for EU markets. Testing and documentation per applicable EU directive. Scope confirmed per project — not all models require the same CE scope.
+    - **ISO 9001:2015** — Factory quality management system, audited annually by accredited third party. Covers the full manufacturing process from incoming raw material inspection through final packaging.
+    - **ICAMA registration** — Applied to products destined for the Chinese market. Registration dossier prepared per project — efficacy, toxicology, residue and environmental fate data compiled and submitted.
+    - **FAO/WHO specifications** — International quality benchmarks for agrochemical products. Specifications met per project for export markets.
     - **BSCI** — Business Social Compliance Initiative audit. Covers labor rights, workplace safety, environmental compliance and business ethics. Available for all markets.
-    - **REACH** — EU chemical safety regulation. All PVC, adhesive and coating materials are REACH-compliant. Substance documentation and test reports available per batch.
-    - **RoHS** — Restriction of Hazardous Substances directive. All electronic accessories (pumps with motors, LED accessories) are RoHS-compliant. Board materials are inherently compliant.
+    - **Batch traceability** — Full batch-level traceability with production records retained for 10 years. Available for any market inspection or audit.
 
 compliance_process:
   tagline: How Compliance Works in Your Order
@@ -64,11 +64,11 @@ compliance_process:
     - icon: 1
       icon_bg: blue
       title: 'Gate 1: Scope Confirmation'
-      desc: 'At inquiry, you specify target markets. We confirm which certifications, tests and documentation apply to your specific product and destination. Compliance scope and any associated costs are itemized in the quotation.'
+      desc: 'At inquiry, you specify target markets. We confirm which registrations, tests and documentation apply to your specific product and destination. Compliance scope and any associated costs are itemized in the quotation.'
     - icon: 2
       icon_bg: green
-      title: 'Gate 3: Sample Certification'
-      desc: 'Samples are produced to the confirmed compliance scope. If third-party lab testing is required (CE, CPSIA, AS/NZS), we coordinate testing through accredited laboratories. Test reports are delivered with the sample.'
+      title: 'Gate 3: Sample Documentation'
+      desc: 'Samples are produced to the confirmed compliance scope. If third-party lab testing is required (ICAMA, EPA, FAO/WHO), we coordinate testing through accredited laboratories. Test reports are delivered with the sample.'
     - icon: 3
       icon_bg: purple
       title: 'Gate 7: Documentation Package'
@@ -76,20 +76,20 @@ compliance_process:
 
 faqs:
   tagline: FAQ
-  title: 'SUP Compliance — Frequently Asked Questions'
+  title: 'Agrochemical Compliance — Frequently Asked Questions'
   items:
-    - q: 'Do all SUP boards need CE marking?'
-      a: 'CE marking is required only for boards sold in the European Economic Area. We certify models destined for EU markets with scope confirmed per project. Boards shipped to non-EU markets do not carry CE marking unless you specifically request it.'
-    - q: 'Are your materials REACH and RoHS compliant?'
-      a: 'Yes. All PVC, adhesive and coating materials are REACH-compliant. All electronic accessories (pumps with motors, LED accessories) are RoHS-compliant. Board construction materials are inherently RoHS-compliant. Substance documentation and test reports are available per batch on request.'
-    - q: 'Can you handle certification for a market not listed here?'
-      a: 'Yes. We have shipped to 50+ countries and can coordinate certification and documentation for most markets. Tell us your destination country during the inquiry and we will confirm the specific compliance scope and any additional testing or documentation required.'
+    - q: 'Do all agrochemical products need ICAMA registration?'
+      a: 'ICAMA registration is required for products sold in the Chinese market. We register products destined for China with scope confirmed per project. Products shipped to non-Chinese markets follow the registration requirements of their destination country.'
+    - q: 'Are your products FAO/WHO specification compliant?'
+      a: 'Yes. All products can be manufactured to meet FAO/WHO specifications. Specification compliance is confirmed per project and documented with test reports. FAO/WHO specifications provide internationally recognized quality benchmarks accepted by most importing countries.'
+    - q: 'Can you handle registration for a market not listed here?'
+      a: 'Yes. We have shipped to 50+ countries and can coordinate registration and documentation for most markets. Tell us your destination country during the inquiry and we will confirm the specific registration scope and any additional testing or documentation required.'
     - q: 'How are compliance costs handled?'
-      a: 'Compliance scope and any associated costs (third-party lab testing, certification fees) are itemized in your quotation during the feasibility review. No post-production compliance charges. Standard certifications (ISO 9001, BSCI) are factory-level and do not add per-unit cost.'
+      a: 'Compliance scope and any associated costs (third-party lab testing, registration fees) are itemized in your quotation during the feasibility review. No post-production compliance charges. Standard certifications (ISO 9001) are factory-level and do not add per-unit cost.'
 
 cta:
   title: 'Specify Your Compliance Requirements'
-  subtitle: 'Tell us your target markets and we will confirm the certification scope, testing requirements and documentation package — itemized in your quotation.'
+  subtitle: 'Tell us your target markets and we will confirm the registration scope, testing requirements and documentation package — itemized in your quotation.'
   actions:
     - variant: primary
       text: Start Your Project Brief

@@ -33,7 +33,7 @@ export const MISSING_IMAGE_MAP: Record<string, string> = {
   'products/accessories/oar-pump-1.webp': 'products/agrospear-accessories-product.webp',
   'products/life-jacket-2.webp': 'products/agrospear-life-vest-classic.webp',
   'products/life-jacket-agrospear-inflatable-boat-agrospear-factory-exterior.webp': 'products/agrospear-inflatable-boat-factory.webp',
-  'products/sup-series/sup-explorer-11.webp': 'products/sup-series/sup-ocean-voyager-1.webp',
+  'products/sup-series/sup-explorer-11.webp': 'products/agrospear-formulation-product.webp',
   'products/sup-touring.webp': 'products/agrospear-sup-boards-collection.webp',
   'use-cases/beginner.webp': 'use-cases/agrospear-beginner-use-case.webp',
   'use-cases/family.webp': 'use-cases/agrospear-family-use-case.webp',

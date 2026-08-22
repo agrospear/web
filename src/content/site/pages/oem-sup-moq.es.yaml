@@ -1,14 +1,14 @@
 meta:
-  title: "MOQ para SUP inflable — Cantidades mínimas explicadas"
-  description: "MOQ escalonado para fabricación de SUP hinchables: 5–10 co-branding, 20–50 piloto, 90–100+ volumen por rollo. Árbol de decisión por nivel de personalización."
+  title: "MOQ para Formulación Agroquímica — Cantidades mínimas explicadas"
+  description: "MOQ escalonado para fabricación de formulaciones agroquímicas: 1–4 t muestra, 5 t piloto, 20+ t volumen estándar por lote. Árbol de decisión por nivel de personalización."
   dateModified: "2026-08-20"
 
 sections:
   - title: "Respuesta directa"
     directAnswer:
-      answer: "Los pilotos sobre plataformas existentes empiezan en 20–50 uds.; el MOQ de volumen estándar es de 90–100+ uds. por rollo de drop-stitch de 150 m (~180–220 tablas)."
-      condition: "El MOQ específico depende de la forma, el rollo de material, la impresión, el embalaje y si se necesita un molde nuevo."
-      value: "5–10 co-branding · 20–50 piloto · 90–100+ por rollo de volumen"
+      answer: "Las muestras cubren 1–4 toneladas; el lote piloto sobre plataformas existentes corre 5 toneladas; el MOQ de volumen estándar es de 20+ toneladas por lote de producción."
+      condition: "El MOQ específico depende de la formulación, el ingrediente activo, el etiquetado, el embalaje y si se necesita desarrollo de formulación nueva."
+      value: "1–4 t muestra · 5 t piloto · 20+ t por lote volumen estándar"
       verifiedDate: "2026-08-20"
       sourceType: "factory-record"
     body: |
@@ -16,11 +16,11 @@ sections:
 
       | Escenario | MOQ | Unidad | Condición |
       |-----------|-----|--------|-----------|
-      | Plataforma existente, solo logotipo | 5–10 uds. | por diseño | Misma forma, mismo rollo, mismo color |
-      | Gráficos/EVA/empaque personalizado sobre plataforma existente | 20–50 uds. | lote piloto | Misma forma; el arte nuevo requiere prueba visual |
-      | Producción de volumen estándar | 90–100+ uds. | por rollo de 150 m (~180–220 tablas) | Por rollo; múltiples SKU = rollos separados |
-      | Forma nueva / molde a medida | 90–100+ uds. | tirada de producción | Utillaje suma 15–20 días; tarifa de molde única |
+      | Plataforma existente, solo logotipo/etiqueta | 1–4 t | muestra | Misma formulación, mismo ingrediente activo, mismo envase |
+      | Etiquetado/empaque personalizado sobre plataforma existente | 5 t | lote piloto | Misma formulación; el diseño nuevo requiere prueba visual |
+      | Producción de volumen estándar | 20+ t | por lote de producción | Eficiencia completa de línea; múltiples SKU = lotes separados |
+      | Formulación nueva / desarrollo a medida | 20+ t | tirada de producción | I+D de formulación suma 15–20 días; tarifa de desarrollo única |
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de análisis de contenido y estabilidad, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'

@@ -1,94 +1,95 @@
 ﻿meta:
-  title: '¿Qué es un SUP hinchable? — Guía básica'
-  description: '¿Qué es un SUP hinchable? Guía completa de las tablas de paddle surf: construcción, tecnología, usos y cómo elegir tu primera tabla.'
+  title: '¿Qué es una formulación agroquímica? — Guía básica'
+  description: '¿Qué es una formulación agroquímica? Guía completa de los productos de protección de cultivos: tipos, tecnología, usos y cómo elegir tu primera formulación.'
   keywords:
-    - 'qué es un isup'
-    - 'paddle board hinchable'
-    - 'tabla de paddle surf'
-    - 'sup para principiantes'
+    - 'qué es una formulación agroquímica'
+    - 'formulación de protección de cultivos'
+    - 'tipos de formulación de plaguicidas'
+    - 'formulación agroquímica para principiantes'
 label: Guía
-headline: '¿Qué es un SUP hinchable? Guía completa de las tablas de paddle surf'
-subtitle: 'Una guía completa para entender las tablas de paddle surf hinchables: construcción, tecnología y cómo elegir.'
+headline: '¿Qué es una Formulación Agroquímica? Guía completa de los productos de protección de cultivos'
+subtitle: 'Una guía completa para entender las formulaciones agroquímicas: tipos, tecnología y cómo elegir.'
 
 answer:
   label: 'Respuesta directa'
-  text: 'Un SUP hinchable es una tabla de paddle surf fabricada con tejido PVC drop-stitch que se vuelve rígida al inflarse a 12–15 PSI. Iguala el rendimiento de las tablas rígidas en la mayoría de usos recreativos y de travesía, pesa unos 8–10 kg y se pliega en una mochila para almacenarla o viajar.'
+  text: 'Una formulación agroquímica es la forma física en la que se entrega un ingrediente activo para la protección de cultivos — formulaciones líquidas como SC, EC y WP, o formulaciones sólidas como WDG y DP. La formulación determina cómo se mezcla, aplica y comporta el producto en el campo. Una formulación bien diseñada maximiza la eficacia biológica, la estabilidad en almacenamiento y la seguridad del usuario, al tiempo que cumple los requisitos regulatorios del mercado objetivo.'
   verified: '2026-08'
 seo:
-  headline: '¿Qué es un SUP hinchable? Guía completa de las tablas de paddle surf'
-  description: 'Guía completa de las tablas de paddle surf hinchables: construcción, tecnología, usos y cómo se comparan con las tablas rígidas.'
+  headline: '¿Qué es una Formulación Agroquímica? Guía completa de los productos de protección de cultivos'
+  description: 'Guía completa de formulaciones agroquímicas: tipos, tecnología, usos y cómo se comparan entre las categorías líquida y sólida.'
   datePublished: '2024-01-15'
   dateModified: '2026-06-01'
 body: |
-  <h2>¿Qué es un SUP hinchable?</h2>
-  <p>Un SUP hinchable (Stand-Up Paddle Board) es una embarcación portátil fabricada con material PVC drop-stitch que se vuelve rígido al inflarse a alta presión (12-15 PSI). A diferencia de las tablas rígidas tradicionales de espuma y fibra de vidrio, un SUP hinchable puede desinflarse, enrollarse y guardarse en una bolsa del tamaño de una mochila.</p>
-  <p>A pesar de ser hinchables, los SUP modernos igualan la rigidez y el rendimiento de las tablas rígidas en la mayoría de aplicaciones recreativas y de travesía. La innovación clave es la <strong>construcción drop-stitch</strong>: miles de hilos de poliéster conectan las capas superior e inferior del tejido, evitando que la tabla se abombe al presurizarse.</p>
+  <h2>¿Qué es una formulación agroquímica?</h2>
+  <p>Una formulación agroquímica es la forma de producto acabado en la que se entrega un ingrediente activo (i.a.) de plaguicida al usuario final. El ingrediente activo por sí solo rara vez es apto para el uso en campo: puede ser demasiado concentrado, poco soluble, inestable o peligroso de manipular. La formulación combina el ingrediente activo con adyuvantes, solventes, portadores y otros coformulantes para crear un producto eficaz, seguro, estable y fácil de aplicar.</p>
+  <p>Puedes pensar en el ingrediente activo como el medicamento y en la formulación como el sistema de liberación. El mismo ingrediente activo se puede formular de múltiples maneras — como Concentrado en Suspensión (SC), Concentrado Emulsionable (EC) o Granulo Dispersable en Agua (WDG) — cada una con distintas características de rendimiento para distintos cultivos, climas y métodos de aplicación.</p>
 
-  <h2>Cómo funciona: la tecnología drop-stitch</h2>
-  <p>El núcleo de todo SUP hinchable es el tejido drop-stitch. Durante la fabricación, miles de hilos se tejen entre dos capas de tejido recubierto de PVC. Cuando la tabla se infla:</p>
+  <h2>Cómo funciona la formulación: la tecnología central</h2>
+  <p>Toda formulación debe resolver simultáneamente tres retos de ingeniería:</p>
   <ul>
-    <li>Los hilos mantienen los paneles superior e inferior a una distancia fija</li>
-    <li>Esto crea una plataforma rígida y plana que resiste la flexión</li>
-    <li>A 12-15 PSI, la tabla alcanza una rigidez comparable a la de las tablas de núcleo de espuma EPS</li>
+    <li><strong>Eficacia biológica</strong> — El ingrediente activo debe alcanzar la plaga objetivo en la concentración adecuada, con correcta adhesión, extensión y penetración en la superficie de la hoja o en el suelo.</li>
+    <li><strong>Estabilidad física y química</strong> — El producto debe permanecer homogéneo y eficaz durante toda su vida útil (típicamente 2 años), resistiendo la sedimentación, cristalización, hidrólisis y degradación térmica.</li>
+    <li><strong>Seguridad y manipulación</strong> — La formulación debe minimizar el riesgo de exposición del aplicador, ser compatible con el equipo de pulverización estándar y cumplir los requisitos regulatorios de etiquetado, transporte y eliminación.</li>
   </ul>
 
-  <h2>Componentes clave</h2>
+  <h2>Principales tipos de formulación</h2>
   <ul>
-    <li><strong>Núcleo drop-stitch de PVC</strong>: la capa estructural principal que aporta rigidez</li>
-    <li><strong>Banda de canto (rail)</strong>: bordes reforzados que protegen contra la abrasión y los impactos</li>
-    <li><strong>Pavimento de espuma EVA</strong>: superficie antideslizante para estar de pie con comodidad y tracción</li>
-    <li><strong>Sistema de quillas</strong>: quillas extraíbles para la estabilidad direccional (normalmente configuración 2+1)</li>
-    <li><strong>Válvula</strong>: válvula unidireccional de alta presión para inflar y desinflar</li>
+    <li><strong>SC (Concentrado en Suspensión)</strong> — Ingrediente activo sólido finamente molido y suspendido en agua con dispersantes y espesantes. Fácil de medir, sin olor y no inflamable. El tipo de formulación líquida más versátil.</li>
+    <li><strong>EC (Concentrado Emulsionable)</strong> — Ingrediente activo disuelto en un solvente orgánico con emulsionantes. Forma una emulsión estable al mezclar con agua. Acción rápida y excelente penetración, pero inflamable y con mayor contenido de solvente.</li>
+    <li><strong>WP (Polvo Mojable)</strong> — Ingrediente activo adsorbido en un portador sólido con dispersantes y humectantes. Sencillo y económico, pero genera polvo durante la manipulación y requiere buena agitación en el tanque de pulverización.</li>
+    <li><strong>WDG (Gránulo Dispersable en Agua)</strong> — Forma granulada de la tecnología WP. Sin polvo, de flujo libre, fácil de medir y envasar. Tipo de formulación premium favorecido en mercados regulados.</li>
+    <li><strong>DP (Polvo Espolvoreable)</strong> — Polvo fino para aplicación directa sin dilución. Usado en tratamientos de semilla específicos y protección de productos almacenados.</li>
+    <li><strong>ME (Microemulsión)</strong> — Líquido transparente o translúcido termodinámicamente estable. Tamaño de gota ultrafino para máxima cobertura. Menor contenido de solvente que el EC.</li>
   </ul>
 
-  <h2>Usos habituales</h2>
+  <h2>Usos habituales por tipo de formulación</h2>
   <ul>
-    <li><strong>Paleo en aguas tranquilas</strong>: lagos, bahías calmadas y ríos de corriente lenta</li>
-    <li><strong>Travesía</strong>: paleo de larga distancia en aguas abiertas que requiere buena planeación</li>
-    <li><strong>Surf</strong>: olas pequeñas y medianas (de principiante a intermedio)</li>
-    <li><strong>Pesca</strong>: acceso silencioso a aguas poco profundas para pescadores</li>
-    <li><strong>Fitness</strong>: yoga SUP, pilates y entrenamiento de core sobre el agua</li>
-    <li><strong>Viajes</strong>: el diseño portátil lo hace ideal para aviones y viajes por carretera</li>
+    <li><strong>Programas de herbicidas</strong> — SC, EC y WDG dominan; aplicación foliar con adyuvantes para el control de malezas en cultivos de surco y cereales</li>
+    <li><strong>Programas de insecticidas</strong> — EC, SC y ME para acción de contacto y sistémica; WDG para manipulación sin polvo en invernadero y campo</li>
+    <li><strong>Programas de fungicidas</strong> — SC y WDG para aplicaciones protectoras y curativas; WP para uso económico en grandes superficies</li>
+    <li><strong>Programas de PGR (Reguladores de Crecimiento Vegetal)</strong> — Formulaciones SC y SL de baja dosis para tasas de aplicación precisas</li>
+    <li><strong>Tratamiento de semillas</strong> — FS (Concentrado Fluidificable para Tratamiento de Semillas) y WP para recubrimiento</li>
+    <li><strong>Aplicación al suelo</strong> — GR (Gránulo) y CS (Suspensión Encapsulada) para liberación controlada en la zona radicular</li>
   </ul>
 
-  <h2>SUP hinchable vs. rígido: diferencias clave</h2>
+  <h2>Formulaciones líquidas vs. sólidas: diferencias clave</h2>
   <table>
-    <tr><th>Aspecto</th><th>SUP hinchable</th><th>SUP rígido (EPS/Fibra de vidrio)</th></tr>
-    <tr><td>Portabilidad</td><td>Cabe en una mochila</td><td>Requiere baca o vehículo grande</td></tr>
-    <tr><td>Durabilidad</td><td>Resistente a impactos, sin abolladuras</td><td>Puede agrietarse, abollarse o delaminarse</td></tr>
-    <tr><td>Almacenamiento</td><td>Cabe en un armario o maletero</td><td>Necesita espacio de almacenamiento dedicado</td></tr>
-    <tr><td>Rendimiento</td><td>Excelente para recreo y travesía</td><td>Superior en competición y surf avanzado</td></tr>
-    <tr><td>Aptitud para principiantes</td><td>Pavimento más blando, menor riesgo de lesión</td><td>Superficie dura, menos tolerante</td></tr>
-    <tr><td>Tiempo de montaje</td><td>3-5 minutos de inflado</td><td>Lista para usar</td></tr>
+    <tr><th>Aspecto</th><th>Formulaciones líquidas (SC, EC, ME)</th><th>Formulaciones sólidas (WDG, WP, DP)</th></tr>
+    <tr><td>Manipulación</td><td>Fácil de verter y medir; sin polvo</td><td>Sin polvo con WDG; WP genera polvo</td></tr>
+    <tr><td>Estabilidad</td><td>Requiere agentes antisedimentación; vida útil de 2 años</td><td>Inherentemente estable; vida útil más larga</td></tr>
+    <tr><td>Embalaje</td><td>Tambores o botellas herméticas; más pesado por unidad de i.a.</td><td>Embalaje más ligero; mayor carga activa posible</td></tr>
+    <tr><td>Rendimiento</td><td>Excelente cobertura de pulverización; acción rápida</td><td>WDG iguala el rendimiento líquido; WP más lento de dispersar</td></tr>
+    <tr><td>Preferencia regulatoria</td><td>Ampliamente aceptado; preocupaciones por solventes en EC</td><td>WDG preferido en mercados regulados por seguridad y manipulación sin polvo</td></tr>
+    <tr><td>Coste</td><td>Coste de producción por kg menor para SC; mayor para ME</td><td>WDG premium; WP el más económico</td></tr>
   </table>
 
-  <h2>Cómo elegir el SUP adecuado</h2>
-  <p>Al seleccionar un SUP hinchable, ten en cuenta estos factores:</p>
+  <h2>Cómo elegir la formulación adecuada</h2>
+  <p>Al seleccionar un tipo de formulación, ten en cuenta estos factores:</p>
   <ul>
-    <li><strong>Volumen (litros)</strong>: determina la flotabilidad. Un mayor volumen soporta más peso y aporta estabilidad.</li>
-    <li><strong>Longitud</strong>: las tablas más largas (11-14 pies) navegan mejor en travesía; las más cortas (9-10 pies) son más maniobrables para el surf.</li>
-    <li><strong>Ancho</strong>: las tablas más anchas (32-36 pulgadas) son más estables; las más estrechas (28-31 pulgadas) son más rápidas.</li>
-    <li><strong>Grosor</strong>: las tablas de 6 pulgadas ofrecen una rigidez óptima; las de 4,7 pulgadas son más ligeras y portátiles.</li>
-    <li><strong>Calidad de construcción</strong>: busca drop-stitch laminado por fusión o tejido para mayor durabilidad.</li>
+    <li><strong>Propiedades del ingrediente activo</strong> — La solubilidad, el punto de fusión y la estabilidad química determinan qué tipos de formulación son técnicamente viables. Un i.a. insoluble se adapta a SC o WDG; uno soluble se adapta a SL o EC.</li>
+    <li><strong>Plaga objetivo y método de aplicación</strong> — Las pulverizaciones foliares favorecen SC, EC y WDG; los tratamientos al suelo favorecen GR y CS; los tratamientos de semilla favorecen FS.</li>
+    <li><strong>Requisitos de mercado y regulatorios</strong> — Los mercados de la UE y Norteamérica prefieren cada vez más WDG y SC sobre WP y EC por razones ambientales y de seguridad.</li>
+    <li><strong>Clima y condiciones de almacenamiento</strong> — Los mercados tropicales pueden requerir estabilidad térmica mejorada; las formulaciones sólidas toleran mejor el calor que el EC.</li>
+    <li><strong>Objetivos de coste</strong> — WP es la más económica; WDG tiene un precio premium; SC se sitúa entre WP y WDG.</li>
   </ul>
 
   <h2>Preguntas frecuentes</h2>
-  <h3>¿Es un SUP hinchable tan rígido como una tabla rígida?</h3>
-  <p>Con el inflado adecuado (12-15 PSI), los SUP drop-stitch modernos alcanzan una rigidez comparable para el paleo recreativo. Las tablas rígidas siguen teniendo ventaja en competición y surf avanzado por su menor peso y unas características de flexión más refinadas.</p>
+  <h3>¿Cuál es la diferencia entre un ingrediente activo y una formulación?</h3>
+  <p>El ingrediente activo (i.a.) es el producto químico biológicamente activo que controla la plaga. La formulación es el producto completo — ingrediente activo más adyuvantes, portadores, solventes y embalaje — que hace que el i.a. sea eficaz, estable, seguro y listo para usar.</p>
 
-  <h3>¿Cuánto se tarda en inflar?</h3>
-  <p>Con una bomba de doble acción, la mayoría de las tablas alcanzan 12-15 PSI en 3-5 minutos. Hay bombas eléctricas disponibles que reducen el tiempo de inflado a unos 2 minutos.</p>
+  <h3>¿Por qué el mismo ingrediente activo viene en diferentes formulaciones?</h3>
+  <p>Diferentes cultivos, climas, equipos y entornos regulatorios exigen distintos sistemas de liberación. Un EC puede penetrar mejor las superficies cerosas de las hojas, mientras que un SC evita solventes inflamables y un WDG elimina el polvo — todos con el mismo ingrediente activo.</p>
 
-  <h3>¿Puedo llevar un SUP hinchable en avión?</h3>
-  <p>Sí. Desinflada y enrollada, la mayoría de las tablas caben en una mochila que cumple los requisitos de equipaje facturado de las aerolíneas. Consulta siempre con tu aerolínea los límites de tamaño y peso.</p>
+  <h3>¿Cuánto tarda el desarrollo de una formulación?</h3>
+  <p>Una adaptación estándar sobre una plataforma existente tarda 7–12 días para la primera muestra. Una formulación completamente a medida con nuevos sistemas de adyuvantes y pruebas de estabilidad requiere 4–8 semanas. Tu ingeniero de proyecto confirma el calendario durante la revisión de viabilidad.</p>
 
-  <h3>¿Cómo de duraderos son los SUP hinchables?</h3>
-  <p>Los SUP hinchables son muy duraderos. La construcción de PVC de grado militar resiste impactos, perforaciones y daños por rayos UV. Las perforaciones pequeñas pueden repararse sobre el terreno con el kit de reparación incluido.</p>
+  <h3>¿Qué pruebas de estabilidad se requieren?</h3>
+  <p>Las pruebas de estabilidad estándar incluyen almacenamiento acelerado a 54 °C durante 14 días (Método CIPAC MT 46), ciclos de congelación-descongelación y datos de almacenamiento ambiental a largo plazo. Las especificaciones FAO/OMS definen los protocolos de prueba y los criterios de aceptación para cada tipo de formulación.</p>
 
-  <h3>¿Qué mantenimiento requieren?</h3>
-  <p>Aclara con agua dulce después del uso en agua salada. Guárdala en un lugar fresco y seco, alejada de la luz solar directa. Durante el almacenamiento prolongado, infla parcialmente para mantener la forma sin someter a presión las costuras.</p>
+  <h3>¿Qué documentación acompaña a una formulación?</h3>
+  <p>Cada lote de producción se envía con un Certificado de Análisis (CdA) que cubre el contenido de ingrediente activo, las propiedades físicas y los datos de estabilidad. La documentación ICAMA y FAO/OMS se prepara por proyecto para tus mercados objetivo.</p>
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>¿Listo para abastecerte de tablas?</strong> Descubre <a href="/es/oem-manufacturing">lo que podemos fabricar para tu marca</a> y cómo se producen las tablas en la <a href="/es/factory">fábrica</a>.</p>
+    <p><strong>¿Listo para abastecerte de formulaciones?</strong> Descubre <a href="/es/oem-manufacturing">lo que podemos fabricar para tu marca</a> y cómo se producen las formulaciones en la <a href="/es/factory">fábrica</a>.</p>
   </div>

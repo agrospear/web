@@ -114,7 +114,7 @@ test('non-SUP business lines 301 to agrospear.com (P1-7)', () => {
 test('legacy theagrospear URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/odm-development' })
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
-  expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })
+  expect(gatePath('/guides/herbicide-selection')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/fishing' })
   expect(gatePath('/use-cases/disaster-relief')).toEqual({
@@ -128,26 +128,26 @@ test('legacy theagrospear URLs 301 to live pages (spot checks)', () => {
   // consolidated news articles 301 to their successor guides
   expect(gatePath('/news/sup-oem-shipping-logistics')).toEqual({
     action: 'redirect',
-    to: '/news/private-label-sup-oem-guide',
+    to: '/news/private-label-agrochemical-oem-guide',
   })
   expect(gatePath('/es/news/sup-oem-shipping-logistics')).toEqual({
     action: 'redirect',
-    to: '/es/news/private-label-sup-oem-guide',
+    to: '/es/news/private-label-agrochemical-oem-guide',
   })
   expect(gatePath('/news/importing-sup-from-china-guide')).toEqual({
     action: 'redirect',
-    to: '/news/private-label-sup-guide',
+    to: '/news/private-label-agrochemical-guide',
   })
   expect(gatePath('/es/news/importing-sup-from-china-guide')).toEqual({
     action: 'redirect',
-    to: '/es/news/private-label-sup-guide',
+    to: '/es/news/private-label-agrochemical-guide',
   })
   expect(gatePath('/touring-sup')).toEqual({ action: 'redirect', to: '/products' })
   // /search is now a live search results page (not a legacy redirect)
   expect(gatePath('/search')).toEqual({ action: 'ok' })
   expect(gatePath('/es/search')).toEqual({ action: 'ok' })
   // trailing slash single-hops straight to the final target
-  expect(gatePath('/guides/sup-yoga/')).toEqual({ action: 'redirect', to: '/knowledge' })
+  expect(gatePath('/guides/herbicide-selection/')).toEqual({ action: 'redirect', to: '/knowledge' })
 })
 
 test('every legacy URL resolves to a live route', () => {
@@ -208,7 +208,7 @@ test('retired zh locale: every /zh/* URL 301s to its /es mirror', () => {
   expect(gatePath('/zh')).toEqual({ action: 'redirect', to: '/es' })
   expect(gatePath('/zh/solutions')).toEqual({ action: 'redirect', to: '/es/solutions' })
   expect(gatePath('/zh/what-is-sup')).toEqual({ action: 'redirect', to: '/es/what-is-sup' })
-  expect(gatePath('/zh/products/sup-explorer-11')).toEqual({ action: 'redirect', to: '/es/products/sup-explorer-11' })
+  expect(gatePath('/zh/products/abamectin-18-ec')).toEqual({ action: 'redirect', to: '/es/products/abamectin-18-ec' })
 })
 
 test('410 for removed template pages (P0-2)', () => {

@@ -1,118 +1,127 @@
 meta:
-  title: 'SUP Construction Comparison — Single-Layer vs Double-Layer vs Drop-Stitch PVC | Agrospear'
-  description: 'Inflatable SUP construction comparison: single-layer PVC, double-layer PVC, and drop-stitch core — rigidity, weight, durability, price and best use-case.'
+  title: 'Agrochemical Formulation Type Comparison — SC vs EC vs WP vs WDG | Agrospear'
+  description: 'Agrochemical formulation type comparison: Suspension Concentrate (SC), Emulsifiable Concentrate (EC), Wettable Powder (WP) and Water-Dispersible Granule (WDG) — efficacy, stability, cost and best use-case.'
   dateModified: '2026-08-21'
   keywords:
-    - 'SUP construction comparison'
-    - 'inflatable SUP construction types'
-    - 'single layer vs double layer SUP'
-    - 'drop-stitch SUP construction'
-    - 'PVC SUP construction'
-    - 'SUP board rigidity'
-    - 'SUP board weight'
+    - 'agrochemical formulation comparison'
+    - 'SC vs EC formulation'
+    - 'WP vs WDG formulation'
+    - 'formulation type selection'
+    - 'crop protection formulation types'
+    - 'agrochemical formulation stability'
+    - 'agrochemical formulation cost'
 
 hero:
-  tagline: 'Construction Guide'
-  title: 'SUP Construction Comparison'
-  subtitle: 'Three construction types, one manufacturing line. Understand the rigidity, weight, durability and cost trade-offs between single-layer PVC, double-layer PVC and drop-stitch core SUP boards — and which one matches your target rider and market position.'
+  tagline: 'Formulation Guide'
+  title: 'Agrochemical Formulation Type Comparison'
+  subtitle: 'Four formulation types, one manufacturing line. Understand the efficacy, stability, cost and application trade-offs between Suspension Concentrate (SC), Emulsifiable Concentrate (EC), Wettable Powder (WP) and Water-Dispersible Granule (WDG) — and which one matches your target crop and market position.'
 
 answer:
   label: 'Quick comparison'
-  text: 'Single-layer PVC is the lightest and most affordable — best for casual riders and price-sensitive markets. Double-layer PVC adds a second PVC skin for rigidity and durability at moderate weight — the industry-standard choice for rental fleets and mid-range brands. Drop-stitch core with PVC shell delivers the highest rigidity and pressure tolerance — preferred for performance, surf and heavy-rider applications. All three constructions are manufactured on the same production line with the same QC gates; the difference is materials and lamination steps.'
+  text: 'Wettable Powder (WP) is the most established and affordable — best for cost-sensitive markets and simple active ingredients. Emulsifiable Concentrate (EC) delivers fast knockdown and excellent tank-mix compatibility for oil-soluble actives. Suspension Concentrate (SC) provides the best safety profile and ease of use — the industry-standard choice for modern brands. Water-Dispersible Granule (WDG) combines handling convenience with excellent shelf stability — preferred for export markets and premium positioning. All four formulations are manufactured on the same production line with the same QC gates; the difference is raw materials and processing steps.'
   verified: '2026-08'
 
 comparison_table:
   tagline: Side-by-Side
-  title: 'Construction Types Compared'
+  title: 'Formulation Types Compared'
   headers:
     - 'Attribute'
-    - 'Single-Layer PVC'
-    - 'Double-Layer PVC'
-    - 'Drop-Stitch Core + PVC Shell'
+    - 'Wettable Powder (WP)'
+    - 'Emulsifiable Concentrate (EC)'
+    - 'Suspension Concentrate (SC)'
+    - 'Water-Dispersible Granule (WDG)'
   rows:
-    - - 'Rigidity (PSI rating)'
-      - '12–15 PSI'
-      - '15–18 PSI'
-      - '18–25 PSI'
-    - - 'Weight (11 ft board)'
-      - '7–9 kg'
-      - '10–13 kg'
-      - '12–15 kg'
-    - - 'Durability'
-      - 'Good — recreational use'
-      - 'Very good — rental and commercial'
-      - 'Excellent — performance and heavy rider'
-    - - 'Construction layers'
-      - '1 PVC layer + drop-stitch core'
-      - '2 PVC layers + drop-stitch core'
-      - 'Reinforced drop-stitch + PVC shell + rail tape'
+    - - 'Physical form'
+      - 'Fine powder'
+      - 'Liquid (oil-based)'
+      - 'Liquid (water-based)'
+      - 'Granules'
+    - - 'Active ingredient solubility'
+      - 'Water-insoluble actives'
+      - 'Oil-soluble actives'
+      - 'Water-insoluble actives (suspended)'
+      - 'Water-insoluble actives (granulated)'
+    - - 'Handling safety'
+      - 'Dust risk during mixing'
+      - 'Solvent exposure risk'
+      - 'Low risk — no dust, no solvent'
+      - 'Low risk — no dust, no solvent'
+    - - 'Shelf stability'
+      - 'Good — 24+ months'
+      - 'Moderate — solvent may separate'
+      - 'Very good — 24+ months'
+      - 'Excellent — 36+ months'
     - - 'Typical use-case'
-      - 'Entry-level, casual, price-sensitive markets'
-      - 'All-around, rental, clubs, mid-range brands'
-      - 'Touring, surf, heavy riders, premium brands'
+      - 'Cost-sensitive markets, established actives'
+      - 'Fast knockdown, oil-soluble actives, tank-mixing'
+      - 'Modern brands, safety-first markets, broad actives'
+      - 'Export markets, premium positioning, long supply chains'
     - - 'Relative cost'
       - 'Lowest'
+      - 'Low–Mid'
       - 'Mid'
       - 'Higher'
-    - - 'Welding method'
-      - 'RF heat-sealed seams'
-      - 'RF heat-sealed seams + lamination'
-      - 'RF heat-sealed seams + reinforced rails'
-    - - 'Pressure test standard'
-      - '18.0 PSI hold test'
-      - '18.0 PSI hold test'
-      - '18.0 PSI hold test (rated higher)'
+    - - 'Manufacturing method'
+      - 'Blending & milling'
+      - 'Mixing & homogenizing'
+      - 'Wet milling & homogenizing'
+      - 'Spray drying or pan granulation'
+    - - 'Quality test standard'
+      - 'Content analysis & suspensibility'
+      - 'Content analysis & emulsion stability'
+      - 'Content analysis & suspension stability'
+      - 'Content analysis & disintegration time'
 
 use_cases:
-  tagline: Which Construction for Which Buyer
-  title: 'Match Construction to Your Target Market'
-  subtitle: 'Construction choice is not just a cost decision — it defines the rider experience, the warranty risk profile, and the brand positioning you can sustain.'
+  tagline: Which Formulation for Which Buyer
+  title: 'Match Formulation Type to Your Target Market'
+  subtitle: 'Formulation choice is not just a cost decision — it defines the safety profile, the shelf-life risk, and the brand positioning you can sustain.'
   grid: 'sm:grid-cols-3'
   features:
-    - icon: S
-      icon_bg: blue
-      title: 'Single-Layer for Entry & Volume'
-      desc: 'Lightest board at the lowest price point. Ideal for brands targeting first-time buyers, big-box retail and online marketplaces where price is the primary purchase driver. Acceptable rigidity for flat-water paddling at moderate PSI. Lower warranty claim rate when used within rated pressure range.'
-      link_label: 'See OEM entry-level boards'
+    - icon: W
+      icon_bg: 'blue'
+      title: 'WP for Cost & Volume'
+      desc: 'Lowest production cost at the most competitive price point. Ideal for brands targeting price-sensitive markets, generic actives and large-volume government tenders where cost is the primary purchase driver. Acceptable safety when handled with standard PPE. Lower warranty risk when stored properly.'
+      link_label: 'See OEM formulation details'
       href: /oem-manufacturing
-    - icon: D
-      icon_bg: green
-      title: 'Double-Layer for Rental & Commercial'
-      desc: 'The workhorse construction for rental fleets, clubs, resorts and school programs. Extra PVC layer resists the impacts, UV exposure and daily handling that destroy single-layer boards in commercial settings. Higher pressure tolerance means stiffer ride for heavier riders. Most popular construction tier globally.'
-      link_label: 'Rental & resort solutions'
+    - icon: E
+      icon_bg: 'green'
+      title: 'EC for Performance & Tank-Mix'
+      desc: 'The workhorse formulation for oil-soluble active ingredients. Excellent knockdown speed and broad tank-mix compatibility make EC the standard for insecticide programs in row crops, fruit trees and vegetable production. Solvent-based system requires proper handling protocols. Most popular insecticide formulation globally.'
+      link_label: 'Distribution & supply solutions'
       href: /solutions/bulk-supply
-    - icon: P
-      icon_bg: purple
-      title: 'Drop-Stitch Core for Performance'
-      desc: 'Maximum rigidity for touring, surf, fishing and heavy-rider applications. Reinforced rail construction and higher PSI rating deliver hardboard-like performance in a portable package. Preferred by performance brands and experienced paddlers. Higher material cost, but stronger brand positioning and lower warranty rate per unit.'
-      link_label: 'Performance board development'
+    - icon: S
+      icon_bg: 'purple'
+      title: 'SC for Safety & Modern Brands'
+      desc: 'Best handling safety profile — no dust, no solvent. Preferred for premium brand positioning, export markets with strict safety requirements, and biopesticide formulations. Water-based system provides excellent user experience and broad active ingredient compatibility. Higher material cost, but stronger brand positioning and growing market share globally.'
+      link_label: 'Formulation development'
       href: /odm-development
 
 key_factors:
-  heading: 'Key Factors Beyond Construction Type'
+  heading: 'Key Factors Beyond Formulation Type'
   body: |
-    Construction type is one variable in board performance. Three additional factors matter as much or more:
+    Formulation type is one variable in product performance. Three additional factors matter as much or more:
 
-    - **Drop-stitch density** — Threads per inch determines how uniformly the board holds shape under pressure. We use 96 threads/inch standard and 140 threads/inch for performance builds. Higher density = flatter board = better glide.
-    - **PVC grade and thickness** — Not all PVC is equal. Korean-imported 0.7 mm PVC has higher tear strength and UV resistance than thinner alternatives. We specify material grade per project.
-    - **Rail construction** — Single-layer rails are the most common failure point on cheap boards. Double-layer and reinforced rail tape dramatically reduce rail puncture risk. All our boards use reinforced rails regardless of construction tier.
+    - **Adjuvant system** — Surfactants, dispersants and stabilizers determine how effectively the active ingredient delivers to the target. We select adjuvant packages per project and crop type.
+    - **Active ingredient quality** — Not all technical-grade actives are equal. Higher-purity technical material produces more stable formulations with better shelf life and consistent efficacy. We specify raw material grade per project.
+    - **Packaging and storage** — Proper packaging (UV-resistant containers, sealed liners, moisture barriers) dramatically reduces degradation risk. All our products use appropriate packaging regardless of formulation tier.
 
 faqs:
   tagline: FAQ
-  title: 'SUP Construction — Frequently Asked Questions'
+  title: 'Formulation Type — Frequently Asked Questions'
   items:
-    - q: 'Which construction type should I choose for my brand?'
-      a: 'It depends on your target market and price positioning. Entry-level and big-box retail: single-layer. Rental fleets, clubs and mid-range brands: double-layer. Performance, touring and premium: drop-stitch core. Most brands start with double-layer as the best balance of cost, durability and rider experience. We recommend based on your specific market during the feasibility review.'
-    - q: 'Can I offer multiple construction tiers under one brand?'
-      a: 'Yes — many brands offer two or three tiers. We produce all three constructions on the same line with the same QC gates, so you can mix construction types within a single order. The hull shape and graphics can be identical across tiers; only the construction and materials change.'
-    - q: 'What is the pressure test standard for all constructions?'
-      a: 'Every board regardless of construction type passes an 18.0 PSI hold test with auto-reject above 0.50 PSI pressure drop over 24 hours. Single-layer boards are rated for 12–15 PSI riding pressure, double-layer for 15–18 PSI, and drop-stitch core for 18–25 PSI. The test pressure exceeds the rated pressure for all types.'
-    - q: 'How does construction affect warranty claims?'
-      a: 'Single-layer boards have marginally higher warranty claim rates in commercial/rental use due to rail and puncture exposure. Double-layer and drop-stitch core constructions have significantly lower claim rates. We provide per-tier warranty data from our production records during the quotation phase.'
+    - q: 'Which formulation type should I choose for my brand?'
+      a: 'It depends on your target market and price positioning. Cost-sensitive and government tenders: WP. Insecticide programs and tank-mixing: EC. Premium brands and safety-first markets: SC. Export and long supply chains: WDG. Most modern brands start with SC as the best balance of safety, efficacy and market positioning. We recommend based on your specific market during the feasibility review.'
+    - q: 'Can I offer multiple formulation types under one brand?'
+      a: 'Yes — many brands offer two or more formulation types. We produce all four formulations on the same line with the same QC gates, so you can mix formulation types within a single order. The active ingredient and label design can be identical across types; only the formulation and packaging change.'
+    - q: 'What is the quality test standard for all formulations?'
+      a: 'Every batch regardless of formulation type passes content analysis confirming active ingredient concentration within specification, plus formulation-specific tests: suspensibility (WP), emulsion stability (EC), suspension stability (SC) and disintegration time (WDG). All tests follow FAO/WHO specification methods.'
+    - q: 'How does formulation type affect shelf life?'
+      a: 'WP and WDG formulations generally have the longest shelf stability (24–36+ months) as dry formulations. EC formulations may show solvent separation over time if not stored properly. SC formulations require suspension stability testing to ensure no settling or caking. We provide per-formulation shelf life data from our stability studies during the quotation phase.'
 
 cta:
-  title: 'Need Help Choosing the Right Construction?'
-  subtitle: 'Tell us your target rider, price point and market — we will recommend the construction tier and provide sample boards for your evaluation.'
+  title: 'Need Help Choosing the Right Formulation?'
+  subtitle: 'Tell us your target crop, price point and market — we will recommend the formulation type and provide prototype samples for your evaluation.'
   actions:
     - variant: primary
       text: Start Your Project Brief

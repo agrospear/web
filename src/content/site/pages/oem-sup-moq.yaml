@@ -1,14 +1,14 @@
 meta:
-  title: "Inflatable SUP MOQ — Minimum Order Quantities Explained"
-  description: "Clear MOQ tiers for custom inflatable SUP manufacturing: 5–10 co-branding, 20–50 pilot, 90–100+ volume per roll. Decision tree by customization level."
+  title: "Agrochemical OEM MOQ — Minimum Order Quantities Explained"
+  description: "Clear MOQ tiers for custom agrochemical manufacturing: co-branding, pilot, 20+ ton volume per batch. Decision tree by customization level."
   dateModified: "2026-08-20"
 
 sections:
   - title: "Direct Answer"
     directAnswer:
-      answer: "Existing-platform pilot runs start at 20–50 pcs; standard volume MOQ is 90–100+ pcs per 150 m drop-stitch roll (~180–220 boards)."
-      condition: "Specific MOQ depends on board shape, material roll, printing, packaging and whether a new mould is needed."
-      value: "5–10 co-branding · 20–50 pilot · 90–100+ per roll volume"
+      answer: "Existing-platform pilot runs start at 5 tons; standard volume MOQ is 20+ tons per batch."
+      condition: "Specific MOQ depends on active ingredient, formulation type, packaging and whether custom formulation development is needed."
+      value: "Co-branding from lower quantities · 5 tons pilot · 20+ tons standard volume"
       verifiedDate: "2026-08-20"
       sourceType: "factory-record"
     body: |
@@ -17,50 +17,50 @@ sections:
 
       | Scenario | MOQ | Unit | Condition |
       |----------|-----|------|-----------|
-      | Existing platform, logo overlay only | 5–10 pcs | per design | Same shape, same material roll, same colorway |
-      | Custom graphics / EVA / packaging on existing platform | 20–50 pcs | pilot batch | Same shape; new artwork requires visual proof |
-      | Standard volume production (any platform) | 90–100+ pcs | per 150 m roll (~180–220 boards) | Per material roll; multiple SKUs = separate rolls |
-      | New shape / custom mould | 90–100+ pcs | production run | Mould tooling adds 15–20 days; one-time mould fee |
+      | Existing platform, label overlay only | Lower quantities | per design | Same formulation, same packaging, same concentration |
+      | Custom label / packaging on existing platform | 5 tons | pilot batch | Same formulation; new label design requires visual proof |
+      | Standard volume production (any platform) | 20+ tons | per batch | Per formulation batch; multiple SKUs = separate batches |
+      | New formulation / custom development | 20+ tons | production run | Formulation development adds 15–20 days; one-time R&D fee |
 
-  - title: "What counts as a 'material roll'?"
+  - title: "What counts as a 'production batch'?"
     body: |
-      A 150-meter roll of drop-stitch fabric produces approximately 180–220 boards depending on
-      board dimensions (typically 10–11 ft). Each distinct SKU — meaning a different size, color
-      combination or material specification — requires its own roll and therefore its own MOQ.
+      A standard production batch of 20+ tons produces product ready for filling and packaging.
+      Each distinct SKU — meaning a different concentration, formulation type
+      or packaging specification — requires its own batch and therefore its own MOQ.
 
-      This is why the MOQ is stated "per 150 m roll" rather than "per design": two colorways
-      of the same board shape are two rolls, two MOQs.
+      This is why the MOQ is stated "per batch" rather than "per design": two packaging configurations
+      of the same formulation are two batches, two MOQs.
 
   - title: "Co-branding vs pilot vs volume"
     body: |
-      **Co-branding (5–10 pcs)**: Your logo applied to an existing platform that is already in
-      production for another brand. No artwork changes beyond the logo placement. Fastest route
+      **Co-branding (lower quantities)**: Your brand applied to an existing platform that is already in
+      production for another brand. No label changes beyond the brand placement. Fastest route
       to a branded sample.
 
-      **Pilot batch (20–50 pcs)**: Custom graphics, EVA traction pad design, or packaging on an
-      existing platform shape. Requires visual proof approval before production. Ideal for market
+      **Pilot batch (5 tons)**: Custom label design, packaging, or concentration on an
+      existing formulation platform. Requires visual proof approval before production. Ideal for market
       testing a new look.
 
-      **Volume production (90–100+ pcs per roll)**: Full production run with any combination of
-      customization. This is the standard commercial tier. Each material roll yields ~180–220 boards.
+      **Volume production (20+ tons per batch)**: Full production run with any combination of
+      customization. This is the standard commercial tier.
 
-  - title: "Custom mould MOQ"
+  - title: "Custom formulation MOQ"
     body: |
-      When your design requires a new board shape (not just new graphics on an existing shape),
-      a dedicated mould must be created. This runs at the volume tier (90–100+ pcs) because
-      the mould investment requires a production run to amortize. Tooling adds 15–20 days to
+      When your design requires a new formulation (not just new labeling on an existing product),
+      dedicated R&D must be completed. This runs at the volume tier (20+ tons) because
+      the formulation investment requires a production run to amortize. Development adds 15–20 days to
       the standard lead time.
 
-      Mould ownership: you own the mould. It is stored at our facility and used exclusively for
+      Formulation ownership: you own the custom formulation. It is stored at our facility and used exclusively for
       your production runs.
 
   - title: "Sample orders"
     body: |
-      Pre-production samples are available at 1–2 boards for fit/finish confirmation.
-      These are hand-built to your spec and typically take 7–12 days. Sample cost is credited
+      Pre-production samples are available at 1–4 tons for composition and quality confirmation.
+      These are produced to your spec and typically take 7–12 days. Sample cost is credited
       against your first volume order.
 
 evidence_review:
   tagline: 'Evidence & Verification'
   title: 'VERIFIED SPECIFICATIONS'
-  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, pressure & structural test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Laixi, Qingdao plant. Certificates, QC inspection records, stability & content analysis test reports, and batch traceability records are available on request. Specifications last verified 2026-08.'

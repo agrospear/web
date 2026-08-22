@@ -1,42 +1,42 @@
 meta:
-  title: 'Proveedor de equipamiento SUP para alquiler y soluciones de flota'
-  description: 'Tablas SUP comerciales para uso diario en alquiler: PVC resistente a los rayos UV, costuras reforzadas y secado rápido para flotas de alta rotación.'
+  title: 'Equipamiento y soluciones de suministro para distribución agroquímica'
+  description: 'Productos agroquímicos comerciales para redes de distribución: calidad consistente, trazabilidad por lote y documentación regulatoria para operaciones de distribución de alto volumen.'
   dateModified: '2026-08'
 
 hero:
-  tagline: Operadores de alquiler
-  title: 'Tablas SUP diseñadas para flotas de alquiler'
-  subtitle: 'Especifica una flota que resista el uso diario en alquiler: tablas de alta rotación con PVC resistente a los rayos UV, costuras reforzadas y materiales de secado rápido, diseñadas para 365 días de uso al año.'
+  tagline: Socios de distribución
+  title: 'Productos agroquímicos diseñados para redes de distribución'
+  subtitle: 'Especifica una línea de productos que entregue calidad consistente en la distribución: formulaciones trazables por lote con documentación regulatoria y gestión de etiquetas, diseñadas para suministro confiable durante todo el año.'
   image:
-    src: https://assets.agrospear.com/images/agrospear/lifestyle/agrospear-lifestyle-1.webp
-    alt: Tablas SUP listas y preparadas para el uso diario en alquiler
+    src: https://assets.agrospear.com/images/agrospear/factory/agrospear-factory-aerial-1.webp
+    alt: Productos agroquímicos de Agrospear preparados para distribución
 
 answer:
   label: 'Respuesta directa'
-  text: 'Las tablas para flotas de alquiler se construyen con PVC marino resistente a los rayos UV, costuras 3 veces más resistentes que la construcción estándar y núcleos drop-stitch clasificados a 15 PSI, probadas en más de 500 ciclos de alquiler. El MOQ se confirma según la configuración del proyecto: muestra (1–2 unidades), piloto (20–50 unidades) y volumen estándar (90–100+ unidades por lote a partir de un rollo de 150 m); la producción tarda 25–35 días tras el PO y el depósito, con condiciones FOB, CIF o DDP.'
+  text: 'Los productos agroquímicos de grado distribución se fabrican con calidad consistente por lote, documentación regulatoria completa (ICAMA, FAO/OMS, ISO 9001) y gestión de etiquetas entre reposiciones, probados en estabilidad y análisis de contenido en cada puerta de producción. El MOQ se confirma según la configuración del proyecto: muestra (1–4 toneladas), piloto (5 toneladas) y volumen estándar (20+ toneladas por lote); la producción tarda 25–35 días tras el PO y el depósito, con condiciones FOB, CIF o DDP.'
   verified: '2026-08'
 
 features:
-  title: Diseñadas para el desgaste del alquiler
-  subtitle: 'Cada tabla está diseñada para soportar más de 500 ciclos de alquiler con un mantenimiento mínimo.'
+  title: Diseñados para las demandas de distribución
+  subtitle: 'Cada lote está diseñado para calidad consistente con trazabilidad y documentación completas.'
   items:
-    - title: 'Más de 500 Ciclos de Alquiler'
-      description: 'Probadas para resistir el uso diario en agua salada, sol y arena.'
+    - title: 'Consistencia lote a lote'
+      description: 'Composición y propiedades físicas consistentes entre series de producción y reposiciones.'
       icon: 'tabler:shield-check'
-    - title: 'Tejido Resistente a los Rayos UV'
-      description: 'Sin decoloración ni degradación tras 1 año de almacenamiento al aire libre.'
+    - title: 'Embalaje resistente a rayos UV'
+      description: 'Sin degradación tras almacenamiento prolongado a la intemperie en puntos de distribución.'
       icon: 'tabler:sun'
-    - title: 'Costuras Reforzadas'
-      description: 'Costuras reforzadas construidas para la rotación diaria de alquiler y ciclos repetidos de inflado.'
+    - title: 'Documentación regulatoria completa'
+      description: 'Documentación ICAMA, FAO/OMS e ISO 9001 preparada para cada lote, lista para inspección.'
       icon: 'tabler:layers-intersect'
-    - title: 'Materiales de Secado Rápido'
-      description: 'Materiales de secado rápido que mantienen las tablas listas para el siguiente alquiler entre sesiones.'
+    - title: 'Formulaciones estables en estantería'
+      description: 'Formulaciones probadas en estabilidad con vida útil garantizada para almacenamiento en almacén y minorista.'
       icon: 'tabler:droplet'
-    - title: 'Almacenamiento Apilable'
-      description: 'Diseño apilable que ahorra espacio: almacena más tablas en la misma área.'
+    - title: 'Embalaje apilable'
+      description: 'Diseño de embalaje que ahorra espacio: maximiza la eficiencia de almacén y transporte.'
       icon: 'tabler:stack'
-    - title: 'Tallas Codificadas por Colores'
-      description: 'El equipo coge la tabla correcta al instante con tallas codificadas por colores.'
+    - title: 'SKUs codificados por colores'
+      description: 'El equipo identifica el producto correcto al instante con etiquetas SKU codificadas por colores.'
       icon: 'tabler:color-swatch'
 
 stats:
@@ -44,39 +44,39 @@ stats:
   stats:
     - title: Superficie de Fábrica
       amount: '12.500 m²'
-    - title: Prueba de Presión
-      amount: '18 PSI / 24h'
-    - title: Checklist de Montaje
+    - title: Ensayo de estabilidad
+      amount: 'Vida útil 24 meses'
+    - title: Checklist de Producción
       amount: '100 puntos'
     - title: Envío de Piezas
       amount: '48h'
 
 fleet_guide:
-  title: Guía de Dimensionado de Flota
-  subtitle: 'Calcula cuántas tablas necesita tu operación según la rotación diaria del alquiler.'
+  title: Guía de Volumen de Suministro
+  subtitle: 'Calcula cuánto producto necesita tu operación de distribución según la demanda estacional.'
   tiers:
-    - label: Pequeño Quiosco
-      boards: '15-20'
-      note: 'Hasta 2–3 rotaciones de tabla al día en temporada alta'
+    - label: Pequeño Distribuidor
+      boards: '5–20 toneladas'
+      note: 'Suministro estacional para cobertura de mercado local'
     - label: Operación de Tamaño Medio
-      boards: '30-50'
-      note: 'Varios puntos de salida o mucho tráfico los fines de semana'
-    - label: Alquiler de Playa de Gran Tamaño
-      boards: '50-100'
-      note: 'Flotas de alquiler de servicio completo en varias estaciones de playa'
+      boards: '20–50 toneladas'
+      note: 'Distribución regional con múltiples líneas de producto'
+    - label: Gran Distribuidor Nacional
+      boards: '50–200+ toneladas'
+      note: 'Distribución de servicio completo en múltiples regiones y temporadas de cultivo'
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> las tablas de alquiler parten de tu especificación: consulta nuestro <a href="/es/oem-manufacturing">programa OEM/ODM</a> para personalización, MOQ de prueba reducidos y precios de flota. Cada tabla pasa por la <a href="/es/factory">línea de producción</a> de 12.000 m&sup2; y se prueba a presión al 100% antes del envío.</p>
+    <p><strong>Sigue leyendo:</strong> los productos de distribución parten de tu especificación: consulta nuestro <a href="/es/oem-manufacturing">programa OEM/ODM</a> para personalización, MOQ de prueba y precios de distribución. Cada lote pasa por la <a href="/es/factory">línea de producción</a> de 12.500 m&sup2; y se prueba de estabilidad al 100% antes del envío.</p>
   </div>
 
 cta:
-  title: 'Especifica Tu Flota de Alquiler'
-  subtitle: 'Envía tus requisitos de flota o compara plataformas de tablas para tu operación.'
+  title: 'Especifica Tu Suministro de Distribución'
+  subtitle: 'Envía tus requisitos de producto o compara plataformas de formulación para tu operación.'
   actions:
-    - text: 'Enviar Requisitos'
+    - text: 'Enviar Requisitos de Suministro'
       href: '/es/contact'
       variant: 'primary'
-    - text: 'Comparar Plataformas de Tablas'
+    - text: 'Comparar Plataformas de Formulación'
       href: '/es/oem-vs-private-label'
       variant: 'secondary'

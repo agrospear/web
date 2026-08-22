@@ -105,10 +105,10 @@ export const EDGE_REDIRECTS: Record<string, string> = {
   '/es/case-studies': '/es/projects',
   '/whitepaper/oem-sup-manufacturing-guide': '/oem-manufacturing',
   '/es/whitepaper/oem-sup-manufacturing-guide': '/es/oem-manufacturing',
-  '/news/sup-oem-shipping-logistics': '/news/private-label-sup-oem-guide',
-  '/es/news/sup-oem-shipping-logistics': '/es/news/private-label-sup-oem-guide',
-  '/news/importing-sup-from-china-guide': '/news/private-label-sup-guide',
-  '/es/news/importing-sup-from-china-guide': '/es/news/private-label-sup-guide',
+  '/news/sup-oem-shipping-logistics': '/news/private-label-agrochemical-oem-guide',
+  '/es/news/sup-oem-shipping-logistics': '/es/news/private-label-agrochemical-oem-guide',
+  '/news/importing-sup-from-china-guide': '/news/private-label-agrochemical-guide',
+  '/es/news/importing-sup-from-china-guide': '/es/news/private-label-agrochemical-guide',
 }
 
 export { GONE_PATHS }
