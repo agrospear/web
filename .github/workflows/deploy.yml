@@ -38,6 +38,7 @@ jobs:
           CF_PROD_D1_ID: ${{ vars.CF_PROD_D1_ID }}
           CF_PROD_KV_ID: ${{ vars.CF_PROD_KV_ID }}
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
+          CF_PROD_VECTORIZE_INDEX: ${{ vars.CF_VECTORIZE_INDEX }}
         run: node .github/scripts/gen-wrangler.mjs
       # @cloudflare/vite-plugin 在 build 时根据 CLOUDFLARE_ENV 把对应环境的 bindings
       # 烘焙进 dist/server/wrangler.json；deploy 读取该产物，故环境在 build 时选定。
