@@ -232,7 +232,7 @@ export function enhancedFaqLd(): Record<string, unknown> {
     },
     {
       q: 'What quality control do you run on every batch?',
-      a: `Every batch passes ${FACTS.qualityGates} inspection gates including a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest} pressure hold. Batches keep ${FACTS.traceabilityRet} ERP traceability, and third-party inspections by ${FACTS.thirdPartyInspectors.join(', ')} are available.`,
+      a: `Every batch passes ${FACTS.qualityGates} inspection gates including a ${FACTS.assemblyChecklist} production checklist and ${FACTS.pressureTest}. Batches keep ${FACTS.traceabilityRet} ERP traceability, and third-party inspections by ${FACTS.thirdPartyInspectors.join(', ')} are available.`,
       category: 'Technical',
       priority: 4,
       keywords: ['quality control', 'inspection', 'specification test', 'QC', 'factory audit'],

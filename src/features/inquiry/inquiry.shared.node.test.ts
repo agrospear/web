@@ -45,9 +45,9 @@ function validInput(overrides: Partial<InquiryInput> = {}): InquiryInput {
 
 describe('clampInquiryInput', () => {
   test('normalizes email, website and whitespace', () => {
-    const out = clampInquiryInput({ ...validInput(), website: 'HTTPS://Acme-Boards.com/', email: '  Buyer@Acme-Boards.COM ' })
-    expect(out.website).toBe('Acme-Boards.com/')
-    expect(out.email).toBe('buyer@acme-boards.com')
+    const out = clampInquiryInput({ ...validInput(), website: 'HTTPS://Acme-Crop.com/', email: '  Buyer@Acme-Crop.COM ' })
+    expect(out.website).toBe('Acme-Crop.com/')
+    expect(out.email).toBe('buyer@acme-crop.com')
     expect(out.company).toBe('Acme Crop Protection GmbH')
   })
 
@@ -93,8 +93,8 @@ describe('clampInquiryInput', () => {
   })
 
   test('pickList keeps only whitelisted comma values, preserves order', () => {
-    const out = clampInquiryInput({ ...validInput(), customization: 'logo,naughty,tooling,,graphics' })
-    expect(out.customization).toBe('logo,tooling,graphics')
+    const out = clampInquiryInput({ ...validInput(), customization: 'logo,naughty,tooling,,color-coding' })
+    expect(out.customization).toBe('logo,tooling,color-coding')
   })
 
   test('single unsupported pickList value falls through to the list parser', () => {
@@ -190,7 +190,7 @@ describe('scoreInquiry', () => {
   })
 
   test('business email outranks free mail', () => {
-    const a = scoreInquiry(validInput({ email: 'buyer@acme-boards.com' }), { hasFile: false }).score
+    const a = scoreInquiry(validInput({ email: 'buyer@acme-crop.com' }), { hasFile: false }).score
     const b = scoreInquiry(validInput({ email: 'buyer@gmail.com' }), { hasFile: false }).score
     expect(a).toBe(b + 20)
   })

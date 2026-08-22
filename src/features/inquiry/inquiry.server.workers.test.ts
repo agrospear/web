@@ -34,7 +34,7 @@ beforeAll(async () => {
   ).run()
   const db = createDb(env.DB)
   await db.insert(inquiry).values([
-    { id: 'i1', name: 'x', company: 'Acme Boards', email: 'a@acme.com', locale: 'en', tier: 'A', score: 80, requirements: 'Need 500 race boards', createdAt: new Date('2026-08-01T00:00:00Z') },
+    { id: 'i1', name: 'x', company: 'Acme Crop Protection', email: 'a@acme.com', locale: 'en', tier: 'A', score: 80, requirements: 'Need 500 tons SC herbicide', createdAt: new Date('2026-08-01T00:00:00Z') },
     { id: 'i2', name: 'x', company: 'BlueWave', email: 'b@bluewave.com', locale: 'en', tier: 'B', score: 55, requirements: 'Cotton tote bags', createdAt: new Date('2026-08-02T00:00:00Z') },
     { id: 'i3', name: 'x', company: 'Acme Retail GmbH', email: 'c@gmail.com', locale: 'de', tier: 'C', score: 20, requirements: 'price?', createdAt: new Date('2026-08-03T00:00:00Z') },
   ])
