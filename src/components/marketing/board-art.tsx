@@ -38,7 +38,7 @@ export function BoardArt({
         fill={`hsl(${hue} 72% 52%)`}
         opacity="0.9"
       />
-      {/* deck pad */}
+      {/* label zone */}
       <rect x="120" y="64" width="222" height="22" rx="11" fill="var(--soft)" stroke="var(--border-strong)" strokeOpacity="0.55" />
       {/* logo zone */}
       <rect x="152" y="68" width="158" height="14" rx="7" fill="var(--card-2)" stroke={`hsl(${hue} 72% 52%)`} strokeOpacity="0.45" strokeDasharray="3 3" />
