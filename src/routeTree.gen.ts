@@ -103,7 +103,7 @@ import { Route as Char123LocaleChar125AdminWaitlistRouteImport } from './routes/
 import { Route as Char123LocaleChar125AdminUsersRouteImport } from './routes/{-$locale}/admin/users'
 import { Route as Char123LocaleChar125AdminInquiriesRouteImport } from './routes/{-$locale}/admin/inquiries'
 import { Route as Char123LocaleChar125AdminFeedbackRouteImport } from './routes/{-$locale}/admin/feedback'
-import { Route as Char123LocaleChar125AboutSupsfactoryEntityRouteImport } from './routes/{-$locale}/about/agrospear-entity'
+import { Route as Char123LocaleChar125AboutAgrospearEntityRouteImport } from './routes/{-$locale}/about/agrospear-entity'
 import { Route as Char123LocaleChar125authVerifyEmailRouteImport } from './routes/{-$locale}/(auth)/verify-email'
 import { Route as Char123LocaleChar125authResetPasswordRouteImport } from './routes/{-$locale}/(auth)/reset-password'
 import { Route as Char123LocaleChar125authRegisterRouteImport } from './routes/{-$locale}/(auth)/register'
@@ -667,8 +667,8 @@ const Char123LocaleChar125AdminFeedbackRoute =
     path: '/feedback',
     getParentRoute: () => Char123LocaleChar125AdminRouteRoute,
   } as any)
-const Char123LocaleChar125AboutSupsfactoryEntityRoute =
-  Char123LocaleChar125AboutSupsfactoryEntityRouteImport.update({
+const Char123LocaleChar125AboutAgrospearEntityRoute =
+  Char123LocaleChar125AboutAgrospearEntityRouteImport.update({
     id: '/about/agrospear-entity',
     path: '/about/agrospear-entity',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
@@ -801,7 +801,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/register': typeof Char123LocaleChar125authRegisterRoute
   '/{-$locale}/reset-password': typeof Char123LocaleChar125authResetPasswordRoute
   '/{-$locale}/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
-  '/{-$locale}/about/agrospear-entity': typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
+  '/{-$locale}/about/agrospear-entity': typeof Char123LocaleChar125AboutAgrospearEntityRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
@@ -903,7 +903,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/register': typeof Char123LocaleChar125authRegisterRoute
   '/{-$locale}/reset-password': typeof Char123LocaleChar125authResetPasswordRoute
   '/{-$locale}/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
-  '/{-$locale}/about/agrospear-entity': typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
+  '/{-$locale}/about/agrospear-entity': typeof Char123LocaleChar125AboutAgrospearEntityRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
@@ -1009,7 +1009,7 @@ export interface FileRoutesById {
   '/{-$locale}/(auth)/register': typeof Char123LocaleChar125authRegisterRoute
   '/{-$locale}/(auth)/reset-password': typeof Char123LocaleChar125authResetPasswordRoute
   '/{-$locale}/(auth)/verify-email': typeof Char123LocaleChar125authVerifyEmailRoute
-  '/{-$locale}/about/agrospear-entity': typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
+  '/{-$locale}/about/agrospear-entity': typeof Char123LocaleChar125AboutAgrospearEntityRoute
   '/{-$locale}/admin/feedback': typeof Char123LocaleChar125AdminFeedbackRoute
   '/{-$locale}/admin/inquiries': typeof Char123LocaleChar125AdminInquiriesRoute
   '/{-$locale}/admin/users': typeof Char123LocaleChar125AdminUsersRoute
@@ -2071,7 +2071,7 @@ declare module '@tanstack/react-router' {
       id: '/{-$locale}/about/agrospear-entity'
       path: '/about/agrospear-entity'
       fullPath: '/{-$locale}/about/agrospear-entity'
-      preLoaderRoute: typeof Char123LocaleChar125AboutSupsfactoryEntityRouteImport
+      preLoaderRoute: typeof Char123LocaleChar125AboutAgrospearEntityRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/(auth)/verify-email': {
@@ -2213,7 +2213,7 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125authRegisterRoute: typeof Char123LocaleChar125authRegisterRoute
   Char123LocaleChar125authResetPasswordRoute: typeof Char123LocaleChar125authResetPasswordRoute
   Char123LocaleChar125authVerifyEmailRoute: typeof Char123LocaleChar125authVerifyEmailRoute
-  Char123LocaleChar125AboutSupsfactoryEntityRoute: typeof Char123LocaleChar125AboutSupsfactoryEntityRoute
+  Char123LocaleChar125AboutAgrospearEntityRoute: typeof Char123LocaleChar125AboutAgrospearEntityRoute
   Char123LocaleChar125AppAccountRoute: typeof Char123LocaleChar125AppAccountRoute
   Char123LocaleChar125AppFeedbackRoute: typeof Char123LocaleChar125AppFeedbackRoute
   Char123LocaleChar125KnowledgeSlugRoute: typeof Char123LocaleChar125KnowledgeSlugRoute
@@ -2263,8 +2263,8 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
       Char123LocaleChar125authResetPasswordRoute,
     Char123LocaleChar125authVerifyEmailRoute:
       Char123LocaleChar125authVerifyEmailRoute,
-    Char123LocaleChar125AboutSupsfactoryEntityRoute:
-      Char123LocaleChar125AboutSupsfactoryEntityRoute,
+    Char123LocaleChar125AboutAgrospearEntityRoute:
+      Char123LocaleChar125AboutAgrospearEntityRoute,
     Char123LocaleChar125AppAccountRoute: Char123LocaleChar125AppAccountRoute,
     Char123LocaleChar125AppFeedbackRoute: Char123LocaleChar125AppFeedbackRoute,
     Char123LocaleChar125KnowledgeSlugRoute:

@@ -1,21 +1,7 @@
 import type { Locale } from '@/features/i18n/locale'
 import type { Localized } from './content'
 
-/**
- * Series-level platform pages (/products/{series}).
- *
- * Nine manufacturing-platform categories (all-around → multi-person), each
- * targeting a buyer-facing long-tail query ("custom fishing SUP boards",
- * "inflatable touring SUP manufacturer", …). The pages aggregate every
- * product of the series, add series-level B2B context (MOQ, lead time,
- * customization) and funnel to /contact with the series prefilled.
- *
- * Facts referenced in the FAQ answers stay in sync with FACTS (moq tiers,
- * sample/production lead times, QC points) — keep them identical.
- */
-
 export interface SeriesPageData {
-  /** Product-series key, must match productFilters groups. */
   slug: string
   navLabel: string
   metaTitle: string
@@ -29,498 +15,444 @@ export interface SeriesPageData {
 export const seriesPages: Localized<SeriesPageData[]> = {
   en: [
     {
-      slug: 'all-around',
-      navLabel: 'All-Around Platforms',
-      metaTitle: 'Custom All-Around SUP Boards — Inflatable OEM Manufacturer | Agrospear',
+      slug: 'herbicide',
+      navLabel: 'Herbicide Formulations',
+      metaTitle: 'Custom Herbicide Formulations — OEM/ODM Crop Protection Manufacturer | Agrospear',
       metaDescription:
-        'Custom all-around inflatable SUP boards manufactured under your brand — wide-body stability, OEM/ODM volume from 90–100+ pcs, samples in 7–12 days. Factory direct from Qingdao, China.',
-      kicker: 'Series · All-Around',
-      h1: 'Custom All-Around SUP Boards — The Default Starting Platform For New Brands',
+        'Custom herbicide formulations manufactured under your brand — selective & non-selective, SC/EC/WP/WDG types, OEM/ODM from 5-ton pilot, samples in 7–15 days. Factory direct from Qingdao, China.',
+      kicker: 'Series · Herbicide',
+      h1: 'Custom Herbicide Formulations — The Core Product Category For Crop Protection Brands',
       intro: [
-        'The all-around board is the workhorse of the SUP category: wide enough to feel stable for beginners, agile enough to keep intermediates interested, and light enough to carry anywhere. Most new brands and most rental fleets start here.',
-        'We manufacture all-around platforms under your brand from 90–100+ pcs per 150 m roll (volume), with pilot runs from 20–50 pcs. Shape, rails, layup, colors, full-board graphics and packaging are specified per project.',
+        'Herbicides are the workhorse of crop protection: the largest segment by volume, the default starting category for new brands and the backbone of most distributor catalogs. Whether selective post-emergence for cereals or non-selective glyphosate for broad-acre, herbicide demand is consistent and volume-driven.',
+        'We manufacture herbicide formulations under your brand from 20+ tons (standard volume), with pilot runs from 5 tons. Active ingredient, formulation type (SC, EC, WP, WDG, SL), adjuvant system, label design and packaging are specified per project.',
       ],
       faqs: [
         {
-          q: 'Can I customize an all-around SUP board for my brand?',
-          a: 'Yes. Every all-around platform is a manufacturing base — you specify dimensions (commonly 10′6″ to 11′6″), width, thickness, layup (single/dual-layer or fusion), rail configuration, EVA pad, full-board graphics and packaging. Custom-mould shapes start at 90–100+ pcs per shape; standard volume production from 90–100+ pcs per 150 m roll.',
+          q: 'Can I customize a herbicide formulation for my brand?',
+          a: 'Yes. Every herbicide project starts with your target crop, weed spectrum and market registration status. You specify the active ingredient, concentration, formulation type (SC, EC, WP, WDG, SL, ME), adjuvant package, label design and packaging. Custom formulations start at 5-ton pilot batches; standard volume production from 20+ tons per SKU.',
         },
         {
-          q: 'What is the MOQ for all-around SUP boards?',
-          a: 'Standard volume batches start at 90–100+ pcs per 150 m roll; pilot runs on standard platforms start at 20–50 pcs; full custom-moulding runs from 90–100+ pcs per shape. Samples ship in 7–12 days and bulk production runs 25–35 days after confirmed PO and deposit.',
+          q: 'What is the MOQ for herbicide formulations?',
+          a: 'Pilot batches start at 5 tons per formulation; standard volume production from 20+ tons per SKU. Sample batches (1–4 tons) are available for registration and field trial purposes. Samples ship in 7–15 days and bulk production runs 25–35 days after confirmed PO and deposit.',
         },
         {
-          q: 'What does the retail-ready package include?',
-          a: 'The complete package: inflatable board with drop-stitch core, adjustable paddle, hand pump (or electric dual-stage), repair kit, carry backpack and printed carton. Accessories can be swapped or upgraded per your target market.',
+          q: 'What formulation types are available for herbicides?',
+          a: 'Suspension concentrate (SC), emulsifiable concentrate (EC), wettable powder (WP), water-dispersible granule (WDG), soluble liquid (SL), micro-emulsion (ME) and capsule suspension (CS). The optimal type depends on the active ingredient, target application method and your market preference.',
         },
         {
-          q: 'What EVA deck hardness do you manufacture?',
-          a: 'Deck traction pads run 45–55 Shore C — medium-soft, grip-friendly underfoot without hardening in the sun. Thickness, grooves, cutouts and logo placement are specified per project.',
+          q: 'Do you provide herbicide registration documentation?',
+          a: 'Yes. We supply complete registration support packages: ICAMA certificates, FAO/WHO specification compliance, five-batch analysis, stability data, toxicology summaries and local registration dossiers. Documentation is tailored to your target market requirements.',
         },
       ],
     },
     {
-      slug: 'race',
-      navLabel: 'Race Platforms',
-      metaTitle: 'Custom Race SUP Boards — Inflatable Racing Platforms OEM | Agrospear',
+      slug: 'insecticide',
+      navLabel: 'Insecticide Formulations',
+      metaTitle: 'Custom Insecticide Formulations — OEM Crop Protection Manufacturer | Agrospear',
       metaDescription:
-        'Custom inflatable race SUP boards for clubs, events and brands — drop-stitch racing hulls, OEM volume from 90–100+ pcs, CE-certified production. Factory direct.',
-      kicker: 'Series · Race',
-      h1: 'Custom Race SUP Boards — Racing Hulls Manufactured For Your Brand',
+        'Custom insecticide formulations for crop protection brands — systemic & contact modes of action, SC/EC/CS/ME types, OEM volume from 5-ton pilot, factory direct from Qingdao.',
+      kicker: 'Series · Insecticide',
+      h1: 'Custom Insecticide Formulations — Crop Protection Solutions For Your Brand',
       intro: [
-        'Race boards trade stability for speed: longer, narrower profiles with refined nose shapes and low rocker, built for displacement paddling. The inflatable versions match hard-board race performance within a portable platform.',
-        'We produce race platforms for brands, clubs and event organizers with precision drop-stitch cores, race-spec layups and speed-oriented hull shapes — statistic-tested in our hydrodynamic test tank.',
+        'Insecticides are the second-largest crop protection segment and the fastest-growing in many tropical and subtropical markets. Systemic neonicotinoids, contact pyrethroids and novel modes of action each demand precise formulation expertise to deliver field performance and shelf stability.',
+        'We produce insecticide formulations under your brand with optimized adjuvant systems, proven stability profiles and registration-ready documentation — tested under accelerated and long-term storage conditions.',
       ],
       faqs: [
         {
-          q: 'What race SUP dimensions can you manufacture?',
-          a: 'Typical race platforms range from 12′6″ × 28″ for 12′6 race classes to 14′ × 23″–25″ for unlimited/Touring race formats. Width, rocker and nose profiles are specified to the target racer group and verified on a physical sample.',
+          q: 'What insecticide formulation types do you manufacture?',
+          a: 'Suspension concentrate (SC), emulsifiable concentrate (EC), capsule suspension (CS), micro-emulsion (ME), water-dispersible granule (WDG) and seed treatment (FS). Formulation type is selected based on the active ingredient properties, application method and target crop requirements.',
         },
         {
-          q: 'Do race boards require special construction?',
-          a: 'Yes — race boards use a lighter, tightly woven drop-stitch core with higher psi (18–20 PSI) and stiffer rail reinforcement to hold hull shape at speed. Layup choices (single vs double-layer) trade weight against stiffness, which we specify with you per project.',
+          q: 'Do insecticide formulations require special stability testing?',
+          a: 'Yes — insecticides with complex adjuvant systems (especially CS and ME) undergo 54°C/14-day accelerated stability and 2-year long-term storage testing at 25°C and 30°C. Stability data is included in registration documentation.',
         },
         {
-          q: 'Can clubs order race boards for their team?',
-          a: 'Yes. Club and team programs order from 90–100+ pcs (volume) with club graphics, and can mix race and training platforms in one order. Fleet pricing applies to combined volumes.',
+          q: 'Can I order insecticide formulations for specific pest complexes?',
+          a: 'Yes. Formulations are tailored to target pest spectrums — aphids, whitefly, bollworm, thrips, leafhopper, etc. — with the appropriate active ingredient, concentration and adjuvant package. Pre-mixtures and combination products are available.',
         },
       ],
     },
     {
-      slug: 'surf',
-      navLabel: 'Surf Platforms',
-      metaTitle: 'Custom Surf SUP Boards — Inflatable Hybrid Surf Platforms OEM | Agrospear',
+      slug: 'fungicide',
+      navLabel: 'Fungicide Formulations',
+      metaTitle: 'Custom Fungicide Formulations — OEM Crop Protection Manufacturer | Agrospear',
       metaDescription:
-        'Custom inflatable surf SUP boards — hybrid surf profiles with rounded rails and raised rocker, manufactured under your brand from 90–100+ pcs in Qingdao, China.',
-      kicker: 'Series · Surf',
-      h1: 'Custom Surf SUP Boards — Hybrid Surf Platforms For Wave Riding',
+        'Custom fungicide formulations for brands and distributors — protective & curative modes of action, SC/WP/WDG types, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+      kicker: 'Series · Fungicide',
+      h1: 'Custom Fungicide Formulations — Protective & Curative Solutions For Your Brand',
       intro: [
-        'Surf SUP boards bring wave performance to a portable platform: shorter lengths, higher rocker, rounded rails and concave noses that hold a line on the face of a wave. Inflatable surf shapes are the most forgiving way to introduce surf paddling.',
-        'We manufacture surf platforms under your brand with wave-specific shaping and construction details — from soft-top style complete packages to performance layups.',
+        'Fungicides are essential for high-value crops — fruits, vegetables, grapes and cereals — where disease pressure determines yield and quality. Both protective (pre-infection) and curative (post-infection) modes of action require precise formulation to deliver reliable field performance.',
+        'We manufacture fungicide formulations under your brand with optimized particle size distribution, proven suspension rates and registration-ready documentation for your target markets.',
       ],
       faqs: [
         {
-          q: 'What sizes are available for surf SUP boards?',
-          a: 'Common surf platforms run 8′6″ to 10′6″ with widths around 30″–34″. Length, rocker and rail profile are specified per rider weight and wave type, and verified on a physical sample before production.',
+          q: 'What fungicide formulation types are available?',
+          a: 'Suspension concentrate (SC), wettable powder (WP), water-dispersible granule (WDG), emulsifiable concentrate (EC) and micro-emulsion (ME). SC and WDG are the most common for modern fungicides due to ease of handling and reduced dust exposure.',
         },
         {
-          q: 'Are inflatable surf boards durable enough for rental?',
-          a: 'With reinforced rails and UV-resistant PVC, our surf platforms handle rental and instructional use at surf schools. Rental fleets typically combine all-around and surf shapes — fleet pricing applies across the mixed volume.',
+          q: 'What makes a good fungicide SC formulation?',
+          a: 'Fine particle size (D90 < 5 μm), high suspension rate (>90% after 30 min), no sedimentation after thermal cycling, and consistent viscosity for accurate dosing. Our SC fungicides are tested to these standards with batch-level QC data.',
         },
         {
-          q: 'Can you match our brand graphics on surf boards?',
-          a: 'Yes. Full-board deck graphics, bottom art, EVA traction pads and packaging are produced from your artwork or developed from your brand assets by our design team.',
+          q: 'Can I get fungicide formulations for specific crop-disease combinations?',
+          a: 'Yes. We formulate for target crop-disease pairs: powdery mildew on cereals, downy mildew on grapes, blight on potatoes, rust on soybeans, etc. Active ingredient selection and adjuvant system are optimized per disease and application timing.',
         },
       ],
     },
     {
-      slug: 'touring',
-      navLabel: 'Touring Platforms',
-      metaTitle: 'Custom Touring SUP Boards — Long-Distance Platforms OEM | Agrospear',
+      slug: 'pgr',
+      navLabel: 'Plant Growth Regulators',
+      metaTitle: 'Custom Plant Growth Regulator Formulations — OEM Manufacturer | Agrospear',
       metaDescription:
-        'Custom inflatable touring SUP boards for long-distance paddling — 12′6″+ displacement hulls, multi-day trip capability, OEM volume from 90–100+ pcs, factory direct.',
-      kicker: 'Series · Touring',
-      h1: 'Custom Touring SUP Boards — Built For Distance, Carrying Loads, Covering Ground',
+        'Custom PGR formulations for crop protection brands — gibberellins, auxins, ethylene regulators, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+      kicker: 'Series · PGR',
+      h1: 'Custom Plant Growth Regulator Formulations — Growth Management For Your Brand',
       intro: [
-        'Touring boards are long and efficient: pointed noses for glide, moderate volume for stability on open water, and enough hull length to carry gear on multi-day trips. They are the platform of choice for distance paddlers and expedition outfitters.',
-        'We produce touring platforms under your brand with displacement shaping, attachment points and deck space for cargo, and carbon-compatible accessory ecosystems (bungees, D-rings, mounts).',
+        'Plant growth regulators (PGRs) are high-value, low-volume products that manage plant architecture, fruit set, ripening and stress tolerance. They command premium pricing and are a strategic category for brands targeting fruit, vegetable and row-crop markets.',
+        'We manufacture PGR formulations under your brand with precise concentration control, stability-validated adjuvant systems and formulation types matched to application requirements.',
       ],
       faqs: [
         {
-          q: 'What touring SUP sizes do you manufacture?',
-          a: 'Touring platforms typically run 12′6″ to 14′ with widths of 28″–32″. Longer 14′ hulls prioritize glide; wider versions add cargo stability. Specs are confirmed with a physical sample before bulk production.',
+          q: 'What PGR active ingredients do you formulate?',
+          a: 'Gibberellic acid (GA3), gibberellin A4+A7, paclobutrazol, uniconazole, ethephon, chlormequat, mepiquat chloride, forchlorfenuron (CPPU), brassinolide, triacontanol and auxin-based products. Custom combinations are available.',
         },
         {
-          q: 'Do touring boards come with cargo and attachment options?',
-          a: 'Yes — bungee cargo nets, D-ring grids, rod mounts and accessory track systems are specified per project. Touring packages commonly pair boards with backpack-style bags and high-pressure pumps.',
+          q: 'What is the MOQ for PGR formulations?',
+          a: 'Due to lower application rates, PGR pilot batches start at 1–5 tons depending on the active ingredient and concentration. Standard volume from 5+ tons per SKU. Sample batches for registration from 500 kg.',
         },
         {
-          q: 'Do you supply touring boards for outfitters and rental operators?',
-          a: 'Yes. Outfitters and operators can run dedicated touring fleets from 20–50 pcs (pilot) with fleet pricing, replacement parts and a defined seasonal refresh cycle.',
+          q: 'Do PGR formulations require special handling?',
+          a: 'Yes — many PGRs are effective at very low concentrations (ppm levels), so formulation precision and homogeneity are critical. We test active content uniformity per batch and provide certificate of analysis with every shipment.',
         },
       ],
     },
     {
-      slug: 'yoga',
-      navLabel: 'Yoga Platforms',
-      metaTitle: 'Custom Yoga SUP Boards — Wide Stable Platforms OEM | Agrospear',
+      slug: 'seed-treatment',
+      navLabel: 'Seed Treatment Formulations',
+      metaTitle: 'Custom Seed Treatment Formulations — FS Flowable Concentrate OEM | Agrospear',
       metaDescription:
-        'Custom inflatable yoga SUP boards — extra-wide stable platforms with soft decks for studios, resorts and instructors. OEM volume from 90–100+ pcs, factory direct.',
-      kicker: 'Series · Yoga',
-      h1: 'Custom Yoga SUP Boards — Extra-Wide Platforms For Practice On Water',
+        'Custom seed treatment (FS) formulations for brands and seed companies — flowable concentrates for coating, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+      kicker: 'Series · Seed Treatment',
+      h1: 'Custom Seed Treatment Formulations — Flowable Concentrates For Seed Coating',
       intro: [
-        'Yoga boards are built for stillness: extra width and volume for a stable platform, plush soft-tops for hands and feet, and low profiles that keep the board close to the water. They serve studios, resorts and instructors running water-yoga programs.',
-        'We manufacture yoga platforms under your brand with the widest stable profiles, premium EVA decking and program-scale options for studios and resort fleets.',
+        'Seed treatment is the fastest-growing application method in crop protection: precise dosing, reduced environmental exposure and early-season protection make it the preferred technology for cereals, corn, soybeans and cotton. The FS (flowable concentrate for seed treatment) formulation type is the global standard.',
+        'We manufacture FS formulations under your brand with optimized viscosity for seed-coating equipment, proven film uniformity and registration-ready documentation for seed-company and brand customers.',
       ],
       faqs: [
         {
-          q: 'What makes a SUP board good for yoga?',
-          a: 'Stability first: extra width (33″–36″) and volume keep the board flat and steady. A soft-touch EVA deck protects hands, knees and feet, and a low-profile rail reduces wobble when stepping on and off.',
+          q: 'What seed treatment formulation types do you produce?',
+          a: 'Flowable concentrate for seed treatment (FS) is the primary type — optimized for slurry treaters and film-coating equipment. We also produce seed treatment dusts (DS) and water-dispersible powders (WS) for specific crop and equipment requirements.',
         },
         {
-          q: 'Can resorts order yoga boards as part of a fleet?',
-          a: 'Yes. Resorts commonly mix yoga platforms with all-around guest boards. Combined fleet volumes qualify for fleet pricing, and branded graphics in the property palette apply across the whole order.',
+          q: 'What active ingredients are used in seed treatments?',
+          a: 'Insecticide seed treatments: imidacloprid, thiamethoxam, clothianidin, fipronil. Fungicide seed treatments: metalaxyl-M, fludioxonil, sedaxane, trifloxystrobin, tebuconazole. Combination seed treatments (insecticide + fungicide) are our most requested category.',
         },
         {
-          q: 'Do yoga boards include complete packages?',
-          a: 'Yes — inflatable board, paddle, pump, backpack and repair kit, or a pared-down kit for on-site storage (board + paddle + electric pump), as your program requires.',
+          q: 'Do you support seed companies with coating trials?',
+          a: 'Yes. We provide sample batches for coating trials on your seed lots and equipment, with viscosity, drying time and film uniformity data. Technical support for coating equipment calibration is available.',
         },
       ],
     },
     {
-      slug: 'whitewater',
-      navLabel: 'Whitewater Platforms',
-      metaTitle: 'Custom Whitewater SUP Boards — River & Rapid Platforms OEM | Agrospear',
+      slug: 'adjuvant',
+      navLabel: 'Adjuvants & Surfactants',
+      metaTitle: 'Custom Adjuvant & Surfactant Formulations — OEM Manufacturer | Agrospear',
       metaDescription:
-        'Custom inflatable whitewater SUP boards for rivers and rapids — short maneuverable hulls with reinforced impact construction. OEM volume from 90–100+ pcs in Qingdao, China.',
-      kicker: 'Series · Whitewater',
-      h1: 'Custom Whitewater SUP Boards — River Hulls Built To Take Hits',
+        'Custom adjuvant and surfactant formulations for crop protection brands — tank-mix partners, spreader-stickers, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+      kicker: 'Series · Adjuvants',
+      h1: 'Custom Adjuvant & Surfactant Formulations — Performance Enhancement For Your Brand',
       intro: [
-        'Whitewater boards are short, wide and tough: maneuverable hulls that turn on demand, high impact resistance for rail strikes, and heavy-duty construction for shallow riverbeds and rocky put-ins.',
-        'We manufacture whitewater platforms under your brand with reinforced seams, impact rails and river-specific shapes — built for schools, guides and river outfitters that run daily lessons and tours.',
+        'Adjuvants and surfactants enhance the performance of crop protection products: better coverage, improved rain-fastness, reduced drift and optimized tank-mix compatibility. They are a growing category for brands that want to offer complete spray programs.',
+        'We manufacture adjuvant formulations under your brand — non-ionic surfactants, organosilicone spreaders, crop oil concentrates, drift control agents and fertilizer-compatible tank-mix partners.',
       ],
       faqs: [
         {
-          q: 'What construction do whitewater boards need?',
-          a: 'Reinforced rails and over-seamed construction absorb rail strikes; thick PVC and multi-layer layups resist punctures from riverbeds. Double-chamber designs add float redundancy for remote rivers.',
+          q: 'What adjuvant types do you formulate?',
+          a: 'Non-ionic surfactants (NIS), organosilicone super-spreaders, crop oil concentrates (COC), methylated seed oils (MSO), drift control agents, deposition aids, rain-fastness agents and pH buffers. Custom blends for specific crop-spray combinations.',
         },
         {
-          q: 'Do you supply river outfitters and guide schools?',
-          a: 'Yes. Outfitters and guide schools run whitewater fleets from 20–50 pcs (pilot) with fleet pricing, heavy-duty repair kits and spare fin/valve components — typical for high-utilization river programs.',
+          q: 'Can adjuvants be co-branded with my pesticide line?',
+          a: 'Yes. Many brands package adjuvants as tank-mix partners alongside their pesticide formulations. We can match label design and packaging across your product line for a unified brand presentation.',
         },
         {
-          q: 'Can whitewater boards carry brand graphics?',
-          a: 'Yes — full-board graphics, logo placement and team colors are produced from your artwork. Tear-resistant print layers keep branding intact under hard use.',
+          q: 'What is the MOQ for adjuvant formulations?',
+          a: 'Pilot batches from 5 tons; standard volume from 20+ tons per SKU. Adjuvant formulations typically have simpler registration requirements, enabling faster market entry.',
         },
       ],
     },
     {
-      slug: 'fishing',
-      navLabel: 'Fishing Platforms',
-      metaTitle: 'Custom Fishing SUP Boards — OEM & Private Label | Agrospear',
+      slug: 'biopesticide',
+      navLabel: 'Biopesticide Formulations',
+      metaTitle: 'Custom Biopesticide Formulations — OEM Manufacturer | Agrospear',
       metaDescription:
-        'Custom inflatable fishing SUP boards with stability, weight capacity and accessory mounts — OEM/private label volume from 90–100+ pcs, factory-direct from Qingdao, China.',
-      kicker: 'Series · Fishing',
-      h1: 'Custom Fishing SUP Boards — Built With Anglers In Mind',
+        'Custom biopesticide formulations for brands — microbial and biochemical actives, stable SC/WP/OD types, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+      kicker: 'Series · Biopesticide',
+      h1: 'Custom Biopesticide Formulations — Biological Solutions For Your Brand',
       intro: [
-        'Fishing boards are stable casting platforms: wide and high-volume to carry the angler plus gear, with mounting systems for rod holders, coolers and tackle, and quiet construction for stealth approaches.',
-        'We manufacture fishing platforms under your brand with angler-specific features specified per project — from weekend-guerilla packages to full tournament setups.',
+        'Biopesticides are the fastest-growing segment in crop protection: driven by residue limits, export market requirements and integrated pest management programs. Both microbial (bacteria, fungi) and biochemical (plant extracts, semiochemicals) actives require specialized formulation expertise.',
+        'We manufacture biopesticide formulations under your brand with viability-preserving adjuvant systems, cold-chain-compatible production and registration support for organic and reduced-risk claims.',
       ],
       faqs: [
         {
-          q: 'What fishing SUP features can be specified?',
-          a: 'Mounting grids for rod holders and accessories, gear tracks, cooler straps, anchor points, and high-capacity boards up to 500 lbs for angler plus gear. Packages can include brand-label paddles, pumps and bags.',
+          q: 'What biopesticide formulation types do you produce?',
+          a: 'Suspension concentrate (SC) for microbial actives, wettable powder (WP) for spore-based products, oil dispersion (OD) for botanical extracts, and soluble liquid (SL) for biochemical actives. Formulation type is selected to preserve biological viability.',
         },
         {
-          q: 'What is the MOQ for fishing SUP OEM orders?',
-          a: 'Standard volume batches start at 90–100+ pcs per 150 m roll; pilot runs from 20–50 pcs on standard platforms; custom tooling runs from 90–100+ pcs per shape. Samples ship in 7–12 days; production runs 25–35 days after confirmed PO and deposit.',
+          q: 'How do you ensure microbial viability in biopesticide formulations?',
+          a: 'Cold-process production for temperature-sensitive strains, validated shelf-life testing under storage conditions, and batch-level CFU counts at manufacture and throughout the stability period. Cold-chain shipping options are available.',
         },
         {
-          q: 'Do you produce fishing boards for rental and guide operations?',
-          a: 'Yes. Guide and rental operations run fishing fleets with fleet pricing, replacement parts and repair kits sized to daily-use programs.',
+          q: 'Do biopesticides require different registration support?',
+          a: 'Yes. Biopesticides often qualify for reduced-risk or fast-track registration pathways in many markets. We provide the specific data packages required: strain identification, pathogenicity/toxicity data, non-target organism studies and efficacy trials.',
         },
       ],
     },
     {
-      slug: 'kids',
-      navLabel: 'Kids Platforms',
-      metaTitle: 'Custom Kids SUP Boards — Small Light Platforms OEM | Agrospear',
+      slug: 'mixture',
+      navLabel: 'Pre-Mixtures & Combinations',
+      metaTitle: 'Custom Pesticide Pre-Mixture Formulations — OEM Manufacturer | Agrospear',
       metaDescription:
-        'Custom kids inflatable SUP boards — shorter, lighter platforms with child-friendly decks designed for safety and fun. OEM volume from 90–100+ pcs, factory direct.',
-      kicker: 'Series · Kids',
-      h1: 'Custom Kids SUP Boards — Small, Light And Built For First Paddles',
+        'Custom pesticide pre-mixture and combination formulations — dual & triple AI products, SC/EC/WDG types, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+      kicker: 'Series · Pre-Mixtures',
+      h1: 'Custom Pre-Mixture Formulations — Multi-Mode-Of-Action Products For Your Brand',
       intro: [
-        'Kids boards are proportioned for young riders: shorter hulls, lighter weights, narrower widths sized to small bodies, and soft decks that forgive falls. They are the entry point for family brands, schools and rental fleets serving children.',
-        'We manufacture kids platforms under your brand in standard and junior sizes, with family-friendly package options.',
+        'Pre-mixtures (combination products with two or more active ingredients) are the highest-value segment in crop protection: they offer multi-mode-of-action convenience, resistance management and simplified spray programs. Most branded pesticide portfolios are built around combination products.',
+        'We manufacture pre-mixture formulations under your brand with validated compatibility, proven physical and chemical stability, and registration-ready documentation for combination products.',
       ],
       faqs: [
         {
-          q: 'What sizes do kids SUP boards come in?',
-          a: 'Typical kids platforms range from 7′ to 9′6″ with widths from 26″ to 30″ and weights around 7–9 kg (15–20 lbs). Size is matched to rider age and weight, verified on a physical sample before production.',
+          q: 'What pre-mixture combinations do you formulate?',
+          a: 'Insecticide + fungicide, dual-mode insecticide, dual-mode fungicide, and herbicide + safener combinations. Common examples: thiamethoxam + lambda-cyhalothrin SC, azoxystrobin + propiconazole SC, nicosulfuron + atrazine WDG. Custom AI pairs specified per project.',
         },
         {
-          q: 'Do you supply schools and youth programs?',
-          a: 'Yes — our kids platforms are a common component of school and youth program fleets, ordered alongside junior paddles and beginner accessories with program pricing.',
+          q: 'Are pre-mixture formulations more complex to develop?',
+          a: 'Yes. Compatibility between actives, adjuvant system design, and thermal stability of each component must be validated. Our R&D team performs compatibility screening before pilot production and provides stability data for the combined formulation.',
         },
         {
-          q: 'Can kids boards carry brand and character graphics?',
-          a: 'Yes. Full-board colorways, character artwork and logo placement are developed from your artwork or brand direction — printed with the same tear-resistant layers as adult boards.',
-        },
-      ],
-    },
-    {
-      slug: 'multi',
-      navLabel: 'Multi-Person Platforms',
-      metaTitle: 'Custom Multi-Person SUP Boards — Tandem & Family OEM | Agrospear',
-      metaDescription:
-        'Custom multi-person inflatable SUP boards for family recreation and group lessons — tandem, yard and party platforms. OEM volume from 90–100+ pcs, factory direct.',
-      kicker: 'Series · Multi-Person',
-      h1: 'Custom Multi-Person SUP Boards — Tandems, Yards And Party Platforms',
-      intro: [
-        'Multi-person boards open SUP to groups: tandems with extra paddle positions, yard boards for lounging, and party platforms that carry several riders. They anchor rental revenue at resorts, beaches and lake operations.',
-        'We manufacture multi-person platforms under your brand with the stability and volume profiles each use case demands.',
-      ],
-      faqs: [
-        {
-          q: 'What types of multi-person boards do you make?',
-          a: 'Tandems (two paddlers, ~13′–14′), yard boards (short, wide lounging platforms) and party platforms with high volume for 3–6 riders. Each type is specified to capacity, weight and intended use.',
-        },
-        {
-          q: 'Are multi-person boards a good rental investment?',
-          a: 'Yes — they command premium hourly rates with lower per-rider equipment cost, and keep groups together instead of splitting them across singles. Rental operators typically pair multi-person boards with all-around fleets.',
-        },
-        {
-          q: 'What is the capacity of a party platform?',
-          a: 'Capacity depends on dimensions and volume: typical yard and party platforms support 400–700 lbs and carry 3–6 riders depending on size and configuration. Specifications are confirmed on a physical sample before volume production.',
+          q: 'Do pre-mixtures require separate registration?',
+          a: 'In most markets, yes — a pre-mixture is a separate product requiring its own registration dossier. We provide the complete data package: five-batch analysis, accelerated and long-term stability, toxicity data and field efficacy for the combination product.',
         },
       ],
     },
   ],
   es: [
     {
-      slug: 'all-around',
-      navLabel: 'Plataformas polivalentes',
-      metaTitle: 'Tablas SUP polivalentes personalizadas — Fabricante OEM inflable | Agrospear',
+      slug: 'herbicide',
+      navLabel: 'Formulaciones de herbicida',
+      metaTitle: 'Formulaciones de herbicida personalizadas — Fabricante OEM/ODM de fitosanitarios | Agrospear',
       metaDescription:
-        'Tablas SUP hinchables polivalentes personalizadas bajo tu marca: estabilidad de tabla ancha, OEM/ODM en volumen desde 90–100+ uds., muestras en 7–12 días. Directo de fábrica en Qingdao, China.',
-      kicker: 'Serie · Polivalente',
-      h1: 'Tablas SUP polivalentes personalizadas — la plataforma de partida para nuevas marcas',
+        'Formulaciones de herbicida personalizadas bajo tu marca — selectivos y no selectivos, tipos SC/EC/WP/WDG, OEM/ODM desde piloto de 5 toneladas, muestras en 7–15 días. Directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Herbicida',
+      h1: 'Formulaciones de herbicida personalizadas — la categoría base para marcas de fitosanitarios',
       intro: [
-        'La tabla polivalente es la base de la categoría SUP: ancha para dar estabilidad a principiantes, ágil para mantener el interés de nivel intermedio y ligera para llevarla donde sea. La mayoría de las marcas nuevas y de las flotas de alquiler empiezan aquí.',
-        'Fabricamos plataformas polivalentes bajo tu marca desde 90–100+ uds. por rollo de 150 m (volumen), con pedidos piloto desde 20–50 uds. Forma, rails, capas, colores, gráficos a toda cubierta y embalaje se especifican por proyecto.',
+        'Los herbicidas son la categoría principal de la protección de cultivos: el mayor segmento por volumen, la categoría de partida por defecto para nuevas marcas y la base de la mayoría de los catálogos de distribuidores. Tanto si son selectivos de post-emergencia para cereales como no selectivos a base de glifosato para grandes superficies, la demanda de herbicidas es constante y por volumen.',
+        'Fabricamos formulaciones de herbicida bajo tu marca desde 20+ toneladas (volumen estándar), con pedidos piloto desde 5 toneladas. Ingrediente activo, tipo de formulación (SC, EC, WP, WDG, SL), sistema de coadyuvantes, diseño de etiqueta y embalaje se especifican por proyecto.',
       ],
       faqs: [
         {
-          q: '¿Puedo personalizar una tabla SUP polivalente para mi marca?',
-          a: 'Sí. Cada plataforma polivalente es una base de fabricación: especificas dimensiones (habitualmente 10\'6" a 11\'6"), ancho, grosor, capas (una/doble o fusión), configuración de rails, piso EVA, gráficos a toda cubierta y embalaje. Los diseños con molde a medida parten de 90–100+ uds. por diseño; la producción de volumen estándar, de 90–100+ uds. por rollo de 150 m.',
+          q: '¿Puedo personalizar una formulación de herbicida para mi marca?',
+          a: 'Sí. Cada proyecto de herbicida empieza con tu cultivo objetivo, espectro de malas hierbas y estado de registro en el mercado. Especificas el ingrediente activo, la concentración, el tipo de formulación (SC, EC, WP, WDG, SL, ME), el paquete de coadyuvantes, el diseño de etiqueta y el embalaje. Las formulaciones personalizadas parten de lotes piloto de 5 toneladas; la producción en volumen estándar, desde 20+ toneladas por SKU.',
         },
         {
-          q: '¿Cuál es el pedido mínimo para tablas SUP polivalentes?',
-          a: 'Los lotes de volumen estándar parten de 90–100+ uds. por rollo de 150 m; los pedidos piloto sobre plataformas estándar, de 20–50 uds.; el moldeo a medida se produce desde 90–100+ uds. por diseño. Las muestras salen en 7–12 días y la producción, en 25–35 días tras PO y depósito confirmados.',
+          q: '¿Cuál es el pedido mínimo para formulaciones de herbicida?',
+          a: 'Los lotes piloto parten de 5 toneladas por formulación; la producción en volumen estándar, desde 20+ toneladas por SKU. Los lotes de muestra (1–4 toneladas) están disponibles para registro y ensayos de campo. Las muestras salen en 7–15 días y la producción en 25–35 días tras PO y depósito confirmados.',
         },
         {
-          q: '¿Qué incluye el paquete completo listo para retail?',
-          a: 'El paquete completo: tabla hinchable con núcleo drop-stitch, remo ajustable, bomba manual (o doble etapa eléctrica), kit de reparación, bolsa de transporte y caja impresa. Los accesorios se cambian o mejoran según tu mercado objetivo.',
+          q: '¿Qué tipos de formulación de herbicida están disponibles?',
+          a: 'Concentrado en suspensión (SC), concentrado emulsionable (EC), polvo mojable (WP), gránulo dispersable en agua (WDG), líquido soluble (SL), microemulsión (ME) y suspensión encapsulada (CS). El tipo óptimo depende del ingrediente activo, el método de aplicación y la preferencia del mercado.',
         },
         {
-          q: '¿Qué dureza de piso EVA fabricáis?',
-          a: 'Las alfombrillas van de 45–55 Shore C: dureza media-blanda, con buen agarre sin endurecerse con el sol. Grosor, ranuras, recortes y colocación del logo se especifican por proyecto.',
+          q: '¿Proporcionáis documentación de registro de herbicidas?',
+          a: 'Sí. Suministramos paquetes completos de apoyo al registro: certificados ICAMA, cumplimiento de especificaciones FAO/OMS, análisis de cinco lotes, datos de estabilidad, resúmenes toxicológicos y expedientes de registro local. La documentación se adapta a los requisitos de tu mercado objetivo.',
         },
       ],
     },
     {
-      slug: 'race',
-      navLabel: 'Plataformas de competición',
-      metaTitle: 'Tablas SUP de competición personalizadas — Plataformas de carrera OEM | Agrospear',
+      slug: 'insecticide',
+      navLabel: 'Formulaciones de insecticida',
+      metaTitle: 'Formulaciones de insecticida personalizadas — Fabricante OEM de fitosanitarios | Agrospear',
       metaDescription:
-        'Tablas SUP hinchables de competición personalizadas para clubs, eventos y marcas — cascos de carrera drop-stitch, OEM en volumen desde 90–100+ uds., producción certificada CE. Directo de fábrica.',
-      kicker: 'Serie · Competición',
-      h1: 'Tablas SUP de competición personalizadas — cascos de carrera fabricados para tu marca',
+        'Formulaciones de insecticida personalizadas para marcas de fitosanitarios — modos de acción sistémicos y de contacto, tipos SC/EC/CS/ME, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao.',
+      kicker: 'Serie · Insecticida',
+      h1: 'Formulaciones de insecticida personalizadas — soluciones fitosanitarias para tu marca',
       intro: [
-        'Las tablas de competición cambian estabilidad por velocidad: perfiles más largos y estrechos, con formas de proa refinadas y poco rocker, construidas para la pagayada de desplazamiento. Las versiones hinchables igualan el rendimiento de las rígidas dentro de una plataforma transportable.',
-        'Producimos plataformas de competición para marcas, clubs y organizadores de eventos con núcleos drop-stitch de precisión, capas de competición y formas de casco orientadas a la velocidad, probadas en nuestro canal hidrodinámico.',
+        'Los insecticidas son el segundo segmento más grande de la protección de cultivos y el de mayor crecimiento en muchos mercados tropicales y subtropicales. Las neonicotinoides sistémicas, los piretroides de contacto y los nuevos modos de acción exigen una experiencia precisa de formulación para asegurar el rendimiento en campo y la estabilidad en estante.',
+        'Producimos formulaciones de insecticida bajo tu marca con sistemas de coadyuvantes optimizados, perfiles de estabilidad probados y documentación lista para el registro — testados en condiciones aceleradas y de almacenamiento a largo plazo.',
       ],
       faqs: [
         {
-          q: '¿Qué dimensiones de SUP de competición pueden fabricarse?',
-          a: 'Las plataformas de competición van habitualmente de 12\'6" × 28" para la clase 12\'6 a 14\' × 23"–25" para los formatos Unlimited/Touring race. Ancho, rocker y perfil de proa se ajustan al grupo de remeros objetivo y se verifican en una muestra física.',
+          q: '¿Qué tipos de formulación de insecticida fabricáis?',
+          a: 'Concentrado en suspensión (SC), concentrado emulsionable (EC), suspensión encapsulada (CS), microemulsión (ME), gránulo dispersable en agua (WDG) y tratamiento de semillas (FS). El tipo de formulación se selecciona según las propiedades del ingrediente activo, el método de aplicación y los requisitos del cultivo.',
         },
         {
-          q: '¿Las tablas de competición requieren construcción especial?',
-          a: 'Sí: usan un núcleo drop-stitch más ligero y de tejido denso, mayores presiones (18–20 PSI) y refuerzos de rail más rígidos para mantener la forma del casco a velocidad. La elección de capas (una o doble) equilibra peso y rigidez, y la especificamos contigo en cada proyecto.',
+          q: '¿Las formulaciones de insecticida requieren pruebas de estabilidad especiales?',
+          a: 'Sí — los insecticidas con sistemas de coadyuvantes complejos (especialmente CS y ME) se someten a pruebas de estabilidad acelerada de 54 °C/14 días y almacenamiento a largo plazo de 2 años a 25 °C y 30 °C. Los datos de estabilidad se incluyen en la documentación de registro.',
         },
         {
-          q: '¿Pueden los clubs pedir tablas de competición para su equipo?',
-          a: 'Sí. Los programas de clubs y equipos piden desde 90–100+ uds. (volumen) con gráficos del club y pueden mezclar tablas de competición y entrenamiento en un mismo pedido. El precio de flota se aplica al volumen combinado.',
+          q: '¿Puedo pedir formulaciones de insecticida para complejos de plagas específicos?',
+          a: 'Sí. Las formulaciones se adaptan a los espectros de plagas objetivo — pulgones, mosca blanca, heliothis, trips, saltamontes, etc. — con el ingrediente activo, la concentración y el paquete de coadyuvantes adecuados. Pre-mezclas y productos combinados disponibles.',
         },
       ],
     },
     {
-      slug: 'surf',
-      navLabel: 'Plataformas de surf',
-      metaTitle: 'Tablas SUP de surf personalizadas — Plataformas híbridas inflables OEM | Agrospear',
+      slug: 'fungicide',
+      navLabel: 'Formulaciones de fungicida',
+      metaTitle: 'Formulaciones de fungicida personalizadas — Fabricante OEM de fitosanitarios | Agrospear',
       metaDescription:
-        'Tablas SUP hinchables de surf personalizadas — perfiles de surf híbridos con rails redondeados y rocker elevado, fabricadas bajo tu marca desde 90–100+ uds. en Qingdao, China.',
-      kicker: 'Serie · Surf',
-      h1: 'Tablas SUP de surf personalizadas — plataformas híbridas para cabalgar olas',
+        'Formulaciones de fungicida personalizadas para marcas y distribuidores — modos de acción protectores y curativos, tipos SC/WP/WDG, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Fungicida',
+      h1: 'Formulaciones de fungicida personalizadas — soluciones protectoras y curativas para tu marca',
       intro: [
-        'Las tablas de surf SUP aportan rendimiento de ola a una plataforma transportable: longitudes más cortas, más rocker, rails redondeados y concavidades de proa que mantienen la línea en la cara de la ola. Las formas de surf hinchables son la forma más accesible de iniciarse al surf con remo.',
-        'Fabricamos plataformas de surf bajo tu marca con formas y detalles de construcción específicos para olas, desde paquetes completos tipo soft-top hasta capas de rendimiento.',
+        'Los fungicidas son esenciales para cultivos de alto valor — frutas, hortalizas, viñedos y cereales — donde la presión de enfermedades determina el rendimiento y la calidad. Tanto los modos de acción protectores (pre-infección) como curativos (post-infección) requieren una formulación precisa para un rendimiento fiable en campo.',
+        'Fabricamos formulaciones de fungicida bajo tu marca con distribución de tamaño de partícula optimizada, tasas de suspensión probadas y documentación lista para el registro en tus mercados objetivo.',
       ],
       faqs: [
         {
-          q: '¿Qué tamaños de SUP de surf están disponibles?',
-          a: 'Las plataformas de surf habituales van de 8\'6" a 10\'6" con anchos de unos 30"–34". Longitud, rocker y perfil de rails se especifican según el peso del rider y el tipo de ola, y se verifican en una muestra física antes de producir.',
+          q: '¿Qué tipos de formulación de fungicida están disponibles?',
+          a: 'Concentrado en suspensión (SC), polvo mojable (WP), gránulo dispersable en agua (WDG), concentrado emulsionable (EC) y microemulsión (ME). SC y WDG son los más habituales para fungicidas modernos por su facilidad de manejo y menor exposición al polvo.',
         },
         {
-          q: '¿Las tablas de surf hinchables son duraderas para alquiler?',
-          a: 'Con rails reforzados y PVC anti-UV, nuestras plataformas de surf soportan uso de alquiler y de clases en escuelas de surf. Las flotas de alquiler combinan normalmente formas polivalentes y de surf — el precio de flota se aplica al volumen mixto.',
+          q: '¿Qué hace buena a una formulación SC de fungicida?',
+          a: 'Tamaño de partícula fino (D90 < 5 μm), tasa de suspensión alta (>90% tras 30 min), sin sedimentación tras ciclos térmicos y viscosidad consistente para una dosificación precisa. Nuestras formulaciones SC de fungicida se prueban según estos estándares con datos de QC por lote.',
         },
         {
-          q: '¿Pueden llevar los gráficos de mi marca?',
-          a: 'Sí. Gráficos a toda cubierta, arte de fondo, pisos EVA y embalaje se producen desde tu material gráfico o los desarrolla nuestro equipo de diseño a partir de los activos de tu marca.',
+          q: '¿Puedo obtener formulaciones de fungicida para combinaciones cultivo-enfermedad específicas?',
+          a: 'Sí. Formulamos para pares cultivo-enfermedad: oidio en cereales, mildiu en viñedos, tizón en patata, roya en soja, etc. La selección del ingrediente activo y el sistema de coadyuvantes se optimizan por enfermedad y momento de aplicación.',
         },
       ],
     },
     {
-      slug: 'touring',
-      navLabel: 'Plataformas de travesía',
-      metaTitle: 'Tablas SUP de travesía personalizadas — Plataformas de larga distancia OEM | Agrospear',
+      slug: 'pgr',
+      navLabel: 'Reguladores de crecimiento',
+      metaTitle: 'Formulaciones de reguladores de crecimiento personalizados — Fabricante OEM | Agrospear',
       metaDescription:
-        'Tablas SUP hinchables de travesía personalizadas para pagayadas de larga distancia — cascos de desplazamiento de 12\'6"+, capacidad para equipo, OEM en volumen desde 90–100+ uds.',
-      kicker: 'Serie · Travesía',
-      h1: 'Tablas SUP de travesía personalizadas — hechas para distancia, carga y terreno',
+        'Formulaciones de reguladores de crecimiento (PGR) personalizadas — giberelinas, auxinas, reguladores de etileno, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Reguladores de crecimiento',
+      h1: 'Formulaciones de reguladores de crecimiento personalizadas — gestión del crecimiento para tu marca',
       intro: [
-        'Las tablas de travesía son largas y eficientes: proas afiladas para el deslizamiento, volumen moderado para estabilidad en aguas abiertas y suficiente eslora para cargar equipo en salidas de varios días. Son la plataforma preferida de los remadores de distancia y los outfitters de expedición.',
-        'Producimos plataformas de travesía bajo tu marca con formas de desplazamiento, puntos de amarre y espacio de cubierta para carga, y ecosistemas de accesorios compatibles (elásticos, D-rings, soportes).',
+        'Los reguladores de crecimiento vegetal (PGR) son productos de alto valor y bajo volumen que gestionan la arquitectura de la planta, el cuajado del fruto, la maduración y la tolerancia al estrés. Tienen precios premium y son una categoría estratégica para marcas orientadas a frutales, hortalizas y cultivos extensivos.',
+        'Fabricamos formulaciones de PGR bajo tu marca con control preciso de concentración, sistemas de coadyuvantes validados en estabilidad y tipos de formulación adaptados a los requisitos de aplicación.',
       ],
       faqs: [
         {
-          q: '¿Qué tamaños de SUP de travesía fabricáis?',
-          a: 'Las plataformas de travesía suelen ir de 12\'6" a 14\' con anchos de 28"–32". Los cascos de 14\' priorizan el deslizamiento; las versiones más anchas añaden estabilidad para la carga. Las especificaciones se confirman con una muestra física antes de la producción.',
+          q: '¿Qué ingredientes activos de PGR formuláis?',
+          a: 'Ácido giberélico (GA3), giberelina A4+A7, paclobutrazol, uniconazol, etefón, clormecuat, cloruro de mepiquat, forclorfenurón (CPPU), brasinólido, triacontanol y productos a base de auxinas. Combinaciones personalizadas disponibles.',
         },
         {
-          q: '¿Las tablas de travesía llevan opciones de carga y amarre?',
-          a: 'Sí — redes elásticas de carga, rejillas de D-rings, soportes y raíles para accesorios se especifican por proyecto. Los paquetes de travesía suelen combinar con bolsas tipo mochila y bombas de alta presión.',
+          q: '¿Cuál es el MOQ para formulaciones de PGR?',
+          a: 'Por las dosis de aplicación más bajas, los lotes piloto de PGR parten de 1–5 toneladas según el ingrediente activo y la concentración. Volumen estándar desde 5+ toneladas por SKU. Lotes de muestra para registro desde 500 kg.',
         },
         {
-          q: '¿Suministráis tablas de travesía a outfitters y operadores de alquiler?',
-          a: 'Sí. Outfitters y operadores pueden gestionar flotas de travesía desde 20–50 uds. (piloto) con precio de flota, recambios y un ciclo definido de renovación estacional.',
+          q: '¿Las formulaciones de PGR requieren un manejo especial?',
+          a: 'Sí — muchos PGR son eficaces a concentraciones muy bajas (nivel de ppm), por lo que la precisión y homogeneidad de la formulación son críticas. Probamos la uniformidad del contenido activo por lote y proporcionamos certificado de análisis con cada envío.',
         },
       ],
     },
     {
-      slug: 'yoga',
-      navLabel: 'Plataformas de yoga',
-      metaTitle: 'Tablas SUP de yoga personalizadas — Plataformas anchas y estables OEM | Agrospear',
+      slug: 'seed-treatment',
+      navLabel: 'Tratamiento de semillas',
+      metaTitle: 'Formulaciones de tratamiento de semillas personalizadas — FS concentrado fluido OEM | Agrospear',
       metaDescription:
-        'Tablas SUP hinchables de yoga personalizadas — plataformas extra anchas con cubiertas blandas para estudios, resorts e instructores. OEM en volumen desde 90–100+ uds.',
-      kicker: 'Serie · Yoga',
-      h1: 'Tablas SUP de yoga personalizadas — plataformas extra anchas para practicar sobre el agua',
+        'Formulaciones de tratamiento de semillas (FS) personalizadas para marcas y empresas de semillas — concentrados fluidos para recubrimiento, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Tratamiento de semillas',
+      h1: 'Formulaciones de tratamiento de semillas personalizadas — concentrados fluidos para recubrimiento',
       intro: [
-        'Las tablas de yoga están hechas para la quietud: ancho y volumen extra para una plataforma estable, cubiertas blandas para manos y pies, y perfiles bajos que mantienen la tabla pegada al agua. Sirven a estudios, resorts e instructores de programas de yoga acuático.',
-        'Fabricamos plataformas de yoga bajo tu marca con los perfiles estables más anchos, decks de EVA premium y opciones de programa para estudios y flotas de resorts.',
+        'El tratamiento de semillas es el método de aplicación de mayor crecimiento en la protección de cultivos: dosificación precisa, menor exposición ambiental y protección temprana lo convierten en la tecnología preferida para cereales, maíz, soja y algodón. La formulación tipo FS (concentrado fluido para tratamiento de semillas) es el estándar global.',
+        'Fabricamos formulaciones FS bajo tu marca con viscosidad optimizada para equipos de recubrimiento, uniformidad de película probada y documentación lista para el registro para clientes de semillas y marcas.',
       ],
       faqs: [
         {
-          q: '¿Qué hace buena a una tabla SUP para yoga?',
-          a: 'Estabilidad ante todo: ancho extra (33"–36") y volumen mantienen la tabla plana y firme. Un deck de EVA con tacto suave protege manos, rodillas y pies, y un rail de perfil bajo reduce el balanceo al subir y bajar.',
+          q: '¿Qué tipos de formulación de tratamiento de semillas producís?',
+          a: 'El concentrado fluido para tratamiento de semillas (FS) es el tipo principal — optimizado para máquinas de slurizado y equipos de recubrimiento en película. También producimos polvos para tratamiento de semillas (DS) y polvos dispersables en agua (WS) para requisitos específicos de cultivo y equipo.',
         },
         {
-          q: '¿Los resorts pueden pedir tablas de yoga dentro de una flota?',
-          a: 'Sí. Los resorts combinan habitualmente plataformas de yoga con tablas polivalentes para huéspedes. Los volúmenes de flota combinados acceden al precio de flota, y la gráfica de marca en la paleta de la propiedad se aplica a todo el pedido.',
+          q: '¿Qué ingredientes activos se usan en tratamientos de semillas?',
+          a: 'Tratamientos insecticidas: imidacloprid, tiametoxam, clotianidina, fipronil. Tratamientos fungicidas: metalaxil-M, fludioxonil, sedaxano, trifloxistrobina, tebuconazol. Los tratamientos combinados (insecticida + fungicida) son nuestra categoría más solicitada.',
         },
         {
-          q: '¿Las tablas de yoga incluyen paquetes completos?',
-          a: 'Sí — tabla hinchable, remo, bomba, bolsa y kit de reparación, o un kit reducido para almacenamiento en el resort (tabla + remo + bomba eléctrica), según lo que requiera tu programa.',
+          q: '¿Apoyáis a empresas de semillas con ensayos de recubrimiento?',
+          a: 'Sí. Proporcionamos lotes de muestra para ensayos de recubrimiento en sus lotes de semillas y equipos, con datos de viscosidad, tiempo de secado y uniformidad de película. Disponible soporte técnico para calibración de equipos de recubrimiento.',
         },
       ],
     },
     {
-      slug: 'whitewater',
-      navLabel: 'Plataformas de aguas bravas',
-      metaTitle: 'Tablas SUP de aguas bravas personalizadas — Plataformas de río OEM | Agrospear',
+      slug: 'adjuvant',
+      navLabel: 'Coadyuvantes y tensioactivos',
+      metaTitle: 'Formulaciones de coadyuvantes y tensioactivos personalizados — Fabricante OEM | Agrospear',
       metaDescription:
-        'Tablas SUP hinchables de aguas bravas personalizadas para ríos y rápidos — cascos cortos y maniobrables con construcción de impacto reforzada. OEM en volumen desde 90–100+ uds.',
-      kicker: 'Serie · Aguas bravas',
-      h1: 'Tablas SUP de aguas bravas personalizadas — cascos de río hechos para golpes',
+        'Formulaciones de coadyuvantes y tensioactivos personalizadas — compañeros de mezcla en tanque, adherentes, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Coadyuvantes',
+      h1: 'Formulaciones de coadyuvantes y tensioactivos personalizados — mejora del rendimiento para tu marca',
       intro: [
-        'Las tablas de aguas bravas son cortas, anchas y resistentes: cascos maniobrables que giran a demanda, alta resistencia al impacto para los golpes contra los rails y construcción reforzada para lechos poco profundos y embarques rocosos.',
-        'Fabricamos plataformas de aguas bravas bajo tu marca con costuras reforzadas, rails de impacto y formas específicas de río, pensadas para escuelas, guías y outfitters que dan clases y tours a diario.',
+        'Los coadyuvantes y tensioactivos mejoran el rendimiento de los productos fitosanitarios: mejor cobertura, resistencia al lavado por lluvia, reducción de deriva y compatibilidad optimizada de la mezcla en tanque. Son una categoría en crecimiento para marcas que quieren ofrecer programas completos de pulverización.',
+        'Fabricamos formulaciones de coadyuvantes bajo tu marca — tensioactivos no iónicos, expansores organosiliconados, concentrados de aceite vegetal, agentes de control de deriva y compañeros de mezcla en tanque compatibles con fertilizantes.',
       ],
       faqs: [
         {
-          q: '¿Qué construcción necesitan las tablas de aguas bravas?',
-          a: 'Rails reforzados y costuras sobremoldeadas absorben los impactos contra las rocas; PVC grueso y capas múltiples resisten los pinchazos del lecho del río. Los diseños de doble cámara añaden reserva de flotación para ríos remotos.',
+          q: '¿Qué tipos de coadyuvantes formuláis?',
+          a: 'Tensioactivos no iónicos (NIS), expansores organosiliconados, concentrados de aceite vegetal (COC), aceites de semilla metilados (MSO), agentes de control de deriva, ayudas de depósito, agentes de resistencia a la lluvia y tampones de pH. Mezclas personalizadas para combinaciones cultivo-pulverización específicas.',
         },
         {
-          q: '¿Suministráis a outfitters de río y escuelas de guías?',
-          a: 'Sí. Outfitters y escuelas gestionan flotas de aguas bravas desde 20–50 uds. (piloto) con precio de flota, kits de reparación reforzados y componentes de repuesto (quillas, válvulas), habituales en programas de río de alto uso.',
+          q: '¿Los coadyuvantes pueden co-marcar con mi línea de fitosanitarios?',
+          a: 'Sí. Muchas marcas empaquetan coadyuvantes como compañeros de mezcla en tanque junto a sus formulaciones de pesticidas. Podemos coordinar el diseño de etiqueta y embalaje en toda tu línea de productos para una presentación de marca unificada.',
         },
         {
-          q: '¿Las tablas de aguas bravas pueden llevar gráficos de marca?',
-          a: 'Sí — gráficos a toda cubierta, colocación de logo y colores de equipo se producen desde tu material gráfico. Las capas de impresión anti-desgarro mantienen la marca intacta bajo uso intenso.',
+          q: '¿Cuál es el MOQ para formulaciones de coadyuvantes?',
+          a: 'Lotes piloto desde 5 toneladas; volumen estándar desde 20+ toneladas por SKU. Las formulaciones de coadyuvantes suelen tener requisitos de registro más simples, lo que permite una entrada más rápida al mercado.',
         },
       ],
     },
     {
-      slug: 'fishing',
-      navLabel: 'Plataformas de pesca',
-      metaTitle: 'Tablas SUP de pesca personalizadas — OEM y marca privada | Agrospear',
+      slug: 'biopesticide',
+      navLabel: 'Formulaciones de biopesticidas',
+      metaTitle: 'Formulaciones de biopesticidas personalizadas — Fabricante OEM | Agrospear',
       metaDescription:
-        'Tablas SUP hinchables de pesca personalizadas con estabilidad, capacidad de carga y soportes — OEM/marca privada en volumen desde 90–100+ uds., directo de fábrica en Qingdao, China.',
-      kicker: 'Serie · Pesca',
-      h1: 'Tablas SUP de pesca personalizadas — pensadas para pescadores',
+        'Formulaciones de biopesticidas personalizadas para marcas — activos microbianos y bioquímicos, tipos estables SC/WP/OD, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Biopesticidas',
+      h1: 'Formulaciones de biopesticidas personalizadas — soluciones biológicas para tu marca',
       intro: [
-        'Las tablas de pesca son plataformas de lanzado estables: anchas y de alto volumen para llevar al pescador más el equipo, con sistemas de fijación para porta-cañas, neveras y tack, y construcción silenciosa para accesos discretos.',
-        'Fabricamos plataformas de pesca bajo tu marca con características específicas para pescadores especificadas por proyecto — desde paquetes de fin de semana hasta montajes de torneo.',
+        'Los biopesticidas son el segmento de mayor crecimiento en la protección de cultivos: impulsados por los límites de residuos, los requisitos de los mercados de exportación y los programas de manejo integrado de plagas. Tanto los activos microbianos (bacterias, hongos) como bioquímicos (extractos vegetales, semioquímicos) requieren experiencia especializada en formulación.',
+        'Fabricamos formulaciones de biopesticidas bajo tu marca con sistemas de coadyuvantes que preservan la viabilidad, producción compatible con cadena de frío y apoyo al registro para declaraciones de producto orgánico y riesgo reducido.',
       ],
       faqs: [
         {
-          q: '¿Qué características de pesca pueden especificarse?',
-          a: 'Rejillas de fijación para porta-cañas y accesorios, raíles para equipo, correas de nevera, puntos de fondeo y tablas de alta capacidad hasta ~227 kg (500 lbs) para pescador más equipo. Los paquetes pueden incluir remos, bombas y bolsas con tu marca.',
+          q: '¿Qué tipos de formulación de biopesticidas producís?',
+          a: 'Concentrado en suspensión (SC) para activos microbianos, polvo mojable (WP) para productos a base de esporas, dispersión oleosa (OD) para extractos botánicos y líquido soluble (SL) para activos bioquímicos. El tipo de formulación se selecciona para preservar la viabilidad biológica.',
         },
         {
-          q: '¿Cuál es el pedido mínimo para OEM de tablas de pesca?',
-          a: 'Los lotes de volumen estándar parten de 90–100+ uds. por rollo de 150 m; los pedidos piloto, de 20–50 uds. sobre plataformas estándar; el utillaje a medida se produce desde 90–100+ uds. por diseño. Las muestras salen en 7–12 días y la producción en 25–35 días tras PO y depósito.',
+          q: '¿Cómo aseguráis la viabilidad microbiana en formulaciones de biopesticidas?',
+          a: 'Producción en proceso en frío para cepas sensibles a la temperatura, pruebas de vida útil validadas en condiciones de almacenamiento y recuentos de UFC por lote en el momento de fabricación y durante todo el periodo de estabilidad. Opciones de envío con cadena de frío disponibles.',
         },
         {
-          q: '¿Producís tablas de pesca para alquiler y operaciones de guía?',
-          a: 'Sí. Las operaciones de guía y alquiler gestionan flotas de pesca con precio de flota, recambios y kits de reparación ajustados a programas de uso diario.',
+          q: '¿Los biopesticidas requieren un apoyo diferente al registro?',
+          a: 'Sí. Los biopesticidas suelen acogerse a vías de registro de riesgo reducido o evaluación acelerada en muchos mercados. Proporcionamos los paquetes de datos específicos: identificación de cepa, datos de patogenicidad/toxicidad, estudios de organismos no objetivo y ensayos de eficacia.',
         },
       ],
     },
     {
-      slug: 'kids',
-      navLabel: 'Plataformas infantiles',
-      metaTitle: 'Tablas SUP infantiles personalizadas — Plataformas pequeñas y ligeras OEM | Agrospear',
+      slug: 'mixture',
+      navLabel: 'Pre-mezclas y combinaciones',
+      metaTitle: 'Formulaciones de pre-mezclas de pesticidas personalizadas — Fabricante OEM | Agrospear',
       metaDescription:
-        'Tablas SUP hinchables infantiles personalizadas — cascos más cortos y ligeros con cubiertas pensadas para niños, seguridad y diversión. OEM en volumen desde 90–100+ uds.',
-      kicker: 'Serie · Infantil',
-      h1: 'Tablas SUP infantiles personalizadas — pequeñas, ligeras y hechas para las primeras pagayadas',
+        'Formulaciones de pre-mezclas y combinaciones de pesticidas personalizadas — productos con 2-3 ingredientes activos, tipos SC/EC/WDG, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+      kicker: 'Serie · Pre-mezclas',
+      h1: 'Formulaciones de pre-mezclas personalizadas — productos multimodo para tu marca',
       intro: [
-        'Las tablas infantiles están proporcionadas para riders jóvenes: cascos más cortos, pesos más ligeros, anchos ajustados a cuerpos pequeños y cubiertas blandas que perdonan las caídas. Son la puerta de entrada para marcas familiares, escuelas y flotas de alquiler infantiles.',
-        'Fabricamos plataformas infantiles bajo tu marca en tamaños estándar y junior, con opciones de paquete adaptadas a la familia.',
+        'Las pre-mezclas (productos combinados con dos o más ingredientes activos) son el segmento de mayor valor en la protección de cultivos: ofrecen la comodidad de multimodo de acción, gestión de resistencias y programas de pulverización simplificados. La mayoría de los portfolios de pesticidas de marca se construyen en torno a productos combinados.',
+        'Fabricamos formulaciones de pre-mezcla bajo tu marca con compatibilidad validada, estabilidad física y química probada y documentación lista para el registro de productos combinados.',
       ],
       faqs: [
         {
-          q: '¿Qué tamaños de SUP infantil hay?',
-          a: 'Las plataformas infantiles van normalmente de 7\' a 9\'6" con anchos de 26" a 30" y pesos de unos 7–9 kg (15–20 lbs). El tamaño se ajusta a la edad y el peso del rider y se verifica con una muestra física antes de la producción.',
+          q: '¿Qué combinaciones de pre-mezcla formuláis?',
+          a: 'Insecticida + fungicida, insecticida de doble modo, fungicida de doble modo y combinaciones de herbicida + safener. Ejemplos habituales: tiametoxam + lambda-cialotrina SC, azoxistrobina + propiconazol SC, nicosulfuron + atrazina WDG. Pares de IA personalizados especificados por proyecto.',
         },
         {
-          q: '¿Suministráis a escuelas y programas juveniles?',
-          a: 'Sí: nuestras plataformas infantiles son un componente habitual de las flotas de escuelas y programas juveniles, pedidas junto con remos junior y accesorios de iniciación con precio de programa.',
+          q: '¿Las formulaciones de pre-mezcla son más complejas de desarrollar?',
+          a: 'Sí. La compatibilidad entre activos, el diseño del sistema de coadyuvantes y la estabilidad térmica de cada componente deben validarse. Nuestro equipo de I+D realiza cribados de compatibilidad antes de la producción piloto y proporciona datos de estabilidad para la formulación combinada.',
         },
         {
-          q: '¿Las tablas infantiles pueden llevar gráficos de marca y personajes?',
-          a: 'Sí. Colorways a toda cubierta, arte de personajes y colocación de logo se desarrollan desde tu material gráfico o dirección de marca, impresos con las mismas capas anti-desgarro que las tablas de adultos.',
-        },
-      ],
-    },
-    {
-      slug: 'multi',
-      navLabel: 'Plataformas multipersona',
-      metaTitle: 'Tablas SUP multipersona personalizadas — Tándem y familia OEM | Agrospear',
-      metaDescription:
-        'Tablas SUP hinchables multipersona personalizadas para recreo familiar y clases en grupo — plataformas tándem, yard y party. OEM en volumen desde 90–100+ uds.',
-      kicker: 'Serie · Multipersona',
-      h1: 'Tablas SUP multipersona personalizadas — tándems, yard y plataformas party',
-      intro: [
-        'Las tablas multipersona abren el SUP a los grupos: tándems con posiciones extra de pagayada, tablas yard para descansar y plataformas party para varios riders. Sostienen los ingresos de alquiler en resorts, playas y operaciones de lago.',
-        'Fabricamos plataformas multipersona bajo tu marca con los perfiles de estabilidad y volumen que exige cada uso.',
-      ],
-      faqs: [
-        {
-          q: '¿Qué tipos de tablas multipersona fabricáis?',
-          a: 'Tándems (dos remeros, ~13\'–14\'), tablas yard (plataformas cortas y anchas para descanso) y plataformas party de alto volumen para 3–6 riders. Cada tipo se especifica por capacidad, peso y uso previsto.',
-        },
-        {
-          q: '¿Las tablas multipersona son buena inversión de alquiler?',
-          a: 'Sí: permiten tarifas por hora superiores con menor coste por rider y mantienen a los grupos juntos en lugar de repartirlos entre tablas individuales. Los operadores suelen combinar tablas multipersona con flotas polivalentes.',
-        },
-        {
-          q: '¿Cuál es la capacidad de una plataforma party?',
-          a: 'La capacidad depende de dimensiones y volumen: las plataformas yard y party habituales soportan 180–320 kg (400–700 lbs) y llevan de 3 a 6 riders según tamaño y configuración. Las especificaciones se confirman con una muestra física antes de la producción en volumen.',
+          q: '¿Las pre-mezclas requieren un registro separado?',
+          a: 'En la mayoría de los mercados, sí — una pre-mezcla es un producto independiente que requiere su propio expediente de registro. Proporcionamos el paquete de datos completo: análisis de cinco lotes, estabilidad acelerada y a largo plazo, datos de toxicidad y eficacia de campo para el producto combinado.',
         },
       ],
     },

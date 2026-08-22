@@ -17,6 +17,7 @@ export const ENTITY_PAGE_PATH = '/about/agrospear-entity' as const
 export const ABOUT_BRAND_PATH = '/about/agrospear' as const
 
 export const LEGACY_REDIRECTS: Record<string, string> = {
+  '/about/supsfactory-entity': '/about/agrospear-entity',
   '/about/agrospear-brand': '/about',
   '/agrospear-story': ABOUT_BRAND_PATH,
   '/brand-global-presence': '/about',
