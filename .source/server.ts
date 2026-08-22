@@ -1,0 +1,26 @@
+// @ts-nocheck
+/// <reference types="vite/client" />
+import { server } from 'fumadocs-mdx/runtime/server';
+import type * as Config from '../source.config';
+
+const create = server<typeof Config, import("fumadocs-mdx/runtime/types").InternalTypeConfig & {
+  DocData: {
+  }
+}>();
+
+export const docs = await create.docs("docs", "src/content/docs", import.meta.glob(["./**/*.{json,yaml}"], {
+  "base": "./../src/content/docs",
+  "query": "?collection=docs",
+  "import": "default",
+  "eager": true
+}), import.meta.glob(["./**/*.{mdx,md}"], {
+  "base": "./../src/content/docs",
+  "query": "?collection=docs",
+  "eager": true
+}));
+
+export const changelog = await create.doc("changelog", "src/content/changelog", import.meta.glob(["./**/*.{mdx,md}"], {
+  "base": "./../src/content/changelog",
+  "query": "?collection=changelog",
+  "eager": true
+}));
