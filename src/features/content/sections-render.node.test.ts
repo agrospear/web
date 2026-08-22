@@ -42,7 +42,7 @@ test('/quality renders all 7 inspection gates and the documentation samples', ()
     'Project Quality Planning (PPM)',
     'Incoming Material Inspection (IQC)',
     'In-Process Control &amp; First Article (IPQC / FAI)',
-    'Inflation &amp; Air-Tightness Testing',
+    'Formulation Quality &amp; Stability Testing',
     'Final Product Inspection (FQC)',
     'Packaging &amp; Pre-Shipment Inspection (PSI)',
     'Shipment Release &amp; Traceability',

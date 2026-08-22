@@ -1,129 +1,130 @@
 meta:
-  title: 'Laboratorio de calidad: ensayos y garantía de calidad | {SITE}'
-  description: 'Laboratorio de calidad con procesos ISO 9001 en Agrospear: cada unidad se prueba antes del envío para garantizar la calidad de las tablas SUP hinchables.'
+  title: 'Laboratorio de calidad: ensayos y garantia de calidad | {SITE}'
+  description: 'Laboratorio de calidad con procesos ISO 9001 en Agrospear: cada lote se prueba para contenido activo, estabilidad y cumplimiento de especificacion antes del envio.'
   dateModified: '2026-08-07'
   keywords:
-    - 'control de calidad sup'
-    - 'laboratorio de pruebas de paddle boards'
-    - 'fábrica de sup iso 9001'
-    - 'calidad sup hinchable'
+    - 'control de calidad agroquimicos'
+    - 'laboratorio de pruebas agroquimicas'
+    - 'fabrica de agroquimicos iso 9001'
+    - 'calidad proteccion de cultivos'
 hero:
   tagline: Laboratorio de control de calidad
-  title: Laboratorio de ensayos y garantía de calidad
-  subtitle: 'Laboratorio de calidad independiente con procesos ISO 9001: cada unidad se prueba antes del envío'
+  title: Laboratorio de ensayos y garantia de calidad
+  subtitle: 'Laboratorio de calidad independiente con procesos ISO 9001: cada lote se prueba antes del envio'
 
 answer:
   label: 'Respuesta directa'
-  text: 'El 100% de las unidades se prueban a presión a 18,0 PSI durante 24 horas, con rechazo automático al superar 0,50 PSI de caída de presión. Los lotes de tejido crudo se verifican según ASTM D751 e ISO 4674, y las pruebas de pelado de soldaduras se realizan cada 50 unidades con un muestreo final AQL 2.5 según ISO 2859.'
+  text: 'El 100% de los lotes se analizan para contenido activo por HPLC/GC, suspensibilidad (CIPAC MT 15) y estabilidad acelerada a 54 C durante 14 dias (CIPAC MT 46), con rechazo automatico si la desviacion del contenido activo supera ±2%. Los lotes de materia prima se verifican mediante certificado de analisis y prueba de identidad, y los controles en proceso se realizan en cada etapa de produccion con muestreo final AQL 2.5 segun ISO 2859.'
   verified: '2026-08'
 
-intro: Agrospear opera un laboratorio de control de calidad dedicado que trabaja de forma independiente de la producción. Cada lote de materia prima y cada tabla de SUP terminada pasa por protocolos de inspección documentados antes de su liberación. Nuestro equipo de control de calidad informa directamente a la dirección, lo que garantiza decisiones de calidad imparciales.
+intro: Agrospear opera un laboratorio de control de calidad dedicado que trabaja de forma independiente de la produccion. Cada lote de materia prima y cada formulacion agroquimica terminada pasa por protocolos de inspeccion documentados antes de su liberacion. Nuestro equipo de control de calidad informa directamente a la direccion, lo que garantiza decisiones de calidad imparciales.
 
 highlights:
   - value: 100%
-    label: Unidades probadas a presión
-    detail: Cada cámara, cada tabla
-  - value: 24 h
-    label: Duración de la prueba de retención de aire
-    detail: A 18,0 PSI de presión nominal
-  - value: '&lt;5%'
-    label: Caída de presión máxima permitida
-    detail: En un periodo de mantenimiento de 24 horas
+    label: Lotes analizados
+    detail: Cada materia prima, cada producto terminado
+  - value: 14 d
+    label: Duracion de la prueba de estabilidad acelerada
+    detail: A 54 C segun CIPAC MT 46
+  - value: ±2%
+    label: Desviacion maxima de contenido activo
+    detail: Sobre el rango de especificacion
   - value: AQL 2.5
     label: Umbral de defectos graves
-    detail: Según el muestreo ISO 2859
+    detail: Segun el muestreo ISO 2859
 
 test_procedures:
-  - title: Inspección de materiales primas
-    description: Cada lote entrante de PVC, Hypalon, tejido drop-stitch y herrajes se prueba antes de su aceptación. Se verifican la resistencia a la tracción (ASTM D751), la resistencia al desgarro (ISO 4674) y la resistencia a los rayos UV. Los materiales no conformes se ponen en cuarentena y se devuelven.
+  - title: Inspeccion de materias primas
+    description: Cada lote entrante de ingrediente activo, disolvente, tensioactivo, coadyuvante y componente de embalaje se prueba antes de su aceptacion. Se verifican el contenido activo por HPLC/GC, la humedad, el tamano de particula, el pH y la confirmacion de identidad. Los materiales no conformes se ponen en cuarentena y se devuelven.
     standards:
-      - ASTM D751 (tracción)
-      - ISO 4674 (desgar)
-      - ISO 4892 (UV)
+      - HPLC/GC (contenido activo)
+      - CIPAC MT 15 (suspensibilidad)
+      - ICAMA/FAMI-QS (identidad)
   - title: Puntos de control de calidad en proceso
-    description: Los operadores de producción realizan autoinspecciones en cada etapa. Los auditores de control de calidad realizan muestreos aleatorios durante todo el turno. Las pruebas de pelado de costuras se realizan cada 50 unidades. Las comprobaciones dimensionales se realizan en el vigésimo panel.
+    description: Los operadores de produccion realizan autoinspecciones en cada etapa. Los auditores de control de calidad realizan muestreos aleatorios durante todo el turno. Los controles de contenido activo se realizan tras la elaboracion. Los controles de tamano de particula y viscosidad se realizan tras la molienda. La verificacion de peso de llenado y par de apriete tras el llenado.
     standards:
-      - ASTM D751 (pelado)
+      - CIPAC MT 15 (suspensibilidad)
       - Lista de control interna de 100 puntos
       - Muestreo ISO 2859
-  - title: Prueba de retención de aire de 24 horas
-    description: Cada cámara del tubo se infla a 18,0 PSI y se mantiene durante 24 horas. Los sensores de presión registran de forma continua con compensación de temperatura. Cualquier cámara que supere una caída de presión de 0,50 PSI activa una reinspección automática del lote.
+  - title: Prueba de estabilidad acelerada a 54 C
+    description: Cada lote de formulacion se mantiene a 54 C durante 14 dias segun CIPAC MT 46. Se analiza el contenido activo, la suspensibilidad, la estabilidad de emulsion, el pH y el aspecto antes y despues. Cualquier lote que presente sedimentacion, separacion de fases o degradacion del contenido activo mas alla de la tolerancia activa una reinspeccion automatica del lote.
     standards:
-      - ISO 6185
-      - CE 2013/53/EU
-  - title: Pruebas de carga y equilibrio
-    description: Las tablas terminadas se prueban a su capacidad máxima nominal de estabilidad, francobordo y manejo. Cada tabla se prueba en el agua antes de la aprobación de la inspección final.
+      - CIPAC MT 46 (estabilidad)
+      - Especificaciones FAO/OMS
+  - title: Verificacion final de especificacion
+    description: Las formulaciones terminadas se analizan contra la especificacion completa del proyecto — contenido activo, suspensibilidad, estabilidad de emulsion, pH, viscosidad, tamano de particula y aspecto. Cada lote se somete a verificacion analitica completa antes de la aprobacion de inspeccion final.
     standards:
-      - ISO 12217
-      - CE 2013/53/EU
+      - CIPAC MT 36 (emulsion)
+      - CIPAC MT 75 (tamano de particula)
+      - Especificaciones FAO/OMS
 
 equipment:
-  - name: Máquina de ensayos universal (tracción)
-    spec: '5 kN, conforme a ASTM D751'
-  - name: Analizador de caída de presión
-    spec: 'Multicanal, 0–50 psi, registro de datos'
-  - name: Cámara de envejecimiento UV
-    spec: 'ISO 4892, ciclos de 1.000 h'
-  - name: Calibre de grosor (digital)
-    spec: 'Resolución de 0,01 mm'
-  - name: Comprobador de pelado (soldaduras)
-    spec: 'Motorizado, capacidad de 50 N'
-  - name: Cámara de temperatura
-    spec: '-40 °C a +100 °C'
-  - name: Tanque de detección de fugas
-    spec: '6 m × 2 m, iluminado'
+  - name: Sistema HPLC (contenido activo)
+    spec: 'Detector UV/DAD, metodos validados segun CIPAC'
+  - name: Sistema GC (AI volatil)
+    spec: 'Detector FID/ECD, capacidad de headspace'
+  - name: Camara de estabilidad
+    spec: '54 C ±2 C, conforme a CIPAC MT 46'
+  - name: Analizador de tamano de particula (difraccion laser)
+    spec: 'Rango 0,01–3.500 µm'
+  - name: Medidor de pH (calibrado)
+    spec: 'Resolucion ±0,01, compensacion de temperatura'
+  - name: Viscosimetro (rotacional)
+    spec: 'Rango 0,3–6.000 mPa·s'
+  - name: Aparato de prueba de suspensibilidad
+    spec: 'Conforme a CIPAC MT 15'
 
 lab_evidence:
   tagline: Dosieres de informes de ensayo
   title: 'Descarga los informes de ensayo de laboratorio reales'
-  subtitle: 'Los mismos registros controlados bilingües contra los que cierra nuestro equipo de calidad — estructura, métodos, criterios y resultados, con los campos confidenciales eliminados. Cada dosier corresponde a una de las siete puertas de inspección.'
+  subtitle: 'Los mismos registros controlados bilingues contra los que cierra nuestro equipo de calidad — estructura, metodos, criterios y resultados, con los campos confidenciales eliminados. Cada dosier corresponde a una de las siete puertas de inspeccion.'
   items:
     - title: 'IQC — Informes de materiales entrantes'
-      description: 'Verificación de tejido, rollos de PVC, válvulas y componentes contra la especificación aprobada.'
+      description: 'Verificacion de ingrediente activo, disolvente, tensioactivo y componentes contra la especificacion aprobada.'
       icon: tabler:file-certificate
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Descargar informes IQC (PDF)'
     - title: 'IPQC — Informes en proceso y de primera pieza'
-      description: 'Registros de primera pieza e inspección en proceso contra la revisión bloqueada.'
+      description: 'Registros de primera pieza e inspeccion en proceso contra la revision bloqueada.'
       icon: tabler:file-check
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Descargar informes IPQC (PDF)'
-    - title: 'Estanqueidad — Registros de presión y fugas'
-      description: 'Detección de fugas al 100% de las costuras, integridad de válvulas y retención de presión de 24 h.'
+    - title: 'Estabilidad — Registros acelerados y de vida util'
+      description: 'Estabilidad acelerada a 54 C del 100% de los lotes, suspensionibilidad y verificacion de contenido activo.'
       icon: tabler:waves
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
-      link_label: 'Descargar informes de estanqueidad (PDF)'
-    - title: 'FQC — Informes de prueba final de la tabla'
-      description: 'Inspección final contra la muestra aprobada — dimensiones, cosmética y caja de quillas.'
+      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_STABILITY_TEST_REPORTS.pdf
+      link_label: 'Descargar informes de estabilidad (PDF)'
+    - title: 'FQC — Informes de prueba final del producto'
+      description: 'Inspeccion final contra la muestra aprobada — contenido activo, propiedades fisicas y cumplimiento de especificacion.'
       icon: tabler:shield-check
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Descargar informes FQC (PDF)'
     - title: 'PSI — Informes de embalaje y pre-embarque'
-      description: 'Registros de integridad del kit, grado de código de barras, marcas de caja y resistencia a caídas.'
+      description: 'Registros de integridad del kit, grado de codigo de barras, marcas de caja y resistencia a caidas.'
       icon: tabler:package
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Descargar informes PSI (PDF)'
-    - title: 'Liberación de envío y dosier de trazabilidad'
-      description: 'Autorización de liberación y trazabilidad de lote vinculada a especificación, arte y BOM.'
+    - title: 'Liberacion de envio y dosier de trazabilidad'
+      description: 'Autorizacion de liberacion y trazabilidad de lote vinculada a especificacion, etiqueta y BOM.'
       icon: tabler:history
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
-      link_label: 'Descargar informes de liberación (PDF)'
+      link_label: 'Descargar informes de liberacion (PDF)'
     - title: 'Dosier de calidad completo'
       description: 'Un pack que cubre todo el sistema documental — QIP, registros de puertas, trazabilidad y control de NCR.'
       icon: tabler:books
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
-      link_label: 'Descargar pack de documentación (PDF)'
+      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_AGROCHEMICAL_QUALITY_DOSSIER.pdf
+      link_label: 'Descargar pack de documentacion (PDF)'
 
 cta:
-  title: 'Audita el laboratorio detrás de tu pedido'
-  subtitle: 'El laboratorio opera independiente de la producción y reporta directamente a la dirección. Revisa los informes de ensayo, consulta los estándares de inspección o solicita una visita virtual al laboratorio durante la planificación de tu proyecto.'
+  title: 'Audita el laboratorio detras de tu pedido'
+  subtitle: 'El laboratorio opera independiente de la produccion y reporta directamente a la direccion. Revisa los informes de ensayo, consulta los estandares de inspeccion o solicita una visita virtual al laboratorio durante la planificacion de tu proyecto.'
   actions:
     - variant: primary
-      text: Solicitar una revisión de calidad de proyecto
+      text: Solicitar una revision de calidad de proyecto
       href: /es/contact#quality-inquiry
-    - text: El sistema de inspección de 7 etapas
+    - text: El sistema de inspeccion de 4 etapas
       href: /es/quality
-    - text: Estándares de inspección y descargas QMS
+    - text: Estandares de inspeccion y descargas QMS
       href: /es/factory/quality-inspection
     - text: Visita el laboratorio de ensayos de materiales de I+D
       href: /es/randdcenter/quality-inspection-lab

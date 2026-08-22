@@ -206,7 +206,7 @@
     - { key: nc_pillars, type: features, label: 'Buyer Trust Pillars' }
     - { key: nc_photos, type: features, label: 'Factory Floor Photos' }
     - { key: nc_severity, type: table, label: 'Severity & Disposition Authority' }
-    - { key: nc_matrix, type: table, label: 'SUP Defect Disposition Matrix' }
+    - { key: nc_matrix, type: table, label: 'Agrochemical Defect Disposition Matrix' }
     - { key: nc_scrap, type: content, label: 'Witnessed Destruction Protocol' }
     - { key: nc_downloads, type: features, label: 'QMS Document Downloads' }
     - { key: faqs, type: faqs, label: 'FAQs' }
@@ -270,9 +270,9 @@
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'Direct Answer' }
-    - { key: moq_principle, type: content, label: 'Engineering Logic: 150m Roll' }
+    - { key: moq_principle, type: content, label: 'Engineering Logic: Production Batch Size' }
     - { key: moq_tiers, type: features, label: 'Volume OEM vs Co-Branding Cards' }
-    - { key: moq_fees, type: table, label: 'Transparent Screen-Printing Fees' }
+    - { key: moq_fees, type: table, label: 'Transparent Development Fees' }
     - { key: moq_stages, type: steps, label: 'Sample / Pilot / Volume Stages' }
     - { key: moq_factors, type: table, label: 'MOQ Drivers Table' }
     - { key: moq_downloads, type: features, label: 'Official PDF Downloads' }
@@ -280,10 +280,10 @@
     - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: sup-oem-moq-lead-time
-  label: Custom SUP MOQ & Lead Time
-  path: /sup-oem-moq-lead-time
-  permalink: /sup-oem-moq-lead-time
+- slug: agrochemical-oem-moq-lead-time
+  label: Agrochemical OEM MOQ & Lead Time
+  path: /agrochemical-oem-moq-lead-time
+  permalink: /agrochemical-oem-moq-lead-time
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'Direct Answer' }
@@ -354,10 +354,10 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: oem-sup-moq
-  label: Inflatable SUP MOQ Explained
-  path: /oem-sup-moq
-  permalink: /oem-sup-moq
+- slug: oem-agrochemical-moq
+  label: Agrochemical OEM MOQ Explained
+  path: /oem-agrochemical-moq
+  permalink: /oem-agrochemical-moq
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: direct_answer, type: answer, label: 'Direct Answer' }
@@ -369,10 +369,10 @@
     - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: inflatable-sup-certification
-  label: Inflatable SUP Certification Guide
-  path: /inflatable-sup-certification
-  permalink: /inflatable-sup-certification
+- slug: agrochemical-certification-guide
+  label: Agrochemical Certification Guide
+  path: /agrochemical-certification-guide
+  permalink: /agrochemical-certification-guide
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: direct_answer, type: answer, label: 'Direct Answer' }
@@ -397,16 +397,160 @@
     - { key: vision, type: content, label: 'Vision' }
     - { key: labs_section, type: features, label: 'Labs Section' }
 
-- slug: size-guide
-  label: Size Guide
-  path: /size-guide
-  permalink: /size-guide
+- slug: formulation-selector
+  label: Formulation Selector
+  path: /formulation-selector
+  permalink: /formulation-selector
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: categories, type: features, label: 'Categories' }
-    - { key: table, type: content, label: 'Size Table' }
+    - { key: table, type: content, label: 'Formulation Table' }
     - { key: how_to_choose, type: content, label: 'How to Choose' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: formulation-engineering
+  label: Formulation Engineering
+  path: /randdcenter/formulation-engineering
+  permalink: /randdcenter/formulation-engineering
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: engineering_detail, type: features, label: 'Engineering Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: formulation-pilot-plant
+  label: Formulation Pilot Plant
+  path: /randdcenter/formulation-pilot-plant
+  permalink: /randdcenter/formulation-pilot-plant
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: pilot_detail, type: features, label: 'Pilot Plant Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: formulation-lab
+  label: Formulation Lab
+  path: /randdcenter/formulation-lab
+  permalink: /randdcenter/formulation-lab
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: lab_detail, type: features, label: 'Lab Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: formulation-equipment
+  label: Formulation Equipment
+  path: /randdcenter/formulation-equipment
+  permalink: /randdcenter/formulation-equipment
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: equipment_detail, type: features, label: 'Equipment Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: research-formulation-technology
+  label: Formulation Technology Research
+  path: /research/formulation-technology
+  permalink: /research/formulation-technology
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: detail, type: content, label: 'Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: research-adjuvant-types
+  label: Adjuvant Types Research
+  path: /research/adjuvant-types
+  permalink: /research/adjuvant-types
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: detail, type: content, label: 'Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: research-icama-registration
+  label: ICAMA Registration Guide
+  path: /research/icama-registration
+  permalink: /research/icama-registration
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: detail, type: content, label: 'Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: research-formulation-stability
+  label: Formulation Stability Research
+  path: /research/formulation-stability
+  permalink: /research/formulation-stability
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: detail, type: content, label: 'Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: agrochemical-oem-australia
+  label: Agrochemical OEM Australia
+  path: /agrochemical-oem-australia
+  permalink: /agrochemical-oem-australia
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: market_detail, type: features, label: 'Market Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: agrochemical-oem-canada
+  label: Agrochemical OEM Canada
+  path: /agrochemical-oem-canada
+  permalink: /agrochemical-oem-canada
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: market_detail, type: features, label: 'Market Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: agrochemical-oem-europe
+  label: Agrochemical OEM Europe
+  path: /agrochemical-oem-europe
+  permalink: /agrochemical-oem-europe
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: market_detail, type: features, label: 'Market Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: agrochemical-oem-north-america
+  label: Agrochemical OEM North America
+  path: /agrochemical-oem-north-america
+  permalink: /agrochemical-oem-north-america
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Quick Answer' }
+    - { key: market_detail, type: features, label: 'Market Detail' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: solutions-distributor-partners
+  label: Distributor Partners
+  path: /solutions/distributor-partners
+  permalink: /solutions/distributor-partners
+  sections:
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: subtitle, type: content, label: 'Subtitle' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
+
+- slug: solutions-co-branding
+  label: Co-Branding
+  path: /solutions/co-branding
+  permalink: /solutions/co-branding
+  sections:
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: subtitle, type: content, label: 'Subtitle' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
 
 - slug: solutions
   label: Solutions
@@ -426,10 +570,10 @@
     - { key: sections, type: features, label: 'Technology Sections' }
     - { key: related, type: content, label: 'Related Content' }
 
-- slug: tourism-recreation
-  label: Tourism & Recreation
-  path: /tourism-recreation
-  permalink: /tourism-recreation
+- slug: crop-protection-solutions
+  label: Crop Protection Solutions
+  path: /crop-protection-solutions
+  permalink: /crop-protection-solutions
   sections:
     - { key: label, type: content, label: 'Page Label' }
     - { key: headline, type: content, label: 'Headline' }
@@ -449,10 +593,10 @@
     - { key: seo, type: content, label: 'SEO Metadata' }
     - { key: body, type: content, label: 'Body Content' }
 
-- slug: what-is-sup
-  label: What is SUP
-  path: /what-is-sup
-  permalink: /what-is-sup
+- slug: what-is-agrochemical-oem
+  label: What is Agrochemical OEM
+  path: /what-is-agrochemical-oem
+  permalink: /what-is-agrochemical-oem
   sections:
     - { key: label, type: content, label: 'Page Label' }
     - { key: headline, type: content, label: 'Headline' }
@@ -474,10 +618,10 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: start-sup-project
-  label: Start Your SUP Project
-  path: /start-sup-project
-  permalink: /start-sup-project
+- slug: start-agrochemical-project
+  label: Start Your Agrochemical Project
+  path: /start-agrochemical-project
+  permalink: /start-agrochemical-project
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'What Happens Next' }
@@ -501,10 +645,10 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: sup-construction-comparison
-  label: SUP Construction Comparison
-  path: /sup-construction-comparison
-  permalink: /sup-construction-comparison
+- slug: formulation-type-comparison
+  label: Formulation Type Comparison
+  path: /formulation-type-comparison
+  permalink: /formulation-type-comparison
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'Quick Comparison' }
@@ -514,10 +658,10 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: sup-compliance-by-market
-  label: SUP Compliance by Market
-  path: /sup-compliance-by-market
-  permalink: /sup-compliance-by-market
+- slug: agrochemical-regulation-by-market
+  label: Agrochemical Regulation by Market
+  path: /agrochemical-regulation-by-market
+  permalink: /agrochemical-regulation-by-market
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'Quick Answer' }

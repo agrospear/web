@@ -1,14 +1,14 @@
 meta:
-  title: 'News — SUP Manufacturer & Nautical Updates | {SITE}'
-  description: 'Latest news from Agrospear: factory updates, new inflatable SUP models, certifications, and nautical industry announcements.'
+  title: 'News — Agrochemical Manufacturer & Industry Updates | {SITE}'
+  description: 'Latest news from Agrospear: factory updates, new agrochemical formulations, certifications, and crop protection industry announcements.'
   keywords:
-    - 'sup manufacturer news'
+    - 'agrochemical manufacturer news'
     - 'Agrospear updates'
-    - 'inflatable sup announcements'
-    - 'nautical industry news'
+    - 'agrochemical formulation announcements'
+    - 'crop protection industry news'
 hero_text:
   tagline: ''
   title: News
-  subtitle: The latest from Agrospear —product launches, company updates, guides, and stories from the water
+  subtitle: The latest from Agrospear — product launches, company updates, guides, and stories from the field
 news_list:
   limit: 100

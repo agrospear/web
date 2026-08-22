@@ -1,6 +1,6 @@
 meta:
-  title: 'Centro de I+D — Ingeniería de SUP hinchables | {SITE}'
-  description: 'I+D: ensayo de tejidos PVC, ingeniería de cascos, soldadura RF, ensayos hidrodinámicos y control de calidad. Servicios de I+D a medida.'
+  title: 'Centro de I+D — Ingeniería de formulación agroquímica | {SITE}'
+  description: 'I+D: análisis de ingredientes activos, química de formulación, ingeniería de tamaño de partícula, ensayos de estabilidad y control de calidad. Servicios de I+D a medida.'
   dateModified: '2026-08'
 
 hero:
@@ -9,66 +9,66 @@ hero:
   subtitle: Centrados en el progreso
 
 intro:
-  - El Centro de Investigación y Desarrollo (I+D) de Agrospear es la fuerza motriz de nuestra misión de revolucionar el equipo de deportes acuáticos. Damos a los amantes de los deportes acuáticos de todo el mundo productos más seguros, cómodos y agradables mediante una innovación constante en tablas de paddle surf (SUP) y embarcaciones hinchables. Nuestro equipo dedicado de ingenieros, diseñadores y expertos apasionados de los deportes acuáticos está dando forma al futuro del sector, elevando constantemente el listón de la calidad, el rendimiento y la sostenibilidad.
-  - Nuestras instalaciones de I+D reúnen bajo un mismo techo a científicos de materiales, arquitectos navales e ingenieros de producción. Desde la formulación de tejidos y la simulación de cascos hasta el desarrollo de procesos de soldadura y las pruebas de mar a escala real, cada etapa del desarrollo de producto está impulsada por datos y validada mediante ensayos.
+  - El Centro de Investigación y Desarrollo (I+D) de Agrospear es la fuerza motriz de nuestra misión de ofrecer soluciones de protección de cultivos superiores a nivel mundial. Damos a las empresas agrícolas de todo el mundo productos más seguros, eficaces y fiables mediante una innovación constante en formulaciones agroquímicas — desde herbicidas e insecticidas hasta fungicidas, reguladores de crecimiento y tratamientos de semillas. Nuestro equipo dedicado de químicos de formulación, científicos analíticos y expertos apasionados de la protección de cultivos está dando forma al futuro del sector, elevando constantemente el listón de la calidad, la eficacia y la sostenibilidad.
+  - Nuestras instalaciones de I+D reúnen bajo un mismo techo a químicos de formulación, científicos analíticos e ingenieros de producción. Desde la selección de ingredientes activos y la optimización de coformulantes hasta el desarrollo de procesos de formulación y las pruebas de estabilidad a escala real, cada etapa del desarrollo de producto está impulsada por datos y validada mediante ensayos.
 
 mission:
   tagline: Nuestra misión
-  title: Innovando el futuro de los deportes acuáticos
+  title: Innovando el futuro de la protección de cultivos
   pillars:
     - icon: lightning
       title: Avance tecnológico
-      desc: Innovamos en materiales, diseños y fabricación para lograr un rendimiento y una longevidad superiores del producto.
+      desc: Innovamos en formulaciones, sistemas de dispersión y fabricación para lograr un rendimiento y una estabilidad en estantería superiores.
     - icon: design
-      title: Diseño centrado en el usuario
-      desc: Entendemos y superamos las necesidades del usuario mediante un diseño de producto ergonómico e intuitivo.
+      title: Diseño basado en la eficacia
+      desc: Entendemos y superamos las necesidades del agricultor mediante la optimización de la entrega del ingrediente activo y el rendimiento en campo.
     - icon: globe
       title: Prácticas sostenibles
-      desc: Minimizamos nuestra huella medioambiental con materiales y procesos respetuosos con el entorno.
+      desc: Minimizamos el impacto medioambiental desarrollando formulaciones de menor dosis, biopesticidas y coformulantes ecológicos.
     - icon: shield
-      title: Seguridad sin concesiones
-      desc: Garantizamos los más altos estándares de seguridad mediante ensayos y certificaciones rigurosos.
+      title: Calidad sin concesiones
+      desc: Garantizamos los más altos estándares de calidad mediante ensayos rigurosos, evaluación de estabilidad y cumplimiento regulatorio.
 
 pillars:
   - title: Avance tecnológico
-    desc: Innovamos en materiales, diseños y procesos de fabricación para ofrecer un rendimiento y una longevidad superiores del producto.
+    desc: Innovamos en formulaciones, sistemas de dispersión y procesos de fabricación para ofrecer un rendimiento y una estabilidad en estantería superiores.
     icon: tech
-  - title: Materiales avanzados
-    desc: Investigamos PVC de vanguardia, Hypalon, composites y alternativas sostenibles para mejorar las características del producto.
+  - title: Química de formulación avanzada
+    desc: Investigamos tecnologías de vanguardia en SC, EC, WDG, ME, CS y microencapsulación para mejorar las características del producto.
     icon: materials
   - title: Sostenibilidad
-    desc: 'Un compromiso central: dedicados a la gestión medioambiental mediante fabricación sostenible y materiales reciclables.'
+    desc: 'Un compromiso central: dedicados a la gestión medioambiental mediante fabricación sostenible y desarrollo de biopesticidas.'
     icon: sustainability
 
 capabilities:
   tagline: Capacidades
   title: Capacidades de I+D
-  subtitle: Cuatro disciplinas clave que nos dan control integral del desarrollo de producto, desde la investigación de materias primas hasta la certificación final.
+  subtitle: Cuatro disciplinas clave que nos dan control integral del desarrollo de formulación, desde la investigación del ingrediente activo hasta el registro final.
   groups:
-    - title: Ciencia de materiales y tecnología del tejido
+    - title: Química de formulación y tecnología de coformulantes
       items:
-        - Análisis y optimización de formulaciones de PVC y Hypalon
-        - Desarrollo de aditivos de estabilización UV, retardancia de llama y antimicrobianos
-        - Ingeniería de laminación multicapa y unión adhesiva
-        - Ensayos de envejecimiento acelerado (UV, térmico, humedad, niebla salina)
-    - title: Ingeniería de cascos e hidrodinámica
+        - Análisis de compatibilidad de ingredientes activos y optimización de selección de coformulantes
+        - Desarrollo de aditivos de estabilización UV, agentes anti-sedimentación y estabilidad en estantería
+        - Diseño de formulaciones multicomponente y desarrollo de combinaciones sinérgicas
+        - Ensayos de estabilidad acelerada (ciclado térmico, estabilidad en frío, almacenamiento a largo plazo)
+    - title: Ingeniería de tamaño de partícula y sistemas de dispersión
       items:
-        - Diseño paramétrico de cascos 3D y optimización CFD
-        - Análisis por elementos finitos de cargas estructurales y de impacto
-        - Ensayos en canal hidrodinámico con modelos a escala y validación de rendimiento
-        - Desarrollo de cascos a medida para perfiles de misión especiales
-    - title: Tecnología de soldadura y unión
+        - Optimización de procesos de molienda con molino de perlas y molino de arena para formulaciones SC y WDG
+        - Control de distribución de tamaño de partícula y optimización de tasa de suspensión
+        - Desarrollo de sistemas de emulsión y microemulsión para formulaciones EC y ME
+        - Desarrollo de sistemas de dispersión a medida para ingredientes activos complejos
+    - title: Desarrollo de procesos de fabricación
       items:
-        - Desarrollo y optimización de procesos de soldadura dieléctrica RF
-        - Métodos de soldadura por aire caliente, cuña caliente y ultrasónica
-        - Cualificación de uniones adhesivas y cintas de sellado de costuras
-        - Modelado de resistencia de soldaduras y predicción de vida útil
-    - title: Ensayos, certificación y cumplimiento
+        - Escalado de lote de laboratorio a producción piloto y fabricación completa
+        - Optimización de procesos de mezcla, molienda, granulación y llenado
+        - Cualificación de sistemas de solventes y portadores para diferentes tipos de formulación
+        - Modelado de parámetros de proceso y predicción de eficiencia de producción
+    - title: Soporte de registro y cumplimiento
       items:
-        - Gestión de calidad y ensayos de cumplimiento CE
-        - Soporte de ensayos y certificación por terceros independientes
-        - Desarrollo de protocolos de ensayo personalizados para la cualificación de compras
-        - Análisis de fallos en servicio e investigación de causas raíz
+        - Preparación del paquete de datos ICAMA y soporte de dosier regulatorio
+        - Análisis de cinco lotes y desarrollo de especificaciones de producto
+        - Desarrollo de protocolos de ensayo personalizados para cualificación de compras
+        - Coordinación de ensayos en campo y gestión de datos de bioeficacia
 
 rd_numbers:
   tagline: Innovación
@@ -87,45 +87,45 @@ rd_services:
   tagline: I+D a medida
   title: Servicios de I+D para socios
   services:
-    - title: Desarrollo de materiales a medida
-      desc: Desarrollamos formulaciones de tejido, apilamientos de laminado y sistemas adhesivos personalizados para tu entorno operativo y tus objetivos de rendimiento.
+    - title: Desarrollo de formulación a medida
+      desc: Desarrollamos formulaciones personalizadas, sistemas de coformulantes y tecnologías de dispersión adaptados a tus cultivos objetivo, métodos de aplicación y requisitos de rendimiento.
     - title: Ingeniería de producto OEM / ODM
-      desc: Desarrollamos formulaciones de tejido, apilamientos de laminado y sistemas adhesivos personalizados para tu entorno operativo y tus objetivos de rendimiento.
-    - title: Ensayos y certificación por terceros
-      desc: Utiliza nuestras instalaciones de ensayo conformes ISO para ensayos de materiales independientes, validación de producto y soporte de certificación.
+      desc: Desarrollamos formulaciones personalizadas, sistemas de coformulantes y tecnologías de dispersión adaptados a tus cultivos objetivo, métodos de aplicación y requisitos de rendimiento.
+    - title: Ensayos y soporte de registro por terceros
+      desc: Utiliza nuestras instalaciones de ensayo conformes ISO para ensayos analíticos independientes, validación de producto y soporte del paquete de datos de registro ICAMA.
   cta: Habla con nosotros de tus requisitos de I+D →
   cta_link: /es/contact
 
 vision:
   tagline: Nuestra visión
-  title: Dando forma al futuro de los deportes acuáticos
-  body: Agrospear aspira a liderar la industria de las embarcaciones hinchables y el SUP mediante la innovación continua, una calidad inquebrantable y un firme compromiso con la seguridad y la sostenibilidad, enriqueciendo en última instancia las experiencias de los amantes de los deportes acuáticos de todo el mundo. El Centro de I+D de Agrospear es donde la pasión se encuentra con la innovación, estableciendo nuevos estándares para el sector.
+  title: Dando forma al futuro de la protección de cultivos
+  body: Agrospear aspira a liderar la industria de formulación agroquímica mediante la innovación continua, una calidad inquebrantable y un firme compromiso con la eficacia y la sostenibilidad, enriqueciendo en última instancia la productividad agrícola a nivel mundial. El Centro de I+D de Agrospear es donde la experiencia se encuentra con la innovación, estableciendo nuevos estándares para la industria de la protección de cultivos.
 
 labs_section:
   tagline: Laboratorios
   title: Nuestros laboratorios
   labs:
-    - image: https://assets.agrospear.com/images/agrospear/randd/agrospear-pvc-material-lab.webp
-      title: Laboratorio de tejidos PVC
-      description: 'Investigación y ensayo continuos de tejidos para tubos de PVC y Hypalon: resistencia a la tracción, resistencia UV, abrasión y flexibilidad a baja temperatura, para garantizar una fiabilidad a largo plazo en entornos marinos.'
+    - image: https://assets.agrospear.com/images/agrospear/randd/agrospear-formulation-chemistry-lab.webp
+      title: Laboratorio de química de formulación
+      description: 'Investigación y ensayo continuos de sistemas de formulación para precisión del contenido de ingrediente activo, estabilidad en estantería, tasa de suspensión y calidad de dispersión, para garantizar fiabilidad a largo plazo en condiciones de campo.'
       href: /es/randdcenter
     - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-design-discussion-2.webp
-      title: Estudio de ingeniería de cascos
-      description: Diseño asistido por CAD y análisis por elementos finitos de cascos de HDPE, aluminio y fibra de vidrio. Cada casco se simula digitalmente para evaluar la distribución de tensiones y la resistencia al impacto antes de construir el primer prototipo.
+      title: Estudio de ingeniería de tamaño de partícula
+      description: Molienda de precisión y optimización de distribución de tamaño de partícula para formulaciones SC, WDG y WP. Cada sistema de dispersión se valida en tasa de suspensión y redispersibilidad antes de la aprobación de producción.
       href: /es/randdcenter
-    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing-3.webp
-      title: Centro de soldadura RF
-      description: Instalación dedicada de soldadura por radiofrecuencia con control de precisión de temperatura y presión, que produce costuras herméticas de alta resistencia conformes a los estándares marinos para embarcaciones hinchables.
+    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-formulation-lab.webp
+      title: Centro de ensayos de estabilidad
+      description: Instalación dedicada de evaluación de estabilidad con cámaras de temperatura controlada (0 °C, 25 °C, 54 °C), que produce datos de vida útil y resultados de almacenamiento acelerado conformes a los requisitos FAO/OMS e ICAMA.
       href: /es/randdcenter
     - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-design-discussion-original.webp
-      title: Canal hidrodinámico
-      description: Ensayos con modelos a escala en nuestro canal de pruebas interno para optimizar la forma del casco, el planeo, la estabilidad y la eficiencia del combustible en un amplio rango de cargas y condiciones de mar.
+      title: Laboratorio de desarrollo de métodos analíticos
+      description: Desarrollo, validación y transferencia a QC de métodos HPLC y GC. Garantiza la cuantificación precisa del ingrediente activo y el perfil de impurezas para cada tipo de formulación.
       href: /es/randdcenter
-    - image: https://assets.agrospear.com/images/agrospear/products/sup-series/sup-ocean-voyager-1.webp
-      title: Taller de prototipos
-      description: Instalación de prototipado y aparejo a escala real donde se construyen, equipan y prueban en el mar los nuevos modelos. Cada prototipo supera un mínimo de 20 horas de pruebas en el agua antes de la aprobación de producción.
+    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-formulation-lab-2.webp
+      title: Laboratorio de formulación y taller de lotes piloto
+      description: Instalación de formulación a escala real y producción piloto donde se construyen, analizan y validan las nuevas formulaciones. Cada lote piloto se somete a análisis completo y ensayos de estabilidad antes de la aprobación de producción.
       href: /es/randdcenter
-    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-uv-resistance-testing.webp
+    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-quality-lab.webp
       title: Laboratorio de calidad e inspección
-      description: Laboratorio de garantía de calidad dedicado a ensayos de tracción, ciclos de retención de aire, pruebas de pelado de costuras y certificación de materiales, para garantizar que cada embarcación que sale del taller cumple nuestras especificaciones publicadas.
+      description: Laboratorio de garantía de calidad dedicado a análisis HPLC/GC, ensayos de tamaño de partícula, medición de viscosidad, evaluación de estabilidad y emisión de Certificado de Análisis, para garantizar que cada lote cumple las especificaciones publicadas.
       href: /es/randdcenter

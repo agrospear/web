@@ -1,0 +1,80 @@
+meta:
+  title: 'Coformulantes vs. materias primas de relleno — Ingredientes para formulaciones agroquímicas | {SITE}'
+  description: 'Coformulantes funcionales vs. materias primas de relleno en formulaciones agroquímicas: estabilidad de almacenamiento, eficacia, suspensibilidad, viscosidad, coste y qué ingredientes se utilizan realmente.'
+  author: 'Agrospear'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+  back_text: 'Volver a Investigación'
+
+hero:
+  tagline: 'Materiales'
+  title: 'Coformulantes vs. materias primas de relleno — Guía de ingredientes para formulaciones agroquímicas'
+  subtitle: '10 min de lectura'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Para las formulaciones agroquímicas, los coformulantes funcionales ganan en estabilidad, eficacia y rendimiento: un sistema de dispersión con dispersantes, humectantes y espesantes de grado técnico certificado es el estándar de la industria. Las materias primas de relleno reducen el coste unitario pero comprometen la suspensibilidad y la estabilidad de almacenamiento, costando aproximadamente 2–3× menos pero generando reclamaciones de calidad 3–5× superiores, por lo que hoy son poco habituales en las formulaciones premium.'
+  verified: '2026-08'
+
+content_html: |
+  <h2>Descripción general de los ingredientes</h2>
+
+  <h3>Coformulantes funcionales</h3>
+  <p>Los coformulantes funcionales son los ingredientes estándar para las formulaciones agroquímicas de calidad. Para la construcción de formulaciones se seleccionan dispersantes, humectantes, espesantes, antiespumantes y estabilizantes certificados, y luego se integran en un sistema de dispersión optimizado. Las formulaciones modernas con coformulantes de grado técnico incluyen estabilizantes térmicos y agentes de compatibilidad para mejorar la suspensibilidad y la estabilidad de almacenamiento, y los productos construidos así mantienen especificaciones de calidad después de 2 años de almacenamiento.</p>
+
+  <h3>Materias primas de relleno</h3>
+  <p>Las materias primas de relleno son ingredientes de bajo coste que se añaden para alcanzar un volumen o peso determinado sin contribuir a la funcionalidad de la formulación. Son comunes en formulaciones de bajo coste del mercado, pero comprometen la suspensibilidad, la estabilidad de emulsión y la vida útil del producto. En las formulaciones agroquímicas de calidad, las materias primas de relleno apenas se utilizan: las formulaciones requieren sistemas de dispersión de alta concentración y dimensionalmente estables, algo que los coformulantes funcionales ofrecen con una fracción del riesgo de reclamaciones.</p>
+
+  <h2>Comparación lado a lado</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Propiedad</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Coformulantes funcionales</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Materias primas de relleno</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Estabilidad de almacenamiento</td><td class="p-3 border">Excelente (≥ 2 años)</td><td class="p-3 border">Variable (6–12 meses)</td></tr>
+      <tr><td class="p-3 border font-medium">Suspensibilidad</td><td class="p-3 border">≥ 90–95 %</td><td class="p-3 border">70–85 %</td></tr>
+      <tr><td class="p-3 border font-medium">Contenido activo (precisión)</td><td class="p-3 border">Dentro de ± 1.5 %</td><td class="p-3 border">Dentro de ± 5–10 %</td></tr>
+      <tr><td class="p-3 border font-medium">Coste (por kg)</td><td class="p-3 border">$0.80 – $2.50 / kg</td><td class="p-3 border">$0.20 – $0.60 / kg</td></tr>
+      <tr><td class="p-3 border font-medium">Compatibilidad en mezcla</td><td class="p-3 border">Buena (validada)</td><td class="p-3 border">Impredecible</td></tr>
+      <tr><td class="p-3 border font-medium">Reclamaciones de calidad</td><td class="p-3 border">Muy bajas</td><td class="p-3 border">Altas (sedimentación, separación)</td></tr>
+      <tr><td class="p-3 border font-medium">Certificaciones</td><td class="p-3 border">ISO 9001, ICAMA</td><td class="p-3 border">Sin certificación</td></tr>
+      <tr><td class="p-3 border font-medium">Vida útil (clima tropical)</td><td class="p-3 border">2+ años</td><td class="p-3 border">6–12 meses</td></tr>
+    </tbody>
+  </table>
+
+  <h2>¿Cuál deberías elegir?</h2>
+
+  <h3>Elige coformulantes funcionales cuando:</h3>
+  <ul>
+    <li>Construyas formulaciones agroquímicas premium (los coformulantes funcionales + sistema de dispersión es el estándar de la industria)</li>
+    <li>La reputación de tu marca sea importante: menos reclamaciones y mayor satisfacción del agricultor</li>
+    <li>Necesites estabilidad de almacenamiento en climas cálidos por encima de 40 °C</li>
+    <li>Quieras certificaciones ISO 9001, ICAMA y registro oficial del producto</li>
+    <li>Necesites suspensibilidad y estabilidad de emulsión superiores al 90 %</li>
+  </ul>
+
+  <h3>Elige materias primas de relleno cuando:</h3>
+  <ul>
+    <li>El producto vaya a mercados de muy bajo coste donde el precio prima sobre la calidad</li>
+    <li>Estés en un mercado sin requisitos de registro estrictos</li>
+    <li>El coste mínimo de producción pese más que la vida útil y las reclamaciones</li>
+    <li>Construyas productos genéricos sin marca para canales de distribución de bajo margen</li>
+    <li>La sedimentación y la separación de fases no sean una preocupación principal</li>
+  </ul>
+
+  <h2>Diferencias de fabricación</h2>
+  <p>Las formulaciones con coformulantes funcionales se fabrican mediante procesos controlados de molienda, dispersión y homogeneización, que crean una matriz estable entre el ingrediente activo y los coformulantes. Esto permite una producción automatizada y constante con alto rendimiento, y una suspensibilidad precisa en formulaciones de alta concentración. Las formulaciones con materias primas de relleno se mezclan de forma más sencilla sin optimización del proceso; cada lote puede variar en calidad, lo que hace que la producción requiera menos control pero genere más variabilidad e incidencias.</p>
+
+  <h2>Recomendación de Agrospear</h2>
+  <p>Para las formulaciones agroquímicas de calidad, los coformulantes funcionales de grado técnico certificado ofrecen el mejor equilibrio entre coste, rendimiento, estabilidad y durabilidad. Agrospear fabrica cada formulación con coformulantes certificados, sistema de dispersión optimizado y estabilidad validada por CIPAC, con cada lote de materia prima probado de forma independiente en nuestro laboratorio antes de la producción. Las materias primas de relleno siguen disponibles bajo petición para mercados de bajo coste y aplicaciones genéricas, producidas por separado a través de nuestra línea económica.</p>
+  <p>La elección del coformulante determina el coste, la estabilidad y la vida útil de tu línea — indícanos tu mercado objetivo y <a href="/es/oem-manufacturing">especificaremos el ingrediente adecuado para tu proyecto OEM</a>, probado en nuestro <a href="/es/randdcenter/quality-inspection-lab">laboratorio de ensayo de materias primas</a>.</p>
+
+cta:
+  title: '¿Necesitas ayuda para elegir coformulantes?'
+  subtitle: 'Nuestro equipo puede asesorarte sobre coformulantes vs. materias primas de relleno para tu aplicación concreta.'
+  button_text: 'Consulta a nuestros expertos'
+  button_link: /es/contact

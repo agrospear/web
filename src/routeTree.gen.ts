@@ -9,15 +9,10 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as WhatIsSupRouteImport } from './routes/what-is-sup'
+import { Route as WhatIsAgrochemicalOemRouteImport } from './routes/what-is-agrochemical-oem'
 import { Route as WarrantyRouteImport } from './routes/warranty'
-import { Route as TourismRecreationRouteImport } from './routes/tourism-recreation'
 import { Route as TechnologyRouteImport } from './routes/technology'
-import { Route as SupOemMoqLeadTimeRouteImport } from './routes/sup-oem-moq-lead-time'
-import { Route as SupConstructionComparisonRouteImport } from './routes/sup-construction-comparison'
-import { Route as SupComplianceByMarketRouteImport } from './routes/sup-compliance-by-market'
-import { Route as StartSupProjectRouteImport } from './routes/start-sup-project'
-import { Route as SizeGuideRouteImport } from './routes/size-guide'
+import { Route as StartAgrochemicalProjectRouteImport } from './routes/start-agrochemical-project'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-products[.]xml'
 import { Route as SitemapPagesDotxmlRouteImport } from './routes/sitemap-pages[.]xml'
@@ -33,26 +28,35 @@ import { Route as ProductDevelopmentRouteImport } from './routes/product-develop
 import { Route as PartnersRouteImport } from './routes/partners'
 import { Route as OemVsPrivateLabelRouteImport } from './routes/oem-vs-private-label'
 import { Route as OemTrustAssuranceRouteImport } from './routes/oem-trust-assurance'
-import { Route as OemSupMoqRouteImport } from './routes/oem-sup-moq'
 import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
 import { Route as OemOnboardingGuideRouteImport } from './routes/oem-onboarding-guide'
 import { Route as OemOdmPrivateLabelComparisonRouteImport } from './routes/oem-odm-private-label-comparison'
 import { Route as OemOdmRouteImport } from './routes/oem-odm'
 import { Route as OemMoqGuideRouteImport } from './routes/oem-moq-guide'
 import { Route as OemManufacturingRouteImport } from './routes/oem-manufacturing'
+import { Route as OemAgrochemicalMoqRouteImport } from './routes/oem-agrochemical-moq'
 import { Route as OdmDevelopmentRouteImport } from './routes/odm-development'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as NewBrandTrialOrderRouteImport } from './routes/new-brand-trial-order'
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
 import { Route as KnowledgeRouteImport } from './routes/knowledge'
-import { Route as InflatableSupCertificationRouteImport } from './routes/inflatable-sup-certification'
+import { Route as FormulationTypeComparisonRouteImport } from './routes/formulation-type-comparison'
+import { Route as FormulationSelectorRouteImport } from './routes/formulation-selector'
 import { Route as FaqRouteImport } from './routes/faq'
 import { Route as FactoryAuditChecklistRouteImport } from './routes/factory-audit-checklist'
 import { Route as FactoryRouteImport } from './routes/factory'
 import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
+import { Route as CropProtectionSolutionsRouteImport } from './routes/crop-protection-solutions'
 import { Route as BiopesticideRouteImport } from './routes/biopesticide'
 import { Route as B2bSolutionsMatrixRouteImport } from './routes/b2b-solutions-matrix'
+import { Route as AgrochemicalRegulationByMarketRouteImport } from './routes/agrochemical-regulation-by-market'
+import { Route as AgrochemicalOemNorthAmericaRouteImport } from './routes/agrochemical-oem-north-america'
+import { Route as AgrochemicalOemMoqLeadTimeRouteImport } from './routes/agrochemical-oem-moq-lead-time'
+import { Route as AgrochemicalOemEuropeRouteImport } from './routes/agrochemical-oem-europe'
+import { Route as AgrochemicalOemCanadaRouteImport } from './routes/agrochemical-oem-canada'
+import { Route as AgrochemicalOemAustraliaRouteImport } from './routes/agrochemical-oem-australia'
+import { Route as AgrochemicalCertificationGuideRouteImport } from './routes/agrochemical-certification-guide'
 import { Route as SplatRouteImport } from './routes/$'
 import { Route as Char123LocaleChar125RouteRouteImport } from './routes/{-$locale}/route'
 import { Route as Char123LocaleChar125IndexRouteImport } from './routes/{-$locale}/index'
@@ -92,8 +96,8 @@ import { Route as Char123LocaleChar125AboutIndexRouteImport } from './routes/{-$
 import { Route as Char123LocaleChar125SolutionsSchoolSupRouteImport } from './routes/{-$locale}/solutions/school-sup'
 import { Route as Char123LocaleChar125SolutionsResortSupRouteImport } from './routes/{-$locale}/solutions/resort-sup'
 import { Route as Char123LocaleChar125SolutionsPrivateLabelSupRouteImport } from './routes/{-$locale}/solutions/private-label-sup'
+import { Route as Char123LocaleChar125SolutionsDistributorPartnersRouteImport } from './routes/{-$locale}/solutions/distributor-partners'
 import { Route as Char123LocaleChar125SolutionsCustomSupRouteImport } from './routes/{-$locale}/solutions/custom-sup'
-import { Route as Char123LocaleChar125SolutionsClubSupRouteImport } from './routes/{-$locale}/solutions/club-sup'
 import { Route as Char123LocaleChar125ProjectsSlugRouteImport } from './routes/{-$locale}/projects/$slug'
 import { Route as Char123LocaleChar125ProductsSeriesRouteImport } from './routes/{-$locale}/products/$series'
 import { Route as Char123LocaleChar125KnowledgeSlugRouteImport } from './routes/{-$locale}/knowledge/$slug'
@@ -113,62 +117,31 @@ import { Route as ApiInquiryLogoSplatRouteImport } from './routes/api/inquiry-lo
 import { Route as ApiAvatarsSplatRouteImport } from './routes/api/avatars/$'
 import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
 
-const WhatIsSupRoute = WhatIsSupRouteImport.update({
-  id: '/what-is-sup',
-  path: '/what-is-sup',
+const WhatIsAgrochemicalOemRoute = WhatIsAgrochemicalOemRouteImport.update({
+  id: '/what-is-agrochemical-oem',
+  path: '/what-is-agrochemical-oem',
   getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/what-is-sup.lazy').then((d) => d.Route))
+} as any).lazy(() =>
+  import('./routes/what-is-agrochemical-oem.lazy').then((d) => d.Route),
+)
 const WarrantyRoute = WarrantyRouteImport.update({
   id: '/warranty',
   path: '/warranty',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/warranty.lazy').then((d) => d.Route))
-const TourismRecreationRoute = TourismRecreationRouteImport.update({
-  id: '/tourism-recreation',
-  path: '/tourism-recreation',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/tourism-recreation.lazy').then((d) => d.Route),
-)
 const TechnologyRoute = TechnologyRouteImport.update({
   id: '/technology',
   path: '/technology',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/technology.lazy').then((d) => d.Route))
-const SupOemMoqLeadTimeRoute = SupOemMoqLeadTimeRouteImport.update({
-  id: '/sup-oem-moq-lead-time',
-  path: '/sup-oem-moq-lead-time',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/sup-oem-moq-lead-time.lazy').then((d) => d.Route),
-)
-const SupConstructionComparisonRoute =
-  SupConstructionComparisonRouteImport.update({
-    id: '/sup-construction-comparison',
-    path: '/sup-construction-comparison',
+const StartAgrochemicalProjectRoute =
+  StartAgrochemicalProjectRouteImport.update({
+    id: '/start-agrochemical-project',
+    path: '/start-agrochemical-project',
     getParentRoute: () => rootRouteImport,
   } as any).lazy(() =>
-    import('./routes/sup-construction-comparison.lazy').then((d) => d.Route),
+    import('./routes/start-agrochemical-project.lazy').then((d) => d.Route),
   )
-const SupComplianceByMarketRoute = SupComplianceByMarketRouteImport.update({
-  id: '/sup-compliance-by-market',
-  path: '/sup-compliance-by-market',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/sup-compliance-by-market.lazy').then((d) => d.Route),
-)
-const StartSupProjectRoute = StartSupProjectRouteImport.update({
-  id: '/start-sup-project',
-  path: '/start-sup-project',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/start-sup-project.lazy').then((d) => d.Route),
-)
-const SizeGuideRoute = SizeGuideRouteImport.update({
-  id: '/size-guide',
-  path: '/size-guide',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/size-guide.lazy').then((d) => d.Route))
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
@@ -250,11 +223,6 @@ const OemTrustAssuranceRoute = OemTrustAssuranceRouteImport.update({
 } as any).lazy(() =>
   import('./routes/oem-trust-assurance.lazy').then((d) => d.Route),
 )
-const OemSupMoqRoute = OemSupMoqRouteImport.update({
-  id: '/oem-sup-moq',
-  path: '/oem-sup-moq',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/oem-sup-moq.lazy').then((d) => d.Route))
 const OemPaddleRoute = OemPaddleRouteImport.update({
   id: '/oem-paddle',
   path: '/oem-paddle',
@@ -294,6 +262,13 @@ const OemManufacturingRoute = OemManufacturingRouteImport.update({
 } as any).lazy(() =>
   import('./routes/oem-manufacturing.lazy').then((d) => d.Route),
 )
+const OemAgrochemicalMoqRoute = OemAgrochemicalMoqRouteImport.update({
+  id: '/oem-agrochemical-moq',
+  path: '/oem-agrochemical-moq',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/oem-agrochemical-moq.lazy').then((d) => d.Route),
+)
 const OdmDevelopmentRoute = OdmDevelopmentRouteImport.update({
   id: '/odm-development',
   path: '/odm-development',
@@ -328,14 +303,21 @@ const KnowledgeRoute = KnowledgeRouteImport.update({
   path: '/knowledge',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/knowledge.lazy').then((d) => d.Route))
-const InflatableSupCertificationRoute =
-  InflatableSupCertificationRouteImport.update({
-    id: '/inflatable-sup-certification',
-    path: '/inflatable-sup-certification',
+const FormulationTypeComparisonRoute =
+  FormulationTypeComparisonRouteImport.update({
+    id: '/formulation-type-comparison',
+    path: '/formulation-type-comparison',
     getParentRoute: () => rootRouteImport,
   } as any).lazy(() =>
-    import('./routes/inflatable-sup-certification.lazy').then((d) => d.Route),
+    import('./routes/formulation-type-comparison.lazy').then((d) => d.Route),
   )
+const FormulationSelectorRoute = FormulationSelectorRouteImport.update({
+  id: '/formulation-selector',
+  path: '/formulation-selector',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/formulation-selector.lazy').then((d) => d.Route),
+)
 const FaqRoute = FaqRouteImport.update({
   id: '/faq',
   path: '/faq',
@@ -358,6 +340,13 @@ const EntityDotjsonRoute = EntityDotjsonRouteImport.update({
   path: '/entity.json',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CropProtectionSolutionsRoute = CropProtectionSolutionsRouteImport.update({
+  id: '/crop-protection-solutions',
+  path: '/crop-protection-solutions',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/crop-protection-solutions.lazy').then((d) => d.Route),
+)
 const BiopesticideRoute = BiopesticideRouteImport.update({
   id: '/biopesticide',
   path: '/biopesticide',
@@ -370,6 +359,64 @@ const B2bSolutionsMatrixRoute = B2bSolutionsMatrixRouteImport.update({
 } as any).lazy(() =>
   import('./routes/b2b-solutions-matrix.lazy').then((d) => d.Route),
 )
+const AgrochemicalRegulationByMarketRoute =
+  AgrochemicalRegulationByMarketRouteImport.update({
+    id: '/agrochemical-regulation-by-market',
+    path: '/agrochemical-regulation-by-market',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/agrochemical-regulation-by-market.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+const AgrochemicalOemNorthAmericaRoute =
+  AgrochemicalOemNorthAmericaRouteImport.update({
+    id: '/agrochemical-oem-north-america',
+    path: '/agrochemical-oem-north-america',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/agrochemical-oem-north-america.lazy').then((d) => d.Route),
+  )
+const AgrochemicalOemMoqLeadTimeRoute =
+  AgrochemicalOemMoqLeadTimeRouteImport.update({
+    id: '/agrochemical-oem-moq-lead-time',
+    path: '/agrochemical-oem-moq-lead-time',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/agrochemical-oem-moq-lead-time.lazy').then((d) => d.Route),
+  )
+const AgrochemicalOemEuropeRoute = AgrochemicalOemEuropeRouteImport.update({
+  id: '/agrochemical-oem-europe',
+  path: '/agrochemical-oem-europe',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/agrochemical-oem-europe.lazy').then((d) => d.Route),
+)
+const AgrochemicalOemCanadaRoute = AgrochemicalOemCanadaRouteImport.update({
+  id: '/agrochemical-oem-canada',
+  path: '/agrochemical-oem-canada',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/agrochemical-oem-canada.lazy').then((d) => d.Route),
+)
+const AgrochemicalOemAustraliaRoute =
+  AgrochemicalOemAustraliaRouteImport.update({
+    id: '/agrochemical-oem-australia',
+    path: '/agrochemical-oem-australia',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/agrochemical-oem-australia.lazy').then((d) => d.Route),
+  )
+const AgrochemicalCertificationGuideRoute =
+  AgrochemicalCertificationGuideRouteImport.update({
+    id: '/agrochemical-certification-guide',
+    path: '/agrochemical-certification-guide',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/agrochemical-certification-guide.lazy').then(
+      (d) => d.Route,
+    ),
+  )
 const SplatRoute = SplatRouteImport.update({
   id: '/$',
   path: '/$',
@@ -599,16 +646,16 @@ const Char123LocaleChar125SolutionsPrivateLabelSupRoute =
     path: '/private-label-sup',
     getParentRoute: () => Char123LocaleChar125SolutionsRoute,
   } as any)
+const Char123LocaleChar125SolutionsDistributorPartnersRoute =
+  Char123LocaleChar125SolutionsDistributorPartnersRouteImport.update({
+    id: '/distributor-partners',
+    path: '/distributor-partners',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any)
 const Char123LocaleChar125SolutionsCustomSupRoute =
   Char123LocaleChar125SolutionsCustomSupRouteImport.update({
     id: '/custom-sup',
     path: '/custom-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
-const Char123LocaleChar125SolutionsClubSupRoute =
-  Char123LocaleChar125SolutionsClubSupRouteImport.update({
-    id: '/club-sup',
-    path: '/club-sup',
     getParentRoute: () => Char123LocaleChar125SolutionsRoute,
   } as any)
 const Char123LocaleChar125ProjectsSlugRoute =
@@ -722,26 +769,35 @@ const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
 export interface FileRoutesByFullPath {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
+  '/agrochemical-certification-guide': typeof AgrochemicalCertificationGuideRoute
+  '/agrochemical-oem-australia': typeof AgrochemicalOemAustraliaRoute
+  '/agrochemical-oem-canada': typeof AgrochemicalOemCanadaRoute
+  '/agrochemical-oem-europe': typeof AgrochemicalOemEuropeRoute
+  '/agrochemical-oem-moq-lead-time': typeof AgrochemicalOemMoqLeadTimeRoute
+  '/agrochemical-oem-north-america': typeof AgrochemicalOemNorthAmericaRoute
+  '/agrochemical-regulation-by-market': typeof AgrochemicalRegulationByMarketRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/biopesticide': typeof BiopesticideRoute
+  '/crop-protection-solutions': typeof CropProtectionSolutionsRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
-  '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
+  '/formulation-selector': typeof FormulationSelectorRoute
+  '/formulation-type-comparison': typeof FormulationTypeComparisonRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
+  '/oem-agrochemical-moq': typeof OemAgrochemicalMoqRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
   '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
   '/oem-paddle': typeof OemPaddleRoute
-  '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
@@ -757,15 +813,10 @@ export interface FileRoutesByFullPath {
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
-  '/size-guide': typeof SizeGuideRoute
-  '/start-sup-project': typeof StartSupProjectRoute
-  '/sup-compliance-by-market': typeof SupComplianceByMarketRoute
-  '/sup-construction-comparison': typeof SupConstructionComparisonRoute
-  '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
+  '/start-agrochemical-project': typeof StartAgrochemicalProjectRoute
   '/technology': typeof TechnologyRoute
-  '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
-  '/what-is-sup': typeof WhatIsSupRoute
+  '/what-is-agrochemical-oem': typeof WhatIsAgrochemicalOemRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
   '/about/identity': typeof AboutIdentityRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
@@ -811,8 +862,8 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
-  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
+  '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
@@ -826,26 +877,35 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/$': typeof SplatRoute
+  '/agrochemical-certification-guide': typeof AgrochemicalCertificationGuideRoute
+  '/agrochemical-oem-australia': typeof AgrochemicalOemAustraliaRoute
+  '/agrochemical-oem-canada': typeof AgrochemicalOemCanadaRoute
+  '/agrochemical-oem-europe': typeof AgrochemicalOemEuropeRoute
+  '/agrochemical-oem-moq-lead-time': typeof AgrochemicalOemMoqLeadTimeRoute
+  '/agrochemical-oem-north-america': typeof AgrochemicalOemNorthAmericaRoute
+  '/agrochemical-regulation-by-market': typeof AgrochemicalRegulationByMarketRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/biopesticide': typeof BiopesticideRoute
+  '/crop-protection-solutions': typeof CropProtectionSolutionsRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
-  '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
+  '/formulation-selector': typeof FormulationSelectorRoute
+  '/formulation-type-comparison': typeof FormulationTypeComparisonRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
+  '/oem-agrochemical-moq': typeof OemAgrochemicalMoqRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
   '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
   '/oem-paddle': typeof OemPaddleRoute
-  '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
@@ -861,15 +921,10 @@ export interface FileRoutesByTo {
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
-  '/size-guide': typeof SizeGuideRoute
-  '/start-sup-project': typeof StartSupProjectRoute
-  '/sup-compliance-by-market': typeof SupComplianceByMarketRoute
-  '/sup-construction-comparison': typeof SupConstructionComparisonRoute
-  '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
+  '/start-agrochemical-project': typeof StartAgrochemicalProjectRoute
   '/technology': typeof TechnologyRoute
-  '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
-  '/what-is-sup': typeof WhatIsSupRoute
+  '/what-is-agrochemical-oem': typeof WhatIsAgrochemicalOemRoute
   '/about/identity': typeof AboutIdentityRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
   '/admin/waitlist.csv': typeof AdminWaitlistDotcsvRoute
@@ -913,8 +968,8 @@ export interface FileRoutesByTo {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
-  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
+  '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
@@ -930,26 +985,35 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
+  '/agrochemical-certification-guide': typeof AgrochemicalCertificationGuideRoute
+  '/agrochemical-oem-australia': typeof AgrochemicalOemAustraliaRoute
+  '/agrochemical-oem-canada': typeof AgrochemicalOemCanadaRoute
+  '/agrochemical-oem-europe': typeof AgrochemicalOemEuropeRoute
+  '/agrochemical-oem-moq-lead-time': typeof AgrochemicalOemMoqLeadTimeRoute
+  '/agrochemical-oem-north-america': typeof AgrochemicalOemNorthAmericaRoute
+  '/agrochemical-regulation-by-market': typeof AgrochemicalRegulationByMarketRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/biopesticide': typeof BiopesticideRoute
+  '/crop-protection-solutions': typeof CropProtectionSolutionsRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
-  '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
+  '/formulation-selector': typeof FormulationSelectorRoute
+  '/formulation-type-comparison': typeof FormulationTypeComparisonRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
+  '/oem-agrochemical-moq': typeof OemAgrochemicalMoqRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
   '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
   '/oem-paddle': typeof OemPaddleRoute
-  '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
@@ -965,15 +1029,10 @@ export interface FileRoutesById {
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
   '/sitemap-products.xml': typeof SitemapProductsDotxmlRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
-  '/size-guide': typeof SizeGuideRoute
-  '/start-sup-project': typeof StartSupProjectRoute
-  '/sup-compliance-by-market': typeof SupComplianceByMarketRoute
-  '/sup-construction-comparison': typeof SupConstructionComparisonRoute
-  '/sup-oem-moq-lead-time': typeof SupOemMoqLeadTimeRoute
+  '/start-agrochemical-project': typeof StartAgrochemicalProjectRoute
   '/technology': typeof TechnologyRoute
-  '/tourism-recreation': typeof TourismRecreationRoute
   '/warranty': typeof WarrantyRoute
-  '/what-is-sup': typeof WhatIsSupRoute
+  '/what-is-agrochemical-oem': typeof WhatIsAgrochemicalOemRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminRouteRouteWithChildren
   '/about/identity': typeof AboutIdentityRoute
   '/admin/inquiries.csv': typeof AdminInquiriesDotcsvRoute
@@ -1019,8 +1078,8 @@ export interface FileRoutesById {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
-  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
+  '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
@@ -1037,26 +1096,35 @@ export interface FileRouteTypes {
   fullPaths:
     | '/{-$locale}'
     | '/$'
+    | '/agrochemical-certification-guide'
+    | '/agrochemical-oem-australia'
+    | '/agrochemical-oem-canada'
+    | '/agrochemical-oem-europe'
+    | '/agrochemical-oem-moq-lead-time'
+    | '/agrochemical-oem-north-america'
+    | '/agrochemical-regulation-by-market'
     | '/b2b-solutions-matrix'
     | '/biopesticide'
+    | '/crop-protection-solutions'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
     | '/faq'
-    | '/inflatable-sup-certification'
+    | '/formulation-selector'
+    | '/formulation-type-comparison'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
     | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
+    | '/oem-agrochemical-moq'
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
     | '/oem-odm-private-label-comparison'
     | '/oem-onboarding-guide'
     | '/oem-paddle'
-    | '/oem-sup-moq'
     | '/oem-trust-assurance'
     | '/oem-vs-private-label'
     | '/partners'
@@ -1072,15 +1140,10 @@ export interface FileRouteTypes {
     | '/sitemap-pages.xml'
     | '/sitemap-products.xml'
     | '/sitemap.xml'
-    | '/size-guide'
-    | '/start-sup-project'
-    | '/sup-compliance-by-market'
-    | '/sup-construction-comparison'
-    | '/sup-oem-moq-lead-time'
+    | '/start-agrochemical-project'
     | '/technology'
-    | '/tourism-recreation'
     | '/warranty'
-    | '/what-is-sup'
+    | '/what-is-agrochemical-oem'
     | '/{-$locale}/admin'
     | '/about/identity'
     | '/admin/inquiries.csv'
@@ -1126,8 +1189,8 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
-    | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
+    | '/{-$locale}/solutions/distributor-partners'
     | '/{-$locale}/solutions/private-label-sup'
     | '/{-$locale}/solutions/resort-sup'
     | '/{-$locale}/solutions/school-sup'
@@ -1141,26 +1204,35 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/$'
+    | '/agrochemical-certification-guide'
+    | '/agrochemical-oem-australia'
+    | '/agrochemical-oem-canada'
+    | '/agrochemical-oem-europe'
+    | '/agrochemical-oem-moq-lead-time'
+    | '/agrochemical-oem-north-america'
+    | '/agrochemical-regulation-by-market'
     | '/b2b-solutions-matrix'
     | '/biopesticide'
+    | '/crop-protection-solutions'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
     | '/faq'
-    | '/inflatable-sup-certification'
+    | '/formulation-selector'
+    | '/formulation-type-comparison'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
     | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
+    | '/oem-agrochemical-moq'
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
     | '/oem-odm-private-label-comparison'
     | '/oem-onboarding-guide'
     | '/oem-paddle'
-    | '/oem-sup-moq'
     | '/oem-trust-assurance'
     | '/oem-vs-private-label'
     | '/partners'
@@ -1176,15 +1248,10 @@ export interface FileRouteTypes {
     | '/sitemap-pages.xml'
     | '/sitemap-products.xml'
     | '/sitemap.xml'
-    | '/size-guide'
-    | '/start-sup-project'
-    | '/sup-compliance-by-market'
-    | '/sup-construction-comparison'
-    | '/sup-oem-moq-lead-time'
+    | '/start-agrochemical-project'
     | '/technology'
-    | '/tourism-recreation'
     | '/warranty'
-    | '/what-is-sup'
+    | '/what-is-agrochemical-oem'
     | '/about/identity'
     | '/admin/inquiries.csv'
     | '/admin/waitlist.csv'
@@ -1228,8 +1295,8 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
-    | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
+    | '/{-$locale}/solutions/distributor-partners'
     | '/{-$locale}/solutions/private-label-sup'
     | '/{-$locale}/solutions/resort-sup'
     | '/{-$locale}/solutions/school-sup'
@@ -1244,26 +1311,35 @@ export interface FileRouteTypes {
     | '__root__'
     | '/{-$locale}'
     | '/$'
+    | '/agrochemical-certification-guide'
+    | '/agrochemical-oem-australia'
+    | '/agrochemical-oem-canada'
+    | '/agrochemical-oem-europe'
+    | '/agrochemical-oem-moq-lead-time'
+    | '/agrochemical-oem-north-america'
+    | '/agrochemical-regulation-by-market'
     | '/b2b-solutions-matrix'
     | '/biopesticide'
+    | '/crop-protection-solutions'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
     | '/faq'
-    | '/inflatable-sup-certification'
+    | '/formulation-selector'
+    | '/formulation-type-comparison'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
     | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
+    | '/oem-agrochemical-moq'
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
     | '/oem-odm-private-label-comparison'
     | '/oem-onboarding-guide'
     | '/oem-paddle'
-    | '/oem-sup-moq'
     | '/oem-trust-assurance'
     | '/oem-vs-private-label'
     | '/partners'
@@ -1279,15 +1355,10 @@ export interface FileRouteTypes {
     | '/sitemap-pages.xml'
     | '/sitemap-products.xml'
     | '/sitemap.xml'
-    | '/size-guide'
-    | '/start-sup-project'
-    | '/sup-compliance-by-market'
-    | '/sup-construction-comparison'
-    | '/sup-oem-moq-lead-time'
+    | '/start-agrochemical-project'
     | '/technology'
-    | '/tourism-recreation'
     | '/warranty'
-    | '/what-is-sup'
+    | '/what-is-agrochemical-oem'
     | '/{-$locale}/admin'
     | '/about/identity'
     | '/admin/inquiries.csv'
@@ -1333,8 +1404,8 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
-    | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
+    | '/{-$locale}/solutions/distributor-partners'
     | '/{-$locale}/solutions/private-label-sup'
     | '/{-$locale}/solutions/resort-sup'
     | '/{-$locale}/solutions/school-sup'
@@ -1350,26 +1421,35 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   Char123LocaleChar125RouteRoute: typeof Char123LocaleChar125RouteRouteWithChildren
   SplatRoute: typeof SplatRoute
+  AgrochemicalCertificationGuideRoute: typeof AgrochemicalCertificationGuideRoute
+  AgrochemicalOemAustraliaRoute: typeof AgrochemicalOemAustraliaRoute
+  AgrochemicalOemCanadaRoute: typeof AgrochemicalOemCanadaRoute
+  AgrochemicalOemEuropeRoute: typeof AgrochemicalOemEuropeRoute
+  AgrochemicalOemMoqLeadTimeRoute: typeof AgrochemicalOemMoqLeadTimeRoute
+  AgrochemicalOemNorthAmericaRoute: typeof AgrochemicalOemNorthAmericaRoute
+  AgrochemicalRegulationByMarketRoute: typeof AgrochemicalRegulationByMarketRoute
   B2bSolutionsMatrixRoute: typeof B2bSolutionsMatrixRoute
   BiopesticideRoute: typeof BiopesticideRoute
+  CropProtectionSolutionsRoute: typeof CropProtectionSolutionsRoute
   EntityDotjsonRoute: typeof EntityDotjsonRoute
   FactoryRoute: typeof FactoryRoute
   FactoryAuditChecklistRoute: typeof FactoryAuditChecklistRoute
   FaqRoute: typeof FaqRoute
-  InflatableSupCertificationRoute: typeof InflatableSupCertificationRoute
+  FormulationSelectorRoute: typeof FormulationSelectorRoute
+  FormulationTypeComparisonRoute: typeof FormulationTypeComparisonRoute
   KnowledgeRoute: typeof KnowledgeRoute
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
   NewBrandTrialOrderRoute: typeof NewBrandTrialOrderRoute
   NewsRoute: typeof NewsRoute
   OdmDevelopmentRoute: typeof OdmDevelopmentRoute
+  OemAgrochemicalMoqRoute: typeof OemAgrochemicalMoqRoute
   OemManufacturingRoute: typeof OemManufacturingRoute
   OemMoqGuideRoute: typeof OemMoqGuideRoute
   OemOdmRoute: typeof OemOdmRoute
   OemOdmPrivateLabelComparisonRoute: typeof OemOdmPrivateLabelComparisonRoute
   OemOnboardingGuideRoute: typeof OemOnboardingGuideRoute
   OemPaddleRoute: typeof OemPaddleRoute
-  OemSupMoqRoute: typeof OemSupMoqRoute
   OemTrustAssuranceRoute: typeof OemTrustAssuranceRoute
   OemVsPrivateLabelRoute: typeof OemVsPrivateLabelRoute
   PartnersRoute: typeof PartnersRoute
@@ -1385,15 +1465,10 @@ export interface RootRouteChildren {
   SitemapPagesDotxmlRoute: typeof SitemapPagesDotxmlRoute
   SitemapProductsDotxmlRoute: typeof SitemapProductsDotxmlRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
-  SizeGuideRoute: typeof SizeGuideRoute
-  StartSupProjectRoute: typeof StartSupProjectRoute
-  SupComplianceByMarketRoute: typeof SupComplianceByMarketRoute
-  SupConstructionComparisonRoute: typeof SupConstructionComparisonRoute
-  SupOemMoqLeadTimeRoute: typeof SupOemMoqLeadTimeRoute
+  StartAgrochemicalProjectRoute: typeof StartAgrochemicalProjectRoute
   TechnologyRoute: typeof TechnologyRoute
-  TourismRecreationRoute: typeof TourismRecreationRoute
   WarrantyRoute: typeof WarrantyRoute
-  WhatIsSupRoute: typeof WhatIsSupRoute
+  WhatIsAgrochemicalOemRoute: typeof WhatIsAgrochemicalOemRoute
   AboutIdentityRoute: typeof AboutIdentityRoute
   AdminInquiriesDotcsvRoute: typeof AdminInquiriesDotcsvRoute
   AdminWaitlistDotcsvRoute: typeof AdminWaitlistDotcsvRoute
@@ -1409,11 +1484,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/what-is-sup': {
-      id: '/what-is-sup'
-      path: '/what-is-sup'
-      fullPath: '/what-is-sup'
-      preLoaderRoute: typeof WhatIsSupRouteImport
+    '/what-is-agrochemical-oem': {
+      id: '/what-is-agrochemical-oem'
+      path: '/what-is-agrochemical-oem'
+      fullPath: '/what-is-agrochemical-oem'
+      preLoaderRoute: typeof WhatIsAgrochemicalOemRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/warranty': {
@@ -1423,13 +1498,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WarrantyRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/tourism-recreation': {
-      id: '/tourism-recreation'
-      path: '/tourism-recreation'
-      fullPath: '/tourism-recreation'
-      preLoaderRoute: typeof TourismRecreationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/technology': {
       id: '/technology'
       path: '/technology'
@@ -1437,39 +1505,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TechnologyRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/sup-oem-moq-lead-time': {
-      id: '/sup-oem-moq-lead-time'
-      path: '/sup-oem-moq-lead-time'
-      fullPath: '/sup-oem-moq-lead-time'
-      preLoaderRoute: typeof SupOemMoqLeadTimeRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/sup-construction-comparison': {
-      id: '/sup-construction-comparison'
-      path: '/sup-construction-comparison'
-      fullPath: '/sup-construction-comparison'
-      preLoaderRoute: typeof SupConstructionComparisonRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/sup-compliance-by-market': {
-      id: '/sup-compliance-by-market'
-      path: '/sup-compliance-by-market'
-      fullPath: '/sup-compliance-by-market'
-      preLoaderRoute: typeof SupComplianceByMarketRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/start-sup-project': {
-      id: '/start-sup-project'
-      path: '/start-sup-project'
-      fullPath: '/start-sup-project'
-      preLoaderRoute: typeof StartSupProjectRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/size-guide': {
-      id: '/size-guide'
-      path: '/size-guide'
-      fullPath: '/size-guide'
-      preLoaderRoute: typeof SizeGuideRouteImport
+    '/start-agrochemical-project': {
+      id: '/start-agrochemical-project'
+      path: '/start-agrochemical-project'
+      fullPath: '/start-agrochemical-project'
+      preLoaderRoute: typeof StartAgrochemicalProjectRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -1577,13 +1617,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OemTrustAssuranceRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/oem-sup-moq': {
-      id: '/oem-sup-moq'
-      path: '/oem-sup-moq'
-      fullPath: '/oem-sup-moq'
-      preLoaderRoute: typeof OemSupMoqRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/oem-paddle': {
       id: '/oem-paddle'
       path: '/oem-paddle'
@@ -1624,6 +1657,13 @@ declare module '@tanstack/react-router' {
       path: '/oem-manufacturing'
       fullPath: '/oem-manufacturing'
       preLoaderRoute: typeof OemManufacturingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oem-agrochemical-moq': {
+      id: '/oem-agrochemical-moq'
+      path: '/oem-agrochemical-moq'
+      fullPath: '/oem-agrochemical-moq'
+      preLoaderRoute: typeof OemAgrochemicalMoqRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/odm-development': {
@@ -1668,11 +1708,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KnowledgeRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/inflatable-sup-certification': {
-      id: '/inflatable-sup-certification'
-      path: '/inflatable-sup-certification'
-      fullPath: '/inflatable-sup-certification'
-      preLoaderRoute: typeof InflatableSupCertificationRouteImport
+    '/formulation-type-comparison': {
+      id: '/formulation-type-comparison'
+      path: '/formulation-type-comparison'
+      fullPath: '/formulation-type-comparison'
+      preLoaderRoute: typeof FormulationTypeComparisonRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/formulation-selector': {
+      id: '/formulation-selector'
+      path: '/formulation-selector'
+      fullPath: '/formulation-selector'
+      preLoaderRoute: typeof FormulationSelectorRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/faq': {
@@ -1703,6 +1750,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EntityDotjsonRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/crop-protection-solutions': {
+      id: '/crop-protection-solutions'
+      path: '/crop-protection-solutions'
+      fullPath: '/crop-protection-solutions'
+      preLoaderRoute: typeof CropProtectionSolutionsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/biopesticide': {
       id: '/biopesticide'
       path: '/biopesticide'
@@ -1715,6 +1769,55 @@ declare module '@tanstack/react-router' {
       path: '/b2b-solutions-matrix'
       fullPath: '/b2b-solutions-matrix'
       preLoaderRoute: typeof B2bSolutionsMatrixRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agrochemical-regulation-by-market': {
+      id: '/agrochemical-regulation-by-market'
+      path: '/agrochemical-regulation-by-market'
+      fullPath: '/agrochemical-regulation-by-market'
+      preLoaderRoute: typeof AgrochemicalRegulationByMarketRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agrochemical-oem-north-america': {
+      id: '/agrochemical-oem-north-america'
+      path: '/agrochemical-oem-north-america'
+      fullPath: '/agrochemical-oem-north-america'
+      preLoaderRoute: typeof AgrochemicalOemNorthAmericaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agrochemical-oem-moq-lead-time': {
+      id: '/agrochemical-oem-moq-lead-time'
+      path: '/agrochemical-oem-moq-lead-time'
+      fullPath: '/agrochemical-oem-moq-lead-time'
+      preLoaderRoute: typeof AgrochemicalOemMoqLeadTimeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agrochemical-oem-europe': {
+      id: '/agrochemical-oem-europe'
+      path: '/agrochemical-oem-europe'
+      fullPath: '/agrochemical-oem-europe'
+      preLoaderRoute: typeof AgrochemicalOemEuropeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agrochemical-oem-canada': {
+      id: '/agrochemical-oem-canada'
+      path: '/agrochemical-oem-canada'
+      fullPath: '/agrochemical-oem-canada'
+      preLoaderRoute: typeof AgrochemicalOemCanadaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agrochemical-oem-australia': {
+      id: '/agrochemical-oem-australia'
+      path: '/agrochemical-oem-australia'
+      fullPath: '/agrochemical-oem-australia'
+      preLoaderRoute: typeof AgrochemicalOemAustraliaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/agrochemical-certification-guide': {
+      id: '/agrochemical-certification-guide'
+      path: '/agrochemical-certification-guide'
+      fullPath: '/agrochemical-certification-guide'
+      preLoaderRoute: typeof AgrochemicalCertificationGuideRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/$': {
@@ -1990,18 +2093,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRouteImport
       parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
+    '/{-$locale}/solutions/distributor-partners': {
+      id: '/{-$locale}/solutions/distributor-partners'
+      path: '/distributor-partners'
+      fullPath: '/{-$locale}/solutions/distributor-partners'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsDistributorPartnersRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
     '/{-$locale}/solutions/custom-sup': {
       id: '/{-$locale}/solutions/custom-sup'
       path: '/custom-sup'
       fullPath: '/{-$locale}/solutions/custom-sup'
       preLoaderRoute: typeof Char123LocaleChar125SolutionsCustomSupRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
-    '/{-$locale}/solutions/club-sup': {
-      id: '/{-$locale}/solutions/club-sup'
-      path: '/club-sup'
-      fullPath: '/{-$locale}/solutions/club-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsClubSupRouteImport
       parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
     '/{-$locale}/projects/$slug': {
@@ -2159,8 +2262,8 @@ const Char123LocaleChar125AdminRouteRouteWithChildren =
   )
 
 interface Char123LocaleChar125SolutionsRouteChildren {
-  Char123LocaleChar125SolutionsClubSupRoute: typeof Char123LocaleChar125SolutionsClubSupRoute
   Char123LocaleChar125SolutionsCustomSupRoute: typeof Char123LocaleChar125SolutionsCustomSupRoute
+  Char123LocaleChar125SolutionsDistributorPartnersRoute: typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   Char123LocaleChar125SolutionsPrivateLabelSupRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   Char123LocaleChar125SolutionsResortSupRoute: typeof Char123LocaleChar125SolutionsResortSupRoute
   Char123LocaleChar125SolutionsSchoolSupRoute: typeof Char123LocaleChar125SolutionsSchoolSupRoute
@@ -2169,10 +2272,10 @@ interface Char123LocaleChar125SolutionsRouteChildren {
 
 const Char123LocaleChar125SolutionsRouteChildren: Char123LocaleChar125SolutionsRouteChildren =
   {
-    Char123LocaleChar125SolutionsClubSupRoute:
-      Char123LocaleChar125SolutionsClubSupRoute,
     Char123LocaleChar125SolutionsCustomSupRoute:
       Char123LocaleChar125SolutionsCustomSupRoute,
+    Char123LocaleChar125SolutionsDistributorPartnersRoute:
+      Char123LocaleChar125SolutionsDistributorPartnersRoute,
     Char123LocaleChar125SolutionsPrivateLabelSupRoute:
       Char123LocaleChar125SolutionsPrivateLabelSupRoute,
     Char123LocaleChar125SolutionsResortSupRoute:
@@ -2291,26 +2394,35 @@ const Char123LocaleChar125RouteRouteWithChildren =
 const rootRouteChildren: RootRouteChildren = {
   Char123LocaleChar125RouteRoute: Char123LocaleChar125RouteRouteWithChildren,
   SplatRoute: SplatRoute,
+  AgrochemicalCertificationGuideRoute: AgrochemicalCertificationGuideRoute,
+  AgrochemicalOemAustraliaRoute: AgrochemicalOemAustraliaRoute,
+  AgrochemicalOemCanadaRoute: AgrochemicalOemCanadaRoute,
+  AgrochemicalOemEuropeRoute: AgrochemicalOemEuropeRoute,
+  AgrochemicalOemMoqLeadTimeRoute: AgrochemicalOemMoqLeadTimeRoute,
+  AgrochemicalOemNorthAmericaRoute: AgrochemicalOemNorthAmericaRoute,
+  AgrochemicalRegulationByMarketRoute: AgrochemicalRegulationByMarketRoute,
   B2bSolutionsMatrixRoute: B2bSolutionsMatrixRoute,
   BiopesticideRoute: BiopesticideRoute,
+  CropProtectionSolutionsRoute: CropProtectionSolutionsRoute,
   EntityDotjsonRoute: EntityDotjsonRoute,
   FactoryRoute: FactoryRoute,
   FactoryAuditChecklistRoute: FactoryAuditChecklistRoute,
   FaqRoute: FaqRoute,
-  InflatableSupCertificationRoute: InflatableSupCertificationRoute,
+  FormulationSelectorRoute: FormulationSelectorRoute,
+  FormulationTypeComparisonRoute: FormulationTypeComparisonRoute,
   KnowledgeRoute: KnowledgeRoute,
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
   NewBrandTrialOrderRoute: NewBrandTrialOrderRoute,
   NewsRoute: NewsRoute,
   OdmDevelopmentRoute: OdmDevelopmentRoute,
+  OemAgrochemicalMoqRoute: OemAgrochemicalMoqRoute,
   OemManufacturingRoute: OemManufacturingRoute,
   OemMoqGuideRoute: OemMoqGuideRoute,
   OemOdmRoute: OemOdmRoute,
   OemOdmPrivateLabelComparisonRoute: OemOdmPrivateLabelComparisonRoute,
   OemOnboardingGuideRoute: OemOnboardingGuideRoute,
   OemPaddleRoute: OemPaddleRoute,
-  OemSupMoqRoute: OemSupMoqRoute,
   OemTrustAssuranceRoute: OemTrustAssuranceRoute,
   OemVsPrivateLabelRoute: OemVsPrivateLabelRoute,
   PartnersRoute: PartnersRoute,
@@ -2326,15 +2438,10 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapPagesDotxmlRoute: SitemapPagesDotxmlRoute,
   SitemapProductsDotxmlRoute: SitemapProductsDotxmlRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
-  SizeGuideRoute: SizeGuideRoute,
-  StartSupProjectRoute: StartSupProjectRoute,
-  SupComplianceByMarketRoute: SupComplianceByMarketRoute,
-  SupConstructionComparisonRoute: SupConstructionComparisonRoute,
-  SupOemMoqLeadTimeRoute: SupOemMoqLeadTimeRoute,
+  StartAgrochemicalProjectRoute: StartAgrochemicalProjectRoute,
   TechnologyRoute: TechnologyRoute,
-  TourismRecreationRoute: TourismRecreationRoute,
   WarrantyRoute: WarrantyRoute,
-  WhatIsSupRoute: WhatIsSupRoute,
+  WhatIsAgrochemicalOemRoute: WhatIsAgrochemicalOemRoute,
   AboutIdentityRoute: AboutIdentityRoute,
   AdminInquiriesDotcsvRoute: AdminInquiriesDotcsvRoute,
   AdminWaitlistDotcsvRoute: AdminWaitlistDotcsvRoute,

@@ -1,77 +1,78 @@
 meta:
   title: 'Quality Lab — Testing & Quality Assurance | {SITE}'
-  description: 'Independent quality lab with ISO 9001 processes at Agrospear: every unit tested before shipment to guarantee inflatable SUP board quality.'
+  description: 'Independent quality lab with ISO 9001 processes at Agrospear: every batch tested for active content, stability and specification compliance before shipment.'
   dateModified: '2026-08-07'
   keywords:
-    - 'sup quality control'
-    - 'paddle board testing lab'
-    - 'iso 9001 sup factory'
-    - 'inflatable sup quality'
+    - 'agrochemical quality control'
+    - 'agrochemical testing lab'
+    - 'iso 9001 agrochemical factory'
+    - 'crop protection quality'
 hero:
   tagline: Quality Control Laboratory
   title: Testing Laboratory & Quality Assurance
-  subtitle: Independent quality lab with ISO 9001 processes —every unit tested before shipment
+  subtitle: Independent quality lab with ISO 9001 processes —every batch tested before shipment
 
 answer:
   label: 'Straight answer'
-  text: '100% of units are pressure-tested at 18.0 PSI for 24 hours, with auto-reject above a 0.50 PSI pressure drop. Raw fabric batches are verified to ASTM D751 and ISO 4674, and weld peel tests run every 50 units with AQL 2.5 final sampling per ISO 2859.'
+  text: '100% of batches are tested for active content by HPLC/GC, suspensibility (CIPAC MT 15), and 54 °C accelerated stability for 14 days (CIPAC MT 46), with auto-reject on active content deviation beyond ±2%. Raw material batches are verified by certificate of analysis and identity testing, and in-process checks run every production stage with AQL 2.5 final sampling per ISO 2859.'
   verified: '2026-08'
 
-intro: Agrospear operates a dedicated quality control laboratory that operates independently from production. Every batch of raw material and every finished SUP board passes through documented inspection protocols before release. Our QC team reports directly to management, ensuring impartial quality decisions.
+intro: Agrospear operates a dedicated quality control laboratory that operates independently from production. Every batch of raw material and every finished agrochemical formulation passes through documented inspection protocols before release. Our QC team reports directly to management, ensuring impartial quality decisions.
 
 highlights:
   - value: 100%
-    label: Units pressure-tested
-    detail: Every chamber, every board
-  - value: 24 h
-    label: Air retention test duration
-    detail: At 18.0 PSI rated pressure
-  - value: '&lt;5%'
-    label: Max allowed pressure drop
-    detail: Over 24-hour hold period
+    label: Batches tested
+    detail: Every raw material, every finished product
+  - value: 14 d
+    label: Accelerated stability test duration
+    detail: At 54 °C per CIPAC MT 46
+  - value: ±2%
+    label: Max active content deviation
+    detail: Over specification range
   - value: AQL 2.5
     label: Major defect threshold
     detail: Per ISO 2859 sampling
 
 test_procedures:
   - title: Raw Material Inspection
-    description: Every incoming batch of PVC, Hypalon, drop-stitch fabric, and hardware is tested before acceptance. Tensile strength (ASTM D751), tear resistance (ISO 4674), and UV resistance are verified. Non-conforming materials are quarantined and returned.
+    description: Every incoming batch of active ingredient, solvent, surfactant, adjuvant, and packaging component is tested before acceptance. Active content by HPLC/GC, moisture, particle size, pH, and identity confirmation are verified. Non-conforming materials are quarantined and returned.
     standards:
-      - ASTM D751 (tensile)
-      - ISO 4674 (tear)
-      - ISO 4892 (UV)
+      - HPLC/GC (active content)
+      - CIPAC MT 15 (suspensibility)
+      - ICAMA/FAMI-QS (identity)
   - title: In-Process QC Checkpoints
-    description: Production operators perform self-inspection at each stage. QC auditors conduct random sampling throughout the shift. Weld peel tests are performed every 50 units. Dimensional checks happen every 20th panel.
+    description: Production operators perform self-inspection at each stage. QC auditors conduct random sampling throughout the shift. Active content checks are performed after compounding. Particle size and viscosity checks happen after milling. Fill weight and torque verification after filling.
     standards:
-      - ASTM D751 (peel)
+      - CIPAC MT 15 (suspensibility)
       - Internal 100-point checklist
       - ISO 2859 sampling
-  - title: 48-Hour Air Retention Test
-    description: Every tube chamber is inflated to 18.0 PSI and held for 24 hours. Pressure sensors log continuously with temperature compensation. Any chamber exceeding 0.50 PSI pressure drop triggers automatic batch re-inspection.
+  - title: 54 °C Accelerated Stability Test
+    description: Every formulation batch is held at 54 °C for 14 days per CIPAC MT 46. Active content, suspensibility, emulsion stability, pH, and appearance are tested before and after. Any batch showing sedimentation, phase separation, or active content degradation beyond tolerance triggers automatic batch re-inspection.
     standards:
-      - ISO 6185
-      - CE 2013/53/EU
-  - title: Load & Balance Testing
-    description: Completed boards are tested at maximum rated capacity for stability, freeboard, and handling. Each board undergoes water testing before final inspection approval.
+      - CIPAC MT 46 (stability)
+      - FAO/WHO specifications
+  - title: Final Specification Verification
+    description: Completed formulations are tested against the full project specification — active content, suspensibility, emulsion stability, pH, viscosity, particle size, and appearance. Each batch undergoes complete analytical verification before final inspection approval.
     standards:
-      - ISO 12217
-      - CE 2013/53/EU
+      - CIPAC MT 36 (emulsion)
+      - CIPAC MT 75 (particle size)
+      - FAO/WHO specifications
 
 equipment:
-  - name: Universal Testing Machine (tensile)
-    spec: 5 kN, ASTM D751 compliant
-  - name: Pressure Decay Tester
-    spec: Multi-channel, 0–50 psi, datalogging
-  - name: UV Weathering Chamber
-    spec: ISO 4892, 1,000 h cycles
-  - name: Thickness Gauge (digital)
-    spec: 0.01 mm resolution
-  - name: Peel Tester (weld)
-    spec: Motorized, 50 N capacity
-  - name: Temperature Chamber
-    spec: -40 °C to +100 °C
-  - name: Leak Detection Tank
-    spec: 6 m × 2 m, illuminated
+  - name: HPLC System (active content)
+    spec: UV/DAD detector, validated methods per CIPAC
+  - name: GC System (volatile AI)
+    spec: FID/ECD detector, headspace capability
+  - name: Stability Chamber
+    spec: 54 °C ±2 °C, CIPAC MT 46 compliant
+  - name: Particle Size Analyzer (laser diffraction)
+    spec: 0.01–3,500 µm range
+  - name: pH Meter (calibrated)
+    spec: ±0.01 resolution, temperature compensated
+  - name: Viscometer (rotational)
+    spec: 0.3–6,000 mPa·s range
+  - name: Suspensibility Test Apparatus
+    spec: CIPAC MT 15 compliant
 
 lab_evidence:
   tagline: Test Report Dossiers
@@ -79,7 +80,7 @@ lab_evidence:
   subtitle: 'The same bilingual controlled records our quality team closes against — structure, methods, criteria and results, with confidential fields removed. Each dossier maps to one of the seven inspection gates.'
   items:
     - title: 'IQC — Incoming Material Reports'
-      description: 'Fabric, PVC roll, valve and component verification against the approved specification.'
+      description: 'Active ingredient, solvent, surfactant and component verification against the approved specification.'
       icon: tabler:file-certificate
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Download IQC reports (PDF)'
@@ -88,13 +89,13 @@ lab_evidence:
       icon: tabler:file-check
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Download IPQC reports (PDF)'
-    - title: 'Air-Tightness — Pressure & Leak Records'
-      description: '100% seam leak detection, valve integrity and 24 h pressure-hold verification.'
+    - title: 'Stability — Accelerated & Shelf-Life Records'
+      description: '100% batch 54 °C accelerated stability, suspensibility, and active content verification.'
       icon: tabler:waves
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
-      link_label: 'Download air-tightness reports (PDF)'
-    - title: 'FQC — Final Board Test Reports'
-      description: 'Final inspection against the approved sample — dimensions, cosmetics and fin-box.'
+      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_STABILITY_TEST_REPORTS.pdf
+      link_label: 'Download stability reports (PDF)'
+    - title: 'FQC — Final Product Test Reports'
+      description: 'Final inspection against the approved sample — active content, physical properties, and specification compliance.'
       icon: tabler:shield-check
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Download FQC reports (PDF)'
@@ -104,14 +105,14 @@ lab_evidence:
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Download PSI reports (PDF)'
     - title: 'Shipment Release & Traceability Dossier'
-      description: 'Release authorization and batch traceability mapped to spec, artwork and BOM.'
+      description: 'Release authorization and batch traceability mapped to spec, label and BOM.'
       icon: tabler:history
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Download release reports (PDF)'
     - title: 'Complete Quality Dossier'
       description: 'One pack covering the whole documentation system — QIP, gate records, traceability and NCR control.'
       icon: tabler:books
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_AGROCHEMICAL_QUALITY_DOSSIER.pdf
       link_label: 'Download documentation pack (PDF)'
 
 cta:
@@ -121,7 +122,7 @@ cta:
     - variant: primary
       text: Request a Project Quality Review
       href: /contact#quality-inquiry
-    - text: The 7-stage inspection system
+    - text: The 4-stage inspection system
       href: /quality
     - text: Inspection standards & QMS downloads
       href: /factory/quality-inspection

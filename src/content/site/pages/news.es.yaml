@@ -1,14 +1,14 @@
 meta:
-  title: 'Noticias — Fabricante de SUP y novedades náuticas | {SITE}'
-  description: 'Últimas noticias de Agrospear: novedades de la fábrica, nuevos modelos de SUP hinchable, certificaciones y anuncios del mundo náutico.'
+  title: 'Noticias — Fabricante agroquímico y novedades del sector | {SITE}'
+  description: 'Últimas noticias de Agrospear: novedades de la fábrica, nuevas formulaciones agroquímicas, certificaciones y anuncios del sector de protección de cultivos.'
   keywords:
-    - 'noticias fabricante de sup'
+    - 'noticias fabricante agroquímico'
     - 'novedades de Agrospear'
-    - 'anuncios de sup hinchable'
-    - 'noticias de la industria náutica'
+    - 'anuncios de formulaciones agroquímicas'
+    - 'noticias del sector de protección de cultivos'
 hero_text:
   tagline: ''
   title: Noticias
-  subtitle: Lo último de Agrospear —lanzamientos de producto, novedades de la empresa, guías e historias del agua
+  subtitle: Lo último de Agrospear —lanzamientos de producto, novedades de la empresa, guías e historias del campo
 news_list:
   limit: 100

@@ -1,0 +1,116 @@
+meta:
+  title: 'Planta piloto — Ensayos de rendimiento de formulaciones agroquímicas'
+  description: 'Valida el rendimiento de una formulación agroquímica en nuestra planta piloto: producción a escala reducida, análisis de estabilidad y medición de eficacia.'
+  dateModified: '2026-08'
+  back_text: 'Volver al Centro de I+D'
+  home_label: 'Inicio'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Ensayamos las formulaciones agroquímicas a escala piloto — perfil de dispersión, viscosidad, tamaño de partícula y suspensibilidad — midiendo la estabilidad, la eficacia de aplicación y la compatibilidad antes de comprometer una producción a escala completa. Una semana en la planta piloto devuelve los datos de rendimiento que costarían meses de prueba y error a escala industrial.'
+  verified: '2026-08'
+
+hero:
+  tagline: 'Lab 04'
+  title: 'Planta Piloto'
+  subtitle: 'Validación del rendimiento antes de la primera producción a escala completa'
+  image: 'https://assets.agrospear.com/images/agrospear/factory/agrospear-pilot-plant-original.webp'
+  image_alt: 'Ensayos de rendimiento en la planta piloto de Agrospear'
+
+intro: 'Es una idea equivocada común que los ensayos a escala piloto se reservan a las grandes corporaciones farmacéuticas. En realidad, el rendimiento de una formulación agroquímica — un sistema de dispersión de 500 g/L o más — depende de su composición tanto como cualquier otro producto industrial. El perfil de dispersión, la viscosidad, el tamaño de partícula y la suspensibilidad tienen un efecto significativo en la estabilidad, la eficacia de aplicación y la compatibilidad. En {SITE.name}, disponemos de una planta piloto específica que nos permite cuantificar estos efectos a escala reducida — antes de invertir en materias primas y equipos para una producción a escala completa.'
+
+content_html: |
+  <h2>¿Por qué ensayar una formulación en la planta piloto?</h2>
+  <p>Ensayar a escala piloto nos da la capacidad de iterar las formulaciones de una manera rápida y rentable. Una semana en la planta piloto puede generar los mismos datos que requerirían meses de prueba y error a escala completa — y por una fracción del coste.</p>
+
+  <h2>Especificaciones de la instalación</h2>
+  <table>
+    <thead><tr><th>Parámetro</th><th>Especificación</th></tr></thead>
+    <tbody>
+      <tr><td>Capacidad del reactor</td><td>500 L (Lote piloto estándar), agitación variable 50–500 rpm</td></tr>
+      <tr><td>Molino de alto corte</td><td>Accionado por motor eléctrico, velocidad máxima 3000 rpm, capacidad 200 L</td></tr>
+      <tr><td>Molino de arena</td><td>Tipo horizontal, media de circonio, tamaño de partícula objetivo D50 ≤ 5 µm</td></tr>
+      <tr><td>Secador por atomización</td><td>Capacidad de evaporación 50 kg/h, temperatura de entrada 180–220 °C</td></tr>
+      <tr><td>Instrumentación</td><td>HPLC, GC, viscosímetro, medidor de pH, analizador de tamaño de partícula por láser</td></tr>
+      <tr><td>Adquisición de datos</td><td>Muestreo en tiempo real + paquete de post-procesado y emisión de informes</td></tr>
+      <tr><td>Línea de llenado piloto</td><td>Llenado de tambores de 5–200 L, capacidad 20 tambores/h</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Nuestro programa de ensayos</h2>
+  <p>Un programa estándar de desarrollo de formulaciones en nuestra planta piloto sigue esta secuencia:</p>
+  <ol>
+    <li><strong>Preparación del lote piloto</strong> — Un lote de 200–500 L se prepara con la composición definida. Las materias primas se verifican por HPLC/GC y los parámetros de proceso se ajustan para igualar las condiciones de producción a escala completa.</li>
+    <li><strong>Pasadas de molienda</strong> — La formulación se procesa a 3–5 configuraciones de molienda que recorren el rango de tamaño de partícula objetivo. La distribución de tamaño se mide y optimiza por difracción láser.</li>
+    <li><strong>Medición de viscosidad y pH</strong> — La viscosidad y el pH se registran a cada etapa. El objetivo es el perfil que minimiza la sedimentación manteniendo la fluidez de aplicación.</li>
+    <li><strong>Estudio de estabilidad térmica</strong> — Se miden los perfiles de estabilidad a 54 °C (14 días) para evaluar la sedimentación, la separación de fases e identificar interacciones que comprometan la vida útil del producto.</li>
+    <li><strong>Prueba de eficacia (opcional)</strong> — Ensayos biológicos en invernadero para medir la eficacia contra la plaga o enfermedad objetivo — los datos detrás del diseño de formulaciones comerciales.</li>
+    <li><strong>Análisis de datos y recomendaciones</strong> — Se entrega un informe completo con gráficas comparativas, curvas de estabilidad/concentración y recomendaciones específicas de producción para el lote a escala completa.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Resultados típicos de la planta piloto — Sedimentación vs tiempo (formulación SC 500 g/L)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">Día 0</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:5%"></div>
+        </div>
+        <span class="w-16 text-right">0.2 %</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">Día 7</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:15%"></div>
+        </div>
+        <span class="w-16 text-right">0.8 %</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">Día 14</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:35%"></div>
+        </div>
+        <span class="w-16 text-right">1.5 %</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">54 °C 7d</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:55%"></div>
+        </div>
+        <span class="w-16 text-right">2.2 %</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">54 °C 14d</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:75%"></div>
+        </div>
+        <span class="w-16 text-right">3.0 %</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Sedimentación acumulada (%) a temperatura ambiente y 54 °C. La especificación CIPAC exige ≤ 5 % tras 14 días a 54 °C.</p>
+  </div>
+
+  <h2>Equipo técnico</h2>
+  <p>Nuestra planta piloto está a cargo de un ingeniero químico con doctorado en tecnología de formulaciones y 8 años de experiencia en desarrollo de productos agroquímicos en un importante instituto de investigación. Está respaldado por un técnico que prepara todos los lotes e instrumentación. El equipo sigue los procedimientos recomendados de la CIPAC (Collaborative International Pesticides Analytical Council) para garantizar que cada ensayo sea repetible, trazable y defendible internacionalmente.</p>
+
+  <h2>Ensayos para el desarrollo de formulaciones a medida</h2>
+  <p>Nuestra planta piloto no solo se usa para las formulaciones diseñadas internamente: de forma regular realizamos programas de ensayos para clientes que quieren validar una formulación personalizada o investigar un problema de rendimiento:</p>
+  <ul>
+    <li><strong>Comparación de formulaciones</strong> — Dos o más composiciones candidatas ensayadas en condiciones idénticas, lo que ofrece una comparación objetiva de estabilidad/eficacia/compatibilidad que orienta tu decisión de diseño.</li>
+    <li><strong>Optimización de coformulantes</strong> — Se pueden ensayar variaciones en los coformulantes y dispersantes en varias configuraciones para cuantificar su contribución a la reducción de la sedimentación.</li>
+    <li><strong>Estudio de condiciones de aplicación</strong> — Los datos de dispersión se proyectan sobre el rango de condiciones de campo, lo que permite elegir la formulación correcta para tu mercado objetivo.</li>
+  </ul>
+
+  <h2>¿Por qué hacer ensayos con nosotros?</h2>
+  <p>No te entregamos solo un conjunto de cifras crudas. Nuestros informes traducen los datos del piloto en recomendaciones de ingeniería aplicables: "Aumenta la concentración de dispersante al 3 % para reducir la sedimentación a 54 °C", "Reduce el tamaño de partícula D50 a 3 µm para mejorar la suspensibilidad", o "Ajusta el pH a 6.5 para optimizar la estabilidad de emulsión". Sales con una idea clara de qué cambiar y por qué.</p>
+  <p>Nuestra planta piloto también está disponible para ensayos independientes de terceros con pago del servicio. Si estás desarrollando una formulación y quieres una evaluación imparcial y profesionalmente ejecutada, tu consulta será bienvenida.</p>
+
+cta:
+  title: 'Reserva una sesión de ensayos en la planta piloto'
+  subtitle: 'Tanto si necesitas un programa completo de desarrollo como una única prueba comparativa, podemos acomodarnos a tu calendario.'
+  actions:
+    - variant: primary
+      text: Contacta con nuestro equipo de formulación
+      href: /es/contact#project-brief
+    - text: Volver al centro de I+D
+      href: /es/randdcenter

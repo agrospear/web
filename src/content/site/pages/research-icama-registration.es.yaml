@@ -1,0 +1,86 @@
+meta:
+  title: 'Cómo funciona el registro ICAMA para productos agroquímicos'
+  description: 'Cómo funciona el registro ICAMA para agroquímicos: categorías de registro (original, mismo producto, nueva formulación), requisitos de datos, ensayos, plazos y costes para socios OEM/ODM.'
+  author: 'Agrospear'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-23'
+back_text: 'Volver a Investigación'
+
+hero:
+  tagline: 'Cumplimiento'
+  title: 'Cómo funciona el registro ICAMA para agroquímicos'
+  subtitle: '7 min de lectura'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'ICAMA (Instituto para el Control de Agroquímicos, Ministerio de Agricultura y Asuntos Rurales de China) exige el registro de todos los productos plaguicidas comercializados en China. El registro cuesta aproximadamente 80,000&ndash;300,000 USD y tarda 6&ndash;24 meses según la categoría: deben presentarse y evaluarse datos de producto químico, estudios de toxicología, ensayos de eficacia de campo, datos de residuos y evaluación de destino ambiental antes de emitir un certificado de registro.'
+  verified: '2026-08'
+
+content_html: |
+  <h2>¿Qué es el registro ICAMA?</h2>
+  <p>El registro ICAMA es el proceso regulatorio obligatorio para todos los productos plaguicidas y agroquímicos comercializados en China. Administrado por el Instituto para el Control de Agroquímicos bajo el Ministerio de Agricultura y Asuntos Rurales (MARA), garantiza que los productos cumplan los estándares de seguridad, eficacia y calidad antes de su entrada al mercado.</p>
+
+  <h2>Categorías de registro</h2>
+
+  <h3>Registro original (新农药登记)</h3>
+  <p>Requerido para nuevos ingredientes activos no registrados previamente en China. Esta categoría exige el paquete de datos más extenso: producto químico completo, perfil toxicológico completo, ensayos de eficacia de campo en múltiples ubicaciones, estudios de residuos y datos de destino ambiental. El plazo habitual es de 12&ndash;24 meses.</p>
+
+  <h3>Registro de mismo producto (相同产品登记)</h3>
+  <p>Aplicable cuando se registra un producto idéntico en ingrediente activo, tipo de formulación y contenido a uno ya registrado. Los requisitos de datos se reducen significativamente, ya que puede hacerse referencia al registro existente. El plazo habitual es de 6&ndash;12 meses.</p>
+
+  <h3>Registro de nueva formulación (新剂型登记)</h3>
+  <p>Requerido cuando un ingrediente activo existente se formula en una nueva forma de dosificación (por ejemplo, EC a SC, WP a WDG). Se necesitan datos de producto químico y eficacia de campo, pero los datos toxicológicos y ambientales pueden puentearse parcialmente del registro original.</p>
+
+  <h2>El proceso de registro</h2>
+  <ol>
+    <li>Determinación de categoría: identificar la vía de registro aplicable según el ingrediente activo y el estado de la formulación</li>
+    <li>Generación de datos: producto químico (métodos CIPAC, especificaciones FAO/OMS), toxicología (aguda, subcrónica, crónica), eficacia de campo (ensayos multisitio, multitemporada), datos de residuos y estudios de destino ambiental</li>
+    <li>Preparación del expediente: recopilar todos los informes de estudio, especificaciones de calidad, detalles del proceso de fabricación y borradores de etiqueta</li>
+    <li>Presentación a ICAMA: envío electrónico a través del sistema de gestión de registro de plaguicidas</li>
+    <li>Revisión técnica: el comité de expertos de ICAMA revisa el expediente y puede solicitar datos adicionales</li>
+    <li>Certificado de registro: tras la aprobación, se emite un certificado de registro con un período de validez definido</li>
+  </ol>
+
+  <h2>Requisitos de datos clave</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Categoría de datos</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Registro original</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Mismo producto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Producto químico</td><td class="p-3 border">Completo (análisis de 5 lotes, propiedades fisicoquímicas)</td><td class="p-3 border">Abreviado</td></tr>
+      <tr><td class="p-3 border">Toxicología</td><td class="p-3 border">Completa (aguda, subcrónica, crónica, genotoxicidad)</td><td class="p-3 border">Puentada de la referencia</td></tr>
+      <tr><td class="p-3 border">Eficacia de campo</td><td class="p-3 border">Multisitio, multitemporada (≥2 años)</td><td class="p-3 border">1&ndash;2 sitios, 1 temporada</td></tr>
+      <tr><td class="p-3 border">Datos de residuos</td><td class="p-3 border">Ensayos completos de residuos y establecimiento de LMR</td><td class="p-3 border">Puede eximirse</td></tr>
+      <tr><td class="p-3 border">Destino ambiental</td><td class="p-3 border">Completo (degradación, movilidad, efectos en organismos no diana)</td><td class="p-3 border">Puede eximirse</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Plazos y costes</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Categoría de registro</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Plazo habitual</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Coste típico (USD)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Registro original (新农药登记)</td><td class="p-3 border">12 – 24 meses</td><td class="p-3 border">200,000 – 300,000</td></tr>
+      <tr><td class="p-3 border">Registro de nueva formulación (新剂型登记)</td><td class="p-3 border">9 – 18 meses</td><td class="p-3 border">100,000 – 200,000</td></tr>
+      <tr><td class="p-3 border">Registro de mismo producto (相同产品登记)</td><td class="p-3 border">6 – 12 meses</td><td class="p-3 border">80,000 – 120,000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Qué significa esto para los compradores</h2>
+  <p>Al adquirir productos agroquímicos para su mercado, verifique siempre que el certificado de registro ICAMA esté vigente, que las especificaciones del producto cumplan los estándares FAO/OMS, que los métodos analíticos sigan las directrices CIPAC y que la etiqueta cumpla los requisitos regulatorios. Todos los productos Agrospear se fabrican bajo sistemas certificados ISO 9001 e ISO 14001, con soporte de registro ICAMA y trazabilidad completa desde la materia prima hasta el producto terminado.</p>
+  <p>El soporte de registro forma parte de cada proyecto OEM/ODM en nuestra planta de Qingdao: consulte el <a href="/es/factory">flujo de trabajo de calidad y ensayos de la fábrica</a> y cómo apoyamos el <a href="/es/oem-manufacturing">registro ICAMA para socios OEM y de marca blanca</a>.</p>
+
+cta:
+  title: '¿Necesitas soporte con el registro ICAMA?'
+  subtitle: 'Gestionamos el registro para socios OEM/ODM en todo el mundo.'
+  button_text: 'Iniciar el proceso de registro'
+  button_link: /es/contact

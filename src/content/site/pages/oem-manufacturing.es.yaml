@@ -1,48 +1,48 @@
 meta:
-  title: 'Fabricante OEM de SUP hinchables | Producción de paddle boards a medida'
-  description: 'Fábrica OEM de SUP hinchables: fabricamos tu diseño — revisión de ingeniería, muestras en 7–12 días, producción en 25–35 días, cumplimiento CE/ISO/BSCI.'
+  title: 'Fabricante OEM agroquímico | Producción de formulaciones a medida'
+  description: 'Fábrica OEM agroquímica: fabricamos tu formulación — revisión de ingeniería, muestras en 7–12 días, producción en 25–35 días, cumplimiento ISO/BSCI/ICAMA.'
   dateModified: '2026-08-16'
   keywords:
-    - 'fabricante OEM de SUP'
-    - 'SUP OEM inflable'
-    - 'producción de SUP personalizada'
-    - 'fábrica de SUP en China'
-    - 'fábrica de paddle boards a medida'
+    - 'fabricante OEM agroquímico'
+    - 'OEM formulación agroquímica'
+    - 'producción agroquímica personalizada'
+    - 'fábrica agroquímica en China'
+    - 'fábrica de protección de cultivos a medida'
 
 hero:
   tagline: Fabricación OEM
-  title: 'Fabricación OEM de SUP a medida — Tu especificación, nuestra fábrica'
-  subtitle: 'Tú aportas el diseño, los planos o una plataforma probada — nosotros fabricamos a escala de contenedor. Revisión de ingeniería en un día laborable, muestras en 7–12 días y producción en 25–35 días tras confirmar el pedido y el depósito, enviada bajo tu marca.'
+  title: 'Fabricación OEM agroquímica a medida — Tu especificación, nuestra fábrica'
+  subtitle: 'Tú aportas la formulación, la especificación o una plataforma probada — nosotros fabricamos a escala de contenedor. Revisión de ingeniería en un día laborable, muestras en 7–12 días y producción en 25–35 días tras confirmar el pedido y el depósito, enviada bajo tu marca.'
 
 answer:
   label: 'Respuesta directa'
-  text: 'La producción OEM parte de tu especificación. El MOQ se confirma por configuración del proyecto y no es un número fijo: la producción de volumen estándar corre de 90–100 unidades por lote a partir de un rollo de drop-stitch de 150 m, los lotes piloto parten de 20–50 unidades sobre plataformas existentes y cada proyecto pasa por una muestra (1–2 unidades) antes del volumen. Las muestras salen en 7–12 días; la producción corre en 25–35 días tras confirmar el pedido y el depósito, más 15–20 días cuando se requiere utillaje nuevo.'
+  text: 'La producción OEM parte de tu especificación. El MOQ se confirma por configuración del proyecto y no es un número fijo: la producción de volumen estándar corre de 20+ toneladas por lote, los lotes piloto parten de 5 toneladas sobre plataformas existentes y cada proyecto pasa por una muestra (1–4 toneladas) antes del volumen. Las muestras salen en 7–12 días; la producción corre en 25–35 días tras confirmar el pedido y el depósito, más 15–20 días cuando se requiere desarrollo de formulación a medida.'
   verified: '2026-08'
 
 features:
   title: Capacidades OEM
-  subtitle: 'Todo lo necesario para convertir tu especificación, plano o plataforma existente en un contenedor enviado.'
+  subtitle: 'Todo lo necesario para convertir tu especificación, formulación o plataforma existente en un contenedor enviado.'
   items:
     - title: Fabricación desde tu especificación
-      description: 'Tus planos, dimensiones, calidades de material y arte se ejecutan tal cual — nuestros ingenieros revisan la fabricabilidad antes de cotizar.'
+      description: 'Tu formulación, concentraciones, calidades de materia prima y arte de etiqueta se ejecutan tal cual — nuestros ingenieros revisan la fabricabilidad antes de cotizar.'
       icon: 'tabler:file-check'
     - title: Adaptación de plataformas
-      description: 'Plataformas de producción probadas pueden adaptarse con tus cambios de forma, especificación de raíl, posición de válvulas y accesorios — sin desarrollo de molde completo.'
+      description: 'Plataformas de producción probadas pueden adaptarse con tus cambios de concentración, especificación de coadyuvantes, tamaño de tambor y embalaje — sin desarrollo de formulación completo.'
       icon: 'tabler:arrows-diff'
-    - title: Moldes a medida
-      description: 'Nuevas formas de tabla a partir de tus planos o CAD — diseño e ingeniería de moldes en casa. El utillaje añade 15–20 días al plazo del proyecto.'
+    - title: Desarrollo de formulación a medida
+      description: 'Nuevas formulaciones a partir de tus especificaciones o productos de referencia — diseño e ingeniería de I+D en casa. El desarrollo añade 15–20 días al plazo del proyecto.'
       icon: 'tabler:shapes'
     - title: Prototipo y muestra
-      description: 'Se produce y aprueba una muestra física antes de cualquier tirada, normalmente en 7–12 días, con pruebas en el agua para formas nuevas.'
+      description: 'Se produce y aprueba un lote de muestra física antes de cualquier tirada, normalmente en 7–12 días, con datos de composición y eficacia para formulaciones nuevas.'
       icon: 'tabler:tools'
     - title: Producción a escala de contenedor
-      description: 'Lotes de volumen estándar de 90–100 unidades por diseño (un rollo completo de 150 m), pilotos desde 20–50 uds. y 25–35 días de plazo tras confirmar el pedido.'
+      description: 'Lotes de volumen estándar de 20+ toneladas por formulación, pilotos desde 5 toneladas y 25–35 días de plazo tras confirmar el pedido.'
       icon: 'tabler:package'
-    - title: Certificación CE
-      description: 'CE, ISO 9001, BSCI, REACH y RoHS — documentación de cumplimiento preparada para cada mercado al que exportas.'
+    - title: Certificación ICAMA e ISO
+      description: 'ISO 9001, ISO 14001, BSCI e ICAMA — documentación de cumplimiento preparada para cada mercado al que exportas.'
       icon: 'tabler:certificate'
     - title: Inspección y trazabilidad
-      description: 'Prueba de retención de presión de 24 horas a 18.0 PSI con auto-rechazo por encima de 0.50 PSI de caída, lista de comprobación de 100 puntos y trazabilidad ERP de 10 años.'
+      description: 'Ensayos de estabilidad y análisis de contenido por lote, sistema de inspección de 7 etapas y trazabilidad ERP de 10 años.'
       icon: 'tabler:shield-check'
     - title: Logística global
       description: 'FOB Qingdao, CIF y DDP a más de 50 países, con embalaje de exportación y despacho de aduanas gestionados por nuestro equipo de logística.'
@@ -53,36 +53,36 @@ customization:
   title: Puntos de especificación OEM
   subtitle: 'Estos son los puntos de especificación que controlas en un proyecto OEM — tu documento de especificación es el contrato de producción:'
   items:
-    - 'Dimensiones de la tabla — largo, ancho, grosor, rocker y volumen según tus planos o tus riders objetivo'
-    - 'Estructura del material — número y calidad de capas de PVC, densidad del drop-stitch, rigidizadores y refuerzos de raíl'
-    - 'Gráfica y colores — tu arte aplicado con paletas ilimitadas, o soporte de nuestro equipo de diseño interno'
-    - 'Plataforma de agarre EVA — deck pads cortados a medida, logotipos y colores en cada tabla'
-    - 'Asas y anillas D — posición, cantidad y especificación de herrajes según tu uso'
-    - 'Sistemas de quillas — configuraciones de una, dos o tres quillas y cajas de quilla a tu especificación'
-    - 'Palas, bombas, correas y accesorios — tu paquete, tu marca'
-    - 'Embalaje y presentación retail — cajas retail, embalaje marítimo y displays para punto de venta bajo tu marca'
-    - 'Etiquetas y marcas de cumplimiento — etiquetas de serie, logotipos y documentación por mercado preparada para tu región de exportación'
+    - 'Tipo de formulación y concentración — SC, EC, WP, WDG, SL, ME, CS, FS según tu especificación o producto de referencia'
+    - 'Estructura de materia prima — calidad del ingrediente activo, paquete de coadyuvantes, sistema de dispersión y requisitos de estabilidad'
+    - 'Etiquetas y colores — tu arte aplicado con paletas ilimitadas, o soporte de nuestro equipo de diseño interno'
+    - 'Especificaciones de tambores — tamaño, material, tipo de cierre y etiquetado en cada contenedor'
+    - 'Cumplimiento regulatorio — soporte de registro ICAMA, especificaciones FAO/OMS y documentación por mercado'
+    - 'Configuración de paleta y embalaje — cantidad de tambores por paleta, embalaje retractilado y embalaje de exportación a tu especificación'
+    - 'Embalaje secundario y accesorios — vasos dosificadores, guantes, insertos y materiales con marca'
+    - 'Embalaje y presentación comercial — cajas retail, embalaje a granel y displays para punto de venta bajo tu marca'
+    - 'Documentación por lote — COA, COQ, informes de estabilidad y marcas de cumplimiento preparadas para tu región de exportación'
 
 faq_section:
   tagline: FAQ
   title: Preguntas sobre fabricación OEM
   questions:
-    - q: '¿Cómo inicio un proyecto OEM con mi propio diseño?'
-      a: 'Envía tus planos, una tabla de referencia o una especificación escrita. Nuestra revisión de ingeniería confirma la fabricabilidad y devuelve un presupuesto en un día laborable — es nuestro compromiso estándar, y se firma un NDA antes de cualquier intercambio de archivos cuando sea necesario.'
-    - q: '¿Cuál es el MOQ para un SUP OEM hinchable?'
-      a: 'El MOQ se confirma por configuración del proyecto — casco y utillaje, colores y PVC, arte, embalaje y accesorios. La producción de volumen estándar corre de 90–100 unidades por lote (un rollo de drop-stitch de 150 m), y los pilotos parten de 20–50 unidades sobre plataformas existentes. Consulta la lógica completa en nuestra Guía de MOQ y branding flexible.'
+    - q: '¿Cómo inicio un proyecto OEM con mi propia formulación?'
+      a: 'Envía tu formulación, un producto de referencia o una especificación escrita. Nuestra revisión de ingeniería confirma la fabricabilidad y devuelve un presupuesto en un día laborable — es nuestro compromiso estándar, y se firma un NDA antes de cualquier intercambio de archivos cuando sea necesario.'
+    - q: '¿Cuál es el MOQ para fabricación OEM agroquímica?'
+      a: 'El MOQ se confirma por configuración del proyecto — tipo de formulación y desarrollo, colores y concentración, arte, embalaje y configuración de tambores. La producción de volumen estándar corre de 20+ toneladas por lote, y los pilotos parten de 5 toneladas sobre plataformas existentes. Consulta la lógica completa en nuestra Guía de MOQ y branding flexible.'
     - q: '¿Cuál es el plazo típico de un pedido OEM?'
-      a: 'La producción corre en 25–35 días desde el pedido confirmado y el depósito. El desarrollo de moldes a medida añade 15–20 días de utillaje. Las muestras de prototipo suelen enviarse en 7–12 días.'
-    - q: '¿Podéis fabricar solo a partir de mis planos?'
-      a: 'Sí. OEM construye desde tu especificación tal cual — tú eres dueño del diseño. Nuestros ingenieros revisan los planos para viabilidad de producción, señalan cualquier conflicto de especificación antes de empezar el utillaje o el corte, y la muestra aprobada se convierte en la referencia de producción.'
+      a: 'La producción corre en 25–35 días desde el pedido confirmado y el depósito. El desarrollo de formulación a medida añade 15–20 días. Las muestras de prototipo suelen enviarse en 7–12 días.'
+    - q: '¿Podéis fabricar solo a partir de mi formulación existente?'
+      a: 'Sí. OEM construye desde tu especificación tal cual — tú eres dueño de la formulación. Nuestros ingenieros revisan la formulación para viabilidad de producción, señalan cualquier conflicto de especificación antes de empezar el desarrollo o la mezcla, y la muestra aprobada se convierte en la referencia de producción.'
     - q: '¿Proporcionáis muestras antes de la producción?'
-      a: 'Sí. Se produce y aprueba una muestra física antes de cualquier tirada, normalmente en 7–12 días, y es la referencia para todos los controles de calidad posteriores.'
+      a: 'Sí. Se produce y aprueba un lote de muestra física antes de cualquier tirada, normalmente en 7–12 días, y es la referencia para todos los controles de calidad posteriores.'
     - q: '¿Qué certificaciones tiene la fábrica?'
-      a: 'CE, ISO 9001, BSCI, REACH y RoHS. Con cada envío OEM se entrega documentación completa de cumplimiento, preparada para tus mercados objetivo.'
+      a: 'ISO 9001, ISO 14001, BSCI e ICAMA. Con cada envío OEM se entrega documentación completa de cumplimiento, preparada para tus mercados objetivo.'
     - q: '¿Cómo se controla la calidad en una tirada OEM?'
-      a: 'La producción corre bajo control de calidad multipunto — material entrante, proceso y inspección final — con prueba de retención de presión de 24 horas a 18.0 PSI (auto-rechazo por encima de 0.50 PSI de caída), lista de comprobación de 100 puntos y trazabilidad ERP de 10 años por número de serie.'
+      a: 'La producción corre a través del sistema de inspección de 7 etapas — materia prima entrante, producto intermedio, mezcla y llenado, estabilidad y análisis de contenido, QC de etiqueta y embalaje, verificación de documentación de cumplimiento, y embalaje y documentación final — con trazabilidad por lote y registros ERP de 10 años.'
     - q: '¿Cuáles son vuestros términos de envío?'
-      a: 'FOB Qingdao, CIF a los principales puertos globales, o DDP para socios cualificados. Enviamos a más de 50 países en los mercados de la UE, EE. UU., AU y Asia.'
+      a: 'FOB Qingdao, CIF a los principales puertos globales, o DDP para socios cualificados. Enviamos a más de 50 países en los mercados de la UE, EE. UU., LATAM, África y Asia.'
 
 process:
   title: 'El proceso OEM — De la especificación al contenedor enviado'
@@ -92,58 +92,58 @@ process:
       title: Revisión de especificación y presupuesto
       period: 1 día laborable
       items:
-        - 'Comparte tus planos, especificación o tablas de referencia — nuestros ingenieros comprueban la fabricabilidad.'
+        - 'Comparte tu formulación, especificación o productos de referencia — nuestros ingenieros comprueban la fabricabilidad.'
         - 'Recibes un presupuesto detallado y un plan de proyecto en un día laborable.'
     - phase: '02'
       title: Confirmación de ingeniería
       period: Semana 1
       items:
-        - 'Las dimensiones del casco, la calidad del drop-stitch, las especificaciones de PVC y la construcción del raíl se confirman contra tu documento.'
-        - 'Se cierran las decisiones de molde o plataforma — el utillaje del molde a medida empieza aquí cuando se requiere.'
+        - 'El tipo de formulación, la concentración, las especificaciones de materia prima y el sistema de dispersión se confirman contra tu documento.'
+        - 'Se cierran las decisiones de plataforma o formulación — el desarrollo a medida empieza aquí cuando se requiere.'
     - phase: '03'
       title: Prototipo y muestra
       period: 7–12 días
       items:
-        - 'Se produce una muestra física y se envía para tu revisión — pruebas en el agua incluidas para formas nuevas.'
-        - 'La muestra (1–2 unidades) valida tu especificación antes de cualquier compromiso de volumen.'
+        - 'Se produce un lote de muestra física y se envía para tu revisión — datos de composición y eficacia incluidos para formulaciones nuevas.'
+        - 'La muestra (1–4 toneladas) valida tu especificación antes de cualquier compromiso de volumen.'
     - phase: '04'
       title: Ensayos y validación
       period: En paralelo
       items:
-        - 'Controles de retención de aire, presión, resistencia de costuras, carga y UV por línea de producción.'
-        - 'Documentación CE, ISO 9001, BSCI, REACH y RoHS preparada para tus mercados de exportación.'
+        - 'Controles de estabilidad, análisis de contenido, propiedades físicas y estabilidad en estante por línea de producción.'
+        - 'Documentación ISO 9001, ISO 14001, BSCI e ICAMA preparada para tus mercados de exportación.'
     - phase: '05'
       title: Aprobación y confirmación
       period: Tras el visto bueno de la muestra
       items:
-        - 'Apruebas la muestra y el arte; el pedido y el depósito bloquean el cupo de producción.'
+        - 'Apruebas la muestra y el arte de etiqueta; el pedido y el depósito bloquean el cupo de producción.'
         - 'Un plan de preproducción confirma fechas, cantidades, embalaje y puerto de carga.'
     - phase: '06'
       title: Producción
       period: 25–35 días
       items:
-        - 'La producción corre bajo control de calidad multipunto — material entrante, proceso e inspección final.'
-        - 'Desde pedidos piloto (20–50 unidades) sobre plataformas existentes hasta lotes completos de 150 m (90–100+ unidades) para volumen estándar.'
+        - 'La producción corre a través del sistema de inspección de 7 etapas — materia prima entrante, proceso e inspección final.'
+        - 'Desde pedidos piloto (5 toneladas) sobre plataformas existentes hasta lotes de volumen estándar (20+ toneladas) por formulación.'
     - phase: '07'
       title: Embalaje y envío
       period: 1 día + tránsito
       items:
-        - 'Embalaje de exportación con etiquetas de serie por modelo, luego FOB Qingdao, CIF o DDP a más de 50 países.'
+        - 'Embalaje de exportación con documentación por lote y COA, luego FOB Qingdao, CIF o DDP a más de 50 países.'
         - 'Documentación aduanera, seguimiento y soporte para reordenes incluidos en cada fase.'
 
 geo:
   tagline: Con quién trabajamos
-  title: Socios OEM en toda la industria del SUP
-  sentence: 'Cada proyecto OEM en Agrospear se asigna a un equipo que ya ha construido tablas para el mismo tipo de negocio — estos son a quienes servimos.'
+  title: Socios OEM en toda la industria agroquímica
+  sentence: 'Cada proyecto OEM en Agrospear se asigna a un equipo que ya ha fabricado formulaciones para el mismo tipo de negocio — estos son a quienes servimos.'
   audiences:
-    - 'Marcas de SUP'
-    - 'Empresas de outdoor y deportes acuáticos'
-    - 'Distribuidores y minoristas'
-    - 'Resorts, clubes y organizaciones'
+    - 'Marcas agroquímicas'
+    - 'Empresas de protección de cultivos'
+    - 'Distribuidores y registradores'
+    - 'Cooperativas y programas gubernamentales'
 
 cta:
-  title: '¿Listo para producir tu línea de SUP?'
-  subtitle: 'Recibe un presupuesto OEM detallado en un día laborable — envía tu especificación o planos.'
+  title: '¿Listo para producir tu línea agroquímica?'
+  subtitle: 'Recibe un presupuesto OEM detallado en un día laborable — envía tu formulación o especificación.'
   actions:
     - variant: primary
       text: Solicitar un presupuesto OEM
@@ -154,11 +154,11 @@ cta:
       href: /es/quality
     - text: Guía de MOQ y branding flexible
       href: /es/oem-moq-guide
-    - text: Desglose de MOQ y plazos para SUP personalizados
-      href: /es/sup-oem-moq-lead-time
+    - text: Desglose de MOQ y plazos para agroquímicos personalizados
+      href: /es/agrochemical-oem-moq-lead-time
     - text: Lanza una nueva marca con un pedido de prueba
       href: /es/new-brand-trial-order
-    - text: Comparación de Construcción SUP
-      href: /es/sup-construction-comparison
-    - text: Cumplimiento SUP por Mercado
-      href: /es/sup-compliance-by-market
+    - text: Comparación de Tipos de Formulación
+      href: /es/formulation-type-comparison
+    - text: Cumplimiento agroquímico por mercado
+      href: /es/agrochemical-regulation-by-market

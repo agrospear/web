@@ -1,43 +1,47 @@
 meta:
-  title: 'Quality & Inspection Lab — ISO-Compliant SUP Testing'
-  description: 'Independent quality verification for inflatable SUP boards: tensile testing, air-retention cycling, seam peel tests and material certification.'
-back_text: 'Back to R&D Center'
-home_label: 'Home'
+  title: 'Quality & Inspection Lab — ISO-Compliant Agrochemical Testing'
+  description: 'Independent quality verification for agrochemical formulations: HPLC/GC analysis, particle size testing, stability evaluation, viscosity and pH measurement.'
+  back_text: 'Back to R&D Center'
+  home_label: 'Home'
 
 hero:
   tagline: 'Lab 06'
   title: 'Quality & Inspection Lab'
   subtitle: 'Independent verification — every test passed before delivery'
-  image: 'https://assets.agrospear.com/images/agrospear/factory/agrospear-uv-resistance-testing.webp'
-  image_alt: 'Agrospear quality inspection laboratory UV testing'
+  image: 'https://assets.agrospear.com/images/agrospear/factory/agrospear-quality-lab.webp'
+  image_alt: 'Agrospear quality inspection laboratory HPLC testing'
 
 answer:
   label: 'Straight answer'
-  text: 'Every board is inspected against published specifications before shipment: 100% inflation hold test at 18.0 PSI for 24 hours (auto-reject above 0.50 PSI pressure drop), tensile and seam-peel testing per ISO 1421, and a 100-point assembly checklist. The lab reports to the managing director, not production, and can halt any shipment.'
+  text: 'Every batch is inspected against published specifications before shipment: 100% active ingredient content testing by HPLC/GC, physical property verification (particle size, viscosity, pH, suspension rate), and accelerated stability testing per FAO/WHO specifications. The lab reports to the managing director, not production, and can halt any shipment.'
   verified: '2026-08'
 
-intro: 'Every board that leaves our workshop carries the certification that it has passed a defined set of quality inspections and material tests. Our Quality & Inspection Lab is an independent function within the organisation — it reports directly to the managing director, not to production — ensuring that no commercial pressure can compromise the inspection gate. If a material batch or a completed board does not meet the published specification, the lab has the authority to halt shipment until the non-conformance is resolved.'
+intro: 'Every batch that leaves our facility carries the certification that it has passed a defined set of quality inspections and analytical tests. Our Quality & Inspection Lab is an independent function within the organisation — it reports directly to the managing director, not to production — ensuring that no commercial pressure can compromise the inspection gate. If a raw material batch or a finished product does not meet the published specification, the lab has the authority to halt shipment until the non-conformance is resolved.'
 
 content_html: |
   <h2>Trust, but verify</h2>
-  <p>The lab operates under a quality management system aligned with ISO 9001 principles, and our test methods are based on ISO, ASTM, and EN standards wherever applicable. We maintain detailed records of every test performed, creating a complete traceability chain from raw material receipt to final board delivery.</p>
+  <p>The lab operates under a quality management system aligned with ISO 9001 principles, and our test methods are based on FAO/WHO, CIPAC, ISO and ASTM standards wherever applicable. We maintain detailed records of every test performed, creating a complete traceability chain from raw material receipt to final product delivery.</p>
 
   <h2>Test equipment and capabilities</h2>
   <table>
     <thead><tr><th>Equipment</th><th>Tests Performed</th><th>Standard / Method</th></tr></thead>
     <tbody>
-      <tr><td>Universal testing machine (50 kN)</td><td>Tensile strength (fabric), peel resistance (seams), tear propagation</td><td>ISO 1421, ISO 4674</td></tr>
-      <tr><td>Air-retention test rig (programmable)</td><td>1000-cycle inflation/deflation endurance, 30 min pressure-hold test</td><td>Internal (per ISO 6185 method)</td></tr>
-      <tr><td>Seam-peel jig (motorised 180° peel)</td><td>Weld and glued-seam peel strength at 100 mm/min</td><td>ISO 1421 / ASTM D1876</td></tr>
-      <tr><td>Hydrostatic head tester</td><td>Water penetration resistance of fabric (0–1000 mbar)</td><td>ISO 811</td></tr>
-      <tr><td>Digital thickness gauge &amp; micrometre</td><td>Fabric thickness, weld thickness, adhesive-film thickness</td><td>ISO 2286-3</td></tr>
-      <tr><td>Environmental chamber</td><td>Temperature conditioning (-40 °C to +80 °C) for cold-crack and heat-ageing tests</td><td>ISO 188, ISO 4675</td></tr>
-      <tr><td>Colour spectrophotometer</td><td>Delta-E colour measurement after UV exposure</td><td>ISO 105-A05 / ASTM D2244</td></tr>
+      <tr><td>HPLC system (UV/DAD detector)</td><td>Active ingredient content, impurity profile, degradation products</td><td>CIPAC methods, FAO/WHO specs</td></tr>
+      <tr><td>GC system (FID/ECD detector)</td><td>Active ingredient content (volatile AI), solvent residue analysis</td><td>CIPAC methods, internal protocols</td></tr>
+      <tr><td>Laser particle size analyzer</td><td>Particle size distribution (D50, D90, span), droplet size for EC/ME</td><td>ISO 13320, CIPAC MT 187</td></tr>
+      <tr><td>Rotational viscometer</td><td>Viscosity at specified shear rates, flow curve characterization</td><td>CIPAC MT 172, ISO 2555</td></tr>
+      <tr><td>pH meter (calibrated)</td><td>pH of 1% aqueous dilution, pH of formulation</td><td>CIPAC MT 75.3</td></tr>
+      <tr><td>Stability chambers (0 °C, 25 °C, 54 °C)</td><td>Accelerated storage stability, cold stability, shelf-life estimation</td><td>CIPAC MT 46, FAO/WHO guidelines</td></tr>
+      <tr><td>Density meter (digital)</td><td>Density and specific gravity of liquid formulations</td><td>CIPAC MT 3.2, ISO 758</td></tr>
+      <tr><td>Suspension rate test apparatus</td><td>Suspensibility of SC and WP formulations after 30 min standing</td><td>CIPAC MT 184, MT 15</td></tr>
+      <tr><td>Emulsion stability test kit</td><td>Emulsion stability of EC and ME formulations (re-emulsification, creaming)</td><td>CIPAC MT 36, MT 41</td></tr>
+      <tr><td>Water dispersibility tester</td><td>Wettability and dispersibility of WP and WDG formulations</td><td>CIPAC MT 53.3, MT 174</td></tr>
+      <tr><td>Persistent foam test apparatus</td><td>Foam persistence after mixing in spray tank simulation</td><td>CIPAC MT 47.2</td></tr>
     </tbody>
   </table>
 
-  <h2>The inspection gates — from material to delivery</h2>
-  <p>Every board follows a defined quality plan with mandatory inspection points. No board can skip a gate; each gate must be signed off by a quality inspector before the next production stage begins.</p>
+  <h2>The inspection gates — from raw material to delivery</h2>
+  <p>Every batch follows a defined quality plan with mandatory inspection points. No batch can skip a gate; each gate must be signed off by a quality inspector before the next production stage begins.</p>
 
   <div class="not-prose my-8">
     <div class="relative">
@@ -46,36 +50,36 @@ content_html: |
         <div class="flex gap-4">
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 1</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
-            <p class="text-sm font-semibold">Incoming material inspection</p>
-            <p class="text-xs text-gray-500 mt-1">Fabric batch, drop-stitch core, adhesive batch, hardware — all checked against incoming specification before release to production.</p>
+            <p class="text-sm font-semibold">Incoming raw material inspection</p>
+            <p class="text-xs text-gray-500 mt-1">Technical-grade active ingredient, co-formulant batch, solvent lot — all checked against incoming specification and COA before release to production.</p>
           </div>
         </div>
         <div class="flex gap-4">
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 2</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
-            <p class="text-sm font-semibold">In-process weld inspection</p>
-            <p class="text-xs text-gray-500 mt-1">First-off weld coupon tested (peel + visual) at start of each production shift.</p>
+            <p class="text-sm font-semibold">In-process formulation check</p>
+            <p class="text-xs text-gray-500 mt-1">First-off batch sample tested (content + physical properties) at start of each production shift.</p>
           </div>
         </div>
         <div class="flex gap-4">
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 3</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
-            <p class="text-sm font-semibold">Chamber air test</p>
-            <p class="text-xs text-gray-500 mt-1">Board pressurised to 18.0 PSI (12–15 PSI working), held 24 h. Pressure drop &gt; 0.50 PSI auto-rejects. Data logged per serial number.</p>
+            <p class="text-sm font-semibold">Finished product analysis</p>
+            <p class="text-xs text-gray-500 mt-1">Full analytical testing: active ingredient content by HPLC/GC, particle size, viscosity, pH, suspension rate. Any parameter outside specification limits auto-rejects. Data logged per batch number.</p>
           </div>
         </div>
         <div class="flex gap-4">
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 4</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
             <p class="text-sm font-semibold">Pre-delivery inspection</p>
-            <p class="text-xs text-gray-500 mt-1">Complete board inspected: all fittings torqued, deck pad adhesion, graphics alignment, no cosmetic defects. 100-point checklist.</p>
+            <p class="text-xs text-gray-500 mt-1">Complete batch inspected: drum seal integrity, label accuracy, hazard pictograms, no cosmetic defects. 100-point checklist.</p>
           </div>
         </div>
         <div class="flex gap-4">
           <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs font-bold z-10">Gate 5</div>
           <div class="flex-1 p-3 rounded-lg bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800">
             <p class="text-sm font-semibold">Final certification</p>
-            <p class="text-xs text-gray-500 mt-1">Test reports compiled, inspection records reviewed, Certificate of Conformance issued.</p>
+            <p class="text-xs text-gray-500 mt-1">Test reports compiled, inspection records reviewed, Certificate of Analysis issued.</p>
           </div>
         </div>
       </div>
@@ -85,16 +89,16 @@ content_html: |
   <h2>Standard checks on every batch</h2>
   <div class="not-prose my-8 grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
-      <span class="block text-2xl font-bold text-blue-600">18 PSI</span>
-      <span class="text-xs text-gray-500">18.0 PSI in chamber air test, held 24 h</span>
+      <span class="block text-2xl font-bold text-blue-600">HPLC/GC</span>
+      <span class="text-xs text-gray-500">Active ingredient content, every batch</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
-      <span class="block text-2xl font-bold text-blue-600">&gt; 5 %</span>
-      <span class="text-xs text-gray-500">Pressure drop triggers automatic rejection</span>
+      <span class="block text-2xl font-bold text-blue-600">&plusmn; spec</span>
+      <span class="text-xs text-gray-500">Any parameter outside limits triggers automatic rejection</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
       <span class="block text-2xl font-bold text-blue-600">100 %</span>
-      <span class="text-xs text-gray-500">Chambers air-tested before assembly</span>
+      <span class="text-xs text-gray-500">Batches analytically tested before release</span>
     </div>
     <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950 text-center">
       <span class="block text-2xl font-bold text-blue-600">ISO 9001</span>
@@ -103,36 +107,36 @@ content_html: |
   </div>
 
   <h2>Our quality team</h2>
-  <p>The lab is staffed by a quality manager (10 years in marine QA, ASQ Certified Quality Engineer), two quality inspectors (each with Level 2 NDT certification in visual testing), and a materials technician responsible for all physical testing. The team undergoes annual proficiency testing through an independent third-party provider to ensure that our test results remain accurate and reproducible.</p>
+  <p>The lab is staffed by a quality manager (10 years in agrochemical QA, ASQ Certified Quality Engineer), two quality inspectors (each with certification in analytical chemistry and formulation testing), and an analytical chemist responsible for all HPLC/GC and physical testing. The team undergoes annual proficiency testing through an independent third-party provider to ensure that our test results remain accurate and reproducible.</p>
 
   <h2>Independent testing for clients</h2>
-  <p>Our Quality &amp; Inspection Lab is available for independent testing services. If you need to verify a fabric specification, validate a new adhesive system, or obtain a third-party test report for a procurement qualification, we can perform the tests to the applicable standard and issue a certified test report.</p>
+  <p>Our Quality &amp; Inspection Lab is available for independent testing services. If you need to verify a raw material specification, validate a new co-formulant system, or obtain a third-party test report for a procurement qualification, we can perform the tests to the applicable standard and issue a certified test report.</p>
   <p>Examples of recent third-party testing work:</p>
   <ul>
-    <li>Peel-strength comparison of five competitive adhesive film products for a European procurement programme.</li>
-    <li>Accelerated ageing study (UV + thermal cycling) for a new orange-pigmented PVC formulation, with regular interim measurements at 500 h intervals.</li>
-    <li>Air-retention validation of 50 prototype valve assemblies for a new high-pressure board design.</li>
+    <li>Active ingredient content comparison of five competitive technical-grade raw materials for a European procurement programme.</li>
+    <li>Accelerated stability study (54 °C + thermal cycling) for a new SC fungicide formulation with multiple active ingredients, with regular interim measurements at 7-day intervals.</li>
+    <li>Particle size distribution validation of 50 pilot batches for a new WDG herbicide formulation.</li>
   </ul>
 
   <h2>Our commitment to you</h2>
-  <p>When you receive a {SITE.name} board, you also receive its quality dossier — a compiled record of the test results that apply to your specific board. Fabric batch certificate, weld peel tests, chamber air-test logs, and pre-delivery inspection checklist. Every number is traceable. Every inspector is identified. This is not just paperwork — it is our promise that what we delivered is what we specified.</p>
-  <p>If you ever have a quality concern, you can contact the lab directly — the contact details are printed on your certificate of conformance. We take every query seriously and commit to a formal investigation within 48 hours.</p>
+  <p>When you receive an Agrospear shipment, you also receive its quality dossier — a compiled record of the test results that apply to your specific batch. Raw material COA, HPLC/GC content analysis, physical property test results, and pre-delivery inspection checklist. Every number is traceable. Every inspector is identified. This is not just paperwork — it is our promise that what we delivered is what we specified.</p>
+  <p>If you ever have a quality concern, you can contact the lab directly — the contact details are printed on your Certificate of Analysis. We take every query seriously and commit to a formal investigation within 48 hours.</p>
 
-  <h2>What happens if a board fails inspection?</h2>
-  <p>A failed board never quietly disappears. The lab follows a fixed non-conformance workflow so the problem is contained, corrected and prevented from recurring:</p>
+  <h2>What happens if a batch fails inspection?</h2>
+  <p>A failed batch never quietly disappears. The lab follows a fixed non-conformance workflow so the problem is contained, corrected and prevented from recurring:</p>
   <ul>
-    <li><strong>Isolation</strong> — the board is tagged, moved off the line and logged in the non-conformance register with the inspector's name and the failed criteria.</li>
-    <li><strong>Rework or scrap</strong> — repairable defects (e.g. a valve, a rail weld or a deck-pad corner) are reworked by a certified operator and the repaired area is re-tested to the same standard. Boards that cannot meet specification are scrapped, not downgraded.</li>
-    <li><strong>Re-inspection</strong> — every reworked board passes the full affected gate again before it can re-enter the packing line.</li>
-    <li><strong>Release</strong> — only boards with all gates signed off leave the plant. The rejection rate, root cause and corrective action are summarised in your batch quality report.</li>
+    <li><strong>Isolation</strong> — the batch is tagged, moved off the line and logged in the non-conformance register with the inspector's name and the failed criteria.</li>
+    <li><strong>Rework or scrap</strong> — repairable defects (e.g. particle size, viscosity) are reworked by a certified operator and the reworked batch is re-tested to the same standard. Batches that cannot meet specification are scrapped, not downgraded.</li>
+    <li><strong>Re-inspection</strong> — every reworked batch passes the full affected gate again before it can re-enter the packing line.</li>
+    <li><strong>Release</strong> — only batches with all gates signed off leave the plant. The rejection rate, root cause and corrective action are summarised in your batch quality report.</li>
   </ul>
 
   <h2>Quality documentation you receive</h2>
-  <p>Every batch ships with a document pack your QC team can audit against: the batch certificate (fabric, adhesive, hardware lot numbers), weld peel-test records, chamber air-test logs per serial number, the signed 100-point pre-delivery checklist, packing list and photographed record of your boards before loading.</p>
+  <p>Every batch ships with a document pack your QC team can audit against: the Certificate of Analysis (raw material lot numbers, active ingredient content, physical properties), HPLC/GC test records per batch number, the signed 100-point pre-delivery checklist, packing list and photographed record of your drums before loading.</p>
 
 cta:
   title: 'Request a sample QC checklist'
-  subtitle: 'See the exact inspection gates, test methods and documents your batch would be checked against — send your board type and quantity.'
+  subtitle: 'See the exact inspection gates, test methods and documents your batch would be checked against — send your formulation type and quantity.'
   actions:
     - variant: primary
       text: Request the QC checklist

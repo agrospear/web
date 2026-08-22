@@ -1,49 +1,49 @@
 badge: Latest Research
 heading: Knowledge Center
-description: In-depth technical research on SUP and inflatable watercraft materials, construction, safety standards, and manufacturing
+description: In-depth technical research on agrochemical formulation technology, registration, quality standards, and OEM manufacturing
 topics:
-  - slug: drop-stitch-technology
+  - slug: formulation-technology
     category: Technology
     readTime: 8 min read
-  - slug: pvc-vs-hypalon
-    category: Materials
+  - slug: adjuvant-types
+    category: Formulation
     readTime: 10 min read
-  - slug: ce-certification-guide
+  - slug: icama-registration
     category: Compliance
     readTime: 7 min read
-  - slug: sup-thickness-guide
+  - slug: formulation-stability
     category: Engineering
     readTime: 6 min read
   - slug: oem-buyer-guide
     category: Sourcing
     readTime: 12 min read
-  - slug: sup-manufacturing-process
+  - slug: agrochemical-manufacturing-process
     category: Manufacturing
     readTime: 10 min read
-  - slug: eva-foam-technology
-    category: Materials
+  - slug: sc-formulation-science
+    category: Formulation
     readTime: 7 min read
-  - slug: uv-printing-vs-eva-block
+  - slug: ec-formulation-design
     category: Technology
     readTime: 6 min read
-  - slug: fusion-lamination-vs-glue
+  - slug: wdg-granulation-process
     category: Manufacturing
     readTime: 8 min read
-  - slug: sup-valve-types
+  - slug: wp-milling-technology
     category: Engineering
     readTime: 6 min read
-  - slug: fin-systems-guide
+  - slug: seed-treatment-fs-formulation
     category: Engineering
     readTime: 7 min read
-  - slug: board-hull-design
+  - slug: formulation-engineering
     category: Engineering
     readTime: 9 min read
   - slug: quality-testing-standards
     category: Compliance
     readTime: 8 min read
-  - slug: sup-paddle-technology
-    category: Equipment
+  - slug: adjuvant-surfactant-technology
+    category: Formulation
     readTime: 7 min read
-  - slug: military-grade-pvc-specs
+  - slug: technical-grade-ai-specs
     category: Materials
     readTime: 8 min read

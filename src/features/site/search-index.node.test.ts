@@ -35,7 +35,7 @@ describe('buildExtendedIndex', () => {
   })
 
   test('mdx article bodies are indexed', () => {
-    const hits = buildExtendedIndex('en').filter((it) => (it.content ?? '').includes('pressure-hold'))
+    const hits = buildExtendedIndex('en').filter((it) => (it.content ?? '').includes('translaminar'))
     expect(hits.length).toBeGreaterThan(0)
   })
 

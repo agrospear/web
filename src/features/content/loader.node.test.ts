@@ -130,7 +130,7 @@ test('oem-trust-assurance page: registered EN+ES with structured sections', () =
   expect(faqItems).toHaveLength(12)
   expect(faqItems.every((f) => f.q && f.a)).toBe(true)
   const stats = en!.content.trust_stats as { value?: string }[]
-  expect(stats.some((s) => s.value === '18,0 PSI' || s.value === '18.0 PSI')).toBe(true)
+  expect(stats.some((s) => s.value === '200+' || s.value === '24' || s.value === '25–35')).toBe(true)
   const esPage = getContentPage('/oem-trust-assurance', 'es')
   expect(esPage).toBeDefined()
   expect(esPage!.meta?.title).toContain('Confianza')

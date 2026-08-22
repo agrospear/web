@@ -1,0 +1,91 @@
+meta:
+  title: 'Surfactant vs Oil Adjuvant vs Drift Control Agent — Agrochemical Adjuvant Types | {SITE}'
+  description: 'Surfactants vs oil adjuvants vs drift control agents for agrochemical formulations: efficacy enhancement, tank-mix compatibility, cost, and which adjuvant type your formulation needs.'
+  author: 'Agrospear'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+  back_text: 'Back to Research'
+
+hero:
+  tagline: 'Adjuvants'
+  title: 'Surfactant vs Oil Adjuvant vs Drift Control Agent — Adjuvant Type Guide for Crop Protection'
+  subtitle: '10 min read'
+
+answer:
+  label: 'Straight answer'
+  text: 'For most foliar formulations, non-ionic surfactants win on cost, versatility, and tank-mix compatibility — a well-selected alkyl polyglucoside or ethoxylated alcohol at 0.1–0.5 % v/v is the industry standard. Methylated seed oil (MSO) adjuvants boost cuticle penetration 2–3× but cost roughly 3–5× more, while drift control agents (polyacrylamide polymers) are essential for aerial application but add viscosity and cost.'
+  verified: '2026-08'
+
+content_html: |
+  <h2>Adjuvant Overview</h2>
+
+  <h3>Surfactants (Non-Ionic, Anionic, Cationic)</h3>
+  <p>Surfactants are the standard adjuvant class for crop protection formulations. For foliar application they reduce surface tension, improve wetting and spreading on leaf surfaces, and enhance spray droplet coverage. Modern non-ionic surfactants (ethoxylated alcohols, alkyl polyglucosides) offer excellent tank-mix compatibility and low phytotoxicity, and formulations built with them maintain stable dilutions across hard and soft water types.</p>
+
+  <h3>Oil Adjuvants (MSO, COC, Horticultural Oil)</h3>
+  <p>Oil adjuvants (methylated seed oil, crop oil concentrate, horticultural mineral oil) are hydrocarbon-based products renowned for exceptional cuticle penetration. They solubilise the waxy leaf cuticle and create a reservoir of active ingredient at the leaf surface, making them the preferred adjuvant for systemic herbicides and fungicides that must translocate. Oil adjuvants are typically used at 0.5–2 % v/v and can boost efficacy 2–3× compared to surfactant alone on hard-to-wet species.</p>
+
+  <h3>Drift Control Agents (Polyacrylamide, Guar Gum)</h3>
+  <p>Drift control agents are polymeric thickeners (polyacrylamide, guar gum, xanthan gum) that increase spray droplet size distribution, reducing the fraction of fine droplets (&lt; 150 µm) prone to off-target drift. They are essential for aerial application and ground spraying near sensitive boundaries. Drift control agents increase viscosity of the spray mix and must be compatible with the formulation's existing rheology profile.</p>
+
+  <h2>Side-by-Side Comparison</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Property</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Surfactant</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Oil Adjuvant</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border font-medium">Cuticle penetration</td><td class="p-3 border">Good (reduces surface tension)</td><td class="p-3 border">Excellent (solubilises wax)</td></tr>
+      <tr><td class="p-3 border font-medium">Wetting &amp; spreading</td><td class="p-3 border">Very good</td><td class="p-3 border">Good (with surfactant blend)</td></tr>
+      <tr><td class="p-3 border font-medium">Tank-mix compatibility</td><td class="p-3 border">Excellent (non-ionic types)</td><td class="p-3 border">Moderate (can destabilise EC)</td></tr>
+      <tr><td class="p-3 border font-medium">Phytotoxicity risk</td><td class="p-3 border">Low (at recommended rates)</td><td class="p-3 border">Moderate (hot temperatures)</td></tr>
+      <tr><td class="p-3 border font-medium">Use rate</td><td class="p-3 border">0.1 – 0.5 % v/v</td><td class="p-3 border">0.5 – 2.0 % v/v</td></tr>
+      <tr><td class="p-3 border font-medium">Cost (per ha)</td><td class="p-3 border">$0.50 – $2.00</td><td class="p-3 border">$3.00 – $8.00</td></tr>
+      <tr><td class="p-3 border font-medium">Efficacy boost</td><td class="p-3 border">15 – 30 % over untreated</td><td class="p-3 border">50 – 200 % over untreated</td></tr>
+      <tr><td class="p-3 border font-medium">Best formulation partner</td><td class="p-3 border">SC, WP, WDG</td><td class="p-3 border">EC, ME, SC (systemic actives)</td></tr>
+      <tr><td class="p-3 border font-medium">Shelf life contribution</td><td class="p-3 border">5 – 8 years (stabilises formulation)</td><td class="p-3 border">2 – 3 years (can oxidise)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Which Should You Choose?</h2>
+
+  <h3>Choose Surfactants When:</h3>
+  <ul>
+    <li>You are building SC, WP, or WDG formulations (non-ionic surfactants are the standard co-formulant)</li>
+    <li>Tank-mix flexibility matters — non-ionic surfactants are compatible with most pesticide classes</li>
+    <li>You need low phytotoxicity risk across diverse crop species</li>
+    <li>You want the most cost-effective efficacy enhancement per hectare</li>
+    <li>You need stable dilution performance across hard and soft water types</li>
+  </ul>
+
+  <h3>Choose Oil Adjuvants When:</h3>
+  <ul>
+    <li>The target has a thick, waxy cuticle (e.g., perennial weeds, grasses, brassicas)</li>
+    <li>You are in a hot, dry environment where rapid cuticle penetration is critical</li>
+    <li>Maximum systemic uptake outweighs cost and phytotoxicity risk</li>
+    <li>You are applying systemic herbicides (e.g., ACCase inhibitors, ALS inhibitors)</li>
+    <li>Rainfastness within 30 minutes of application is required</li>
+  </ul>
+
+  <h3>Choose Drift Control Agents When:</h3>
+  <ul>
+    <li>Aerial application is the primary method (mandatory in many jurisdictions)</li>
+    <li>Spray drift onto adjacent sensitive crops or habitats is a regulatory concern</li>
+    <li>You need to reduce V100 (volume fraction &lt; 150 µm) below regulatory thresholds</li>
+  </ul>
+
+  <h2>Manufacturing Differences</h2>
+  <p>Surfactants are incorporated directly into the formulation during the milling or mixing stage — they adsorb onto particle surfaces and become integral to the dispersion system. Oil adjuvants are typically added as tank-mix partners rather than built into the formulation, since their hydrocarbon base can destabilise aqueous systems like SC. Drift control agents are always tank-mix additions; their polymeric structure requires separate hydration and mixing protocols to avoid gelation.</p>
+
+  <h2>Agrospear Recommendation</h2>
+  <p>For most SC and WDG formulations, modern non-ionic surfactants with HLB 12–15 offer the best balance of cost, efficacy enhancement, and formulation stability. Agrospear builds every SC with a proprietary dispersant-surfactant package achieving ≥ 95 % suspensibility and stable dilution across CIPAC C and D waters — with each co-formulant batch independently tested in our Formulation R&D Lab before production. Oil adjuvants are available as recommended tank-mix partners for systemic herbicide programmes, specified per crop and pest target.</p>
+  <p>Adjuvant choice shapes efficacy, cost, and compatibility of your line — tell us your target market and we will <a href="/oem-manufacturing">specify the right adjuvant package for your OEM project</a>, tested in our <a href="/randdcenter/formulation-lab">formulation R&D lab</a>.</p>
+
+cta:
+  title: 'Need help choosing adjuvants?'
+  subtitle: 'Our team can advise on surfactant, oil adjuvant, or drift control selection for your specific formulation.'
+  button_text: 'Ask our experts'
+  button_link: /contact

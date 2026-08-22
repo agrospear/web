@@ -1,0 +1,113 @@
+meta:
+  title: 'Formulation R&D Lab — Agrochemical Analytical Testing'
+  description: 'Analytical testing from raw material to finished formulation: active content by HPLC/GC, particle size analysis, viscosity testing, pH measurement, and emulsion stability for agrochemical products.'
+  back_text: 'Back to R&D Center'
+  home_label: 'Home'
+
+hero:
+  tagline: 'Lab 01'
+  title: 'Formulation R&D Lab'
+  subtitle: 'Scientific analytical testing — from raw material to finished formulation'
+  image: 'https://assets.agrospear.com/images/agrospear/randd/agrospear-formulation-rd-lab.webp'
+  image_alt: 'Agrospear formulation R&D analytical testing laboratory'
+
+answer:
+  label: 'Straight answer'
+  text: 'Formulations are built from technical-grade active ingredients with validated co-formulant packages and particle size distributions controlled to specification. Every incoming raw material batch is independently tested in-house for active content by HPLC/GC (CIPAC methods), particle size by laser diffraction, viscosity by Brookfield viscometer, and pH — no batch enters production on supplier data sheets alone.'
+  verified: '2026-08'
+
+intro: 'The raw material quality is the single most critical input in an agrochemical formulation. It must meet active content specifications, maintain physical-chemical properties through processing, and deliver consistent batch-to-batch performance — all while remaining stable through the product shelf life. At {SITE.name}, our Formulation R&D Lab is dedicated exclusively to the characterisation, validation, and continuous improvement of the materials and formulations we use in every product we build.'
+
+content_html: |
+  <h2>The foundation of every crop protection formulation</h2>
+  <p>We do not rely solely on supplier data sheets. Every batch of active ingredient and co-formulant that enters our production is independently tested in-house. This guarantees that the specification we publish is the performance you receive — lot after lot, year after year.</p>
+
+  <h2>Standardised testing equipment</h2>
+  <p>Our formulation lab is equipped with industrial-grade instruments that conform to CIPAC, AOAC, and ISO test methods:</p>
+  <table>
+    <thead><tr><th>Equipment</th><th>Parameters Measured</th><th>Standard</th></tr></thead>
+    <tbody>
+      <tr><td>HPLC (High-Performance Liquid Chromatography)</td><td>Active ingredient content, impurity identification, decomposition products</td><td>CIPAC methods / AOAC</td></tr>
+      <tr><td>GC (Gas Chromatography)</td><td>Volatile active content, solvent composition, residual analysis</td><td>CIPAC methods / EPA</td></tr>
+      <tr><td>Laser particle size analyser (Malvern)</td><td>D10, D50, D90, span, particle size distribution</td><td>ISO 13320</td></tr>
+      <tr><td>Brookfield rotational viscometer</td><td>Viscosity at multiple shear rates, thixotropic index</td><td>CIPAC MT 172 / ISO 2555</td></tr>
+      <tr><td>pH meter (calibrated, ± 0.01)</td><td>Aqueous dilution pH, formulation pH</td><td>CIPAC MT 75</td></tr>
+      <tr><td>Suspensibility apparatus</td><td>Suspensibility of SC and WP formulations</td><td>CIPAC MT 161 / MT 168</td></tr>
+      <tr><td>Emulsion stability apparatus</td><td>Emulsion stability of EC and ME formulations</td><td>CIPAC MT 36</td></tr>
+      <tr><td>Stability chambers (54 °C, 40 °C, 25 °C)</td><td>Accelerated and long-term shelf stability</td><td>CIPAC MT 46</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* All equipment is calibrated annually by third-party accredited laboratories.</p>
+
+  <h2>From data to decision: a typical test workflow</h2>
+  <p>When a new raw material candidate arrives, it follows a standardised seven-step qualification process:</p>
+  <ol>
+    <li><strong>Receipt inspection</strong> — visual check for colour, odour, packaging integrity, and certificate of analysis compliance.</li>
+    <li><strong>Active content verification</strong> — HPLC or GC analysis; result must be within ± 1.5 % of declared content for acceptance.</li>
+    <li><strong>Particle size mapping</strong> — laser diffraction analysis; D50 and D90 must fall within specification range for the target formulation type.</li>
+    <li><strong>Viscosity profiling</strong> — measurement at 3 shear rates; viscosity must fall within target range for processability and sprayability.</li>
+    <li><strong>pH measurement</strong> — 1 % aqueous dilution; pH must be within 5.0–8.0 range (or product-specific window) to ensure compatibility and stability.</li>
+    <li><strong>Compatibility testing</strong> — small-scale blend with standard co-formulant package; no phase separation, precipitation, or gelation after 24 h.</li>
+    <li><strong>Approval sign-off</strong> — only after all seven gates are passed is the raw material released for production.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Active Content Retention After Accelerated Stability (54 °C, 14 Days)</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">Day 0 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:99%"></div>
+        <span class="text-xs mt-1">Day 3 99%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:98%"></div>
+        <span class="text-xs mt-1">Day 7 98%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:96%"></div>
+        <span class="text-xs mt-1">Day 14 96%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">Competitor ~88%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Agrospear formulations retain &gt; 95 % active content after 14 days at 54 °C, compared to typical industry products that drop below 90 %.</p>
+  </div>
+
+  <h2>Our professional team</h2>
+  <p>The lab is staffed by two full-time analytical chemists, each holding a degree in chemistry or analytical science with a minimum of six years of industry experience. They are supported by three technicians who perform day-to-day testing and data logging. The team regularly participates in inter-laboratory proficiency testing organised by CIPAC and AOAC to validate the accuracy of our test methods.</p>
+
+  <h2>Solving your toughest formulation challenges</h2>
+  <p>Every crop protection market is different. A formulation sold in the tropics faces vastly different temperature and humidity conditions than one in a temperate cereal region or an arid irrigation zone. Our R&D Lab helps you select — or develop — a formulation specification that is optimised for your target environment.</p>
+  <p>Recent custom solutions include:</p>
+  <ul>
+    <li>A high-stability SC herbicide for a tropical rice programme, maintaining 96 % suspensibility after 14 days at 54 °C with no sedimentation.</li>
+    <li>A low-viscosity EC insecticide for aerial application, with emulsion stability maintained across hard and soft water types (CIPAC D and C waters).</li>
+    <li>A WDG fungicide with improved wettability for backpack application in smallholder vegetable production, achieving complete dispersion in 30 seconds.</li>
+  </ul>
+  <p>We do not sell "off-the-shelf" formulations and hope they work. We test, validate, and recommend — or create — a tailored solution for your specific crop and pest profile. That is the {SITE.name} difference.</p>
+
+  <h2>How we serve you</h2>
+  <p>When you bring a formulation challenge to us, here is what you can expect:</p>
+  <ol>
+    <li><strong>Consultation</strong> — we discuss your target crops, pest spectrum, application method, and performance targets.</li>
+    <li><strong>Proposal</strong> — a test plan is drafted with clear pass/fail criteria and a timeline.</li>
+    <li><strong>Execution</strong> — our lab runs the tests and produces a detailed report with raw data and comparative analysis.</li>
+    <li><strong>Recommendation</strong> — we present a formulation specification, including alternative options if multiple recipes meet your requirements.</li>
+    <li><strong>Follow-up</strong> — after delivery, we remain available to support any in-service performance questions.</li>
+  </ol>
+  <p>Our goal is not simply to sell you a product. It is to ensure that the formulation you receive performs reliably in the conditions you operate in — and that starts with the raw material.</p>
+
+cta:
+  title: 'Need a custom formulation specification?'
+  subtitle: 'Contact our analytical team to discuss your requirements.'
+  actions:
+    - variant: primary
+      text: Contact our lab team
+      href: /contact#project-brief
+    - text: Back to the R&D Center
+      href: /randdcenter

@@ -1,0 +1,111 @@
+meta:
+  title: 'Laboratorio de Materias Primas — Ensayo de ingredientes para formulaciones agroquímicas'
+  description: 'Ensayos de materias primas, del ingrediente activo al producto terminado: contenido activo, estabilidad de almacenamiento, suspensibilidad y viscosidad de los ingredientes para formulaciones agroquímicas.'
+  back_text: 'Volver al Centro de I+D'
+  home_label: 'Inicio'
+
+hero:
+  tagline: 'Lab 01'
+  title: 'Laboratorio de Materias Primas'
+  subtitle: 'Ensayos científicos de ingredientes — del ingrediente activo al producto terminado'
+  image: 'https://assets.agrospear.com/images/agrospear/randd/agrospear-raw-material-lab.webp'
+  image_alt: 'Laboratorio de ensayos de materias primas de Agrospear'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Las formulaciones se construyen con materias primas de grado técnico con certificado de análisis y un sistema de dispersión homologado para la concentración nominal. Cada lote de materia prima entrante se ensaya de forma independiente en nuestras instalaciones, comprobando el contenido activo por HPLC/GC, la estabilidad de almacenamiento tras 14 días a 54 °C (CIPAC), la suspensibilidad y la viscosidad — ningún lote entra en producción basándose solo en las fichas del proveedor.'
+  verified: '2026-08'
+
+intro: 'La materia prima es el componente más crítico de una formulación agroquímica. Debe soportar las condiciones de almacenamiento prolongado, la exposición a temperaturas extremas, la compatibilidad con coformulantes y los requisitos de aplicación — manteniendo su integridad química durante años. En {SITE.name}, nuestro Laboratorio de Materias Primas está dedicado en exclusiva a la caracterización, validación y mejora continua de los ingredientes que usamos en cada formulación que fabricamos.'
+
+content_html: |
+  <h2>El fundamento de cada formulación agroquímica</h2>
+  <p>No dependemos solo de las fichas técnicas del proveedor. Cada lote de materia prima y de coformulante que entra en nuestra planta se somete a ensayos independientes internos. Esto garantiza que la especificación de ingrediente que publicamos es el rendimiento que recibes — lote tras lote, año tras año.</p>
+
+  <h2>Equipos de ensayo normalizados</h2>
+  <p>Nuestro laboratorio de materias primas está equipado con instrumentos de grado industrial que se ajustan a los métodos de ensayo CIPAC, FAO y ASTM:</p>
+  <table>
+    <thead><tr><th>Equipo</th><th>Parámetros medidos</th><th>Estándar</th></tr></thead>
+    <tbody>
+      <tr><td>HPLC (cromatografía líquida de alta resolución)</td><td>Contenido activo, pureza, impurezas relacionadas</td><td>CIPAC MT 185 / FAO</td></tr>
+      <tr><td>GC (cromatografía de gases)</td><td>Contenido activo de ingredientes volátiles, residuos de solventes</td><td>CIPAC MT 184 / FAO</td></tr>
+      <tr><td>Cámara de estabilidad térmica</td><td>Estabilidad a 54 °C (sedimentación, separación, degradación tras 14 días)</td><td>CIPAC MT 46.1</td></tr>
+      <tr><td>Viscosímetro rotacional</td><td>Viscosidad a tasas de cizalla variables</td><td>CIPAC MT 172</td></tr>
+      <tr><td>Analizador de tamaño de partícula por láser</td><td>Distribución de tamaño D10, D50, D90</td><td>CIPAC MT 187</td></tr>
+      <tr><td>Medidor de pH</td><td>pH de la formulación diluida al 1 %</td><td>CIPAC MT 75.3</td></tr>
+    </tbody>
+  </table>
+  <p class="text-sm text-gray-500">* Todo el equipo se calibra anualmente en laboratorios acreditados de terceros.</p>
+
+  <h2>De los datos a la decisión: un flujo de ensayo típico</h2>
+  <p>Cuando llega un nuevo candidato de materia prima, se somete a un proceso de cualificación normalizado en siete pasos:</p>
+  <ol>
+    <li><strong>Control en recepción</strong> — comprobación visual de color, olor y conformidad del embalaje.</li>
+    <li><strong>Análisis de contenido activo</strong> — medición por HPLC/GC; se exige una desviación ≤ 1.5 % respecto al valor declarado para la aceptación.</li>
+    <li><strong>Ensayo de suspensibilidad</strong> — medición según CIPAC MT 184; se exige suspensibilidad ≥ 90 % para formulaciones SC.</li>
+    <li><strong>Estabilidad térmica</strong> — 14 días a 54 °C; se exige una degradación del contenido activo ≤ 5 % y sedimentación ≤ 5 %.</li>
+    <li><strong>Viscosidad y pH</strong> — medición a 25 °C; los valores deben estar dentro del rango de especificación.</li>
+    <li><strong>Tamaño de partícula</strong> — D50 dentro del rango objetivo, D90 sin partículas excesivas.</li>
+    <li><strong>Validación final</strong> — solo después de superar las siete puertas se libera la materia prima a la producción.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Grado técnico típico — retención de contenido activo tras almacenamiento acelerado</p>
+    <div class="flex items-end gap-3 h-40">
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-600 rounded-t" style="height:100%"></div>
+        <span class="text-xs mt-1">0 d 100%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-500 rounded-t" style="height:98%"></div>
+        <span class="text-xs mt-1">7 d 25 °C 98%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-400 rounded-t" style="height:96%"></div>
+        <span class="text-xs mt-1">14 d 25 °C 96%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-blue-300 rounded-t" style="height:95%"></div>
+        <span class="text-xs mt-1">7 d 54 °C 95%</span>
+      </div>
+      <div class="flex-1 flex flex-col items-center">
+        <div class="w-full bg-gray-300 rounded-t" style="height:88%"></div>
+        <span class="text-xs mt-1">Competidor ~88%</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Nuestra materia prima de grado técnico conserva más del 95 % del contenido activo tras 14 días a 54 °C, frente a calidades típicas del sector que caen por debajo del 90 %.</p>
+  </div>
+
+  <h2>Nuestro equipo profesional</h2>
+  <p>El laboratorio cuenta con dos ingenieros químicos a jornada completa, cada uno con un título en química o en ingeniería de procesos y un mínimo de seis años de experiencia en el sector. Les apoyan tres técnicos que realizan los ensayos del día a día y el registro de datos. El equipo participa con regularidad en ensayos interlaboratorio (round-robin) organizados por la CIPAC para validar la exactitud de nuestros métodos.</p>
+
+  <h2>Resolvemos tus retos de materias primas más exigentes</h2>
+  <p>Cada mercado agroquímico es distinto. Una formulación que opera en zonas tropicales se enfrenta a condiciones de temperatura y humedad muy distintas de una en un clima templado o árido. Nuestro laboratorio de materias primas te ayuda a elegir — o a desarrollar — una especificación de ingrediente optimizada para tu perfil de uso.</p>
+  <p>Soluciones a medida recientes:</p>
+  <ul>
+    <li>Un dispersante de alta suspensibilidad para una marca de herbicidas cuyas formulaciones mostraban sedimentación en climas cálidos (+40 % de suspensibilidad frente al estándar).</li>
+    <li>Una materia prima de baja temperatura para el programa de un distribuidor canadiense, validada hasta -30 °C sin cristalización.</li>
+    <li>Un coformulante estabilizado para una línea de fungicidas de alta concentración, que mantiene la estabilidad tras 2 años de almacenamiento tropical.</li>
+  </ul>
+  <p>No vendemos ingredientes "de catálogo" con la esperanza de que funcionen: ensayamos, validamos y recomendamos — o creamos — una solución a la medida de tu perfil de mercado. Esa es la diferencia de {SITE.name}.</p>
+
+  <h2>Cómo te ayudamos</h2>
+  <p>Cuando planteas un reto de materia prima, esto es lo que puedes esperar:</p>
+  <ol>
+    <li><strong>Consultoría</strong> — analizamos tu mercado objetivo, tus requisitos de rendimiento y tu presupuesto.</li>
+    <li><strong>Propuesta</strong> — se elabora un plan de ensayos con criterios claros de superado/no superado y un calendario.</li>
+    <li><strong>Ejecución</strong> — nuestro laboratorio realiza los ensayos y emite un informe detallado con datos brutos y análisis comparativo.</li>
+    <li><strong>Recomendación</strong> — presentamos una especificación de materia prima, incluyendo alternativas si varias cumplen tus requisitos.</li>
+    <li><strong>Seguimiento</strong> — tras la entrega, seguimos a disposición para resolver cualquier duda sobre el ingrediente en servicio.</li>
+  </ol>
+  <p>Nuestro objetivo no es solo venderte una formulación: es asegurar que el producto que recibes rinde de forma fiable en las condiciones en las que se aplica — y todo eso empieza con la materia prima.</p>
+
+cta:
+  title: '¿Necesitas una especificación de materia prima a medida?'
+  subtitle: 'Contacta con nuestro equipo de ingeniería de materiales para hablar de tus requisitos.'
+  actions:
+    - variant: primary
+      text: Contacta con nuestro equipo de laboratorio
+      href: /es/contact#project-brief
+    - text: Volver al centro de I+D
+      href: /es/randdcenter

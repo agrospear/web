@@ -1,59 +1,59 @@
 meta:
   title: 'Socios — Distribución y venta al por mayor | {SITE}'
-  description: 'Colaboraciones de fabricación con agrospear: distribución, suministro al por mayor, programas OEM/de marca privada y asistencia para empresas de paddle surf.'
+  description: 'Colaboraciones de fabricación con Agrospear: distribución, suministro al por mayor, programas OEM/de marca privada y asistencia para empresas agroquímicas.'
   keywords:
-    - 'socio de distribución de sup'
-    - 'paddle board al por mayor'
-    - 'distribuidor de sup hinchable'
-    - 'colaboración sup'
+    - 'socio de distribución agroquímica'
+    - 'protección de cultivos al por mayor'
+    - 'distribuidor de formulaciones agroquímicas'
+    - 'colaboración agroquímica'
   dateModified: '2026-08'
 hero:
   tagline: Socios y distribución
   title: 'Colaboraciones de fabricación y distribución'
-  subtitle: "Fabricamos para distribuidores marinos, concesionarios, marcas detallistas y organizaciones de más de 50 países. Tú especificas el producto — nosotros lo ingeniamos, desarrollamos la muestra y lo producimos bajo tu marca."
+  subtitle: "Fabricamos para distribuidores agroquímicos, registradores, titulares de marcas y organizaciones de más de 50 países. Tú especificas el producto — nosotros lo formulamos, desarrollamos la muestra y lo producimos bajo tu marca."
   image:
     src: https://assets.agrospear.com/images/agrospear/partners/partners-hero.webp
     alt: red mundial de socios y distribuidores de Agrospear
 
 answer:
   label: 'Respuesta directa'
-  text: 'Las condiciones de colaboración parten de muestras (1–2 unidades) y lotes piloto (20–50 unidades, muestras en 7–12 días), escalan a series de volumen OEM estándar de 90–100+ unidades por lote a partir de un rollo completo de drop-stitch de 150 m, o invierten en moldes a medida para productos de marca privada. El MOQ se confirma según la configuración del proyecto. Los programas de distribución incluyen territorios exclusivos, precios mayoristas directos de fábrica y condiciones de pago de 45–60 días, con envío FOB Qingdao o CIF.'
+  text: 'Las condiciones de colaboración parten de muestras (1–4 toneladas) y lotes piloto (5 toneladas, muestras en 7–12 días), escalan a series de volumen OEM estándar de 20+ toneladas por lote, o invierten en formulaciones a medida para productos de marca privada. El MOQ se confirma según la configuración del proyecto. Los programas de distribución incluyen territorios exclusivos, precios mayoristas directos de fábrica y condiciones de pago de 45–60 días, con envío FOB Qingdao o CIF.'
   verified: '2026-08'
 content_programs:
   tagline: Programas para socios
   title: 'Modelos de colaboración basados en la fabricación'
-  subtitle: 'Tanto si eres distribuidor, concesionario o socio de marca, el programa se construye en torno a los requisitos de tu producto y tu plan de producción.'
+  subtitle: 'Tanto si eres distribuidor, registrador o socio de marca, el programa se construye en torno a los requisitos de tu producto y tu plan de producción.'
   columns: 3
   items:
     - title: 'Programa de distribuidor'
       description: 'Acuerdos de distribución con acceso directo a la fábrica, asistencia de especificaciones y una calidad de nuevo pedido constante en todos los territorios. El pedido mínimo se basa en el tamaño del territorio.'
       icon: tabler:world
-    - title: 'Programa de concesionario'
-      description: 'Especificaciones de producto, aprobación de muestras, asistencia de garantía y nuevos pedidos fiables para tiendas físicas y en línea.'
+    - title: 'Programa de registrador'
+      description: 'Especificaciones de producto, aprobación de muestras, soporte de documentación de registro y nuevos pedidos fiables para titulares de registro y agentes locales.'
       icon: tabler:building-store
     - title: 'Colaboración OEM/ODM'
       description: 'Fabricación OEM y ODM integral con marca, embalaje y especificaciones personalizados. Del concepto al contenedor.'
       icon: tabler:certificate
     - title: 'Colaboración de marca'
-      description: 'Desarrollo de marca privada y de modelos para marcas establecidas del sector náutico y del ocio al aire libre.'
+      description: 'Desarrollo de marca privada y de formulaciones para marcas establecidas del sector agroquímico y de protección de cultivos.'
       icon: tabler:stars
     - title: 'Gubernamental e institucional'
-      description: 'Programas de proveedor preferente para agencias gubernamentales, guardacostas, ejército y organizaciones humanitarias. Documentación lista para licitaciones.'
+      description: 'Programas de proveedor preferente para agencias gubernamentales, ministerios de agricultura, programas de control vectorial y organizaciones humanitarias. Documentación lista para licitaciones.'
       icon: tabler:building-community
-    - title: 'Socio de resort y alquiler'
-      description: 'Precios de flota, calidad constante y marca personalizada para resorts, centros de buceo y operadores de alquiler de todo el mundo.'
+    - title: 'Socio cooperativo y al por mayor'
+      description: 'Precios al por mayor, calidad constante por lote y marca personalizada para cooperativas agrícolas, grupos de compra y programas de suministro regional.'
       icon: tabler:sun
 content_benefits:
   tagline: Por qué colaborar con nosotros
   title: 'Por qué los socios eligen Agrospear'
-  subtitle: 'Nuestros socios trabajan con una capacidad de fabricación real, una calidad constante y una ingeniería receptiva.'
+  subtitle: 'Nuestros socios trabajan con una capacidad de fabricación real, una calidad constante y un soporte de formulación receptivo.'
   list:
-    - 'Acceso directo a la fábrica: trabaja directamente con nuestro equipo de fabricación — sin intermediarios. Respuestas más rápidas, visibilidad completa de la producción y respuestas de ingeniería procedentes de quienes construyen las tablas.'
-    - 'Personalización lista: marca tus productos con colores personalizados, logotipos, embalajes y especificaciones. El MOQ se confirma según la configuración del proyecto — etapas de muestra, piloto y volumen.'
-    - 'Calidad garantizada: producción certificada ISO 9001, conforme a CE, BSCI y REACH. Todos los productos se prueban a presión antes de la expedición.'
-    - 'Logística mundial: envíos desde Qingdao (China) con opciones FOB, CIF y DDP. Almacén estadounidense en Montclair (CA) para la distribución en Norteamérica.'
-    - 'Documentación técnica: catálogos de producto, fotografías y documentación técnica para apoyar las decisiones de reiteración de pedidos.'
-    - 'Asistencia de especificación y control de calidad: primero la muestra, luego el lote; asistencia técnica para tus clientes y coordinación del servicio de garantía.'
+    - 'Acceso directo a la fábrica: trabaja directamente con nuestro equipo de fabricación — sin intermediarios. Respuestas más rápidas, visibilidad completa de la producción y respuestas de formulación procedentes de quienes fabrican tus productos.'
+    - 'Personalización lista: marca tus productos con etiquetas personalizadas, concentraciones, embalajes y especificaciones. El MOQ se confirma según la configuración del proyecto — etapas de muestra, piloto y volumen.'
+    - 'Calidad garantizada: producción certificada ISO 9001 e ISO 14001, conforme a BSCI e ICAMA. Cada lote se prueba de estabilidad y se analiza de contenido antes de la expedición.'
+    - 'Logística mundial: envíos desde Qingdao (China) con opciones FOB, CIF y DDP a más de 50 países en la UE, EE. UU., LATAM, África y Asia.'
+    - 'Documentación técnica: catálogos de producto, COA, informes de estabilidad y documentación técnica para apoyar las decisiones de reiteración de pedidos.'
+    - 'Asistencia de especificación y control de calidad: primero la muestra, luego el lote; asistencia técnica para tus clientes y coordinación de documentación de registro.'
 content_process:
   tagline: Cómo hacerse socio
   title: 'Proceso de colaboración'

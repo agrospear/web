@@ -1,0 +1,105 @@
+slug: solutions-distributor-partners
+meta:
+  title: 'Socios Distribuidores de Agroquímicos — Marca Privada y Suministro Regional | Agrospear'
+  description: 'Producción de agroquímicos de marca privada para socios distribuidores: especificaciones de formulación personalizadas, embalaje con marca, documentación de mercado regional y QC de fábrica.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Socios Distribuidores
+  title: 'Producción de Agroquímicos de Marca Privada para Socios Distribuidores'
+  subtitle: 'Las marcas distribuidoras lanzan su propia línea de productos agroquímicos con nuestra fábrica: formulaciones desarrolladas a partir de tus requisitos, tu marca en el producto y control de calidad de producción gestionado de principio a fin.'
+  image:
+    src: https://assets.agrospear.com/images/agrospear/factory/agrospear-factory-aerial-1.webp
+    alt: Productos agroquímicos de Agrospear producidos para un socio distribuidor
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El MOQ se confirma según la configuración del proyecto: los socios distribuidores empiezan con una muestra (1–4 toneladas) o un lote piloto (5 toneladas, muestras en 7–12 días), escalan a una producción de volumen estándar de 20+ toneladas por lote (25–35 días tras el PO y el depósito) o invierten en una formulación a medida para líneas de producto totalmente personalizadas (I+D añade 10–15 días). Cada lote se prueba en estabilidad y se analiza en contenido antes del envío, con condiciones FOB, CIF o DDP desde Qingdao.'
+  verified: '2026-08'
+
+margin_section:
+  title: 'Etapas de Producción para Socios Distribuidores'
+  subtitle: 'Empieza con una muestra, valida con un piloto, escala a una producción de volumen estándar o invierte en una formulación a medida: los MOQ y los plazos los fija la vía de producción, no las estimaciones.'
+  items:
+    - tier: 'Etapa de Muestra'
+      moq: '1–4 toneladas'
+      margin_note: 'Plazo de la muestra de 7–12 días'
+      features:
+        - 'Desarrollo de formulación a partir de tus requisitos'
+        - 'Muestra física para su aprobación'
+        - 'Control de calidad (QC) estándar de plataforma'
+    - tier: 'Etapa Piloto'
+      moq: '5 toneladas'
+      margin_note: 'Validación de mercado sobre plataformas existentes'
+      features:
+        - 'Etiquetado personalizado, embalaje con marca y texto regulatorio'
+        - 'Pedidos repetidos sobre las mismas plataformas verificadas'
+        - 'Documentación ICAMA y FAO/OMS incluida'
+    - tier: 'Formulación a Medida'
+      moq: 'Confirmado por configuración'
+      margin_note: 'I+D añade 10–15 días'
+      features:
+        - 'Desarrollo de nueva composición de formulación'
+        - 'Control total de la especificación'
+        - 'Asignación prioritaria de producción'
+
+product_line:
+  title: Línea de Producto Completa
+  subtitle: 'Una plataforma de formulación para cada segmento de tu red de distribución.'
+  items:
+    - name: Serie de Herbicidas
+      description: 'Control de malezas pre y posemergente — SC, EC, WDG'
+    - name: Serie de Insecticidas
+      description: 'Manejo de plagas de contacto y sistémico — EC, SC, ME'
+    - name: Serie de Fungicidas
+      description: 'Control de enfermedades protector y curativo — SC, WDG, WP'
+    - name: Serie de Reguladores de Crecimiento
+      description: 'Regulación del crecimiento vegetal a dosis bajas — SC, SL'
+    - name: Serie de Tratamiento de Semillas
+      description: 'Tratamiento de semillas en recubrimiento y en pasta — FS, CS'
+    - name: Formulaciones Personalizadas
+      description: 'Composiciones a medida para necesidades específicas de cultivo y mercado'
+
+catalog:
+  title: Recursos para Socios Distribuidores
+  subtitle: 'Especificaciones, datos de pedido y documentación del producto.'
+  items:
+    - name: 'Catálogo de Producto 2026'
+      desc: 'Gama completa con especificaciones e información de pedido'
+      icon: 'tabler:file-text'
+      link: '/es/products'
+    - name: 'Guía del Socio Distribuidor'
+      desc: 'Guía de especificaciones, proceso de pedido y estándares de QC'
+      icon: 'tabler:book'
+      link: '/es/products'
+    - name: 'Recursos de Producto y Técnicos'
+      desc: 'Fotos de producto en alta resolución, fichas de datos de formulación y documentación técnica'
+      icon: 'tabler:photo'
+      link: '/es/products'
+
+support:
+  title: Soporte de Fabricación
+  subtitle: 'Lo que aporta tu socio de fabricación en torno al pedido.'
+  items:
+    - 'Muestra física antes de la producción en serie'
+    - 'Tolerancia y QC: cada lote se analiza en contenido y se prueba en estabilidad antes del envío'
+    - 'Soporte de especificaciones: formulaciones, etiquetado, embalaje, texto regulatorio'
+    - 'Plazo de producción en serie de 25–35 días tras confirmar el PO'
+    - 'Documentación regulatoria: ICAMA, FAO/OMS y datos específicos de mercado'
+    - 'Exportación y documentación: FOB/CIF/DDP desde Qingdao'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Sigue leyendo:</strong> consulta el <a href="/es/oem-manufacturing">programa completo de fabricación OEM/ODM</a> — MOQ confirmados por proyecto en las etapas de muestra, piloto y volumen, branding de etiqueta privada y documentación ICAMA — o lee la <a href="/es/oem-moq-guide">Guía de MOQ y Branding Flexible</a>, o visita la <a href="/es/factory">fábrica</a> para ver cómo se gestiona el QC preparado para distribución.</p>
+  </div>
+
+cta:
+  title: 'Habla Sobre Tu Línea de Producto Distribuidor'
+  subtitle: 'Envía tus requisitos: nuestro equipo responde en menos de 1 día laborable.'
+  actions:
+    - text: 'Enviar Tus Requisitos'
+      href: '/es/contact'
+      variant: 'primary'
+    - text: 'Ver Plataformas de Producto'
+      href: '/es/products'
+      variant: 'secondary'

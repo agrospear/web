@@ -1,0 +1,93 @@
+meta:
+  title: 'How to Ensure Formulation Stability — Agrochemical Shelf Life Engineering'
+  description: 'How SC, EC, WP, and WDG formulations differ in shelf stability, sedimentation resistance, and physical-chemical properties, with accelerated testing advice.'
+  author: 'Agrospear'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+  back_text: 'Back to Research'
+
+hero:
+  tagline: 'Engineering'
+  title: 'How to Ensure Formulation Stability — Shelf Life Engineering'
+  subtitle: '6 min read'
+
+answer:
+  label: 'Straight answer'
+  text: 'Stability trades formulation complexity against shelf life: SC is the most demanding — requires dispersant optimization, particle size control, and viscosity tuning to resist sedimentation; EC is simpler to stabilise but solvent migration must be controlled; WDG offers the longest shelf life due to low water activity; FS needs film-forming polymers for seed adhesion stability. An SC at 250 g/L with D50 &lt; 3 µm and ≥ 95 % suspensibility after 14 days at 54 °C meets premium specification.'
+  verified: '2026-08'
+
+content_html: |
+  <h2>The Four Standard Stability Classes</h2>
+
+  <h3>SC — Suspension Concentrate</h3>
+  <ul>
+    <li>Most complex stability management — suspended solids must resist sedimentation</li>
+    <li>Requires dispersant optimization and particle size &lt; 3 µm D50</li>
+    <li>Viscosity must balance pourability with anti-settling yield stress</li>
+    <li>Premium specification: ≥ 95 % suspensibility, no sediment after 14 d at 54 °C</li>
+    <li>Best for: Herbicides, fungicides, high-value foliar applications</li>
+  </ul>
+
+  <h3>EC — Emulsifiable Concentrate</h3>
+  <ul>
+    <li>Simpler physical stability — homogeneous solution, no suspended solids</li>
+    <li>Emulsion stability on dilution is the critical parameter</li>
+    <li>Solvent migration and container compatibility must be controlled</li>
+    <li>Best for: Insecticides with systemic action, fast crop uptake</li>
+  </ul>
+
+  <h3>WDG — Water-Dispersible Granule</h3>
+  <ul>
+    <li>Longest shelf life — low water activity prevents hydrolysis</li>
+    <li>Granule integrity and rapid disintegration must be maintained</li>
+    <li>Moisture uptake during storage is the primary risk</li>
+    <li>Best for: Premium fungicides and herbicides, dust-free handling</li>
+  </ul>
+
+  <h3>FS — Flowable Seed Treatment</h3>
+  <ul>
+    <li>Film-forming polymer stability is critical — must adhere to seed without flaking</li>
+    <li>Colourant and active ingredient must remain homogeneously distributed</li>
+    <li>Low-temperature storage stability required (5 °C testing)</li>
+    <li>Best for: Cereal and vegetable seed treatment programmes</li>
+  </ul>
+
+  <h2>Stability Analysis</h2>
+  <p>The shelf stability of an agrochemical formulation is governed by its physical-chemical properties and the interaction between active ingredient, co-formulants, and packaging. At 54 °C accelerated storage, an SC with D50 &lt; 3 µm and a well-optimized dispersant package shows approximately 30 % less sedimentation than an SC with D50 &gt; 5 µm. Active content retention is primarily determined by pH and hydrolytic stability; secondary stability is influenced by container compatibility and headspace oxygen.</p>
+
+  <h2>Stability by Formulation Type and Storage Condition</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Storage Condition</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">SC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">EC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">WDG</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">FS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">54 °C / 14 d (accelerated)</td><td class="p-3 border">≥ 95 % a.i., ≥ 90 % susp.</td><td class="p-3 border">≥ 97 % a.i., emulsion pass</td><td class="p-3 border">≥ 97 % a.i., disint. &lt; 60 s</td><td class="p-3 border">≥ 95 % a.i., no flaking</td></tr>
+      <tr><td class="p-3 border">40 °C / 75 % RH / 28 d</td><td class="p-3 border">≥ 97 % a.i., ≥ 92 % susp.</td><td class="p-3 border">≥ 98 % a.i., emulsion pass</td><td class="p-3 border">≥ 98 % a.i., moisture &lt; 2 %</td><td class="p-3 border">≥ 97 % a.i., film intact</td></tr>
+      <tr><td class="p-3 border">25 °C / 60 % RH / 24 mo</td><td class="p-3 border">≥ 97 % a.i., no sediment</td><td class="p-3 border">≥ 98 % a.i., emulsion pass</td><td class="p-3 border">≥ 98 % a.i., free-flowing</td><td class="p-3 border">≥ 97 % a.i., uniform film</td></tr>
+      <tr><td class="p-3 border">5 °C / 7 d (cold test)</td><td class="p-3 border">No crystallisation</td><td class="p-3 border">No phase separation</td><td class="p-3 border">N/A</td><td class="p-3 border">No gelling, pourable</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Accelerated Testing vs. Real-World Shelf Life</h2>
+  <p>A common misconception is that passing 14 days at 54 °C guarantees 2 years of shelf stability. In reality, 54 °C testing primarily predicts hydrolytic degradation and physical instability at elevated temperatures; real-world shelf life depends on container type, headspace, and storage temperature distribution. For robust shelf life claims, we recommend 54 °C (14 d), 40 °C/75 % RH (28 d), and 25 °C/60 % RH (12–24 mo) data, plus a cold test at 5 °C for liquid formulations.</p>
+
+  <h2>Agrospear Stability Standards</h2>
+  <ul>
+    <li><strong>SC products:</strong> Agrospear SC series — D50 &lt; 3 µm, ≥ 95 % suspensibility after 14 d at 54 °C, active content retention ≥ 97 %</li>
+    <li><strong>EC products:</strong> Agrospear EC series — emulsion stability pass (0 mL cream, 0 mL sediment) in CIPAC C and D waters, active content retention ≥ 98 %</li>
+    <li><strong>WDG products:</strong> Agrospear WDG series — disintegration &lt; 60 s, free-flowing after 24 mo at 25 °C, moisture uptake &lt; 1 %</li>
+  </ul>
+  <p>All formulations utilise co-formulant packages validated by accelerated and long-term stability testing per CIPAC methods.</p>
+  <p>Stability parameters, co-formulant selection, and packaging are all configurable for custom lines — see how we <a href="/oem-manufacturing">engineer formulations for OEM and private-label brands</a> and walk through our stability testing at the <a href="/factory">factory floor</a>.</p>
+
+cta:
+  title: 'Not sure which stability specification is right for your market?'
+  subtitle: 'Browse our formulation lineup or consult our stability engineering team.'
+  button_text: 'View agrochemical products'
+  button_link: /products

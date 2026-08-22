@@ -1,0 +1,79 @@
+meta:
+  title: 'Cómo funciona el sistema de dispersión — Núcleos estables para formulaciones agroquímicas'
+  description: 'El sistema de dispersión convierte materias primas en una formulación estable de alta concentración para productos de protección de cultivos: construcción, coformulantes, indicadores de calidad y aplicaciones.'
+  author: 'Agrospear'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+  back_text: 'Volver a Investigación'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El sistema de dispersión es una formulación cuyos coformulantes mantienen el ingrediente activo en suspensión, emulsión o solución a una concentración definida, de modo que la agitación previa a la aplicación garantiza la uniformidad del producto. Formulaciones Agrospear: grado técnico certificado, dispersantes y humectantes optimizados, validados mediante prueba de estabilidad de 14 días a 54 °C según CIPAC MT 46.1.'
+  verified: '2026-08'
+
+hero:
+  tagline: 'Tecnología'
+  title: 'Cómo funciona el sistema de dispersión — La ingeniería detrás de las formulaciones estables'
+  subtitle: '8 min de lectura'
+
+content_html: |
+  <h2>¿Qué es el sistema de dispersión?</h2>
+  <p>El sistema de dispersión (también llamado "sistema de formulación" o "matriz de coformulantes") es un método de construcción en el que múltiples coformulantes — dispersantes, humectantes, espesantes, antiespumantes y estabilizantes — conectan el ingrediente activo con el medio de aplicación. Cuando la formulación se diluye en agua, estos coformulantes actúan como elementos de estabilización internos: evitan que las partículas de ingrediente activo se aglomeren o se sedimenten, obligando al producto a permanecer uniforme y estable.</p>
+  <p>El resultado es una formulación concentrada y almacenable que puede mantener concentraciones de 50–500 g/L de ingrediente activo, comparable a la uniformidad de un producto de grado técnico, pero lista para su dilución y aplicación en campo.</p>
+
+  <h2>Cómo funciona: la química</h2>
+  <p>En una mezcla sin coformulantes, las partículas de ingrediente activo tienden a aglomerarse por fuerzas de Van der Waals y a sedimentar por gravedad. El sistema de dispersión resuelve este problema introduciendo estabilización coloidal:</p>
+  <ul>
+    <li>Los dispersantes se adsorben en la superficie de las partículas de ingrediente activo</li>
+    <li>Al diluirse en agua, las partículas tienden a aglomerarse y sedimentar</li>
+    <li>Los dispersantes crean una barrera electrostática y estérica que resiste la aglomeración</li>
+    <li>El resultado es una suspensión o emulsión uniforme que resiste la sedimentación</li>
+  </ul>
+
+  <h2>Proceso de construcción</h2>
+  <ol>
+    <li><strong>Selección de coformulantes:</strong> Los dispersantes, humectantes y espesantes se seleccionan según el ingrediente activo y el tipo de formulación objetivo (SC, EC, WP, WDG, SL, ME, CS, FS). Se evalúa la compatibilidad y la sinergia entre coformulantes.</li>
+    <li><strong>Mezclado y dispersión:</strong> El ingrediente activo se dispersa en el medio líquido con los coformulantes mediante agitación de alto corte. Esto desaglomera las partículas y distribuye uniformemente los dispersantes.</li>
+    <li><strong>Molienda:</strong> La mezcla se procesa en molino de arena o molino de alto corte para alcanzar el tamaño de partícula objetivo (D50 ≤ 5 µm para SC, D50 ≤ 3 µm para FS).</li>
+    <li><strong>Ajuste y homogeneización:</strong> Se ajusta la viscosidad, el pH y la concentración final. Se añaden antiespumantes y conservantes según sea necesario.</li>
+    <li><strong>Envasado:</strong> La formulación se envasa en tambores de 5–200 L mediante líneas de llenado automatizadas con control de peso.</li>
+  </ol>
+
+  <h2>Indicadores clave de calidad</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parámetro</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Nivel de entrada</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Suspensibilidad</td><td class="p-3 border">≥ 85 %</td><td class="p-3 border">≥ 95 %</td></tr>
+      <tr><td class="p-3 border">Contenido activo</td><td class="p-3 border">Dentro de ± 5 %</td><td class="p-3 border">Dentro de ± 1.5 %</td></tr>
+      <tr><td class="p-3 border">Estabilidad a 54 °C</td><td class="p-3 border">Sedimentación ≤ 10 %</td><td class="p-3 border">Sedimentación ≤ 5 %</td></tr>
+      <tr><td class="p-3 border">Tamaño de partícula D50</td><td class="p-3 border">5–10 µm</td><td class="p-3 border">1–5 µm</td></tr>
+      <tr><td class="p-3 border">Estabilidad de emulsión</td><td class="p-3 border">Sin separación a 1 h</td><td class="p-3 border">Sin separación a 24 h</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Aplicaciones</h2>
+  <ul>
+    <li><strong>Herbicidas SC:</strong> 250–500 g/L, suspensibilidad ≥ 90 %, tamaño de partícula D50 ≤ 5 µm</li>
+    <li><strong>Insecticidas EC:</strong> 50–250 g/L, estabilidad de emulsión ≥ 99 % a 24 h</li>
+    <li><strong>Fungicidas WP/WDG:</strong> 50–80 % ingrediente activo, humectabilidad ≤ 60 s</li>
+    <li><strong>Tratamientos de semillas FS:</strong> 200–500 g/L, adherencia a semilla ≥ 98 %</li>
+  </ul>
+
+  <h2>Formulación SC vs. WP vs. EC</h2>
+  <p>Las formulaciones SC (suspensión concentrada) utilizan dispersantes líquidos para mantener el ingrediente activo en suspensión. Son fáciles de medir y aplicar, sin generación de polvo. Las formulaciones WP (polvo mojable) son más económicas pero generan polvo y requieren más agitación. Las formulaciones EC (concentrado emulsionable) ofrecen excelente penetración foliar pero pueden ser más sensibles a la calidad del agua. Para la mayoría de las aplicaciones modernas, las formulaciones SC son el estándar preferido por su facilidad de uso y estabilidad superior.</p>
+
+  <h2>Cómo utiliza Agrospear el sistema de dispersión</h2>
+  <p>Agrospear utiliza sistemas de dispersión optimizados en toda su gama de formulaciones, con coformulantes seleccionados por tipo de ingrediente activo y condiciones de aplicación. Las formulaciones están homologadas según CIPAC y se someten a una prueba de estabilidad de 14 días a 54 °C antes del envío. Los tambores se llenan en líneas automatizadas con control de peso, y las etiquetas incluyen todas las especificaciones de seguridad y aplicación.</p>
+  <p>La formulación SC es la columna vertebral de nuestra producción agroquímica: consulta la <a href="/es/technology/suspension-concentrate-sc">página de tecnología de formulación SC</a> y cómo se produce la formulación en la <a href="/es/factory">línea de producción de la fábrica</a>.</p>
+
+cta:
+  title: '¿Quieres saber más sobre el sistema de dispersión?'
+  subtitle: 'Contacta con nosotros para especificaciones técnicas y consultas OEM.'
+  button_text: 'Contactar con ventas'
+  button_link: /es/contact

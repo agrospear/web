@@ -1,0 +1,79 @@
+meta:
+  title: 'How Formulation Technology Works — Agrochemical Dispersion & Stability Science'
+  description: 'How dispersion systems turn technical-grade active ingredients into stable, field-ready agrochemical formulations: SC, EC, WP, WDG construction, quality indicators and applications.'
+  author: 'Agrospear'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+  back_text: 'Back to Research'
+
+answer:
+  label: 'Straight answer'
+  text: 'A formulation is a dispersion system whose surfactants, dispersants, and stabilisers hold the active ingredient particles in suspension or emulsion at specification concentration, so dilution and spraying delivers uniform efficacy. Agrospear formulations: D50 &lt; 3 µm for SC, 96 %+ suspensibility, pH 5.0–8.0, validated by 14-day accelerated stability at 54 °C.'
+  verified: '2026-08'
+
+hero:
+  tagline: 'Technology'
+  title: 'How Formulation Technology Works — The Science Behind Stable Agrochemical Dispersion Systems'
+  subtitle: '8 min read'
+
+content_html: |
+  <h2>What Is Agrochemical Formulation?</h2>
+  <p>Agrochemical formulation (also called "formulation technology" or "formulation science") is the process of converting a technical-grade active ingredient into a stable, field-ready product by combining it with co-formulants — surfactants, dispersants, wetting agents, stabilisers, solvents, and carriers. When the formulation is diluted in the spray tank, these co-formulants ensure the active ingredient disperses uniformly, remains stable during application, and delivers consistent efficacy.</p>
+  <p>The result is a product that maintains specification concentration, particle size distribution, and physical-chemical stability throughout its shelf life — ensuring that every litre sprayed delivers the same dose to the target.</p>
+
+  <h2>How It Works: The Physics</h2>
+  <p>In a raw active ingredient (technical material), the particles are uncontrolled in size and have no built-in mechanism for uniform dispersion in water. Formulation technology solves this by engineering a dispersion system:</p>
+  <ul>
+    <li>Active ingredient particles are milled to a controlled size distribution (D50 &lt; 3 µm for SC)</li>
+    <li>Dispersants adsorb onto particle surfaces, creating electrostatic and steric barriers that prevent re-agglomeration</li>
+    <li>Suspension agents and thickeners create a yield-stress network that supports the particles against sedimentation</li>
+    <li>The result is a stable, homogeneous product that resists settling and delivers uniform dose</li>
+  </ul>
+
+  <h2>Construction Process by Formulation Type</h2>
+  <ol>
+    <li><strong>SC (Suspension Concentrate):</strong> Active ingredient is pre-mixed with water and dispersants, then milled through a sand mill to target particle size. Thickeners, antifoam, and preservatives are added post-milling. The final product is a stable aqueous suspension.</li>
+    <li><strong>EC (Emulsifiable Concentrate):</strong> Active ingredient is dissolved in a solvent system. Emulsifiers (typically non-ionic + anionic blends) are added. On dilution in water, the formulation spontaneously forms a stable oil-in-water emulsion.</li>
+    <li><strong>WP (Wettable Powder):</strong> Active ingredient is blended with carriers (clay, silica), dispersants, and wetting agents, then pulverised to target particle size. The powder wets and disperses when added to water.</li>
+    <li><strong>WDG (Water-Dispersible Granule):</strong> WP premix is granulated via spray drying or pan granulation, then screened to target granule size. Granules disintegrate and disperse rapidly on contact with water.</li>
+    <li><strong>FS (Flowable Seed Treatment):</strong> Similar to SC but formulated with film-forming polymers and colourants for adhesion to seed surfaces and visual planting identification.</li>
+  </ol>
+
+  <h2>Key Quality Indicators</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Parameter</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Standard Grade</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Particle size (D50)</td><td class="p-3 border">3 – 5 µm</td><td class="p-3 border">&lt; 3 µm</td></tr>
+      <tr><td class="p-3 border">Suspensibility</td><td class="p-3 border">85 – 90 %</td><td class="p-3 border">≥ 95 %</td></tr>
+      <tr><td class="p-3 border">Emulsion stability</td><td class="p-3 border">Pass CIPAC MT 36</td><td class="p-3 border">Pass with zero cream/sediment</td></tr>
+      <tr><td class="p-3 border">Shelf stability (54 °C, 14 d)</td><td class="p-3 border">Active content ≥ 95 %</td><td class="p-3 border">Active content ≥ 97 %</td></tr>
+      <tr><td class="p-3 border">pH range</td><td class="p-3 border">5.0 – 8.0</td><td class="p-3 border">6.0 – 7.5 (tighter window)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Applications by Formulation Type</h2>
+  <ul>
+    <li><strong>SC:</strong> Herbicides and fungicides — 50–600 g/L active content, foliar spray, low drift</li>
+    <li><strong>EC:</strong> Insecticides — 50–500 g/L, fast crop uptake, systemic and contact action</li>
+    <li><strong>WDG:</strong> Fungicides and herbicides — 20–80 % w/w, dust-free, premium positioning</li>
+    <li><strong>FS:</strong> Seed treatments — 100–500 g/L, film-forming, colourant-integrated</li>
+  </ul>
+
+  <h2>Formulated Product vs. Technical Material</h2>
+  <p>Technical-grade active ingredients are raw powders or liquids with no built-in delivery system. They are cheaper per kilogram but cannot be applied directly — they lack wettability, dispersibility, and sprayability. Formulation technology transforms the technical material into a product that performs in the field. For most agricultural applications, a well-engineered SC at 250 g/L delivers more consistent efficacy than unformulated technical material at the same dose.</p>
+
+  <h2>How Agrospear Uses Formulation Technology</h2>
+  <p>Agrospear applies systematic DoE-based co-formulant screening across its formulation lineup, with D50 &lt; 3 µm for SC products and ≥ 95 % suspensibility as standard. Formulations are validated by 14-day accelerated stability at 54 °C before shipment. Production lines are equipped with high-shear mixers, sand mills, and laser particle size analysers for real-time quality control.</p>
+  <p>SC formulation is the backbone of our agrochemical production — see the <a href="/technology/suspension-concentrate-sc">SC formulation technology page</a> and how the formulation is produced on the <a href="/factory">factory production line</a>.</p>
+
+cta:
+  title: 'Want to learn more about formulation technology?'
+  subtitle: 'Contact us for technical specifications and OEM inquiries.'
+  button_text: 'Contact sales'
+  button_link: /contact

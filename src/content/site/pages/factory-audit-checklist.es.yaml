@@ -1,105 +1,105 @@
 meta:
-  title: 'Lista de Verificación de Auditoría de Fábrica — Qué Verificar Antes de Elegir un Fabricante de SUP | Agrospear'
-  description: 'Lista de verificación de auditoría de fábrica para compradores de SUP: calidad, capacidad, trazabilidad, pruebas de presión, cumplimiento y documentación.'
+  title: 'Lista de Verificacion de Auditoria de Fabrica — Que Verificar Antes de Elegir un Fabricante de Agroquimicos | Agrospear'
+  description: 'Lista de verificacion de auditoria de fabrica para compradores de agroquimicos: calidad, capacidad, trazabilidad, pruebas de estabilidad, cumplimiento y documentacion.'
   dateModified: '2026-08-21'
   keywords:
-    - 'SUP factory audit checklist'
-    - 'inflatable board manufacturer audit'
-    - 'SUP factory verification'
-    - 'OEM factory inspection'
-    - 'SUP quality audit'
-    - 'SUP manufacturer due diligence'
-    - 'inflatable SUP production audit'
+    - 'lista de verificacion auditoria fabrica agroquimica'
+    - 'auditoria fabricante proteccion de cultivos'
+    - 'verificacion fabrica agroquimica'
+    - 'inspeccion fabrica OEM'
+    - 'auditoria calidad agroquimica'
+    - 'debida diligencia fabricante agroquimico'
+    - 'auditoria produccion agroquimica'
 
 hero:
   tagline: 'Debida Diligencia'
-  title: 'Lista de Verificación de Auditoría de Fábrica'
-  subtitle: 'Antes de comprometerse con un fabricante de SUP, verifique los fundamentos. Esta lista cubre las ocho áreas que un comprador profesional debe auditar — desde gestión de calidad y capacidad de producción hasta trazabilidad de materiales y cumplimiento social. Cada elemento de esta lista es algo que podemos demostrar con registros, no solo con afirmaciones.'
+  title: 'Lista de Verificacion de Auditoria de Fabrica'
+  subtitle: 'Antes de comprometerse con un fabricante de agroquimicos, verifique los fundamentos. Esta lista cubre las ocho areas que un comprador profesional debe auditar — desde gestion de calidad y capacidad de produccion hasta trazabilidad de materiales y cumplimiento social. Cada elemento de esta lista es algo que podemos demostrar con registros, no solo con afirmaciones.'
 
 answer:
-  label: 'Respuesta rápida'
-  text: 'Las ocho áreas de auditoría más importantes: (1) Sistema de gestión de calidad — certificación ISO 9001 y registros reales de inspección puerta por puerta, no solo un certificado en la pared. (2) Capacidad de producción — números reales de producción, no nominales. (3) Trazabilidad de materiales — inspección de entrada por lote e informes de prueba. (4) Pruebas de presión y estructurales — protocolos documentados de prueba de retención. (5) Controles de soldadura y ensamblaje — parámetros de soldadura RF e inspección de costuras. (6) Cumplimiento social — auditoría BSCI o equivalente. (7) Documentación y trazabilidad — registros por lote, registros de inspección, certificados de conformidad. (8) Soporte post-entrega — proceso de garantía, repuestos, capacidad de respuesta en comunicación.'
+  label: 'Respuesta rapida'
+  text: 'Las ocho areas de auditoria mas importantes: (1) Sistema de gestion de calidad — certificacion ISO 9001 y registros reales de inspeccion puerta por puerta, no solo un certificado en la pared. (2) Capacidad de produccion — numeros reales de produccion, no nominales. (3) Trazabilidad de materiales — inspeccion de entrada por lote e informes de prueba. (4) Pruebas de estabilidad y especificaciones — protocolos documentados de prueba de estabilidad. (5) Controles de formulacion y llenado — parametros de mezclado y verificacion de especificaciones. (6) Cumplimiento social — auditoria BSCI o equivalente. (7) Documentacion y trazabilidad — registros por lote, registros de inspeccion, certificados de analisis. (8) Soporte post-entrega — proceso de garantia, soporte regulatorio, capacidad de respuesta en comunicacion.'
   verified: '2026-08'
 
 audit_areas:
-  tagline: Ocho Áreas de Auditoría
-  title: 'Qué Verificar — Las Ocho Áreas de Auditoría'
-  subtitle: 'Cada área incluye las preguntas a hacer, los registros a solicitar y las señales de alerta a observar.'
+  tagline: Ocho Areas de Auditoria
+  title: 'Que Verificar — Las Ocho Areas de Auditoria'
+  subtitle: 'Cada area incluye las preguntas a hacer, los registros a solicitar y las senales de alerta a observar.'
   grid: 'sm:grid-cols-2 lg:grid-cols-4'
   features:
     - icon: Q
       icon_bg: blue
-      title: '1. Sistema de Gestión de Calidad'
-      desc: 'Solicite: Certificado ISO 9001 (organismo acreditado, vigente), programa de auditorías internas, registro CAPA (acción correctiva y preventiva), procedimientos de puertas de inspección. Señal de alerta: Solo certificado, sin registros de inspección a nivel de puerta ni proceso CAPA.'
+      title: '1. Sistema de Gestion de Calidad'
+      desc: 'Solicite: Certificado ISO 9001 (organismo acreditado, vigente), programa de auditorias internas, registro CAPA (accion correctiva y preventiva), procedimientos de puertas de inspeccion. Senal de alerta: Solo certificado, sin registros de inspeccion a nivel de puerta ni proceso CAPA.'
     - icon: C
       icon_bg: green
-      title: '2. Capacidad de Producción'
-      desc: 'Solicite: Cifras de producción mensual por tipo de producto, programa de producción mostrando utilización actual, capacidad de herramental (número de moldes, máquinas CNC, soldadores RF). Señal de alerta: Solo capacidad nominal, sin datos de utilización ni programa de producción.'
+      title: '2. Capacidad de Produccion'
+      desc: 'Solicite: Cifras de produccion mensual por tipo de formulacion, programa de produccion mostrando utilizacion actual, capacidad de mezcladores, molinos y lineas de llenado. Senal de alerta: Solo capacidad nominal, sin datos de utilizacion ni programa de produccion.'
     - icon: M
       icon_bg: purple
       title: '3. Trazabilidad de Materiales'
-      desc: 'Solicite: Registros de inspección de material entrante, certificados de proveedores de PVC y drop-stitch, trazabilidad por lote desde material prima hasta tabla terminada, declaraciones de sustancias REACH/RoHS. Señal de alerta: Sin trazabilidad a nivel de lote, certificados de material no disponibles.'
+      desc: 'Solicite: Registros de inspeccion de material entrante, certificados de proveedores de ingredientes activos y coadyuvantes, trazabilidad por lote desde materia prima hasta producto terminado, declaraciones de sustancias REACH. Senal de alerta: Sin trazabilidad a nivel de lote, certificados de material no disponibles.'
     - icon: P
       icon_bg: orange
-      title: '4. Pruebas de Presión y Estructurales'
-      desc: 'Solicite: Protocolo de prueba de presión (PSI, duración, criterios de aprobación/rechazo), registros de prueba de lotes recientes, registros de pruebas estructurales (caída, impacto, estrés de canto). Señal de alerta: "Solo inspección visual" o sin protocolo de prueba documentado con criterios cuantitativos.'
-    - icon: W
+      title: '4. Pruebas de Estabilidad y Especificaciones'
+      desc: 'Solicite: Protocolo de prueba de estabilidad (54 C, duracion, criterios de aprobacion/rechazo), registros de prueba de lotes recientes, registros de pruebas de especificaciones (contenido activo, suspensibilidad, pH, viscosidad). Senal de alerta: "Solo inspeccion visual" o sin protocolo de prueba documentado con criterios cuantitativos.'
+    - icon: F
       icon_bg: blue
-      title: '5. Controles de Soldadura y Ensamblaje'
-      desc: 'Solicite: Registros de parámetros de soldadura RF (temperatura, presión, tiempo de permanencia), criterios de inspección de costuras y tasas de rechazo, documentación de secuencia de ensamblaje. Señal de alerta: Sin registros de parámetros de soldadura, alta tasa de rechazo de costuras sin CAPA.'
+      title: '5. Controles de Formulacion y Llenado'
+      desc: 'Solicite: Registros de parametros de mezclado (temperatura, velocidad, tiempo de molienda), criterios de verificacion de especificaciones y tasas de rechazo, documentacion de secuencia de llenado. Senal de alerta: Sin registros de parametros de mezclado, alta tasa de rechazo sin CAPA.'
     - icon: S
       icon_bg: green
       title: '6. Cumplimiento Social'
-      desc: 'Solicite: Informe de auditoría BSCI o SMETA (vigente, alcance completo), registros de horarios y salarios, informes de inspección de salud y seguridad, documentación de cumplimiento ambiental. Señal de alerta: Sin auditoría social de terceros, o auditoría con no conformidades mayores sin resolver.'
+      desc: 'Solicite: Informe de auditoria BSCI o SMETA (vigente, alcance completo), registros de horarios y salarios, informes de inspeccion de salud y seguridad, documentacion de cumplimiento ambiental. Senal de alerta: Sin auditoria social de terceros, o auditoria con no conformidades mayores sin resolver.'
     - icon: D
       icon_bg: purple
-      title: '7. Documentación y Trazabilidad'
-      desc: 'Solicite: Registros de producción por lote, registros de inspección por puerta, certificados de conformidad, listas de empaque con referencias de lote, sistema de seguimiento de reclamaciones de garantía. Señal de alerta: Sin documentación a nivel de lote, reclamaciones de garantía no rastreadas ni analizadas.'
+      title: '7. Documentacion y Trazabilidad'
+      desc: 'Solicite: Registros de produccion por lote, registros de inspeccion por puerta, certificados de analisis, listas de empaque con referencias de lote, sistema de seguimiento de reclamaciones de garantia. Senal de alerta: Sin documentacion a nivel de lote, reclamaciones de garantia no rastreadas ni analizadas.'
     - icon: A
       icon_bg: orange
       title: '8. Soporte Post-Entrega'
-      desc: 'Solicite: Términos de garantía y proceso de reclamación, tiempo promedio de resolución de reclamaciones, disponibilidad de repuestos, compromiso de tiempo de respuesta en comunicación, proceso de revisión post-entrega. Señal de alerta: Sin proceso de garantía documentado, comunicación lenta o inconsistente después de la entrega.'
+      desc: 'Solicite: Terminos de garantia y proceso de reclamacion, tiempo promedio de resolucion de reclamaciones, disponibilidad de soporte regulatorio, compromiso de tiempo de respuesta en comunicacion, proceso de revision post-entrega. Senal de alerta: Sin proceso de garantia documentado, comunicacion lenta o inconsistente despues de la entrega.'
 
 our_position:
-  heading: 'Nuestra Posición en Cada Área de Auditoría'
+  heading: 'Nuestra Posicion en Cada Area de Auditoria'
   body: |
-    No solo afirmamos cumplimiento — proporcionamos los registros. Aquí está nuestra posición en cada una de las ocho áreas de auditoría:
+    No solo afirmamos cumplimiento — proporcionamos los registros. Aqui esta nuestra posicion en cada una de las ocho areas de auditoria:
 
-    - **Gestión de calidad**: Certificados ISO 9001:2015, auditados anualmente por un tercero acreditado. Sistema de inspección de 7 puertas con criterios documentados de aprobación/rechazo en cada puerta. Registro CAPA mantenido y revisado trimestralmente.
-    - **Capacidad de producción**: Más de 30,000 tablas de capacidad anual, más de 2,500 de producción mensual. Programa de producción disponible para revisión durante la visita de fábrica. 4 líneas de producción, 3 máquinas CNC, 5 soldadores RF.
-    - **Trazabilidad de materiales**: Trazabilidad a nivel de lote desde material entrante hasta tabla terminada. Certificados de proveedores de PVC y drop-stitch en archivo. Declaraciones de sustancias REACH y RoHS disponibles por lote.
-    - **Pruebas de presión**: Prueba de retención a 18.0 PSI con rechazo automático por encima de 0.50 PSI de caída en 24 horas. Registros de prueba disponibles para cada lote de producción. Pruebas estructurales y de impacto según tipo de construcción.
-    - **Controles de soldadura**: Parámetros de soldadura RF registrados por cada tirada de producción. Inspección de costuras en puerta 3 con tasas de rechazo documentadas. CAPA iniciada para tasas de rechazo por encima del umbral.
-    - **Cumplimiento social**: Auditado por BSCI. Registros de horarios, salarios y seguridad disponibles para inspección durante la visita de fábrica.
-    - **Documentación**: Registros de producción por lote, registros de inspección por puerta, certificados de conformidad y listas de empaque con referencias de lote enviados con cada pedido. Sistema de seguimiento de reclamaciones de garantía mantenido.
-    - **Soporte post-entrega**: Términos de garantía documentados por contrato. Resolución promedio de reclamaciones en menos de 14 días hábiles. Repuestos disponibles desde stock. Revisión post-entrega ofrecida para cada primer pedido.
+    - **Gestion de calidad**: Certificados ISO 9001:2015, auditados anualmente por un tercero acreditado. Sistema de inspeccion de 7 puertas con criterios documentados de aprobacion/rechazo en cada puerta. Registro CAPA mantenido y revisado trimestralmente.
+    - **Capacidad de produccion**: Mas de 20.000 toneladas de capacidad anual, mas de 2.000 de produccion mensual. Programa de produccion disponible para revision durante la visita de fabrica. 4 lineas de produccion, 6 mezcladores de alto corte, 8 molinos de arena.
+    - **Trazabilidad de materiales**: Trazabilidad a nivel de lote desde material entrante hasta producto terminado. Certificados de proveedores de ingredientes activos y coadyuvantes en archivo. Declaraciones de sustancias REACH disponibles por lote.
+    - **Pruebas de estabilidad**: Prueba de estabilidad a 54 C durante 14 dias con rechazo automatico por desviacion de contenido activo superior al ±2%. Registros de prueba disponibles para cada lote de produccion. Pruebas de especificaciones y estabilidad fisica segun tipo de formulacion.
+    - **Controles de formulacion**: Parametros de mezclado registrados por cada tirada de produccion. Verificacion de especificaciones en puerta 3 con tasas de rechazo documentadas. CAPA iniciada para tasas de rechazo por encima del umbral.
+    - **Cumplimiento social**: Auditado por BSCI. Registros de horarios, salarios y seguridad disponibles para inspeccion durante la visita de fabrica.
+    - **Documentacion**: Registros de produccion por lote, registros de inspeccion por puerta, certificados de analisis y listas de empaque con referencias de lote enviados con cada pedido. Sistema de seguimiento de reclamaciones de garantia mantenido.
+    - **Soporte post-entrega**: Terminos de garantia documentados por contrato. Resolucion promedio de reclamaciones en menos de 14 dias habiles. Soporte regulatorio disponible. Revision post-entrega ofrecida para cada primer pedido.
 
 evidence_review:
-  tagline: 'Evidencia y Verificación'
+  tagline: 'Evidencia y Verificacion'
   title: 'ESPECIFICACIONES VERIFICADAS'
-  body: 'Todas las afirmaciones de fabricación y calidad en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la fábrica de Laixi, Qingdao. Certificados, registros de inspección de CC, informes de pruebas de presión y estructurales, y registros de trazabilidad por lote están disponibles bajo solicitud. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricacion y calidad en esta pagina son verificadas por nuestro equipo de ingenieria de fabricacion en la fabrica de Laixi, Qingdao. Certificados, registros de inspeccion de CC, informes de pruebas de estabilidad y especificaciones, y registros de trazabilidad por lote estan disponibles bajo solicitud. Especificaciones verificadas por ultima vez 2026-08.'
 
 faqs:
   tagline: Preguntas Frecuentes
-  title: 'Auditoría de Fábrica — Preguntas Frecuentes'
+  title: 'Auditoria de Fabrica — Preguntas Frecuentes'
   items:
-    - q: '¿Puedo visitar la fábrica para una auditoría en sitio?'
-      a: 'Sí. Recibimos visitas de fábrica y podemos organizar una auditoría estructurada que cubra las ocho áreas. Una visita típica incluye recorrido por la planta de producción, observación de puertas de CC, inspección de almacén de materiales, revisión documental y preguntas y respuestas con el gerente de calidad. Reserve un día completo. Contáctenos para programar.'
-    - q: '¿Proporcionan documentación de auditoría antes de una visita?'
-      a: 'Sí. Podemos compartir el certificado ISO 9001, informe BSCI, resumen de capacidad de producción, protocolo de prueba de presión y registros de inspección de muestra antes de su visita — para que pueda preparar preguntas específicas. Los registros completos de lotes están disponibles en sitio durante la visita.'
-    - q: '¿Qué inspecciones de terceros utilizan?'
-      a: 'Trabajamos con SGS, Intertek y TUV para inspecciones y certificaciones de terceros. La inspección de pre-embarque por terceros está disponible bajo solicitud para cualquier pedido. El alcance y costos de inspección se confirman durante la fase de cotización.'
-    - q: '¿Cómo sé que su sistema de calidad realmente se aplica, no solo está documentado?'
-      a: 'Cada tabla pasa 7 puertas de inspección con criterios cuantitativos de aprobación/rechazo — no listas de verificación visuales. Datos de pruebas de presión, parámetros de soldadura y tasas de rechazo se registran por lote y están disponibles para su revisión. CAPA se activa automáticamente para resultados fuera de especificación. Le recomendamos auditar el proceso en vivo durante una visita de fábrica.'
+    - q: 'Puedo visitar la fabrica para una auditoria en sitio?'
+      a: 'Si. Recibimos visitas de fabrica y podemos organizar una auditoria estructurada que cubra las ocho areas. Una visita tipica incluye recorrido por la planta de produccion, observacion de puertas de CC, inspeccion de almacen de materiales, revision documental y preguntas y respuestas con el gerente de calidad. Reserve un dia completo. Contactenos para programar.'
+    - q: 'Proporcionan documentacion de auditoria antes de una visita?'
+      a: 'Si. Podemos compartir el certificado ISO 9001, informe BSCI, resumen de capacidad de produccion, protocolo de prueba de estabilidad y registros de inspeccion de muestra antes de su visita — para que pueda preparar preguntas especificas. Los registros completos de lotes estan disponibles en sitio durante la visita.'
+    - q: 'Que inspecciones de terceros utilizan?'
+      a: 'Trabajamos con SGS, Intertek y TUV para inspecciones y certificaciones de terceros. La inspeccion de pre-embarque por terceros esta disponible bajo solicitud para cualquier pedido. El alcance y costos de inspeccion se confirman durante la fase de cotizacion.'
+    - q: 'Como se que su sistema de calidad realmente se aplica, no solo esta documentado?'
+      a: 'Cada lote pasa 7 puertas de inspeccion con criterios cuantitativos de aprobacion/rechazo — no listas de verificacion visuales. Datos de pruebas de estabilidad, parametros de mezclado y tasas de rechazo se registran por lote y estan disponibles para su revision. CAPA se activa automaticamente para resultados fuera de especificacion. Le recomendamos auditar el proceso en vivo durante una visita de fabrica.'
 
 cta:
-  title: 'Programe una Auditoría de Fábrica'
-  subtitle: 'Solicite documentación de auditoría o programe una visita en sitio. Nosotros proporcionamos los registros — usted verifica el proceso.'
+  title: 'Programe una Auditoria de Fabrica'
+  subtitle: 'Solicite documentacion de auditoria o programe una visita en sitio. Nosotros proporcionamos los registros — usted verifica el proceso.'
   actions:
     - variant: primary
-      text: Solicitar Documentación de Auditoría
+      text: Solicitar Documentacion de Auditoria
       href: /es/contact#project-brief
     - text: Verificar certificaciones y sistema de calidad
       href: /es/proof-center
-    - text: Proceso de incorporación OEM
+    - text: Proceso de incorporacion OEM
       href: /es/oem-onboarding-guide

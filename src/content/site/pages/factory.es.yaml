@@ -1,33 +1,33 @@
 meta:
-  title: 'Fábrica y fabricación — OEM de SUP hinchables'
-  description: 'La fábrica de Agrospear: planta de 12.500 m² con corte, soldadura RF, impresión y laboratorio de calidad para fabricación OEM/ODM.'
+  title: 'Fábrica y fabricación — OEM de agroquímicos'
+  description: 'La fábrica de Agrospear: planta de 12.500 m² con mezclado, molienda, llenado, etiquetado y laboratorio de calidad para fabricación OEM/ODM.'
   dateModified: '2026-08-07'
   keywords:
-    - 'fábrica sup china'
-    - 'fábrica de paddle boards hinchables'
-    - 'fabricante sup oem'
-    - 'fabricación sup hinchable'
+    - 'fábrica agroquímica china'
+    - 'fábrica de productos de protección de cultivos'
+    - 'fabricante agroquímico oem'
+    - 'fabricación agroquímica'
 hero:
   tagline: Fábrica
   title: Fábrica y fabricación
-  subtitle: 'Fábrica de SUP de 12.500 m² en Qingdao, China: fabricación personalizada de SUP desde la materia prima de PVC hasta el paddle board hinchable terminado.'
+  subtitle: 'Fábrica agroquímica de 12.500 m² en Qingdao, China: fabricación personalizada de agroquímicos desde el ingrediente activo bruto hasta el producto de protección de cultivos terminado.'
 
 answer:
   label: 'Respuesta directa'
-  text: 'Fábrica certificada de SUP hinchables en Qingdao, China: ISO 9001, ISO 25649, BSCI, CE, REACH y RoHS. Planta de 12.500 m² con 4 talleres especializados, más de 350 trabajadores y más de 120.000 tablas producidas al año (10.000 tablas/mes en 4 líneas automatizadas). Cada tabla se prueba a presión a 18,0 PSI durante 24 horas, supera una lista de control de montaje de 100 puntos y conserva una trazabilidad de materiales de 10 años.'
+  text: 'Fábrica certificada de agroquímicos en Qingdao, China: ISO 9001, ISO 14001, BSCI, ICAMA. Planta de 12.500 m² con 4 talleres especializados, más de 350 trabajadores y más de 20.000 toneladas producidas al año (2.000+ toneladas/mes en 4 líneas automatizadas). Cada lote se prueba de estabilidad a 54 °C durante 14 días, supera una lista de control de producción de 100 puntos y conserva una trazabilidad de materiales de 10 años.'
   verified: '2026-08'
 
 intro:
-  - Como división de fabricación de **Qingdao Vatrad Group Co., Ltd.**, Agrospear controla cada etapa de la fabricación de SUP hinchables, desde la llegada de las materias primas de PVC hasta la inspección final previa a la entrega del paddle board terminado. Nuestra planta de fabricación en la Zona de Desarrollo Económico de Qingdao ocupa 12.500 metros cuadrados y alberga talleres dedicados al corte de PVC, la unión del núcleo drop-stitch, la impresión digital de SUP, el montaje final y los ensayos de calidad.
-  - Al integrar diseño, ingeniería, creación de prototipos, fabricación y ensayos bajo un mismo techo, eliminamos las ineficiencias de la fabricación por contrato y mantenemos el control directo de la calidad de construcción, la selección de materiales y los plazos de entrega. Cada SUP que sale de nuestro taller está construido por nuestra gente, con nuestro equipo y según nuestros estándares.
+  - Como división de fabricación de **Qingdao Vatrad Group Co., Ltd.**, Agrospear controla cada etapa de la fabricación de agroquímicos, desde la llegada de los ingredientes activos brutos hasta la inspección final previa a la entrega del producto de protección de cultivos terminado. Nuestra planta de fabricación en la Zona de Desarrollo Económico de Qingdao ocupa 12.500 metros cuadrados y alberga talleres dedicados a la preparación de materias primas, la mezcla y el mezclado, la molienda de formulaciones, el llenado y sellado, y los ensayos de calidad.
+  - Al integrar diseño de formulación, ingeniería, creación de prototipos, fabricación y ensayos bajo un mismo techo, eliminamos las ineficiencias de la fabricación por contrato y mantenemos el control directo de la calidad del producto, la selección de materias primas y los plazos de entrega. Cada formulación que sale de nuestro taller está producida por nuestra gente, con nuestro equipo y según nuestros estándares.
 
 stats:
   - value: 12,500 m2
     label: Superficie de fabricación
   - value: 350+
     label: Trabajadores cualificados
-  - value: 120,000+
-    label: SUP producidos al año
+  - value: 20,000+
+    label: Toneladas producidas al año
   - value: ISO 9001
     label: Calidad certificada
 
@@ -38,32 +38,32 @@ intelligence_cards:
   - title: Capacidad de producción
     icon: C
     icon_bg: blue
-    desc: 'Instalación de 12.500 m² que produce más de 120.000 SUP/año en las líneas de tablas de SUP y equipos de seguridad. 350+ trabajadores, 2 turnos.'
+    desc: 'Instalación de 12.500 m² que produce más de 20.000 toneladas/año en las líneas de formulación y envasado. 350+ trabajadores, 2 turnos.'
     metrics:
       - label: MOQ
-        value: 'SUP: muestra 1–2 / piloto 20–50 / volumen 90–100+'
+        value: 'Agroquímico: muestra 1–4 toneladas / piloto 5 toneladas / volumen 20+'
       - label: Plazo de entrega
         value: '25–35 días'
-    link: /es/randdcenter
+    link: /es/factory/capacity
     link_label: Detalles completos de capacidad →
   - title: Laboratorio de calidad y ensayos
     icon: Q
     icon_bg: green
-    desc: 'Laboratorio de control de calidad independiente con 4 fases de ensayo: inspección de materias primas (tracción, desgarro, UV), retención de presión 24 h a 18,0 PSI, ensayo de pelado de costuras y verificación de rigidez en cada tabla.'
+    desc: 'Laboratorio de control de calidad independiente con 4 fases de ensayo: inspección de materias primas (HPLC, GC, pureza), estabilidad a 54 °C durante 14 días, verificación de suspensibilidad y estabilidad de emulsión, y cuantificación de contenido activo en cada lote.'
     metrics:
       - label: Equipo de laboratorio
-        value: 'Máquina de tracción, cámara térmica, tanque de fugas'
+        value: 'HPLC, GC, analizador de tamaño de partícula, cámara de estabilidad'
       - label: Estándares
-        value: 'ISO 9001, CE, AS 1799'
+        value: 'ISO 9001, CIPAC, ICAMA'
     link: /es/factory/quality-lab
     link_label: Procedimientos y equipo del laboratorio →
   - title: Capacidad OEM/ODM
     icon: O
     icon_bg: purple
-    desc: 'Servicios OEM/ODM integrales: diseño de moldes a medida, embalaje con etiqueta privada, colores personalizados, gráficos de cubierta (impresión digital y serigrafía) y embalaje listo para exportación.'
+    desc: 'Servicios OEM/ODM integrales: diseño de formulación personalizada, embalaje con etiqueta privada, grados de concentración personalizados, gráficos de etiqueta (impresión multilingüe) y embalaje listo para exportación.'
     metrics:
       - label: Certificaciones
-        value: 'ISO 9001, BSCI, CE, REACH'
+        value: 'ISO 9001, ISO 14001, BSCI, ICAMA'
       - label: Mercados de exportación
         value: 'Más de 50 países'
     link: /es/oem-manufacturing
@@ -71,18 +71,18 @@ intelligence_cards:
   - title: Estándares de inspección de calidad
     icon: I
     icon_bg: orange
-    desc: 'Criterios de inspección de calidad específicos por proyecto en IQC, IPQC, FQC y OQC: verificación de estanqueidad al aire, controles visuales y dimensionales, confirmación de accesorios, trazabilidad de lotes y firma de liberación de pre-embarque — además de gobernanza controlada de no conformidades de estanqueidad y retrabajo.'
+    desc: 'Criterios de inspección de calidad específicos por proyecto en IQC, IPQC, FQC y OQC: verificación de especificaciones, controles visuales y dimensionales, confirmación de etiquetas, trazabilidad de lotes y firma de liberación de pre-embarque — además de gobernanza controlada de no conformidades y retrabajo.'
     metrics:
       - label: Cobertura
         value: 'Materiales → embalaje final'
       - label: Descargas
-        value: 'Protocolo QC, informe PSI y docs de retrabajo (PDF)'
+        value: 'Protocolo QC, informe de especificaciones y docs de retrabajo (PDF)'
     link: /es/factory/quality-inspection
     link_label: Estándares de inspección y descargas →
   - title: Estándar de control de cambios de retrabajo
     icon: C
     icon_bg: blue
-    desc: 'Control de cambios formal según ISO 9001 para parámetros de retrabajo: ECR, clasificación de riesgos, matriz de aprobación interdepartamental, bucle cerrado de 9 pasos, validación de ingeniería cuantificada (18,0 PSI, retención 24 h, ΔP ≤ 0,2 PSI) y salvaguardas Poka-Yoke — con el SOP bilingüe QMS-SOP-QC-CC-001 Rev 2.0.'
+    desc: 'Control de cambios formal según ISO 9001 para parámetros de retrabajo: ECR, clasificación de riesgos, matriz de aprobación interdepartamental, bucle cerrado de 9 pasos, validación de ingeniería cuantificada (contenido activo ±2%, estabilidad a 54 °C 14 días, suspensibilidad ≥90%) y salvaguardas Poka-Yoke — con el SOP bilingüe QMS-SOP-QC-CC-001 Rev 2.0.'
     metrics:
       - label: Documento
         value: 'QMS-SOP-QC-CC-001 Rev 2.0'
@@ -104,7 +104,7 @@ intelligence_cards:
   - title: Flujo de control de calidad en 7 etapas
     icon: Q
     icon_bg: green
-    desc: 'El flujo completo de control de calidad del proyecto, puerta a puerta: planificación de calidad (PPM) → inspección de materiales entrantes → control en proceso y primera pieza → inflado y estanqueidad → inspección final → embalaje y PSI → liberación de envío y trazabilidad. Cada puerta muestra qué se comprueba, cómo se juzga y qué informe bilingüe se produce.'
+    desc: 'El flujo completo de control de calidad del proyecto, puerta a puerta: planificación de calidad (PPM) → inspección de materiales entrantes → control en proceso y primera pieza → verificación de estabilidad y especificaciones → inspección final → embalaje y pre-embarque → liberación de envío y trazabilidad. Cada puerta muestra qué se comprueba, cómo se juzga y qué informe bilingüe se produce.'
     metrics:
       - label: Puertas
         value: '01 → 07'
@@ -117,137 +117,137 @@ workshops_section:
   tagline: Talleres
   title: Talleres de fabricación
   workshops:
-    - title: Corte de PVC y preparación de materiales
-      description: Máquinas de corte CNC automáticas procesan tejidos de PVC, Hypalon y drop-stitch con precisión submilimétrica. El anidado optimizado por ordenador minimiza el desperdicio de material y garantiza que cada panel cumpla su especificación dimensional antes de la soldadura.
+    - title: Recepción y preparación de materias primas
+      description: Sistemas automáticos de pesaje y dosificación procesan ingredientes activos de grado técnico, solventes y coadyuvantes con una precisión de ±0,1%. El loteado optimizado por ordenador minimiza el desperdicio de material y garantiza que cada componente cumpla su especificación de pureza antes del mezclado.
       image: https://assets.agrospear.com/images/agrospear/hero/production-dept.webp
-      alt: Máquina CNC de corte de PVC preparando paneles de tela SUP en la fábrica de Qingdao
-    - title: Soldadura de tubos y termosellado
-      description: Taller de soldadura dedicado con máquinas de termosellado y prensas dieléctricas RF. Los termoselladores de aire caliente unen y fusionan las cámaras de los tubos de PVC, mientras que las soldaduras RF producen costuras herméticas de alta resistencia que superan los requisitos exigidos.
+      alt: Área de recepción y preparación de materias primas en la fábrica agroquímica de Qingdao
+    - title: Mezclado y mezclado de alto corte
+      description: Taller de mezclado dedicado con mezcladores de alto corte y tanques de premezcla. Los mezcladores de alto corte combinan ingredientes activos con dispersantes, emulsionantes y transportadores, mientras que los molinos de arena producen distribuciones de tamaño de partícula uniformes para formulaciones SC y WDG.
       image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
-      alt: Máquina de soldadura RF sellando cámaras de tubo de embarcación hinchable en la fábrica de Qingdao
-    - title: Unión del núcleo drop-stitch
-      description: Los núcleos drop-stitch de las tablas SUP se unen a los laminados exteriores de PVC mediante laminación térmica. Miles de hilos internos de poliéster conectan las capas superior e inferior, creando una estructura rígida a 12–15 PSI. Las bandas de refuerzo del borde se fusionan con unión de triple capa para la resistencia de los cantos.
+      alt: Equipo de mezclado de alto corte y mezclado en la fábrica agroquímica de Qingdao
+    - title: Molienda de formulación y molino de arena
+      description: Las formulaciones de productos de protección de cultivos se procesan a través de molinos de arena y molinos de cuentas para lograr distribuciones de tamaño de partícula objetivo (D50 1–5 μm para SC, D50 20–40 μm para WDG). Los secadores por aspersión y granuladores de lecho fluido producen gránulos WP y WDG con calidad de dispersión constante.
       image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing.webp
-      alt: Línea de fabricación de SUP hinchable con equipo de unión de núcleo drop-stitch en la fábrica de Qingdao
-    - title: Impresión y decoración de SUP
-      description: Las tablas SUP se decoran con impresión digital para gráficos a todo color y serigrafía para logotipos y patrones repetidos. Las impresoras digitales producen diseños de cubierta con calidad fotográfica, mientras que la serigrafía ofrece marcas de marca duraderas y vívidas.
+      alt: Línea de molienda de formulación y molino de arena en la fábrica agroquímica de Qingdao
+    - title: Etiquetado y decoración
+      description: Los envases de producto se etiquetan con máquinas de etiquetado automáticas para etiquetas GHS conformes multilingües y codificadores de inyección de tinta para codificación de lote y fecha. Las máquinas de etiquetado producen marcas conformes al registro, mientras que la codificación por inyección ofrece identificación de lote duradera y trazable.
       image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department-2.webp
-      alt: Interior del departamento de producción en la fábrica de SUP hinchables de Qingdao
-    - title: Montaje final y ajuste
-      description: Línea de montaje donde se instalan válvulas, anillas D, asas, cajas de quilla y pads de cubierta en cada tabla SUP. Cada tabla sigue una lista de verificación de montaje de 100 puntos firmada por el responsable del equipo.
+      alt: Interior del departamento de producción en la fábrica agroquímica de Qingdao
+    - title: Llenado y sellado
+      description: Línea de llenado donde tambores, garrafas y botellas se llenan, sellan y verifican en máquinas de llenado automáticas. Cada lote sigue una lista de verificación de llenado de 100 puntos firmada por el responsable del equipo.
       image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
-      alt: Departamento de producción con puestos de trabajo de ensamblaje en la fábrica de Qingdao
+      alt: Línea automática de llenado y sellado en la fábrica agroquímica de Qingdao
     - title: Ensayos e inspección de calidad
-      description: Cada tabla terminada se somete a ensayos obligatorios de retención de aire, verificación de pelado de costuras y una comprobación completa de sistemas antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
+      description: Cada lote terminado se somete a ensayos obligatorios de estabilidad, verificación de contenido activo por HPLC/GC y una comprobación completa de especificaciones antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
       image: https://assets.agrospear.com/images/agrospear/factory/agrospear-pressure-testing.webp
-      alt: Ensayo de presión para verificar la retención de aire de un SUP hinchable antes del envío en la fábrica de Qingdao
+      alt: Ensayos de calidad y verificación de especificaciones en la fábrica agroquímica de Qingdao
 
 equipment_section:
   tagline: Equipo
   title: Equipo de fabricación principal
   view_full: Ver la lista completa de equipos →
-  view_full_link: /es/randdcenter
+  view_full_link: /es/factory/equipment
   items:
-    - name: Máquina de corte de PVC automática
-      spec: Control CNC, precisión de 0,1 mm
-    - name: Máquina de termosellado
-      spec: Aire caliente, 200 °C–300 °C, para unión de tubos
-    - name: Prensa de soldadura dieléctrica RF
-      spec: 15 kW, soldadura de costuras herméticas
-    - name: Prensa de laminación de núcleos drop-stitch
-      spec: Núcleos SUP de hasta 14 pies
-    - name: Impresora digital
-      spec: Gráficos de cubierta SUP a todo color
-    - name: Máquina de serigrafía
-      spec: Impresión de logotipos multicolor
+    - name: Sistema automático de pesaje y dosificación
+      spec: Control PLC, precisión de ±0,1%
+    - name: Mezclador de alto corte
+      spec: 3.000–10.000 rpm, para formulaciones SC/EC/SL
+    - name: Molino de arena / molino de cuentas
+      spec: Tamaño de partícula 0,1–50 μm, para SC/WDG
+    - name: Secador por aspersión / granulador de lecho fluido
+      spec: Para producción de WDG/WP
+    - name: Línea automática de llenado
+      spec: Tambores de 20–200 L, botellas de 100–1000 mL
+    - name: Máquina de etiquetado automática
+      spec: Aplicación de etiquetas GHS multilingües
 
 qc_section:
   tagline: Control de calidad
   title: Proceso de ensayo y garantía de calidad
-  subtitle: Cada tabla se somete a ensayos obligatorios antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
+  subtitle: Cada lote se somete a ensayos obligatorios antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
   steps:
     - step: '1'
       title: Inspección de materias primas
-      desc: Los tejidos de PVC, Hypalon y drop-stitch se someten a ensayos de tracción, propagación del desgarro y verificación de resistencia UV antes de que cualquier lote entre en producción.
+      desc: Los ingredientes activos de grado técnico, solventes y coadyuvantes se someten a análisis de pureza por HPLC/GC, perfilado de impurezas y verificación de propiedades físicas antes de que cualquier lote entre en producción.
     - step: '2'
-      title: Ensayo de retención de aire de 24 horas
-      desc: Cada cámara del tubo se infla a 18,0 PSI y se mantiene durante 24 horas. Una caída de presión superior a 0,50 PSI provoca el rechazo automático y la reinspección de las costuras.
+      title: Ensayo de estabilidad de 14 días a 54 °C
+      desc: Cada lote de producción se mantiene a 54 °C durante 14 días según CIPAC MT 46. Una desviación del contenido activo superior al ±2% o inestabilidad física provoca el rechazo automático y la reinspección de especificaciones.
     - step: '3'
-      title: Ensayo de carga y estabilidad
-      desc: Las tablas terminadas se inflan a la presión nominal y se comprueban en cuanto a hinchado simétrico, rigidez a 15 PSI y estabilidad bajo carga. Cada tabla se prueba en el agua en nuestra piscina de ensayos antes de la inspección final.
+      title: Verificación de contenido activo y especificaciones
+      desc: Las formulaciones terminadas se analizan para determinar el contenido activo por HPLC/GC y se comprueban en cuanto a suspensibilidad, estabilidad de emulsión, pH, viscosidad y distribución de tamaño de partícula. Cada lote se verifica contra la especificación del producto antes de su liberación.
 
 oem_section:
   tagline: Proyectos OEM
   title: Casos de éxito de marcas y asociaciones OEM
-  subtitle: 'Del concepto a la producción: cómo ayudamos a marcas globales a lanzar y escalar sus líneas de SUP hinchables.'
+  subtitle: 'Del concepto a la producción: cómo ayudamos a marcas globales a lanzar y escalar sus líneas de productos agroquímicos.'
   cases:
-    - challenge: Un minorista europeo de outdoor necesitaba una línea de SUP de etiqueta privada con gráficos de cubierta únicos, PVC ecológico y embalaje listo para el comercio minorista, todo entregado en 60 días.
-      solution: Desarrollamos archivos de impresión digital personalizados, conseguimos PVC conforme a REACH y redujimos las muestras de 3 rondas a 1 al ubicar al equipo de diseño en nuestra fábrica de Qingdao.
-      result: Producción de 25–35 días desde la orden de compra firmada, con la primera entrega dentro de la ventana de llegada de 60 días. 2.400 unidades en 4 SKU. Pedido repetido antes de completarse la primera tirada.
+    - challenge: Un distribuidor europeo de agroquímicos necesitaba una línea de herbicidas de etiqueta privada con formulaciones únicas, ingredientes conformes a REACH y embalaje listo para el comercio minorista, todo entregado en 60 días.
+      solution: Desarrollamos formulaciones SC personalizadas, conseguimos ingredientes activos conformes a REACH y redujimos las muestras de 3 rondas a 1 al ubicar al equipo de formulación en nuestra fábrica de Qingdao.
+      result: Producción de 25–35 días desde la orden de compra firmada, con la primera entrega dentro de la ventana de llegada de 60 días. 200+ toneladas en 4 SKU. Pedido repetido antes de completarse la primera tirada.
       disclaimer: 'Resumen de proyecto anonimizado — el tipo y alcance del proyecto son representativos; los resultados específicos no son verificables de forma independiente.'
-    - challenge: Una startup estadounidense de deportes acuáticos necesitaba un SUP drop-stitch de alto rendimiento con forma personalizada, embalaje co-marcado y certificación BSCI para su colocación en el comercio minorista.
-      solution: Adaptamos el molde SUP existente con un contorno modificado, desarrollamos el arte del embalaje co-marcado y proporcionamos documentación completa de la auditoría BSCI.
-      result: Colocado con éxito en los principales minoristas de outdoor de EE. UU., generando un fuerte impulso con más de 5.000 unidades vendidas en el primer año y una tasa de ventas del 98%.
+    - challenge: Una startup estadounidense de protección de cultivos necesitaba una formulación SC de insecticida de alta eficacia con concentración personalizada, embalaje co-marcado y registro ICAMA para su entrada al mercado.
+      solution: Adaptamos la formulación SC existente con proporción de ingrediente activo modificada, desarrollamos el arte del embalaje co-marcado y proporcionamos documentación completa de registro ICAMA.
+      result: Registrado y colocado con éxito en los principales canales agrícolas de EE. UU., generando un fuerte impulso con más de 500 toneladas vendidas en el primer año y una tasa de reorden del 95%.
       disclaimer: 'Resumen de proyecto anonimizado — el tipo y alcance del proyecto son representativos; los resultados específicos no son verificables de forma independiente.'
-    - challenge: Un distribuidor australiano necesitaba una gama de SUP certificada CE con colores personalizados y cumplimiento de las normas australianas.
-      solution: Produjimos muestras de preproducción con 4 variantes de color y coordinamos ensayos de cumplimiento de terceros.
-      result: Gama de SUP de 3 modelos lanzada en el mercado AU/NZ. Posteriormente, adjudicación de una licitación gubernamental para 12 SUP de patrulla.
+    - challenge: Un distribuidor australiano necesitaba una gama de fungicidas registrada por ICAMA con formulaciones personalizadas y cumplimiento de las normas reguladoras australianas.
+      solution: Produjimos muestras de preproducción con 4 variantes de formulación y coordinamos ensayos de eficacia y residuos de terceros.
+      result: Gama de fungicidas de 3 modelos lanzada en el mercado AU/NZ. Posteriormente, adjudicación de una licitación gubernamental para 50 toneladas de insecticida de salud pública.
       disclaimer: 'Resumen de proyecto anonimizado — el tipo y alcance del proyecto son representativos; los resultados específicos no son verificables de forma independiente.'
 
 faq_section:
   tagline: Preguntas frecuentes
   title: Preguntas frecuentes B2B y OEM
   questions:
-    - q: ¿Cuál es la cantidad mínima de pedido (MOQ) para tablas SUP hinchables OEM?
-      a: 'El MOQ se confirma según la configuración del proyecto, no con un número fijo — casco y utillaje, colores y PVC, arte, empaque y accesorios. La producción de volumen estándar corre en lotes de 90–100+ unidades por rollo completo de drop-stitch de 150 m, el co-branding de lotes pequeños parte de 5–10 unidades, y cada proyecto pasa por las etapas de muestra (1–2 unidades) y piloto (20–50 unidades). Consulta nuestra Guía de MOQ y Branding Flexible para la lógica de cálculo completa.'
+    - q: ¿Cuál es la cantidad mínima de pedido (MOQ) para formulaciones agroquímicas OEM?
+      a: 'El MOQ se confirma según la configuración del proyecto, no con un número fijo — tipo de formulación y concentración, materias primas, arte de etiqueta, embalaje y mercado de destino. La producción de volumen estándar corre en lotes de 20+ toneladas, el co-branding de lotes pequeños parte de 5 toneladas, y cada proyecto pasa por las etapas de muestra (1–4 toneladas) y piloto (5 toneladas). Consulta nuestra Guía de MOQ y Branding Flexible para la lógica de cálculo completa.'
     - q: ¿Mantiene Agrospear la certificación BSCI?
-      a: Sí. Nuestra fábrica mantiene una certificación válida de cumplimiento social BSCI (informe de auditoría disponible bajo petición). También tenemos ISO 9001 para gestión de calidad. La certificación CE aplica a modelos destinados al mercado de la UE; el alcance se confirma por proyecto. La documentación de cumplimiento REACH y RoHS se entrega con cada pedido OEM.
+      a: Sí. Nuestra fábrica mantiene una certificación válida de cumplimiento social BSCI (informe de auditoría disponible bajo petición). También tenemos ISO 9001 para gestión de calidad e ISO 14001 para gestión ambiental. El registro ICAMA aplica a formulaciones destinadas al mercado chino y mercados regulados; el alcance se confirma por proyecto. La documentación de cumplimiento REACH se entrega con cada pedido OEM.
     - q: ¿Cuál es el plazo de entrega típico de un pedido OEM?
-      a: El plazo estándar es de 25–35 días desde la confirmación del pedido y el depósito para la producción OEM en volumen. El desarrollo de moldes personalizados añade 15–20 días para el utillaje. Hay producción acelerada disponible para pedidos urgentes y picos de temporada. Las muestras de prototipo suelen estar listas en 7–12 días.
+      a: El plazo estándar es de 25–35 días desde la confirmación del pedido y el depósito para la producción OEM en volumen. El desarrollo de formulación personalizada añade 15–20 días para ensayos de laboratorio. Hay producción acelerada disponible para pedidos urgentes y picos de temporada. Las muestras de prototipo suelen estar listas en 7–12 días.
     - q: ¿Gestionáis la documentación de exportación?
       a: Sí. Nuestro equipo gestiona internamente la documentación de exportación y el despacho de aduanas, y suministramos a más de 50 países en los mercados de la UE, EE. UU., Australia y Asia.
 
-b2b_moq: 'MOQ confirmado por configuración del proyecto: muestra 1–2, piloto 20–50, volumen 90–100+ (por rollo de 150 m); co-branding de lotes pequeños desde 5–10 unidades.'
+b2b_moq: 'MOQ confirmado por configuración del proyecto: muestra 1–4 toneladas, piloto 5 toneladas, volumen 20+ toneladas por lote; co-branding de lotes pequeños desde 5 toneladas.'
 
 production_flow:
   tagline: Flujo de producción
-  title: Del material a la tabla terminada
-  subtitle: Cada tabla pasa por 6 etapas de producción con puntos de control de calidad en cada paso. Sin atajos, sin inspecciones omitidas.
+  title: Del material al producto terminado
+  subtitle: Cada lote pasa por 6 etapas de producción con puntos de control de calidad en cada paso. Sin atajos, sin inspecciones omitidas.
   stages:
     - stage: '01'
       title: Recepción de materiales y control de calidad de entrada
-      description: Todos los materiales entrantes se registran por número de lote en nuestro sistema ERP. Los rollos de tejido de PVC, los núcleos drop-stitch, las válvulas, los adhesivos y los herrajes se ponen en cuarentena hasta el visto bueno del control de calidad.
-      qc_check: 'Resistencia a la tracción (ASTM D751), resistencia al desgarro (ISO 4674), calibrador de grosor, viscosidad del adhesivo, escaneo de defectos visuales'
-      qc_threshold: 'Se ensaya el 100% de los lotes. Rechazo si la tracción < 90% de la especificación, desgarro < mínimo de especificación o cualquier defecto visual'
+      description: 'Todos los materiales entrantes se registran por número de lote en nuestro sistema ERP. Los ingredientes activos de grado técnico, solventes, coadyuvantes, dispersantes y materiales de embalaje se ponen en cuarentena hasta el visto bueno del control de calidad.'
+      qc_check: 'Pureza del ingrediente activo (HPLC/GC), perfil de impurezas, pureza del solvente, contenido de humedad, verificación de propiedades físicas'
+      qc_threshold: 'Se ensaya el 100% de los lotes. Rechazo si pureza de IA < 95% de la especificación, impurezas > mínimo de especificación o cualquier defecto visual'
       responsibility: Equipo de control de calidad de entrada (3 inspectores)
     - stage: '02'
-      title: Corte CNC y preparación de materiales
-      description: El anidado optimizado por ordenador dispone los paneles sobre el stock de PVC para minimizar el desperdicio. Las máquinas de corte CNC automáticas mantienen una precisión posicional de 0,1 mm.
-      qc_check: 'Comprobación dimensional contra archivos CAD DXF, inspección de la calidad del borde, verificación del número de paneles'
-      qc_threshold: 'Se mide cada 20.º panel. Tolerancia ±0,5 mm. Rechazo del lote si >2% fuera de tolerancia'
-      responsibility: Responsable del taller de corte
+      title: Mezclado y premezcla
+      description: 'El loteado optimizado por ordenador calcula las cantidades precisas de materias primas para cada formulación. Los sistemas automáticos de pesaje y dosificación mantienen una precisión de ±0,1%.'
+      qc_check: 'Verificación de peso contra tarjeta de formulación, confirmación de identidad de materia prima, comprobación de uniformidad de premezcla'
+      qc_threshold: 'Se pesa cada lote. Tolerancia ±0,5% en componentes principales. Rechazo del lote si >2% fuera de tolerancia'
+      responsibility: Responsable del taller de mezclado
     - stage: '03'
-      title: Soldadura y unión drop-stitch
-      description: Los núcleos drop-stitch se unen a los laminados exteriores de PVC mediante laminación térmica. Las cámaras de los tubos se sueldan por RF o por aire caliente. Las bandas de refuerzo del borde se fusionan con unión de triple capa.
-      qc_check: 'Ensayo de pelado cada 50 unidades (ASTM D751), medición del ancho de soldadura, revisión del registro de temperatura del aire caliente, inspección visual de costuras bajo retroiluminación'
-      qc_threshold: 'Resistencia al pelado mínima de 8 N/cm. Tolerancia del ancho de soldadura ±1 mm. Cualquier canalización visible = rechazo'
-      responsibility: Control de calidad de soldadura (2 inspectores por turno)
+      title: Procesamiento de formulación y molienda
+      description: 'Los mezcladores de alto corte componen formulaciones SC, EC y SL. Los molinos de arena y molinos de cuentas reducen el tamaño de partícula a especificación. Los secadores por aspersión y granuladores de lecho fluido producen productos WDG y WP.'
+      qc_check: 'Distribución de tamaño de partícula cada lote (difracción láser), viscosidad, pH, suspensibilidad (CIPAC MT 15), revisión de registro de temperatura de molienda'
+      qc_threshold: 'D50 dentro de ±10% del objetivo. Suspensibilidad ≥90%. Cualquier parámetro fuera de especificación = retener y reprocesar'
+      responsibility: Control de calidad de formulación (2 inspectores por turno)
     - stage: '04'
-      title: Montaje y aparejo
-      description: 'Las tablas pasan al montaje final, donde se ensamblan todos los componentes: paneles de cubierta y fondo fusionados, instalación de válvulas, anillas D, asas, cajas de quilla y colocación de la bolsa de transporte. Cada unidad sigue una lista de verificación de montaje de 100 puntos.'
-      qc_check: 'Firma de la lista de verificación de 100 puntos por unidad, prueba de funcionamiento de válvulas (10 ciclos de apertura/cierre), verificación del par de herrajes, inspección visual'
-      qc_threshold: 'Política de cero defectos en los elementos críticos de seguridad (válvulas, anillas D, asas). Defectos menores estéticos: AQL 2.5 (ISO 2859)'
-      responsibility: Responsable del equipo de montaje + control de calidad de línea
+      title: Llenado y embalaje
+      description: 'Las formulaciones pasan al llenado donde tambores, garrafas y botellas se llenan, sellan y etiquetan. Cada unidad sigue una lista de verificación de llenado y embalaje de 100 puntos.'
+      qc_check: 'Firma de la lista de verificación de 100 puntos por lote, verificación de peso de llenado, ensayo de integridad del sellado, comprobación de precisión de etiqueta, verificación por escaneo de código de barras'
+      qc_threshold: 'Política de cero defectos en los elementos críticos de seguridad (sellos, etiquetas, marcas GHS). Defectos menores estéticos: AQL 2.5 (ISO 2859)'
+      responsibility: Responsable del equipo de llenado + control de calidad de línea
     - stage: '05'
-      title: Ensayo de presión y retención de calidad
-      description: Cada cámara se infla a 18,0 PSI (para un SUP de 12–15 PSI) y se mantiene durante 24 horas. Los sensores de presión registran de forma continua. Las cámaras que superan una caída de presión de 0,50 PSI se rechazan y se envían para reinspección de costuras.
-      qc_check: 'Registro de retención de presión de 24 h, verificación diaria de la calibración del sensor, lectura de presión compensada por temperatura, reensayo de costuras tras la reparación'
-      qc_threshold: 'Máximo 0,50 PSI de caída de presión en 24 h a temperatura estable. Cualquier cámara que lo supere = reensayo del 100% de todo el lote de producción'
+      title: Ensayos de estabilidad y retención de calidad
+      description: 'Cada lote de producción se mantiene a 54 °C durante 14 días según CIPAC MT 46. Se verifican el contenido activo, la suspensibilidad, el pH y la estabilidad física antes de la liberación. Los lotes que superan los límites de especificación se rechazan y se envían para reinspección de especificaciones.'
+      qc_check: 'Ensayo de estabilidad a 54 °C de 14 días, contenido activo por HPLC/GC, suspensibilidad, estabilidad de emulsión, pH, viscosidad'
+      qc_threshold: 'Contenido activo dentro de ±2% de la especificación tras almacenamiento a 54 °C. Cualquier lote que lo supere = reensayo del 100% de todo el lote de producción'
       responsibility: Laboratorio de calidad (independiente de la producción, informa a la dirección)
     - stage: '06'
       title: Inspección final y embalaje
-      description: Inspección visual y funcional final. Defectos superficiales, consistencia del color, verificación de etiquetas/ID de producto, integridad del embalaje y completitud de los accesorios. Las unidades se envasan al vacío, se embalan en cajas y se paletizan para la carga de contenedores.
-      qc_check: 'Inspección visual completa, lista de verificación de accesorios por SKU, ensayo de caída del embalaje (1 m, muestra aleatoria), verificación por escaneo de etiquetas/códigos de barras'
+      description: 'Inspección visual y de especificaciones final. Precisión de etiqueta, consistencia de color, verificación de lote/ID, integridad del embalaje y completitud. Las unidades se paletizan y preparan para la carga de contenedores.'
+      qc_check: 'Inspección visual completa, lista de verificación de etiquetas por SKU, ensayo de integridad del embalaje (muestra aleatoria), verificación por escaneo de código de barras'
       qc_threshold: 'AQL 2.5 para defectos mayores, AQL 4.0 para menores. Tolerancia cero en defectos de seguridad. El 100% de las unidades se inspeccionan visualmente'
       responsibility: Equipo de control de calidad final (4 inspectores) + responsable del equipo de embalaje
 
@@ -255,25 +255,25 @@ workforce:
   tagline: Nuestra gente
   title: Plantilla y experiencia
   engineers: 25+
-  engineers_detail: 'Ingenieros en I+D, diseño de moldes, laboratorio de materiales e ingeniería de producción. Una media de más de 7 años en fabricación de hinchables.'
+  engineers_detail: 'Ingenieros en I+D, diseño de formulaciones, laboratorio analítico e ingeniería de producción. Una media de más de 7 años en fabricación de agroquímicos.'
   shift_pattern: '2 turnos/día (07:00–15:30, 15:30–00:00). Turno nocturno opcional para pedidos urgentes.'
   training: 'Formación de control de calidad mensual, simulacros de seguridad trimestrales, evaluación anual de competencias. Los nuevos empleados completan una inducción de 40 horas antes de trabajar en la línea de producción.'
   departments:
     - name: I+D e ingeniería
       count: 25+
-      role: Diseño de producto, ingeniería de moldes, laboratorio de materiales
-    - name: Corte y preparación de materiales
+      role: Diseño de formulaciones, ingeniería de procesos, laboratorio analítico
+    - name: Preparación de materias primas
       count: 15
-      role: Corte CNC, preparación de paneles, manipulación de materiales
-    - name: Soldadura y laminación
+      role: Pesaje, dosificación, manipulación de materiales
+    - name: Mezclado y mezclado de alto corte
       count: 40
-      role: Soldadura RF, soldadura de aire caliente, unión drop-stitch
-    - name: Unión de núcleos SUP
+      role: Mezclado de alto corte, molienda de arena, secado por aspersión
+    - name: Procesamiento de formulación
       count: 30
-      role: Laminación drop-stitch, termounión, fusión de bandas de borde
-    - name: Montaje y aparejo
+      role: Molienda, granulación, control de tamaño de partícula
+    - name: Llenado y embalaje
       count: 35
-      role: Montaje final, instalación de herrajes, comprobación de sistemas
+      role: Línea de llenado, etiquetado, embalaje, comprobación de sistemas
     - name: Control de calidad
       count: 12
       role: Control de calidad de entrada, en proceso, inspección final, ensayos de laboratorio
@@ -287,21 +287,21 @@ workforce:
 material_traceability:
   tagline: Trazabilidad
   title: Seguimiento de materiales y control de lotes
-  description: A cada lote de materia prima se le asigna un número de lote único en nuestro sistema ERP. Desde la llegada hasta la producción y el producto terminado, la lista de materiales de cada tabla se vincula al lote original del proveedor. Esto permite la trazabilidad ascendente completa ante cualquier consulta de calidad o cumplimiento.
+  description: A cada lote de materia prima se le asigna un número de lote único en nuestro sistema ERP. Desde la llegada hasta la producción y el producto terminado, la lista de materiales de cada lote se vincula al lote original del proveedor. Esto permite la trazabilidad ascendente completa ante cualquier consulta de calidad o cumplimiento.
   system: ERP a medida (sistema interno de Qingdao Vatrad Group) + etiquetas físicas de lote en cada orden de trabajo
-  coverage: 'El 100% de los materiales de producción: PVC, Hypalon, tejido drop-stitch, adhesivos, válvulas, herrajes, embalaje'
-  records_retained: 10 años (según el requisito CE 2013/53/EU)
+  coverage: 'El 100% de los materiales de producción: ingredientes activos, solventes, coadyuvantes, dispersantes, emulsionantes, embalaje'
+  records_retained: 10 años (según requisito regulatorio)
   suppliers:
-    - material: PVC de grado marino
-      source: Proveedores chinos y coreanos
-      certified: ISO 9001, REACH, RoHS
-    - material: Hypalon (CSM)
-      source: Proveedor japonés
+    - material: Ingredientes activos de grado técnico
+      source: Proveedores chinos e indios
+      certified: ISO 9001, ICAMA, REACH
+    - material: Solventes y coadyuvantes
+      source: Proveedores chinos e internacionales
       certified: ISO 9001, REACH
-    - material: Tejido drop-stitch
-      source: Tejido interno + socio externo
+    - material: Dispersantes y emulsionantes
+      source: Proveedores chinos + socios externos
       certified: Control de calidad interno + ISO 9001 del proveedor
-    - material: Válvulas y herrajes
+    - material: Materiales de embalaje (tambores, botellas, tapas)
       source: Proveedores OEM chinos
       certified: ISO 9001, certificados de material por lote
 
@@ -311,34 +311,34 @@ qc_dashboard:
   subtitle: Datos reales de aprobación/rechazo de nuestra línea de producción. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
   stats:
     - value: 100%
-      label: Unidades sometidas a ensayo de presión
-      detail: Cada tabla, cada cámara, cada lote
-    - value: '<5%'
-      label: Caída de presión máxima permitida
-      detail: En 24 h a 18,0 PSI
+      label: Lotes con ensayo de estabilidad
+      detail: Cada lote, cada especificación, cada tirada de producción
+    - value: '±2%'
+      label: Desviación máxima permitida de contenido activo
+      detail: Tras ensayo de estabilidad a 54 °C de 14 días
     - value: AQL 2.5
       label: Umbral de defectos mayores
       detail: Según la norma de muestreo ISO 2859
-    - value: 24h
-      label: Duración de la retención de presión
-      detail: Cada tabla, cada cámara
-    - value: 18 PSI
-      label: Presión de ensayo frente a nominal
-      detail: Margen de seguridad en cada cámara
+    - value: 14 días
+      label: Duración de la retención de estabilidad
+      detail: Cada lote a 54 °C según CIPAC MT 46
+    - value: '≥90%'
+      label: Especificación de suspensibilidad
+      detail: Para formulaciones SC y WDG
     - value: 0%
-      label: Tolerancia en defectos de seguridad
-      detail: Válvulas, anillas D, costuras, flotabilidad
+      label: Tolerancia en defectos de especificación
+      detail: Contenido activo, etiquetas GHS, integridad del sellado
 
 process_cta:
   title: Ver nuestro proceso de fabricación
-  desc: Sigue un SUP a través de cada etapa de la producción, de la materia prima a la tabla lista para el mar.
+  desc: Sigue una formulación a través de cada etapa de la producción, de la materia prima al producto de protección de cultivos listo para el mercado.
   label: Ver el proceso de producción →
-  link: /es/randdcenter
+  link: /es/factory/process
 
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'Evidencia de fábrica — Verificada'
-  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de presión y pruebas estructurales, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Laixi, Qingdao. Certificados, registros de inspección QC, informes de ensayos de estabilidad y especificaciones, y registros de trazabilidad por lote están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
 
 cta:
   title: 'Explora nuestra fábrica'

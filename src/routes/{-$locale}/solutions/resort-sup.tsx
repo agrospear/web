@@ -1,4 +1,10 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { solutionRoute } from '@/components/marketing/solution-route'
+import { createFileRoute, redirect } from '@tanstack/react-router'
+import { localizePath, type Locale } from '@/features/i18n/locale'
 
-export const Route = createFileRoute('/{-$locale}/solutions/resort-sup')(solutionRoute('resort-sup'))
+export const Route = createFileRoute('/{-$locale}/solutions/resort-sup')({
+  loader: ({ params }) => {
+    const locale = ((params as { locale?: string }).locale ?? 'en') as Locale
+    throw redirect({ href: localizePath(locale, '/solutions/co-branding'), statusCode: 301 })
+  },
+  component: () => null,
+})

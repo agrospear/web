@@ -30,7 +30,7 @@ test('301 merge of duplicate paths (P0-4)', () => {
 test('French-slug doorways 301 to closest English page (P1-5)', () => {
   expect(gatePath('/fabricant-sup-gonflable')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
   expect(gatePath('/bateau-gonflable-fabricant')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
-  expect(gatePath('/fournisseur-nautique')).toEqual({ action: 'redirect', to: '/solutions/rental-operators' })
+  expect(gatePath('/fournisseur-nautique')).toEqual({ action: 'redirect', to: '/solutions/co-branding' })
 })
 
 test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
@@ -44,9 +44,9 @@ test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
   expect(gatePath('/es/safety')).toEqual({ action: 'redirect', to: '/es/quality' })
   expect(gatePath('/trust')).toEqual({ action: 'redirect', to: '/quality' })
   expect(gatePath('/es/trust')).toEqual({ action: 'redirect', to: '/es/quality' })
-  expect(gatePath('/solutions/resorts-hotels')).toEqual({ action: 'redirect', to: '/solutions/resort-sup' })
-  expect(gatePath('/solutions/paddle-clubs')).toEqual({ action: 'redirect', to: '/solutions/club-sup' })
-  expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/private-label-sup' })
+  expect(gatePath('/solutions/resorts-hotels')).toEqual({ action: 'redirect', to: '/solutions/co-branding' })
+  expect(gatePath('/solutions/paddle-clubs')).toEqual({ action: 'redirect', to: '/solutions/distributor-partners' })
+  expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/distributor-partners' })
 })
 
 test('brand pages collapse onto /about and /about/agrospear (P1-3)', () => {
@@ -72,7 +72,7 @@ test('brand pages collapse onto /about and /about/agrospear (P1-3)', () => {
   expect(gatePath('/es/brand/why-agrospear')).toEqual({ action: 'redirect', to: '/es/about/agrospear' })
 })
 
-test('non-SUP business lines 301 to agrospear.com (P1-7)', () => {
+test('non-agrochemical business lines 301 to agrospear.com (P1-7)', () => {
   expect(gatePath('/commercial-workboats')).toEqual({
     action: 'redirect',
     to: 'https://agrospear.com/commercial-workboats',
@@ -116,7 +116,7 @@ test('legacy theagrospear URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
   expect(gatePath('/guides/herbicide-selection')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/knowledge' })
-  expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/fishing' })
+  expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/biopesticide' })
   expect(gatePath('/use-cases/disaster-relief')).toEqual({
     action: 'redirect',
     to: 'https://agrospear.com/disaster-relief-humanitarian-aid',
@@ -172,10 +172,10 @@ test('revived pages are served, not 301d (P0-5)', () => {
   expect(gatePath('/oem-paddle').action).toBe('ok')
   expect(gatePath('/factory/oem-capability').action).toBe('ok')
   expect(gatePath('/factory/capacity').action).toBe('ok')
-  expect(gatePath('/randdcenter/hull-engineering').action).toBe('ok')
-  expect(gatePath('/research/drop-stitch-technology').action).toBe('ok')
-  expect(gatePath('/solutions/club-sup').action).toBe('ok')
-  expect(gatePath('/private-label-sup').action).toBe('ok')
+  expect(gatePath('/randdcenter/formulation-engineering').action).toBe('ok')
+  expect(gatePath('/research/formulation-technology').action).toBe('ok')
+  expect(gatePath('/solutions/distributor-partners').action).toBe('ok')
+  expect(gatePath('/oem-paddle').action).toBe('ok')
   expect(gatePath('/guides/beginner-guide').action).toBe('ok')
   expect(gatePath('/guides/inflatable-vs-hard').action).toBe('ok')
   expect(gatePath('/evidence/case-studies').action).toBe('ok')
@@ -194,9 +194,9 @@ test('content hubs 301 onto their keepers, sub-pages stay live (P1-2)', () => {
     expect(gatePath(`/es${from}`)).toEqual({ action: 'redirect', to: `/es${to}` })
   }
   // Real content under the merged hubs remains live.
-  expect(gatePath('/guides/how-to-choose-your-sup').action).toBe('ok')
-  expect(gatePath('/research/ce-certification-guide').action).toBe('ok')
-  expect(gatePath('/evidence/case-studies/beginner-sup-training').action).toBe('ok')
+  expect(gatePath('/guides/how-to-choose-your-agrochemical-oem').action).toBe('ok')
+  expect(gatePath('/research/icama-registration').action).toBe('ok')
+  expect(gatePath('/evidence/case-studies/row-crop-herbicide-program').action).toBe('ok')
   expect(gatePath('/knowledge').action).toBe('ok')
   expect(gatePath('/projects').action).toBe('ok')
   expect(gatePath('/news').action).toBe('ok')
@@ -207,7 +207,7 @@ test('content hubs 301 onto their keepers, sub-pages stay live (P1-2)', () => {
 test('retired zh locale: every /zh/* URL 301s to its /es mirror', () => {
   expect(gatePath('/zh')).toEqual({ action: 'redirect', to: '/es' })
   expect(gatePath('/zh/solutions')).toEqual({ action: 'redirect', to: '/es/solutions' })
-  expect(gatePath('/zh/what-is-sup')).toEqual({ action: 'redirect', to: '/es/what-is-sup' })
+  expect(gatePath('/zh/what-is-agrochemical-oem')).toEqual({ action: 'redirect', to: '/es/what-is-agrochemical-oem' })
   expect(gatePath('/zh/products/abamectin-18-ec')).toEqual({ action: 'redirect', to: '/es/products/abamectin-18-ec' })
 })
 
@@ -223,7 +223,7 @@ test('410 for removed template pages (P0-2)', () => {
   expect(gatePath('/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/es/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/zh/changelog')).toEqual({ action: 'gone' })
-  // RIB case study removed (Agrospear is SUP-only)
+  // marine case study removed (Agrospear is agrochemical-only)
   expect(gatePath('/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
   expect(gatePath('/es/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
   // '/docs/' is normalised to '/docs' first (301), then 410 on the next hop

@@ -1,30 +1,30 @@
 meta:
-  title: 'Tecnología — Drop stitch y PVC marino | {SITE}'
-  description: 'Tecnologías Agrospear: construcción drop stitch, PVC marino, estructuras de doble capa y alta presión.'
+  title: 'Tecnología — Formulación e ingeniería de procesos | {SITE}'
+  description: 'Tecnologías Agrospear: concentrado en suspensión, concentrado emulsionable, granulación WDG e ingeniería de formulación avanzada.'
   dateModified: '2026-08'
   keywords:
-    - 'tecnología sup'
-    - 'construcción drop stitch'
-    - 'sup de alta presión'
-    - 'materiales sup hinchable'
+    - 'tecnología de formulación agroquímica'
+    - 'concentrado en suspensión'
+    - 'concentrado emulsionable'
+    - 'granulación WDG'
 hero:
   tagline: Tecnología
   title: Diseñado para el rendimiento
-  subtitle: 'Cada SUP hinchable Agrospear se fabrica con construcción drop-stitch y PVC de grado marino: materiales de precisión y métodos de fabricación probados en entornos marinos exigentes.'
+  subtitle: 'Cada formulación Agrospear se ingenia con control preciso del tamaño de partícula, sistemas avanzados de dispersión y estabilidad validada — materiales y métodos de fabricación probados en entornos agrícolas exigentes.'
 
 sections:
-  - title: Núcleo Drop-Stitch
-    description: Miles de hilos internos de poliéster conectan las capas superior e inferior, creando una estructura rígida a 12–15 PSI. Es la misma tecnología que usan las tablas de paddle profesionales y los SUP de competición hinchables.
-    imageAlt: Diagrama núcleo DS
-  - title: PVC de grado marino
-    description: Tejido de PVC laminado multicapa apto para entornos marinos. Cada capa se fusiona por soldadura en lugar de pegarse, lo que elimina los riesgos de delaminación. Ensayado contra rayos UV, corrosión por agua salada y abrasión.
-    imageAlt: Capa de PVC
-  - title: PVC de grado militar
-    description: Utilizado en todos los modelos de SUP, este PVC premium ofrece resistencia superior a los rayos UV y a los productos químicos. Mantiene la flexibilidad en temperaturas extremas y resiste la degradación.
-    imageAlt: PVC
-  - title: Cubierta Air Deck
-    description: Construcción hinchable de alta presión con drop stitch que aporta una rigidez excepcional para estar de pie, pescar y hacer yoga. Reduce el tiempo de montaje, el peso total y el volumen de almacenamiento.
-    imageAlt: Air Deck
+  - title: Concentrado en Suspensión (SC)
+    description: La molienda de alto corte reduce las partículas activas a 1–5 μm, suspendidas en un portador acuoso optimizado con agentes anti-sedimentación. Esto produce una formulación estable, vertible, con mínimo polvo y máxima biodisponibilidad para aplicación foliar y al suelo.
+    imageAlt: Diagrama de formulación SC
+  - title: Concentrado Emulsionable (EC)
+    description: Formulación base solvente con paquetes emulsionantes que forman emulsiones aceite-en-agua estables al diluir. Optimizada para cobertura foliar rápida y resistencia al lavado por lluvia. Ensayada para estabilidad de emulsión, punto de inflamación y compatibilidad en frío.
+    imageAlt: Capa de emulsión EC
+  - title: Gránulo Dispersable en Agua (WDG)
+    description: Partículas secadas por atomización o granuladas en plato que se dispersan rápidamente en agua sin generar polvo. Utilizadas en todos los modelos de herbicidas y fungicidas donde la seguridad del operador y la comodidad son prioritarias. Mantiene la dispersibilidad en aguas duras.
+    imageAlt: Gránulo WDG
+  - title: Polvo Mojable (WP)
+    description: Polvo molido por flujo de aire con dispersantes y agentes humectantes integrados para suspensión rápida en el tanque de aspersión. Proporciona alta carga de ingrediente activo con eficacia de campo probada. Calidad verificada mediante ensayos de suspensibilidad y mojabilidad.
+    imageAlt: Polvo WP
 
 related:
   title: Relacionado
@@ -37,16 +37,14 @@ related:
       url: /es/quality
     - text: Garantía
       url: /es/warranty
-    - text: Embarcaciones de trabajo comercial
-      url: https://agrospear.com/es/commercial-workboats
-    - text: Búsqueda y rescate
-      url: https://agrospear.com/es/search-and-rescue
-    - text: Turismo y recreo
-      url: /es/tourism-recreation
-    - text: Ayuda en catástrofes
-      url: https://agrospear.com/es/disaster-relief-humanitarian-aid
-    - text: Seguridad y defensa marítima
-      url: https://agrospear.com/es/maritime-safety-defense
+    - text: Fabricación OEM
+      url: /es/oem-manufacturing
+    - text: Selector de formulación
+      url: /es/formulation-selector
+    - text: Soluciones de protección de cultivos
+      url: /es/crop-protection-solutions
+    - text: Guía de certificación
+      url: /es/agrochemical-certification-guide
     - text: Guías
       url: /es/knowledge
     - text: Productos

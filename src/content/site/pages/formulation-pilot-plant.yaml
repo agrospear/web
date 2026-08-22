@@ -1,0 +1,115 @@
+meta:
+  title: 'Formulation Pilot Plant — Agrochemical Small-Scale Production & Stability Testing'
+  description: 'Validate agrochemical formulations with our pilot plant. Small-scale batching, accelerated stability testing, spray tower performance testing for crop protection products.'
+  dateModified: '2026-08'
+  back_text: 'Back to R&D Center'
+  home_label: 'Home'
+
+answer:
+  label: 'Straight answer'
+  text: 'We pilot-batch agrochemical formulations at 5–50 L scale — active content, co-formulant package, particle size distribution, and rheology — measuring suspensibility, emulsion stability, and shelf stability before committing to full-scale production. A week in the pilot plant returns the performance data that would take months of full-scale trial and error.'
+  verified: '2026-08'
+
+hero:
+  tagline: 'Lab 04'
+  title: 'Formulation Pilot Plant'
+  subtitle: 'Validating performance before the first production batch'
+  image: 'https://assets.agrospear.com/images/agrospear/factory/agrospear-pilot-plant-original.webp'
+  image_alt: 'Agrospear formulation pilot plant small-scale batching'
+
+intro: 'It is a common misconception that pilot-scale testing is reserved for pharmaceutical products. In reality, the performance of a crop protection formulation — a suspension concentrate or emulsifiable concentrate — is just as dependent on its physical-chemical properties as any regulated product. Active content uniformity, particle size distribution, suspensibility, and emulsion stability all have a dramatic effect on field efficacy and shelf life. At {SITE.name}, we operate a dedicated formulation pilot plant that allows us to quantify these effects at small scale — before committing raw materials and production line time to a full-scale batch.'
+
+content_html: |
+  <h2>Why pilot-test a formulation?</h2>
+  <p>Testing at pilot scale (typically 5–50 L) gives us the ability to iterate formulation recipes rapidly and cost-effectively. A week in the pilot plant can generate the same stability and performance data that would require months of full-scale trial-and-error — and at a fraction of the cost.</p>
+
+  <h2>Facility specifications</h2>
+  <table>
+    <thead><tr><th>Parameter</th><th>Specification</th></tr></thead>
+    <tbody>
+      <tr><td>Pilot batch range</td><td>5 L to 50 L, stainless steel and glass-lined vessels</td></tr>
+      <tr><td>High-shear mixer</td><td>Variable speed, max 6,000 RPM, temperature-controlled jacket</td></tr>
+      <tr><td>Sand mill</td><td>Basket-type, zirconia media, target D50 &lt; 3 µm for SC formulations</td></tr>
+      <tr><td>Spray dryer</td><td>Lab-scale, inlet 180–220 °C, for WP and WDG prototype production</td></tr>
+      <tr><td>Stability chambers</td><td>54 °C (accelerated), 40 °C (intermediate), 25 °C/60 % RH (long-term), ± 0.5 °C control</td></tr>
+      <tr><td>Instrumentation</td><td>HPLC, GC, laser particle size analyser, Brookfield viscometer, pH meter, emulsion stability apparatus</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Our test programme</h2>
+  <p>A standard formulation development programme in our pilot plant follows this sequence:</p>
+  <ol>
+    <li><strong>Pre-formulation screening</strong> — Active ingredient solubility, compatibility with co-formulant candidates, and initial pH adjustment are assessed in benchtop beaker trials.</li>
+    <li><strong>Pilot batch production</strong> — A 5–10 L batch is prepared using the high-shear mixer and sand mill. Process parameters (shear time, milling passes, addition order) are documented.</li>
+    <li><strong>Physical-chemical testing</strong> — Active content by HPLC/GC, particle size distribution by laser diffraction, suspensibility (CIPAC MT 161), emulsion stability (CIPAC MT 36), pH, and viscosity are measured at time zero.</li>
+    <li><strong>Accelerated stability</strong> — Samples are placed at 54 °C for 14 days and 40 °C/75 % RH for 28 days. Active content, suspensibility, sedimentation, and pH are re-measured at each interval.</li>
+    <li><strong>Spray performance (optional)</strong> — Diluted formulation is tested in a spray tower for droplet size distribution, drift potential, and coverage uniformity on leaf surfaces.</li>
+    <li><strong>Data analysis &amp; recommendations</strong> — A full report is delivered with comparative charts, stability curves, and specific formulation adjustments recommended for full-scale production.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Typical Pilot Plant Results — Suspensibility Over Time (25% SC, 54 °C)</p>
+    <div class="space-y-2">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">Day 0</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:98%"></div>
+        </div>
+        <span class="w-16 text-right">98 %</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">Day 7</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-600 rounded" style="width:96%"></div>
+        </div>
+        <span class="w-16 text-right">96 %</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">Day 14</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-500 rounded" style="width:94%"></div>
+        </div>
+        <span class="w-16 text-right">94 %</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">Day 28</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-blue-400 rounded" style="width:92%"></div>
+        </div>
+        <span class="w-16 text-right">92 %</span>
+      </div>
+      <div class="flex items-center gap-2 text-xs">
+        <span class="w-20">Competitor</span>
+        <div class="flex-1 bg-gray-200 dark:bg-gray-700 h-5 rounded">
+          <div class="h-full bg-gray-300 rounded" style="width:78%"></div>
+        </div>
+        <span class="w-16 text-right">~78 %</span>
+      </div>
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Suspensibility measured per CIPAC MT 161. Agrospear formulations maintain ≥ 90 % suspensibility after 14 days at 54 °C, compared to typical industry products that drop below 80 %.</p>
+  </div>
+
+  <h2>Expert team</h2>
+  <p>Our pilot plant is operated by a senior formulation chemist with a PhD in agrochemical chemistry and 8 years of formulation development experience at a major international crop protection company. He is supported by a technician who prepares all batches and performs routine testing. The team follows CIPAC (Collaborative International Pesticides Analytical Council) methods to ensure that every test is repeatable, traceable, and internationally defensible.</p>
+
+  <h2>Pilot testing for custom formulation development</h2>
+  <p>Our pilot plant is not only used for house-developed formulations — we regularly run test programmes for clients who want to validate a custom formulation or investigate a stability issue:</p>
+  <ul>
+    <li><strong>Formulation comparison</strong> — Two or more candidate co-formulant packages tested under identical conditions, providing an objective suspensibility/stability comparison to inform your recipe choice.</li>
+    <li><strong>Particle size optimisation</strong> — Milling parameters and media combinations are tested in various configurations to quantify their contribution to particle size reduction and suspensibility improvement.</li>
+    <li><strong>Stability study</strong> — Active content and physical properties are mapped across temperature and humidity conditions, allowing you to specify the right shelf life and storage requirements for your target market.</li>
+  </ul>
+
+  <h2>Why test with us?</h2>
+  <p>We do not just give you a set of raw numbers. Our reports translate pilot data into actionable formulation recommendations: "Increase dispersant from 3 % to 5 % to improve suspensibility above 95 %", "Reduce milling passes from 6 to 4 to lower viscosity without compromising D90", or "Add a pH buffer at 0.2 % to prevent hydrolysis at elevated temperatures". You leave with a clear understanding of what to change and why.</p>
+  <p>Our pilot plant is also available for independent third-party testing on a fee-for-service basis. If you are developing a formulation and want an unbiased, professionally executed stability assessment, we welcome your enquiry.</p>
+
+cta:
+  title: 'Book a pilot plant test session'
+  subtitle: 'Whether you need a full development programme or a single comparative test, we can accommodate your schedule.'
+  actions:
+    - variant: primary
+      text: Contact our formulation team
+      href: /contact#project-brief
+    - text: Back to the R&D Center
+      href: /randdcenter

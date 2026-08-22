@@ -1,90 +1,84 @@
 meta:
-  title: 'Factory Equipment — Cutting, Welding & Printing'
-  description: 'Industrial-grade Agrospear manufacturing equipment: PVC cutting, RF welding, digital printing, assembly, and testing for inflatable SUP boards.'
+  title: 'Factory Equipment — Mixing, Milling & Filling'
+  description: 'Industrial-grade Agrospear manufacturing equipment: high-shear mixers, sand mills, spray dryers, filling lines, HPLC/GC analyzers, and stability chambers for agrochemical production.'
   dateModified: '2026-08'
   keywords:
-    - 'sup manufacturing equipment'
-    - 'inflatable sup factory'
-    - 'rf welding pvc'
-    - 'paddle board production'
+    - 'agrochemical manufacturing equipment'
+    - 'agrochemical factory'
+    - 'sand mill formulation'
+    - 'crop protection production'
 hero:
   tagline: Equipment
   title: Manufacturing Equipment & Machinery
-  subtitle: Industrial-grade equipment across cutting, welding, printing, and assembly
+  subtitle: Industrial-grade equipment across compounding, milling, filling, and testing
   back_label: Back to Factory
   back_link: /factory
 
 answer:
   label: 'Straight answer'
-  text: 'Our 12,500 m² factory runs CNC-controlled automatic cutting (0.1 mm accuracy, sub-5% waste), hot-air sealing at 200–600 °C plus 15 kW RF dielectric welding for main seams, drop-stitch core lamination presses up to 14 ft, and a QC lab that pressure-tests every chamber, ASTM D751 tensile checks, and ISO 6185 seam peel verification.'
+  text: 'Our 12,500 m2 factory runs PLC-controlled automatic weighing and dosing (±0.1% accuracy), high-shear mixers at 3,000–10,000 rpm plus sand mills for SC/WDG particle size control, spray dryers and fluid bed granulators for WDG/WP production, and a QC lab with HPLC/GC for active content analysis, laser particle size analyzers, and 54°C stability chambers for 14-day shelf stability verification.'
   verified: '2026-08'
 
 categories:
-  - title: Cutting & Material Preparation
+  - title: Raw Material Preparation
     items:
-      - name: Automatic PVC Cutting Machine
-        spec: CNC-controlled, 6.5 m × 2.5 m, 0.1 mm accuracy
-        desc: Computer-controlled automatic cutting machine for PVC, Hypalon, and drop-stitch fabrics. Nesting software optimises material utilisation to below 5% waste.
-      - name: Fabric Spreader
-        spec: 3 m max width, tension-controlled feed
-        desc: Lays fabric in single or multiple plies with controlled tension to prevent distortion before cutting.
+      - name: Automatic Weighing & Dosing System
+        spec: PLC-controlled, ±0.1% accuracy, 5-ton capacity
+        desc: Computer-controlled automatic weighing and dosing system for technical-grade active ingredients, solvents, and adjuvants. Formulation software optimises material utilisation to below 3% waste.
+      - name: Bulk Storage & Transfer System
+        spec: Stainless steel tanks, 10–50 m3 capacity, nitrogen-blanketed
+        desc: Stores and transfers solvents and liquid raw materials with controlled nitrogen blanket to prevent contamination and moisture ingress.
 
-  - title: Tube Welding & Bonding
+  - title: Compounding & Mixing
     items:
-      - name: Heat Sealing Machine
-        spec: Hot-air welding, variable 200–600 °C, 0.5–5 m/min
-        desc: Hot-air heat sealing machine for bonding and welding PVC and Hypalon tube seams. Used for tacking, sealing, and fusing tube chambers and float joints.
-      - name: Dielectric RF Press
-        spec: 15 kW, platen 2000 × 600 mm
-        desc: Radio-frequency welding press for main longitudinal seams, transom-to-tube joints, and large-chamber fabrication.
-      - name: CNC-Controlled RF Welder
-        spec: 8 kW, XY table 2500 × 1200 mm
-        desc: Programmable curved-seam welding for complex geometries, logo embossing, and precision patchwork.
+      - name: High-Shear Mixer
+        spec: 3,000–10,000 rpm, 500–5,000 L capacity
+        desc: High-shear mixer for compounding SC, EC, and SL formulations. Disperses active ingredients into carriers and ensures uniform premix before milling.
+      - name: Premixing Tank
+        spec: 1,000–5,000 L, jacketed, temperature-controlled
+        desc: Temperature-controlled premixing tank for EC and SL formulations requiring precise dissolution and blending of active ingredients with emulsifiers.
+      - name: Low-Speed Agitator
+        spec: 50–200 rpm, 2,000–10,000 L
+        desc: Low-speed agitator for WP and WDG slurry preparation and post-milling homogenization of suspension concentrates.
 
-  - title: SUP Board Manufacturing
+  - title: Formulation Processing
     items:
-      - name: Drop-Stitch Core Lamination Press
-        spec: Large-format press for board cores up to 14 ft LOA
-        desc: Precision lamination of drop-stitch cores to outer PVC laminates. Each layer is pressure-bonded for consistent quality and strength.
-      - name: CNC Router (5-axis)
-        spec: 3 m × 2 m × 1 m envelope, water-cooled spindle
-        desc: Machining of fin boxes, handle cutouts, and custom board components.
+      - name: Sand Mill / Bead Mill
+        spec: 0.1–50 μm particle size, 200–1,000 L/h throughput
+        desc: Precision sand milling for SC and WDG formulations to achieve target particle size distributions (D50 1–5 μm for SC, D50 20–40 μm for WDG).
+      - name: Spray Dryer
+        spec: 50–200 kg/h evaporation rate, inlet 180–220°C
+        desc: Spray dryer for converting milled WDG and WP slurries into dry dispersible granules with consistent particle size and moisture content.
+      - name: Fluid Bed Granulator
+        spec: 100–500 kg/batch
+        desc: Fluid bed granulation for producing uniform WDG granules with controlled bulk density and dispersibility.
 
-  - title: SUP Printing & Decoration
+  - title: Filling & Packaging
     items:
-      - name: Digital Printer
-        spec: High-resolution inkjet, up to 2 m print width
-        desc: Direct-to-fabric digital printing for full-colour SUP deck graphics. Prints custom patterns, gradients, and photo-quality images with UV-resistantwater-based inks.
-      - name: Screen Printing Machine
-        spec: Manual and semi-automatic, multi-colour registration
-        desc: Screen printing for SUP board logos, brand marks, and repeating patterns. Provides durable, opaque prints with vibrant colour saturation.
-
-  - title: Assembly & Rigging
-    items:
-      - name: Board Assembly Station
-        spec: Modular adjustable, multi-station layout
-        desc: Assembly of fin boxes, handles, D-rings, valves, and deck pads onto SUP boards.
-      - name: Valve Installation Press
-        spec: Pneumatic, adjustable pressure
-        desc: Precision installation and sealing of Halkey-Roberts and Leafield valves.
-      - name: Deck Pad Laminator
-        spec: 3 m × 1.5 m, temperature-controlled
-        desc: Heat lamination of EVA foam deck pads to SUP board tops with consistent bond strength.
+      - name: Automatic Filling Line
+        spec: 20–200 L drums, 100–1,000 mL bottles, ±0.2% accuracy
+        desc: Automatic filling machine for drums, jerry cans, and bottles with precision volumetric filling and automatic weight verification.
+      - name: Automatic Labeling Machine
+        spec: Multi-language GHS label, 30–60 units/min
+        desc: Automatic labeling machine applying GHS-compliant labels with batch number, date code, and multi-language regulatory text.
+      - name: Inkjet Batch Coder
+        spec: Continuous inkjet, batch/date/lot coding
+        desc: Inkjet coder for permanent batch and date coding on containers and outer packaging for full traceability.
 
   - title: Testing & Quality Control
     items:
-      - name: Universal Tensile Tester
-        spec: 50 kN,  / ASTM D751
-        desc: Breaking force, elongation at break, and tear propagation testing for fabric batches.
-      - name: Air Retention Test Rig
-        spec: Programmable, 30-min pressure-hold
-        desc: Automated pressure-hold test for every tube chamber before assembly.
-      - name: Seam Peel Tester
-        spec: Motorised 180° peel at 100 mm/min
-        desc: Weld and glued-seam peel strength testing per ISO 6185.
-      - name: Xenon-Arc Weathering Chamber
-        spec: 2000 h exposure
-        desc: UV resistance testing for colour change and strength retention.
+      - name: HPLC System
+        spec: UV/VIS detector, CIPAC-compliant methods
+        desc: High-performance liquid chromatography for active ingredient content quantification and impurity analysis per CIPAC methods.
+      - name: GC System
+        spec: FID/ECD detector, volatile and semi-volatile analysis
+        desc: Gas chromatography for solvent analysis, volatile impurity profiling, and active content verification for EC and SL formulations.
+      - name: Laser Particle Size Analyzer
+        spec: 0.01–3,500 μm range, wet and dry dispersion
+        desc: Laser diffraction particle size analysis for SC, WDG, and WP formulations to verify D50, D90, and span per specification.
+      - name: Stability Chamber
+        spec: 54°C ± 2°C, 40°C ± 2°C, CIPAC MT 46 compliant
+        desc: Temperature-controlled stability chambers for 14-day accelerated stability testing and shelf-life verification per CIPAC MT 46.
 
 cta:
   title: Interested in a factory tour?

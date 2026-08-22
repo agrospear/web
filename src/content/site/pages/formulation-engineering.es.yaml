@@ -1,0 +1,94 @@
+meta:
+  title: 'Ingeniería de formulaciones agroquímicas — Diseño de productos con CAD y análisis de procesos'
+  description: 'Ingeniería de formulaciones: diseño CAD, análisis de procesos de sistemas de dispersión y formulaciones a medida para proyectos OEM de productos de protección de cultivos.'
+  back_text: 'Volver al Centro de I+D'
+  home_label: 'Inicio'
+
+hero:
+  tagline: 'Lab 02'
+  title: 'Estudio de Ingeniería de Formulaciones'
+  subtitle: 'Simulación digital, inteligencia de procesos, diseño de formulaciones a medida'
+  image: 'https://assets.agrospear.com/images/agrospear/factory/design-discuss-agrospear-formulation-engineering.webp'
+  image_alt: 'Estación de trabajo CAD de ingeniería de formulaciones de Agrospear'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Las formulaciones agroquímicas a medida se diseñan en nuestras instalaciones con modelado de procesos 3D, análisis de estabilidad y CFD: cada formulación se simula para la distribución de concentración y la estabilidad del sistema de dispersión, con un factor de seguridad obligatorio ≥ 2.5 antes del pilotaje. Una formulación a medida tarda 7–12 días en llegar al piloto; el utillaje completo de una línea personalizada añade 15–20 días al plazo de producción estándar de 25–35 días, con el MOQ confirmado por configuración del proyecto (consulta nuestra Guía de MOQ).'
+  verified: '2026-08'
+
+intro: 'La composición de una formulación agroquímica — su tipo de formulación, el perfil del coformulante y la concentración de ingrediente activo — determina cómo se dispersa, cómo se aplica y cómo protege el cultivo. En {SITE.name}, nuestro Estudio de Ingeniería de Formulaciones combina el modelado CAD de procesos, el análisis de sistemas de dispersión y la experiencia de producción para entregar formulaciones optimizadas para cada tipo de uso: herbicidas de amplio espectro, insecticidas sistémicos o fungicidas de contacto. Cada formulación a medida nace de tu especificación, no de una receta genérica de catálogo.'
+
+content_html: |
+  <h2>Donde la estabilidad se encuentra con la eficacia</h2>
+  <p>Una formulación agroquímica es un sistema de dispersión: múltiples coformulantes mantienen el ingrediente activo en suspensión, emulsión o solución a concentraciones definidas, mientras que la geometría de la partícula y la viscosidad controlan la interacción del producto con el agua de aplicación. Diseñamos la composición, la simulamos y validamos el resultado en nuestras instalaciones antes de producir una sola muestra.</p>
+
+  <h2>Herramientas y estándares de diseño</h2>
+  <p>Nuestro entorno de ingeniería digital incluye:</p>
+  <table>
+    <thead><tr><th>Capacidad</th><th>Software / Herramienta</th><th>Aplicación</th></tr></thead>
+    <tbody>
+      <tr><td>Modelado paramétrico 3D</td><td>SolidWorks Professional</td><td>Diseño de reactor, configuración de líneas, integración de equipos de llenado</td></tr>
+      <tr><td>Análisis por elementos finitos</td><td>ANSYS Mechanical</td><td>Mapa de tensiones del reactor, rigidez de la estructura bajo carga, refuerzo de puntos críticos</td></tr>
+      <tr><td>Dinámica de fluidos computacional</td><td>ANSYS Fluent</td><td>Predicción del perfil de dispersión, optimización del tamaño de partícula</td></tr>
+      <tr><td>Ingeniería de formulación</td><td>ESAComp</td><td>Apilado de coformulantes, selección de materias primas y estimación de coste</td></tr>
+      <tr><td>Revisión de la superficie del molino</td><td>Moldex3D</td><td>Revisión de la geometría del utillaje de molienda para la producción a escala</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Nuestro proceso de ingeniería</h2>
+  <p>Cada diseño de formulación, ya sea un modelo estándar o un proyecto totalmente personalizado, pasa por un proceso riguroso de cinco fases:</p>
+  <ol>
+    <li><strong>Concepto y recopilación de requisitos</strong> — Definimos el ingrediente activo, el uso previsto (herbicida, insecticida, fungicida, regulador de crecimiento, tratamiento de semillas), la concentración objetivo, y las características especiales (sistema de dispersión, compatibilidad con mezclas en tanque, estabilidad de almacenamiento).</li>
+    <li><strong>Modelado de formulación y cálculo de concentración</strong> — La composición se construye en el sistema y se comprueba el reparto de coformulantes, la suspensibilidad y la estabilidad frente a las condiciones objetivo.</li>
+    <li><strong>Análisis de estabilidad</strong> — La formulación se analiza con carga térmica (54 °C, 14 días) y con estrés mecánico (agitación, ciclos de temperatura). Se revisan los perfiles de sedimentación; el factor de seguridad ≥ 2.5 es obligatorio.</li>
+    <li><strong>Optimización de la dispersión con CFD</strong> — El sistema de dispersión se simula en tres condiciones de aplicación y a cinco concentraciones. La viscosidad, el tamaño de partícula y la suspensibilidad se optimizan de forma iterativa.</li>
+    <li><strong>Revisión y liberación del diseño</strong> — El paquete de ingeniería completo (composición, informe de estabilidad, informe CFD, estimación de coste y especificación de producción) se revisa con nuestro ingeniero senior antes de pasar a la planta piloto.</li>
+  </ol>
+
+  <div class="not-prose my-10 p-6 rounded-xl bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
+    <p class="text-sm font-semibold text-gray-500 mb-3 uppercase tracking-wider">Resultados del análisis — formulación SC polivalente (500 g/L, suspensión concentrada)</p>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">2.8 : 1</span>
+        <span class="text-gray-500">Factor de seguridad en estabilidad a 54 °C</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">0 %</span>
+        <span class="text-gray-500">Sedimentación a concentración nominal sin estrés</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">3.2 %</span>
+        <span class="text-gray-500">Máxima sedimentación tras 14 días a 54 °C</span>
+      </div>
+      <div class="p-4 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-950">
+        <span class="block text-2xl font-bold text-blue-600">500 g/L</span>
+        <span class="text-gray-500">Concentración de análisis — concentración de trabajo del producto</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Personalización: tu formulación, tus reglas</h2>
+  <p>No hay dos marcas que necesiten lo mismo. Un distribuidor de herbicidas necesita una formulación SC de amplio espectro con excelente suspensibilidad; una marca de insecticidas sistémicos necesita una formulación EC con alta estabilidad de emulsión; una línea de fungicidas necesita un WP con tamaño de partícula controlado. No obligamos a tu gama a adoptar recetas preexistentes: diseñamos partiendo de tu especificación.</p>
+  <p>Ejemplos recientes de ingeniería de formulaciones a medida:</p>
+  <ul>
+    <li>Una formulación SC de 500 g/L para una marca de herbicidas, con sistema de dispersión optimizado y +15 % de suspensibilidad frente al estándar del sector.</li>
+    <li>Una formulación EC de 100 g/L para un distribuidor de insecticidas, con estabilidad de emulsión reforzada y compatibilidad validada con mezclas en tanque.</li>
+    <li>Un FS de 350 g/L para tratamiento de semillas, desarrollado para una línea dedicada de una marca de semillas.</li>
+  </ul>
+
+  <h2>Nuestros ingenieros</h2>
+  <p>El estudio lo dirige un ingeniero senior de formulación con 14 años de experiencia en diseño de productos agroquímicos, apoyado por dos ingenieros químicos especializados en análisis de procesos y CFD. Los tres están titulados en Ingeniería por universidades de reconocido prestigio internacional, y el equipo colabora con nuestra fábrica para asegurar que cada formulación se produce a escala industrial.</p>
+
+  <h2>Colabora con nosotros en tu próxima formulación</h2>
+  <p>Desde el primer boceto de la composición hasta el informe final de estabilidad, nuestro Estudio de Ingeniería de Formulaciones es tu socio para crear un producto que no solo está fabricado, sino diseñado con ingeniería. Invertimos horas de simulación al principio del proceso para que cada coformulante, cada materia prima y cada parámetro del proceso exista por una razón.</p>
+  <p>Y tanto si solo necesitas una pequeña modificación de una formulación existente como un diseño partiendo de cero, estamos listos para hablar de tus requisitos.</p>
+
+cta:
+  title: 'Empieza tu consultoría de diseño de formulación'
+  subtitle: 'Cuéntanos los cultivos a los que te diriges y los usos que tendrá tu producto, y te propondremos la ruta de ingeniería.'
+  actions:
+    - variant: primary
+      text: Contacta con nuestro equipo de ingeniería
+      href: /es/contact#project-brief
+    - text: Volver al centro de I+D
+      href: /es/randdcenter

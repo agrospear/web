@@ -1,6 +1,6 @@
 meta:
-  title: 'R&D Center — Inflatable SUP Engineering | {SITE}'
-  description: 'Research & Development — PVC fabric testing, hull engineering, RF welding, hydrodynamic testing, and quality control. Custom R&D services available.'
+  title: 'R&D Center — Agrochemical Formulation Engineering | {SITE}'
+  description: 'Research & Development — active ingredient analysis, formulation chemistry, particle size engineering, stability testing, and quality control. Custom R&D services available.'
   dateModified: '2026-08'
 
 hero:
@@ -9,66 +9,66 @@ hero:
   subtitle: Focused on Progress
 
 intro:
-  - Agrospear's Research and Development (R&D) Center is the driving force behind our mission to revolutionize water sports equipment. We empower water sports enthusiasts globally with safer, more comfortable, and more enjoyable products through relentless innovation in inflatable stand-up paddle boards (SUPs) and boats. Our dedicated team of engineers, designers, and passionate water sports experts are shaping the future of the industry, consistently raising the bar for quality, performance, and sustainability.
-  - Our R&D facility brings together material scientists, naval architects, and production engineers under one roof. From fabric formulation and hull simulation to welding process development and full-scale sea trials, every stage of product development is driven by data and validated by testing.
+  - Agrospear's Research and Development (R&D) Center is the driving force behind our mission to deliver superior crop protection solutions worldwide. We empower agricultural businesses globally with safer, more effective, and more reliable products through relentless innovation in agrochemical formulations — from herbicides and insecticides to fungicides, PGRs and seed treatments. Our dedicated team of formulation chemists, analytical scientists, and passionate crop protection experts are shaping the future of the industry, consistently raising the bar for quality, efficacy, and sustainability.
+  - Our R&D facility brings together formulation chemists, analytical scientists, and production engineers under one roof. From active ingredient selection and co-formulant optimization to formulation process development and full-scale stability trials, every stage of product development is driven by data and validated by testing.
 
 mission:
   tagline: Our Mission
-  title: Innovating the Future of Water Sports
+  title: Innovating the Future of Crop Protection
   pillars:
     - icon: lightning
       title: Technological Advancement
-      desc: Pioneering new materials, designs, and manufacturing for superior product performance and longevity.
+      desc: Pioneering new formulations, dispersion systems, and manufacturing for superior product performance and shelf stability.
     - icon: design
-      title: User-Centric Design
-      desc: Deeply understanding and exceeding user needs through ergonomic and intuitive product design.
+      title: Efficacy-Driven Design
+      desc: Deeply understanding and exceeding grower needs through optimized active ingredient delivery and field performance.
     - icon: globe
       title: Sustainable Practices
-      desc: Minimizing our environmental footprint by utilizing eco-friendly materials and processes.
+      desc: Minimizing environmental impact by developing lower-dose formulations, biopesticides and eco-friendly co-formulants.
     - icon: shield
-      title: Uncompromising Safety
-      desc: Ensuring the highest safety standards through rigorous testing and certification.
+      title: Uncompromising Quality
+      desc: Ensuring the highest quality standards through rigorous testing, stability evaluation and regulatory compliance.
 
 pillars:
   - title: Technological Advancement
-    desc: Pioneering new materials, designs, and manufacturing processes to deliver superior product performance and longevity.
+    desc: Pioneering new formulations, dispersion systems, and manufacturing processes to deliver superior product performance and shelf stability.
     icon: tech
-  - title: Advanced Materials
-    desc: Investigating cutting-edge PVC, Hypalon, composites, and sustainable alternatives for enhanced product characteristics.
+  - title: Advanced Formulation Chemistry
+    desc: Investigating cutting-edge SC, EC, WDG, ME, CS and microencapsulation technologies for enhanced product characteristics.
     icon: materials
   - title: Sustainability
-    desc: 'A Core Commitment: We are dedicated to environmental stewardship through sustainable manufacturing and recyclable materials.'
+    desc: 'A Core Commitment: We are dedicated to environmental stewardship through sustainable manufacturing and biopesticide development.'
     icon: sustainability
 
 capabilities:
   tagline: Capabilities
   title: R&D Capabilities
-  subtitle: Four core disciplines that give us end-to-end control over product development —from raw material research to final certification.
+  subtitle: Four core disciplines that give us end-to-end control over formulation development — from active ingredient research to final registration.
   groups:
-    - title: Material Science & Fabric Technology
+    - title: Formulation Chemistry & Co-formulant Technology
       items:
-        - PVC and Hypalon formulation analysis and optimisation
-        - UV stabilisation, flame retardancy, and anti-microbial additive development
-        - Multi-layer fabric lamination and adhesion engineering
-        - Accelerated ageing testing (UV, thermal, humidity, salt spray)
-    - title: Hull Engineering & Hydrodynamics
+        - Active ingredient compatibility analysis and co-formulant selection optimization
+        - UV stabilisation, anti-settling agent, and shelf stability additive development
+        - Multi-component formulation design and synergistic combination development
+        - Accelerated stability testing (thermal cycling, cold stability, long-term storage)
+    - title: Particle Size Engineering & Dispersion Systems
       items:
-        - Parametric 3D hull design and CFD optimisation
-        - Finite element analysis for structural and impact loads
-        - Scale-model towing tank testing and performance validation
-        - Custom hull development for special mission profiles
-    - title: Welding & Joining Technology
+        - Bead mill and sand mill grinding process optimization for SC and WDG formulations
+        - Particle size distribution control and suspension rate optimization
+        - Emulsion and microemulsion system development for EC and ME formulations
+        - Custom dispersion system development for challenging active ingredients
+    - title: Manufacturing Process Development
       items:
-        - RF dielectric welding process development and optimisation
-        - Hot-air, hot-wedge, and ultrasonic welding methods
-        - Adhesive bonding and seam tape qualification
-        - Weld strength modelling and lifetime prediction
-    - title: Testing, Certification & Compliance
+        - Scale-up from lab batch to pilot production and full manufacturing
+        - Mixing, grinding, granulation and filling process optimization
+        - Solvent system and carrier qualification for different formulation types
+        - Process parameter modelling and production efficiency prediction
+    - title: Registration Support & Compliance
       items:
-        - Quality management and CE compliance testing
-        - Independent third-party testing and certification support
+        - ICAMA data package preparation and regulatory dossier support
+        - Five-batch analysis and product specification development
         - Custom test protocol development for procurement qualification
-        - In-service failure analysis and root-cause investigation
+        - Field trial coordination and bioefficacy data management
 
 rd_numbers:
   tagline: Innovation
@@ -87,45 +87,45 @@ rd_services:
   tagline: Custom R&D
   title: R&D Services for Partners
   services:
-    - title: Custom Material Development
-      desc: We develop custom fabric formulations, laminate stacks, and adhesive systems tailored to your operating environment and performance targets.
+    - title: Custom Formulation Development
+      desc: We develop custom formulations, co-formulant systems, and dispersion technologies tailored to your target crops, application methods and performance requirements.
     - title: OEM / ODM Product Engineering
-      desc: We develop custom fabric formulations, laminate stacks, and adhesive systems tailored to your operating environment and performance targets.
-    - title: Third-Party Testing & Certification
-      desc: Use our ISO-compliant test facilities for independent material testing, product validation, and certification support.
+      desc: We develop custom formulations, co-formulant systems, and dispersion technologies tailored to your target crops, application methods and performance requirements.
+    - title: Third-Party Testing & Registration Support
+      desc: Use our ISO-compliant test facilities for independent analytical testing, product validation, and ICAMA registration data package support.
   cta: Discuss your R&D requirements →
   cta_link: /contact
 
 vision:
   tagline: Our Vision
-  title: Shaping the Future of Water Sports
-  body: Agrospear strives to lead the inflatable boat and SUP industry through continuous innovation, unwavering quality, and a steadfast commitment to safety and sustainability —ultimately enriching the experiences of water sports enthusiasts worldwide. The Agrospear R&D Center is where passion meets innovation, setting new standards for the water sports industry.
+  title: Shaping the Future of Crop Protection
+  body: Agrospear strives to lead the agrochemical formulation industry through continuous innovation, unwavering quality, and a steadfast commitment to efficacy and sustainability — ultimately enriching agricultural productivity worldwide. The Agrospear R&D Center is where expertise meets innovation, setting new standards for the crop protection industry.
 
 labs_section:
   tagline: Labs
   title: Our Laboratories
   labs:
-    - image: https://assets.agrospear.com/images/agrospear/randd/agrospear-pvc-material-lab.webp
-      title: PVC Fabric Lab
-      description: Continuous research and testing of PVC and Hypalon tube fabrics for tensile strength, UV resistance, abrasion, and low-temperature flexibility to ensure long-term reliability in marine environments.
-      href: /randdcenter/pvc-fabric-lab
+    - image: https://assets.agrospear.com/images/agrospear/randd/agrospear-formulation-chemistry-lab.webp
+      title: Formulation Chemistry Lab
+      description: Continuous research and testing of formulation systems for active ingredient content accuracy, shelf stability, suspension rate and dispersion quality to ensure long-term reliability in field conditions.
+      href: /randdcenter/formulation-lab
     - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-design-discussion-2.webp
-      title: Hull Engineering Studio
-      description: CAD-driven design and finite element analysis of HDPE, aluminum, and fiberglass hulls. Every hull is digitally simulated for stress distribution and impact resistance before the first prototype is built.
-      href: /randdcenter/hull-engineering
-    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing-3.webp
-      title: RF Welding Center
-      description: Dedicated radio-frequency welding facility with precision temperature and pressure control, producing high-strength, airtight seams that meet marine industry standards for inflatable craft.
-      href: /randdcenter/rf-welding
+      title: Particle Size Engineering Studio
+      description: Precision grinding and particle size distribution optimization for SC, WDG and WP formulations. Every dispersion system is validated for suspension rate and redispersibility before production approval.
+      href: /randdcenter/formulation-engineering
+    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-formulation-lab.webp
+      title: Stability Testing Center
+      description: Dedicated stability evaluation facility with temperature-controlled chambers (0 °C, 25 °C, 54 °C), producing shelf-life data and accelerated storage results that meet FAO/WHO and ICAMA requirements.
+      href: /randdcenter/formulation-pilot-plant
     - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-design-discussion-original.webp
-      title: Hydrodynamic Test Tank
-      description: Scale-model testing in our in-house test tank to optimize hull form, planing performance, stability, and fuel efficiency across a range of load and sea conditions.
-      href: /randdcenter/hydrodynamic-test-tank
-    - image: https://assets.agrospear.com/images/agrospear/products/sup-series/sup-ocean-voyager-1.webp
-      title: Prototype Workshop
-      description: Full-scale prototyping and rigging facility where new models are built, fitted, and sea-trialed. Every prototype undergoes a minimum 20-hour in-water test programme before production approval.
+      title: Analytical Method Development Lab
+      description: HPLC and GC method development, validation and transfer to QC. Ensures accurate active ingredient quantification and impurity profiling for every formulation type.
+      href: /randdcenter/formulation-lab
+    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-formulation-lab-2.webp
+      title: Formulation Lab & Pilot Batch Workshop
+      description: Full-scale formulation compounding and pilot production facility where new formulations are built, analyzed and validated. Every pilot batch undergoes complete analytical and stability testing before production approval.
       href: /randdcenter/prototype-workshop
-    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-uv-resistance-testing.webp
+    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-quality-lab.webp
       title: Quality & Inspection Lab
-      description: Dedicated quality assurance lab performing tensile testing, air-retention cycling, seam peel tests, and material certification to ensure every boat leaving the workshop meets our published specifications.
+      description: Dedicated quality assurance lab performing HPLC/GC analysis, particle size testing, viscosity measurement, stability evaluation and Certificate of Analysis issuance to ensure every batch meets published specifications.
       href: /randdcenter/quality-inspection-lab

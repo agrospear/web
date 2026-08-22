@@ -1,0 +1,86 @@
+meta:
+  title: 'How ICAMA Registration Works for Agrochemical Products'
+  description: 'How ICAMA registration works for agrochemicals: registration categories (original, same-product, new formulation), data requirements, testing, timeline and costs for OEM/ODM partners.'
+  author: 'Agrospear'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-23'
+back_text: 'Back to Research'
+
+hero:
+  tagline: 'Compliance'
+  title: 'How ICAMA Registration Works for Agrochemicals'
+  subtitle: '7 min read'
+
+answer:
+  label: 'Straight answer'
+  text: 'ICAMA (Institute for the Control of Agrochemicals, Ministry of Agriculture and Rural Affairs, China) requires registration for all pesticide products sold in China. Registration costs roughly USD 80,000&ndash;300,000 and takes 6&ndash;24 months depending on category: product chemistry data, toxicology studies, field efficacy trials, residue data, and environmental fate assessment must be submitted and reviewed before a registration certificate is issued.'
+  verified: '2026-08'
+
+content_html: |
+  <h2>What Is ICAMA Registration?</h2>
+  <p>ICAMA registration is the mandatory regulatory approval process for all pesticide and agrochemical products marketed in China. Administered by the Institute for the Control of Agrochemicals under the Ministry of Agriculture and Rural Affairs (MARA), it ensures that products meet safety, efficacy, and quality standards before entering the market.</p>
+
+  <h2>Registration Categories</h2>
+
+  <h3>Original Registration (新农药登记)</h3>
+  <p>Required for new active ingredients not previously registered in China. This category demands the most extensive data package: full product chemistry, complete toxicology profile, multi-location field efficacy trials, residue studies, and environmental fate data. Timeline is typically 12&ndash;24 months.</p>
+
+  <h3>Same-Product Registration (相同产品登记)</h3>
+  <p>Applicable when registering a product identical in active ingredient, formulation type, and content to an already-registered product. Data requirements are significantly reduced, as reference can be made to the existing registration. Timeline is typically 6&ndash;12 months.</p>
+
+  <h3>New Formulation Registration (新剂型登记)</h3>
+  <p>Required when an existing active ingredient is formulated into a new dosage form (e.g., EC to SC, WP to WDG). Product chemistry and field efficacy data are needed, but toxicology and environmental data may be partially bridged from the original registration.</p>
+
+  <h2>The Registration Process</h2>
+  <ol>
+    <li>Category determination: Identify the applicable registration pathway based on active ingredient and formulation status</li>
+    <li>Data generation: Product chemistry (CIPAC methods, FAO/WHO specifications), toxicology (acute, sub-chronic, chronic), field efficacy (multi-site, multi-season trials), residue data, and environmental fate studies</li>
+    <li>Dossier preparation: Compile all study reports, quality specifications, manufacturing process details, and label drafts</li>
+    <li>Submission to ICAMA: Electronic submission through the pesticide registration management system</li>
+    <li>Technical review: ICAMA expert committee reviews the dossier, may request additional data</li>
+    <li>Registration certificate: Upon approval, a registration certificate is issued with a defined validity period</li>
+  </ol>
+
+  <h2>Key Data Requirements</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Data Category</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Original Registration</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Same-Product</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Product chemistry</td><td class="p-3 border">Full (5-batch analysis, physico-chemical properties)</td><td class="p-3 border">Abbreviated</td></tr>
+      <tr><td class="p-3 border">Toxicology</td><td class="p-3 border">Full (acute, sub-chronic, chronic, genotoxicity)</td><td class="p-3 border">Bridged from reference</td></tr>
+      <tr><td class="p-3 border">Field efficacy</td><td class="p-3 border">Multi-site, multi-season (≥2 years)</td><td class="p-3 border">1&ndash;2 sites, 1 season</td></tr>
+      <tr><td class="p-3 border">Residue data</td><td class="p-3 border">Full residue trials and MRL setting</td><td class="p-3 border">May be waived</td></tr>
+      <tr><td class="p-3 border">Environmental fate</td><td class="p-3 border">Full (degradation, mobility, effects on non-target organisms)</td><td class="p-3 border">May be waived</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Timeline and Costs</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Registration Category</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Typical Timeline</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Typical Cost (USD)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Original registration (新农药登记)</td><td class="p-3 border">12 – 24 months</td><td class="p-3 border">200,000 – 300,000</td></tr>
+      <tr><td class="p-3 border">New formulation registration (新剂型登记)</td><td class="p-3 border">9 – 18 months</td><td class="p-3 border">100,000 – 200,000</td></tr>
+      <tr><td class="p-3 border">Same-product registration (相同产品登记)</td><td class="p-3 border">6 – 12 months</td><td class="p-3 border">80,000 – 120,000</td></tr>
+    </tbody>
+  </table>
+
+  <h2>What This Means for Buyers</h2>
+  <p>When sourcing agrochemical products for your market, always verify the ICAMA registration certificate is valid, the product specifications match FAO/WHO standards, analytical methods follow CIPAC guidelines, and the label meets regulatory requirements. All Agrospear products are manufactured under ISO 9001 and ISO 14001 certified systems, with ICAMA registration support and full traceability from raw material to finished product.</p>
+  <p>Registration support is part of every OEM/ODM project at our Qingdao plant &mdash; see the <a href="/factory">factory quality &amp; testing workflow</a> and how we support <a href="/oem-manufacturing">ICAMA registration for OEM/private label partners</a>.</p>
+
+cta:
+  title: 'Need ICAMA registration support?'
+  subtitle: 'We handle registration for OEM/ODM partners worldwide.'
+  button_text: 'Start the registration process'
+  button_link: /contact

@@ -1,0 +1,81 @@
+meta:
+  title: 'Cómo elegir la concentración de la formulación — Análisis de ingeniería'
+  description: 'En qué se diferencian las formulaciones agroquímicas de baja, media y alta concentración en estabilidad, coste, eficacia y aplicación, con consejos sobre la concentración óptima.'
+  author: 'Agrospear'
+  datePublished: '2026-08-04'
+  dateModified: '2026-08-07'
+  back_text: 'Volver a Investigación'
+
+hero:
+  tagline: 'Ingeniería'
+  title: 'Cómo elegir la concentración de la formulación — Análisis de ingeniería'
+  subtitle: '6 min de lectura'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'La concentración equilibra la eficacia y la estabilidad: la baja concentración (50–150 g/L) es la más estable y fácil de aplicar: ideal para productos de contacto y mercados sensibles al precio; la media (150–350 g/L) es la elección polivalente para la mayoría de las aplicaciones; la alta concentración (350–500+ g/L) maximiza la eficacia y reduce el coste logístico para tratamientos de amplio espectro. Una concentración más baja es estructuralmente más estable, por lo que una formulación de 100 g/L se sedimenta menos que una de 500 g/L bajo las mismas condiciones de almacenamiento.'
+  verified: '2026-08'
+
+content_html: |
+  <h2>Las tres concentraciones estándar</h2>
+
+  <h3>Baja concentración (50–150 g/L) — Contacto y estabilidad</h3>
+  <ul>
+    <li>Máxima estabilidad: menor sedimentación bajo almacenamiento prolongado</li>
+    <li>La más fácil de aplicar: menor viscosidad, mejor dispersión en agua</li>
+    <li>Excelente compatibilidad: menos riesgo de mezclas en tanque</li>
+    <li>Ideal para: productos de contacto, mercados sensibles al precio y aplicaciones en pequeñas superficies</li>
+  </ul>
+
+  <h3>Media concentración (150–350 g/L) — Polivalente</h3>
+  <ul>
+    <li>Buena estabilidad: proporción equilibrada entre concentración y suspensibilidad</li>
+    <li>Coste moderado: uso estándar de materias primas</li>
+    <li>Buena eficacia y facilidad de aplicación</li>
+    <li>Ideal para: insecticidas sistémicos, herbicidas de post-emergencia y uso general en cultivos de campo</li>
+  </ul>
+
+  <h3>Alta concentración (350–500+ g/L) — Eficacia y logística</h3>
+  <ul>
+    <li>Máxima eficacia: mayor cantidad de ingrediente activo por litro</li>
+    <li>Mayor riesgo de sedimentación: más materia prima en suspensión, mayor viscosidad</li>
+    <li>Menor coste logístico: menos tambores por hectárea tratada</li>
+    <li>Ideal para: herbicidas de amplio espectro, tratamientos de grandes superficies y programas de alta intensidad</li>
+  </ul>
+
+  <h2>Análisis de ingeniería</h2>
+  <p>La estabilidad de una formulación agroquímica viene determinada por la concentración del ingrediente activo y por la eficacia del sistema de dispersión. A 500 g/L, una formulación SC presenta aproximadamente un 30% más de sedimentación bajo almacenamiento que una de 100 g/L con el mismo sistema de dispersión. La estabilidad primaria procede de la suspensibilidad y la viscosidad; la estabilidad secundaria está influida por el tamaño de partícula y la compatibilidad de los coformulantes.</p>
+
+  <h2>Concentración según el tipo de cultivo</h2>
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="p-3 text-left font-semibold text-gray-900 border">Tipo de aplicación</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Concentración recomendada</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="p-3 border">Tratamiento de semillas (FS)</td><td class="p-3 border">200–500 g/L</td></tr>
+      <tr><td class="p-3 border">Herbicida de post-emergencia</td><td class="p-3 border">250–480 g/L</td></tr>
+      <tr><td class="p-3 border">Insecticida sistémico</td><td class="p-3 border">150–350 g/L</td></tr>
+      <tr><td class="p-3 border">Fungicida de contacto</td><td class="p-3 border">50–250 g/L</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Equilibrio entre concentración y estabilidad</h2>
+  <p>Una idea errónea habitual es que un sistema de dispersión más potente puede compensar una concentración excesiva. A 500 g/L, una formulación con dispersante estándar muestra más sedimentación que una de 250 g/L con el mismo dispersante porque la carga de partículas domina la ecuación de la estabilidad coloidal. Para los distribuidores orientados a la calidad, una formulación de menor concentración con sistema de dispersión optimizado supera a una de alta concentración con dispersante insuficiente.</p>
+
+  <h2>Gama de Agrospear</h2>
+  <ul>
+    <li><strong>Baja concentración:</strong> Lambda-cialotrina EC 50 g/L: insecticida de contacto para hortalizas y frutales</li>
+    <li><strong>Media concentración:</strong> Imidacloprid SC 350 g/L: insecticida sistémico para uso general en cultivos de campo</li>
+    <li><strong>Alta concentración:</strong> Glifosato SL 480 g/L: herbicida de amplio espectro para grandes superficies y programas de alta intensidad</li>
+  </ul>
+  <p>Todas las formulaciones utilizan sistemas de dispersión certificados con estabilidad validada por CIPAC y materias primas de grado técnico.</p>
+  <p>La concentración, el tipo de formulación y la especificación del coformulante son configurables para líneas personalizadas: descubre cómo <a href="/es/oem-manufacturing">diseñamos formulaciones para marcas OEM y de etiqueta privada</a> y recorre nuestro proceso de producción en la <a href="/es/factory">planta de la fábrica</a>.</p>
+
+cta:
+  title: '¿No sabes qué concentración es la adecuada para ti?'
+  subtitle: 'Explora nuestra gama de formulaciones o consulta a nuestro equipo de ingeniería.'
+  button_text: 'Ver productos agroquímicos'
+  button_link: /es/products

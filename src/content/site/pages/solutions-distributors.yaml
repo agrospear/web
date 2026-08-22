@@ -1,36 +1,36 @@
 meta:
-  title: 'SUP Wholesale Distribution Partner Program | {SITE}'
-  description: "Join Agrospear's global SUP wholesale distribution network: exclusive territories, complete product portfolio and dedicated account management in 50+ countries."
+  title: 'Agrochemical Distribution Partner Program | {SITE}'
+  description: "Join Agrospear's global agrochemical distribution network: exclusive territories, complete product portfolio and dedicated account management in 50+ countries."
   dateModified: '2026-08'
 
 hero:
   tagline: Distributors
   title: 'Join Our Global Distribution Network'
-  subtitle: "SUP wholesale distribution partner program with exclusive territories, complete inflatable SUP product portfolio, and world-class support. Agrospear ships to 50+ countries — we're looking for established marine and water sports distributors."
+  subtitle: "Agrochemical distribution partner program with exclusive territories, complete crop protection product portfolio, and world-class support. Agrospear ships to 50+ countries — we're looking for established agrochemical and crop protection distributors."
   image:
     src: https://assets.agrospear.com/images/agrospear/factory/agrospear-factory-building.webp
     alt: Agrospear global distribution and shipping operations
 
 answer:
   label: 'Straight answer'
-  text: 'Wholesale distribution terms: exclusive territory, 3–8 SKUs per program, 45–60 day payment terms, and 100% factory pressure-tested stock before dispatch. Distributors buy at factory-direct wholesale pricing with a dedicated account manager; minimum opening order and freight terms are agreed per territory, shipped FOB Qingdao or CIF.'
+  text: 'Distribution terms: exclusive territory, 4–8 SKUs per program, 45–60 day payment terms, and 100% batch-tested stock before dispatch. Distributors buy at factory-direct wholesale pricing with a dedicated account manager; minimum opening order and freight terms are agreed per territory, shipped FOB Qingdao or CIF.'
   verified: '2026-08'
 
 intro:
   tagline: About the program
-  title: 'SUP Wholesale Distribution, Built Around Long-Term Partnership'
+  title: 'Agrochemical Distribution, Built Around Long-Term Partnership'
   body: |
-    Agrospear plans, builds and quality-tests every inflatable SUP, kayak and accessory in our own manufacturing facility — so a wholesale distribution agreement with us comes with the source of supply built in. Distributors do not resell a distant third-party range: they receive the complete Agrospear product catalog, direct factory pricing, and a dedicated account manager who plans seasonal replenishment around their sell-through.
+    Agrospear formulates, produces and quality-tests every herbicide, insecticide, fungicide, PGR and seed treatment in our own manufacturing facility — so a distribution agreement with us comes with the source of supply built in. Distributors do not resell a distant third-party range: they receive the complete Agrospear product catalog, direct factory pricing, and a dedicated account manager who plans seasonal replenishment around their sell-through.
 
-    Most of our distribution partners operate in one exclusive territory and carry a concentrated range of 4–8 best-selling models — all-around boards in three sizes, a touring model, and the matching pump, paddle and care accessories. Because we control the full production line, we can schedule large runs for the northern-hemisphere season start, stabilize freight costs with forward orders, and free up working capital with transparent wholesale terms and agreed payment schedules.
+    Most of our distribution partners operate in one exclusive territory and carry a concentrated range of 4–8 best-selling formulations — herbicides in two or three concentrations, a fungicide platform, and the matching adjuvants and seed treatments. Because we control the full production line, we can schedule large runs for the planting season start, stabilize freight costs with forward orders, and free up working capital with transparent wholesale terms and agreed payment schedules.
 
-    The distribution program is one of two ways to buy Agrospear products wholesale. If you already run a wholesale channel, this page is for you. Brands, resorts, training schools and rental fleets buying direct for their own use should review the OEM/ODM manufacturing and fleet programs instead.
+    The distribution program is one of two ways to buy Agrospear products wholesale. If you already run a wholesale channel, this page is for you. Brands and companies buying direct for their own private label should review the OEM/ODM manufacturing program instead.
 
 wholesale_pricing:
   tagline: Why join
   title: 'What Distributors Get'
   subtitle: 'Everything you need to succeed in your market.'
-  intro: 'Distribution partners receive the same product, factory quality and engineering depth Agrospear is known for, packaged for the wholesale channel.'
+  intro: 'Distribution partners receive the same product, factory quality and formulation depth Agrospear is known for, packaged for the wholesale channel.'
   stats:
     - value: '50+'
       label: 'Countries shipped'
@@ -40,14 +40,14 @@ wholesale_pricing:
       label: 'Day payment terms'
     - value: '10+'
       label: 'Core product lines'
-    - value: '3–8'
+    - value: '4–8'
       label: 'SKUs per territory program'
     - value: '100%'
-      label: 'Factory-tested before dispatch'
+      label: 'Batch-tested before dispatch'
 
 steps:
   tagline: How it works
-  title: 'Pathway from Application to First Container'
+  title: 'Pathway from Application to First Shipment'
   subtitle: 'A clear, multi-stage onboarding process so your wholesale channel ships on time in its first season.'
   steps:
     - step: 1
@@ -61,63 +61,63 @@ steps:
       desc: 'Choose your opening product range and receive wholesale pricing for your territory.'
     - step: 4
       title: Sample order
-      desc: 'Order certification samples to test quality, packaging and drop-ship handling before the first container.'
+      desc: 'Order sample batches to test formulation quality, packaging and regulatory documentation before the first shipment.'
     - step: 5
       title: Seasonal replenishment
-      desc: 'Your account manager schedules production and replenishment around your forecast and the season calendar.'
+      desc: 'Your account manager schedules production and replenishment around your forecast and the planting season calendar.'
 
 benefits:
   title: What Distributors Get
   subtitle: 'Everything you need to succeed in your market.'
   items:
     - 'Exclusive territory rights'
-    - 'Complete product catalog (SUP, accessories, parts)'
+    - 'Complete product catalog (herbicides, insecticides, fungicides, PGRs, seed treatments)'
     - 'Competitive wholesale pricing'
     - 'Marketing & sales materials (translated)'
-    - 'Training program (product, sales, maintenance)'
+    - 'Training program (product, application, regulatory)'
     - 'Trade show support'
     - 'Sample program'
-    - 'Drop-ship capability'
     - 'Dedicated distributor account manager'
     - '45-60 day payment terms'
+    - 'ICAMA and regulatory documentation support'
 
 coverage:
   title: Current Distribution
   subtitle: 'Agrospear currently serves these markets directly.'
   regions:
     - name: Europe
-      countries: 'France, Germany, UK, Spain, Italy, Netherlands, Sweden, Norway, Poland, Greece'
+      countries: 'France, Germany, UK, Spain, Italy, Netherlands, Poland, Greece'
     - name: Asia
-      countries: 'Japan, South Korea, China, Thailand, Singapore'
+      countries: 'Japan, South Korea, China, Thailand, Vietnam, Indonesia, Philippines'
     - name: Middle East
-      countries: 'UAE, Saudi Arabia'
+      countries: 'UAE, Saudi Arabia, Egypt'
     - name: Americas
-      countries: 'USA, Canada, Brazil, Mexico'
+      countries: 'USA, Canada, Brazil, Mexico, Argentina, Colombia'
     - name: Oceania
       countries: 'Australia, New Zealand'
     - name: Africa
-      countries: 'South Africa, Morocco'
+      countries: 'South Africa, Morocco, Kenya, Nigeria'
 
 faqs:
   tagline: Distributor FAQ
-  title: 'Wholesale Distribution Program — Frequently Asked Questions'
+  title: 'Distribution Program — Frequently Asked Questions'
   items:
     - q: 'What is the minimum wholesale order for a new distributor?'
-      a: 'New distribution partners typically open with a sample order followed by a first container scheduled to their season. Exact minimums depend on territory size and the chosen product range; your account manager confirms the opening volume during catalog selection.'
+      a: 'New distribution partners typically open with a sample order followed by a first shipment scheduled to their season. Exact minimums depend on territory size and the chosen product range; your account manager confirms the opening volume during catalog selection.'
     - q: 'Are territories exclusive?'
       a: 'Yes. The Agrospear distribution program is built on exclusive territories — each wholesale partner covers a defined country or region and receives pricing and program support for that market.'
-    - q: 'Do you support drop-shipping?'
-      a: 'Drop-ship capability is included in the distributor program. Samples, product packaging and handling are validated during the sample-order stage so drop-ship orders run cleanly from day one.'
+    - q: 'Do you provide regulatory documentation for local registration?'
+      a: 'Yes. Registration documentation support is included in the distributor program. ICAMA production license data, CoA templates and formulation specifications are provided to support local registration in your territory.'
     - q: 'What products can distributors order?'
-      a: 'The complete Agrospear catalog: inflatable SUP boards across all-around, touring and surf shapes, inflatable kayaks, pumps, paddles, life vests and care accessories. Most partners open with 4–8 best-selling SKUs and expand in later seasons.'
+      a: 'The complete Agrospear catalog: herbicides (glyphosate, glufosinate, atrazine and more), insecticides, fungicides, PGRs and seed treatments across SC, EC, WP, WDG, SL, ME, CS and FS formulations. Most partners open with 4–8 best-selling SKUs and expand in later seasons.'
     - q: 'How are orders shipped?'
-      a: 'Orders leave our factory on scheduled sailings, with forward ordering available to stabilize freight costs. Your dedicated account manager plans production and dispatch around your forecast and the season calendar.'
+      a: 'Orders leave our factory on scheduled sailings, with forward ordering available to stabilize freight costs. Your dedicated account manager plans production and dispatch around your forecast and the planting season calendar.'
     - q: 'How do I apply?'
       a: 'Use the application form on this page or contact us directly. Applications are reviewed by the distribution team, and we respond with next steps, including territory mapping and a draft agreement, within a few working days.'
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> distribution partners sell the same boards we make for <a href="/oem-manufacturing">OEM/private-label brands</a> — review the manufacturing program and the <a href="/factory">factory quality process</a> so you can position the product with confidence.</p>
+    <p><strong>Keep reading:</strong> distribution partners sell the same formulations we make for <a href="/oem-manufacturing">OEM/private-label brands</a> — review the manufacturing program and the <a href="/factory">factory quality process</a> so you can position the product with confidence.</p>
   </div>
 
 cta:

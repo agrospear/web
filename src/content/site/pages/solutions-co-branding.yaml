@@ -1,0 +1,83 @@
+slug: solutions-co-branding
+meta:
+  title: 'Co-Branding Solutions — Joint Agrochemical Product Development | {SITE}'
+  description: 'Co-branding solutions for agrochemical partners: joint product development, shared registration data, combined brand packaging and collaborative formulation engineering with Agrospear.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Co-Branding Partners
+  title: 'Co-Branding Solutions — Joint Agrochemical Product Development'
+  subtitle: 'Build agrochemical products together: shared formulation R&D, shared registration documentation and combined brand presence — two brands, one quality system, one factory.'
+  image:
+    src: https://assets.agrospear.com/images/agrospear/factory/agrospear-factory-aerial-1.webp
+    alt: Agrospear co-branded agrochemical products staged for shipment
+
+answer:
+  label: 'Straight answer'
+  text: 'Co-branding partners develop agrochemical products jointly with Agrospear: shared formulation R&D combines your market knowledge with our manufacturing expertise, shared registration documentation (ICAMA, FAO/WHO) supports both brands in target markets, and combined-brand packaging carries both logos. MOQ is confirmed by project configuration: sample (1–4 tons), pilot (5 tons) and standard volume (20+ tons per batch); production runs 25–35 days after PO and deposit, with FOB, CIF or DDP terms.'
+  verified: '2026-08'
+
+features:
+  title: Built for Co-Brand Partnerships
+  subtitle: 'Every co-branded batch delivers shared value with full traceability and dual-brand documentation.'
+  items:
+    - title: 'Joint Formulation Development'
+      description: 'Collaborative R&D combining your regional agronomic expertise with Agrospear formulation science — optimized for your target crops and markets.'
+      icon: 'tabler:flask'
+    - title: 'Shared Registration Data'
+      description: 'ICAMA and FAO/WHO documentation prepared once, licensed for both brands — reducing duplicate registration costs across markets.'
+      icon: 'tabler:file-certificate'
+    - title: 'Dual-Brand Packaging'
+      description: 'Both brand logos on label and packaging — co-branded presence that builds recognition for both partners in the market.'
+      icon: 'tabler:branding'
+    - title: 'Shelf-Stable Formulations'
+      description: 'Stability-tested formulations with guaranteed shelf life — reliable performance under both brand names.'
+      icon: 'tabler:droplet'
+    - title: 'Regional Market Support'
+      description: 'Market-specific documentation and label compliance for each partner''s target territory — EPA, PMRA, APVMA or EU dossier data.'
+      icon: 'tabler:world'
+    - title: 'Quality Consistency'
+      description: 'Same batch, same quality, same CoA — every unit meets the specifications agreed by both partners.'
+      icon: 'tabler:shield-check'
+
+stats:
+  title: Co-Branding Metrics
+  stats:
+    - title: Factory Floor
+      amount: '12,500 m²'
+    - title: Stability Test
+      amount: '24-month shelf life'
+    - title: Production Checklist
+      amount: '100 points'
+    - title: Registration Data
+      amount: 'ICAMA + FAO/WHO'
+
+fleet_guide:
+  title: Co-Brand Volume Guide
+  subtitle: 'Estimate product volume for your co-branded agrochemical line by market size.'
+  tiers:
+    - label: Regional Partnership
+      boards: '5–20 tons'
+      note: 'Single-crop or single-season co-branded program'
+    - label: Multi-Region Partnership
+      boards: '20–50 tons'
+      note: 'Multiple formulations across crop segments and regions'
+    - label: National Partnership
+      boards: '50–200+ tons'
+      note: 'Full co-branded product portfolio across seasons and territories'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Keep reading:</strong> co-branded products start from a shared specification — see our <a href="/oem-manufacturing">OEM/ODM program</a> for customization, trial MOQs and co-branding terms. Every batch runs the 12,500 m&sup2; <a href="/factory">production line</a> and is 100% stability-tested before it ships under both brands.</p>
+  </div>
+
+cta:
+  title: 'Discuss Your Co-Branding Project'
+  subtitle: 'Send your co-branding concept — our team responds within 1 business day.'
+  actions:
+    - text: 'Send Co-Branding Inquiry'
+      href: '/contact'
+      variant: 'primary'
+    - text: 'Compare Partnership Models'
+      href: '/oem-vs-private-label'
+      variant: 'secondary'

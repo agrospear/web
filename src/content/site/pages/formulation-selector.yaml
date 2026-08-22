@@ -1,0 +1,89 @@
+meta:
+  title: 'Formulation Selector — Agrochemical Formulation Type Guide | {SITE}'
+  description: 'Formulation types, specifications, and recommended uses for every Agrospear product. Find the right agrochemical formulation type for your crop and pest.'
+  dateModified: '2026-08'
+  keywords:
+    - 'agrochemical formulation guide'
+    - 'formulation type selector'
+    - 'SC EC WP WDG specs'
+    - 'crop protection formulation chart'
+hero:
+  title: Formulation Selector
+  subtitle: Formulation types, specifications, and recommended uses for every Agrospear product.
+
+categories:
+  sc: Suspension Concentrates (SC) — stable aqueous suspensions of solid active ingredients. Low dust, high safety, excellent tank-mix compatibility. Ideal for foliar application.
+  ec: Emulsifiable Concentrates (EC) — solvent-based formulations that form stable emulsions on dilution. Fast uptake, broad-spectrum efficacy. Ideal for insecticides and systemic action.
+  wp_wdg: Wettable Powders (WP) and Water-Dispersible Granules (WDG) — solid formulations for low-cost, high-active-content delivery. WP for speed of production; WDG for dust-free handling.
+  sl_fs: Soluble Liquids (SL) and Flowable Seed Treatments (FS) — fully soluble or flowable formulations. SL for water-soluble actives; FS for seed treatment with film-forming and colourant.
+
+table:
+  headers:
+    product: Formulation Type
+    active_range: Active Content Range
+    viscosity: Typical Viscosity
+    shelf_life: Shelf Life
+    best_for: Best For
+  rows:
+    - product: 'SC — Suspension Concentrate'
+      active_range: '50 – 600 g/L'
+      viscosity: '200 – 800 mPa·s'
+      shelf_life: '24 months (54 °C stable)'
+      best_for: Herbicides, fungicides; foliar spray with low drift and high safety
+    - product: 'EC — Emulsifiable Concentrate'
+      active_range: '50 – 500 g/L'
+      viscosity: '10 – 50 mPa·s'
+      shelf_life: '24 months (54 °C stable)'
+      best_for: Insecticides with systemic or contact action; fast crop uptake
+    - product: 'WP — Wettable Powder'
+      active_range: '10 – 80 % w/w'
+      viscosity: 'N/A (solid)'
+      shelf_life: '24 months (54 °C stable)'
+      best_for: Fungicides and herbicides; cost-effective, established market registration
+    - product: 'WDG — Water-Dispersible Granule'
+      active_range: '20 – 80 % w/w'
+      viscosity: 'N/A (solid granule)'
+      shelf_life: '24 months (54 °C stable)'
+      best_for: Dust-free handling, accurate dosing, premium positioning
+    - product: 'SL — Soluble Liquid'
+      active_range: '100 – 620 g/L'
+      viscosity: '5 – 30 mPa·s'
+      shelf_life: '24 months (54 °C stable)'
+      best_for: Water-soluble herbicide actives (glyphosate, paraquat, glufosinate)
+    - product: 'ME — Microemulsion'
+      active_range: '50 – 200 g/L'
+      viscosity: '20 – 100 mPa·s'
+      shelf_life: '18 months (54 °C stable)'
+      best_for: Low-solvent insecticides; reduced phytotoxicity, improved safety
+    - product: 'CS — Capsule Suspension'
+      active_range: '50 – 300 g/L'
+      viscosity: '300 – 1200 mPa·s'
+      shelf_life: '24 months (54 °C stable)'
+      best_for: Controlled-release insecticides; extended residual, reduced application frequency
+    - product: 'FS — Flowable Seed Treatment'
+      active_range: '100 – 500 g/L'
+      viscosity: '200 – 1500 mPa·s'
+      shelf_life: '24 months (25 °C stable)'
+      best_for: Cereal and vegetable seed treatment; film-forming with colourant
+
+how_to_choose:
+  title: How to Choose the Right Formulation
+  cards:
+    - title: SC vs EC
+      description: Choose SC for solid actives requiring low dust and high suspensibility (herbicides, fungicides). Choose EC for liquid or soluble actives needing fast crop uptake (insecticides). SC is water-based and safer to handle; EC has superior foliar penetration.
+    - title: WP vs WDG
+      description: Choose WP for established registrations and lowest production cost. Choose WDG for premium positioning with dust-free granule handling, accurate dosing, and better operator safety. WDG commands a price premium in most markets.
+    - title: SL vs FS
+      description: Choose SL for water-soluble herbicide actives (glyphosate, paraquat) applied at high spray volumes. Choose FS for seed treatment applications requiring film-forming polymers, colourants, and low-dust application to seed.
+
+cta:
+  title: 'Browse formulations by type, or talk to a chemist'
+  subtitle: 'Compare SC, EC, WP, WDG, SL, ME, CS, and FS across our product range — or send your crop and pest profile and we will recommend the right formulation for your project.'
+  actions:
+    - variant: primary
+      text: Browse agrochemical products
+      href: /products
+    - text: More formulation knowledge
+      href: /knowledge
+    - text: How formulations are produced
+      href: /factory/process

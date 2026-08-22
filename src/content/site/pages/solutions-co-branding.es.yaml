@@ -1,0 +1,83 @@
+slug: solutions-co-branding
+meta:
+  title: 'Soluciones de Co-Branding — Desarrollo Conjunto de Productos Agroquímicos | Agrospear'
+  description: 'Soluciones de co-branding para socios agroquímicos: desarrollo conjunto de productos, datos de registro compartidos, embalaje de marca combinada e ingeniería de formulación colaborativa con Agrospear.'
+  dateModified: '2026-08'
+
+hero:
+  tagline: Socios de Co-Branding
+  title: 'Soluciones de Co-Branding — Desarrollo Conjunto de Productos Agroquímicos'
+  subtitle: 'Construye productos agroquímicos juntos: I+D de formulación compartida, documentación de registro compartida y presencia de marca combinada — dos marcas, un sistema de calidad, una fábrica.'
+  image:
+    src: https://assets.agrospear.com/images/agrospear/factory/agrospear-factory-aerial-1.webp
+    alt: Productos agroquímicos co-brandeados de Agrospear preparados para envío
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Los socios de co-branding desarrollan productos agroquímicos conjuntamente con Agrospear: la I+D de formulación compartida combina tu conocimiento del mercado con nuestra experiencia de fabricación, la documentación de registro compartida (ICAMA, FAO/OMS) respalda a ambas marcas en los mercados objetivo, y el embalaje de marca combinada lleva ambos logos. El MOQ se confirma según la configuración del proyecto: muestra (1–4 toneladas), piloto (5 toneladas) y volumen estándar (20+ toneladas por lote); la producción tarda 25–35 días tras el PO y el depósito, con condiciones FOB, CIF o DDP.'
+  verified: '2026-08'
+
+features:
+  title: Diseñado para Asociaciones de Co-Branding
+  subtitle: 'Cada lote co-brandeado aporta valor compartido con trazabilidad completa y documentación de doble marca.'
+  items:
+    - title: 'Desarrollo Conjunto de Formulación'
+      description: 'I+D colaborativa que combina tu experiencia agronómica regional con la ciencia de formulación de Agrospear — optimizada para tus cultivos y mercados objetivo.'
+      icon: 'tabler:flask'
+    - title: 'Datos de Registro Compartidos'
+      description: 'Documentación ICAMA y FAO/OMS preparada una sola vez, licenciada para ambas marcas — reduciendo costes duplicados de registro en distintos mercados.'
+      icon: 'tabler:file-certificate'
+    - title: 'Embalaje de Doble Marca'
+      description: 'Ambos logotipos de marca en la etiqueta y el embalaje — presencia co-brandeada que genera reconocimiento para ambos socios en el mercado.'
+      icon: 'tabler:branding'
+    - title: 'Formulaciones Estables en Estantería'
+      description: 'Formulaciones probadas en estabilidad con vida útil garantizada — rendimiento fiable bajo ambas marcas.'
+      icon: 'tabler:droplet'
+    - title: 'Soporte de Mercado Regional'
+      description: 'Documentación específica de mercado y cumplimiento de etiquetas para el territorio objetivo de cada socio — datos EPA, PMRA, APVMA o expediente UE.'
+      icon: 'tabler:world'
+    - title: 'Consistencia de Calidad'
+      description: 'Mismo lote, misma calidad, mismo CoA — cada unidad cumple las especificaciones acordadas por ambos socios.'
+      icon: 'tabler:shield-check'
+
+stats:
+  title: Métricas de Co-Branding
+  stats:
+    - title: Superficie de Fábrica
+      amount: '12.500 m²'
+    - title: Ensayo de estabilidad
+      amount: 'Vida útil 24 meses'
+    - title: Checklist de Producción
+      amount: '100 puntos'
+    - title: Datos de Registro
+      amount: 'ICAMA + FAO/OMS'
+
+fleet_guide:
+  title: Guía de Volumen Co-Brand
+  subtitle: 'Calcula el volumen de producto para tu línea agroquímica co-brandeada según el tamaño de mercado.'
+  tiers:
+    - label: Asociación Regional
+      boards: '5–20 toneladas'
+      note: 'Programa co-brandeado de un solo cultivo o una sola temporada'
+    - label: Asociación Multiregional
+      boards: '20–50 toneladas'
+      note: 'Múltiples formulaciones en distintos segmentos de cultivo y regiones'
+    - label: Asociación Nacional
+      boards: '50–200+ toneladas'
+      note: 'Portafolio completo de productos co-brandeados en múltiples temporadas y territorios'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Sigue leyendo:</strong> los productos co-brandeados parten de una especificación compartida: consulta nuestro <a href="/es/oem-manufacturing">programa OEM/ODM</a> para personalización, MOQ de prueba y condiciones de co-branding. Cada lote pasa por la <a href="/es/factory">línea de producción</a> de 12.500 m&sup2; y se prueba de estabilidad al 100% antes de enviarse bajo ambas marcas.</p>
+  </div>
+
+cta:
+  title: 'Habla Sobre Tu Proyecto de Co-Branding'
+  subtitle: 'Envía tu concepto de co-branding: nuestro equipo responde en menos de 1 día laborable.'
+  actions:
+    - text: 'Enviar Consulta de Co-Branding'
+      href: '/es/contact'
+      variant: 'primary'
+    - text: 'Comparar Modelos de Asociación'
+      href: '/es/oem-vs-private-label'
+      variant: 'secondary'

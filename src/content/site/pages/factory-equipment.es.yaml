@@ -1,93 +1,87 @@
 meta:
-  title: 'Equipo de fábrica: corte, soldadura e impresión'
-  description: 'Equipos de fabricación de grado industrial de Agrospear: corte de PVC, soldadura RF, impresión digital, ensamblaje y ensayos para tablas de SUP hinchables.'
+  title: 'Equipo de fabrica: mezclado, molienda y llenado'
+  description: 'Equipos de fabricacion de grado industrial de Agrospear: mezcladores de alto corte, molinos de arena, secadores por aspersion, lineas de llenado, analizadores HPLC/GC y camaras de estabilidad para produccion agroquimica.'
   dateModified: '2026-08'
   keywords:
-    - 'equipos de fabricación sup'
-    - 'fábrica de sup hinchables'
-    - 'soldadura rf de pvc'
-    - 'producción de paddle boards'
+    - 'equipos de fabricacion agroquimica'
+    - 'fabrica agroquimica'
+    - 'molino de arena formulacion'
+    - 'produccion proteccion de cultivos'
 hero:
   tagline: Equipo
-  title: Equipos y maquinaria de fabricación
-  subtitle: Equipos de grado industrial en corte, soldadura, impresión y ensamblaje
-  back_label: Volver a la fábrica
+  title: Equipos y maquinaria de fabricacion
+  subtitle: Equipos de grado industrial en mezclado, molienda, llenado y ensayos
+  back_label: Volver a la fabrica
   back_link: /es/factory
 
 answer:
   label: 'Respuesta directa'
-  text: 'Nuestra fábrica de 12.500 m² dispone de corte automático controlado por CNC (precisión de 0,1 mm, desperdicio inferior al 5%), termosellado de aire caliente a 200–600 °C más soldadura dieléctrica RF de 15 kW para las costuras principales, prensas de laminación de núcleos drop-stitch de hasta 14 ft, y un laboratorio de control de calidad que prueba la presión de cada cámara, realiza comprobaciones de tracción según ASTM D751 y verifica el pelado de costuras según ISO 6185.'
+  text: 'Nuestra fabrica de 12.500 m2 dispone de pesaje y dosificacion automatica controlada por PLC (precision de ±0,1%), mezcladores de alto corte a 3.000–10.000 rpm mas molinos de arena para control de tamano de partcula SC/WDG, secadores por aspersion y granuladores de lecho fluido para produccion WDG/WP, y un laboratorio de control de calidad con HPLC/GC para analisis de contenido activo, analizadores de tamano de partcula laser y camaras de estabilidad a 54 C para verificacion de estabilidad en estante de 14 dias.'
   verified: '2026-08'
 
 categories:
-  - title: Corte y preparación de materiales
+  - title: Preparacion de materias primas
     items:
-      - name: Máquina de corte de PVC automática
-        spec: Control CNC, 6,5 m × 2,5 m, precisión de 0,1 mm
-        desc: Máquina de corte automática controlada por ordenador para tejidos de PVC, Hypalon y drop-stitch. El software de anidado optimiza el aprovechamiento del material hasta dejar el desperdicio por debajo del 5%.
-      - name: Extensora de tejido
-        spec: Anchura máxima de 3 m, alimentación con control de tensión
-        desc: Extiende el tejido en una o varias capas con tensión controlada para evitar deformaciones antes del corte.
+      - name: Sistema automatico de pesaje y dosificacion
+        spec: Control PLC, precision de ±0,1%, capacidad de 5 toneladas
+        desc: Sistema automatico de pesaje y dosificacion controlado por ordenador para ingredientes activos de grado tecnico, solventes y coadyuvantes. El software de formulacion optimiza el aprovechamiento del material hasta dejar el desperdicio por debajo del 3%.
+      - name: Sistema de almacenamiento y transferencia a granel
+        spec: Tanques de acero inoxidable, capacidad 10–50 m3, con nitrogeno
+        desc: Almacena y transfiere solventes y materias primas liquidas con nitrogeno controlado para evitar contaminacion e ingreso de humedad.
 
-  - title: Soldado y unión de tubos
+  - title: Mezclado y preparacion de formulaciones
     items:
-      - name: Máquina de termosellado
-        spec: Soldadura de aire caliente, variable 200–600 °C, 0,5–5 m/min
-        desc: Máquina de termosellado por aire caliente para unir y soldar las costuras de tubos de PVC y Hypalon. Se usa para hilvanar, sellar y fusionar las cámaras de los tubos y las uniones de los flotadores.
-      - name: Prensa dieléctrica RF
-        spec: 15 kW, plato de 2000 × 600 mm
-        desc: Prensas de soldadura por radiofrecuencia para las costuras longitudinales principales, las uniones de espejo a tubo y la fabricación de cámaras grandes.
-      - name: Soldadora RF controlada por CNC
-        spec: 8 kW, mesa XY de 2500 × 1200 mm
-        desc: Soldadura programable de costuras curvas para geometrías complejas, marcado de logotipos y parches de precisión.
+      - name: Mezclador de alto corte
+        spec: 3.000–10.000 rpm, capacidad 500–5.000 L
+        desc: Mezclador de alto corte para composicion de formulaciones SC, EC y SL. Dispersa ingredientes activos en transportadores y asegura premezcla uniforme antes de la molienda.
+      - name: Tanque de premezcla
+        spec: 1.000–5.000 L, encamisado, temperatura controlada
+        desc: Tanque de premezcla con temperatura controlada para formulaciones EC y SL que requieren disolucion y mezcla precisa de ingredientes activos con emulsionantes.
+      - name: Agitador de baja velocidad
+        spec: 50–200 rpm, 2.000–10.000 L
+        desc: Agitador de baja velocidad para preparacion de slurries WP y WDG y homogeneizacion post-molienda de concentrados en suspension.
 
-  - title: Fabricación de tablas de SUP
+  - title: Procesamiento de formulaciones
     items:
-      - name: Prensa de laminación de núcleos drop-stitch
-        spec: Prensa de gran formato para núcleos de hasta 14 ft de eslora
-        desc: Laminación de precisión de los núcleos drop-stitch sobre los laminados exteriores de PVC. Cada capa se une a presión para lograr una calidad y resistencia constantes.
-      - name: Fresadora CNC (5 ejes)
-        spec: Recorrido de 3 m × 2 m × 1 m, husillo refrigerado por agua
-        desc: Mecanizado de cajas de quilla, recortes para asas y componentes personalizados de las tablas.
+      - name: Molino de arena / molino de cuentas
+        spec: Tamano de partcula 0,1–50 μm, rendimiento 200–1.000 L/h
+        desc: Molienda de precision para formulaciones SC y WDG para lograr distribuciones de tamano de partcula objetivo (D50 1–5 μm para SC, D50 20–40 μm para WDG).
+      - name: Secador por aspersion
+        spec: Tasa de evaporacion 50–200 kg/h, entrada 180–220 C
+        desc: Secador por aspersion para convertir slurries WDG y WP molidos en grnulos secos dispersables con tamano de partcula y contenido de humedad constantes.
+      - name: Granulador de lecho fluido
+        spec: 100–500 kg/lote
+        desc: Granulacion de lecho fluido para producir grnulos WDG uniformes con densidad aparente y dispersibilidad controladas.
 
-  - title: Impresión y decoración de SUP
+  - title: Llenado y embalaje
     items:
-      - name: Impresora digital
-        spec: Inkjet de alta resolución, anchura de impresión de hasta 2 m
-        desc: Impresión digital directa sobre tejido para los gráficos a todo color de la cubierta del SUP. Imprime patrones personalizados, degradados e imágenes con calidad fotográfica con tintas de base acuosa resistentes a los rayos UV.
-      - name: Máquina de serigrafía
-        spec: Manual y semiautomática, registro multicolor
-        desc: Serigrafía para logotipos, marcas y patrones repetidos de las tablas de SUP. Proporciona impresiones duraderas y opacas con una saturación de color vibrante.
-
-  - title: Ensamblaje y aparejo
-    items:
-      - name: Estación de ensamblaje de tablas
-        spec: Modular ajustable, disposición de varias estaciones
-        desc: Ensamblaje de cajas de quilla, asas, anillos D, válvulas y cubiertas de espuma sobre las tablas de SUP.
-      - name: Prensa de instalación de válvulas
-        spec: Neumática, presión ajustable
-        desc: Instalación y sellado de precisión de válvulas Halkey-Roberts y Leafield.
-      - name: Laminador de cubierta de espuma
-        spec: 3 m × 1,5 m, temperatura controlada
-        desc: Laminación térmica de las cubiertas de espuma EVA sobre las cubiertas de las tablas de SUP con una resistencia de unión constante.
+      - name: Linea automatica de llenado
+        spec: Tambores de 20–200 L, botellas de 100–1.000 mL, precision ±0,2%
+        desc: Maquina de llenado automatica para tambores, garrafas y botellas con llenado volumetrico de precision y verificacion automatica de peso.
+      - name: Maquina de etiquetado automatica
+        spec: Etiqueta GHS multilingue, 30–60 unidades/min
+        desc: Maquina de etiquetado automatica que aplica etiquetas conformes a GHS con numero de lote, codigo de fecha y texto regulatorio multilingue.
+      - name: Codificador de lote por inyeccion de tinta
+        spec: Inyeccion continua, codificacion lote/fecha/lot
+        desc: Codificador de inyeccion de tinta para codificacion permanente de lote y fecha en contenedores y embalaje exterior para trazabilidad completa.
 
   - title: Ensayos y control de calidad
     items:
-      - name: Máquina universal de tracción
-        spec: 50 kN, conforme a ASTM D751
-        desc: Ensayos de fuerza de quiebra, elongación a la rotura y propagación de desgarro para lotes de tejido.
-      - name: Rig de retención de aire
-        spec: Programable, mantenimiento de presión de 30 min
-        desc: Ensayo automatizado de mantenimiento de presión para cada cámara del tubo antes del ensamblaje.
-      - name: Comprobador de pelado de costuras
-        spec: Motorizado, pelado de 180° a 100 mm/min
-        desc: Ensayo de resistencia al pelado de costuras soldadas y encoladas según ISO 6185.
-      - name: Cámara de intemperismo de xenón
-        spec: Exposición de 2000 h
-        desc: Ensayos de resistencia a la luz UV para el cambio de color y la retención de resistencia.
+      - name: Sistema HPLC
+        spec: Detector UV/VIS, metodos conformes a CIPAC
+        desc: Cromatografia liquida de alto rendimiento para cuantificacion de contenido de ingrediente activo y analisis de impurezas segun metodos CIPAC.
+      - name: Sistema GC
+        spec: Detector FID/ECD, analisis volatil y semivolatil
+        desc: Cromatografia de gases para analisis de solventes, perfilado de impurezas volatiles y verificacion de contenido activo para formulaciones EC y SL.
+      - name: Analizador de tamano de partcula laser
+        spec: Rango 0,01–3.500 μm, dispersion humeda y seca
+        desc: Analisis de tamano de partcula por difraccion laser para formulaciones SC, WDG y WP para verificar D50, D90 y span segun especificacion.
+      - name: Camara de estabilidad
+        spec: 54 C ± 2 C, 40 C ± 2 C, conforme a CIPAC MT 46
+        desc: Camaras de estabilidad con temperatura controlada para ensayos de estabilidad acelerada de 14 dias y verificacion de vida util segun CIPAC MT 46.
 
 cta:
-  title: ¿Le interesa una visita a la fábrica?
+  title: Le interesa una visita a la fabrica?
   desc: Recibimos visitas en nuestras instalaciones de Qingdao. Vea en persona nuestros equipos y procesos.
   label: Programar una visita →
   link: /es/contact

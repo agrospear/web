@@ -1,58 +1,58 @@
 meta:
-  title: 'Manufacturing Process — From Raw Material to SUP'
-  description: 'From raw material to sea-ready SUP: every step of the Agrospear manufacturing process under our control, from cutting and welding to testing.'
+  title: 'Manufacturing Process — From Raw Material to Crop Protection Product'
+  description: 'From raw material to market-ready formulation: every step of the Agrospear manufacturing process under our control, from compounding and milling to testing.'
   dateModified: '2026-08'
   keywords:
-    - 'sup manufacturing process'
-    - 'inflatable sup factory'
-    - 'paddle board production steps'
-    - 'pvc welding sup'
+    - 'agrochemical manufacturing process'
+    - 'agrochemical factory'
+    - 'crop protection production steps'
+    - 'formulation compounding'
 hero:
   tagline: Process
   title: Manufacturing Process
-  subtitle: From raw material to sea-ready SUP —every step under our control
+  subtitle: From raw material to market-ready formulation —every step under our control
   back_label: Back to Factory
   back_link: /factory
 
 answer:
   label: 'Straight answer'
-  text: 'Boards go through five controlled stages: material inspection (1–2 days), CNC automatic cutting (<5% waste, 2–4 hours per kit), tube heat sealing with RF-reinforced seams (1–2 days per board), drop-stitch core bonding, and final assembly with 100% air-retention and load testing before packaging.'
+  text: 'Formulations go through five controlled stages: material inspection (1–2 days), automatic weighing and dosing (<3% waste, 2–4 hours per batch), high-shear compounding with sand-milled particle size control (1–2 days per batch), formulation processing and granulation, and final filling with 100% specification and stability testing before packaging.'
   verified: '2026-08'
 
-intro: Unlike brands that outsource production to third-party factories, Agrospear owns and operates its entire manufacturing chain. This vertical integration allows us to maintain strict quality control at every stage, respond quickly to custom requirements, and deliver consistent product quality batch after batch. Here is how a SUP board is built in our facility.
+intro: Unlike brands that outsource production to third-party factories, Agrospear owns and operates its entire manufacturing chain. This vertical integration allows us to maintain strict quality control at every stage, respond quickly to custom requirements, and deliver consistent product quality batch after batch. Here is how a crop protection product is built in our facility.
 
 steps:
   - step: '01'
     title: Material Receipt & Inspection
-    description: Every incoming batch of PVC fabric, fiberglass mat, resin, and hardware is inspected against specification. Fabric samples are tested for tensile strength, thickness uniformity, and UV resistance before release to production. Non-conforming materials are quarantined and returned.
+    description: Every incoming batch of technical-grade active ingredient, solvent, adjuvant, and packaging material is inspected against specification. Raw material samples are tested for active content by HPLC/GC, purity, moisture content, and physical properties before release to production. Non-conforming materials are quarantined and returned.
     duration: 1–2 days
   - step: '02'
-    title: Automatic PVC Cutting
-    description: <p>Approved fabrics are laid on the automatic CNC cutting machine and cut with sub-millimetre accuracy. Computer-optimised nesting arranges panels to minimise waste —typically below 5%. Cut panels are labelled by SUP model and chamber, then bundled for transfer to the welding workshop.</p>
-    duration: 2–4 hours per board kit
+    title: Automatic Weighing & Dosing
+    description: <p>Approved materials are weighed and dosed by the automatic PLC-controlled system with ±0.1% accuracy. Computer-optimised batching calculates precise quantities for each formulation to minimise waste —typically below 3%. Weighed components are labelled by formulation and batch, then transferred to the compounding workshop.</p>
+    duration: 2–4 hours per batch
   - step: '03'
-    title: Tube Heat Sealing & Welding
-    description: Panels are tacked and bonded using heat sealing machines  with hot-air welding at controlled temperatures of 200–300 °C. Main seams are reinforced with RF dielectric welding for airtight, high-strength joints. Completed chambers are inflated to 18.0 PSI for an initial airtightness check ahead of the 24-hour retention hold.
-    duration: 1–2 days per SUP board
+    title: Compounding & High-Shear Mixing
+    description: Active ingredients, dispersants, emulsifiers, and carriers are compounded in high-shear mixers at controlled speeds of 3,000–10,000 rpm. SC formulations are pre-mixed before sand milling. EC and SL formulations are blended in jacketed temperature-controlled tanks. Particle size is monitored throughout the process.
+    duration: 1–2 days per batch
   - step: '04'
-    title: Drop-Stitch Core Bonding
-    description: SUP board drop-stitch cores are bonded to outer PVC laminates using heat lamination. Thousands of internal polyester threads connect top and bottom layers, creating a rigid structure at 12-15 PSI. Rail bands are triple-layer fusion bonded for edge strength.
-    duration: 1–2 days per board
+    title: Sand Milling & Formulation Processing
+    description: SC and WDG formulations are processed through sand mills to achieve target particle size distributions (D50 1–5 μm for SC, D50 20–40 μm for WDG). WDG and WP products are produced by spray drying or fluid bed granulation. Each batch is checked for particle size, viscosity, pH, and suspensibility before proceeding.
+    duration: 1–2 days per batch
   - step: '05'
-    title: SUP Printing & Decoration
-    description: SUP board deck graphics are applied using digital printing  for full-colour photo-quality designs, and screen printing  for durable logos and repeating patterns. Prints are cured and sealed for UV and abrasion resistance.
+    title: Labeling & Decoration
+    description: Product containers are labeled using automatic labeling machines for multi-language GHS-compliant labels and inkjet coders for batch and date coding. Labels are verified against approved artwork and regulatory requirements.
     duration: 1–2 days
   - step: '06'
-    title: Final Assembly & Fitting
-    description: Valves, D-rings, handles, fin boxes, and deck pads are installed on the assembly line. Each board follows a 100-point assembly checklist with mandatory sign-off at each stage.
+    title: Filling & Sealing
+    description: Drums, jerry cans, and bottles are filled, sealed, and checked on automatic filling machines. Each batch follows a 100-point filling and packaging checklist with mandatory sign-off at each stage.
     duration: 1–2 days
   - step: '07'
     title: Quality Testing & Inspection
-    description: 'Every completed board undergoes mandatory quality gate: chamber air-retention test, hardware function check, fastener torque verification, and cosmetic inspection. Custom and prototype builds also receive in-water trials covering stability and handling.'
-    duration: 1–2 days
+    description: 'Every completed batch undergoes mandatory quality gate: active content verification by HPLC/GC, specification check (suspensibility, pH, viscosity, particle size), and 14-day stability test at 54°C per CIPAC MT 46. Custom and prototype formulations also receive field efficacy verification where required.'
+    duration: 14 days (stability)
   - step: '08'
     title: Packing & Shipping
-    description: Boards are deflated, folded per procedure, packed in heavy-duty woven bags or retail boxes, and loaded for shipment. Each package is labelled with model, serial number, and destination. We coordinate with freight forwarders for FCL and LCL container shipments worldwide.
+    description: Finished products are palletized per procedure, packed in export-grade packaging, and loaded for shipment. Each package is labelled with product name, batch number, and destination. We coordinate with freight forwarders for FCL and LCL container shipments worldwide.
     duration: 1 day
 
 evidence_gates:
@@ -65,45 +65,45 @@ evidence_gates:
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
       link_label: 'Download QIP (PDF)'
       image: https://assets.agrospear.com/site/quality/node01-ppm.avif
-      alt: Pre-production meeting reviewing the golden sample and quality inspection plan for an OEM SUP order
+      alt: Pre-production meeting reviewing the golden sample and quality inspection plan for an OEM agrochemical order
     - title: 'IQC — Incoming Material Inspection'
-      description: 'Every incoming batch of PVC, fabric and hardware is checked against the approved spec. Non-conforming lots are quarantined and rejected before release to the line.'
+      description: 'Every incoming batch of active ingredients, solvents and packaging is checked against the approved spec. Non-conforming lots are quarantined and rejected before release to the line.'
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
       link_label: 'Download IQC reports (PDF)'
       image: https://assets.agrospear.com/site/quality/node02-iqc.avif
-      alt: Incoming material inspection of PVC fabric and SUP components at the factory
+      alt: Incoming material inspection of active ingredients and components at the factory
     - title: 'IPQC / FAI — In-Process Control'
-      description: 'The first article is verified against the locked baselines and every shift keeps patrol checks on the line. FAI approval version-locks artwork, dimensions and BOM.'
+      description: 'The first article is verified against the locked baselines and every shift keeps patrol checks on the line. FAI approval version-locks formulation, specifications and BOM.'
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
       link_label: 'Download IPQC reports (PDF)'
       image: https://assets.agrospear.com/site/quality/node03-ipqc-fai.avif
-      alt: In-process inspection and first article check during SUP production
-    - title: 'Inflation & Air-Tightness Testing'
-      description: '100% of completed boards — not a sample — get a 24-hour pressure hold at 18.0 PSI with automatic reject above a 0.50 PSI drop. One record per chamber.'
+      alt: In-process inspection and first article check during agrochemical production
+    - title: 'Stability & Specification Verification'
+      description: '100% of completed batches — not a sample — get a 14-day stability test at 54°C with automatic reject for active content deviation above ±2%. One record per batch.'
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
-      link_label: 'Download air-tightness reports (PDF)'
+      link_label: 'Download stability reports (PDF)'
       image: https://assets.agrospear.com/site/quality/node04-airtightness.avif
-      alt: Inflation and air-tightness testing of an inflatable SUP chamber
+      alt: Stability and specification verification testing of an agrochemical batch
     - title: 'FQC — Final Product Inspection'
-      description: 'Finished boards are measured against drawing tolerances and cosmetically graded under D65 daylight lamps against the approved golden sample.'
+      description: 'Finished batches are measured against specification limits and visually inspected under standard lighting against the approved golden sample.'
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
       link_label: 'Download FQC reports (PDF)'
       image: https://assets.agrospear.com/site/quality/node05-fqc.avif
-      alt: Final product inspection of finished SUP boards before packing
+      alt: Final product inspection of finished agrochemical formulations before packing
     - title: 'PSI — Packaging & Pre-Shipment Inspection'
-      description: 'The packed kit is checked 100% against the customer-approved BOM — barcode scan (Grade ≥ B), carton markings and ISTA-1A drop test before loading.'
+      description: 'The packed shipment is checked 100% against the customer-approved BOM — barcode scan (Grade ≥ B), container markings and packaging integrity before loading.'
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
       link_label: 'Download PSI reports (PDF)'
       image: https://assets.agrospear.com/site/quality/node06-psi.avif
-      alt: Pre-shipment inspection checking the packed SUP kit against the BOM
+      alt: Pre-shipment inspection checking the packed agrochemical shipment against the BOM
     - title: 'Shipment Release & Traceability'
-      description: 'Quality signs off the batch only when all six previous gates are closed. Serial numbers are mapped to the batch and the dossier is handed over with the shipment.'
+      description: 'Quality signs off the batch only when all six previous gates are closed. Batch numbers are mapped to the shipment and the dossier is handed over with the delivery.'
       link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
       link_label: 'Download release reports (PDF)'
       image: https://assets.agrospear.com/site/quality/node07-shipment-release.avif
       alt: Shipment release sign-off and batch traceability record handover
 cta:
   title: See our equipment and machinery
-  desc: Explore the industrial-grade equipment behind every Agrospear SUP board.
+  desc: Explore the industrial-grade equipment behind every Agrospear formulation.
   label: View equipment →
   link: /factory/equipment

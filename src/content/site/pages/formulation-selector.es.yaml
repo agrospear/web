@@ -1,0 +1,78 @@
+meta:
+  title: 'Selector de formulaciones agroquímicas | {SITE}'
+  description: 'Concentraciones, tipos de formulación y usos recomendados para cada producto Agrospear. Encuentra la formulación adecuada de herbicida, insecticida o fungicida.'
+  dateModified: '2026-08'
+  keywords:
+    - 'selector de formulaciones agroquímicas'
+    - 'tipos de formulación herbicida'
+    - 'especificaciones insecticida SC EC'
+    - 'tabla de formulaciones fungicida'
+hero:
+  title: Selector de formulaciones y especificaciones
+  subtitle: Concentraciones, tipos de formulación y usos recomendados para cada producto Agrospear.
+
+categories:
+  herbicide: Herbicidas formulados para el control eficaz de malezas. Selecciona la formulación según el cultivo y el modo de acción.
+  insecticide: Insecticidas para el control de plagas en cultivos de campo, frutales y hortalizas. Elige por ingrediente activo y concentración.
+  fungicide: Fungicidas y tratamientos de semillas para la protección contra enfermedades fúngicas. Múltiples tipos de formulación disponibles.
+
+table:
+  headers:
+    product: Producto
+    formulation: Formulación
+    concentration: Concentración
+    ai: Ingrediente activo
+    best_for: Ideal para
+  rows:
+    - product: 'Glifosato SL'
+      formulation: 'SL (Solución líquida)'
+      concentration: '480 g/L'
+      ai: 'Glifosato (sal isopropilamina)'
+      best_for: Control total de malezas en barbecho y pre-siembra
+    - product: 'Atrazina SC'
+      formulation: 'SC (Suspensión concentrada)'
+      concentration: '500 g/L'
+      ai: 'Atrazina'
+      best_for: Control de malezas de hoja ancha en maíz y sorgo
+    - product: 'Imidacloprid SC'
+      formulation: 'SC (Suspensión concentrada)'
+      concentration: '350 g/L'
+      ai: 'Imidacloprid'
+      best_for: Control de insectos chupadores en hortalizas y frutales
+    - product: 'Lambda-cialotrina EC'
+      formulation: 'EC (Concentrado emulsionable)'
+      concentration: '50 g/L'
+      ai: 'Lambda-cialotrina'
+      best_for: Control de insectos masticadores y barrenadores en cultivos de campo
+    - product: 'Azoxistrobina SC'
+      formulation: 'SC (Suspensión concentrada)'
+      concentration: '250 g/L'
+      ai: 'Azoxistrobina'
+      best_for: Prevención de enfermedades fúngicas en cereales y frutales
+    - product: 'Tiram FS'
+      formulation: 'FS (Suspensión para tratamiento de semillas)'
+      concentration: '400 g/L'
+      ai: 'Tiram'
+      best_for: Tratamiento de semillas contra hongos del suelo y pudrición
+
+how_to_choose:
+  title: Cómo elegir la formulación adecuada
+  cards:
+    - title: Formulaciones SC
+      description: Las suspensiones concentradas (SC) ofrecen alta concentración de ingrediente activo, excelente suspensibilidad y fácil medición. Ideales para herbicidas e insecticidas sistémicos. Requieren buena agitación antes de la aplicación.
+    - title: Formulaciones EC
+      description: Los concentrados emulsionables (EC) se dispersan como emulsión en agua. Excelente penetración foliar. Ideales para insecticidas de contacto. Verificar la estabilidad de emulsión y la compatibilidad con el agua de aplicación.
+    - title: Formulaciones WP y WDG
+      description: Los polvos mojables (WP) y gránulos dispersables en agua (WDG) son fáciles de almacenar y transportar. Ideales para fungicidas. Los WDG generan menos polvo y se dispersan más rápidamente que los WP.
+
+cta:
+  title: 'Explora formulaciones por tipo, o habla con un ingeniero'
+  subtitle: 'Compara formulaciones SC, EC, WP, WDG y FS en nuestra gama de productos — o envía tus requisitos de cultivo y te recomendaremos la formulación adecuada para tu proyecto.'
+  actions:
+    - variant: primary
+      text: Ver productos agroquímicos
+      href: /es/products
+    - text: Más conocimiento sobre formulaciones
+      href: /es/knowledge
+    - text: Cómo se fabrican las formulaciones
+      href: /es/factory/process
