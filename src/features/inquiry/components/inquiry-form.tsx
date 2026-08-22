@@ -178,9 +178,9 @@ export function InquiryForm({
               <option value="brand">{t('inquiry.businessOptions.brand')}</option>
               <option value="retailer">{t('inquiry.businessOptions.retailer')}</option>
               <option value="distributor">{t('inquiry.businessOptions.distributor')}</option>
-              <option value="resort">{t('inquiry.businessOptions.resort')}</option>
-              <option value="club">{t('inquiry.businessOptions.club')}</option>
-              <option value="rental">{t('inquiry.businessOptions.rental')}</option>
+              <option value="farm-cooperative">{t('inquiry.businessOptions.farm-cooperative')}</option>
+              <option value="government">{t('inquiry.businessOptions.government')}</option>
+              <option value="importer">{t('inquiry.businessOptions.importer')}</option>
               <option value="corporate">{t('inquiry.businessOptions.corporate')}</option>
               <option value="other">{t('inquiry.businessOptions.other')}</option>
             </Select>
@@ -225,11 +225,11 @@ export function InquiryForm({
             <Label htmlFor="inq-qty">{t('inquiry.quantity')} <span className="req">*</span></Label>
             <Select id="inq-qty" name="quantity" defaultValue="" required autoComplete="off">
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
-              <option value="q1-9">{t('inquiry.quantityOptions.q1-9')}</option>
-              <option value="q10-49">{t('inquiry.quantityOptions.q10-49')}</option>
+              <option value="q1-4">{t('inquiry.quantityOptions.q1-4')}</option>
+              <option value="q5-19">{t('inquiry.quantityOptions.q5-19')}</option>
+              <option value="q20-49">{t('inquiry.quantityOptions.q20-49')}</option>
               <option value="q50-99">{t('inquiry.quantityOptions.q50-99')}</option>
-              <option value="q100-299">{t('inquiry.quantityOptions.q100-299')}</option>
-              <option value="q300-499">{t('inquiry.quantityOptions.q300-499')}</option>
+              <option value="q100-499">{t('inquiry.quantityOptions.q100-499')}</option>
               <option value="q500">{t('inquiry.quantityOptions.q500')}</option>
               <option value="unsure">{t('inquiry.quantityOptions.unsure')}</option>
             </Select>
@@ -308,7 +308,7 @@ export function InquiryForm({
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="standard">{t('inquiry.constructionOptions.standard')}</option>
               <option value="premium">{t('inquiry.constructionOptions.premium')}</option>
-              <option value="rental">{t('inquiry.constructionOptions.rental')}</option>
+              <option value="custom">{t('inquiry.constructionOptions.custom')}</option>
               <option value="need-rec">{t('inquiry.constructionOptions.need-rec')}</option>
             </Select>
             <span className="field-hint">{t('inquiry.constructionHint')}</span>
@@ -328,7 +328,7 @@ export function InquiryForm({
           <div className="field sm:col-span-2">
             <Label>{t('inquiry.customization')} <span className="req">*</span></Label>
             <div className="mt-2 grid gap-2 sm:grid-cols-2">
-              {(['logo', 'graphics', 'eva', 'accessories', 'packaging', 'tooling', 'not-sure'] as const).map((v) => (
+              {(['logo', 'label', 'color-coding', 'accessories', 'packaging', 'tooling', 'not-sure'] as const).map((v) => (
                 <CheckOption
                   key={v}
                   checked={!!customization[v]}

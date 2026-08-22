@@ -16,29 +16,29 @@ import {
 
 function validInput(overrides: Partial<InquiryInput> = {}): InquiryInput {
   return {
-    company: 'Acme Boards GmbH',
-    website: 'acme-boards.com',
+    company: 'Acme Crop Protection GmbH',
+    website: 'acme-crop.com',
     country: 'Germany',
-    email: 'purchasing@acme-boards.com',
+    email: 'purchasing@acme-crop.com',
     whatsapp: '+49 170 0000000',
     businessType: 'brand',
-    quantity: 'q100-299',
-    category: 'all-around',
+    quantity: 'q100-499',
+    category: 'herbicide',
     timeline: 't3-6mo',
-    targetMarket: 'EU retailers',
+    targetMarket: 'EU distributors',
     projectStage: 'reviewing',
     role: 'purchasing',
-    boardPlatform: '11′ × 32″',
+    boardPlatform: 'SC herbicide, glyphosate 480 g/L',
     construction: 'premium',
-    customization: 'logo,graphics',
+    customization: 'logo,label',
     packaging: 'branded',
     compliance: 'eu',
     docs: 'test-report',
     annualVolume: 'v300-999',
-    budget: '€349–€449 retail',
+    budget: 'B2B quotation basis',
     nda: 'no',
     consent: 'yes',
-    requirements: 'Need UV-resistant boards with custom graphics for our summer fleet.',
+    requirements: 'Need custom-labeled SC herbicide with EU registration support for our distributor network.',
     ...overrides,
   }
 }
@@ -48,7 +48,7 @@ describe('clampInquiryInput', () => {
     const out = clampInquiryInput({ ...validInput(), website: 'HTTPS://Acme-Boards.com/', email: '  Buyer@Acme-Boards.COM ' })
     expect(out.website).toBe('Acme-Boards.com/')
     expect(out.email).toBe('buyer@acme-boards.com')
-    expect(out.company).toBe('Acme Boards GmbH')
+    expect(out.company).toBe('Acme Crop Protection GmbH')
   })
 
   test('rejects unknown enum values → empty string (hard fail in isValid)', () => {
@@ -56,7 +56,7 @@ describe('clampInquiryInput', () => {
       ...validInput(),
       businessType: 'hacker',
       quantity: 'q999999',
-      category: 'mystery-board',
+      category: 'mystery-formulation',
       timeline: 'yesterday',
       projectStage: 'nowhere',
       role: 'ceo-troll',
@@ -84,8 +84,8 @@ describe('clampInquiryInput', () => {
   test('keeps known enum values', () => {
     const out = clampInquiryInput(validInput())
     expect(out.businessType).toBe('brand')
-    expect(out.quantity).toBe('q100-299')
-    expect(out.category).toBe('all-around')
+    expect(out.quantity).toBe('q100-499')
+    expect(out.category).toBe('herbicide')
     expect(out.timeline).toBe('t3-6mo')
     expect(out.projectStage).toBe('reviewing')
     expect(out.role).toBe('purchasing')
@@ -173,7 +173,7 @@ describe('scoreInquiry', () => {
       validInput({
         email: 'someone@gmail.com',
         businessType: 'other',
-        quantity: 'q1-9',
+        quantity: 'q1-4',
         timeline: 'unsure',
         projectStage: 'future',
         construction: 'need-rec',

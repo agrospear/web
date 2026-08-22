@@ -629,7 +629,7 @@ export const enProduct = {
     fileSize: 'File is too large (max 10 MB).',
     businessOptions: {
       brand: 'Brand owner', retailer: 'Retailer / DTC brand', distributor: 'Importer or distributor',
-      government: 'Government agency', ngo: 'NGO or development organization', cooperative: 'Agricultural cooperative',
+      'farm-cooperative': 'Agricultural cooperative', government: 'Government agency', importer: 'Import agent / broker',
       corporate: 'Corporate / institution', other: 'Other',
     },
     categoryOptions: {
@@ -663,11 +663,11 @@ export const enProduct = {
       designer: 'Designer', operations: 'Operations', other: 'Other',
     },
     constructionOptions: {
-      standard: 'Standard formulation', premium: 'Premium / optimized', rental: 'Commercial volume', 'need-rec': 'Need recommendation',
+      standard: 'Standard formulation', premium: 'Premium / optimized', custom: 'Custom specification', 'need-rec': 'Need recommendation',
     },
     customizationOptions: {
-      logo: 'Logo / branding', graphics: 'Custom label design', formulation: 'Custom formulation',
-      packaging: 'Custom packaging', 'private-label': 'Private label', 'not-sure': 'Not sure yet',
+      logo: 'Logo / branding', label: 'Custom label design', 'color-coding': 'Custom color coding',
+      packaging: 'Custom packaging', tooling: 'Custom tooling', 'not-sure': 'Not sure yet',
     },
     packagingOptions: {
       export: 'Standard export carton', branded: 'Branded retail box', custom: 'Custom carton',

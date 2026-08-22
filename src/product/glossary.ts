@@ -17,7 +17,7 @@ export const GLOSSARY: GlossaryEntry[] = [
   { term: 'BSCI', short: 'Business Social Compliance Initiative — a social responsibility audit standard by amfori, covering labor rights, safety and ethics at the manufacturing facility.', locale: 'en' },
   { term: 'MOQ', short: 'Minimum Order Quantity — confirmed after specification review. Tiered: 1–4 t sample, 5 t pilot, 20+ t standard volume per approved formulation.', locale: 'en' },
   { term: 'WDG (Water Dispersible Granule)', short: 'A granular formulation that disintegrates and disperses in water, combining the handling convenience of granules with the uniform spray of powders.', locale: 'en' },
-  { term: 'EVA deck pad', short: 'Ethylene-vinyl acetate container seal and label backing. Custom-cut to your design with logo, color blocks and regulatory text layout.', locale: 'en' },
+  { term: 'EVA seal/label', short: 'Ethylene-vinyl acetate container seal and label backing. Custom-cut to your design with logo, color blocks and regulatory text layout.', locale: 'en' },
   { term: 'SL (Soluble Liquid)', short: 'A liquid formulation where the active ingredient is fully dissolved in water or solvent, providing homogeneous dilution and consistent application.', locale: 'en' },
 
   { term: 'OEM', short: 'Fabricante de Equipo Original — fabricamos según tu especificación aprobada; tú eres propietario de la formulación, los datos técnicos y la propiedad intelectual.', locale: 'es' },

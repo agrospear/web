@@ -1,26 +1,24 @@
 /** Shared inquiry types + validation limits (pure, node-testable). */
 
-export type InquiryBusinessType = 'brand' | 'retailer' | 'distributor' | 'resort' | 'club' | 'rental' | 'corporate' | 'other'
-export type InquiryQuantity = 'q1-9' | 'q10-49' | 'q50-99' | 'q100-299' | 'q300-499' | 'q500' | 'unsure'
+export type InquiryBusinessType = 'brand' | 'retailer' | 'distributor' | 'farm-cooperative' | 'government' | 'importer' | 'corporate' | 'other'
+export type InquiryQuantity = 'q1-4' | 'q5-19' | 'q20-49' | 'q50-99' | 'q100-499' | 'q500' | 'unsure'
 export type InquiryCategory =
-  | 'all-around'
-  | 'race'
-  | 'surf'
-  | 'touring'
-  | 'yoga'
-  | 'whitewater'
-  | 'fishing'
-  | 'kids'
-  | 'multi'
-  | 'hard'
+  | 'herbicide'
+  | 'insecticide'
+  | 'fungicide'
+  | 'pgr'
+  | 'seed-treatment'
+  | 'adjuvant'
+  | 'biopesticide'
+  | 'mixture'
   | 'accessories'
   | 'multiple'
   | 'unsure'
 export type InquiryTimeline = 'now' | 't1-3mo' | 't3-6mo' | 't6-12mo' | 't12mo+' | 'unsure'
 export type InquiryProjectStage = 'ready' | 'reviewing' | 'developing' | 'sampling' | 'future'
 export type InquiryRole = 'owner' | 'purchasing' | 'product' | 'designer' | 'operations' | 'other'
-export type InquiryConstruction = 'standard' | 'premium' | 'rental' | 'need-rec'
-export type InquiryCustomization = 'logo' | 'graphics' | 'eva' | 'accessories' | 'packaging' | 'tooling' | 'not-sure'
+export type InquiryConstruction = 'standard' | 'premium' | 'custom' | 'need-rec'
+export type InquiryCustomization = 'logo' | 'label' | 'color-coding' | 'accessories' | 'packaging' | 'tooling' | 'not-sure'
 export type InquiryPackaging = 'export' | 'branded' | 'custom' | 'mixed' | 'not-decided'
 export type InquiryCompliance = 'eu' | 'uk' | 'us-ca' | 'au-nz' | 'other' | 'guidance'
 export type InquiryDocs = 'audit' | 'declaration' | 'test-report' | 'labeling' | 'inspection' | 'not-decided'
@@ -29,16 +27,16 @@ export type InquiryNda = 'yes' | 'no'
 export type InquiryStatus = 'new' | 'contacted' | 'quoted' | 'closed'
 export type InquiryTier = 'A' | 'B' | 'C'
 
-export const BUSINESS_TYPES: InquiryBusinessType[] = ['brand', 'retailer', 'distributor', 'resort', 'club', 'rental', 'corporate', 'other']
-export const QUANTITIES: InquiryQuantity[] = ['q1-9', 'q10-49', 'q50-99', 'q100-299', 'q300-499', 'q500', 'unsure']
+export const BUSINESS_TYPES: InquiryBusinessType[] = ['brand', 'retailer', 'distributor', 'farm-cooperative', 'government', 'importer', 'corporate', 'other']
+export const QUANTITIES: InquiryQuantity[] = ['q1-4', 'q5-19', 'q20-49', 'q50-99', 'q100-499', 'q500', 'unsure']
 export const CATEGORIES: InquiryCategory[] = [
-  'all-around', 'race', 'surf', 'touring', 'yoga', 'whitewater', 'fishing', 'kids', 'multi', 'hard', 'accessories', 'multiple', 'unsure',
+  'herbicide', 'insecticide', 'fungicide', 'pgr', 'seed-treatment', 'adjuvant', 'biopesticide', 'mixture', 'accessories', 'multiple', 'unsure',
 ]
 export const TIMELINES: InquiryTimeline[] = ['now', 't1-3mo', 't3-6mo', 't6-12mo', 't12mo+', 'unsure']
 export const PROJECT_STAGES: InquiryProjectStage[] = ['ready', 'reviewing', 'developing', 'sampling', 'future']
 export const ROLES: InquiryRole[] = ['owner', 'purchasing', 'product', 'designer', 'operations', 'other']
-export const CONSTRUCTIONS: InquiryConstruction[] = ['standard', 'premium', 'rental', 'need-rec']
-export const CUSTOMIZATIONS: InquiryCustomization[] = ['logo', 'graphics', 'eva', 'accessories', 'packaging', 'tooling', 'not-sure']
+export const CONSTRUCTIONS: InquiryConstruction[] = ['standard', 'premium', 'custom', 'need-rec']
+export const CUSTOMIZATIONS: InquiryCustomization[] = ['logo', 'label', 'color-coding', 'accessories', 'packaging', 'tooling', 'not-sure']
 export const PACKAGINGS: InquiryPackaging[] = ['export', 'branded', 'custom', 'mixed', 'not-decided']
 export const COMPLIANCES: InquiryCompliance[] = ['eu', 'uk', 'us-ca', 'au-nz', 'other', 'guidance']
 export const DOCS: InquiryDocs[] = ['audit', 'declaration', 'test-report', 'labeling', 'inspection', 'not-decided']
@@ -281,8 +279,8 @@ export function inquiryScoreSignals(input: InquiryInput, opts: { hasFile: boolea
 
   if (!isFreeMail(email)) push('corporateMail', 15)
   if (input.company.length >= 2) push('companySet', 10)
-  if (input.businessType === 'brand' || input.businessType === 'distributor' || input.businessType === 'resort' || input.businessType === 'rental') push('businessType', 15)
-  if (input.quantity === 'q100-299' || input.quantity === 'q300-499' || input.quantity === 'q500') push('quantity', 20)
+  if (input.businessType === 'brand' || input.businessType === 'distributor' || input.businessType === 'importer' || input.businessType === 'farm-cooperative') push('businessType', 15)
+  if (input.quantity === 'q100-499' || input.quantity === 'q500') push('quantity', 20)
   else if (input.quantity === 'q50-99') push('quantity', 10)
   if (input.annualVolume !== '' && input.annualVolume !== 'not-decided') push('annualVolume', 10)
   if (input.timeline !== 'unsure') push('timeline', 10)
@@ -292,7 +290,7 @@ export function inquiryScoreSignals(input: InquiryInput, opts: { hasFile: boolea
   if (input.packaging === 'branded' || input.packaging === 'custom') push('packaging', 10)
 
   if (isFreeMail(email)) push('freeMail', -5)
-  if (input.quantity === 'q1-9') push('quantity', -25)
+  if (input.quantity === 'q1-4') push('quantity', -25)
   if (input.projectStage === 'future') push('stageFuture', -10)
   const undecidedCount = [
     input.quantity, input.timeline, input.construction, input.packaging, input.compliance, input.annualVolume, input.docs,

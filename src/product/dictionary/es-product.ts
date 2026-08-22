@@ -629,7 +629,7 @@ export const esProduct = {
     fileSize: 'El archivo es demasiado grande (máx. 10 MB).',
     businessOptions: {
       brand: 'Propietario de marca', retailer: 'Minorista / marca DTC', distributor: 'Importador o distribuidor',
-      government: 'Gobierno o institución pública', ngo: 'ONG u organización no lucrativa', corporate: 'Empresa / evento', other: 'Otro',
+      'farm-cooperative': 'Cooperativa agrícola', government: 'Gobierno o institución pública', importer: 'Agente importador / broker', corporate: 'Empresa / institución', other: 'Otro',
     },
     categoryOptions: {
       'herbicide': 'Formulaciones de herbicida',
@@ -662,11 +662,11 @@ export const esProduct = {
       designer: 'Diseñador', operations: 'Operaciones', other: 'Otro',
     },
     formulationOptions: {
-      standard: 'Formulación estándar', premium: 'Premium / optimizada', rental: 'Volumen comercial', 'need-rec': 'Necesito recomendación',
+      standard: 'Formulación estándar', premium: 'Premium / optimizada', custom: 'Especificación personalizada', 'need-rec': 'Necesito recomendación',
     },
     customizationOptions: {
-      logo: 'Logo / branding', graphics: 'Diseño de etiqueta personalizado', formulation: 'Formulación personalizada',
-      packaging: 'Embalaje personalizado', 'private-label': 'Marca privada', 'not-sure': 'Aún no lo sé',
+      logo: 'Logo / branding', label: 'Diseño de etiqueta personalizado', 'color-coding': 'Codificación de color personalizada',
+      packaging: 'Embalaje personalizado', tooling: 'Herramental personalizado', 'not-sure': 'Aún no lo sé',
     },
     packagingOptions: {
       export: 'Caja de exportación estándar', branded: 'Caja minorista con marca', custom: 'Caja personalizada',

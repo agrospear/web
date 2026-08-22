@@ -628,7 +628,7 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
         },
         {
           q: '¿Puedo cambiar los colores, el arte y el logo?',
-          a: 'Sí — gráficos, colores, EVA, logotipo, embalaje y accesorios se personalizan en cada plataforma. Comparte tu logo y te haremos una prueba visual antes de la producción.',
+          a: 'Sí — diseño de etiqueta, codificación de colores, logotipo, embalaje y accesorios se personalizan en cada plataforma. Comparte tu logo y te haremos una prueba visual antes de la producción.',
         },
         {
           q: '¿Cómo se controla la calidad antes del envío?',
