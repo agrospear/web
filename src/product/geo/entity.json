@@ -1,0 +1,76 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://agrospear.com/#organization",
+  "name": "Agrospear",
+  "alternateName": "Agrospear — Agrospear SUP Manufacturing",
+  "url": "https://agrospear.com",
+  "description": "Agrospear is the custom inflatable SUP (stand-up paddle board) OEM/ODM manufacturing division of Agrospear (Qingdao Vatrad Group Co., Ltd.), a 12,500 m² marine equipment plant in Qingdao, China. Engineering, tooling, sampling, production and export for SUP brands, distributors and sourcing teams worldwide.",
+  "industry": "Marine Equipment Manufacturing — SUP Division",
+  "foundingDate": "2012",
+  "isicV4": "3012",
+  "numberOfEmployees": "350+",
+  "logo": "https://agrospear.com/logo192.png",
+  "location": {
+    "@type": "Place",
+    "name": "Qingdao Manufacturing Facility",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Economic Development Zone, Laixi",
+      "addressLocality": "Qingdao",
+      "addressRegion": "Shandong",
+      "postalCode": "266600",
+      "addressCountry": "CN"
+    }
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Country", "name": "Germany" },
+    { "@type": "Country", "name": "France" },
+    { "@type": "Country", "name": "United Kingdom" },
+    { "@type": "Country", "name": "Australia" },
+    { "@type": "Country", "name": "Japan" },
+    { "@type": "Country", "name": "Spain" },
+    { "@type": "Country", "name": "Italy" },
+    { "@type": "Country", "name": "Netherlands" },
+    { "@type": "Country", "name": "United Arab Emirates" },
+    { "@type": "Country", "name": "China" }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+86-13305324192",
+      "contactType": "sales",
+      "email": "info@agrospear.com",
+      "availableLanguage": ["English", "Chinese", "Spanish", "French", "Arabic", "German"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+86-13305324192",
+      "contactType": "customer service",
+      "email": "info@agrospear.com",
+      "availableLanguage": ["English", "Chinese"]
+    }
+  ],
+  "sameAs": [
+    "https://www.youtube.com/@agrospear",
+    "https://www.instagram.com/agrospear_watersports/",
+    "https://www.facebook.com/profile.php?id=61572404318679",
+    "https://www.linkedin.com/company/agrospear",
+    "https://agrospear.en.alibaba.com",
+    "https://agrospear.en.made-in-china.com"
+  ],
+  "parentOrganization": {
+    "@type": "Organization",
+    "@id": "https://agrospear.com/#organization",
+    "name": "Agrospear",
+    "alternateName": "Agrospear Marine",
+    "url": "https://agrospear.com",
+    "description": "Agrospear is the parent brand — a global water sports equipment and marine innovation partner manufacturing RIB boats, inflatable boats, SUP boards and marine solutions."
+  },
+  "isPartOf": {
+    "@type": "Organization",
+    "name": "Qingdao Vatrad Group Co., Ltd.",
+    "description": "Legal entity and holding company operating the Qingdao manufacturing facility."
+  }
+}

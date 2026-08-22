@@ -6,13 +6,13 @@
  *   cp wrangler.example.jsonc wrangler.jsonc
  *
  * Placeholders to replace in `wrangler.jsonc` after creating your resources:
- *   - name                                 (your worker name, e.g. "agrospear")
- *   - env.{staging,production}.name         (e.g. "agrospear-staging", "agrospear-production")
- *   - d1_databases[].database_name          (e.g. "agrospear-db")
+ *   - name                                 (your worker name, e.g. "myproduct")
+ *   - env.{staging,production}.name         (e.g. "myproduct-staging", "myproduct-production")
+ *   - d1_databases[].database_name          (e.g. "myproduct-db")
  *   - d1_databases[].database_id            (wrangler d1 create ...)
- *   - r2_buckets[].bucket_name              (e.g. "agrospear-files")
+ *   - r2_buckets[].bucket_name              (e.g. "myproduct-files")
  *   - kv_namespaces[].id                    (wrangler kv namespace create CACHE --env ...)
- *   - vectorize[].index_name                (e.g. "agrospear-knowledge")
+ *   - vectorize[].index_name                (e.g. "myproduct-knowledge")
  *   - optionally add env.production.routes for a custom domain
  *
  * All resource names follow the convention: {siteId}-{resource}-{env}
@@ -24,7 +24,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "supsfactory",
+	"name": "agrospear",
 	"compatibility_date": "2026-05-30",
 	"compatibility_flags": [
 		"nodejs_compat"
@@ -43,7 +43,7 @@
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "supsfactory-db",
+			"database_name": "agrospear-db",
 			"database_id": "00000000-0000-0000-0000-000000000000",
 			"migrations_dir": "drizzle"
 		}
@@ -51,7 +51,7 @@
 	"r2_buckets": [
 		{
 			"binding": "BUCKET",
-			"bucket_name": "supsfactory-files"
+			"bucket_name": "agrospear-files"
 		}
 	],
 	"kv_namespaces": [
@@ -65,7 +65,7 @@
 	// Daily reindex uses ~774 neurons; per-query ~14 neurons; daily cap of
 	// 500 AI queries = ~7,774 neurons/day (safe margin under 10,000).
 	// When bindings are absent (local dev), ask() falls back to FAQ keyword search.
-	// Setup: `wrangler vectorize create supsfactory-knowledge --dimensions=1024 --metric=cosine`
+	// Setup: `wrangler vectorize create agrospear-knowledge --dimensions=1024 --metric=cosine`
 	//         `wrangler secret put REINDEX_TOKEN`
 	"ai": {
 		"binding": "AI"
@@ -73,7 +73,7 @@
 	"vectorize": [
 		{
 			"binding": "VECTORIZE",
-			"index_name": "supsfactory-knowledge"
+			"index_name": "agrospear-knowledge"
 		}
 	],
 	"vars": {
@@ -96,7 +96,7 @@
 	},
 	"env": {
 		"staging": {
-			"name": "supsfactory-staging",
+			"name": "agrospear-staging",
 			"triggers": {
 				"crons": [
 					"0 3 * * *",
@@ -106,7 +106,7 @@
 			"d1_databases": [
 				{
 					"binding": "DB",
-					"database_name": "supsfactory-db-staging",
+					"database_name": "agrospear-db-staging",
 					"database_id": "00000000-0000-0000-0000-000000000000",
 					"migrations_dir": "drizzle"
 				}
@@ -114,7 +114,7 @@
 			"r2_buckets": [
 				{
 					"binding": "BUCKET",
-					"bucket_name": "supsfactory-files-staging"
+					"bucket_name": "agrospear-files-staging"
 				}
 			],
 			"kv_namespaces": [
@@ -129,12 +129,12 @@
 			"vectorize": [
 				{
 					"binding": "VECTORIZE",
-					"index_name": "supsfactory-knowledge-staging"
+					"index_name": "agrospear-knowledge-staging"
 				}
 			]
 		},
 		"production": {
-			"name": "supsfactory-production",
+			"name": "agrospear-production",
 			"triggers": {
 				"crons": [
 					"0 3 * * *",
@@ -144,7 +144,7 @@
 			"d1_databases": [
 				{
 					"binding": "DB",
-					"database_name": "supsfactory-db-prod",
+					"database_name": "agrospear-db-prod",
 					"database_id": "00000000-0000-0000-0000-000000000000",
 					"migrations_dir": "drizzle"
 				}
@@ -152,7 +152,7 @@
 			"r2_buckets": [
 				{
 					"binding": "BUCKET",
-					"bucket_name": "supsfactory-files-prod"
+					"bucket_name": "agrospear-files-prod"
 				}
 			],
 			"kv_namespaces": [
@@ -167,7 +167,7 @@
 			"vectorize": [
 				{
 					"binding": "VECTORIZE",
-					"index_name": "supsfactory-knowledge-prod"
+					"index_name": "agrospear-knowledge-prod"
 				}
 			]
 		}

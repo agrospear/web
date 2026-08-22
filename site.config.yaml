@@ -14,10 +14,10 @@ site_name: "Agrospear"         # display name (PascalCase)
 site_domain: "agrospear.com"   # production domain
 
 # ── Brand Copy ────────────────────────────────────────────────────────────────
-tagline: "Your brand tagline — one compelling sentence."
-description: "Your brand description — 80–170 chars for SEO meta."
-boilerplate: "Agrospear is a [category] company based in [location]."
-build_line: "We [what you do] — you own [what they keep]."
+tagline: "Professional agrochemical solutions for global crop protection."
+description: "Agrospear manufactures and exports agrochemical products — herbicides, insecticides, fungicides — for crop protection brands and distributors worldwide."
+boilerplate: "Agrospear is an agrochemical manufacturing and export company based in Qingdao, China."
+build_line: "We formulate and manufacture crop protection products — you own the brand and the market."
 not_rob: "We do not compete with our clients in any market."
 og_image_filename: "og-default"
 
@@ -91,11 +91,11 @@ cron_cache_warm: "*/5 * * * *"
 # These drive the B2B content generation (hero, products, solutions, facts, etc.)
 
 # ── Product Domain ─────────────────────────────────────────────────────────────
-product_type: "product"           # singular noun: "board", "pump", "fixture", "module"
-product_type_plural: "products"   # plural noun: "boards", "pumps", "fixtures", "modules"
-product_slug: "products"          # URL slug for product section: /products
-industry: "manufacturing"         # primary industry: "manufacturing", "textiles", "electronics"
-industry_adjective: "industrial"  # adjective form: "inflatable", "industrial", "electronic"
+product_type: "formulation"           # singular noun: "board", "pump", "fixture", "module"
+product_type_plural: "formulations"   # plural noun: "boards", "pumps", "fixtures", "modules"
+product_slug: "products"              # URL slug for product section: /products
+industry: "agrochemicals"             # primary industry: "manufacturing", "textiles", "electronics"
+industry_adjective: "agrochemical"    # adjective form: "inflatable", "industrial", "electronic"
 
 # ── Manufacturing Facts ────────────────────────────────────────────────────────
 factory_size: ""                  # e.g. "12,500 m²"
@@ -171,7 +171,7 @@ llm_faq_description: "Description of the FAQ section for LLMs."
 # ── Hero Content ──────────────────────────────────────────────────────────────
 hero_kicker: ""                   # e.g. "Qingdao Factory · OEM/ODM · Samples to Batch"
 hero_title_pre: "Custom"          # before the accent
-hero_title_accent: "Product Manufacturing for Brands & Distributors"
+hero_title_accent: "Agrochemical Manufacturing for Brands & Distributors"
 hero_title_post: ""
 hero_sub: ""                      # subtitle
 hero_cta_primary: "Start Your Project"

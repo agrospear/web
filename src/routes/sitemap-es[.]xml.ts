@@ -10,11 +10,11 @@ import { knowledge } from '@/product/knowledge'
 import { seriesPages } from '@/product/series-pages'
 
 // Spanish marketing pages (hreflang-linked to the English pages file) plus the
-// afarer pages and detail content (news/products/technology/case-use/guides)
+// agrospear pages and detail content (news/products/technology/case-use/guides)
 // that ship a real Spanish variant.
 const handler = () => {
   const origin = new URL(env.BETTER_AUTH_URL).origin
-  const afarerEs = getLocalePaths('es')
+  const agrospearEs = getLocalePaths('es')
     .filter((p) => !(p in EDGE_REDIRECTS) && !(p in LEGACY_REDIRECTS))
     .map((p) => ({ path: p }))
   const detailEs = [
@@ -27,7 +27,7 @@ const handler = () => {
     ...knowledge.es.map((a) => ({ path: `/knowledge/${a.slug}` })),
     ...seriesPages.es.map((s) => ({ path: `/products/${s.slug}` })),
   ]
-  return new Response(buildLocaleSitemap(origin, 'es', [...PUBLIC_PATHS, ...detailEs, ...afarerEs]), {
+  return new Response(buildLocaleSitemap(origin, 'es', [...PUBLIC_PATHS, ...detailEs, ...agrospearEs]), {
     headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },
   })
 }

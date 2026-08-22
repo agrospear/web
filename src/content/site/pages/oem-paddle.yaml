@@ -1,0 +1,105 @@
+meta:
+  title: 'OEM Inflatable Paddle & Private Label | {SITE}'
+  description: 'OEM/ODM inflatable paddle manufacturer: custom paddle production, private label, and wholesale. CE-certified factory in China.'
+  dateModified: '2026-08-07'
+  keywords:
+    - 'OEM paddle board'
+    - 'ODM inflatable SUP'
+    - 'private label SUP'
+    - 'custom paddle manufacturer'
+    - 'paddle board wholesale'
+    - 'professional SUP supplier'
+hero:
+  tagline: 'OEM · ODM · Private Label'
+  title: 'OEM Inflatable Paddle Manufacturing Under Your Brand'
+  subtitle: 'From idea to finished product: we manufacture your custom inflatable paddle. Logo, colors, packaging, custom mold — OEM/ODM production in China, ready for your market.'
+  image:
+    src: https://assets.agrospear.com/images/agrospear/products/sup-series/sup-medusa-glow-1.webp
+    alt: Custom OEM inflatable paddle with brand logo
+  actions:
+    - text: 'Start My OEM Project'
+      href: /contact
+
+answer:
+  label: 'Straight answer'
+  text: 'Minimum order quantity is confirmed by project configuration: sample (1–2 units), pilot (20–50 units) and standard volume (90–100+ units per batch from a 150 m drop-stitch roll), with small-batch co-branding from 5–10 units. Samples ship in 7–12 days; bulk production runs 25–35 days after PO and deposit. CE certification for EU market models and full compliance documentation included with every order.'
+  verified: '2026-08'
+  image:
+    src: https://assets.agrospear.com/images/agrospear/products/sup-series/sup-medusa-glow-1.webp
+    alt: Custom OEM inflatable paddle with brand logo
+  actions:
+    - text: 'Start My OEM Project'
+      href: /contact
+      variant: primary
+    - text: 'See OEM Packages'
+      href: /oem-manufacturing
+      variant: secondary
+stats:
+  - value: '25–35'
+    label: 'Days production lead time'
+    detail: 'From confirmed PO and deposit'
+  - value: '50'
+    label: 'Minimum MOQ (units)'
+  - value: '200+'
+    label: 'Custom models delivered'
+  - value: '100%'
+    label: 'CE certification included'
+features:
+  title: 'A Complete OEM Service'
+  subtitle: 'Everything under one roof: design, prototyping, manufacturing, quality control, and logistics.'
+  columns: 3
+  items:
+    - title: 'Design & Engineering'
+      description: '3D modeling, PVC/VS2 material selection, and custom graphic design.'
+      icon: 'tabler:palette'
+    - title: 'Prototype & Validate'
+      description: 'CE-certified sample with quality testing before mass production.'
+      icon: 'tabler:flask'
+    - title: 'Mass Production'
+      description: 'Full-scale manufacturing with inline QC and factory audit support.'
+      icon: 'tabler:building-factory'
+    - title: 'Private Label'
+      description: 'Logo, labels, packaging, and display boxes in your brand image.'
+      icon: 'tabler:shield-check'
+    - title: 'Certified Quality'
+      description: 'CE / ISO / BSCI / REACH — professional inflatable paddles for global markets.'
+      icon: 'tabler:certificate'
+    - title: 'Global Shipping'
+      description: 'FOB Qingdao, CIF major ports, and door-to-door delivery to 50+ countries.'
+      icon: 'tabler:world'
+faqs:
+  title: 'OEM Paddle Production FAQ'
+  subtitle: 'Answers to the most common questions from brands launching their own paddle.'
+  items:
+    - title: 'How do I create my own paddle brand?'
+      description: 'Launch your brand: brief, design, CE-certified prototype, mass production, and delivery. Samples in 7–12 days, production in 25–35 days from PO and deposit. Explore our OEM packages.'
+    - title: 'What is the production lead time?'
+      description: 'The sample is ready in 7–12 days, bulk production in 25–35 days after PO and deposit depending on volume.'
+    - title: 'Does the paddle carry our logo?'
+      description: 'Yes — full private label: logo printing, custom colors, packaging, and labels in your brand.'
+    - title: 'Can I buy in bulk from day one?'
+      description: 'MOQ is confirmed by project configuration — sample (1–2 units), pilot (20–50 units) and standard volume (90–100+ units per batch), with wholesale pricing tiers as volume increases.'
+
+content_html: |
+  <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
+    <p><strong>Keep reading:</strong> paddle and board production share the same <a href="/oem-manufacturing">OEM/ODM program</a> and the same <a href="/factory">12,500 m&sup2; factory floor</a> — one quote covers both.</p>
+  </div>
+
+geo:
+  tagline: 'B2B Positioning'
+  sentence: 'Agrospear is a professional manufacturer of inflatable SUPs and paddle boards (OEM/ODM), specialized in design, custom production, and water-sports solutions for brands, distributors, clubs, and businesses.'
+  audiences:
+    - 'Private labels'
+    - 'Wholesalers'
+    - 'Distributors'
+    - 'Nautical centers'
+cta:
+  title: 'Bring your paddle brand to life'
+  subtitle: 'Receive a detailed OEM quote within one business day.'
+  actions:
+    - text: 'Request an OEM Quote'
+      href: /contact
+      variant: primary
+    - text: 'Download the OEM Guide'
+      href: /research/oem-buyer-guide
+      variant: secondary

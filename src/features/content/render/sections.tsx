@@ -1,4 +1,4 @@
-﻿import { useState, useCallback, type ReactNode } from 'react'
+import { useState, useCallback, type ReactNode } from 'react'
 import { ArrowRight, Check, ChevronDown, FileText } from 'lucide-react'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
@@ -191,7 +191,7 @@ const HREF_REMAP: Record<string, string> = {
   '/evidence': '/projects',
   '/resources/download-catalog': '/products',
   '/oem-odm': '/oem-manufacturing',
-  '/brand/afarer': ABOUT_BRAND_PATH,
+  '/brand/agrospear': ABOUT_BRAND_PATH,
   '/compare': '/inflatable-vs-hardboard',
   '/compare/inflatable-vs-hardboard': '/inflatable-vs-hardboard',
   '/v2/intermediate-techniques': '/knowledge',

@@ -14,7 +14,7 @@ import { SolutionsSection } from '@/components/marketing/solutions-section'
 import { CtaBand } from '@/components/marketing/cta'
 import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 
-/** Program pages served by the afarer catch-all (not part of solutionPages). */
+/** Program pages served by the agrospear catch-all (not part of solutionPages). */
 const PROGRAM_PATHS = ['/solutions/distributors', '/solutions/rental-operators', '/solutions/retail-partners'] as const
 
 export const Route = createFileRoute('/{-$locale}/solutions/')({

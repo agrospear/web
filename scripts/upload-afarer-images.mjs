@@ -1,7 +1,7 @@
 /**
- * Uploads the afarer image tree to R2 under `images/sups/`.
+ * Uploads the agrospear image tree to R2 under `images/sups/`.
  *
- * Source:  <afarer-repo>/public/images/afarer/   (211 webp + 2 jpg + 1 ico)
+ * Source:  <agrospear-repo>/public/images/agrospear/   (211 webp + 2 jpg + 1 ico)
  * Target:  R2 bucket, key prefix `images/sups/` so the CDN URLs match the
  *          rewrite in src/features/content/assets.ts.
  *
@@ -20,10 +20,10 @@
  * Bucket name defaults to ${SITE_ID}-files-prod (override via R2_BUCKET).
  *
  * Usage:
- *   node scripts/upload-afarer-images.mjs                              # S3 mode
- *   node scripts/upload-afarer-images.mjs --http                       # HTTP API mode
- *   node scripts/upload-afarer-images.mjs --dry-run                    # list without upload
- *   node scripts/upload-afarer-images.mjs --src E:/github/afarer/public/images/afarer
+ *   node scripts/upload-agrospear-images.mjs                              # S3 mode
+ *   node scripts/upload-agrospear-images.mjs --http                       # HTTP API mode
+ *   node scripts/upload-agrospear-images.mjs --dry-run                    # list without upload
+ *   node scripts/upload-agrospear-images.mjs --src E:/github/agrospear/public/images/agrospear
  */
 
 import { createHash, createHmac } from 'node:crypto'
@@ -48,7 +48,7 @@ const KEY_PREFIX = flagValue('prefix', 'images/sups/')
 const CACHE_CONTROL = flagValue('cache', 'public, max-age=31536000, immutable')
 const CONCURRENCY = 8
 
-const BUCKET = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'supsfactory'}-files-prod`
+const BUCKET = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'agrospear'}-files-prod`
 const ACCOUNT_ID = process.env[HTTP_MODE ? 'CLOUDFLARE_ACCOUNT_ID' : 'R2_ACCOUNT_ID'] ?? ''
 const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN ?? ''
 const ACCESS_KEY = process.env.R2_ACCESS_KEY_ID ?? ''

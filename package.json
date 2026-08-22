@@ -22,6 +22,10 @@
     "db:migrate:local": "wrangler d1 migrations apply ${npm_config_site_id:-agrospear}-db --local",
     "db:migrate:staging": "wrangler d1 migrations apply ${npm_config_site_id:-agrospear}-db-staging --env staging --remote",
     "db:migrate:prod": "wrangler d1 migrations apply ${npm_config_site_id:-agrospear}-db-prod --env production --remote",
+    "db:seed:local": "wrangler d1 execute ${npm_config_site_id:-agrospear}-db --local --file=./scripts/demo.sql",
+    "db:seed:framework:local": "wrangler d1 execute ${npm_config_site_id:-agrospear}-db --local --file=./scripts/framework.sql",
+    "db:reset:local": "rm -rf .wrangler/state/v3/d1 && pnpm db:migrate:local && pnpm db:seed:local",
+    "upload:images": "node scripts/upload-agrospear-images.mjs",
     "upload:site-assets": "node scripts/upload-site-assets.mjs"
   },
   "dependencies": {
@@ -75,5 +79,22 @@
     "vite": "^8.2.1",
     "vitest": "^4.1.5",
     "wrangler": "^4.123.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild",
+      "lightningcss",
+      "sharp",
+      "workerd"
+    ],
+    "overrides": {
+      "undici": "^7.29.0",
+      "brace-expansion": "^5.0.9",
+      "esbuild": "^0.25.0",
+      "sharp": "^0.35.0",
+      "js-yaml@^4": "^4.3.1",
+      "js-yaml@^5": "^5.2.2"
+    }
   }
 }

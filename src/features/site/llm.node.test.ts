@@ -1,5 +1,5 @@
-﻿import { test, expect } from 'vitest'
-import { llmsAfarerFull, llmAfarierIndex } from '@/features/site/llm'
+import { test, expect } from 'vitest'
+import { llmsAgrospearFull, llmAfarierIndex } from '@/features/site/llm'
 import { getContentPages } from '@/features/content/loader'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
@@ -18,8 +18,8 @@ const indexPaths = (text: string): Set<string> => {
 
 const SHADOWED = new Set([...Object.keys(EDGE_REDIRECTS), ...Object.keys(LEGACY_REDIRECTS)])
 
-test('llms-full.txt contains every live afarer page (no truncation regression)', () => {
-  const full = llmsAfarerFull()
+test('llms-full.txt contains every live agrospear page (no truncation regression)', () => {
+  const full = llmsAgrospearFull()
   const urls = urlLines(full)
   const expected = getContentPages()
     .filter((p) => !SHADOWED.has(p.path))
@@ -31,16 +31,16 @@ test('llms-full.txt contains every live afarer page (no truncation regression)',
 })
 
 test('llms-full.txt never advertises edge-301 or legacy-shadowed paths', () => {
-  const urls = urlLines(llmsAfarerFull())
+  const urls = urlLines(llmsAgrospearFull())
   for (const shadowed of SHADOWED) {
     expect(urls, `llms-full.txt must not contain shadowed path ${shadowed}`).not.toContain(shadowed)
   }
 })
 
-test('llms.txt afarer index covers every live page and no shadowed paths', () => {
-  const index = llmAfarierIndex('https://supsfactory.com')
+test('llms.txt agrospear index covers every live page and no shadowed paths', () => {
+  const index = llmAfarierIndex('https://agrospear.com')
   const listed = indexPaths(index)
-  const live = getContentPages().map((p) => `${index.includes('https://supsfactory.com') ? 'https://supsfactory.com' : ''}${p.path}`)
+  const live = getContentPages().map((p) => `${index.includes('https://agrospear.com') ? 'https://agrospear.com' : ''}${p.path}`)
 
   // Coverage via the path portion (index links are now absolute URLs).
   const listedPaths = new Set([...listed].map((u) => (u.startsWith('https://') ? new URL(u).pathname : u)))

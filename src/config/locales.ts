@@ -43,7 +43,7 @@ export const SUPPORTED_LOCALES = [
   'ar',
 ] as const
 
-export const ACTIVE_LOCALES: readonly Locale[] = ['en']
+export const ACTIVE_LOCALES: readonly Locale[] = ['en', 'es']
 
 export type Locale = (typeof SUPPORTED_LOCALES)[number]
 

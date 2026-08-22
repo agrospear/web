@@ -10,17 +10,23 @@ const create = server<typeof Config, import("fumadocs-mdx/runtime/types").Intern
 
 export const docs = await create.docs("docs", "src/content/docs", import.meta.glob(["./**/*.{json,yaml}"], {
   "base": "./../src/content/docs",
-  "query": "?collection=docs",
+  "query": {
+    "collection": "docs"
+  },
   "import": "default",
   "eager": true
 }), import.meta.glob(["./**/*.{mdx,md}"], {
   "base": "./../src/content/docs",
-  "query": "?collection=docs",
+  "query": {
+    "collection": "docs"
+  },
   "eager": true
 }));
 
 export const changelog = await create.doc("changelog", "src/content/changelog", import.meta.glob(["./**/*.{mdx,md}"], {
   "base": "./../src/content/changelog",
-  "query": "?collection=changelog",
+  "query": {
+    "collection": "changelog"
+  },
   "eager": true
 }));

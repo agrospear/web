@@ -3,7 +3,7 @@ import { env } from '@/lib/env'
 import { getNewsPosts } from '@/features/content/loader'
 import { SITE_NAME, BRAND_BOILERPLATE } from '@/config'
 
-// `/rss.xml` — RSS 2.0 feed of the ported afarer news posts (see /news).
+// `/rss.xml` — RSS 2.0 feed of the ported agrospear news posts (see /news).
 const escape = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 

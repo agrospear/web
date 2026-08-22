@@ -1,5 +1,7 @@
+// Facts
 export { FACTS, type FactLiteral } from './facts'
 
+// Content (types + data)
 export {
   type Localized,
   pick,
@@ -58,7 +60,6 @@ export {
   type FaqItem,
   type FaqContent,
   faq,
-  homeFaq,
   type CtaContent,
   cta,
   type ValuePropCard,
@@ -84,11 +85,9 @@ export {
   type SeriesItem,
   type SeriesContent,
   series,
-  type BoardCategory,
-  type BoardCategoriesContent,
-  boardCategories,
 } from './content'
 
+// Projects
 export {
   type ProjectData,
   projects,
@@ -97,20 +96,23 @@ export {
   projectsMeta,
 } from './projects'
 
+// Series pages
 export {
   type SeriesPageData,
   seriesPages,
   getSeriesPage,
 } from './series-pages'
 
+// Knowledge
 export {
   type KnowledgeArticle,
-  type KnowledgeMeta,
   knowledge,
-  knowledgeMeta,
   getArticle,
+  type KnowledgeMeta,
+  knowledgeMeta,
 } from './knowledge'
 
+// Solution pages
 export {
   type CtaLevel,
   type SolutionPageData,
@@ -120,6 +122,7 @@ export {
   getSolutionPage,
 } from './solution-pages'
 
+// Procurement
 export {
   type ProcurementRow,
   type ProcurementProfile,
@@ -127,8 +130,10 @@ export {
   commercialRows,
 } from './procurement'
 
+// LLMS content
 export { LLMS_TXT } from './llms-content'
 
+// Site config
 export {
   SITE_FACTS,
   HERO_CONTENT,
@@ -136,6 +141,7 @@ export {
   type Locale,
 } from './site-config'
 
+// Guide content
 export {
   type GuideSection,
   type Guide,
@@ -149,16 +155,16 @@ export {
   guideCard,
 } from './guide-content'
 
+// Hub pages
 export { buildHubEntries } from './hub-pages'
 
+// AI content
 export {
   LLM_SITE_DESCRIPTION,
-  LLM_FACT_BLOCK,
   LLM_FAQ_DESCRIPTION,
   LLM_SPANISH_HOMEPAGE_DESCRIPTION,
   AI_SYSTEM_ROLE,
   AI_INQUIRY_PROMPT,
-  AI_DISCLOSURE,
   PARENT_ORG_DESCRIPTION,
   REGION_COUNT_DEFAULT,
   CUSTOMIZATION_OPTIONS,
@@ -170,6 +176,7 @@ export {
   JSONLD_KEYWORDS,
 } from './ai-content'
 
+// Brand constants
 export {
   PRODUCT_TAGLINE,
   PRODUCT_DESCRIPTION,
@@ -178,10 +185,3 @@ export {
   PRODUCT_NOT_ROB,
   PRODUCT_OG_IMAGE_FILENAME,
 } from './brand-constants'
-
-export { PRODUCT_JSONLD } from './product-jsonld'
-export { ENTITY_DATA, ENTITY_FACTS, ENTITY_SAME_AS, ENTITY_SERVICES, ENTITY_KNOWS_ABOUT, ENTITY_SUBJECT_OF, PAGE_TITLES } from './entity-data'
-export { GLOSSARY } from './glossary'
-export { EDGE_REDIRECTS } from './edge-redirects'
-export { SHADOWED_PATHS, EXTRA_PATHS } from './route-registry'
-export { ASSET_CDN_PREFIX } from './asset-map'

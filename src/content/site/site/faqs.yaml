@@ -1,30 +1,211 @@
 faqs:
-  - question: What is your minimum order quantity (MOQ)?
-    question_es: ¿Cuál es su pedido mínimo (MOQ)?
-    answer: Our MOQ varies by product and collaboration model. For existing models, MOQ starts at ''. For pilot runs, MOQ is ''. Standard orders require '' and custom products require ''. ''
-    answer_es: Nuestro MOQ varía según el producto y modelo de colaboración. Para modelos existentes, el MOQ comienza en ''. Para tiradas piloto, el MOQ es ''. Pedidos estándar requieren '' y productos personalizados requieren ''. ''
-
-  - question: What is your lead time?
-    question_es: ¿Cuál es su plazo de entrega?
-    answer: Standard lead time is ''. Sample production takes ''. Lead times may vary during peak season ('').
-    answer_es: El plazo de entrega estándar es ''. La producción de muestras toma ''. Los plazos pueden variar durante la temporada alta ('').
-
-  - question: Can I order samples before placing a bulk order?
-    question_es: ¿Puedo pedir muestras antes de hacer un pedido grande?
-    answer: Yes, we offer samples with a lead time of ''. Samples allow you to verify quality and specifications before committing to production.
-    answer_es: Sí, ofrecemos muestras con un plazo de ''. Las muestras le permiten verificar la calidad y especificaciones antes de comprometerse con la producción.
-
-  - question: What collaboration models do you offer?
-    question_es: ¿Qué modelos de colaboración ofrecen?
-    answer: We offer OEM, ODM, Contract Manufacturing, Private Label, and Co-Design collaboration models. Each model is tailored to your specific needs and production requirements.
-    answer_es: Ofrecemos modelos de colaboración OEM, ODM, Fabricación por Contrato, Marca Privada y Co-Diseño. Cada modelo se adapta a sus necesidades específicas y requisitos de producción.
-
-  - question: What certifications do your products have?
-    question_es: ¿Qué certificaciones tienen sus productos?
-    answer: Our products carry '' certifications. ''
-    answer_es: Nuestros productos llevan certificaciones ''. ''
-
-  - question: Do you sign NDAs?
-    question_es: ¿Firman acuerdos de confidencialidad (NDA)?
-    answer: Yes, we sign NDAs within a '' window to protect your intellectual property and designs.
-    answer_es: Sí, firmamos NDAs dentro de una ventana de '' para proteger su propiedad intelectual y diseños.
+  - q: Where is your company and factory located?
+    a: >-
+      We are based in Qingdao, China. Agrospear is the B2B brand of Agrospear,
+      the manufacturing division of Qingdao Vatrad Group Co., Ltd. — a
+      12,500 m² inflatable manufacturing plant in the Laixi Economic
+      Development Zone, producing since 2012. Sales and technical support are
+      global; production is in Qingdao, China.
+  - q: Does Agrospear provide OEM/ODM services for inflatable water sports equipment?
+    a: >-
+      Yes. Agrospear (backed by Qingdao Vatrad Group Co., Ltd.) offers full-scale
+      OEM and ODM customization — from 3D blueprints and drop-stitch material
+      selection to bulk production for global brands. We handle private labeling,
+      custom packaging, and compliance documentation for BSCI, CE, and other certifications
+  - q: What certifications does Agrospear hold for inflatable water sports equipment manufacturing?
+    a: >-
+      Agrospear's factory holds BSCI and ISO 9001 certification. CE certification
+      applies to models destined for EU markets; scope is confirmed per project
+      and varies by target market and product configuration. REACH and RoHS
+      compliance documentation is available on request.
+  - q: What is the minimum order quantity (MOQ) for OEM inflatable paddle boards?
+    a: >-
+      MOQ is confirmed by project configuration rather than a fixed number: every
+      project moves through sample (1–2 units) and pilot (20–50 units) stages,
+      with standard volume production running 90–100+ units per batch from a full
+      150 m drop-stitch roll. Small-batch co-branding starts at 5–10 units. See
+      our MOQ & Flexible Branding Guide for the full calculation logic.
+  - q: Which materials does Agrospear use for inflatable SUP production?
+    a: >-
+      We use marine-grade PVC (0.9 mm–1.2 mm) with double-layer drop-stitch
+      core for SUPs. Materials are sourced from certified suppliers and tested for tensile
+      strength, UV resistance, and low-temperature flexibility before production.
+  - q: Can Agrospear handle large-volume wholesale orders for international buyers?
+    a: >-
+      Yes. Our 12,500 m² factory produces over 120,000 units annually with a
+      dedicated team of 350+ skilled workers. We ship to 50+ countries and
+      manage logistics including FOB Qingdao, CIF major ports, and door-to-door
+      delivery through our freight partners.
+  - q: What is the lead time for OEM inflatable SUP production?
+    a: >-
+      Standard OEM production lead time is 25–35 days from confirmed PO and
+      deposit. Custom mould development adds 15–20 days for tooling, and
+      prototype samples ship within 7–12 days. Rush orders available for
+      established partners with confirmed material stock.
+  - q: Does Agrospear supply military-grade drop-stitch material for paddle boards?
+    a: >-
+      Yes. Our drop-stitch core uses marine-spec PVC fabric with tensile
+      strength exceeding 2000 N/5cm. The double-layer lamination process
+      achieves air-holding retention at 18.0 PSI with a pressure drop below
+      0.50 PSI over 24 hours — meeting the factory's air-holding integrity standard.
+  - q: How does Agrospear ensure the air-tightness and UV resistance of its inflatables?
+    a: >-
+      Every inflatable tube undergoes a 24-hour pressure-hold test at 18.0 PSI
+      before shipment; chambers exceeding a 0.50 PSI pressure drop are
+      auto-rejected. UV resistance is validated via accelerated weathering
+      with tensile-strength degradation thresholds. Our PVC compound includes
+      UV stabilizers and anti-oxidant additives for long-term outdoor
+      durability.
+  - q: Can Agrospear help with packaging design and private-label branding?
+    a: >-
+      Yes. We offer turnkey private-label packaging: custom-designed retail
+      boxes, hang tags, instruction manuals, and shipping cartons with your
+      brand artwork. Our in-house design team can develop full-brand visual
+      identity for new market entrants — from logo application to unboxing
+      experience.
+  - q: Does Agrospear accept factory audits from international buyers?
+    a: >-
+      Absolutely. We welcome on-site and third-party factory audits including
+      BSCI, SMETA, and customer-specific social compliance inspections. Our
+      12,500 m² facility is audit-ready with documented QC processes, material
+      traceability, and worker health & safety records. Virtual factory tours
+      available for initial qualification.
+  - q: What is the drop-stitch technology used in Agrospear SUP boards?
+    a: >-
+      Drop-stitch is a fabric construction where thousands of polyester threads
+      connect the top and bottom PVC layers. When inflated to 12–15 PSI, these
+      threads pull the panels to a fixed distance, creating a rigid, flat
+      platform. Agrospear uses fusion-laminated drop-stitch —where threads are
+      thermally bonded into the PVC— for superior delamination resistance vs.
+      traditional glue-bonded cores.
+  - q: What platforms do first-time paddlers and rental guests need?
+    a: >-
+      Buyers planning rental, resort or school fleets usually start with wide,
+      high-volume all-around platforms that are stable for first-timers and
+      versatile for daily commercial use. We can also configure multi-person
+      boards for group lessons. Platform selection is reviewed against your
+      target riders before sampling.
+  - q: What water conditions can commercial SUP programs operate in?
+    a: >-
+      Agrospear boards are built for ocean, lake and river use. Touring
+      platforms handle coastal chop, and all boards use marine-grade PVC that
+      resists saltwater corrosion. For saltwater fleets we recommend the
+      standard fresh-water rinse routine between uses and include it in the
+      operator guidance supplied with commercial kits.
+  - q: Do you supply pumps and inflation accessories for commercial kits?
+    a: >-
+      Yes. Commercial kits include dual-action hand pumps, with electric pump
+      options for resorts and rental operators managing multiple boards per
+      day. Pump, paddle, leash, fin, backpack and repair kit selections are
+      confirmed as part of the accessory configuration for each project.
+  - q: How are boards packed for shipping and retail delivery?
+    a: >-
+      Volume production ships vacuum-packed to reduce volumetric weight by
+      50–60%. For retail programs we provide branded cartons, manuals,
+      barcode and carton marking per market, and can stage divider-packed
+      complete kits so every box arrives with the same accessory set.
+  - q: What rider weight range do your boards support?
+    a: >-
+      All-around platforms support up to 220 lbs; touring and yoga platforms
+      support up to 250 lbs, with higher-capacity options on larger boards.
+      Rider weight, construction and pressure ratings are specified per
+      platform in the technical datasheet before you commit to a run.
+  - q: What does a complete commercial kit include?
+    a: >-
+      A complete kit typically includes the board, travel backpack, dual-action
+      hand pump, removable fin, coil leash and repair kit, with optional paddle
+      and electric pump upgrades. Kit contents are locked in the customer
+      approval BOM so sample and volume production match exactly.
+  - q: Can you bundle boards, accessories and packaging into one program?
+    a: >-
+      Yes. Multi-SKU programs cover boards, accessories and retail packaging
+      under one factory contract — shared accessory kits reduce per-SKU
+      inventory, one design system keeps branding consistent, and a single
+      quality owner handles warranty claims. This is how our distributors and
+      retail partners run complete SUP lines.
+  - q: What is the difference between OEM, ODM and private label?
+    a: >-
+      OEM means we manufacture to your approved specification — your drawings,
+      dimensions, materials and packaging. You own the design and intellectual
+      property. ODM means our engineering team develops the board from your brief
+      — whether a market concept, performance target or adaptation of a proven
+      platform — and you approve before production. Private label means your
+      brand, graphics and packaging on an existing validated platform with no
+      structural changes. Most projects land between these modes, and we quote
+      the configuration that matches how much of the product design you want to own.
+  - q: How much does a prototype sample cost, and can the fee be applied to the order?
+    a: >-
+      Sample pricing follows the project configuration: size, construction,
+      artwork and packaging all affect the quote. For projects that move to
+      volume production, the sample fee is typically credited against the first
+      production order — the credit terms are confirmed in writing at quotation
+      stage so there are no surprises later.
+  - q: How many inflatable paddle boards fit in a 20ft container?
+    a: >-
+      On standard vacuum-packed 11 ft boards with accessory kits, a 20ft
+      container typically carries 150–200 complete sets — the exact count
+      depends on packaging design, accessory mix and carton size. Our
+      packaging team calculates the load plan from your actual bill of
+      materials, so the number you plan against is the number that ships.
+  - q: What do your wholesale quotes include — FOB or CIF?
+    a: >-
+      Quotations are itemized: product, standard packaging and freight under
+      your chosen incoterm. FOB Qingdao is the default basis, with CIF to major
+      ports and door-to-door delivery available through our freight partners.
+      Every quote states the exact scope of what is included, so you are not
+      comparing apples to oranges across suppliers.
+  - q: Do you charge tooling or mould fees for custom boards?
+    a: >-
+      Graphic setups and printing plates are low-cost and reusable; structural
+      tooling (new shapes, custom rails or unique construction) is itemized at
+      quotation stage. Where tooling applies, the cost is typically amortized
+      across the first production run rather than charged as a one-off surprise.
+  - q: What payment terms do you apply to production orders?
+    a: >-
+      Standard terms are a deposit to lock production, with the balance due
+      before shipment. The deposit percentage and balance timing are agreed per
+      order and stated in the contract. Established partners with consistent
+      order history can discuss extended terms — we prefer a few honest terms
+      over complicated financing structures.
+  - q: What warranty do you provide on bulk orders?
+    a: >-
+      Every board passes a 24-hour pressure-hold test at 18.0 PSI before
+      shipment, and warranty terms are written into each order contract — they
+      cover manufacturing defects such as delamination, seam failure and valve
+      leaks, and exclude use-related damage. The warranty period and claim
+      procedure are confirmed on the purchase order, not discovered later.
+  - q: What happens if boards arrive damaged or with manufacturing defects?
+    a: >-
+      Report the issue within the agreed window (typically 7–15 days of
+      arrival) with photos or video evidence. We assess against the pre-shipment
+      inspection records kept for your batch, then rework, replace or credit
+      accordingly. The documented QC photos of your stock make this fast and
+      fair for both sides.
+  - q: How is custom artwork approved before production?
+    a: >-
+      Graphics go through a controlled approval chain: digital mockup, printed
+      proof, first article inspection on the production board, then batch
+      production. Each step is checked against your signed artwork, which is why
+      printed colors, EVA layout and logo placement match your brand file when
+      the boards land.
+  - q: What spare parts do you supply for commercial fleets?
+    a: >-
+      Fleet operators can order serviceable parts with their boards or on
+      reorders: replacement valves, repair kits (PVC patches and adhesive),
+      fin boxes and fins, and the most commonly replaced accessories. Spare
+      parts ship alongside production or as small consignments, so a broken
+      component never takes a whole board out of service for long.
+  - q: What information should I prepare before requesting a quote?
+    a: >-
+      The better the brief, the faster the quote: target market and usage,
+      desired specifications (size, construction, pressure), quantity and
+      target price, branding and packaging needs, and your launch timeline. Our
+      inquiry form collects exactly this list — sharing it saves quotation
+      rounds and gets you a firmer estimate on the first pass.
+  - q: How long does sampling take before production?
+    a: >-
+      Prototype samples ship within 7–12 days once the specification is
+      frozen. Add review time for your testing and any revision round —
+      most projects complete sampling in about two to three weeks. Production
+      starts after sample approval, so the sample stage is the one place where
+      extra care pays off in time saved later.

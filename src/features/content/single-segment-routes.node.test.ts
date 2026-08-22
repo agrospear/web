@@ -1,4 +1,4 @@
-﻿import { test, expect } from 'vitest'
+import { test, expect } from 'vitest'
 import { readdirSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 import { getContentPages } from '@/features/content/loader'
@@ -32,7 +32,7 @@ const singleSegmentPages = getContentPages()
   .map((p) => p.path)
   .filter((p) => p !== '/' && !p.slice(1).includes('/'))
 
-test('every single-segment afarer page has a serving route (P0 regression guard)', () => {
+test('every single-segment agrospear page has a serving route (P0 regression guard)', () => {
   expect(singleSegmentPages.length).toBeGreaterThan(0)
   for (const p of singleSegmentPages) {
     // The optional `{- $locale}` group terminates on a bare segment BEFORE the

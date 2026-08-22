@@ -1,4 +1,4 @@
-﻿import { test, expect } from 'vitest'
+import { test, expect } from 'vitest'
 import { gatePath, EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { getContentPages } from '@/features/content/loader'
@@ -49,69 +49,69 @@ test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
   expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/private-label-sup' })
 })
 
-test('brand pages collapse onto /about and /about/afarer (P1-3)', () => {
-  expect(gatePath('/afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/zh/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+test('brand pages collapse onto /about and /about/agrospear (P1-3)', () => {
+  expect(gatePath('/agrospear')).toEqual({ action: 'redirect', to: '/about/agrospear' })
+  expect(gatePath('/es/agrospear')).toEqual({ action: 'redirect', to: '/es/about/agrospear' })
+  expect(gatePath('/zh/agrospear')).toEqual({ action: 'redirect', to: '/es/about/agrospear' })
   expect(gatePath('/brand')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/zh/brand')).toEqual({ action: 'redirect', to: '/es/about' })
-  expect(gatePath('/brand/afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/zh/brand/afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/brand/story')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/brand/story')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
-  expect(gatePath('/zh/brand/story')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+  expect(gatePath('/brand/agrospear')).toEqual({ action: 'redirect', to: '/about/agrospear' })
+  expect(gatePath('/es/brand/agrospear')).toEqual({ action: 'redirect', to: '/es/about/agrospear' })
+  expect(gatePath('/zh/brand/agrospear')).toEqual({ action: 'redirect', to: '/es/about/agrospear' })
+  expect(gatePath('/brand/story')).toEqual({ action: 'redirect', to: '/about/agrospear' })
+  expect(gatePath('/es/brand/story')).toEqual({ action: 'redirect', to: '/es/about/agrospear' })
+  expect(gatePath('/zh/brand/story')).toEqual({ action: 'redirect', to: '/es/about/agrospear' })
   expect(gatePath('/brand/global-presence')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/global-presence')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/brand/marine-expertise')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/marine-expertise')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/brand/team')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/team')).toEqual({ action: 'redirect', to: '/es/about' })
-  expect(gatePath('/brand/why-afarer')).toEqual({ action: 'redirect', to: '/about/afarer' })
-  expect(gatePath('/es/brand/why-afarer')).toEqual({ action: 'redirect', to: '/es/about/afarer' })
+  expect(gatePath('/brand/why-agrospear')).toEqual({ action: 'redirect', to: '/about/agrospear' })
+  expect(gatePath('/es/brand/why-agrospear')).toEqual({ action: 'redirect', to: '/es/about/agrospear' })
 })
 
-test('non-SUP business lines 301 to afarer.com (P1-7)', () => {
+test('non-SUP business lines 301 to agrospear.com (P1-7)', () => {
   expect(gatePath('/commercial-workboats')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/commercial-workboats',
+    to: 'https://agrospear.com/commercial-workboats',
   })
   expect(gatePath('/es/commercial-workboats')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/es/commercial-workboats',
+    to: 'https://agrospear.com/es/commercial-workboats',
   })
   expect(gatePath('/zh/commercial-workboats')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/es/commercial-workboats',
+    to: 'https://agrospear.com/es/commercial-workboats',
   })
   expect(gatePath('/maritime-safety-defense')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/maritime-safety-defense',
+    to: 'https://agrospear.com/maritime-safety-defense',
   })
   expect(gatePath('/search-and-rescue')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/search-and-rescue',
+    to: 'https://agrospear.com/search-and-rescue',
   })
   expect(gatePath('/disaster-relief-humanitarian-aid')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/disaster-relief-humanitarian-aid',
+    to: 'https://agrospear.com/disaster-relief-humanitarian-aid',
   })
   expect(gatePath('/products/life-vest-classic')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/products/life-vest-classic',
+    to: 'https://agrospear.com/products/life-vest-classic',
   })
   expect(gatePath('/products/life-vest-pro')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/products/life-vest-pro',
+    to: 'https://agrospear.com/products/life-vest-pro',
   })
   expect(gatePath('/products/oars-pump-set')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/products/oars-pump-set',
+    to: 'https://agrospear.com/products/oars-pump-set',
   })
 })
 
-test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
+test('legacy theagrospear URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/odm-development' })
   expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
   expect(gatePath('/guides/sup-yoga')).toEqual({ action: 'redirect', to: '/knowledge' })
@@ -119,7 +119,7 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/fishing' })
   expect(gatePath('/use-cases/disaster-relief')).toEqual({
     action: 'redirect',
-    to: 'https://afarer.com/disaster-relief-humanitarian-aid',
+    to: 'https://agrospear.com/disaster-relief-humanitarian-aid',
   })
   expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/products' })
   expect(gatePath('/es/resources/download-catalog')).toEqual({ action: 'redirect', to: '/es/products' })
@@ -153,7 +153,7 @@ test('legacy theafarer URLs 301 to live pages (spot checks)', () => {
 test('every legacy URL resolves to a live route', () => {
   for (const [from, to] of Object.entries(LEGACY_REDIRECTS)) {
     expect(from, `legacy key must differ from its target`).not.toBe(to)
-    if (to.startsWith('https://')) continue // cross-domain handoff to afarer.com (P1-7)
+    if (to.startsWith('https://')) continue // cross-domain handoff to agrospear.com (P1-7)
     expect(LIVE_ROUTES.has(to), `${from} → ${to} is not a live route`).toBe(true)
   }
 })
@@ -168,7 +168,7 @@ test('no legacy key shadows a live page (P0-5)', () => {
 })
 
 test('revived pages are served, not 301d (P0-5)', () => {
-  expect(gatePath('/about/afarer').action).toBe('ok')
+  expect(gatePath('/about/agrospear').action).toBe('ok')
   expect(gatePath('/oem-paddle').action).toBe('ok')
   expect(gatePath('/factory/oem-capability').action).toBe('ok')
   expect(gatePath('/factory/capacity').action).toBe('ok')
@@ -223,7 +223,7 @@ test('410 for removed template pages (P0-2)', () => {
   expect(gatePath('/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/es/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/zh/changelog')).toEqual({ action: 'gone' })
-  // RIB case study removed (SUPsfactory is SUP-only)
+  // RIB case study removed (Agrospear is SUP-only)
   expect(gatePath('/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
   expect(gatePath('/es/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
   // '/docs/' is normalised to '/docs' first (301), then 410 on the next hop

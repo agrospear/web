@@ -87,10 +87,10 @@ test('HTML 部分转义所有用户输入，标签/属性边界无法形成', as
 })
 
 test('干净输入原样保留', async () => {
-  await sendInquiryNotification(null, 'from@supsfactory.com', ['admin@supsfactory.com'], {
+  await sendInquiryNotification(null, 'from@agrospear.com', ['admin@agrospear.com'], {
     inquiry: inquiry({ company: 'Acme GmbH', email: 'sales@acme.com', requirements: 'Need 500 units' }),
     fileUrl: null,
-    origin: 'https://supsfactory.com',
+    origin: 'https://agrospear.com',
   })
   expect(captured).toHaveLength(1)
   const html = captured[0].html
@@ -100,7 +100,7 @@ test('干净输入原样保留', async () => {
 })
 
 async function sendInjectionEmail() {
-  await sendInquiryNotification(null, 'from@supsfactory.com', ['admin@supsfactory.com'], {
+  await sendInquiryNotification(null, 'from@agrospear.com', ['admin@agrospear.com'], {
     inquiry: inquiry({
       company: '<img src=x onerror=alert(1)>',
       website: '"><a href="javascript:alert(1)">x</a>',
@@ -109,17 +109,17 @@ async function sendInjectionEmail() {
       logoKey: 'inquiry-files/inq-test.pdf',
     }),
     fileUrl: `https://example.com/logo.svg" onload="alert(1)`,
-    origin: 'https://supsfactory.com',
+    origin: 'https://agrospear.com',
   })
 }
 
 test('邮件 Files 行带文件扩展名徽章（从 R2 key 派生，转义后输出）', async () => {
-  await sendInquiryNotification(null, 'from@supsfactory.com', ['admin@supsfactory.com'], {
+  await sendInquiryNotification(null, 'from@agrospear.com', ['admin@agrospear.com'], {
     inquiry: inquiry({ logoKey: 'inquiry-files/inq-7.dwg' }),
-    fileUrl: 'https://supsfactory.com/api/inquiry-logo/inq-7',
-    origin: 'https://supsfactory.com',
+    fileUrl: 'https://agrospear.com/api/inquiry-logo/inq-7',
+    origin: 'https://agrospear.com',
   })
   expect(captured).toHaveLength(1)
-  expect(captured[0].text).toContain('DWG — https://supsfactory.com/api/inquiry-logo/inq-7')
+  expect(captured[0].text).toContain('DWG — https://agrospear.com/api/inquiry-logo/inq-7')
   expect(captured[0].html).toContain('View upload (DWG)')
 })

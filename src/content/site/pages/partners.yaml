@@ -1,6 +1,6 @@
 meta:
   title: 'Partners — Distribution & Wholesale | {SITE}'
-  description: 'Manufacturing partnerships with SUPsfactory: distribution, wholesale supply, OEM/private-label programs and spec support for paddle board businesses worldwide.'
+  description: 'Manufacturing partnerships with Agrospear: distribution, wholesale supply, OEM/private-label programs and spec support for paddle board businesses worldwide.'
   keywords:
     - 'sup distribution partner'
     - 'paddle board wholesale'
@@ -12,8 +12,8 @@ hero:
   title: 'Manufacturing Partnerships & Distribution'
   subtitle: "We manufacture for marine distributors, dealers, retail brands and organizations in 50+ countries. You specify the product — we engineer, sample and produce it under your brand."
   image:
-    src: https://assets.afarer.com/images/afarer/partners/partners-hero.webp
-    alt: Afarer global partner and distributor network
+    src: https://assets.agrospear.com/images/agrospear/partners/partners-hero.webp
+    alt: Agrospear global partner and distributor network
 
 answer:
   label: 'Straight answer'
@@ -45,7 +45,7 @@ content_programs:
       icon: tabler:sun
 content_benefits:
   tagline: Why Partner With Us
-  title: 'Why Partners Choose Afarer'
+  title: 'Why Partners Choose Agrospear'
   subtitle: 'Our partners work with real manufacturing capability, consistent quality, and responsive engineering support.'
   list:
     - 'Direct Factory Access: Work directly with our manufacturing team — no middlemen. Faster responses, full visibility into production, and engineering answers from the people who build the boards.'

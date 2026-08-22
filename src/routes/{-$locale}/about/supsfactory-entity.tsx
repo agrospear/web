@@ -18,12 +18,12 @@ import { getDictionary, translate } from '@/features/i18n/locale'
 import { ENTITY_FACTS, ENTITY_SERVICES } from '@/product/entity-data'
 
 /**
- * Entity hub (/about/supsfactory-entity) — the GEO-facing page that links
+ * Entity hub (/about/agrospear-entity) — the GEO-facing page that links
  * the whole entity graph together: organization facts, services, projects,
  * knowledge. This is the page search engines and AI answer engines use to
- * describe "what SUPsfactory is".
+ * describe "what Agrospear is".
  */
-export const Route = createFileRoute('/{-$locale}/about/supsfactory-entity')({
+export const Route = createFileRoute('/{-$locale}/about/agrospear-entity')({
   loader: async () => ({ origin: await getOrigin() }),
   head: ({ loaderData, params }) => {
     const origin = loaderData?.origin ?? ''

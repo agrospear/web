@@ -207,12 +207,12 @@ replaceInFile(join(OUT, 'src/product/brand-constants.ts'), [
   ['Agrospear is the SUP product development and manufacturing division of Agrospear (Qingdao Vatrad Group Co., Ltd.), a 12,500 m\u00b2 inflatable manufacturing plant in Qingdao, China.', cfg.boilerplate || ''],
   ['We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.', cfg.build_line || ''],
   ['We do not sell to end consumers and we do not compete with our clients in any market.', cfg.not_rob || ''],
-  ['afarer-og-default', cfg.og_image_filename || 'og-default'],
+  ['agrospear-og-default', cfg.og_image_filename || 'og-default'],
 ])
 
 // Fix CSP img-src in security headers
 replaceInFile(join(OUT, 'src/lib/security-headers.ts'), [
-  ["https://assets.agrospear.com https://assets.afarer.com", "https://assets." + siteDomain],
+  ["https://assets.agrospear.com https://assets.agrospear.com", "https://assets." + siteDomain],
 ])
 
 // Fix twitter:site in SEO
