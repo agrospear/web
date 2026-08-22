@@ -101,12 +101,12 @@ const CJK_KEYWORDS: ReadonlyArray<{ cjk: readonly string[]; en: readonly string[
   { cjk: ['认证', '证书', '资质'], en: ['certification', 'certified', 'ce', 'bsci'] },
   { cjk: ['交货', '发货', '运输', '物流'], en: ['delivery', 'shipping', 'lead time', 'logistics', 'freight'] },
   { cjk: ['样品', '样本', '打样'], en: ['sample', 'prototype', 'sampling'] },
-  { cjk: ['材料', '材质', '面料'], en: ['material', 'pvc', 'fabric', 'drop stitch'] },
+  { cjk: ['材料', '材质', '原药'], en: ['material', 'active ingredient', 'formulation', 'adjuvant'] },
   { cjk: ['包装', '标签', '品牌'], en: ['packaging', 'label', 'branding', 'private label'] },
   { cjk: ['质量', '质检', '检验', '检测'], en: ['quality', 'inspection', 'qc', 'test'] },
   { cjk: ['保修', '售后', '投诉'], en: ['warranty', 'claim', 'defect'] },
   { cjk: ['定制', '自定义', 'oem', 'odm'], en: ['custom', 'oem', 'odm', 'customize'] },
-  { cjk: ['充气', '气密', '漏气'], en: ['inflatable', 'air', 'pressure', 'leak'] },
+  { cjk: ['充气', '气密', '漏气'], en: ['formulation', 'stability', 'specification', 'test'] },
 ]
 
 function expandCjkToEn(question: string): string {

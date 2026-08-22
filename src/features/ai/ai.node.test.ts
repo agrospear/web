@@ -29,7 +29,7 @@ describe('makeChunk', () => {
 
 describe('normalizeQuestion', () => {
   test('lowers case, strips punctuation, keeps letters/numbers', () => {
-    expect(normalizeQuestion('  MOQ, for SUP-boards?  ')).toBe('moq for sup boards')
+    expect(normalizeQuestion('  MOQ, for agrochemical-formulations?  ')).toBe('moq for agrochemical formulations')
   })
 })
 
@@ -56,17 +56,17 @@ describe('buildAskPrompt', () => {
 
 describe('matchFaq', () => {
   const faqs = [
-    { q: 'Where is your company and factory located?', a: 'We are based in Qingdao, China. A 12,500 m² inflatable manufacturing plant in the Laixi Economic Development Zone, producing since 2012.' },
-    { q: 'What is the minimum order quantity (MOQ) for OEM inflatable paddle boards?', a: 'Minimum order quantity is 90–100+ pieces per standard production run.' },
+    { q: 'Where is your company and factory located?', a: 'We are based in Qingdao, China. A 12,500 m² agrochemical formulation plant in the Laixi Economic Development Zone, producing since 2012.' },
+    { q: 'What is the minimum order quantity (MOQ) for OEM agrochemical formulations?', a: 'Minimum order quantity is 20+ tons per standard production run.' },
     { q: 'How long does a sample take?', a: 'Samples ship in 7–12 days.' },
     { q: 'What is the lead time for OEM production?', a: 'Standard OEM production lead time is 25–35 days from confirmed PO.' },
-    { q: 'What certifications do you hold?', a: 'CE standards and BSCI social compliance certification.' },
+    { q: 'What certifications do you hold?', a: 'ICAMA production license, ISO 9001, ISO 14001 and BSCI social compliance certification.' },
     { q: 'Do you offer custom OEM/ODM?', a: 'Full-scale OEM and ODM customization from 3D blueprints to bulk production.' },
   ]
   test('hits the right FAQ by keyword overlap', () => {
     const hit = matchFaq('What is your minimum order quantity?', faqs)
     expect(hit).not.toBeNull()
-    expect(hit!.answer).toContain('90–100')
+    expect(hit!.answer).toContain('20+')
   })
   test('no match for unrelated input', () => {
     expect(matchFaq('quark traversal photon tachyon', faqs)).toBeNull()
@@ -85,12 +85,12 @@ describe('matchFaq', () => {
   test('Chinese question about MOQ matches English FAQ', () => {
     const hit = matchFaq('最低起订量是多少', faqs)
     expect(hit).not.toBeNull()
-    expect(hit!.answer).toContain('90–100')
+    expect(hit!.answer).toContain('20+')
   })
   test('Chinese question about certifications matches English FAQ', () => {
     const hit = matchFaq('有什么认证', faqs)
     expect(hit).not.toBeNull()
-    expect(hit!.answer).toContain('CE')
+    expect(hit!.answer).toContain('ICAMA')
   })
   test('Chinese question with OEM keyword (uppercase) matches English FAQ', () => {
     const hit = matchFaq('可以做OEM吗', faqs)
@@ -106,20 +106,20 @@ describe('matchFaq', () => {
 
 describe('matchCorpus', () => {
   const chunks = [
-    { id: '1', text: 'MOQ for standard volume production starts at 90–100+ pcs per 150 m drop-stitch roll. Pilot batches from 20–50 pcs.', url: '/oem-sup-moq', title: 'Inflatable SUP MOQ' },
-    { id: '2', text: 'We hold BSCI, ISO 9001, ISO 25649, CE, REACH and RoHS certifications for our Qingdao factory.', url: '/inflatable-sup-certification', title: 'SUP Certification Guide' },
+    { id: '1', text: 'MOQ for standard volume production starts at 20+ t per production batch. Pilot batches from 5 t.', url: '/oem-agrochemical-moq', title: 'Agrochemical OEM MOQ' },
+    { id: '2', text: 'We hold ICAMA, ISO 9001, ISO 14001, BSCI and FAO/WHO certifications for our Qingdao factory.', url: '/agrochemical-certification-guide', title: 'Agrochemical Certification Guide' },
     { id: '3', text: 'Sample lead time is 7–12 days after artwork confirmation. Production is 25–35 days from confirmed PO.', url: '/faq', title: 'FAQ' },
   ]
   test('matches corpus chunk by keyword overlap', () => {
     const hit = matchCorpus('What certifications do you have?', chunks)
     expect(hit).not.toBeNull()
-    expect(hit!.chunk.url).toBe('/inflatable-sup-certification')
+    expect(hit!.chunk.url).toBe('/agrochemical-certification-guide')
     expect(hit!.answer).toContain('BSCI')
   })
   test('matches MOQ question against corpus', () => {
     const hit = matchCorpus('What is your MOQ?', chunks)
     expect(hit).not.toBeNull()
-    expect(hit!.answer).toContain('90–100')
+    expect(hit!.answer).toContain('20+')
   })
   test('no match for unrelated input', () => {
     expect(matchCorpus('quark traversal photon tachyon', chunks)).toBeNull()

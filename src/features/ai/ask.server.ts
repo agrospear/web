@@ -16,7 +16,7 @@ const LLM_MODEL = '@cf/meta/llama-3.2-3b-instruct'
 const TOP_K = 6
 /** Cosine floor below which chunks are treated as noise — keeps the LLM from
  *  confabulating an answer from unrelated retrieval (e.g. "where is the
- *  company?" matching drop-stitch material). Tune against live queries. */
+ *  company?" matching formulation adjuvant). Tune against live queries. */
 const REL_SCORE_MIN = 0.3
 const MAX_QUESTION = 500
 const CACHE_TTL = 6 * 60 * 60

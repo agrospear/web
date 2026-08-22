@@ -34,7 +34,7 @@ export const Route = createFileRoute('/{-$locale}/customizer')({
   component: CustomizerPage,
 })
 
-/** SUP Design Studio: clean white configurator layout with a live color-picking preview. */
+/** Agrochemical Specification Builder: clean white configurator layout with a live formulation preview. */
 function CustomizerPage() {
   const { locale, t } = useTranslation()
   const fl = useLocalizePath()
