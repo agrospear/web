@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { contentSingleRoute } from '@/features/content/content-single-route'
 
-export const Route = createFileRoute('/inflatable-vs-hardboard')({
-  ...contentSingleRoute('/inflatable-vs-hardboard'),
+export const Route = createFileRoute('/oem-vs-private-label')({
+  ...contentSingleRoute('/oem-vs-private-label'),
 })

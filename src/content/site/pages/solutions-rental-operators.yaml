@@ -78,5 +78,5 @@ cta:
       href: '/contact'
       variant: 'primary'
     - text: 'Compare Board Platforms'
-      href: '/inflatable-vs-hardboard'
+      href: '/oem-vs-private-label'
       variant: 'secondary'

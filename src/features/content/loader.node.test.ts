@@ -73,12 +73,12 @@ test('case-use: es overlay swaps title and keeps slug', () => {
 })
 
 test('guides: es variants exist for every guide slug', () => {
-  for (const g of ['how-to-choose-your-sup', 'beginner-guide', 'inflatable-vs-hard', 'safety-tips']) {
+  for (const g of ['choosing-agrochemical-formulation', 'agrochemical-buyer-basics', 'oem-vs-private-label', 'registration-timeline']) {
     const es = getGuide(`/guides/${g}`, 'es')
     expect(es, g).toBeDefined()
     expect(es?.title).not.toBe(getGuide(`/guides/${g}`)?.title)
   }
-  expect(getGuide('/guides/how-to-choose-your-sup', 'en')?.title).toBe(getGuide('/guides/how-to-choose-your-sup')?.title)
+  expect(getGuide('/guides/choosing-agrochemical-formulation', 'en')?.title).toBe(getGuide('/guides/choosing-agrochemical-formulation')?.title)
 })
 
 test('research topics: es localization swaps category/readTime labels', () => {
@@ -153,7 +153,7 @@ test('getLocaleContentPaths lists every es sidecar detail path', () => {
 test('search index: es detail content indexed under /es urls with Spanish copy', () => {
   const es = buildExtendedIndex('es')
   expect(es.some((e) => e.url === '/es/products/sup-cheetah-surge' && e.title.length > 0)).toBe(true)
-  expect(es.some((e) => e.url === '/es/guides/how-to-choose-your-sup')).toBe(true)
+  expect(es.some((e) => e.url === '/es/guides/choosing-agrochemical-formulation')).toBe(true)
   expect(es.some((e) => e.url === '/es/news/drop-stitch-2-0')).toBe(true)
   expect(es.some((e) => e.url === '/es/evidence/case-studies/coastal-touring')).toBe(true)
   expect(es.filter((e) => e.locale === 'es').length).toBeGreaterThan(10)

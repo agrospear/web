@@ -50,23 +50,22 @@ test('every project page renders without error (en + es)', () => {
   }
 })
 
-test('flagship case renders metrics strip, takeaways, scenario CTA and related cases', () => {
-  const out = html('coastal-rental-fleet')
-  for (const s of ['320', '120', '−20–25%', 'Key Takeaways', 'What This Project Shows', 'Your Project Could Follow the Same Path', 'Similar Projects We Delivered', 'Facing a similar challenge?']) {
-    expect(out, `coastal-rental-fleet missing "${s}"`).toContain(s)
+test('flagship case renders metrics strip, takeaways, scenario CTA', () => {
+  const out = html('latam-glyphosate-private-label')
+  for (const s of ['1,000', '90', 'Key Takeaways', 'What This Project Shows', 'Your Project Could Follow the Same Path', 'Facing a similar challenge?']) {
+    expect(out, `latam-glyphosate-private-label missing "${s}"`).toContain(s)
   }
-  expect(out).toContain('Standardizing a 200-Board Rental Fleet') // related case card
 })
 
 test('es flagship case renders metrics and takeaways in Spanish', () => {
-  const out = html('eu-distributor-private-label', 'es')
-  for (const s of ['1.200', '90', 'Conclusiones clave', 'Lo que muestra este proyecto', 'Tu proyecto puede seguir el mismo camino', 'Proyectos similares que hemos entregado', '¿Te enfrentas a un reto similar?']) {
-    expect(out, `eu-distributor-private-label (es) missing "${s}"`).toContain(s)
+  const out = html('africa-malaria-vector-insecticide', 'es')
+  for (const s of ['500', '100', 'Conclusiones clave', 'Lo que muestra este proyecto', 'Tu proyecto puede seguir el mismo camino', '¿Te enfrentas a un reto similar?']) {
+    expect(out, `africa-malaria-vector-insecticide (es) missing "${s}"`).toContain(s)
   }
 })
 
 test('legacy case without metrics renders no takeaways block', () => {
-  const out = html('fishing-sup-program')
+  const out = html('cis-generic-registration')
   expect(out).not.toContain('Key Takeaways')
-  expect(out).not.toContain('midCtaText') // untranslated key must never leak
+  expect(out).not.toContain('midCtaText')
 })

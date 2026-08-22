@@ -23,35 +23,35 @@ solutions:
     - clientType: Outdoor Startup Founder
       need: Brand Creation
       solutionPage: Build Your SUP Brand
-      link: /solutions/private-label-sup
+      link: /solutions/private-label
     - clientType: Outdoor Brand Manager
       need: Outdoor Brand Expansion Into Water Sports
       solutionPage: Expand Outdoor Brand Into Water Sports
-      link: /solutions/private-label-sup
+      link: /solutions/private-label
     - clientType: Surf Shop Owner
       need: Surf Business Upgrade
       solutionPage: Bring Inflatable Technology Into Surf Business
-      link: /products/surf
+      link: /products/fungicide
     - clientType: Amazon Seller
       need: E-commerce Growth
       solutionPage: Product Differentiation & Fast Supply
-      link: /solutions/private-label-sup
+      link: /solutions/private-label
     - clientType: Fishing Gear Brand
       need: Fishing SUP
       solutionPage: Create Your Fishing SUP Brand
-      link: /products/fishing
+      link: /products/biopesticide
     - clientType: Yoga & Wellness Brand
       need: Wellness Water Products
       solutionPage: SUP Yoga Equipment Solutions
-      link: /products/yoga
+      link: /products/seed-treatment
     - clientType: Creator Brand
       need: Influencer Brand
       solutionPage: Creator Edition SUP Startup
-      link: /solutions/private-label-sup
+      link: /solutions/private-label
     - clientType: Paddle Club Founder
       need: Club Fleet
       solutionPage: Commercial SUP Fleet
-      link: /solutions/club-sup
+      link: /solutions/registration-support
     - clientType: Rental Business Owner
       need: Rental Operations
       solutionPage: Durable Rental Fleet Solution
@@ -59,11 +59,11 @@ solutions:
     - clientType: Resort Activity Manager
       need: Hotel Experience
       solutionPage: Resort Water Activity Package
-      link: /solutions/resort-sup
+      link: /solutions/bulk-supply
     - clientType: Water Sports Academy
       need: Training & Education
       solutionPage: SUP Academy Equipment Program
-      link: /solutions/school-sup
+      link: /solutions/government-procurement
     - clientType: Cruise & Yacht Company
       need: Yacht Experience
       solutionPage: Luxury Portable SUP Package
@@ -83,7 +83,7 @@ solutions:
     - clientType: Water Sports Brand Manager
       need: Water Sports Brand Expansion
       solutionPage: Expand Your Water Sports Portfolio
-      link: /solutions/private-label-sup
+      link: /solutions/private-label
     - clientType: Pet Adventure Brand Owner
       need: Pet Outdoor
       solutionPage: Pet-Friendly Paddle Board Program
@@ -95,7 +95,7 @@ solutions:
     - clientType: Water Park Developer
       need: Theme Entertainment
       solutionPage: Commercial Water Park SUP Fleet
-      link: /solutions/resort-sup
+      link: /solutions/bulk-supply
     - clientType: Private Island & Luxury Club Owner
       need: High-End Lifestyle
       solutionPage: Premium Custom SUP Collection
@@ -107,7 +107,7 @@ solutions:
     - clientType: Kids Adventure & Summer Camp Operator
       need: Youth Education
       solutionPage: Kids Exploration SUP Program
-      link: /solutions/school-sup
+      link: /solutions/government-procurement
     - clientType: Water Rescue & Safety Organization
       need: Professional Rescue
       solutionPage: Professional Water Rescue SUP System

@@ -84,13 +84,13 @@ scenario_cards:
       icon_bg: 'orange'
       title: 'Necesitas tablas con marca rápido, sin desarrollo de producto'
       desc: 'Eres distribuidor, resort u operador de alquiler que quiere tu logo en tablas de calidad sin invertir en desarrollo de producto. Elige Marca Privada — la vía más rápida del concepto a la entrega.'
-      link: '/es/solutions/private-label-sup'
+      link: '/es/solutions/private-label'
       link_label: 'Detalles de Marca Privada'
     - icon: '4'
       icon_bg: 'purple'
       title: 'Operas un resort, club o flota de alquiler'
       desc: 'Necesitas paquetes SUP de uso frecuente con consistencia por lote, repuestos y gestión de color entre reposiciones. Elige nuestro Programa de Flota Comercial.'
-      link: '/es/solutions/resort-sup'
+      link: '/es/solutions/bulk-supply'
       link_label: 'Detalles de Flota Comercial'
 
 ip_rules:

@@ -31,6 +31,7 @@ import { Route as QualityRouteImport } from './routes/quality'
 import { Route as ProofCenterRouteImport } from './routes/proof-center'
 import { Route as ProductDevelopmentRouteImport } from './routes/product-development'
 import { Route as PartnersRouteImport } from './routes/partners'
+import { Route as OemVsPrivateLabelRouteImport } from './routes/oem-vs-private-label'
 import { Route as OemTrustAssuranceRouteImport } from './routes/oem-trust-assurance'
 import { Route as OemSupMoqRouteImport } from './routes/oem-sup-moq'
 import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
@@ -45,13 +46,12 @@ import { Route as NewBrandTrialOrderRouteImport } from './routes/new-brand-trial
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
 import { Route as KnowledgeRouteImport } from './routes/knowledge'
-import { Route as InflatableVsHardboardRouteImport } from './routes/inflatable-vs-hardboard'
 import { Route as InflatableSupCertificationRouteImport } from './routes/inflatable-sup-certification'
-import { Route as FishingRouteImport } from './routes/fishing'
 import { Route as FaqRouteImport } from './routes/faq'
 import { Route as FactoryAuditChecklistRouteImport } from './routes/factory-audit-checklist'
 import { Route as FactoryRouteImport } from './routes/factory'
 import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
+import { Route as BiopesticideRouteImport } from './routes/biopesticide'
 import { Route as B2bSolutionsMatrixRouteImport } from './routes/b2b-solutions-matrix'
 import { Route as SplatRouteImport } from './routes/$'
 import { Route as Char123LocaleChar125RouteRouteImport } from './routes/{-$locale}/route'
@@ -236,6 +236,13 @@ const PartnersRoute = PartnersRouteImport.update({
   path: '/partners',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/partners.lazy').then((d) => d.Route))
+const OemVsPrivateLabelRoute = OemVsPrivateLabelRouteImport.update({
+  id: '/oem-vs-private-label',
+  path: '/oem-vs-private-label',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/oem-vs-private-label.lazy').then((d) => d.Route),
+)
 const OemTrustAssuranceRoute = OemTrustAssuranceRouteImport.update({
   id: '/oem-trust-assurance',
   path: '/oem-trust-assurance',
@@ -321,13 +328,6 @@ const KnowledgeRoute = KnowledgeRouteImport.update({
   path: '/knowledge',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/knowledge.lazy').then((d) => d.Route))
-const InflatableVsHardboardRoute = InflatableVsHardboardRouteImport.update({
-  id: '/inflatable-vs-hardboard',
-  path: '/inflatable-vs-hardboard',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/inflatable-vs-hardboard.lazy').then((d) => d.Route),
-)
 const InflatableSupCertificationRoute =
   InflatableSupCertificationRouteImport.update({
     id: '/inflatable-sup-certification',
@@ -336,11 +336,6 @@ const InflatableSupCertificationRoute =
   } as any).lazy(() =>
     import('./routes/inflatable-sup-certification.lazy').then((d) => d.Route),
   )
-const FishingRoute = FishingRouteImport.update({
-  id: '/fishing',
-  path: '/fishing',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/fishing.lazy').then((d) => d.Route))
 const FaqRoute = FaqRouteImport.update({
   id: '/faq',
   path: '/faq',
@@ -363,6 +358,11 @@ const EntityDotjsonRoute = EntityDotjsonRouteImport.update({
   path: '/entity.json',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BiopesticideRoute = BiopesticideRouteImport.update({
+  id: '/biopesticide',
+  path: '/biopesticide',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/biopesticide.lazy').then((d) => d.Route))
 const B2bSolutionsMatrixRoute = B2bSolutionsMatrixRouteImport.update({
   id: '/b2b-solutions-matrix',
   path: '/b2b-solutions-matrix',
@@ -723,13 +723,12 @@ export interface FileRoutesByFullPath {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
+  '/biopesticide': typeof BiopesticideRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
-  '/fishing': typeof FishingRoute
   '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
-  '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
@@ -744,6 +743,7 @@ export interface FileRoutesByFullPath {
   '/oem-paddle': typeof OemPaddleRoute
   '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
+  '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
   '/proof-center': typeof ProofCenterRoute
@@ -827,13 +827,12 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/$': typeof SplatRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
+  '/biopesticide': typeof BiopesticideRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
-  '/fishing': typeof FishingRoute
   '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
-  '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
@@ -848,6 +847,7 @@ export interface FileRoutesByTo {
   '/oem-paddle': typeof OemPaddleRoute
   '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
+  '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
   '/proof-center': typeof ProofCenterRoute
@@ -931,13 +931,12 @@ export interface FileRoutesById {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
+  '/biopesticide': typeof BiopesticideRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
   '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
-  '/fishing': typeof FishingRoute
   '/inflatable-sup-certification': typeof InflatableSupCertificationRoute
-  '/inflatable-vs-hardboard': typeof InflatableVsHardboardRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
@@ -952,6 +951,7 @@ export interface FileRoutesById {
   '/oem-paddle': typeof OemPaddleRoute
   '/oem-sup-moq': typeof OemSupMoqRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
+  '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
   '/product-development': typeof ProductDevelopmentRoute
   '/proof-center': typeof ProofCenterRoute
@@ -1038,13 +1038,12 @@ export interface FileRouteTypes {
     | '/{-$locale}'
     | '/$'
     | '/b2b-solutions-matrix'
+    | '/biopesticide'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
     | '/faq'
-    | '/fishing'
     | '/inflatable-sup-certification'
-    | '/inflatable-vs-hardboard'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
@@ -1059,6 +1058,7 @@ export interface FileRouteTypes {
     | '/oem-paddle'
     | '/oem-sup-moq'
     | '/oem-trust-assurance'
+    | '/oem-vs-private-label'
     | '/partners'
     | '/product-development'
     | '/proof-center'
@@ -1142,13 +1142,12 @@ export interface FileRouteTypes {
   to:
     | '/$'
     | '/b2b-solutions-matrix'
+    | '/biopesticide'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
     | '/faq'
-    | '/fishing'
     | '/inflatable-sup-certification'
-    | '/inflatable-vs-hardboard'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
@@ -1163,6 +1162,7 @@ export interface FileRouteTypes {
     | '/oem-paddle'
     | '/oem-sup-moq'
     | '/oem-trust-assurance'
+    | '/oem-vs-private-label'
     | '/partners'
     | '/product-development'
     | '/proof-center'
@@ -1245,13 +1245,12 @@ export interface FileRouteTypes {
     | '/{-$locale}'
     | '/$'
     | '/b2b-solutions-matrix'
+    | '/biopesticide'
     | '/entity.json'
     | '/factory'
     | '/factory-audit-checklist'
     | '/faq'
-    | '/fishing'
     | '/inflatable-sup-certification'
-    | '/inflatable-vs-hardboard'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
@@ -1266,6 +1265,7 @@ export interface FileRouteTypes {
     | '/oem-paddle'
     | '/oem-sup-moq'
     | '/oem-trust-assurance'
+    | '/oem-vs-private-label'
     | '/partners'
     | '/product-development'
     | '/proof-center'
@@ -1351,13 +1351,12 @@ export interface RootRouteChildren {
   Char123LocaleChar125RouteRoute: typeof Char123LocaleChar125RouteRouteWithChildren
   SplatRoute: typeof SplatRoute
   B2bSolutionsMatrixRoute: typeof B2bSolutionsMatrixRoute
+  BiopesticideRoute: typeof BiopesticideRoute
   EntityDotjsonRoute: typeof EntityDotjsonRoute
   FactoryRoute: typeof FactoryRoute
   FactoryAuditChecklistRoute: typeof FactoryAuditChecklistRoute
   FaqRoute: typeof FaqRoute
-  FishingRoute: typeof FishingRoute
   InflatableSupCertificationRoute: typeof InflatableSupCertificationRoute
-  InflatableVsHardboardRoute: typeof InflatableVsHardboardRoute
   KnowledgeRoute: typeof KnowledgeRoute
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
@@ -1372,6 +1371,7 @@ export interface RootRouteChildren {
   OemPaddleRoute: typeof OemPaddleRoute
   OemSupMoqRoute: typeof OemSupMoqRoute
   OemTrustAssuranceRoute: typeof OemTrustAssuranceRoute
+  OemVsPrivateLabelRoute: typeof OemVsPrivateLabelRoute
   PartnersRoute: typeof PartnersRoute
   ProductDevelopmentRoute: typeof ProductDevelopmentRoute
   ProofCenterRoute: typeof ProofCenterRoute
@@ -1563,6 +1563,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PartnersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/oem-vs-private-label': {
+      id: '/oem-vs-private-label'
+      path: '/oem-vs-private-label'
+      fullPath: '/oem-vs-private-label'
+      preLoaderRoute: typeof OemVsPrivateLabelRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/oem-trust-assurance': {
       id: '/oem-trust-assurance'
       path: '/oem-trust-assurance'
@@ -1661,25 +1668,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KnowledgeRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/inflatable-vs-hardboard': {
-      id: '/inflatable-vs-hardboard'
-      path: '/inflatable-vs-hardboard'
-      fullPath: '/inflatable-vs-hardboard'
-      preLoaderRoute: typeof InflatableVsHardboardRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/inflatable-sup-certification': {
       id: '/inflatable-sup-certification'
       path: '/inflatable-sup-certification'
       fullPath: '/inflatable-sup-certification'
       preLoaderRoute: typeof InflatableSupCertificationRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/fishing': {
-      id: '/fishing'
-      path: '/fishing'
-      fullPath: '/fishing'
-      preLoaderRoute: typeof FishingRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/faq': {
@@ -1708,6 +1701,13 @@ declare module '@tanstack/react-router' {
       path: '/entity.json'
       fullPath: '/entity.json'
       preLoaderRoute: typeof EntityDotjsonRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/biopesticide': {
+      id: '/biopesticide'
+      path: '/biopesticide'
+      fullPath: '/biopesticide'
+      preLoaderRoute: typeof BiopesticideRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/b2b-solutions-matrix': {
@@ -2292,13 +2292,12 @@ const rootRouteChildren: RootRouteChildren = {
   Char123LocaleChar125RouteRoute: Char123LocaleChar125RouteRouteWithChildren,
   SplatRoute: SplatRoute,
   B2bSolutionsMatrixRoute: B2bSolutionsMatrixRoute,
+  BiopesticideRoute: BiopesticideRoute,
   EntityDotjsonRoute: EntityDotjsonRoute,
   FactoryRoute: FactoryRoute,
   FactoryAuditChecklistRoute: FactoryAuditChecklistRoute,
   FaqRoute: FaqRoute,
-  FishingRoute: FishingRoute,
   InflatableSupCertificationRoute: InflatableSupCertificationRoute,
-  InflatableVsHardboardRoute: InflatableVsHardboardRoute,
   KnowledgeRoute: KnowledgeRoute,
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
@@ -2313,6 +2312,7 @@ const rootRouteChildren: RootRouteChildren = {
   OemPaddleRoute: OemPaddleRoute,
   OemSupMoqRoute: OemSupMoqRoute,
   OemTrustAssuranceRoute: OemTrustAssuranceRoute,
+  OemVsPrivateLabelRoute: OemVsPrivateLabelRoute,
   PartnersRoute: PartnersRoute,
   ProductDevelopmentRoute: ProductDevelopmentRoute,
   ProofCenterRoute: ProofCenterRoute,

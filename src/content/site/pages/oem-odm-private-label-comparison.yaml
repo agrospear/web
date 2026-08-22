@@ -84,13 +84,13 @@ scenario_cards:
       icon_bg: 'orange'
       title: 'You need branded boards fast, no product development'
       desc: 'You are a distributor, resort or rental operator who wants your logo on quality boards without investing in product development. Choose Private Label — fastest route from concept to delivery.'
-      link: '/solutions/private-label-sup'
+      link: '/solutions/private-label'
       link_label: 'Private Label Details'
     - icon: '4'
       icon_bg: 'purple'
       title: 'You operate a resort, club or rental fleet'
       desc: 'You need durable, high-frequency-use SUP packages with batch consistency, spare parts and color management across reorders. Choose our Commercial Fleet Program.'
-      link: '/solutions/resort-sup'
+      link: '/solutions/bulk-supply'
       link_label: 'Commercial Fleet Details'
 
 ip_rules:

@@ -1,7 +1,7 @@
-﻿import { createLazyFileRoute } from '@tanstack/react-router'
+import { createLazyFileRoute } from '@tanstack/react-router'
 import { ContentCatchAll } from '@/features/content/catchall'
 
-export const Route = createLazyFileRoute('/inflatable-vs-hardboard')({ component: Page })
+export const Route = createLazyFileRoute('/biopesticide')({ component: Page })
 
 function Page() {
   const data = Route.useLoaderData()

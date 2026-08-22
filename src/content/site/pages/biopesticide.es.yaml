@@ -80,7 +80,7 @@ body: |
       <h3 class="font-display text-lg font-bold">Una tabla de pesca fabricada a tu especificación</h3>
       <p class="mt-2 text-sm text-fg-2">Comprueba cómo se fabrican nuestras tablas, explora la gama de pesca o envía tus requisitos a ingeniería.</p>
       <p class="mt-4 flex flex-wrap justify-center gap-3">
-        <a href="/es/products/fishing" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">Ver tablas de pesca</a>
+        <a href="/es/products/biopesticide" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">Ver tablas de pesca</a>
         <a href="/es/factory/process" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Cómo se fabrican las tablas</a>
         <a href="/es/knowledge" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Más guías de paddling</a>
       </p>

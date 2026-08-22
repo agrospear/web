@@ -212,10 +212,10 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: fishing
-  label: Fishing
-  path: /fishing
-  permalink: /fishing
+- slug: biopesticide
+  label: Biopesticide
+  path: /biopesticide
+  permalink: /biopesticide
   sections:
     - { key: label, type: content, label: 'Page Label' }
     - { key: headline, type: content, label: 'Headline' }
@@ -233,10 +233,10 @@
     - { key: albums, type: features, label: 'Photo Albums' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: inflatable-vs-hardboard
-  label: Inflatable vs Hardboard
-  path: /inflatable-vs-hardboard
-  permalink: /inflatable-vs-hardboard
+- slug: oem-vs-private-label
+  label: OEM vs Private Label
+  path: /oem-vs-private-label
+  permalink: /oem-vs-private-label
   sections:
     - { key: label, type: content, label: 'Page Label' }
     - { key: headline, type: content, label: 'Headline' }
