@@ -13,7 +13,7 @@ import { submitInquiry, type SubmitResult } from '../actions'
 import { INQUIRY_LIMITS, PROJECT_FILE_ACCEPT, PROJECT_FILE_EXTENSIONS, type InquiryTier } from '../inquiry.shared'
 
 export interface InquiryPrefill {
-  /** Product platform name (shown in the notice + board-platform field). */
+  /** Product platform name (shown in the notice + formulation-platform field). */
   name?: string
   sku?: string
   /** Agrochemical product category key, preselected in the category field. */
@@ -27,7 +27,7 @@ export interface InquiryPrefill {
  *   Step 1 — project fit: business type, company, work email, country/market,
  *            product category (pre-filled per landing page), order quantity
  *            range, launch window, project stage.
- *   Step 2 — product brief: role, board platform, construction, customization,
+ *   Step 2 — product brief: role, formulation platform, construction, customization,
  *            packaging, compliance, documents, annual volume, budget, files, NDA.
  * The server scores the lead (A/B/C); each tier gets a different reply page.
  */
@@ -207,16 +207,14 @@ export function InquiryForm({
           <div className="field">
             <Label htmlFor="inq-category">{t('inquiry.category')} <span className="req">*</span></Label>
             <Select id="inq-category" name="category" defaultValue={prefill?.category ?? 'unsure'} required autoComplete="off">
-              <option value="all-around">{t('inquiry.categoryOptions.all-around')}</option>
-              <option value="race">{t('inquiry.categoryOptions.race')}</option>
-              <option value="surf">{t('inquiry.categoryOptions.surf')}</option>
-              <option value="touring">{t('inquiry.categoryOptions.touring')}</option>
-              <option value="yoga">{t('inquiry.categoryOptions.yoga')}</option>
-              <option value="whitewater">{t('inquiry.categoryOptions.whitewater')}</option>
-              <option value="fishing">{t('inquiry.categoryOptions.fishing')}</option>
-              <option value="kids">{t('inquiry.categoryOptions.kids')}</option>
-              <option value="multi">{t('inquiry.categoryOptions.multi')}</option>
-              <option value="hard">{t('inquiry.categoryOptions.hard')}</option>
+              <option value="herbicide">{t('inquiry.categoryOptions.herbicide')}</option>
+              <option value="insecticide">{t('inquiry.categoryOptions.insecticide')}</option>
+              <option value="fungicide">{t('inquiry.categoryOptions.fungicide')}</option>
+              <option value="pgr">{t('inquiry.categoryOptions.pgr')}</option>
+              <option value="seed-treatment">{t('inquiry.categoryOptions.seed-treatment')}</option>
+              <option value="adjuvant">{t('inquiry.categoryOptions.adjuvant')}</option>
+              <option value="biopesticide">{t('inquiry.categoryOptions.biopesticide')}</option>
+              <option value="mixture">{t('inquiry.categoryOptions.mixture')}</option>
               <option value="accessories">{t('inquiry.categoryOptions.accessories')}</option>
               <option value="multiple">{t('inquiry.categoryOptions.multiple')}</option>
               <option value="unsure">{t('inquiry.categoryOptions.unsure')}</option>

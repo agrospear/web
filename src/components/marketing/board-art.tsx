@@ -25,7 +25,7 @@ export function BoardArt({
       </g>
       {/* fin */}
       <path d="M404 26c11 7 14 17 14 17l-14 9z" fill="var(--border-strong)" opacity="0.85" />
-      {/* board silhouette */}
+      {/* product silhouette */}
       <path
         d="M10 75C10 52 26 34 48 28c28-8 72-10 132-10 80 0 150 6 200 16 36 8 68 24 68 41 0 17-32 33-68 41-50 10-120 16-200 16-60 0-104-2-132-10-22-6-38-24-38-47Z"
         fill="var(--card)"

@@ -10,7 +10,7 @@ const MODE_ENTRIES = [
   {
     key: 'oem' as const,
     icon: FileCode,
-    buyerState: 'Already have drawings, specs or a reference board',
+    buyerState: 'Already have specifications, target formulation or a reference product',
     ctaLabel: 'Build to Your Specification',
     href: '/factory/oem-capability',
   },

@@ -637,8 +637,8 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
       ]
     : [
         {
-          q: 'What is the minimum order to customize this board?',
-          a: `MOQ is ${MOQ_SHORT.standardRun} per 150 m roll for standard volume production, with pilot runs from ${MOQ_SHORT.trialStandard} and ${MOQ_SHORT.customMould} for a custom mould.`,
+          q: 'What is the minimum order to customize a formulation?',
+          a: `MOQ is ${MOQ_SHORT.standardRun} tons for standard volume production, with pilot runs from ${MOQ_SHORT.trialStandard} and ${MOQ_SHORT.customMould} for custom packaging tooling.`,
         },
         {
           q: 'How long do samples and production take?',
@@ -646,11 +646,11 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
         },
         {
           q: 'Can I change colors, artwork and the logo?',
-          a: 'Yes — graphics, colors, EVA traction, logo, packaging and accessories are all customizable on every platform. Share your logo and we produce a visual proof before production.',
+          a: 'Yes — label design, color coding, logo placement, packaging and accessories are all customizable on every formulation platform. Share your logo and we produce a visual proof before production.',
         },
         {
           q: 'How is quality controlled before shipment?',
-          a: `Every board passes a ${FACTS.assemblyChecklist} assembly checklist and a ${FACTS.pressureTest} pressure test before packing; units exceeding a 5% pressure drop are auto-rejected.`,
+          a: `Every batch passes a ${FACTS.assemblyChecklist} production checklist and a ${FACTS.pressureTest} specification test before packing; batches exceeding specification limits are auto-rejected.`,
         },
       ]
   return [...specific, ...pool]
