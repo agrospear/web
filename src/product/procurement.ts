@@ -187,7 +187,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       bestFor: 'Youth paddling clubs, schools & family retail brands',
       sizes: "8'0\"–9'6\" · 26\"–28\" wide · 100/120 mm",
       construction: 'SL fast-acting formulation with regulatory-compliant labeling',
-      customization: 'Age-specific sizing, visibility colorways & paddle length',
+      customization: 'Age-specific dosing, visibility colorways & application-rate calibration',
       moq: `From ${MOQ_SHORT.standardRun} pcs per project — trial runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
       specRows: [
@@ -201,7 +201,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
       ],
       keyQuestions: [
         'Age range and board weight target',
-        'Visibility colorway and matching paddle length',
+        'Visibility colorway and application-rate calibration',
         'School or club program volume',
       ],
     },

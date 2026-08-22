@@ -47,6 +47,7 @@ test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
   expect(gatePath('/solutions/resorts-hotels')).toEqual({ action: 'redirect', to: '/solutions/co-branding' })
   expect(gatePath('/solutions/paddle-clubs')).toEqual({ action: 'redirect', to: '/solutions/distributor-partners' })
   expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/distributor-partners' })
+  expect(gatePath('/oem-paddle')).toEqual({ action: 'redirect', to: '/oem-adjuvants' })
 })
 
 test('brand pages collapse onto /about and /about/agrospear (P1-3)', () => {
@@ -169,13 +170,13 @@ test('no legacy key shadows a live page (P0-5)', () => {
 
 test('revived pages are served, not 301d (P0-5)', () => {
   expect(gatePath('/about/agrospear').action).toBe('ok')
-  expect(gatePath('/oem-paddle').action).toBe('ok')
+  expect(gatePath('/oem-adjuvants').action).toBe('ok')
   expect(gatePath('/factory/oem-capability').action).toBe('ok')
   expect(gatePath('/factory/capacity').action).toBe('ok')
   expect(gatePath('/randdcenter/formulation-engineering').action).toBe('ok')
   expect(gatePath('/research/formulation-technology').action).toBe('ok')
   expect(gatePath('/solutions/distributor-partners').action).toBe('ok')
-  expect(gatePath('/oem-paddle').action).toBe('ok')
+  expect(gatePath('/oem-adjuvants').action).toBe('ok')
   expect(gatePath('/guides/beginner-guide').action).toBe('ok')
   expect(gatePath('/guides/inflatable-vs-hard').action).toBe('ok')
   expect(gatePath('/evidence/case-studies').action).toBe('ok')

@@ -52,7 +52,7 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/factory/non-conforming-control', lastmod: '2026-08-20' },
   { path: '/oem-manufacturing', lastmod: '2026-08-20' },
   { path: '/odm-development', lastmod: '2026-08-20' },
-  { path: '/oem-paddle', lastmod: '2026-08-20' },
+  { path: '/oem-adjuvants', lastmod: '2026-08-20' },
   { path: '/b2b-solutions-matrix', lastmod: '2026-08-20' },
   { path: '/solutions/co-branding', lastmod: '2026-08-20' },
   { path: '/solutions/distributor-partners', lastmod: '2026-08-20' },

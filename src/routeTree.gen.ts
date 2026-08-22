@@ -28,13 +28,13 @@ import { Route as ProductDevelopmentRouteImport } from './routes/product-develop
 import { Route as PartnersRouteImport } from './routes/partners'
 import { Route as OemVsPrivateLabelRouteImport } from './routes/oem-vs-private-label'
 import { Route as OemTrustAssuranceRouteImport } from './routes/oem-trust-assurance'
-import { Route as OemPaddleRouteImport } from './routes/oem-paddle'
 import { Route as OemOnboardingGuideRouteImport } from './routes/oem-onboarding-guide'
 import { Route as OemOdmPrivateLabelComparisonRouteImport } from './routes/oem-odm-private-label-comparison'
 import { Route as OemOdmRouteImport } from './routes/oem-odm'
 import { Route as OemMoqGuideRouteImport } from './routes/oem-moq-guide'
 import { Route as OemManufacturingRouteImport } from './routes/oem-manufacturing'
 import { Route as OemAgrochemicalMoqRouteImport } from './routes/oem-agrochemical-moq'
+import { Route as OemAdjuvantsRouteImport } from './routes/oem-adjuvants'
 import { Route as OdmDevelopmentRouteImport } from './routes/odm-development'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as NewBrandTrialOrderRouteImport } from './routes/new-brand-trial-order'
@@ -223,11 +223,6 @@ const OemTrustAssuranceRoute = OemTrustAssuranceRouteImport.update({
 } as any).lazy(() =>
   import('./routes/oem-trust-assurance.lazy').then((d) => d.Route),
 )
-const OemPaddleRoute = OemPaddleRouteImport.update({
-  id: '/oem-paddle',
-  path: '/oem-paddle',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/oem-paddle.lazy').then((d) => d.Route))
 const OemOnboardingGuideRoute = OemOnboardingGuideRouteImport.update({
   id: '/oem-onboarding-guide',
   path: '/oem-onboarding-guide',
@@ -269,6 +264,11 @@ const OemAgrochemicalMoqRoute = OemAgrochemicalMoqRouteImport.update({
 } as any).lazy(() =>
   import('./routes/oem-agrochemical-moq.lazy').then((d) => d.Route),
 )
+const OemAdjuvantsRoute = OemAdjuvantsRouteImport.update({
+  id: '/oem-adjuvants',
+  path: '/oem-adjuvants',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/oem-adjuvants.lazy').then((d) => d.Route))
 const OdmDevelopmentRoute = OdmDevelopmentRouteImport.update({
   id: '/odm-development',
   path: '/odm-development',
@@ -791,13 +791,13 @@ export interface FileRoutesByFullPath {
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
+  '/oem-adjuvants': typeof OemAdjuvantsRoute
   '/oem-agrochemical-moq': typeof OemAgrochemicalMoqRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
   '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
-  '/oem-paddle': typeof OemPaddleRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
@@ -899,13 +899,13 @@ export interface FileRoutesByTo {
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
+  '/oem-adjuvants': typeof OemAdjuvantsRoute
   '/oem-agrochemical-moq': typeof OemAgrochemicalMoqRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
   '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
-  '/oem-paddle': typeof OemPaddleRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
@@ -1007,13 +1007,13 @@ export interface FileRoutesById {
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
+  '/oem-adjuvants': typeof OemAdjuvantsRoute
   '/oem-agrochemical-moq': typeof OemAgrochemicalMoqRoute
   '/oem-manufacturing': typeof OemManufacturingRoute
   '/oem-moq-guide': typeof OemMoqGuideRoute
   '/oem-odm': typeof OemOdmRoute
   '/oem-odm-private-label-comparison': typeof OemOdmPrivateLabelComparisonRoute
   '/oem-onboarding-guide': typeof OemOnboardingGuideRoute
-  '/oem-paddle': typeof OemPaddleRoute
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
@@ -1118,13 +1118,13 @@ export interface FileRouteTypes {
     | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
+    | '/oem-adjuvants'
     | '/oem-agrochemical-moq'
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
     | '/oem-odm-private-label-comparison'
     | '/oem-onboarding-guide'
-    | '/oem-paddle'
     | '/oem-trust-assurance'
     | '/oem-vs-private-label'
     | '/partners'
@@ -1226,13 +1226,13 @@ export interface FileRouteTypes {
     | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
+    | '/oem-adjuvants'
     | '/oem-agrochemical-moq'
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
     | '/oem-odm-private-label-comparison'
     | '/oem-onboarding-guide'
-    | '/oem-paddle'
     | '/oem-trust-assurance'
     | '/oem-vs-private-label'
     | '/partners'
@@ -1333,13 +1333,13 @@ export interface FileRouteTypes {
     | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
+    | '/oem-adjuvants'
     | '/oem-agrochemical-moq'
     | '/oem-manufacturing'
     | '/oem-moq-guide'
     | '/oem-odm'
     | '/oem-odm-private-label-comparison'
     | '/oem-onboarding-guide'
-    | '/oem-paddle'
     | '/oem-trust-assurance'
     | '/oem-vs-private-label'
     | '/partners'
@@ -1443,13 +1443,13 @@ export interface RootRouteChildren {
   NewBrandTrialOrderRoute: typeof NewBrandTrialOrderRoute
   NewsRoute: typeof NewsRoute
   OdmDevelopmentRoute: typeof OdmDevelopmentRoute
+  OemAdjuvantsRoute: typeof OemAdjuvantsRoute
   OemAgrochemicalMoqRoute: typeof OemAgrochemicalMoqRoute
   OemManufacturingRoute: typeof OemManufacturingRoute
   OemMoqGuideRoute: typeof OemMoqGuideRoute
   OemOdmRoute: typeof OemOdmRoute
   OemOdmPrivateLabelComparisonRoute: typeof OemOdmPrivateLabelComparisonRoute
   OemOnboardingGuideRoute: typeof OemOnboardingGuideRoute
-  OemPaddleRoute: typeof OemPaddleRoute
   OemTrustAssuranceRoute: typeof OemTrustAssuranceRoute
   OemVsPrivateLabelRoute: typeof OemVsPrivateLabelRoute
   PartnersRoute: typeof PartnersRoute
@@ -1617,13 +1617,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OemTrustAssuranceRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/oem-paddle': {
-      id: '/oem-paddle'
-      path: '/oem-paddle'
-      fullPath: '/oem-paddle'
-      preLoaderRoute: typeof OemPaddleRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/oem-onboarding-guide': {
       id: '/oem-onboarding-guide'
       path: '/oem-onboarding-guide'
@@ -1664,6 +1657,13 @@ declare module '@tanstack/react-router' {
       path: '/oem-agrochemical-moq'
       fullPath: '/oem-agrochemical-moq'
       preLoaderRoute: typeof OemAgrochemicalMoqRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oem-adjuvants': {
+      id: '/oem-adjuvants'
+      path: '/oem-adjuvants'
+      fullPath: '/oem-adjuvants'
+      preLoaderRoute: typeof OemAdjuvantsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/odm-development': {
@@ -2416,13 +2416,13 @@ const rootRouteChildren: RootRouteChildren = {
   NewBrandTrialOrderRoute: NewBrandTrialOrderRoute,
   NewsRoute: NewsRoute,
   OdmDevelopmentRoute: OdmDevelopmentRoute,
+  OemAdjuvantsRoute: OemAdjuvantsRoute,
   OemAgrochemicalMoqRoute: OemAgrochemicalMoqRoute,
   OemManufacturingRoute: OemManufacturingRoute,
   OemMoqGuideRoute: OemMoqGuideRoute,
   OemOdmRoute: OemOdmRoute,
   OemOdmPrivateLabelComparisonRoute: OemOdmPrivateLabelComparisonRoute,
   OemOnboardingGuideRoute: OemOnboardingGuideRoute,
-  OemPaddleRoute: OemPaddleRoute,
   OemTrustAssuranceRoute: OemTrustAssuranceRoute,
   OemVsPrivateLabelRoute: OemVsPrivateLabelRoute,
   PartnersRoute: PartnersRoute,

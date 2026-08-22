@@ -26,6 +26,7 @@ export const SHADOWED_PATHS: Set<string> = new Set([
   '/knowledge/inflatable-sup-construction-explained',
   '/knowledge/how-organizations-choose-sup-equipment',
   '/oem-agrochemical-moq',
+  '/oem-paddle',
   '/agrochemical-certification-guide',
   ENTITY_PAGE_PATH,
 ])
@@ -50,7 +51,7 @@ export const EXTRA_PATHS: Record<string, string> = {
   '/oem/agrochemical-oem-europe': 'agrochemical-oem-europe',
   '/oem/agrochemical-oem-australia': 'agrochemical-oem-australia',
   '/oem/agrochemical-oem-canada': 'agrochemical-oem-canada',
-  '/oem-paddle': 'oem-paddle',
+  '/oem-adjuvants': 'oem-adjuvants',
   '/solutions/co-branding': 'solutions-co-branding',
   '/solutions/distributor-partners': 'solutions-distributor-partners',
   '/solutions/distributors': 'solutions-distributors',

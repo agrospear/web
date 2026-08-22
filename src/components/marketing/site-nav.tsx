@@ -70,7 +70,7 @@ export function SiteNav() {
             { label: t('sup.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
             { label: t('sup.nav.productsServicesDropdown.productDevelopment'), href: '/product-development' },
             { label: t('sup.nav.productsServicesDropdown.newBrandTrial'), href: '/new-brand-trial-order' },
-            { label: t('sup.nav.productsServicesDropdown.oemPaddle'), href: '/oem-paddle' },
+            { label: t('sup.nav.productsServicesDropdown.oemPaddle'), href: '/oem-adjuvants' },
           ],
         },
       ],

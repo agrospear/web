@@ -242,7 +242,7 @@ export function llmsAgrospearFull(): string {
     '/factory/capacity', '/factory/equipment', '/factory/oem-capability',
     '/factory/process', '/factory/quality-lab', '/factory/quality-inspection',
     '/factory/quality-change-control', '/factory/non-conforming-control',
-    '/odm-development', '/oem-manufacturing', '/oem-paddle',
+    '/odm-development', '/oem-manufacturing', '/oem-adjuvants',
     '/new-brand-trial-order', '/b2b-solutions-matrix',
     '/formulation-type-comparison', '/agrochemical-regulation-by-market',
     '/factory-audit-checklist', '/about/identity', '/about/agrospear',
