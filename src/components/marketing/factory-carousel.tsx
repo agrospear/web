@@ -10,67 +10,37 @@ interface Slide {
 
 const SLIDES_EN: Slide[] = [
   {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/hero/production-dept.webp`,
-    tagline: 'Production Workshop',
-    title: 'Eight automated formulation lines running two daily shifts',
-  },
-  {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-factory-aerial-1.webp`,
-    tagline: '20,000 m\u00b2 Campus',
+    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-factory-exterior.webp`,
+    tagline: '20,000 m\u00b2 Factory',
     title: 'From raw active ingredient to export-ready product — all under one roof',
   },
   {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-formulation-lab.webp`,
+    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-formulation-lab.webp`,
     tagline: 'Formulation Lab',
     title: 'R&D and pilot-scale validation before every production commitment',
   },
   {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-quality-lab.webp`,
+    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-quality-lab.webp`,
     tagline: 'Quality & Inspection Lab',
     title: 'HPLC/GC analysis, stability chambers, particle sizing — every batch tested',
-  },
-  {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-pressure-testing.webp`,
-    tagline: 'Pressure & Stability Testing',
-    title: 'Accelerated and long-term stability per FAO/WHO specifications',
-  },
-  {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-production-department-2.webp`,
-    tagline: 'Filling & Packaging',
-    title: 'Automated rotary lines from 100 mL bottles to 1000 L IBCs',
   },
 ]
 
 const SLIDES_ES: Slide[] = [
   {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/hero/production-dept.webp`,
-    tagline: 'Taller de producci\u00f3n',
-    title: 'Ocho l\u00edneas de formulaci\u00f3n automatizadas en dos turnos diarios',
-  },
-  {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-factory-aerial-1.webp`,
-    tagline: 'Campus de 20.000 m\u00b2',
+    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-factory-exterior.webp`,
+    tagline: 'F\u00e1brica de 20.000 m\u00b2',
     title: 'Del ingrediente activo al producto listo para exportar — todo bajo un mismo techo',
   },
   {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-formulation-lab.webp`,
+    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-formulation-lab.webp`,
     tagline: 'Laboratorio de formulaci\u00f3n',
     title: 'I+D y validaci\u00f3n a escala piloto antes de cada compromiso de producci\u00f3n',
   },
   {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-quality-lab.webp`,
+    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-quality-lab.webp`,
     tagline: 'Laboratorio de calidad e inspecci\u00f3n',
     title: 'An\u00e1lisis HPLC/GC, c\u00e1maras de estabilidad, granulometr\u00eda — cada lote analizado',
-  },
-  {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-pressure-testing.webp`,
-    tagline: 'Ensayos de presi\u00f3n y estabilidad',
-    title: 'Estabilidad acelerada y a largo plazo seg\u00fan especificaciones FAO/WHO',
-  },
-  {
-    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-production-department-2.webp`,
-    tagline: 'Llenado y embalaje',
-    title: 'L\u00edneas rotativas automatizadas desde botellas de 100 mL hasta IBC de 1000 L',
   },
 ]
 
