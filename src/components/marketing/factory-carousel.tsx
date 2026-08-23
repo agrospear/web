@@ -90,7 +90,7 @@ export function FactoryCarousel() {
   }, [next])
 
   return (
-    <section className="relative w-full overflow-hidden bg-gray-950" style={{ height: 'clamp(340px, 55vh, 640px)' }}>
+    <section className="relative w-full overflow-hidden" style={{ background: '#030712', height: 'clamp(340px, 55vh, 640px)' }}>
       {slides.map((s, i) => (
         <div
           key={i}
@@ -103,7 +103,7 @@ export function FactoryCarousel() {
             className="h-full w-full object-cover"
             loading={i === 0 ? 'eager' : 'lazy'}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-950/90 via-gray-950/40 to-gray-950/20" />
+          <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(3,7,18,0.9), rgba(3,7,18,0.4) 60%, rgba(3,7,18,0.2))' }} />
           <div className="absolute bottom-0 left-0 right-0 px-6 pb-10 pt-20 md:px-12 md:pb-14">
             <p className="text-[13px] font-semibold uppercase tracking-widest text-[#7fd6f0]">{s.tagline}</p>
             <h2 className="mt-2 max-w-2xl text-[1.25rem] font-bold leading-snug text-white md:text-[1.6rem]">{s.title}</h2>
