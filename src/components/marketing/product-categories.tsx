@@ -141,14 +141,14 @@ export function ProductCategories() {
           {t('agro.productCategories.sub')}
         </p>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 flex flex-col gap-6">
           {categories.map((cat) => (
             <a
               key={cat.slug}
               href={fl(cat.href)}
-              className="group rounded-2xl border p-0 transition-all duration-300 hover:-translate-y-0.5" style={{ background: '#fff', borderColor: 'var(--border)', boxShadow: 'var(--shadow-sm)' }}
+              className="group flex flex-col md:flex-row overflow-hidden rounded-2xl border transition-all duration-300 hover:-translate-y-0.5" style={{ background: '#fff', borderColor: 'var(--border)', boxShadow: 'var(--shadow-sm)' }}
             >
-              <div className="aspect-[4/3] overflow-hidden rounded-t-2xl flex items-center justify-center p-4" style={{ background: `linear-gradient(to bottom right, ${cat.gradFrom}, ${cat.gradTo})` }}>
+              <div className="aspect-[4/3] md:aspect-auto md:w-2/5 overflow-hidden rounded-t-2xl md:rounded-t-none md:rounded-l-2xl flex items-center justify-center p-4" style={{ background: `linear-gradient(to bottom right, ${cat.gradFrom}, ${cat.gradTo})` }}>
                 <img
                   src={cat.image}
                   alt={cat.label}
@@ -156,9 +156,12 @@ export function ProductCategories() {
                   loading="lazy"
                 />
               </div>
-              <div className="px-5 py-4">
-                <h3 className="text-[15px] font-bold" style={{ color: 'var(--foreground)' }}>{cat.label}</h3>
-                <p className="mt-1.5 text-[13.5px] leading-relaxed" style={{ color: 'var(--fg-3)' }}>{cat.sub}</p>
+              <div className="flex flex-col justify-center px-6 py-5 md:w-3/5">
+                <h3 className="text-[17px] font-bold" style={{ color: 'var(--foreground)' }}>{cat.label}</h3>
+                <p className="mt-2 text-[14px] leading-relaxed" style={{ color: 'var(--fg-3)' }}>{cat.sub}</p>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-semibold" style={{ color: 'var(--primary)' }}>
+                  {locale === 'es' ? 'Ver productos' : 'View products'} <span aria-hidden="true">→</span>
+                </span>
               </div>
             </a>
           ))}
