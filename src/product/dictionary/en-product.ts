@@ -239,13 +239,13 @@ export const enProduct = {
         entity: 'Company Entity',
         partners: 'Partnerships',
         howItWorks: 'How It Works',
+      },
     },
     productCategories: {
       kicker: 'Product Formulations',
       title: 'Six Crop Protection Categories, Dozens of Proven Platforms',
       sub: 'Each formulation is a manufacturing platform — choose a starting point and we adapt the concentration, packaging and labeling to your product.',
     },
-  },
     breadcrumb: {
       home: 'Home', solutions: 'Solutions', projects: 'Projects',
       knowledge: 'Knowledge Center', company: 'Company',

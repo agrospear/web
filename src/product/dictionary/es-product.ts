@@ -239,13 +239,13 @@ export const esProduct = {
         entity: 'Entidad de la empresa',
         partners: 'Alianzas',
         howItWorks: 'Cómo funciona',
+      },
     },
     productCategories: {
       kicker: 'Formulaciones de producto',
       title: 'Seis categorías de protección de cultivos, docenas de plataformas probadas',
       sub: 'Cada formulación es una plataforma de fabricación — elige un punto de partida y adaptamos la concentración, el embalaje y el etiquetado a tu producto.',
     },
-  },
     breadcrumb: {
       home: 'Inicio', solutions: 'Soluciones', projects: 'Proyectos',
       knowledge: 'Centro de conocimiento', company: 'Empresa',
