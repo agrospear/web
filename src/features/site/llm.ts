@@ -256,8 +256,10 @@ export function llmsAgrospearFull(): string {
     '/research/formulation-technology', '/research/adjuvant-types',
     '/research/icama-registration', '/research/formulation-stability',
     '/research/oem-buyer-guide',
-    '/oem/agrochemical-oem-north-america', '/oem/agrochemical-oem-europe',
-    '/oem/agrochemical-oem-australia', '/oem/agrochemical-oem-canada',
+    '/oem/agrochemical-oem-africa', '/oem/agrochemical-oem-southeast-asia',
+    '/oem/agrochemical-oem-latin-america', '/oem/agrochemical-oem-west-asia',
+    '/oem/agrochemical-oem-central-asia',
+    
   ])
 
   function pageBodyText(p: { path: string; content?: Record<string, unknown> }): string[] {

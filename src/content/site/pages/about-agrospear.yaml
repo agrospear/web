@@ -1,0 +1,113 @@
+meta:
+  title: 'About Agrospear — the Agrochemical Manufacturing Division'
+  description: 'Agrospear is the agrochemical manufacturing division of Qingdao Vatrad Group, founded in 2012 in Qingdao, China — the factory behind every Agrospear custom project.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Agrospear'
+    - 'agrochemical factory china'
+    - 'agrochemical formulation manufacturer'
+    - 'qingdao vatrad group'
+hero:
+  tagline: About Agrospear
+  title: 'Agrospear — the Agrochemical Manufacturing Division Behind {SITE}'
+  subtitle: 'Founded in 2012 in Qingdao, China, Agrospear operates a 20,000 m² certified facility with 8 automated production lines and 50,000+ tons annual capacity — delivering custom crop protection formulations to OEM and ODM partners in 60+ countries across six continents.'
+  actions:
+    - text: 'Start a Custom Project'
+      href: /contact
+      variant: primary
+    - text: 'See the Factory'
+      href: /factory
+      variant: secondary
+intro: |
+  <p><strong>Agrospear</strong> is the agrochemical manufacturing division of <strong>Qingdao Vatrad Group Co., Ltd.</strong>, based in the Economic Development Zone of Laixi, Qingdao, Shandong, China. Founded in 2012, the company began as a specialized formulation workshop committed to crop protection science, and has grown into a state-designated pesticide manufacturer serving OEM and ODM clients across more than 60 countries on six continents.</p>
+  <p>Agrospear is the B2B custom-development division of the Agrospear factory. Every Agrospear project — from a first sample or small-batch co-branded run to a full private-label product line — is manufactured in the same facility, by the same teams, and under the same quality system described here. The factory actively participates in international exhibitions including CAC Shanghai, AgroChemEx and regional trade fairs, building relationships with distributors and registrars who rely on consistent batch quality for their home markets.</p>
+  <p>The factory covers 20,000 m² with dedicated workshops for raw material inspection, dispersion system preparation, mixing and milling, formulation filling and a testing area for stability, content analysis and physical property checks. Eight automated production lines deliver over 50,000 tons per year, and the facility operates under ISO 9001, ISO 14001 and GMP quality management with BSCI and ICAMA compliance for exported products. Agrospear maintains school-enterprise cooperation programs with agricultural universities in Shandong, channeling academic research into formulation innovation and co-developing novel adjuvant systems with graduate engineering teams.</p>
+  <p>More than 200 skilled workers and 14+ R&D engineers — backed by 30+ technology patents — support the two lines of work that matter to agrochemical brands: engineering (formulation design, co-formulant selection, prototyping) and production (labeling, filling, inspection, export packing). An in-house R&D center with a formulation lab and stability chamber handles custom formulations and registration support before mass production begins. Over a decade of international market expansion has given Agrospear deep experience navigating registration requirements, labeling regulations and import protocols across Africa, Southeast Asia, Latin America and the Middle East.</p>
+stats:
+  title: Agrospear by the Numbers
+  stats:
+    - title: Founded
+      amount: 2012
+    - title: Facility
+      amount: '20,000 m²'
+    - title: Production Lines
+      amount: '8 automated lines'
+    - title: Annual Capacity
+      amount: '50,000+ tons'
+    - title: Technology Patents
+      amount: '30+'
+    - title: Countries Served
+      amount: '60+'
+    - title: Employees
+      amount: '200+'
+    - title: R&D Engineers
+      amount: '14+'
+values_section:
+  title: How the Factory Works With Brands
+  subtitle: 'Three principles that shape every project built by the Agrospear factory.'
+  columns: 3
+  items:
+    - title: Engineering Before Production
+      description: 'Every project starts with requirements, specifications and a physical sample — whether it is a 480 g/L EC insecticide or a 75% WDG herbicide, the formulation type, active concentration, label placement and packaging are validated in the lab before any production run, not discovered on the line.'
+      icon: 'tabler:settings'
+    - title: One Team, One Facility
+      description: 'Formulation, mixing, filling, inspection and testing happen in one 20,000 m² facility. No trading-company handoffs: the chemists who develop your suspension concentrate are the same people who oversee its milling and filling, ensuring emulsion stability and particle-size distribution carry straight from the lab to the drum.'
+      icon: 'tabler:building-factory-2'
+    - title: Small First Runs
+      description: 'Sample runs start at 1–4 tons and pilot batches at 5 tons, so brands validate field performance — efficacy, sprayability, shelf stability — before committing to standard 20+ ton production runs. Formulation records, artwork and registration dossiers are retained for seamless reorders.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: What the Factory Delivers
+  subtitle: 'The manufacturing services available to Agrospear clients.'
+  columns: 2
+  items:
+    - title: Custom Formulation Development
+      description: 'Requirement evaluation, specification, co-formulant selection, labeling, prototyping, sample approval and production for custom agrochemical formulations — from suspension concentrates and water-dispersible granules to micro-emulsions and soluble liquids.'
+      icon: 'tabler:bulb'
+    - title: Private Label Production
+      description: 'Your logo, colors and packaging on proven technical-grade platforms — product, label, drums and cartons all carry your identity, with no factory branding. Artwork adaptation for multilingual markets is handled in-house.'
+      icon: 'tabler:tag'
+    - title: OEM / ODM Manufacturing
+      description: 'Full OEM and ODM agrochemical manufacturing from client specifications or co-developed formulations, including custom formulation development for new products and white-label programs for regional distributors.'
+      icon: 'tabler:package'
+    - title: Bulk Supply
+      description: 'Branded product supply for distributors, cooperatives, government programs and regional registrars, with consistent batch quality and fleet-friendly production runs sized for container-load shipments.'
+      icon: 'tabler:users-group'
+    - title: Registration & Regulatory Support
+      description: 'Complete registration documentation packages — acute toxicity data, residue trials, product chemistry dossiers and ICAMA compliance files — prepared to support your market authorization in target countries, reducing time-to-shelf for new product launches.'
+      icon: 'tabler:file-certificate'
+    - title: International Market Development
+      description: 'Market-specific formulation adaptation, import protocol guidance and local regulatory insight for Africa, Southeast Asia, Latin America and the Middle East — helping brands enter new territories with formulations tuned to local crops, climates and application practices.'
+      icon: 'tabler:world'
+certifications_section:
+  title: Certification & Compliance
+  subtitle: 'The factory ships to global markets under a documented compliance system.'
+  columns: 2
+  items:
+    - title: ISO 9001 Quality System
+      description: 'Manufacturing facility operates under an ISO 9001 quality management system covering incoming raw material, in-process and final inspection.'
+      icon: 'tabler:badge-check'
+    - title: ISO 14001 Environmental
+      description: 'Environmental management system certified under ISO 14001, covering waste treatment, emission control and sustainable production practices.'
+      icon: 'tabler:leaf'
+    - title: GMP Good Manufacturing Practice
+      description: 'Production processes comply with Good Manufacturing Practice standards, ensuring traceability, batch consistency and controlled manufacturing environments for agrochemical output.'
+      icon: 'tabler:clipboard-check'
+    - title: BSCI Social Compliance
+      description: 'Social responsibility audited under BSCI, covering working conditions and factory compliance.'
+      icon: 'tabler:shield-check'
+    - title: ICAMA Registration Support
+      description: 'Full ICAMA registration documentation and support for products destined for China and ICAMA-recognized markets.'
+      icon: 'tabler:certificate'
+    - title: FAO/WHO Specifications
+      description: 'Product specifications aligned with FAO/WHO standards for pesticide quality and international trade.'
+      icon: 'tabler:flask'
+    - title: Product Testing
+      description: 'Stability testing, content analysis, physical property checks, shelf stability and sedimentation testing on every production line.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Build your agrochemical project with the Agrospear factory'
+  subtitle: 'Send your requirements — active ingredient, formulation type, target concentration, quantity, label language and destination market — and receive a detailed quote with lead times and registration support options within one business day.'
+  actions:
+    - text: Brand Identity
+      href: /about/identity

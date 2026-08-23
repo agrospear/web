@@ -57,13 +57,13 @@ fleet_guide:
   subtitle: 'Estimate product volume for your co-branded agrochemical line by market size.'
   tiers:
     - label: Regional Partnership
-      boards: '5–20 tons'
+      volume: '5–20 tons'
       note: 'Single-crop or single-season co-branded program'
     - label: Multi-Region Partnership
-      boards: '20–50 tons'
+      volume: '20–50 tons'
       note: 'Multiple formulations across crop segments and regions'
     - label: National Partnership
-      boards: '50–200+ tons'
+      volume: '50–200+ tons'
       note: 'Full co-branded product portfolio across seasons and territories'
 
 content_html: |

@@ -81,18 +81,18 @@ export function ContactFloats() {
       ref={wechatTrap}
       className="flex w-[300px] flex-col items-center rounded-xl border border-border bg-bg p-4 shadow-lg"
       role="dialog"
-      aria-label={t('sup.contactWeChat')}
+      aria-label={t('agro.contactWeChat')}
       onKeyDown={(e) => { if (e.key === 'Escape') setOpen(false) }}
     >
       <img
         src="/assets/wechat-qr.jpg"
-        alt={t('sup.contactWeChat')}
+        alt={t('agro.contactWeChat')}
         width={192}
         height={192}
         loading="lazy"
         className="h-48 w-auto rounded-lg border border-border-2 bg-white p-1.5"
       />
-      <p className="mt-3 text-center text-[13px] font-medium text-foreground">{t('sup.contactWeChatHint')}</p>
+      <p className="mt-3 text-center text-[13px] font-medium text-foreground">{t('agro.contactWeChatHint')}</p>
         <div className="mt-2 flex items-center gap-2">
           <span className="text-[13.5px] text-fg-2">{WECHAT_DISPLAY}</span>
           <button
@@ -100,7 +100,7 @@ export function ContactFloats() {
             onClick={copyWeChat}
             className="rounded-md bg-primary px-2 py-1 text-[12px] font-medium text-primary-foreground transition-colors hover:bg-primary-hover"
           >
-            <span role="status" aria-live="polite">{copied ? t('sup.contactCopied') : t('sup.contactCopy')}</span>
+            <span role="status" aria-live="polite">{copied ? t('agro.contactCopied') : t('agro.contactCopy')}</span>
           </button>
         </div>
     </div>
@@ -119,8 +119,8 @@ export function ContactFloats() {
             href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={t('sup.contactWhatsApp')}
-            title={t('sup.contactWhatsApp')}
+            aria-label={t('agro.contactWhatsApp')}
+            title={t('agro.contactWhatsApp')}
             className="flex h-11 w-11 items-center justify-center rounded-full bg-[#25D366] text-white shadow-md transition-transform hover:scale-105"
           >
             <WhatsAppIcon />
@@ -128,9 +128,9 @@ export function ContactFloats() {
           <button
             type="button"
             onClick={() => setOpen((o) => !o)}
-            aria-label={t('sup.contactWeChat')}
+            aria-label={t('agro.contactWeChat')}
             aria-expanded={open}
-            title={t('sup.contactWeChat')}
+            title={t('agro.contactWeChat')}
             className="flex h-11 w-11 items-center justify-center rounded-full bg-[#07C160] text-white shadow-md transition-transform hover:scale-105"
           >
             <WeChatIcon />
@@ -141,7 +141,7 @@ export function ContactFloats() {
       {/* mobile sticky contact bar */}
       <div
         role="toolbar"
-        aria-label={t('sup.contactToolbar')}
+        aria-label={t('agro.contactToolbar')}
         className={`fixed inset-x-0 bottom-0 z-50 border-t border-border bg-background/95 px-4 pb-[max(12px,env(safe-area-inset-bottom))] pt-3 backdrop-blur transition-transform duration-300 md:hidden ${
           hidden ? 'translate-y-full' : 'translate-y-0'
         }`}
@@ -154,7 +154,7 @@ export function ContactFloats() {
             href={WA_URL}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={t('sup.contactWhatsApp')}
+            aria-label={t('agro.contactWhatsApp')}
             className="flex h-11 flex-1 items-center justify-center gap-2 rounded-full bg-[#25D366] text-[14px] font-bold text-white"
           >
             <WhatsAppIcon />
@@ -162,7 +162,7 @@ export function ContactFloats() {
           <button
             type="button"
             onClick={() => setOpen((o) => !o)}
-            aria-label={t('sup.contactWeChat')}
+            aria-label={t('agro.contactWeChat')}
             aria-expanded={open}
             className="flex h-11 flex-1 items-center justify-center gap-2 rounded-full bg-[#07C160] text-[14px] font-bold text-white"
           >
@@ -172,7 +172,7 @@ export function ContactFloats() {
             href={fl('/contact')}
             className="sun-grad flex h-11 flex-1 items-center justify-center rounded-full text-[14px] font-bold text-white"
           >
-            {t('sup.contactQuote')}
+            {t('agro.contactQuote')}
           </a>
         </div>
       </div>

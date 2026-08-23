@@ -291,16 +291,16 @@ export function InquiryForm({
             <span className="field-hint">{t('inquiry.roleHint')}</span>
           </div>
           <div className="field">
-            <Label htmlFor="inq-platform">{t('inquiry.boardPlatform')} <span className="req">*</span></Label>
+            <Label htmlFor="inq-platform">{t('inquiry.formulationPlatform')} <span className="req">*</span></Label>
             <Input
               id="inq-platform"
               name="boardPlatform"
               required
               maxLength={120}
               defaultValue={prefill?.name ?? undefined}
-              placeholder={t('inquiry.boardPlatformPlaceholder')}
+              placeholder={t('inquiry.formulationPlatformPlaceholder')}
             />
-            <span className="field-hint">{t('inquiry.boardPlatformHint')}</span>
+            <span className="field-hint">{t('inquiry.formulationPlatformHint')}</span>
           </div>
           <div className="field">
             <Label htmlFor="inq-construction">{t('inquiry.construction')} <span className="req">*</span></Label>

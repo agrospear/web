@@ -224,6 +224,78 @@
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: body, type: content, label: 'Body Content' }
 
+- slug: herbicide
+  label: Herbicide
+  path: /herbicide
+  permalink: /herbicide
+  sections:
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: subtitle, type: content, label: 'Subtitle' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
+
+- slug: insecticide
+  label: Insecticide
+  path: /insecticide
+  permalink: /insecticide
+  sections:
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: subtitle, type: content, label: 'Subtitle' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
+
+- slug: fungicide
+  label: Fungicide
+  path: /fungicide
+  permalink: /fungicide
+  sections:
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: subtitle, type: content, label: 'Subtitle' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
+
+- slug: pgr
+  label: PGR
+  path: /pgr
+  permalink: /pgr
+  sections:
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: subtitle, type: content, label: 'Subtitle' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
+
+- slug: seed-treatment
+  label: Seed Treatment
+  path: /seed-treatment
+  permalink: /seed-treatment
+  sections:
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: subtitle, type: content, label: 'Subtitle' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
+
+- slug: mixture
+  label: Mixture
+  path: /mixture
+  permalink: /mixture
+  sections:
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: subtitle, type: content, label: 'Subtitle' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
+
 - slug: gallery
   label: Gallery
   path: /gallery
@@ -488,45 +560,60 @@
     - { key: detail, type: content, label: 'Detail' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: agrochemical-oem-australia
-  label: Agrochemical OEM Australia
-  path: /agrochemical-oem-australia
-  permalink: /agrochemical-oem-australia
+- slug: agrochemical-oem-africa
+  label: Agrochemical OEM Africa
+  path: /oem/agrochemical-oem-africa
+  permalink: /oem/agrochemical-oem-africa
   sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: answer, type: answer, label: 'Quick Answer' }
-    - { key: market_detail, type: features, label: 'Market Detail' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
 
-- slug: agrochemical-oem-canada
-  label: Agrochemical OEM Canada
-  path: /agrochemical-oem-canada
-  permalink: /agrochemical-oem-canada
+- slug: agrochemical-oem-southeast-asia
+  label: Agrochemical OEM Southeast Asia
+  path: /oem/agrochemical-oem-southeast-asia
+  permalink: /oem/agrochemical-oem-southeast-asia
   sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: answer, type: answer, label: 'Quick Answer' }
-    - { key: market_detail, type: features, label: 'Market Detail' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
 
-- slug: agrochemical-oem-europe
-  label: Agrochemical OEM Europe
-  path: /agrochemical-oem-europe
-  permalink: /agrochemical-oem-europe
+- slug: agrochemical-oem-latin-america
+  label: Agrochemical OEM Latin America
+  path: /oem/agrochemical-oem-latin-america
+  permalink: /oem/agrochemical-oem-latin-america
   sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: answer, type: answer, label: 'Quick Answer' }
-    - { key: market_detail, type: features, label: 'Market Detail' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
 
-- slug: agrochemical-oem-north-america
-  label: Agrochemical OEM North America
-  path: /agrochemical-oem-north-america
-  permalink: /agrochemical-oem-north-america
+- slug: agrochemical-oem-west-asia
+  label: Agrochemical OEM West Asia
+  path: /oem/agrochemical-oem-west-asia
+  permalink: /oem/agrochemical-oem-west-asia
   sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: answer, type: answer, label: 'Quick Answer' }
-    - { key: market_detail, type: features, label: 'Market Detail' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
+
+- slug: agrochemical-oem-central-asia
+  label: Agrochemical OEM Central Asia
+  path: /oem/agrochemical-oem-central-asia
+  permalink: /oem/agrochemical-oem-central-asia
+  sections:
+    - { key: label, type: content, label: 'Page Label' }
+    - { key: headline, type: content, label: 'Headline' }
+    - { key: seo, type: content, label: 'SEO Metadata' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: body, type: content, label: 'Body Content' }
 
 - slug: solutions-distributor-partners
   label: Distributor Partners

@@ -595,12 +595,12 @@ export function ProductView({ product, related, origin, locale }: { product: Con
               </p>
             </a>
             <a href={fl('/product-development')} className="marine-card p-5">
-              <p className="text-[14px] font-bold">{t('content.product.supDevTitle')}</p>
+              <p className="text-[14px] font-bold">{t('content.product.agroDevTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
-                {t('content.product.supDevDesc')}
+                {t('content.product.agroDevDesc')}
               </p>
             </a>
-            <a href={fl('/solutions/private-label-sup')} className="marine-card p-5">
+            <a href={fl('/solutions/distributors')} className="marine-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.privateLabelTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.privateLabelDesc')}
@@ -619,8 +619,8 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
   const pool: { q: string; a: string }[] = locale !== 'en'
     ? [
         {
-          q: '¿Cuál es el pedido mínimo para personalizar esta tabla?',
-          a: `El MOQ de volumen es de ${MOQ_SHORT.standardRun} por rollo de 150 m para la producción estándar, con pilotos desde ${MOQ_SHORT.trialStandard} y ${MOQ_SHORT.customMould} para un molde a medida.`,
+          q: '¿Cuál es el pedido mínimo para personalizar esta formulación?',
+          a: `El MOQ de volumen es de ${MOQ_SHORT.standardRun} por lote de producción estándar, con pilotos desde ${MOQ_SHORT.trialStandard} y ${MOQ_SHORT.customMould} para una formulación a medida.`,
         },
         {
           q: '¿Cuánto tardan las muestras y la producción?',
@@ -632,7 +632,7 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
         },
         {
           q: '¿Cómo se controla la calidad antes del envío?',
-          a: `Cada tabla pasa por una lista de verificación de ${FACTS.assemblyChecklist} y una prueba de presión de ${FACTS.pressureTest} antes de empaquetar; las piezas que superen una caída de presión mayor al 5% se rechazan automáticamente.`,
+          a: `Cada lote pasa por una lista de verificación de ${FACTS.assemblyChecklist} y una prueba de calidad de ${FACTS.pressureTest} antes de empaquetar; los lotes que superen un margen de impurezas mayor al 5% se rechazan automáticamente.`,
         },
       ]
     : [

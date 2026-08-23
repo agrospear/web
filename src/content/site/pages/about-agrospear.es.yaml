@@ -1,0 +1,113 @@
+meta:
+  title: 'Acerca de Agrospear — la división de fabricación agroquímica'
+  description: 'Agrospear es la división de fabricación agroquímica de Qingdao Vatrad Group, fundada en 2012: la fábrica detrás de cada proyecto personalizado de Agrospear.'
+  dateModified: '2026-08'
+  keywords:
+    - 'Agrospear'
+    - 'fábrica agroquímica en china'
+    - 'fabricante de formulaciones agroquímicas'
+    - 'qingdao vatrad group'
+hero:
+  tagline: Acerca de Agrospear
+  title: 'Agrospear — la división de fabricación agroquímica detrás de {SITE}'
+  subtitle: 'Fundada en 2012 en Qingdao, China, Agrospear opera una instalación certificada de 20 000 m² con 8 líneas de producción automatizadas y más de 50 000 toneladas de capacidad anual — entregando formulaciones de protección de cultivos a medida a socios OEM y ODM en más de 60 países de seis continentes.'
+  actions:
+    - text: 'Iniciar un proyecto personalizado'
+      href: /es/contact
+      variant: primary
+    - text: 'Ver la fábrica'
+      href: /es/factory
+      variant: secondary
+intro: |
+  <p><strong>Agrospear</strong> es la división de fabricación agroquímica de <strong>Qingdao Vatrad Group Co., Ltd.</strong>, con sede en la Zona de Desarrollo Económico de Laixi, Qingdao, Shandong (China). Fundada en 2012, la empresa comenzó como un taller especializado de formulación dedicado a la ciencia de la protección de cultivos, y se ha convertido en un fabricante de pesticidas designado por el estado, que da servicio a clientes OEM y ODM en más de 60 países de seis continentes.</p>
+  <p>Agrospear es la división B2B de desarrollo personalizado de la fábrica de Agrospear. Cada proyecto de Agrospear — desde una primera muestra o una tirada pequeña de co-branding hasta una línea de producto completa de marca privada — se fabrica en las mismas instalaciones, con los mismos equipos y bajo el mismo sistema de calidad que se describe aquí. La fábrica participa activamente en ferias internacionales como CAC Shanghái, AgroChemEx y ferias regionales, construyendo relaciones con distribuidores y registradores que dependen de la calidad consistente de los lotes para sus mercados locales.</p>
+  <p>La fábrica ocupa 20 000 m² con talleres dedicados a la inspección de materias primas, preparación de sistemas de dispersión, mezcla y molienda, llenado de formulaciones y una zona de pruebas para los ensayos de estabilidad, análisis de contenido y propiedades físicas. Ocho líneas de producción automatizadas producen más de 50 000 toneladas al año, y las instalaciones operan bajo un sistema de gestión de calidad ISO 9001, ISO 14001 y GMP con cumplimiento BSCI e ICAMA para los productos exportados. Agrospear mantiene programas de cooperación escuela-empresa con universidades agrícolas de Shandong, canalizando la investigación académica hacia la innovación en formulación y codesarrollando sistemas de adyuvantes novedosos con equipos de ingeniería de posgrado.</p>
+  <p>Más de 200 trabajadores cualificados y más de 14 ingenieros de I+D — respaldados por más de 30 patentes de tecnología — apoyan las dos líneas de trabajo que importan a las marcas agroquímicas: la ingeniería (diseño de formulación, selección de co-formulantes, creación de prototipos) y la producción (etiquetado, llenado, inspección, embalaje de exportación). Un centro de I+D interno con laboratorio de formulación y cámara de estabilidad se ocupa de las formulaciones personalizadas y el soporte de registro antes de empezar la producción en masa. Más de una década de expansión en mercados internacionales ha dado a Agrospear una profunda experiencia en la navegación de requisitos de registro, regulaciones de etiquetado y protocolos de importación en África, el Sudeste Asiático, América Latina y el Medio Oriente.</p>
+stats:
+  title: Agrospear en cifras
+  stats:
+    - title: Fundación
+      amount: 2012
+    - title: Instalaciones
+      amount: '20 000 m²'
+    - title: Líneas de producción
+      amount: '8 automatizadas'
+    - title: Capacidad anual
+      amount: '50 000+ toneladas'
+    - title: Patentes de tecnología
+      amount: '30+'
+    - title: Países atendidos
+      amount: '60+'
+    - title: Empleados
+      amount: '200+'
+    - title: Ingenieros de I+D
+      amount: '14+'
+values_section:
+  title: Cómo trabaja la fábrica con las marcas
+  subtitle: 'Tres principios que configuran cada proyecto construido por la fábrica de Agrospear.'
+  columns: 3
+  items:
+    - title: Ingeniería antes que producción
+      description: 'Cada proyecto comienza con los requisitos, las especificaciones y una muestra física — ya sea un insecticida EC de 480 g/L o un herbicida WDG al 75 %, el tipo de formulación, la concentración activa, la colocación de la etiqueta y el embalaje se validan en el laboratorio antes de cualquier tirada de producción, no se descubren en la línea.'
+      icon: 'tabler:settings'
+    - title: Un solo equipo, una sola fábrica
+      description: 'La formulación, la mezcla, el llenado, la inspección y las pruebas ocurren en unas instalaciones de 20 000 m². Sin reenvíos de casas comerciales: los químicos que desarrollan tu concentrado en suspensión son las mismas personas que supervisan su molienda y llenado, asegurando que la estabilidad de la emulsión y la distribución del tamaño de partícula se trasladen directamente del laboratorio al tambor.'
+      icon: 'tabler:building-factory-2'
+    - title: Primeras tiradas pequeñas
+      description: 'Las muestras parten de 1–4 toneladas y los lotes piloto de 5 toneladas, de modo que las marcas validan el rendimiento en campo — eficacia, aplicabilidad, estabilidad en estante — antes de comprometerse con las tiradas de producción estándar de 20+ toneladas. Los registros de formulación, los diseños y los expedientes de registro se conservan para pedidos repetidos sin fricción.'
+      icon: 'tabler:layers-intersect'
+services_section:
+  title: Lo que entrega la fábrica
+  subtitle: 'Los servicios de fabricación disponibles para los clientes de Agrospear.'
+  columns: 2
+  items:
+    - title: Desarrollo de formulación personalizada
+      description: 'Evaluación de requisitos, especificaciones, selección de co-formulantes, etiquetado, prototipado, aprobación de la muestra y producción de formulaciones agroquímicas a medida — desde concentrados en suspensión y gránulos dispersables hasta microemulsiones y soluciones líquidas.'
+      icon: 'tabler:bulb'
+    - title: Producción de marca privada
+      description: 'Tu logotipo, tus colores y tu embalaje sobre plataformas técnicas probadas: el producto, la etiqueta, los tambores y los cartones llevan tu identidad, sin ningún uso de la marca de fábrica. La adaptación de arte para mercados multilingües se gestiona internamente.'
+      icon: 'tabler:tag'
+    - title: Fabricación OEM / ODM
+      description: 'Fabricación completa agroquímica OEM y ODM a partir de las especificaciones del cliente o de formulaciones desarrolladas en conjunto, incluido el desarrollo de formulaciones personalizadas para nuevos productos y programas de marca blanca para distribuidores regionales.'
+      icon: 'tabler:package'
+    - title: Suministro al por mayor
+      description: 'Suministro de productos con marca para distribuidores, cooperativas, programas gubernamentales y registradores regionales, con calidad de lote constante y series de producción eficientes dimensionadas para embarques de contenedor completo.'
+      icon: 'tabler:users-group'
+    - title: Soporte de registro y regulación
+      description: 'Paquetes completos de documentación de registro — datos de toxicidad aguda, ensayos de residuos, expedientes de química de producto y archivos de cumplimiento ICAMA — preparados para respaldar la autorización de mercado en los países de destino, reduciendo el tiempo hasta el estante para los lanzamientos de nuevos productos.'
+      icon: 'tabler:file-certificate'
+    - title: Desarrollo de mercados internacionales
+      description: 'Adaptación de formulaciones por mercado, orientación sobre protocolos de importación y conocimiento regulatorio local para África, el Sudeste Asiático, América Latina y el Medio Oriente — ayudando a las marcas a entrar en nuevos territorios con formulaciones ajustadas a los cultivos, climas y prácticas de aplicación locales.'
+      icon: 'tabler:world'
+certifications_section:
+  title: Certificación y cumplimiento
+  subtitle: 'La fábrica envía a mercados globales con un sistema de cumplimiento documentado.'
+  columns: 2
+  items:
+    - title: Sistema de calidad ISO 9001
+      description: 'La instalación de fabricación opera bajo un sistema de gestión de la calidad ISO 9001 que cubre el material entrante, el proceso y la inspección final.'
+      icon: 'tabler:badge-check'
+    - title: ISO 14001 Medioambiental
+      description: 'Sistema de gestión medioambiental certificado bajo ISO 14001, que cubre tratamiento de residuos, control de emisiones y prácticas de producción sostenible.'
+      icon: 'tabler:leaf'
+    - title: GMP Buenas Prácticas de Fabricación
+      description: 'Los procesos de producción cumplen con las normas de Buenas Prácticas de Fabricación, asegurando trazabilidad, consistencia de lote y entornos de fabricación controlados para la producción agroquímica.'
+      icon: 'tabler:clipboard-check'
+    - title: Conformidad social BSCI
+      description: 'La responsabilidad social se evalúa según BSCI, que cubre las condiciones de trabajo y el cumplimiento de la fábrica.'
+      icon: 'tabler:shield-check'
+    - title: Soporte de registro ICAMA
+      description: 'Documentación completa de registro ICAMA y soporte para productos destinados a China y mercados reconocidos por ICAMA.'
+      icon: 'tabler:certificate'
+    - title: Especificaciones FAO/OMS
+      description: 'Especificaciones de producto alineadas con las normas FAO/OMS para la calidad de pesticidas y el comercio internacional.'
+      icon: 'tabler:flask'
+    - title: Pruebas de producto
+      description: 'Ensayos de estabilidad, análisis de contenido, verificación de propiedades físicas, estabilidad en estante y pruebas de sedimentación en cada línea de producción.'
+      icon: 'tabler:test-pipe'
+cta:
+  title: 'Construye tu proyecto agroquímico con la fábrica de Agrospear'
+  subtitle: 'Envía tus requisitos — ingrediente activo, tipo de formulación, concentración objetivo, cantidad, idioma de etiqueta y mercado de destino — y recibe una propuesta detallada con plazos y opciones de soporte de registro en un día laborable.'
+  actions:
+    - text: Identidad de marca
+      href: /es/about/identity

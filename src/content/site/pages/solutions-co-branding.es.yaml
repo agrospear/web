@@ -57,13 +57,13 @@ fleet_guide:
   subtitle: 'Calcula el volumen de producto para tu línea agroquímica co-brandeada según el tamaño de mercado.'
   tiers:
     - label: Asociación Regional
-      boards: '5–20 toneladas'
+      volume: '5–20 toneladas'
       note: 'Programa co-brandeado de un solo cultivo o una sola temporada'
     - label: Asociación Multiregional
-      boards: '20–50 toneladas'
+      volume: '20–50 toneladas'
       note: 'Múltiples formulaciones en distintos segmentos de cultivo y regiones'
     - label: Asociación Nacional
-      boards: '50–200+ toneladas'
+      volume: '50–200+ toneladas'
       note: 'Portafolio completo de productos co-brandeados en múltiples temporadas y territorios'
 
 content_html: |

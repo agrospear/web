@@ -1,4 +1,4 @@
-import { createLazyFileRoute } from '@tanstack/react-router'
+﻿import { createLazyFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
 import { ArrowRight, CheckCircle2, Package } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
@@ -38,12 +38,12 @@ function SeriesPage() {
   const profile = procurementProfiles[locale][page.slug]
   const snap = profile
     ? [
-        { label: t('sup.procurement.bestFor'), value: profile.bestFor },
-        { label: t('sup.procurement.sizes'), value: profile.sizes },
-        { label: t('sup.procurement.construction'), value: profile.construction },
-        { label: t('sup.procurement.customization'), value: profile.customization },
-        { label: t('sup.procurement.moq'), value: profile.moq },
-        { label: t('sup.procurement.leadTime'), value: profile.leadTime },
+        { label: t('agro.procurement.bestFor'), value: profile.bestFor },
+        { label: t('agro.procurement.sizes'), value: profile.sizes },
+        { label: t('agro.procurement.construction'), value: profile.construction },
+        { label: t('agro.procurement.customization'), value: profile.customization },
+        { label: t('agro.procurement.moq'), value: profile.moq },
+        { label: t('agro.procurement.leadTime'), value: profile.leadTime },
       ]
     : []
   const first = items[0]
@@ -59,7 +59,7 @@ function SeriesPage() {
 
         {profile && (
           <div>
-            <h2 className="text-[11.5px] font-bold uppercase tracking-[0.14em] text-primary">{t('sup.procurement.snapshotTitle')}</h2>
+            <h2 className="text-[11.5px] font-bold uppercase tracking-[0.14em] text-primary">{t('agro.procurement.snapshotTitle')}</h2>
             <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {snap.map((s) => (
                 <div key={s.label} className="marine-card p-4">
@@ -94,10 +94,10 @@ function SeriesPage() {
 
         {profile && (
           <div className="mt-16">
-            <h2 className="font-display text-2xl font-extrabold tracking-tight">{t('sup.procurement.title')}</h2>
+            <h2 className="font-display text-2xl font-extrabold tracking-tight">{t('agro.procurement.title')}</h2>
             <div className="mt-6 grid gap-6 lg:grid-cols-2">
               <div className="rounded-3xl border border-border bg-bg-alt/50 p-7">
-                <h3 className="font-display text-lg font-bold tracking-tight">{t('sup.procurement.baseSpecsTitle')}</h3>
+                <h3 className="font-display text-lg font-bold tracking-tight">{t('agro.procurement.baseSpecsTitle')}</h3>
                 <table className="mt-4 w-full border-collapse text-[13.5px]">
                   <tbody>
                     {profile.specRows.map((row) => (
@@ -109,12 +109,12 @@ function SeriesPage() {
                   </tbody>
                 </table>
                 <p className="mt-4 text-[13px] leading-relaxed text-fg-2">
-                  {t('sup.procurement.constructionBody')}
+                  {t('agro.procurement.constructionBody')}
                 </p>
               </div>
               <div className="flex flex-col gap-6">
                 <div className="rounded-3xl border border-border bg-bg-alt/50 p-7">
-                  <h3 className="font-display text-lg font-bold tracking-tight">{t('sup.procurement.commercialTitle')}</h3>
+                  <h3 className="font-display text-lg font-bold tracking-tight">{t('agro.procurement.commercialTitle')}</h3>
                   <table className="mt-4 w-full border-collapse text-[13.5px]">
                     <tbody>
                       {commercialRows[locale].map((row) => (
@@ -128,7 +128,7 @@ function SeriesPage() {
                 </div>
                 {profile.keyQuestions.length > 0 && (
                   <div className="rounded-3xl border border-border bg-bg-alt/50 p-7">
-                    <h3 className="font-display text-lg font-bold tracking-tight">{t('sup.procurement.keyQuestionsTitle')}</h3>
+                    <h3 className="font-display text-lg font-bold tracking-tight">{t('agro.procurement.keyQuestionsTitle')}</h3>
                     <ul className="mt-3 flex flex-col gap-2">
                       {profile.keyQuestions.map((q) => (
                         <li key={q} className="flex items-center gap-2.5 text-[13.5px] font-medium text-fg-2">
@@ -141,8 +141,8 @@ function SeriesPage() {
               </div>
             </div>
             <div className="mt-6 rounded-3xl border border-border bg-bg-alt/50 p-7">
-              <h3 className="font-display text-lg font-bold tracking-tight">{t('sup.procurement.docsTitle')}</h3>
-              <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('sup.procurement.docsBody')}</p>
+              <h3 className="font-display text-lg font-bold tracking-tight">{t('agro.procurement.docsTitle')}</h3>
+              <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('agro.procurement.docsBody')}</p>
             </div>
           </div>
         )}
@@ -201,21 +201,21 @@ function SeriesPage() {
             {t('content.product.readySeries')}
           </p>
           <h2 className="mt-3 font-display text-2xl font-extrabold tracking-tight md:text-3xl">
-            {t('sup.procurement.cta')}
+            {t('agro.procurement.cta')}
           </h2>
-          <p className="mx-auto mt-3 max-w-xl text-[13.5px] leading-relaxed text-fg-2">{t('sup.procurement.ctaSub')}</p>
+          <p className="mx-auto mt-3 max-w-xl text-[13.5px] leading-relaxed text-fg-2">{t('agro.procurement.ctaSub')}</p>
           <a
             href={fl(`/contact?product=${encodeURIComponent(items[0]?.slug ?? page.slug)}&category=${page.slug}`)}
             className="sun-grad mt-7 inline-flex h-[46px] items-center gap-2 rounded-full px-7 text-[15px] font-bold shadow-[0_10px_30px_-8px_rgba(255,107,53,0.65)] transition-transform hover:-translate-y-px"
           >
-            {t('sup.procurement.cta')} <ArrowRight size={17} />
+            {t('agro.procurement.cta')} <ArrowRight size={17} />
           </a>
         </div>
 
         {profile && turnstileSiteKey && (
           <div id="rfq" className="mx-auto mt-16 max-w-3xl">
-            <h2 className="text-center font-display text-2xl font-extrabold tracking-tight">{t('sup.contact.formTitle')}</h2>
-            <p className="mx-auto mt-3 max-w-xl text-center text-[13.5px] leading-relaxed text-fg-2">{t('sup.contact.formSubtitle')}</p>
+            <h2 className="text-center font-display text-2xl font-extrabold tracking-tight">{t('agro.contact.formTitle')}</h2>
+            <p className="mx-auto mt-3 max-w-xl text-center text-[13.5px] leading-relaxed text-fg-2">{t('agro.contact.formSubtitle')}</p>
             <div className="marine-card mt-6 p-6 md:p-8">
               <InquiryForm
                 turnstileSiteKey={turnstileSiteKey}

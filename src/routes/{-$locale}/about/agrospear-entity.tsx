@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+﻿import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight, BookOpen, Building2, Hammer, PackageCheck } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -45,20 +45,20 @@ function EntityPage() {
   const { locale, t } = useTranslation()
   const fl = useLocalizePath()
   const c = {
-    kicker: t('sup.entity.kicker'),
-    title: t('sup.entity.title'),
-    intro1: t('sup.entity.intro1'),
-    intro2: t('sup.entity.intro2'),
-    intro3: t('sup.entity.intro3'),
-    factsTitle: t('sup.entity.factsTitle'),
-    servicesTitle: t('sup.entity.servicesTitle'),
-    servicesBody: t('sup.entity.servicesBody'),
-    knowledgeTitle: t('sup.entity.knowledgeTitle'),
-    knowledgeBody: t('sup.entity.knowledgeBody'),
-    projectsTitle: t('sup.entity.projectsTitle'),
-    projectsBody: t('sup.entity.projectsBody'),
-    ctaTitle: t('sup.entity.ctaTitle'),
-    ctaBody: t('sup.entity.ctaBody'),
+    kicker: t('agro.entity.kicker'),
+    title: t('agro.entity.title'),
+    intro1: t('agro.entity.intro1'),
+    intro2: t('agro.entity.intro2'),
+    intro3: t('agro.entity.intro3'),
+    factsTitle: t('agro.entity.factsTitle'),
+    servicesTitle: t('agro.entity.servicesTitle'),
+    servicesBody: t('agro.entity.servicesBody'),
+    knowledgeTitle: t('agro.entity.knowledgeTitle'),
+    knowledgeBody: t('agro.entity.knowledgeBody'),
+    projectsTitle: t('agro.entity.projectsTitle'),
+    projectsBody: t('agro.entity.projectsBody'),
+    ctaTitle: t('agro.entity.ctaTitle'),
+    ctaBody: t('agro.entity.ctaBody'),
   }
   const services = ENTITY_SERVICES
 
@@ -166,15 +166,15 @@ function EntityPage() {
             href={fl('/contact')}
             className={PRIMARY_CTA}
           >
-            {t('sup.projects.discuss')} <ArrowRight size={17} />
+            {t('agro.projects.discuss')} <ArrowRight size={17} />
           </a>
         </div>
       </section>
 
       <JsonLd
         data={siteBreadcrumbLd([
-          { name: t('sup.breadcrumb.home'), path: '/' },
-          { name: t('sup.breadcrumb.company'), path: ENTITY_PAGE_PATH },
+          { name: t('agro.breadcrumb.home'), path: '/' },
+          { name: t('agro.breadcrumb.company'), path: ENTITY_PAGE_PATH },
         ])}
       />
     </MarketingShell>

@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+﻿import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
 import { getOrigin } from '@/features/seo/seo.fns'
@@ -15,7 +15,7 @@ import { CtaBand } from '@/components/marketing/cta'
 import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 
 /** Program pages served by the agrospear catch-all (not part of solutionPages). */
-const PROGRAM_PATHS = ['/solutions/distributors', '/solutions/rental-operators', '/solutions/retail-partners'] as const
+const PROGRAM_PATHS = ['/solutions/distributors', '/solutions/co-branding', '/solutions/distributor-partners'] as const
 
 export const Route = createFileRoute('/{-$locale}/solutions/')({
   loader: async () => ({ origin: await getOrigin() }),
@@ -64,7 +64,7 @@ function SolutionsIndex() {
       <SolutionsSection heading={null} />
       <section className="border-t border-border bg-bg-alt">
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
-          <SectionHead kicker={t('sup.solutions.hubKicker')} title={t('sup.solutions.hubTitle')} />
+          <SectionHead kicker={t('agro.solutions.hubKicker')} title={t('agro.solutions.hubTitle')} />
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {cards.map((card) => (
               <a
@@ -76,7 +76,7 @@ function SolutionsIndex() {
                 <h3 className="mt-2 font-display text-lg font-bold">{card.navLabel}</h3>
                 <p className="mt-2.5 flex-1 text-[13.5px] leading-relaxed text-fg-2">{card.metaDescription}</p>
                 <span className="mt-4 inline-flex items-center gap-1.5 text-[13px] font-bold text-primary">
-                  {t('sup.solutions.seeAll')}
+                  {t('agro.solutions.seeAll')}
                   <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
                 </span>
               </a>
@@ -87,8 +87,8 @@ function SolutionsIndex() {
       <CtaBand />
       <JsonLd
         data={siteBreadcrumbLd([
-          { name: t('sup.breadcrumb.home'), path: '/' },
-          { name: t('sup.breadcrumb.solutions'), path: '/solutions' },
+          { name: t('agro.breadcrumb.home'), path: '/' },
+          { name: t('agro.breadcrumb.solutions'), path: '/solutions' },
         ])}
       />
       <JsonLd

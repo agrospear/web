@@ -1,0 +1,46 @@
+meta:
+  title: 'Herbicide OEM Manufacturing | Selective & Non-Selective Weed Control — Agrospear'
+  description: 'Custom herbicide formulations for B2B partners. Selective & non-selective, pre/post-emergent weed control in SC, EC, WDG, WP, SL. Glyphosate, glufosinate, atrazine, 2,4-D, mesotrione, nicosulfuron. MOQ from 1 t.'
+  keywords: [herbicide OEM, herbicide manufacturer, weed control formulation, glyphosate supplier, glufosinate manufacturer, selective herbicide, non-selective herbicide, pre-emergent herbicide, post-emergent herbicide, agrochemical OEM China]
+label: 'Product Series'
+headline: 'Herbicide Formulations'
+subtitle: 'Selective and non-selective weed control solutions engineered for broad-acre and row-crop markets worldwide'
+seo:
+  headline: 'Herbicide OEM & ODM Manufacturing — Agrospear Qingdao'
+  description: 'Full-spectrum herbicide contract manufacturing: SC, EC, WDG, WP, SL formulations with HRAC-aligned resistance management strategies. ISO 9001/GMP certified, 50 000+ t capacity.'
+  datePublished: '2025-01-15'
+  dateModified: '2026-08-23'
+faqs:
+  - question: 'What is the difference between selective and non-selective herbicides?'
+    answer: 'Selective herbicides target specific weed species while leaving the crop unharmed — for example, nicosulfuron in maize. Non-selective herbicides such as glyphosate and glufosinate control all vegetation and are used for burndown, stale seedbed, or non-crop situations. Agrospear manufactures both classes across multiple formulation types.'
+  - question: 'How does Agrospear address herbicide resistance management?'
+    answer: 'We follow the HRAC classification system and design premix or rotational programs that combine AIs from different sites of action. Our R&D team evaluates cross-resistance profiles and recommends tank-mix partners or sequential applications that reduce selection pressure on weed populations.'
+  - question: 'Which herbicide formulations does Agrospear produce?'
+    answer: 'We manufacture Suspension Concentrates (SC), Emulsifiable Concentrates (EC), Water-Dispersible Granules (WDG), Wettable Powders (WP), and Soluble Liquids (SL). Formulation choice depends on the active ingredient properties, target application method, and regional registration preferences.'
+  - question: 'What MOQ tiers are available for herbicide products?'
+    answer: 'Sample orders start at 1–4 t for registration trials, pilot runs at 5 t, and standard production orders at 20+ t. Volume discounts apply at 50 t and 100 t thresholds. Lead time is 25–35 days from confirmed specification.'
+body: |
+  <h2>Comprehensive Herbicide Portfolio for Global Crop Protection</h2>
+  <p>Weed competition remains the single largest yield-reducing factor across broad-acre row crops. Agrospear's herbicide portfolio spans both selective and non-selective chemistries, covering pre-emergent residual control through post-emergent foliar applications. Our formulation capabilities include Suspension Concentrates (SC) for low-drift foliar delivery, Emulsifiable Concentrates (EC) for rapid penetration, Water-Dispersible Granules (WDG) for dust-free handling, Wettable Powders (WP) for cost-sensitive markets, and Soluble Liquids (SL) for systemic translocation. Each formulation is optimized for stability, bioavailability, and compliance with international packaging and labelling standards.</p>
+  <p>Key active ingredients in our manufacturing range include glyphosate (EPSPS inhibitor, Group 9), glufosinate (glutamine synthetase inhibitor, Group 10), atrazine (Photosystem II inhibitor, Group 5), 2,4-D (synthetic auxin, Group 4), mesotrione (HPPD inhibitor, Group 27), and nicosulfuron (ALS inhibitor, Group 2). These AIs address the full spectrum of grass and broadleaf weed challenges in maize, soybean, wheat, rice, and cotton cropping systems.</p>
+
+  <h2>Resistance-Managed Weed Control Strategies</h2>
+  <p>Herbicide-resistant weed biotypes now affect over 70 countries and continue to spread. Agrospear aligns all product development with the Herbicide Resistance Action Committee (HRAC) classification, ensuring that every premix or sequential recommendation combines distinct sites of action. Our technical team conducts local weed spectrum analyses with distribution partners to identify resistance hot spots and design mitigation programs — whether through dual-AI premixes, overlapping residual layers, or rotational treatment schedules. This approach extends product efficacy life and safeguards your brand reputation in regulated markets.</p>
+
+  <h2>Formulation Science and Application Methods</h2>
+  <p>Effective weed control depends as much on formulation quality as on active ingredient selection. Agrospear's 20 000 m² GMP facility maintains stringent particle-size control (D90 &lt; 5 µm for SC/WDG), emulsion stability testing (0/0 E/C after 24 h for EC), and suspensibility benchmarks (&gt; 90 % after 30 min for SC). Our products are engineered for aerial, ground-rig, and knapsack application scenarios, with adjuvant systems tuned for rainfastness, drift reduction, and canopy penetration. We also offer custom viscosity and density specifications to match your preferred spray equipment and regional agronomic practices.</p>
+
+  <h2>Partner with Agrospear for Your Herbicide Brand</h2>
+  <p>Whether you are launching a glyphosate SL for plantation burndown, a nicosulfuron WDG for maize post-emergence, or a multi-AI premix for resistant broadleaf complexes, Agrospear provides end-to-end OEM/ODM support — from formulation development and stability testing through ICAMA-compliant registration dossiers to finished-goods packaging. With 50 000+ tons annual capacity and 60+ export markets, we deliver consistent quality at the scale your business demands.</p>
+
+  <div class="not-prose my-10">
+    <div class="rounded-2xl border border-amber-200 bg-amber-50 p-6 text-center dark:border-amber-900 dark:bg-amber-950">
+      <h3 class="font-display text-lg font-bold">Launch your herbicide brand with a proven manufacturing partner</h3>
+      <p class="mt-2 text-sm text-fg-2">From formulation selection to container-scale production — tell us your target crop, weed spectrum and market, and receive a detailed quotation within one business day.</p>
+      <p class="mt-4 flex flex-wrap justify-center gap-3">
+        <a href="/contact" class="rounded-full bg-amber-600 px-6 py-2.5 text-sm font-bold text-white">Request herbicide OEM quotation</a>
+        <a href="/oem-manufacturing" class="rounded-full border border-amber-300 px-6 py-2.5 text-sm font-bold text-amber-700 dark:border-amber-700 dark:text-amber-300">OEM &amp; ODM services</a>
+        <a href="/formulation-selector" class="rounded-full border border-amber-300 px-6 py-2.5 text-sm font-bold text-amber-700 dark:border-amber-700 dark:text-amber-300">Formulation selector</a>
+      </p>
+    </div>
+  </div>

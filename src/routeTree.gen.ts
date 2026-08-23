@@ -18,6 +18,7 @@ import { Route as SitemapProductsDotxmlRouteImport } from './routes/sitemap-prod
 import { Route as SitemapPagesDotxmlRouteImport } from './routes/sitemap-pages[.]xml'
 import { Route as SitemapNewsDotxmlRouteImport } from './routes/sitemap-news[.]xml'
 import { Route as SitemapEsDotxmlRouteImport } from './routes/sitemap-es[.]xml'
+import { Route as SeedTreatmentRouteImport } from './routes/seed-treatment'
 import { Route as SearchIndexDotjsonRouteImport } from './routes/search-index[.]json'
 import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
@@ -25,6 +26,7 @@ import { Route as RanddcenterRouteImport } from './routes/randdcenter'
 import { Route as QualityRouteImport } from './routes/quality'
 import { Route as ProofCenterRouteImport } from './routes/proof-center'
 import { Route as ProductDevelopmentRouteImport } from './routes/product-development'
+import { Route as PgrRouteImport } from './routes/pgr'
 import { Route as PartnersRouteImport } from './routes/partners'
 import { Route as OemVsPrivateLabelRouteImport } from './routes/oem-vs-private-label'
 import { Route as OemTrustAssuranceRouteImport } from './routes/oem-trust-assurance'
@@ -38,9 +40,13 @@ import { Route as OemAdjuvantsRouteImport } from './routes/oem-adjuvants'
 import { Route as OdmDevelopmentRouteImport } from './routes/odm-development'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as NewBrandTrialOrderRouteImport } from './routes/new-brand-trial-order'
+import { Route as MixtureRouteImport } from './routes/mixture'
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as LlmsFullDottxtRouteImport } from './routes/llms-full[.]txt'
 import { Route as KnowledgeRouteImport } from './routes/knowledge'
+import { Route as InsecticideRouteImport } from './routes/insecticide'
+import { Route as HerbicideRouteImport } from './routes/herbicide'
+import { Route as FungicideRouteImport } from './routes/fungicide'
 import { Route as FormulationTypeComparisonRouteImport } from './routes/formulation-type-comparison'
 import { Route as FormulationSelectorRouteImport } from './routes/formulation-selector'
 import { Route as FaqRouteImport } from './routes/faq'
@@ -51,11 +57,7 @@ import { Route as CropProtectionSolutionsRouteImport } from './routes/crop-prote
 import { Route as BiopesticideRouteImport } from './routes/biopesticide'
 import { Route as B2bSolutionsMatrixRouteImport } from './routes/b2b-solutions-matrix'
 import { Route as AgrochemicalRegulationByMarketRouteImport } from './routes/agrochemical-regulation-by-market'
-import { Route as AgrochemicalOemNorthAmericaRouteImport } from './routes/agrochemical-oem-north-america'
 import { Route as AgrochemicalOemMoqLeadTimeRouteImport } from './routes/agrochemical-oem-moq-lead-time'
-import { Route as AgrochemicalOemEuropeRouteImport } from './routes/agrochemical-oem-europe'
-import { Route as AgrochemicalOemCanadaRouteImport } from './routes/agrochemical-oem-canada'
-import { Route as AgrochemicalOemAustraliaRouteImport } from './routes/agrochemical-oem-australia'
 import { Route as AgrochemicalCertificationGuideRouteImport } from './routes/agrochemical-certification-guide'
 import { Route as SplatRouteImport } from './routes/$'
 import { Route as Char123LocaleChar125RouteRouteImport } from './routes/{-$locale}/route'
@@ -98,6 +100,7 @@ import { Route as Char123LocaleChar125SolutionsResortSupRouteImport } from './ro
 import { Route as Char123LocaleChar125SolutionsPrivateLabelSupRouteImport } from './routes/{-$locale}/solutions/private-label-sup'
 import { Route as Char123LocaleChar125SolutionsDistributorPartnersRouteImport } from './routes/{-$locale}/solutions/distributor-partners'
 import { Route as Char123LocaleChar125SolutionsCustomSupRouteImport } from './routes/{-$locale}/solutions/custom-sup'
+import { Route as Char123LocaleChar125SolutionsClubSupRouteImport } from './routes/{-$locale}/solutions/club-sup'
 import { Route as Char123LocaleChar125ProjectsSlugRouteImport } from './routes/{-$locale}/projects/$slug'
 import { Route as Char123LocaleChar125ProductsSeriesRouteImport } from './routes/{-$locale}/products/$series'
 import { Route as Char123LocaleChar125KnowledgeSlugRouteImport } from './routes/{-$locale}/knowledge/$slug'
@@ -167,6 +170,13 @@ const SitemapEsDotxmlRoute = SitemapEsDotxmlRouteImport.update({
   path: '/sitemap-es.xml',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SeedTreatmentRoute = SeedTreatmentRouteImport.update({
+  id: '/seed-treatment',
+  path: '/seed-treatment',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/seed-treatment.lazy').then((d) => d.Route),
+)
 const SearchIndexDotjsonRoute = SearchIndexDotjsonRouteImport.update({
   id: '/search-index.json',
   path: '/search-index.json',
@@ -204,6 +214,11 @@ const ProductDevelopmentRoute = ProductDevelopmentRouteImport.update({
 } as any).lazy(() =>
   import('./routes/product-development.lazy').then((d) => d.Route),
 )
+const PgrRoute = PgrRouteImport.update({
+  id: '/pgr',
+  path: '/pgr',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/pgr.lazy').then((d) => d.Route))
 const PartnersRoute = PartnersRouteImport.update({
   id: '/partners',
   path: '/partners',
@@ -288,6 +303,11 @@ const NewBrandTrialOrderRoute = NewBrandTrialOrderRouteImport.update({
 } as any).lazy(() =>
   import('./routes/new-brand-trial-order.lazy').then((d) => d.Route),
 )
+const MixtureRoute = MixtureRouteImport.update({
+  id: '/mixture',
+  path: '/mixture',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/mixture.lazy').then((d) => d.Route))
 const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
   id: '/llms.txt',
   path: '/llms.txt',
@@ -303,6 +323,21 @@ const KnowledgeRoute = KnowledgeRouteImport.update({
   path: '/knowledge',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/knowledge.lazy').then((d) => d.Route))
+const InsecticideRoute = InsecticideRouteImport.update({
+  id: '/insecticide',
+  path: '/insecticide',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/insecticide.lazy').then((d) => d.Route))
+const HerbicideRoute = HerbicideRouteImport.update({
+  id: '/herbicide',
+  path: '/herbicide',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/herbicide.lazy').then((d) => d.Route))
+const FungicideRoute = FungicideRouteImport.update({
+  id: '/fungicide',
+  path: '/fungicide',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/fungicide.lazy').then((d) => d.Route))
 const FormulationTypeComparisonRoute =
   FormulationTypeComparisonRouteImport.update({
     id: '/formulation-type-comparison',
@@ -369,14 +404,6 @@ const AgrochemicalRegulationByMarketRoute =
       (d) => d.Route,
     ),
   )
-const AgrochemicalOemNorthAmericaRoute =
-  AgrochemicalOemNorthAmericaRouteImport.update({
-    id: '/agrochemical-oem-north-america',
-    path: '/agrochemical-oem-north-america',
-    getParentRoute: () => rootRouteImport,
-  } as any).lazy(() =>
-    import('./routes/agrochemical-oem-north-america.lazy').then((d) => d.Route),
-  )
 const AgrochemicalOemMoqLeadTimeRoute =
   AgrochemicalOemMoqLeadTimeRouteImport.update({
     id: '/agrochemical-oem-moq-lead-time',
@@ -384,28 +411,6 @@ const AgrochemicalOemMoqLeadTimeRoute =
     getParentRoute: () => rootRouteImport,
   } as any).lazy(() =>
     import('./routes/agrochemical-oem-moq-lead-time.lazy').then((d) => d.Route),
-  )
-const AgrochemicalOemEuropeRoute = AgrochemicalOemEuropeRouteImport.update({
-  id: '/agrochemical-oem-europe',
-  path: '/agrochemical-oem-europe',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/agrochemical-oem-europe.lazy').then((d) => d.Route),
-)
-const AgrochemicalOemCanadaRoute = AgrochemicalOemCanadaRouteImport.update({
-  id: '/agrochemical-oem-canada',
-  path: '/agrochemical-oem-canada',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/agrochemical-oem-canada.lazy').then((d) => d.Route),
-)
-const AgrochemicalOemAustraliaRoute =
-  AgrochemicalOemAustraliaRouteImport.update({
-    id: '/agrochemical-oem-australia',
-    path: '/agrochemical-oem-australia',
-    getParentRoute: () => rootRouteImport,
-  } as any).lazy(() =>
-    import('./routes/agrochemical-oem-australia.lazy').then((d) => d.Route),
   )
 const AgrochemicalCertificationGuideRoute =
   AgrochemicalCertificationGuideRouteImport.update({
@@ -658,6 +663,12 @@ const Char123LocaleChar125SolutionsCustomSupRoute =
     path: '/custom-sup',
     getParentRoute: () => Char123LocaleChar125SolutionsRoute,
   } as any)
+const Char123LocaleChar125SolutionsClubSupRoute =
+  Char123LocaleChar125SolutionsClubSupRouteImport.update({
+    id: '/club-sup',
+    path: '/club-sup',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any)
 const Char123LocaleChar125ProjectsSlugRoute =
   Char123LocaleChar125ProjectsSlugRouteImport.update({
     id: '/projects/$slug',
@@ -770,11 +781,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
   '/agrochemical-certification-guide': typeof AgrochemicalCertificationGuideRoute
-  '/agrochemical-oem-australia': typeof AgrochemicalOemAustraliaRoute
-  '/agrochemical-oem-canada': typeof AgrochemicalOemCanadaRoute
-  '/agrochemical-oem-europe': typeof AgrochemicalOemEuropeRoute
   '/agrochemical-oem-moq-lead-time': typeof AgrochemicalOemMoqLeadTimeRoute
-  '/agrochemical-oem-north-america': typeof AgrochemicalOemNorthAmericaRoute
   '/agrochemical-regulation-by-market': typeof AgrochemicalRegulationByMarketRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/biopesticide': typeof BiopesticideRoute
@@ -785,9 +792,13 @@ export interface FileRoutesByFullPath {
   '/faq': typeof FaqRoute
   '/formulation-selector': typeof FormulationSelectorRoute
   '/formulation-type-comparison': typeof FormulationTypeComparisonRoute
+  '/fungicide': typeof FungicideRoute
+  '/herbicide': typeof HerbicideRoute
+  '/insecticide': typeof InsecticideRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/mixture': typeof MixtureRoute
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
@@ -801,6 +812,7 @@ export interface FileRoutesByFullPath {
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
+  '/pgr': typeof PgrRoute
   '/product-development': typeof ProductDevelopmentRoute
   '/proof-center': typeof ProofCenterRoute
   '/quality': typeof QualityRoute
@@ -808,6 +820,7 @@ export interface FileRoutesByFullPath {
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
+  '/seed-treatment': typeof SeedTreatmentRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
@@ -862,6 +875,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
+  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
@@ -878,11 +892,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/$': typeof SplatRoute
   '/agrochemical-certification-guide': typeof AgrochemicalCertificationGuideRoute
-  '/agrochemical-oem-australia': typeof AgrochemicalOemAustraliaRoute
-  '/agrochemical-oem-canada': typeof AgrochemicalOemCanadaRoute
-  '/agrochemical-oem-europe': typeof AgrochemicalOemEuropeRoute
   '/agrochemical-oem-moq-lead-time': typeof AgrochemicalOemMoqLeadTimeRoute
-  '/agrochemical-oem-north-america': typeof AgrochemicalOemNorthAmericaRoute
   '/agrochemical-regulation-by-market': typeof AgrochemicalRegulationByMarketRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/biopesticide': typeof BiopesticideRoute
@@ -893,9 +903,13 @@ export interface FileRoutesByTo {
   '/faq': typeof FaqRoute
   '/formulation-selector': typeof FormulationSelectorRoute
   '/formulation-type-comparison': typeof FormulationTypeComparisonRoute
+  '/fungicide': typeof FungicideRoute
+  '/herbicide': typeof HerbicideRoute
+  '/insecticide': typeof InsecticideRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/mixture': typeof MixtureRoute
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
@@ -909,6 +923,7 @@ export interface FileRoutesByTo {
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
+  '/pgr': typeof PgrRoute
   '/product-development': typeof ProductDevelopmentRoute
   '/proof-center': typeof ProofCenterRoute
   '/quality': typeof QualityRoute
@@ -916,6 +931,7 @@ export interface FileRoutesByTo {
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
+  '/seed-treatment': typeof SeedTreatmentRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
@@ -968,6 +984,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
+  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
@@ -986,11 +1003,7 @@ export interface FileRoutesById {
   '/{-$locale}': typeof Char123LocaleChar125RouteRouteWithChildren
   '/$': typeof SplatRoute
   '/agrochemical-certification-guide': typeof AgrochemicalCertificationGuideRoute
-  '/agrochemical-oem-australia': typeof AgrochemicalOemAustraliaRoute
-  '/agrochemical-oem-canada': typeof AgrochemicalOemCanadaRoute
-  '/agrochemical-oem-europe': typeof AgrochemicalOemEuropeRoute
   '/agrochemical-oem-moq-lead-time': typeof AgrochemicalOemMoqLeadTimeRoute
-  '/agrochemical-oem-north-america': typeof AgrochemicalOemNorthAmericaRoute
   '/agrochemical-regulation-by-market': typeof AgrochemicalRegulationByMarketRoute
   '/b2b-solutions-matrix': typeof B2bSolutionsMatrixRoute
   '/biopesticide': typeof BiopesticideRoute
@@ -1001,9 +1014,13 @@ export interface FileRoutesById {
   '/faq': typeof FaqRoute
   '/formulation-selector': typeof FormulationSelectorRoute
   '/formulation-type-comparison': typeof FormulationTypeComparisonRoute
+  '/fungicide': typeof FungicideRoute
+  '/herbicide': typeof HerbicideRoute
+  '/insecticide': typeof InsecticideRoute
   '/knowledge': typeof KnowledgeRoute
   '/llms-full.txt': typeof LlmsFullDottxtRoute
   '/llms.txt': typeof LlmsDottxtRoute
+  '/mixture': typeof MixtureRoute
   '/new-brand-trial-order': typeof NewBrandTrialOrderRoute
   '/news': typeof NewsRoute
   '/odm-development': typeof OdmDevelopmentRoute
@@ -1017,6 +1034,7 @@ export interface FileRoutesById {
   '/oem-trust-assurance': typeof OemTrustAssuranceRoute
   '/oem-vs-private-label': typeof OemVsPrivateLabelRoute
   '/partners': typeof PartnersRoute
+  '/pgr': typeof PgrRoute
   '/product-development': typeof ProductDevelopmentRoute
   '/proof-center': typeof ProofCenterRoute
   '/quality': typeof QualityRoute
@@ -1024,6 +1042,7 @@ export interface FileRoutesById {
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
+  '/seed-treatment': typeof SeedTreatmentRoute
   '/sitemap-es.xml': typeof SitemapEsDotxmlRoute
   '/sitemap-news.xml': typeof SitemapNewsDotxmlRoute
   '/sitemap-pages.xml': typeof SitemapPagesDotxmlRoute
@@ -1078,6 +1097,7 @@ export interface FileRoutesById {
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
+  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
@@ -1097,11 +1117,7 @@ export interface FileRouteTypes {
     | '/{-$locale}'
     | '/$'
     | '/agrochemical-certification-guide'
-    | '/agrochemical-oem-australia'
-    | '/agrochemical-oem-canada'
-    | '/agrochemical-oem-europe'
     | '/agrochemical-oem-moq-lead-time'
-    | '/agrochemical-oem-north-america'
     | '/agrochemical-regulation-by-market'
     | '/b2b-solutions-matrix'
     | '/biopesticide'
@@ -1112,9 +1128,13 @@ export interface FileRouteTypes {
     | '/faq'
     | '/formulation-selector'
     | '/formulation-type-comparison'
+    | '/fungicide'
+    | '/herbicide'
+    | '/insecticide'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/mixture'
     | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
@@ -1128,6 +1148,7 @@ export interface FileRouteTypes {
     | '/oem-trust-assurance'
     | '/oem-vs-private-label'
     | '/partners'
+    | '/pgr'
     | '/product-development'
     | '/proof-center'
     | '/quality'
@@ -1135,6 +1156,7 @@ export interface FileRouteTypes {
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
+    | '/seed-treatment'
     | '/sitemap-es.xml'
     | '/sitemap-news.xml'
     | '/sitemap-pages.xml'
@@ -1189,6 +1211,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
+    | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/distributor-partners'
     | '/{-$locale}/solutions/private-label-sup'
@@ -1205,11 +1228,7 @@ export interface FileRouteTypes {
   to:
     | '/$'
     | '/agrochemical-certification-guide'
-    | '/agrochemical-oem-australia'
-    | '/agrochemical-oem-canada'
-    | '/agrochemical-oem-europe'
     | '/agrochemical-oem-moq-lead-time'
-    | '/agrochemical-oem-north-america'
     | '/agrochemical-regulation-by-market'
     | '/b2b-solutions-matrix'
     | '/biopesticide'
@@ -1220,9 +1239,13 @@ export interface FileRouteTypes {
     | '/faq'
     | '/formulation-selector'
     | '/formulation-type-comparison'
+    | '/fungicide'
+    | '/herbicide'
+    | '/insecticide'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/mixture'
     | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
@@ -1236,6 +1259,7 @@ export interface FileRouteTypes {
     | '/oem-trust-assurance'
     | '/oem-vs-private-label'
     | '/partners'
+    | '/pgr'
     | '/product-development'
     | '/proof-center'
     | '/quality'
@@ -1243,6 +1267,7 @@ export interface FileRouteTypes {
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
+    | '/seed-treatment'
     | '/sitemap-es.xml'
     | '/sitemap-news.xml'
     | '/sitemap-pages.xml'
@@ -1295,6 +1320,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
+    | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/distributor-partners'
     | '/{-$locale}/solutions/private-label-sup'
@@ -1312,11 +1338,7 @@ export interface FileRouteTypes {
     | '/{-$locale}'
     | '/$'
     | '/agrochemical-certification-guide'
-    | '/agrochemical-oem-australia'
-    | '/agrochemical-oem-canada'
-    | '/agrochemical-oem-europe'
     | '/agrochemical-oem-moq-lead-time'
-    | '/agrochemical-oem-north-america'
     | '/agrochemical-regulation-by-market'
     | '/b2b-solutions-matrix'
     | '/biopesticide'
@@ -1327,9 +1349,13 @@ export interface FileRouteTypes {
     | '/faq'
     | '/formulation-selector'
     | '/formulation-type-comparison'
+    | '/fungicide'
+    | '/herbicide'
+    | '/insecticide'
     | '/knowledge'
     | '/llms-full.txt'
     | '/llms.txt'
+    | '/mixture'
     | '/new-brand-trial-order'
     | '/news'
     | '/odm-development'
@@ -1343,6 +1369,7 @@ export interface FileRouteTypes {
     | '/oem-trust-assurance'
     | '/oem-vs-private-label'
     | '/partners'
+    | '/pgr'
     | '/product-development'
     | '/proof-center'
     | '/quality'
@@ -1350,6 +1377,7 @@ export interface FileRouteTypes {
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
+    | '/seed-treatment'
     | '/sitemap-es.xml'
     | '/sitemap-news.xml'
     | '/sitemap-pages.xml'
@@ -1404,6 +1432,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/knowledge/$slug'
     | '/{-$locale}/products/$series'
     | '/{-$locale}/projects/$slug'
+    | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/distributor-partners'
     | '/{-$locale}/solutions/private-label-sup'
@@ -1422,11 +1451,7 @@ export interface RootRouteChildren {
   Char123LocaleChar125RouteRoute: typeof Char123LocaleChar125RouteRouteWithChildren
   SplatRoute: typeof SplatRoute
   AgrochemicalCertificationGuideRoute: typeof AgrochemicalCertificationGuideRoute
-  AgrochemicalOemAustraliaRoute: typeof AgrochemicalOemAustraliaRoute
-  AgrochemicalOemCanadaRoute: typeof AgrochemicalOemCanadaRoute
-  AgrochemicalOemEuropeRoute: typeof AgrochemicalOemEuropeRoute
   AgrochemicalOemMoqLeadTimeRoute: typeof AgrochemicalOemMoqLeadTimeRoute
-  AgrochemicalOemNorthAmericaRoute: typeof AgrochemicalOemNorthAmericaRoute
   AgrochemicalRegulationByMarketRoute: typeof AgrochemicalRegulationByMarketRoute
   B2bSolutionsMatrixRoute: typeof B2bSolutionsMatrixRoute
   BiopesticideRoute: typeof BiopesticideRoute
@@ -1437,9 +1462,13 @@ export interface RootRouteChildren {
   FaqRoute: typeof FaqRoute
   FormulationSelectorRoute: typeof FormulationSelectorRoute
   FormulationTypeComparisonRoute: typeof FormulationTypeComparisonRoute
+  FungicideRoute: typeof FungicideRoute
+  HerbicideRoute: typeof HerbicideRoute
+  InsecticideRoute: typeof InsecticideRoute
   KnowledgeRoute: typeof KnowledgeRoute
   LlmsFullDottxtRoute: typeof LlmsFullDottxtRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
+  MixtureRoute: typeof MixtureRoute
   NewBrandTrialOrderRoute: typeof NewBrandTrialOrderRoute
   NewsRoute: typeof NewsRoute
   OdmDevelopmentRoute: typeof OdmDevelopmentRoute
@@ -1453,6 +1482,7 @@ export interface RootRouteChildren {
   OemTrustAssuranceRoute: typeof OemTrustAssuranceRoute
   OemVsPrivateLabelRoute: typeof OemVsPrivateLabelRoute
   PartnersRoute: typeof PartnersRoute
+  PgrRoute: typeof PgrRoute
   ProductDevelopmentRoute: typeof ProductDevelopmentRoute
   ProofCenterRoute: typeof ProofCenterRoute
   QualityRoute: typeof QualityRoute
@@ -1460,6 +1490,7 @@ export interface RootRouteChildren {
   RobotsDottxtRoute: typeof RobotsDottxtRoute
   RssDotxmlRoute: typeof RssDotxmlRoute
   SearchIndexDotjsonRoute: typeof SearchIndexDotjsonRoute
+  SeedTreatmentRoute: typeof SeedTreatmentRoute
   SitemapEsDotxmlRoute: typeof SitemapEsDotxmlRoute
   SitemapNewsDotxmlRoute: typeof SitemapNewsDotxmlRoute
   SitemapPagesDotxmlRoute: typeof SitemapPagesDotxmlRoute
@@ -1547,6 +1578,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SitemapEsDotxmlRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/seed-treatment': {
+      id: '/seed-treatment'
+      path: '/seed-treatment'
+      fullPath: '/seed-treatment'
+      preLoaderRoute: typeof SeedTreatmentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/search-index.json': {
       id: '/search-index.json'
       path: '/search-index.json'
@@ -1594,6 +1632,13 @@ declare module '@tanstack/react-router' {
       path: '/product-development'
       fullPath: '/product-development'
       preLoaderRoute: typeof ProductDevelopmentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pgr': {
+      id: '/pgr'
+      path: '/pgr'
+      fullPath: '/pgr'
+      preLoaderRoute: typeof PgrRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/partners': {
@@ -1687,6 +1732,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NewBrandTrialOrderRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/mixture': {
+      id: '/mixture'
+      path: '/mixture'
+      fullPath: '/mixture'
+      preLoaderRoute: typeof MixtureRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/llms.txt': {
       id: '/llms.txt'
       path: '/llms.txt'
@@ -1706,6 +1758,27 @@ declare module '@tanstack/react-router' {
       path: '/knowledge'
       fullPath: '/knowledge'
       preLoaderRoute: typeof KnowledgeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/insecticide': {
+      id: '/insecticide'
+      path: '/insecticide'
+      fullPath: '/insecticide'
+      preLoaderRoute: typeof InsecticideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/herbicide': {
+      id: '/herbicide'
+      path: '/herbicide'
+      fullPath: '/herbicide'
+      preLoaderRoute: typeof HerbicideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/fungicide': {
+      id: '/fungicide'
+      path: '/fungicide'
+      fullPath: '/fungicide'
+      preLoaderRoute: typeof FungicideRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/formulation-type-comparison': {
@@ -1778,39 +1851,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AgrochemicalRegulationByMarketRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/agrochemical-oem-north-america': {
-      id: '/agrochemical-oem-north-america'
-      path: '/agrochemical-oem-north-america'
-      fullPath: '/agrochemical-oem-north-america'
-      preLoaderRoute: typeof AgrochemicalOemNorthAmericaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/agrochemical-oem-moq-lead-time': {
       id: '/agrochemical-oem-moq-lead-time'
       path: '/agrochemical-oem-moq-lead-time'
       fullPath: '/agrochemical-oem-moq-lead-time'
       preLoaderRoute: typeof AgrochemicalOemMoqLeadTimeRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/agrochemical-oem-europe': {
-      id: '/agrochemical-oem-europe'
-      path: '/agrochemical-oem-europe'
-      fullPath: '/agrochemical-oem-europe'
-      preLoaderRoute: typeof AgrochemicalOemEuropeRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/agrochemical-oem-canada': {
-      id: '/agrochemical-oem-canada'
-      path: '/agrochemical-oem-canada'
-      fullPath: '/agrochemical-oem-canada'
-      preLoaderRoute: typeof AgrochemicalOemCanadaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/agrochemical-oem-australia': {
-      id: '/agrochemical-oem-australia'
-      path: '/agrochemical-oem-australia'
-      fullPath: '/agrochemical-oem-australia'
-      preLoaderRoute: typeof AgrochemicalOemAustraliaRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/agrochemical-certification-guide': {
@@ -2107,6 +2152,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125SolutionsCustomSupRouteImport
       parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
+    '/{-$locale}/solutions/club-sup': {
+      id: '/{-$locale}/solutions/club-sup'
+      path: '/club-sup'
+      fullPath: '/{-$locale}/solutions/club-sup'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsClubSupRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
     '/{-$locale}/projects/$slug': {
       id: '/{-$locale}/projects/$slug'
       path: '/projects/$slug'
@@ -2262,6 +2314,7 @@ const Char123LocaleChar125AdminRouteRouteWithChildren =
   )
 
 interface Char123LocaleChar125SolutionsRouteChildren {
+  Char123LocaleChar125SolutionsClubSupRoute: typeof Char123LocaleChar125SolutionsClubSupRoute
   Char123LocaleChar125SolutionsCustomSupRoute: typeof Char123LocaleChar125SolutionsCustomSupRoute
   Char123LocaleChar125SolutionsDistributorPartnersRoute: typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   Char123LocaleChar125SolutionsPrivateLabelSupRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
@@ -2272,6 +2325,8 @@ interface Char123LocaleChar125SolutionsRouteChildren {
 
 const Char123LocaleChar125SolutionsRouteChildren: Char123LocaleChar125SolutionsRouteChildren =
   {
+    Char123LocaleChar125SolutionsClubSupRoute:
+      Char123LocaleChar125SolutionsClubSupRoute,
     Char123LocaleChar125SolutionsCustomSupRoute:
       Char123LocaleChar125SolutionsCustomSupRoute,
     Char123LocaleChar125SolutionsDistributorPartnersRoute:
@@ -2395,11 +2450,7 @@ const rootRouteChildren: RootRouteChildren = {
   Char123LocaleChar125RouteRoute: Char123LocaleChar125RouteRouteWithChildren,
   SplatRoute: SplatRoute,
   AgrochemicalCertificationGuideRoute: AgrochemicalCertificationGuideRoute,
-  AgrochemicalOemAustraliaRoute: AgrochemicalOemAustraliaRoute,
-  AgrochemicalOemCanadaRoute: AgrochemicalOemCanadaRoute,
-  AgrochemicalOemEuropeRoute: AgrochemicalOemEuropeRoute,
   AgrochemicalOemMoqLeadTimeRoute: AgrochemicalOemMoqLeadTimeRoute,
-  AgrochemicalOemNorthAmericaRoute: AgrochemicalOemNorthAmericaRoute,
   AgrochemicalRegulationByMarketRoute: AgrochemicalRegulationByMarketRoute,
   B2bSolutionsMatrixRoute: B2bSolutionsMatrixRoute,
   BiopesticideRoute: BiopesticideRoute,
@@ -2410,9 +2461,13 @@ const rootRouteChildren: RootRouteChildren = {
   FaqRoute: FaqRoute,
   FormulationSelectorRoute: FormulationSelectorRoute,
   FormulationTypeComparisonRoute: FormulationTypeComparisonRoute,
+  FungicideRoute: FungicideRoute,
+  HerbicideRoute: HerbicideRoute,
+  InsecticideRoute: InsecticideRoute,
   KnowledgeRoute: KnowledgeRoute,
   LlmsFullDottxtRoute: LlmsFullDottxtRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
+  MixtureRoute: MixtureRoute,
   NewBrandTrialOrderRoute: NewBrandTrialOrderRoute,
   NewsRoute: NewsRoute,
   OdmDevelopmentRoute: OdmDevelopmentRoute,
@@ -2426,6 +2481,7 @@ const rootRouteChildren: RootRouteChildren = {
   OemTrustAssuranceRoute: OemTrustAssuranceRoute,
   OemVsPrivateLabelRoute: OemVsPrivateLabelRoute,
   PartnersRoute: PartnersRoute,
+  PgrRoute: PgrRoute,
   ProductDevelopmentRoute: ProductDevelopmentRoute,
   ProofCenterRoute: ProofCenterRoute,
   QualityRoute: QualityRoute,
@@ -2433,6 +2489,7 @@ const rootRouteChildren: RootRouteChildren = {
   RobotsDottxtRoute: RobotsDottxtRoute,
   RssDotxmlRoute: RssDotxmlRoute,
   SearchIndexDotjsonRoute: SearchIndexDotjsonRoute,
+  SeedTreatmentRoute: SeedTreatmentRoute,
   SitemapEsDotxmlRoute: SitemapEsDotxmlRoute,
   SitemapNewsDotxmlRoute: SitemapNewsDotxmlRoute,
   SitemapPagesDotxmlRoute: SitemapPagesDotxmlRoute,

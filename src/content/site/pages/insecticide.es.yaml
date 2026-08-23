@@ -1,0 +1,39 @@
+meta:
+  title: 'Insecticidas OEM/ODM | Fabricante Agrospear'
+  description: 'Fabricante OEM/ODM de insecticidas sistémicos, de contacto y translaminares. Formulaciones SC, EC, WDG, ME. Programas MIP. Manejo de resistencia IRAC. MOQ desde 1 t.'
+  keywords: [insecticida OEM, insecticida ODM, fabricante insecticida, control insectos, insecticida sistémico, insecticida translaminar, MIP, resistencia IRAC, formulación SC, formulación ME, Agrospear]
+label: 'Caso de uso'
+headline: 'Insecticidas'
+subtitle: 'Formulaciones OEM/ODM para el control de insectos plaga con estrategia MIP y manejo de resistencia'
+seo:
+  headline: 'Insecticidas OEM/ODM con acción sistémica, de contacto y translaminar'
+  description: 'Agrospear fabrica insecticidas en formulaciones SC, EC, WDG y ME. Control de masticadores y chupadores con rotación IRAC. Fábrica certificada GMP, 20 000 m², exportación a 60+ países.'
+  datePublished: '2025-01-15'
+  dateModified: '2025-07-20'
+faqs:
+  - question: '¿Qué tipos de acción insecticida ofrecen sus formulaciones?'
+    answer: 'Producimos insecticidas de contacto, sistémicos y translaminares. Los de contacto actúan por exposición directa; los sistémicos se absorben y distribuyen por el tejido vascular de la planta; los translaminares penetran la hoja y forman un depósito activo en el mesófilo, controlando insectos minadores y chupadores que se alimentan del envés.'
+  - question: '¿Cómo integran el manejo de resistencia IRAC en sus productos?'
+    answer: 'Clasificamos todos nuestros ingredientes activos según los grupos IRAC y asesoramos a nuestros clientes sobre la rotación de modos de acción. Nuestros desarrollos más recientes priorizan premezclas que combinan grupos IRAC sin cruzados, reduciendo la presión de selección y prolongando la vida útil de cada insecticida.'
+  - question: '¿Qué es una formulación ME y en qué casos se recomienda?'
+    answer: 'ME (microemulsión) es una formulación termodinámicamente estable que produce gotas de tamaño submicrónico. Se recomienda para insecticidas translaminares porque maximiza la penetración en el tejido foliar, reduce la deriva y mejora la uniformidad de aplicación. También es ideal para productos con baja solubilidad en agua.'
+  - question: '¿Cuál es el plazo de entrega para pedidos OEM de insecticidas?'
+    answer: 'El plazo estándar es de 25-35 días desde la confirmación de la orden y las especificaciones técnicas. Para pedidos de muestra (1-4 t) o piloto (5 t), los tiempos pueden ajustarse según la disponibilidad de ingrediente activo y envase.'
+body: |
+  <h2>Control de insectos masticadores y chupadores</h2>
+  <p>Los insectos masticadores —orugas, escarabajos, grillos— causan defoliación y pérdida de rendimiento directo; los chupadores —áfidos, moscas blancas, trips, cochinillas— debilitan la planta y transmiten virosis. Agrospear desarrolla formulaciones específicas para cada tipo de plaga: piretroides y diamidas para masticadores, neonicotinoides y butenoloides para chupadores, y productos translaminares como spinosad y abamectina para insectos minadores que se protegen dentro del tejido foliar.</p>
+  <p>Nuestra línea cubre los principales grupos IRAC: moduladores de canales de sodio (grupos 3 y 22), agonistas nicotínicos (grupo 4), activadores de rianodina (grupo 28), inhibidores de quitinbiosintetasa (grupo 15) y disruptores del crecimiento (grupo 18). Cada formulación se ajusta al comportamiento alimenticio de la plaga y a la fenología del cultivo para maximizar la eficacia con el menor número de aplicaciones.</p>
+
+  <h2>Formulaciones SC, EC, WDG y ME para máxima eficacia</h2>
+  <p>La formulación SC (concentrado en suspensión) es la base de nuestra línea insecticida sistémica: partículas sólidas finamente dispersas en un medio líquido que aseguran dosificación exacta, ausencia de polvo y compatibilidad con tanques de mezcla. Para ingredientes activos lipofílicos, la formulación EC (emulsionable) facilita la penetración cuticular y el inicio rápido de acción.</p>
+  <p>Las microemulsiones (ME) representan la tecnología más avanzada de nuestro portfolio: gotas de tamaño inferior a 100 nm que garantizan una cobertura homogénea, mínima deriva y máxima penetración translaminar. Los gránulos WDG, por su parte, son la opción óptima para insecticidas que requieren transporte sin refrigeración y estabilidad en climas tropicales, con la ventaja de un volumen de embalaje reducido frente a las formulaciones líquidas equivalentes.</p>
+
+  <h2>Programas MIP y rotación de modos de acción</h2>
+  <p>El Manejo Integrado de Plagas (MIP) combina tácticas culturales, biológicas y químicas para mantener las poblaciones de insectos por debajo del umbral económico. Agrospear colabora con sus clientes OEM para diseñar calendarios de aplicación que integren nuestros insecticidas con control biológico (depredadores, parasitoides, entomopatógenos), trampas de monitoreo y prácticas culturales como la rotación de cultivos y la destrucción de rastrojos.</p>
+  <p>La rotación de modos de acción según la clasificación IRAC es el pilar de la resistencia. Recomendamos no aplicar más de dos veces por ciclo un insecticida del mismo grupo IRAC, y alternar con grupos que tengan sitios de acción independientes. Nuestro equipo técnico proporciona tablas de compatibilidad y secuencias de aplicación adaptadas a cada sistema productivo, desde arroz y soja hasta frutales y hortalizas bajo invernadero.</p>
+
+  <div class="cta">
+    <h3>Desarrolle su línea de insecticidas con Agrospear</h3>
+    <p>Con 200+ operarios, certificaciones ISO 9001/14001, GMP, BSCI e ICAMA, Agrospear ofrece la capacidad industrial y el soporte técnico que usted necesita. Desde la selección del ingrediente activo hasta el diseño del envase, somos su fabricante OEM/ODM de confianza.</p>
+    <a href="/contact">Solicitar cotización</a>
+  </div>

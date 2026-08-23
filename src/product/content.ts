@@ -44,11 +44,11 @@ export interface HeroContent {
 
 export const hero: Localized<HeroContent> = {
   en: {
-    kicker: 'Qingdao, China Factory · OEM / ODM / Private Label · Samples to Batch Production',
+    kicker: 'Designated Agrochemical Manufacturer · Qingdao, China · 8 Formulation Lines · From 1-ton Samples to Container Loads',
     titlePre: 'Custom Agrochemical Manufacturing for',
     titleAccent: 'Brands, Distributors & Importers',
     titlePost: '',
-    sub: 'OEM, ODM and private-label agrochemical formulations — from specification review and sample development to quality-controlled batch production in Qingdao, China.',
+    sub: 'From raw active ingredient to export-ready crop protection product — all under one roof. Eight formulation types (SC, EC, WP, WDG, SL, ME, CS, FS), 200+ workers, two daily shifts, and 50,000+ tons annual capacity. OEM, ODM and private-label programs for brands, distributors and importers in 60+ countries.',
     ctaPrimary: 'Start Your Agrochemical Project',
     ctaSecondary: 'View Factory, MOQ & Quality Evidence',
     ctaTertiary: '',
@@ -68,11 +68,11 @@ export const hero: Localized<HeroContent> = {
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
-    kicker: 'Fábrica en Qingdao, China · OEM / ODM / Marca privada · Muestras a producción en serie',
+    kicker: 'Fabricante de agroquímicos designado · Qingdao, China · 8 líneas de formulación · De muestras de 1 tonelada a contenedores completos',
     titlePre: 'Fabricación de agroquímicos a medida para',
     titleAccent: 'marcas, distribuidores e importadores',
     titlePost: '',
-    sub: 'Formulaciones agroquímicas OEM, ODM y marca privada — desde la revisión de especificaciones y desarrollo de muestras hasta la producción en serie con control de calidad en Qingdao, China.',
+    sub: 'Del ingrediente activo en bruto al producto de protección de cultivos listo para exportar — todo bajo un mismo techo. Ocho tipos de formulación (SC, EC, WP, WDG, SL, ME, CS, FS), 200+ operarios, dos turnos diarios y 50.000+ toneladas de capacidad anual. Programas OEM, ODM y marca propia para marcas, distribuidores e importadores en 60+ países.',
     ctaPrimary: 'Inicia tu proyecto de agroquímicos',
     ctaSecondary: 'Ver fábrica, MOQ y evidencia de calidad',
     ctaTertiary: '',
@@ -113,50 +113,50 @@ export const why: Localized<WhyContent> = {
   en: {
     kicker: 'The Manufacturing Brand',
     title: 'Powered by Agrospear',
-    sub: 'Agrospear is the agrochemical formulation and manufacturing division of Qingdao Vatrad Group Co., Ltd. Our 20,000 m² plant in Qingdao has produced crop protection products since 2012, with 25+ engineers across R&D, formulation chemistry, analytical lab and production engineering averaging 7+ years in agrochemical manufacturing, running two production shifts daily.',
+    sub: `Agrospear is the agrochemical formulation and manufacturing division of Qingdao Vatrad Group Co., Ltd. — a designated pesticide manufacturer operating since 2012. Our ${FACTS.warehouseM2} plant in Qingdao houses dedicated workshops for liquid formulations (SC, EC, SL, ME, CS, FS) and solid formulations (WP, WDG), with 200+ workers running two daily shifts across herbicide, insecticide, fungicide and PGR production lines. 25+ engineers spanning R&D, formulation chemistry, analytical lab and production engineering average 7+ years of agrochemical manufacturing experience and hold multiple formulation technology patents.`,
     image: 'https://assets.agrospear.com/images/factory/agrospear-production-department.webp',
     imageCaption: 'Agrospear manufacturing facility, Qingdao, China',
     bullets: [
       {
-        title: `${FACTS.warehouseM2} plant`,
-        body: 'In-house from raw active ingredient to finished product, in Qingdao.',
+        title: `${FACTS.warehouseM2} integrated plant`,
+        body: 'From raw active ingredient sourcing and compounding to finished product filling — all under one roof in Qingdao, with dedicated liquid and solid formulation workshops.',
       },
       {
         title: 'Producing since 2012',
-        body: 'Two production shifts daily across herbicides, insecticides, fungicides and PGRs.',
+        body: 'Over a decade of continuous agrochemical production across herbicides, insecticides, fungicides and PGRs, with two daily shifts and 50,000+ tons annual output.',
       },
       {
         title: '25+ engineers',
-        body: 'Across R&D, formulation chemistry, analytical lab and production engineering.',
+        body: 'R&D, formulation chemistry, analytical lab and production engineering — with multiple formulation technology patents and an average of 7+ years in agrochemical manufacturing.',
       },
       {
-        title: '7+ years average',
-        body: 'Agrochemical manufacturing experience per engineer.',
+        title: `${FACTS.exportCountries}+ export markets`,
+        body: 'Active registrations and shipments across Asia, Africa, the Middle East, Latin America and the EU — with country-specific documentation and registration support.',
       },
     ],
   },
   es: {
     kicker: 'La marca de fabricación',
     title: 'Con el respaldo de Agrospear',
-    sub: `Agrospear es la división de formulación y fabricación de agroquímicos de Qingdao Vatrad Group Co., Ltd. Nuestra planta de ${FACTS.warehouseM2} en Qingdao produce productos de protección de cultivos desde 2012, con más de 25 ingenieros entre I+D, química de formulación, laboratorio analítico e ingeniería de producción, con una media de más de 7 años en fabricación de agroquímicos y dos turnos de producción diarios.`,
+    sub: `Agrospear es la división de formulación y fabricación de agroquímicos de Qingdao Vatrad Group Co., Ltd. — fabricante de pesticidas designado en activo desde 2012. Nuestra planta de ${FACTS.warehouseM2} en Qingdao alberga talleres dedicados para formulaciones líquidas (SC, EC, SL, ME, CS, FS) y formulaciones sólidas (WP, WDG), con 200+ operarios en dos turnos diarios en líneas de herbicidas, insecticidas, fungicidas y PGR. Más de 25 ingenieros entre I+D, química de formulación, laboratorio analítico e ingeniería de producción, con una media de más de 7 años en fabricación de agroquímicos y múltiples patentes de tecnología de formulación.`,
     image: 'https://assets.agrospear.com/images/factory/agrospear-production-department.webp',
     imageCaption: 'Instalaciones de fabricación de Agrospear, Qingdao, China',
     bullets: [
       {
-        title: `Planta de ${FACTS.warehouseM2}`,
-        body: 'Del ingrediente activo en bruto al producto terminado, en Qingdao.',
+        title: `Planta integrada de ${FACTS.warehouseM2}`,
+        body: 'Desde el abastecimiento y dosificación de ingrediente activo en bruto hasta el llenado del producto terminado — todo bajo un mismo techo en Qingdao, con talleres dedicados para formulaciones líquidas y sólidas.',
       },
       {
         title: 'Produciendo desde 2012',
-        body: 'Dos turnos de producción diarios entre herbicidas, insecticidas, fungicidas y PGR.',
+        body: 'Más de una década de producción continua de agroquímicos entre herbicidas, insecticidas, fungicidas y PGR, con dos turnos diarios y 50.000+ toneladas de producción anual.',
       },
       {
         title: '+25 ingenieros',
-        body: 'Entre I+D, química de formulación, laboratorio analítico e ingeniería de producción.',
+        body: 'I+D, química de formulación, laboratorio analítico e ingeniería de producción — con múltiples patentes de tecnología de formulación y una media de 7+ años en fabricación de agroquímicos.',
       },
       {
-        title: '+7 años de media',
-        body: 'De experiencia en fabricación de agroquímicos por ingeniero.',
+        title: `${FACTS.exportCountries}+ mercados de exportación`,
+        body: 'Registros y envíos activos en Asia, África, Oriente Medio, América Latina y la UE — con documentación específica por país y soporte de registro.',
       },
     ],
   },
@@ -229,8 +229,8 @@ export interface SolveContent {
 export const solve: Localized<SolveContent> = {
   en: {
     kicker: 'Manufacturing Scope',
-    title: 'Four Ways Brands and Buyers Work With Our Plant',
-    sub: 'OEM, ODM, private label or bulk supply — the same in-house engineering and quality system behind every program.',
+    title: 'Four Ways Brands and Buyers Partner With Our Plant',
+    sub: 'OEM, ODM, private label or bulk supply — every route runs through the same in-house engineering, QC system and export documentation team, with dedicated formulation workshops for each product category.',
     cta: 'Request a Manufacturing Quote',
     items: [
       {
@@ -246,15 +246,15 @@ export const solve: Localized<SolveContent> = {
         body: COLLABORATION_MODES.privateLabel.full,
       },
       {
-        title: 'Bulk Supply — Repeat and Fleet Orders',
-        body: 'High-volume agrochemical supply for distributors, importers and government procurement agencies, with locked specifications, batch traceability and consistent quality across reorders.',
+        title: 'Bulk Supply — Repeat Orders & Government Procurement',
+        body: 'High-volume agrochemical supply for distributors, importers and government procurement agencies — including national subsidy programs in West and East Africa, seasonal tender orders in South and Southeast Asia, and repeat-container contracts for established brands. Locked specifications, full batch traceability (ERP-linked from raw material lot to shipping container), consistent quality across reorders, and priority scheduling for seasonal demand windows.',
       },
     ],
   },
   es: {
     kicker: 'Alcance de fabricación',
-    title: 'Cuatro formas de trabajar con nuestra planta',
-    sub: 'OEM, ODM, marca privada o suministro por volumen — los mismos estándares de ingeniería y calidad en cada programa.',
+    title: 'Cuatro formas de colaborar con nuestra planta',
+    sub: 'OEM, ODM, marca privada o suministro por volumen — cada vía pasa por el mismo equipo de ingeniería, sistema de QC y documentación de exportación, con talleres de formulación dedicados para cada categoría de producto.',
     cta: 'Solicita un presupuesto de fabricación',
     items: [
       {
@@ -270,8 +270,8 @@ export const solve: Localized<SolveContent> = {
         body: COLLABORATION_MODES.privateLabel.full,
       },
       {
-        title: 'Suministro por volumen — pedidos repetidos y de gran escala',
-        body: 'Suministro de agroquímicos de alto volumen para distribuidores, importadores y agencias de compras gubernamentales, con especificaciones fijadas, trazabilidad por lote y calidad homogénea entre reposiciones.',
+        title: 'Suministro por volumen — pedidos repetidos y compras gubernamentales',
+        body: 'Suministro de agroquímicos de alto volumen para distribuidores, importadores y agencias de compras gubernamentales — incluyendo programas de subsidios nacionales en África Occidental y Oriental, pedidos de licitación estacional en el Sur y Sudeste Asiático, y contratos de contenedor repetido para marcas consolidadas. Especificaciones fijadas, trazabilidad completa por lote (vinculada por ERP desde la materia prima al contenedor de embarque), calidad homogénea entre reposiciones y programación prioritaria para ventanas de demanda estacional.',
       },
     ],
   },
@@ -295,62 +295,70 @@ export const capability: Localized<CapabilityContent> = {
   en: {
     kicker: 'Manufacturing Capability',
     title: 'Inside the Plant',
-    sub: 'Every process below runs in-house. Nothing critical is subcontracted.',
+    sub: 'Every process below runs in-house. Nothing critical is subcontracted — from reactor to shipping container.',
     items: [
       {
         name: 'Formulation & Compounding',
-        body: 'Precise dosing of active ingredients and adjuvants at ±0.1% accuracy, with computer-controlled batching for SC, EC, WP, WDG, SL, ME, CS and FS formulations.',
+        body: 'Computer-controlled dosing reactors with ±0.1% accuracy for active ingredients and adjuvants. Dedicated compounding vessels for each formulation type — SC, EC, WP, WDG, SL, ME, CS and FS — with recipe-managed batching and inline concentration monitoring throughout the compounding cycle.',
       },
       {
         name: 'Mixing & Milling',
-        body: 'High-shear mixing and bead milling for suspension concentrates; homogenization for emulsifiable concentrates and micro-emulsions, ensuring uniform particle size distribution.',
+        body: 'High-shear rotor-stator mixers and bead mills for suspension concentrates (target D50 < 5 μm), homogenization tunnels for emulsifiable concentrates and micro-emulsions, and air-classified jet mills for wettable powders and WDG pre-mix — ensuring uniform particle size distribution and long-term physical stability.',
+      },
+      {
+        name: 'Granulation & Drying',
+        body: 'Fluid-bed granulators and pan granulators for WDG production with controlled granule size (0.5–2.0 mm), integrated drying tunnels with moisture monitoring below 2%, and dust-collection systems for operator safety. Spray-drying capability for specialized soluble powder formulations.',
       },
       {
         name: 'Filling & Packaging',
-        body: 'Automated filling lines for bottles, jugs, drums and IBCs from 100 mL to 1000 L, with weight verification and tamper-evident sealing on every container.',
+        body: 'Automated rotary filling lines for bottles (100 mL–5 L), gravity and piston fillers for jugs, drums and IBCs (20 L–1000 L), with inline weight verification (±0.5% tolerance), tamper-evident sealing and leak-testing on every container before it leaves the line.',
       },
       {
         name: 'Labeling & Coding',
-        body: 'Pressure-sensitive and sleeve labeling with batch number, production date, expiry date and registration code — fully compliant with target market labeling regulations.',
+        body: 'Pressure-sensitive, shrink-sleeve and wrap-around labeling stations with thermal-transfer batch coding (lot number, production date, expiry date, registration code) — fully compliant with GHS, target-market labeling regulations and ICAMA registration requirements.',
       },
       {
         name: 'Quality Control Lab',
-        body: 'HPLC purity analysis, GC residue testing, stability testing (accelerated and long-term), pH and viscosity checks at every production stage, with out-of-spec auto-reject.',
+        body: 'HPLC purity analysis and GC residue testing on incoming raw materials and finished batches, accelerated and long-term stability chambers (54 °C / 14 days and 25 °C / 24 months per FAO/WHO), laser diffraction particle sizing, rheometry for viscosity and pH at every production stage — with out-of-spec auto-reject and root-cause investigation before rework.',
       },
       {
-        name: 'Export Packing',
-        body: 'UN-rated packaging for hazardous goods, palletized and export-grade packed, with MSDS, certificate of analysis and phytosanitary documentation per destination market.',
+        name: 'Export Packing & Documentation',
+        body: 'UN-rated packaging for Class 6.1 and Class 9 hazardous goods, heat-treated palletized loads, and export-grade packing per destination. MSDS, certificate of analysis, phytosanitary certificates and ICAMA export licenses prepared in-house — covering Asia, Africa, the Middle East, LATAM and EU requirements.',
       },
     ],
   },
   es: {
     kicker: 'Capacidad de fabricación',
     title: 'Dentro de la planta',
-    sub: 'Todos los procesos siguientes se realizan en casa. Nada crítico se subcontrata.',
+    sub: 'Todos los procesos siguientes se realizan en casa. Nada crítico se subcontrata — del reactor al contenedor de embarque.',
     items: [
       {
         name: 'Formulación y dosificación',
-        body: 'Dosificación precisa de ingredientes activos y coadyuvantes con precisión de ±0,1%, con lotes controlados por ordenador para formulaciones SC, EC, WP, WDG, SL, ME, CS y FS.',
+        body: 'Reactores de dosificación controlados por ordenador con precisión de ±0,1% para ingredientes activos y coadyuvantes. Vasijas de compounding dedicadas para cada tipo de formulación — SC, EC, WP, WDG, SL, ME, CS y FS — con lotes gestionados por receta y monitorización de concentración en línea durante todo el ciclo.',
       },
       {
         name: 'Mezcla y molienda',
-        body: 'Mezcla de alto cizallamiento y molienda de perlas para concentrados en suspensión; homogeneización para concentrados emulsionables y microemulsiones, asegurando distribución uniforme del tamaño de partícula.',
+        body: 'Mezcladores rotor-estator de alto cizallamiento y molinos de perlas para concentrados en suspensión (D50 objetivo < 5 μm), túneles de homogeneización para concentrados emulsionables y microemulsiones, y molinos de chorro con clasificación neumática para polvos mojables y pre-mezcla WDG — asegurando distribución uniforme del tamaño de partícula y estabilidad física a largo plazo.',
+      },
+      {
+        name: 'Granulación y secado',
+        body: 'Granuladores de lecho fluido y de plato para producción de WDG con tamaño de gránulo controlado (0,5–2,0 mm), túneles de secado integrados con monitorización de humedad por debajo del 2%, y sistemas de captación de polvo para seguridad del operario. Capacidad de secado por atomización para formulaciones especializadas de polvo soluble.',
       },
       {
         name: 'Envasado y embalaje',
-        body: 'Líneas de llenado automatizadas para botellas, garrafas, tambores y IBC desde 100 mL hasta 1000 L, con verificación de peso y sellado a prueba de manipulaciones en cada envase.',
+        body: 'Líneas rotativas de llenado automatizado para botellas (100 mL–5 L), llenadores de gravedad y pistón para garrafas, tambores e IBC (20 L–1000 L), con verificación de peso en línea (tolerancia ±0,5%), sellado a prueba de manipulaciones y prueba de estanqueidad en cada envase antes de salir de la línea.',
       },
       {
         name: 'Etiquetado y codificación',
-        body: 'Etiquetado autoadhesivo y manga con número de lote, fecha de producción, fecha de caducidad y código de registro, totalmente conforme con la normativa de etiquetado del mercado de destino.',
+        body: 'Estaciones de etiquetado autoadhesivo, manga termorretráctil y envolvente con codificación térmica por transferencia (número de lote, fecha de producción, fecha de caducidad, código de registro) — totalmente conformes con GHS, normativa de etiquetado del mercado de destino y requisitos de registro ICAMA.',
       },
       {
         name: 'Laboratorio de control de calidad',
-        body: 'Análisis de pureza por HPLC, ensayo de residuos por GC, ensayo de estabilidad (acelerado y a largo plazo), comprobación de pH y viscosidad en cada etapa, con rechazo automático fuera de especificación.',
+        body: 'Análisis de pureza por HPLC y ensayo de residuos por GC en materias primas entrantes y lotes terminados, cámaras de estabilidad acelerada y a largo plazo (54 °C / 14 días y 25 °C / 24 meses según FAO/WHO), tamaño de partícula por difracción láser, reometría de viscosidad y pH en cada etapa — con rechazo automático fuera de especificación e investigación de causa raíz antes de reprocesar.',
       },
       {
-        name: 'Embalaje de exportación',
-        body: 'Embalaje clasificado UN para mercancías peligrosas, paletizado y embalado para exportación, con FDS, certificado de análisis y documentación fitosanitaria según mercado de destino.',
+        name: 'Embalaje y documentación de exportación',
+        body: 'Embalaje clasificado UN para mercancías peligrosas Clase 6.1 y Clase 9, cargas paletizadas con tratamiento térmico y embalado para exportación según destino. FDS, certificado de análisis, certificados fitosanitarios y licencias de exportación ICAMA preparados en casa — cubriendo los requisitos de Asia, África, Oriente Medio, LATAM y la UE.',
       },
     ],
   },
@@ -613,37 +621,37 @@ export const serve: Localized<ServeContent> = {
   en: {
     kicker: 'Who We Serve',
     title: 'Built for Businesses Creating Their Own Agrochemical Products',
-    sub: 'Whether you are launching a new agrochemical brand or expanding an existing crop protection product line, our manufacturing solutions can be adapted to your business.',
+    sub: 'Whether you are launching a new agrochemical brand, expanding into a new crop protection category or sourcing for a government subsidy program, our manufacturing solutions adapt to your business model and target market.',
     segments: [
       {
         slug: 'agrochemical-brands',
         title: 'Agrochemical Brands',
-        body: 'Develop custom formulations that match your brand positioning, target crops and product strategy.',
-        points: ['Custom formulations', 'Brand labeling', 'Product development', 'Private label'],
+        body: 'Develop custom formulations that match your brand positioning, target crops, pest spectrum and product strategy — from a single flagship SKU to a full product portfolio.',
+        points: ['Custom formulations from concept', 'Brand labeling & GHS pictograms', 'Product development & R&D iteration', 'Private label on proven platforms', 'Registration data packages for target markets'],
         cta: 'Explore Custom Formulation',
         href: '/product-development',
       },
       {
         slug: 'distributors-importers',
         title: 'Distributors & Importers',
-        body: 'Expand your product portfolio with customized agrochemical formulations designed for your market.',
-        points: ['Formulation customization', 'Multiple formulations', 'OEM production'],
+        body: 'Expand your product portfolio with customized agrochemical formulations designed for your market — whether supplying commercial farmers in LATAM or government tenders in West Africa.',
+        points: ['Formulation customization per market', 'Multiple formulations under one contract', 'OEM production to your specification', 'Country-specific labeling & documentation', 'Seasonal scheduling for peak demand'],
         cta: 'View OEM Solutions',
         href: '/solutions/custom-formulation',
       },
       {
         slug: 'government-procurement',
         title: 'Government Procurement Agencies',
-        body: 'Source quality-assured crop protection products with full regulatory documentation and batch traceability.',
-        points: ['Regulatory compliance', 'Competitive pricing', 'Bulk supply'],
+        body: 'Source quality-assured crop protection products with full regulatory documentation, batch traceability and ICAMA compliance — from national input subsidy programs in West and East Africa to regional tender orders in South and Southeast Asia.',
+        points: ['Regulatory compliance & ICAMA registration', 'Competitive tender pricing', 'Bulk supply with locked specifications', 'Full batch traceability (ERP-linked)', 'Phytosanitary & export documentation per country'],
         cta: 'Learn More',
         href: '/solutions/government-procurement',
       },
       {
         slug: 'retail-private-label',
         title: 'Retailers & Private Label Buyers',
-        body: 'Create differentiated agrochemical product lines instead of competing on the same standard products.',
-        points: ['Private label', 'Custom packaging', 'Retail-ready products'],
+        body: 'Create differentiated agrochemical product lines instead of competing on the same standard products — your brand, your label, your shelf positioning, with retail-ready packaging and regulatory compliance.',
+        points: ['Private label on validated formulations', 'Custom packaging & retail-ready sizes', 'Regulatory text per destination market', 'Batch coding & expiry management', 'Low pilot MOQ for market testing'],
         cta: 'View Solutions',
         href: '/solutions/private-label-agrochemical',
       },
@@ -652,37 +660,37 @@ export const serve: Localized<ServeContent> = {
   es: {
     kicker: 'A quién servimos',
     title: 'Hecho para empresas que crean sus propios productos agroquímicos',
-    sub: 'Ya sea que estés lanzando una nueva marca de agroquímicos o ampliando una línea de protección de cultivos existente, nuestras soluciones de fabricación se adaptan a tu negocio.',
+    sub: 'Ya sea que estés lanzando una nueva marca de agroquímicos, ampliando a una nueva categoría de protección de cultivos o abasteciendo un programa de subsidios gubernamental, nuestras soluciones de fabricación se adaptan a tu modelo de negocio y mercado de destino.',
     segments: [
       {
         slug: 'agrochemical-brands',
         title: 'Marcas de agroquímicos',
-        body: 'Desarrolla formulaciones personalizadas que coincidan con el posicionamiento de tu marca, tus cultivos objetivo y tu estrategia de producto.',
-        points: ['Formulaciones personalizadas', 'Etiquetado de marca', 'Desarrollo de producto', 'Marca privada'],
+        body: 'Desarrolla formulaciones personalizadas que coincidan con el posicionamiento de tu marca, tus cultivos objetivo, espectro de plagas y estrategia de producto — desde un SKU insignia hasta un portafolio completo.',
+        points: ['Formulaciones personalizadas desde el concepto', 'Etiquetado de marca y pictogramas GHS', 'Desarrollo de producto e iteración I+D', 'Marca privada en plataformas probadas', 'Paquetes de datos de registro por mercado'],
         cta: 'Explorar formulación personalizada',
         href: '/product-development',
       },
       {
         slug: 'distributors-importers',
         title: 'Distribuidores e importadores',
-        body: 'Amplía tu cartera de productos con formulaciones agroquímicas personalizadas para tu mercado.',
-        points: ['Personalización de formulación', 'Varias formulaciones', 'Producción OEM'],
+        body: 'Amplía tu cartera de productos con formulaciones agroquímicas personalizadas para tu mercado — ya sea suministrando a agricultores comerciales en LATAM o licitaciones gubernamentales en África Occidental.',
+        points: ['Personalización de formulación por mercado', 'Varias formulaciones bajo un contrato', 'Producción OEM según tu especificación', 'Etiquetado y documentación por país', 'Programación estacional para demanda puntual'],
         cta: 'Ver soluciones OEM',
         href: '/solutions/custom-formulation',
       },
       {
         slug: 'government-procurement',
         title: 'Agencias de compras gubernamentales',
-        body: 'Adquiere productos de protección de cultivos con garantía de calidad, documentación regulatoria completa y trazabilidad por lote.',
-        points: ['Cumplimiento regulatorio', 'Precios competitivos', 'Suministro por volumen'],
+        body: 'Adquiere productos de protección de cultivos con garantía de calidad, documentación regulatoria completa, trazabilidad por lote y cumplimiento ICAMA — desde programas nacionales de subsidios en África Occidental y Oriental hasta licitaciones regionales en el Sur y Sudeste Asiático.',
+        points: ['Cumplimiento regulatorio y registro ICAMA', 'Precios competitivos para licitaciones', 'Suministro por volumen con especificaciones fijadas', 'Trazabilidad completa (vinculada por ERP)', 'Documentación fitosanitaria y de exportación por país'],
         cta: 'Saber más',
         href: '/solutions/government-procurement',
       },
       {
         slug: 'retail-private-label',
         title: 'Minoristas y compradores de marca privada',
-        body: 'Crea líneas de productos agroquímicos diferenciadas en lugar de competir con los mismos productos estándar.',
-        points: ['Marca privada', 'Embalaje personalizado', 'Productos listos para retail'],
+        body: 'Crea líneas de productos agroquímicos diferenciadas en lugar de competir con los mismos productos estándar — tu marca, tu etiqueta, tu posicionamiento en anaquel, con embalaje listo para retail y cumplimiento regulatorio.',
+        points: ['Marca privada en formulaciones validadas', 'Embalaje personalizado y tamaños retail', 'Texto regulatorio según mercado de destino', 'Codificación de lote y gestión de caducidad', 'MOQ piloto bajo para testeo de mercado'],
         cta: 'Ver soluciones',
         href: '/solutions/private-label-agrochemical',
       },
@@ -1486,7 +1494,7 @@ export const works: Localized<WorksContent> = {
 
 /* ─────────────────────────── home: product categories ─────────────────────────── */
 
-export interface BoardCategory {
+export interface FormulationCategory {
   id: string
   label: string
   desc: string
@@ -1494,15 +1502,15 @@ export interface BoardCategory {
   href: string
 }
 
-export interface BoardCategoriesContent {
+export interface FormulationCategoriesContent {
   kicker: string
   title: string
   sub: string
   viewLabel: string
-  items: BoardCategory[]
+  items: FormulationCategory[]
 }
 
-export const boardCategories: Localized<BoardCategoriesContent> = {
+export const formulationCategories: Localized<FormulationCategoriesContent> = {
   en: {
     kicker: 'Our Products',
     title: 'Crop Protection Solutions',
@@ -2003,6 +2011,14 @@ export const homeFaq: Localized<FaqContent> = {
         q: 'Can buyers audit the factory or use third-party inspection?',
         a: 'Yes. We welcome buyer audits and work regularly with SGS, BV, Intertek and CMA. Third-party inspection can be arranged at any production stage — incoming material, in-process or final inspection — and inspection reports are provided on request.',
       },
+      {
+        q: 'Which countries and regions does Agrospear export to?',
+        a: `We supply crop protection products to ${FACTS.exportCountries}+ countries across West and East Africa (Nigeria, Ghana, Guinea, Angola, Kenya, Tanzania), South and Southeast Asia (Pakistan, Bangladesh, Cambodia, Myanmar), the Middle East, Latin America (Brazil, Mexico, Colombia, Argentina) and the EU. Country-specific registration support, multilingual labeling and local documentation packages are available for each market.`,
+      },
+      {
+        q: 'What formulation types and product categories does Agrospear specialize in?',
+        a: `We manufacture across eight formulation types — SC (suspension concentrate), EC (emulsifiable concentrate), WP (wettable powder), WDG (water dispersible granule), SL (soluble liquid), ME (micro-emulsion), CS (capsule suspension) and FS (flowable seed treatment) — covering four product categories: herbicides, insecticides, fungicides and plant growth regulators, plus seed treatment formulations. Each formulation type has dedicated production lines and QC protocols in our Qingdao plant.`,
+      },
     ],
   },
   es: {
@@ -2017,6 +2033,14 @@ export const homeFaq: Localized<FaqContent> = {
       {
         q: '¿Pueden los compradores auditar la fábrica o usar inspección de terceros?',
         a: 'Sí. Aceptamos auditorías de compradores y trabajamos regularmente con SGS, BV, Intertek y CMA. La inspección de terceros puede organizarse en cualquier etapa de producción — material entrante, en proceso o inspección final — y los informes de inspección se proporcionan a petición.',
+      },
+      {
+        q: '¿A qué países y regiones exporta Agrospear?',
+        a: `Suministramos productos de protección de cultivos a ${FACTS.exportCountries}+ países en África Occidental y Oriental (Nigeria, Ghana, Guinea, Angola, Kenia, Tanzania), Sur y Sudeste Asiático (Pakistán, Bangladés, Camboya, Myanmar), Oriente Medio, América Latina (Brasil, México, Colombia, Argentina) y la UE. Disponemos de soporte de registro específico por país, etiquetado multilingüe y paquetes documentales locales para cada mercado.`,
+      },
+      {
+        q: '¿Qué tipos de formulación y categorías de producto especializa Agrospear?',
+        a: 'Fabricamos en ocho tipos de formulación — SC (concentrado en suspensión), EC (concentrado emulsionable), WP (polvo mojable), WDG (gránulos dispersables), SL (líquido soluble), ME (microemulsión), CS (suspensión encapsulada) y FS (tratamiento de semillas fluido) — cubriendo cuatro categorías de producto: herbicidas, insecticidas, fungicidas y reguladores de crecimiento, más formulaciones de tratamiento de semillas. Cada tipo de formulación tiene líneas de producción y protocolos de QC dedicados en nuestra planta de Qingdao.',
       },
     ],
   },
@@ -2034,13 +2058,13 @@ export interface CtaContent {
 export const cta: Localized<CtaContent> = {
   en: {
     title: 'Ready to Start Your Agrochemical Project?',
-    body: "Whether you already have a complete product specification or are still developing your formulation concept, our team can help you evaluate the next step. Tell us what you want to produce — we'll review your requirements and discuss the most practical path from concept to production.",
+    body: `Whether you have a finished specification ready for production or are still exploring formulation options, our team will review your requirements and outline the most practical path forward — from sample development through batch production to export delivery. Share your target crop, pest spectrum, formulation type, volume estimate and destination market, and we'll return a manufacturability assessment and quotation within one business day.`,
     button: 'Start Your Agrochemical Project',
     note: `Reply within ${FACTS.ndaWindow} · NDA on request before file exchange · info@agrospear.com · +86 13395321653`,
   },
   es: {
     title: '¿Listo para iniciar tu proyecto de agroquímicos?',
-    body: 'Ya sea que tengas una especificación de producto completa o estés todavía desarrollando tu concepto de formulación, nuestro equipo puede ayudarte a evaluar el siguiente paso. Cuéntanos qué quieres producir — revisaremos tus requisitos y plantearemos la vía más práctica del concepto a la producción.',
+    body: 'Ya sea que tengas una especificación terminada lista para producir o estés aún explorando opciones de formulación, nuestro equipo revisará tus requisitos y planteará la vía más práctica — desde el desarrollo de muestras hasta la producción en serie y la entrega de exportación. Comparte tu cultivo objetivo, espectro de plagas, tipo de formulación, estimación de volumen y mercado de destino, y te devolveremos una evaluación de fabricabilidad y un presupuesto en un día laborable.',
     button: 'Inicia tu proyecto de agroquímicos',
     note: `Respuesta en ${FACTS.ndaWindow} · NDA disponible antes del intercambio de archivos · info@agrospear.com · +86 13395321653`,
   },
@@ -2334,7 +2358,7 @@ export interface CustomizerContent {
   mockupLabel: string
   mockupBrand: string
   stepLabel: string
-  boardLabel: string
+  productLabel: string
   cta: string
 }
 
@@ -2354,7 +2378,7 @@ export const customizer: Localized<CustomizerContent> = {
     mockupLabel: 'Live label preview',
     mockupBrand: 'Glyphosate 480g/L SL',
     stepLabel: 'Step',
-    boardLabel: 'YOUR BRAND',
+    productLabel: 'YOUR BRAND',
     cta: 'Create Your Design',
   },
   es: {
@@ -2372,7 +2396,7 @@ export const customizer: Localized<CustomizerContent> = {
     mockupLabel: 'Vista previa de etiqueta en vivo',
     mockupBrand: 'Glifosato 480g/L SL',
     stepLabel: 'Paso',
-    boardLabel: 'TU MARCA',
+    productLabel: 'TU MARCA',
     cta: 'Crea tu diseño',
   },
 }

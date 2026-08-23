@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Mail, MapPin, MessageCircle, Phone, Youtube } from 'lucide-react'
+﻿import { Facebook, Linkedin, Mail, MapPin, MessageCircle, Phone, Youtube } from 'lucide-react'
 import { Suspense, lazy } from 'react'
 import { getRouteApi } from '@tanstack/react-router'
 import {  useTranslation  } from '@/features/i18n/provider'
@@ -27,7 +27,7 @@ export function Footer() {
         {/* Brand */}
         <div className="sm:col-span-2 lg:col-span-1">
           <Logo />
-          <p className="mt-3.5 max-w-[24em] text-[13.5px] leading-relaxed text-fg-3">{t('sup.footer.tagline')}</p>
+          <p className="mt-3.5 max-w-[24em] text-[13.5px] leading-relaxed text-fg-3">{t('agro.footer.tagline')}</p>
           <div className="mt-5 flex flex-col gap-2 text-[13.5px] text-fg-2">
             <a href={`mailto:${BRAND_CONTACT.email}`} className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
               <Mail size={15} className="text-primary" /> {BRAND_CONTACT.email}
@@ -39,19 +39,19 @@ export function Footer() {
               <MapPin size={15} className="mt-0.5 shrink-0 text-primary" /> {FACTS.contact.address}
             </p>
             <a href={fl('/contact')} className="inline-flex items-center gap-2 transition-colors hover:text-foreground">
-              <MessageCircle size={15} className="text-primary" /> {t('sup.footer.inquiryForm')}
+              <MessageCircle size={15} className="text-primary" /> {t('agro.footer.inquiryForm')}
             </a>
           </div>
           <div className="mt-5">
-            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-fg-3">{t('sup.footer.followUs')}</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-fg-3">{t('agro.footer.followUs')}</p>
             <div className="mt-2.5 flex gap-3">
-              <a href={FACTS.social.facebook} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('sup.footer.facebook')}>
+              <a href={FACTS.social.facebook} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('agro.footer.facebook')}>
                 <Facebook size={15} />
               </a>
-              <a href={FACTS.social.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('sup.footer.linkedin')}>
+              <a href={FACTS.social.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('agro.footer.linkedin')}>
                 <Linkedin size={15} />
               </a>
-              <a href={FACTS.social.youtube} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('sup.footer.youtube')}>
+              <a href={FACTS.social.youtube} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('agro.footer.youtube')}>
                 <Youtube size={15} />
               </a>
             </div>
@@ -60,59 +60,58 @@ export function Footer() {
 
         <nav className="contents" aria-label={t('common.footerNav')}>
         {/* Products */}
-        <FooterCol title={t('sup.footer.colProducts')}>
-          <a className="foot-link" href={fl('/products')}>{t('sup.nav.productsDropdown.all')}</a>
-          <a className="foot-link" href={fl('/customizer')}>{t('sup.nav.productsDropdown.customizer')}</a>
-          <a className="foot-link" href={fl('/sup-construction-comparison')}>{t('sup.nav.productsServicesDropdown.constructionComparison')}</a>
-          <a className="foot-link" href={fl('/product-development')}>{t('sup.footer.productDevelopment')}</a>
-          <a className="foot-link" href={fl('/oem-odm-private-label-comparison')}>{t('sup.nav.productsServicesDropdown.comparison')}</a>
-          <a className="foot-link" href={fl('/new-brand-trial-order')}>{t('sup.nav.oemDropdown.newBrandTrial')}</a>
+        <FooterCol title={t('agro.footer.colProducts')}>
+          <a className="foot-link" href={fl('/products')}>{t('agro.nav.productsDropdown.all')}</a>
+          <a className="foot-link" href={fl('/customizer')}>{t('agro.nav.productsDropdown.customizer')}</a>
+          <a className="foot-link" href={fl('/formulation-type-comparison')}>{t('agro.nav.productsServicesDropdown.constructionComparison')}</a>
+          <a className="foot-link" href={fl('/product-development')}>{t('agro.footer.productDevelopment')}</a>
+          <a className="foot-link" href={fl('/oem-odm-private-label-comparison')}>{t('agro.nav.productsServicesDropdown.comparison')}</a>
+          <a className="foot-link" href={fl('/new-brand-trial-order')}>{t('agro.nav.oemDropdown.newBrandTrial')}</a>
         </FooterCol>
 
         {/* Manufacturing & Quality */}
-        <FooterCol title={t('sup.footer.colManufacturing')}>
-          <a className="foot-link" href={fl('/factory')}>{t('sup.footer.factory')}</a>
-          <a className="foot-link" href={fl('/factory/capacity')}>{t('sup.footer.factoryCapacity')}</a>
-          <a className="foot-link" href={fl('/quality')}>{t('sup.nav.manufacturingDropdown.quality')}</a>
-          <a className="foot-link" href={fl('/proof-center')}>{t('sup.nav.manufacturingDropdown.proofCenter')}</a>
-          <a className="foot-link" href={fl('/sup-compliance-by-market')}>{t('sup.nav.proofQualityDropdown.complianceByMarket')}</a>
-          <a className="foot-link" href={fl('/factory-audit-checklist')}>{t('sup.nav.proofQualityDropdown.auditChecklist')}</a>
-          <a className="foot-link" href={fl('/warranty')}>{t('sup.nav.manufacturingDropdown.warranty')}</a>
-          <a className="foot-link" href={fl('/technology')}>{t('sup.nav.manufacturingDropdown.technology')}</a>
+        <FooterCol title={t('agro.footer.colManufacturing')}>
+          <a className="foot-link" href={fl('/factory')}>{t('agro.footer.factory')}</a>
+          <a className="foot-link" href={fl('/factory/capacity')}>{t('agro.footer.factoryCapacity')}</a>
+          <a className="foot-link" href={fl('/quality')}>{t('agro.nav.manufacturingDropdown.quality')}</a>
+          <a className="foot-link" href={fl('/proof-center')}>{t('agro.nav.manufacturingDropdown.proofCenter')}</a>
+          <a className="foot-link" href={fl('/agrochemical-regulation-by-market')}>{t('agro.nav.proofQualityDropdown.complianceByMarket')}</a>
+          <a className="foot-link" href={fl('/factory-audit-checklist')}>{t('agro.nav.proofQualityDropdown.auditChecklist')}</a>
+          <a className="foot-link" href={fl('/warranty')}>{t('agro.nav.manufacturingDropdown.warranty')}</a>
+          <a className="foot-link" href={fl('/technology')}>{t('agro.nav.manufacturingDropdown.technology')}</a>
         </FooterCol>
 
         {/* Solutions */}
-        <FooterCol title={t('sup.footer.colSolutions')}>
-          <a className="foot-link" href={fl('/solutions/private-label-sup')}>{t('sup.footer.privateLabel')}</a>
-          <a className="foot-link" href={fl('/solutions/resort-sup')}>{t('sup.footer.resortSolutions')}</a>
-          <a className="foot-link" href={fl('/solutions/club-sup')}>{t('sup.footer.clubSup')}</a>
-          <a className="foot-link" href={fl('/solutions/school-sup')}>{t('sup.footer.schoolSup')}</a>
-          <a className="foot-link" href={fl('/solutions/distributors')}>{t('sup.nav.industriesDropdown.distributors')}</a>
-          <a className="foot-link" href={fl('/solutions/rental-operators')}>{t('sup.nav.industriesDropdown.rental')}</a>
-          <a className="foot-link" href={fl('/b2b-solutions-matrix')}>{t('sup.footer.b2bMatrix')}</a>
-          <a className="foot-link" href={fl('/oem/sup-oem-north-america')}>{t('sup.footer.marketsNorthAmerica')}</a>
-          <a className="foot-link" href={fl('/oem/sup-oem-europe')}>{t('sup.footer.marketsEurope')}</a>
+        <FooterCol title={t('agro.footer.colSolutions')}>
+          <a className="foot-link" href={fl('/solutions/distributors')}>{t('agro.footer.privateLabel')}</a>
+          <a className="foot-link" href={fl('/solutions/co-branding')}>{t('agro.footer.coBrand')}</a>
+          <a className="foot-link" href={fl('/solutions/distributor-partners')}>{t('agro.footer.distributorPartners')}</a>
+          <a className="foot-link" href={fl('/solutions/distributors')}>{t('agro.footer.bulkBuyers')}</a>
+          <a className="foot-link" href={fl('/solutions/distributors')}>{t('agro.nav.industriesDropdown.distributors')}</a>
+          <a className="foot-link" href={fl('/b2b-solutions-matrix')}>{t('agro.footer.b2bMatrix')}</a>
+          <a className="foot-link" href={fl('/oem/agrochemical-oem-africa')}>{t('agro.footer.marketsAfrica')}</a>
+          <a className="foot-link" href={fl('/oem/agrochemical-oem-southeast-asia')}>{t('agro.footer.marketsSoutheastAsia')}</a>
         </FooterCol>
 
         {/* Resources */}
-        <FooterCol title={t('sup.footer.colResources')}>
-          <a className="foot-link" href={fl('/knowledge')}>{t('sup.nav.guides')}</a>
-          <a className="foot-link" href={fl('/faq')}>{t('sup.footer.faq')}</a>
-          <a className="foot-link" href={fl('/oem-onboarding-guide')}>{t('sup.nav.resourcesDropdown.onboarding')}</a>
-          <a className="foot-link" href={fl('/oem-moq-guide')}>{t('sup.nav.resourcesDropdown.moqGuide')}</a>
-          <a className="foot-link" href={fl('/what-is-sup')}>{t('sup.footer.whatIsSup')}</a>
-          <a className="foot-link" href={fl('/size-guide')}>{t('sup.nav.resourcesDropdown.sizeGuide')}</a>
-          <a className="foot-link" href={fl('/news')}>{t('sup.footer.news')}</a>
+        <FooterCol title={t('agro.footer.colResources')}>
+          <a className="foot-link" href={fl('/knowledge')}>{t('agro.nav.guides')}</a>
+          <a className="foot-link" href={fl('/faq')}>{t('agro.footer.faq')}</a>
+          <a className="foot-link" href={fl('/oem-onboarding-guide')}>{t('agro.nav.resourcesDropdown.onboarding')}</a>
+          <a className="foot-link" href={fl('/oem-moq-guide')}>{t('agro.nav.resourcesDropdown.moqGuide')}</a>
+          <a className="foot-link" href={fl('/what-is-agrochemical-oem')}>{t('agro.footer.whatIsAgrochemicalOem')}</a>
+          <a className="foot-link" href={fl('/oem-moq-guide')}>{t('agro.nav.resourcesDropdown.moqAndPricing')}</a>
+          <a className="foot-link" href={fl('/news')}>{t('agro.footer.news')}</a>
         </FooterCol>
 
         {/* Company */}
-        <FooterCol title={t('sup.footer.colCompany')}>
-          <a className="foot-link" href={fl('/about/identity')}>{t('sup.footer.aboutIdentity')}</a>
-          <a className="foot-link" href={fl('/projects')}>{t('sup.nav.projects')}</a>
-          <a className="foot-link" href={fl('/partners')}>{t('sup.footer.partners')}</a>
-          <a className="foot-link" href={fl('/contact')}>{t('sup.footer.contact')}</a>
-          <a className="foot-link" href={fl('/terms')}>{t('sup.footer.terms')}</a>
-          <a className="foot-link" href={fl('/privacy')}>{t('sup.footer.privacy')}</a>
+        <FooterCol title={t('agro.footer.colCompany')}>
+          <a className="foot-link" href={fl('/about/identity')}>{t('agro.footer.aboutIdentity')}</a>
+          <a className="foot-link" href={fl('/projects')}>{t('agro.nav.projects')}</a>
+          <a className="foot-link" href={fl('/partners')}>{t('agro.footer.partners')}</a>
+          <a className="foot-link" href={fl('/contact')}>{t('agro.footer.contact')}</a>
+          <a className="foot-link" href={fl('/terms')}>{t('agro.footer.terms')}</a>
+          <a className="foot-link" href={fl('/privacy')}>{t('agro.footer.privacy')}</a>
         </FooterCol>
         </nav>
       </div>
@@ -120,10 +119,10 @@ export function Footer() {
       <div className="mx-auto mt-10 flex max-w-7xl flex-col items-start justify-between gap-4 border-t border-border pt-5 sm:flex-row sm:items-center">
         <div>
           <p className="text-[13px] text-fg-3">
-            &copy; {FOOTER_YEAR} {t('common.appName')}. {t('sup.footer.rights')}
+            &copy; {FOOTER_YEAR} {t('common.appName')}. {t('agro.footer.rights')}
           </p>
-          <p className="mt-1 text-[12.5px] text-fg-3/80">{t('sup.footer.owner')}</p>
-          <p className="mt-1 max-w-xl text-[12.5px] text-fg-3/80">{t('sup.footer.compliance')}</p>
+          <p className="mt-1 text-[12.5px] text-fg-3/80">{t('agro.footer.owner')}</p>
+          <p className="mt-1 max-w-xl text-[12.5px] text-fg-3/80">{t('agro.footer.compliance')}</p>
         </div>
         <div className="flex items-center gap-1">
           <ThemeToggle theme={theme} />

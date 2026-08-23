@@ -9,7 +9,7 @@ import { MarketingShell } from './shell'
 /**
  * Shared route factory for the Solutions system pages. The canonical URL of a
  * page comes from solutionPath(slug) — the flagship agrochemical page lives at
- * /custom-sup-development (keyword-first URL), the rest under /solutions/*.
+ * /custom-sup-development (legacy keyword-first URL, 301→/solutions/custom-development), the rest under /solutions/*.
  */
 export function solutionRoute(slug: string) {
   const path = solutionPath(slug)

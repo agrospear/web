@@ -204,7 +204,7 @@ const HREF_REMAP: Record<string, string> = {
   '/guides/paddling-techniques': '/knowledge',
   '/guides/sup-for-touring': '/knowledge',
   '/guides/sup-maintenance': '/knowledge',
-  '/guides/sup-size-guide': '/research/formulation-stability',
+  '/guides/sup-size-guide': '/knowledge',
   '/use-cases/search-and-rescue': `${BRAND_PARENT_URL}/search-and-rescue`,
   // academy skill-path topics without a ported page
   '/sup-basics': '',
@@ -1293,7 +1293,7 @@ function PortedFleetGuide({ c }: { c: R }) {
   const steps = (Array.isArray(c.tiers) ? c.tiers : []).map((t) => ({
     step: '',
     title: str((t as R).label) || '',
-    desc: [str((t as R).boards) && `${str((t as R).boards)} tons`, str((t as R).note)].filter(Boolean).join(' · '),
+    desc: [str((t as R).volume) && `${str((t as R).volume)}`, str((t as R).note)].filter(Boolean).join(' · '),
   }))
   return <StepsWidget c={{ title: c.title, subtitle: c.subtitle, steps }} />
 }
@@ -1720,13 +1720,13 @@ function StatsBand() {
   const { regionCount = 6, cases = [] } = useAferIndex()
   const studyLabel = t('content.cases.published')
   const regionLabel = t('content.cases.regionsServed')
-  const widthLabel = t('content.cases.boardWidth')
+  const widthLabel = t('content.cases.formulationTypes')
   const testedLabel = t('content.cases.factoryTested')
   const intro = t('content.cases.intro', { siteName: SITE_NAME })
   const stats = [
     { value: String(cases.length), label: studyLabel },
     { value: String(regionCount), label: regionLabel },
-    { value: CASE_STUDY_STATS.boardWidth, label: widthLabel },
+    { value: CASE_STUDY_STATS.formulationTypes, label: widthLabel },
     { value: CASE_STUDY_STATS.factoryTested, label: testedLabel },
   ]
   return (

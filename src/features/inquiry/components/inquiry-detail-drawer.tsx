@@ -95,7 +95,7 @@ export function InquiryDetailDrawer({ row, open, onOpenChange }: Props) {
           <Field label={t('inquiry.quantity')} value={opt('quantityOptions', row.quantity)} />
           <Field label={t('inquiry.annualVolume')} value={opt('annualVolumeOptions', row.annualVolume)} />
           <Field label={t('inquiry.timeline')} value={opt('timelineOptions', row.timeline)} />
-          <Field label={t('inquiry.boardPlatform')} value={row.boardPlatform || '—'} />
+          <Field label={t('inquiry.formulationPlatform')} value={row.boardPlatform || '—'} />
           <Field label={t('inquiry.construction')} value={opt('constructionOptions', row.construction)} />
           <Field label={t('inquiry.customization')} value={commaList('customizationOptions', row.customization)} />
           <Field label={t('inquiry.packaging')} value={opt('packagingOptions', row.packaging)} />

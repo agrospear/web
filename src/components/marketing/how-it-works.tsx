@@ -1,4 +1,4 @@
-import { ArrowRight, PenTool, FileText } from 'lucide-react'
+﻿import { ArrowRight, PenTool, FileText } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, works } from '@/product/content'
@@ -13,18 +13,18 @@ export function HowItWorks() {
   const fl = useLocalizePath()
 
   const deepLinks = [
-    { label: t('sup.nav.manufacturingDropdown.quality'), href: '/quality' },
-    { label: t('sup.nav.manufacturingDropdown.qualityInspection'), href: '/factory/quality-inspection' },
-    { label: t('sup.nav.manufacturingDropdown.changeControl'), href: '/factory/quality-change-control' },
-    { label: t('sup.nav.manufacturingDropdown.nonConformingControl'), href: '/factory/non-conforming-control' },
-    { label: t('sup.footer.factoryCapacity'), href: '/factory/capacity' },
-    { label: t('sup.nav.oemDropdown.trust'), href: '/oem-trust-assurance' },
-    { label: t('sup.nav.caseStudiesDropdown.projects'), href: '/projects' },
+    { label: t('agro.nav.manufacturingDropdown.quality'), href: '/quality' },
+    { label: t('agro.nav.manufacturingDropdown.qualityInspection'), href: '/factory/quality-inspection' },
+    { label: t('agro.nav.manufacturingDropdown.changeControl'), href: '/factory/quality-change-control' },
+    { label: t('agro.nav.manufacturingDropdown.nonConformingControl'), href: '/factory/non-conforming-control' },
+    { label: t('agro.footer.factoryCapacity'), href: '/factory/capacity' },
+    { label: t('agro.nav.oemDropdown.trust'), href: '/oem-trust-assurance' },
+    { label: t('agro.nav.caseStudiesDropdown.projects'), href: '/projects' },
   ]
 
   const pdfLinks = [
-    { label: t('sup.nav.oemDropdown.trustPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf` },
-    { label: t('sup.nav.oemDropdown.moqPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/flexible-branding-and-moq-guide.pdf` },
+    { label: t('agro.nav.oemDropdown.trustPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf` },
+    { label: t('agro.nav.oemDropdown.moqPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/flexible-branding-and-moq-guide.pdf` },
   ]
 
   return (

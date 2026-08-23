@@ -103,10 +103,10 @@ const handler = {
 async function warmEdgeCache(env: Cloudflare.Env, ctx: ExecutionContext): Promise<void> {
   const paths = [
     '/', '/es',
-    '/solutions', '/solutions/custom-sup', '/solutions/private-label-sup', '/solutions/resort-sup', '/solutions/club-sup', '/solutions/school-sup',
+    '/solutions', '/solutions/distributors', '/solutions/co-branding', '/solutions/distributor-partners', '/solutions/custom-development',
     '/factory', '/quality', '/oem-odm-manufacturer',
     '/oem-moq-guide', '/oem-trust-assurance', '/proof-center',
-    '/sup-oem-moq-lead-time',
+    '/oem/agrochemical-oem-africa', '/oem/agrochemical-oem-southeast-asia', '/oem/agrochemical-oem-latin-america', '/oem/agrochemical-oem-west-asia', '/oem/agrochemical-oem-central-asia',
   ]
   try {
     const { getPublicPaths } = await import('@/features/content/loader')

@@ -1,12 +1,12 @@
 import { useTranslation } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
-import { pick, boardCategories } from '@/product/content'
+import { pick, formulationCategories } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 
-export function BoardCategories() {
+export function FormulationCategories() {
   const { locale } = useTranslation()
-  const c = pick(boardCategories, locale)
+  const c = pick(formulationCategories, locale)
   const fl = useLocalizePath()
 
   return (

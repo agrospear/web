@@ -1,0 +1,45 @@
+meta:
+  title: 'Seed Treatment OEM Manufacturing | Film-Coat & Slurry Formulations — Agrospear'
+  description: 'Custom seed treatment manufacturing. FS, CS, ME formulations for film-coat and slurry treatment. Insecticide-fungicide combinations, polymer film-formers, colorants. Thiamethoxam, fludioxonil, metalaxyl. MOQ from 1 t.'
+  keywords: [seed treatment OEM, seed treatment manufacturer, film coat formulation, slurry seed treatment, thiamethoxam seed treatment, fludioxonil supplier, metalaxyl seed treatment, seed coating polymer, agrochemical OEM]
+label: 'Product Series'
+headline: 'Seed Treatment Formulations'
+subtitle: 'Film-coat and slurry seed treatment systems combining insecticide and fungicide protection with polymer film-former technology'
+seo:
+  headline: 'Seed Treatment OEM & ODM Manufacturing — Agrospear Qingdao'
+  description: 'Contract seed treatment manufacturing: FS, CS, ME formulations with polymer film-formers and colorant systems. Insecticide-fungicide combos. GMP/ISO certified, cereals to vegetables.'
+  datePublished: '2025-01-15'
+  dateModified: '2026-08-23'
+faqs:
+  - question: 'What is the difference between film-coat and slurry seed treatment?'
+    answer: 'Film-coat treatment applies a thin, uniform polymer-based layer around each seed, typically at 2–8 mL per kg seed, producing a dry, free-flowing finished product ideal for precision planting. Slurry treatment uses higher liquid volumes (10–30 mL per kg seed) and is common for cereals where high-throughput treatment lines are used. Agrospear formulates for both methods with matched viscosity and drying profiles.'
+  - question: 'Can insecticide and fungicide AIs be combined in a single seed treatment?'
+    answer: "Yes. Insecticide-fungicide seed treatment combinations are the industry standard for cereals and many vegetable crops. Common combinations include thiamethoxam + fludioxonil + metalaxyl-M for comprehensive seedling protection against soil insects, seed-borne fungi, and damping-off Oomycetes. Agrospear's CS and ZC formulation platforms maintain stability of each AI within the combined product."
+  - question: 'What polymer and colorant systems are available?'
+    answer: 'We offer a range of polymer film-former systems — PVA-based, PEG-based, and proprietary acrylic copolymers — selected for drying speed, dust-off reduction, and seed-flow characteristics. Colorant systems use pigment dispersions compliant with EU and North American seed-labeling regulations, available in standard and custom colors for brand differentiation.'
+  - question: 'Which crops are covered by Agrospear seed treatment formulations?'
+    answer: 'We develop seed treatment products for wheat, barley, maize, rice, soybean, cotton, sunflower, and a broad range of vegetable seeds including tomato, pepper, onion, and brassicas. Each crop requires specific dose-rate optimization and film-coat adjuvant tuning to account for seed size, surface texture, and germination sensitivity.'
+body: |
+  <h2>Advanced Seed Treatment Manufacturing for Early-Season Crop Protection</h2>
+  <p>Seed treatment delivers crop protection at the most vulnerable stage of plant development — germination and emergence. Agrospear's seed treatment portfolio includes Flowable Concentrates for Seed Treatment (FS), Capsule Suspensions (CS), and Micro-Emulsions (ME), each formulated for precise dose delivery onto the seed surface. Core active ingredients include thiamethoxam (systemic insecticide, Group 4A), imidacloprid (systemic insecticide, Group 4A), fludioxonil (contact fungicide, Group 12), metalaxyl-M (systemic fungicide, Group 4), and tebuconazole (systemic fungicide, Group 3). These AIs are available as standalone products or in insecticide-fungicide combinations that protect seedlings from both soil-dwelling pests and seed-borne or soil-borne pathogens in a single application.</p>
+
+  <h2>Polymer Film-Former and Colorant Systems</h2>
+  <p>Modern seed treatment requires more than active ingredients: the delivery system — polymer film-formers, colorants, and processing aids — determines product performance in the treater and in the planter. Agrospear's polymer platform includes fast-drying acrylic copolymers for high-throughput cereal treatment lines, flexible PVA-based film-formers for irregular-surface vegetable seeds, and low-viscosity PEG systems for sensitive germplasm. Our pigment-dispersion colorants provide visual treatment verification, brand differentiation, and regulatory compliance for seed-lot identification. All polymer and colorant components undergo seed-safety germination-index testing before formulation approval.</p>
+
+  <h2>Insecticide-Fungicide Combination Platforms</h2>
+  <p>Single-AI seed treatments are increasingly insufficient against complex pest-pathogen complexes. Agrospear's CS and ZC formulation platforms enable stable co-suspension of insecticide and fungicide AIs with different physicochemical profiles — for example, a hydrophilic neonicotinoid alongside a hydrophobic DMI fungicide within a single micro-encapsulated or suspended matrix. These combinations reduce the number of treatment passes required, improve uniformity of AI distribution on the seed surface, and lower total dust-off values below 0.5 g/100 kg, meeting the strictest European dust-off standards for treated-seed handling safety.</p>
+
+  <h2>Crop-Specific Dose Optimization and Germination Safety</h2>
+  <p>Seed treatment phytotoxicity risk is inversely proportional to seed size: small-seeded vegetables and flowers are especially vulnerable to over-dosing or poor AI distribution. Agrospear's R&D laboratory conducts germination-index testing on every formulation across a range of dose rates, seed lots, and storage durations, confirming that treatment does not impair germination speed, seedling vigor, or emergence percentage. For cereals, we validate performance under cold-test conditions that simulate early-spring planting stress. This rigorous safety profiling ensures your branded seed treatment products deliver protection without compromising stand establishment.</p>
+
+  <div class="not-prose my-10">
+    <div class="rounded-2xl border border-violet-200 bg-violet-50 p-6 text-center dark:border-violet-900 dark:bg-violet-950">
+      <h3 class="font-display text-lg font-bold">Launch your seed treatment brand with a proven manufacturing partner</h3>
+      <p class="mt-2 text-sm text-fg-2">From formulation selection to container-scale production — tell us your target seed species, treatment type and market, and receive a detailed quotation within one business day.</p>
+      <p class="mt-4 flex flex-wrap justify-center gap-3">
+        <a href="/contact" class="rounded-full bg-violet-600 px-6 py-2.5 text-sm font-bold text-white">Request seed treatment OEM quotation</a>
+        <a href="/oem-manufacturing" class="rounded-full border border-violet-300 px-6 py-2.5 text-sm font-bold text-violet-700 dark:border-violet-700 dark:text-violet-300">OEM &amp; ODM services</a>
+        <a href="/formulation-selector" class="rounded-full border border-violet-300 px-6 py-2.5 text-sm font-bold text-violet-700 dark:border-violet-700 dark:text-violet-300">Formulation selector</a>
+      </p>
+    </div>
+  </div>

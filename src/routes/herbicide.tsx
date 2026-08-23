@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { contentSingleRoute } from '@/features/content/content-single-route'
 
-export const Route = createFileRoute('/agrochemical-oem-europe')({
-  ...contentSingleRoute('/agrochemical-oem-europe'),
+export const Route = createFileRoute('/herbicide')({
+  ...contentSingleRoute('/herbicide'),
 })

@@ -18,7 +18,7 @@ const MODE_ENTRIES = [
     key: 'odm' as const,
     icon: Lightbulb,
     buyerState: 'Have a product idea or market positioning',
-    ctaLabel: 'Develop a Board From Your Brief',
+    ctaLabel: 'Develop a Formulation From Your Brief',
     href: '/odm-development',
   },
   {
@@ -26,14 +26,14 @@ const MODE_ENTRIES = [
     icon: Tag,
     buyerState: 'Need to launch a proven product fast, branded',
     ctaLabel: 'Launch on a Proven Platform',
-    href: '/solutions/private-label-sup',
+    href: '/solutions/distributors',
   },
   {
     key: 'commercial' as const,
     icon: Ship,
-    buyerState: 'Procuring rental, school or resort equipment',
+    buyerState: 'Procuring bulk agrochemical supply or government tenders',
     ctaLabel: 'Build a Co-Branding Partnership',
-    href: '/solutions/resort-sup',
+    href: '/solutions/co-branding',
   },
 ]
 
@@ -71,7 +71,7 @@ export function CollaborationSelector() {
       </div>
       <div className="mt-10 text-center">
         <a
-          href={fl('/start-sup-project')}
+          href={fl('/start-agrochemical-project')}
           className="sun-grad inline-flex h-[48px] items-center gap-2 rounded-full px-8 text-[15px] font-bold shadow-[0_14px_34px_-10px_rgba(255,138,61,0.75)] transition-transform hover:-translate-y-0.5"
         >
           {c.cta} <ArrowRight size={17} />

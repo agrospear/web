@@ -20,6 +20,8 @@ const WhoWeServe = lazy(() => import('@/components/marketing/who-we-serve').then
 const ProjectsShowcase = lazy(() => import('@/components/marketing/projects-showcase').then((m) => ({ default: m.ProjectsShowcase })))
 const FaqSection = lazy(() => import('@/components/marketing/faq').then((m) => ({ default: m.FaqSection })))
 const CtaBand = lazy(() => import('@/components/marketing/cta').then((m) => ({ default: m.CtaBand })))
+const FactoryCarousel = lazy(() => import('@/components/marketing/factory-carousel').then((m) => ({ default: m.FactoryCarousel })))
+const ProductCategories = lazy(() => import('@/components/marketing/product-categories').then((m) => ({ default: m.ProductCategories })))
 
 export const Route = createFileRoute('/{-$locale}/')({
   loader: async () => ({ origin: await getOrigin() }),
@@ -46,6 +48,8 @@ function Home() {
   return (
     <MarketingShell>
       <Hero />
+      <Suspense fallback={null}><FactoryCarousel /></Suspense>
+      <Suspense fallback={null}><ProductCategories /></Suspense>
       <Suspense fallback={null}><CollaborationSelector /></Suspense>
       <Suspense fallback={null}><WhoWeServe /></Suspense>
       <Suspense fallback={null}><CommercialTerms /></Suspense>

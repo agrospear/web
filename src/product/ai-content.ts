@@ -97,7 +97,7 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
 }
 
 export const CASE_STUDY_STATS = {
-  boardWidth: 'SC/EC/WP/WDG/SL/ME/CS/FS',
+  formulationTypes: 'SC/EC/WP/WDG/SL/ME/CS/FS',
   factoryTested: '100%',
 }
 

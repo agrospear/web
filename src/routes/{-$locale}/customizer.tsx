@@ -1,4 +1,4 @@
-import * as React from 'react'
+﻿import * as React from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { ArrowRight, PaintBucket, Upload, ImageIcon, Sparkles } from 'lucide-react'
 import { localeHead } from '@/features/seo/seo'
@@ -68,7 +68,7 @@ function CustomizerPage() {
                 style={{ background: `radial-gradient(circle, hsl(${hue} 72% 55% / 0.5) 0%, transparent 70%)` }}
                 aria-hidden="true"
               />
-              <BoardArt className="relative w-full" hue={hue} label={c.boardLabel} />
+              <BoardArt className="relative w-full" hue={hue} label={c.productLabel} />
             </div>
 
             {/* palette */}
@@ -117,7 +117,7 @@ function CustomizerPage() {
           </div>
         </div>
       </section>
-      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('sup.nav.customizer'), path: '/customizer' }])} />
+      <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('agro.nav.customizer'), path: '/customizer' }])} />
     </MarketingShell>
   )
 }

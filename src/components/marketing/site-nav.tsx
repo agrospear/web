@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from 'react'
+﻿import { useCallback, useMemo, useState } from 'react'
 import { Menu, X, ChevronDown, Search as SearchIcon } from 'lucide-react'
 import { getRouteApi } from '@tanstack/react-router'
 import { Logo } from '@/components/brand/logo'
@@ -51,91 +51,91 @@ export function SiteNav() {
 
   const navItems: NavItem[] = useMemo(() => [
     {
-      label: t('sup.nav.productsServices'),
+      label: t('agro.nav.productsServices'),
       groups: [
         {
-          label: t('sup.nav.productsServicesDropdown.startGroup'),
+          label: t('agro.nav.productsServicesDropdown.startGroup'),
           items: [
-            { label: t('sup.nav.productsServicesDropdown.startProject'), href: '/start-sup-project', highlight: true },
-            { label: t('sup.nav.productsServicesDropdown.all'), href: '/products' },
-            { label: t('sup.nav.productsServicesDropdown.customizer'), href: '/customizer' },
+            { label: t('agro.nav.productsServicesDropdown.startProject'), href: '/start-agrochemical-project', highlight: true },
+            { label: t('agro.nav.productsServicesDropdown.all'), href: '/products' },
+            { label: t('agro.nav.productsServicesDropdown.customizer'), href: '/customizer' },
           ],
         },
         {
-          label: t('sup.nav.productsServicesDropdown.exploreGroup'),
+          label: t('agro.nav.productsServicesDropdown.exploreGroup'),
           items: [
-            { label: t('sup.nav.productsServicesDropdown.manufacturer'), href: '/oem-manufacturing' },
-            { label: t('sup.nav.productsServicesDropdown.constructionComparison'), href: '/sup-construction-comparison' },
-            { label: t('sup.nav.productsServicesDropdown.privateLabel'), href: '/solutions/private-label-sup' },
-            { label: t('sup.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
-            { label: t('sup.nav.productsServicesDropdown.productDevelopment'), href: '/product-development' },
-            { label: t('sup.nav.productsServicesDropdown.newBrandTrial'), href: '/new-brand-trial-order' },
-            { label: t('sup.nav.productsServicesDropdown.oemPaddle'), href: '/oem-adjuvants' },
+            { label: t('agro.nav.productsServicesDropdown.manufacturer'), href: '/oem-manufacturing' },
+            { label: t('agro.nav.productsServicesDropdown.constructionComparison'), href: '/formulation-type-comparison' },
+            { label: t('agro.nav.productsServicesDropdown.privateLabel'), href: '/solutions/distributors' },
+            { label: t('agro.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
+            { label: t('agro.nav.productsServicesDropdown.productDevelopment'), href: '/product-development' },
+            { label: t('agro.nav.productsServicesDropdown.newBrandTrial'), href: '/new-brand-trial-order' },
+            { label: t('agro.nav.productsServicesDropdown.oemAdjuvant'), href: '/oem-adjuvants' },
           ],
         },
       ],
     },
     {
-      label: t('sup.nav.industries'),
+      label: t('agro.nav.industries'),
       groups: [
         {
-          label: t('sup.nav.industriesDropdown.overviewGroup'),
+          label: t('agro.nav.industriesDropdown.overviewGroup'),
           items: [
-            { label: t('sup.nav.industriesDropdown.overview'), href: '/who-we-serve' },
+            { label: t('agro.nav.industriesDropdown.overview'), href: '/who-we-serve' },
           ],
         },
         {
-          label: t('sup.nav.industriesDropdown.verticalsGroup'),
+          label: t('agro.nav.industriesDropdown.verticalsGroup'),
           items: [
-            { label: t('sup.nav.industriesDropdown.resorts'), href: '/solutions/resort-sup' },
-            { label: t('sup.nav.industriesDropdown.clubs'), href: '/solutions/club-sup' },
-            { label: t('sup.nav.industriesDropdown.rental'), href: '/solutions/rental-operators' },
-            { label: t('sup.nav.industriesDropdown.distributors'), href: '/solutions/distributors' },
-            { label: t('sup.nav.industriesDropdown.retail'), href: '/solutions/retail-partners' },
+            { label: t('agro.nav.industriesDropdown.coBrand'), href: '/solutions/co-branding' },
+            { label: t('agro.nav.industriesDropdown.distributorPartners'), href: '/solutions/distributor-partners' },
+            { label: t('agro.nav.industriesDropdown.rentalBuyers'), href: '/solutions/distributors' },
+            { label: t('agro.nav.industriesDropdown.distributors'), href: '/solutions/distributors' },
+            { label: t('agro.nav.industriesDropdown.retail'), href: '/solutions/co-branding' },
           ],
         },
       ],
     },
     {
-      label: t('sup.nav.proofQuality'),
+      label: t('agro.nav.proofQuality'),
       groups: [
         {
-          label: t('sup.nav.proofQualityDropdown.evidenceGroup'),
+          label: t('agro.nav.proofQualityDropdown.evidenceGroup'),
           items: [
-            { label: t('sup.nav.proofQualityDropdown.factory'), href: '/factory' },
-            { label: t('sup.nav.proofQualityDropdown.proofCenter'), href: '/proof-center' },
-            { label: t('sup.nav.proofQualityDropdown.quality'), href: '/quality' },
-            { label: t('sup.nav.proofQualityDropdown.complianceByMarket'), href: '/sup-compliance-by-market' },
-            { label: t('sup.nav.proofQualityDropdown.auditChecklist'), href: '/factory-audit-checklist' },
-            { label: t('sup.nav.proofQualityDropdown.technology'), href: '/technology' },
+            { label: t('agro.nav.proofQualityDropdown.factory'), href: '/factory' },
+            { label: t('agro.nav.proofQualityDropdown.proofCenter'), href: '/proof-center' },
+            { label: t('agro.nav.proofQualityDropdown.quality'), href: '/quality' },
+            { label: t('agro.nav.proofQualityDropdown.complianceByMarket'), href: '/agrochemical-regulation-by-market' },
+            { label: t('agro.nav.proofQualityDropdown.auditChecklist'), href: '/factory-audit-checklist' },
+            { label: t('agro.nav.proofQualityDropdown.technology'), href: '/technology' },
           ],
         },
         {
-          label: t('sup.nav.proofQualityDropdown.casesGroup'),
+          label: t('agro.nav.proofQualityDropdown.casesGroup'),
           items: [
-            { label: t('sup.nav.proofQualityDropdown.projects'), href: '/projects' },
-            { label: t('sup.nav.proofQualityDropdown.gallery'), href: '/gallery' },
-            { label: t('sup.nav.proofQualityDropdown.evidence'), href: '/evidence/case-studies' },
+            { label: t('agro.nav.proofQualityDropdown.projects'), href: '/projects' },
+            { label: t('agro.nav.proofQualityDropdown.gallery'), href: '/gallery' },
+            { label: t('agro.nav.proofQualityDropdown.evidence'), href: '/evidence/case-studies' },
           ],
         },
       ],
     },
     {
-      label: t('sup.nav.resources'),
+      label: t('agro.nav.resources'),
       items: [
-        { label: t('sup.nav.resourcesDropdown.knowledge'), href: '/knowledge' },
-        { label: t('sup.nav.resourcesDropdown.onboarding'), href: '/oem-onboarding-guide' },
-        { label: t('sup.nav.resourcesDropdown.faq'), href: '/faq' },
-        { label: t('sup.nav.resourcesDropdown.sizeGuide'), href: '/size-guide' },
-        { label: t('sup.nav.resourcesDropdown.moqGuide'), href: '/oem-moq-guide' },
-        { label: t('sup.nav.resourcesDropdown.news'), href: '/news' },
+        { label: t('agro.nav.resourcesDropdown.knowledge'), href: '/knowledge' },
+        { label: t('agro.nav.resourcesDropdown.onboarding'), href: '/oem-onboarding-guide' },
+        { label: t('agro.nav.resourcesDropdown.faq'), href: '/faq' },
+        { label: t('agro.nav.resourcesDropdown.moqAndPricing'), href: '/oem-moq-guide' },
+        { label: t('agro.nav.resourcesDropdown.moqGuide'), href: '/oem-moq-guide' },
+        { label: t('agro.nav.resourcesDropdown.news'), href: '/news' },
       ],
     },
   ], [t])
 
   const authLink = loggedIn ? (
     <a href={fl('/app')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
-      {t('sup.nav.app')}
+      {t('agro.nav.app')}
     </a>
   ) : (
     <a href={fl('/login')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
@@ -144,8 +144,8 @@ export function SiteNav() {
   )
 
   const cta = (
-    <a href={fl('/start-sup-project')} className={buttonVariants({ size: 'sm' })}>
-      {t('sup.nav.cta')}
+    <a href={fl('/start-agrochemical-project')} className={buttonVariants({ size: 'sm' })}>
+      {t('agro.nav.cta')}
     </a>
   )
 
@@ -264,7 +264,7 @@ export function SiteNav() {
           <a href={fl('/')} aria-label={SITE_NAME} className="shrink-0">
             <div className="flex flex-col leading-tight">
               <Logo />
-              <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('sup.nav.poweredBy')}</span>
+              <span className="text-[10.5px] font-medium uppercase tracking-[0.12em] text-fg-3">{t('agro.nav.poweredBy')}</span>
             </div>
           </a>
           <div className="flex-1" />

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { ArrowRight, CheckCircle2, Target, AlertCircle } from 'lucide-react'
 import type { SolutionPageData } from '@/product/solution-pages'
 import {  useTranslation  } from '@/features/i18n/provider'
@@ -19,9 +19,9 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
   const ctaLabel =
     page.ctaLabel ??
     {
-      cold: t('sup.solutions.ctaCold'),
-      warm: t('sup.solutions.ctaWarm'),
-      hot: t('sup.solutions.ctaHot'),
+      cold: t('agro.solutions.ctaCold'),
+      warm: t('agro.solutions.ctaWarm'),
+      hot: t('agro.solutions.ctaHot'),
     }[page.ctaLevel]
   const ctaHref = page.ctaLevel === 'cold' ? '/solutions' : '/contact'
   const path = solutionPath(page.slug)
@@ -44,7 +44,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
 
       {/* straight answer (AEO — first 40–70 words a crawler/AI can quote) */}
       <div className="mx-auto max-w-6xl px-5 md:px-7">
-        <p className="kicker" lang={locale}>{t('sup.solutions.straightAnswer')}</p>
+        <p className="kicker" lang={locale}>{t('agro.solutions.straightAnswer')}</p>
         <p className="mt-2 max-w-3xl rounded-2xl border border-primary/25 bg-soft px-6 py-5 text-[15px] font-medium leading-relaxed text-foreground">
           {page.answer}
         </p>
@@ -58,7 +58,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
               <Target size={20} />
             </span>
             <div>
-              <p className="kicker">{t('sup.solutions.scenario')}</p>
+              <p className="kicker">{t('agro.solutions.scenario')}</p>
               <h2 className="mt-1.5 font-display text-xl font-bold">{page.scenario.title}</h2>
               <p className="mt-2.5 text-[14.5px] leading-relaxed text-fg-2">{page.scenario.body}</p>
             </div>
@@ -69,7 +69,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
       {/* problems → solutions */}
       <section className="border-y border-border bg-bg-alt">
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
-          <SectionHead kicker={t('sup.solutions.pairsKicker')} title={t('sup.solutions.pairsTitle')} />
+          <SectionHead kicker={t('agro.solutions.pairsKicker')} title={t('agro.solutions.pairsTitle')} />
           <div className="mt-12 grid gap-5 md:grid-cols-2">
             {page.pairs.map((pair) => (
               <div key={pair.problem} className="marine-card flex flex-col gap-3.5 p-6">
@@ -89,7 +89,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
 
       {/* process */}
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
-        <SectionHead kicker={t('sup.solutions.stepsKicker')} title={t('sup.solutions.stepsTitle')} />
+        <SectionHead kicker={t('agro.solutions.stepsKicker')} title={t('agro.solutions.stepsTitle')} />
         <ol className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {page.steps.map((step, i) => (
             <li key={step.title} className="marine-card p-5">
@@ -106,7 +106,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
       {/* case study */}
       <section className="border-y border-border bg-bg-alt">
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
-          <SectionHead kicker={t('sup.solutions.caseKicker')} title={t('sup.solutions.caseTitle')} />
+          <SectionHead kicker={t('agro.solutions.caseKicker')} title={t('agro.solutions.caseTitle')} />
           <div className="mx-auto mt-10 max-w-3xl">
             <div className="sun-grad rounded-2xl p-[1px]">
               <div className="rounded-2xl bg-background p-7 md:p-9">
@@ -125,7 +125,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
 
       {/* FAQ */}
       <section className="mx-auto max-w-3xl px-5 py-16 md:px-7 md:py-20">
-        <SectionHead kicker={t('content.fallbackFaq')} title={t('sup.solutions.faqTitle')} />
+        <SectionHead kicker={t('content.fallbackFaq')} title={t('agro.solutions.faqTitle')} />
         <div className="mt-10 flex flex-col gap-3">
           {page.faqs.map((f) => (
             <FaqItem key={f.q} q={f.q} a={f.a} />
@@ -142,8 +142,8 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
       />
       <JsonLd
         data={siteBreadcrumbLd([
-          { name: t('sup.breadcrumb.home'), path: '/' },
-          { name: t('sup.breadcrumb.solutions'), path: '/solutions' },
+          { name: t('agro.breadcrumb.home'), path: '/' },
+          { name: t('agro.breadcrumb.solutions'), path: '/solutions' },
           { name: page.h1, path },
         ])}
       />
@@ -151,9 +151,9 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
       {/* CTA + related paths */}
       <section className="ocean-grad">
         <div className="mx-auto flex max-w-4xl flex-col items-center px-5 py-16 text-center md:px-7 md:py-20">
-          <p className="font-display text-xs font-bold uppercase tracking-[0.16em] text-[#aee3f7]">{t('sup.solutions.nextKicker')}</p>
-          <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-white md:text-4xl">{t('sup.solutions.nextTitle')}</h2>
-          <p className="fg-dim mt-4 max-w-xl text-[15.5px] leading-relaxed">{t('sup.solutions.nextBody')}</p>
+          <p className="font-display text-xs font-bold uppercase tracking-[0.16em] text-[#aee3f7]">{t('agro.solutions.nextKicker')}</p>
+          <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-white md:text-4xl">{t('agro.solutions.nextTitle')}</h2>
+          <p className="fg-dim mt-4 max-w-xl text-[15.5px] leading-relaxed">{t('agro.solutions.nextBody')}</p>
           <a
             href={fl(ctaHref)}
             className={PRIMARY_CTA}
@@ -163,14 +163,14 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
         </div>
       </section>
       <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-2 gap-y-1 px-5 py-12 md:px-7">
-        <span className="mr-2 text-[13px] font-semibold text-fg-3">{t('sup.nav.solutions')} ·</span>
-        <a href={fl('/solutions')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.solutions.seeAll')}</a>
+        <span className="mr-2 text-[13px] font-semibold text-fg-3">{t('agro.nav.solutions')} ·</span>
+        <a href={fl('/solutions')} className="text-[13px] font-medium text-primary hover:underline">{t('agro.solutions.seeAll')}</a>
         <span className="text-fg-3">·</span>
-        <a href={fl('/products')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.products')}</a>
+        <a href={fl('/products')} className="text-[13px] font-medium text-primary hover:underline">{t('agro.nav.products')}</a>
         <span className="text-fg-3">·</span>
-        <a href={fl('/how-it-works')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.process')}</a>
+        <a href={fl('/how-it-works')} className="text-[13px] font-medium text-primary hover:underline">{t('agro.nav.process')}</a>
         <span className="text-fg-3">·</span>
-        <a href={fl('/contact')} className="text-[13px] font-medium text-primary hover:underline">{t('sup.nav.contact')}</a>
+        <a href={fl('/contact')} className="text-[13px] font-medium text-primary hover:underline">{t('agro.nav.contact')}</a>
       </nav>
     </>
   )
