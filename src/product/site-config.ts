@@ -55,8 +55,8 @@ export const SITE_FACTS = {
 export const HERO_CONTENT = {
   en: {
     kicker: 'Qingdao, China Factory · OEM / ODM / Private Label · Samples to Batch Production',
-    titlePre: 'Custom Agrochemical Manufacturing for',
-    titleAccent: 'Brands, Distributors & Importers',
+    titlePre: 'China Agrochemical Manufacturer for',
+    titleAccent: 'OEM, ODM & Private Label Brands',
     titlePost: '',
     sub: 'OEM, ODM and private-label agrochemical formulations — from specification review and sample development to quality-controlled batch production in Qingdao, China.',
     ctaPrimary: 'Start Your Agrochemical Project',

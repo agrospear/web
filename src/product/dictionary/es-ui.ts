@@ -305,9 +305,9 @@ export const esUi = {
       faqDesc: 'Preguntas frecuentes sobre la fabricación OEM/ODM agroquímica de Agrospear: formulaciones, certificaciones, cantidades mínimas de pedido y suministro al por mayor.',
       waitlistTitle: 'Únete a la lista de espera',
       waitlistDesc: 'Te avisaremos en cuanto lancemos.',
-      homeTitle: 'Fabricante agroquímico a medida | OEM/ODM para marcas',
-      homeDesc: '{siteName} fabrica formulaciones agroquímicas de marca propia: especificación, lotes piloto, QC, embalaje y producción lista para exportar.',
-      homeOgTitle: '{siteName} — Fabricante agroquímico a medida',
+      homeTitle: 'Fabricante de Agroquímicos China | OEM ODM y Marca Privada | Agrospear',
+      homeDesc: 'Agrospear es fabricante de agroquímicos en China con servicios OEM, ODM y marca privada — formulaciones a medida, lotes piloto, QC, embalaje y producción lista para exportar desde Qingdao.',
+      homeOgTitle: 'Agrospear — Fabricante de Agroquímicos China',
     },
     jsonld: {
       moq: 'Cantidad mínima de pedido (MOQ)',

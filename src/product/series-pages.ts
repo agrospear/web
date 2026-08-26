@@ -17,11 +17,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'herbicide',
       navLabel: 'Herbicide Formulations',
-      metaTitle: 'Custom Herbicide Formulations — OEM/ODM Crop Protection Manufacturer | Agrospear',
+      metaTitle: 'Herbicide Manufacturer China | OEM/ODM Crop Protection | Agrospear',
       metaDescription:
-        'Custom herbicide formulations manufactured under your brand — selective & non-selective, SC/EC/WP/WDG types, OEM/ODM from 5-ton pilot, samples in 7–15 days. Factory direct from Qingdao, China.',
+        'Herbicide manufacturer in China producing custom formulations under your brand — selective & non-selective, SC/EC/WP/WDG types, OEM/ODM from 5-ton pilot, samples in 7–15 days. Factory direct from Qingdao.',
       kicker: 'Series · Herbicide',
-      h1: 'Custom Herbicide Formulations — The Core Product Category For Crop Protection Brands',
+      h1: 'Herbicide Manufacturer China — OEM & ODM Formulations for Crop Protection Brands',
       intro: [
         'Herbicides are the workhorse of crop protection: the largest segment by volume, the default starting category for new brands and the backbone of most distributor catalogs. Whether selective post-emergence for cereals or non-selective glyphosate for broad-acre, herbicide demand is consistent and volume-driven.',
         'We manufacture herbicide formulations under your brand from 20+ tons (standard volume), with pilot runs from 5 tons. Active ingredient, formulation type (SC, EC, WP, WDG, SL), adjuvant system, label design and packaging are specified per project.',
@@ -48,11 +48,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'insecticide',
       navLabel: 'Insecticide Formulations',
-      metaTitle: 'Custom Insecticide Formulations — OEM Crop Protection Manufacturer | Agrospear',
+      metaTitle: 'Insecticide Manufacturer China | OEM Crop Protection | Agrospear',
       metaDescription:
-        'Custom insecticide formulations for crop protection brands — systemic & contact modes of action, SC/EC/CS/ME types, OEM volume from 5-ton pilot, factory direct from Qingdao.',
+        'Insecticide manufacturer in China producing custom formulations for crop protection brands — systemic & contact modes of action, SC/EC/CS/ME types, OEM volume from 5-ton pilot, factory direct from Qingdao.',
       kicker: 'Series · Insecticide',
-      h1: 'Custom Insecticide Formulations — Crop Protection Solutions For Your Brand',
+      h1: 'Insecticide Manufacturer China — OEM Formulations for Crop Protection Brands',
       intro: [
         'Insecticides are the second-largest crop protection segment and the fastest-growing in many tropical and subtropical markets. Systemic neonicotinoids, contact pyrethroids and novel modes of action each demand precise formulation expertise to deliver field performance and shelf stability.',
         'We produce insecticide formulations under your brand with optimized adjuvant systems, proven stability profiles and registration-ready documentation — tested under accelerated and long-term storage conditions.',
@@ -75,11 +75,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'fungicide',
       navLabel: 'Fungicide Formulations',
-      metaTitle: 'Custom Fungicide Formulations — OEM Crop Protection Manufacturer | Agrospear',
+      metaTitle: 'Fungicide Manufacturer China | OEM Crop Protection | Agrospear',
       metaDescription:
-        'Custom fungicide formulations for brands and distributors — protective & curative modes of action, SC/WP/WDG types, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+        'Fungicide manufacturer in China producing custom formulations for brands and distributors — protective & curative modes of action, SC/WP/WDG types, OEM from 5-ton pilot, factory direct from Qingdao.',
       kicker: 'Series · Fungicide',
-      h1: 'Custom Fungicide Formulations — Protective & Curative Solutions For Your Brand',
+      h1: 'Fungicide Manufacturer China — OEM Formulations for Crop Protection Brands',
       intro: [
         'Fungicides are essential for high-value crops — fruits, vegetables, grapes and cereals — where disease pressure determines yield and quality. Both protective (pre-infection) and curative (post-infection) modes of action require precise formulation to deliver reliable field performance.',
         'We manufacture fungicide formulations under your brand with optimized particle size distribution, proven suspension rates and registration-ready documentation for your target markets.',
@@ -102,11 +102,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'pgr',
       navLabel: 'Plant Growth Regulators',
-      metaTitle: 'Custom Plant Growth Regulator Formulations — OEM Manufacturer | Agrospear',
+      metaTitle: 'PGR Manufacturer China | Plant Growth Regulator OEM | Agrospear',
       metaDescription:
-        'Custom PGR formulations for crop protection brands — gibberellins, auxins, ethylene regulators, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+        'Plant growth regulator manufacturer in China producing custom PGR formulations — gibberellins, auxins, ethylene regulators, OEM from 5-ton pilot, factory direct from Qingdao.',
       kicker: 'Series · PGR',
-      h1: 'Custom Plant Growth Regulator Formulations — Growth Management For Your Brand',
+      h1: 'PGR Manufacturer China — Plant Growth Regulator OEM Formulations',
       intro: [
         'Plant growth regulators (PGRs) are high-value, low-volume products that manage plant architecture, fruit set, ripening and stress tolerance. They command premium pricing and are a strategic category for brands targeting fruit, vegetable and row-crop markets.',
         'We manufacture PGR formulations under your brand with precise concentration control, stability-validated adjuvant systems and formulation types matched to application requirements.',
@@ -129,11 +129,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'seed-treatment',
       navLabel: 'Seed Treatment Formulations',
-      metaTitle: 'Custom Seed Treatment Formulations — FS Flowable Concentrate OEM | Agrospear',
+      metaTitle: 'Seed Treatment Manufacturer China | FS Flowable Concentrate OEM | Agrospear',
       metaDescription:
-        'Custom seed treatment (FS) formulations for brands and seed companies — flowable concentrates for coating, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+        'Seed treatment manufacturer in China producing custom FS formulations for brands and seed companies — flowable concentrates for coating, OEM from 5-ton pilot, factory direct from Qingdao.',
       kicker: 'Series · Seed Treatment',
-      h1: 'Custom Seed Treatment Formulations — Flowable Concentrates For Seed Coating',
+      h1: 'Seed Treatment Manufacturer China — FS Flowable Concentrate OEM Formulations',
       intro: [
         'Seed treatment is the fastest-growing application method in crop protection: precise dosing, reduced environmental exposure and early-season protection make it the preferred technology for cereals, corn, soybeans and cotton. The FS (flowable concentrate for seed treatment) formulation type is the global standard.',
         'We manufacture FS formulations under your brand with optimized viscosity for seed-coating equipment, proven film uniformity and registration-ready documentation for seed-company and brand customers.',
@@ -156,11 +156,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'adjuvant',
       navLabel: 'Adjuvants & Surfactants',
-      metaTitle: 'Custom Adjuvant & Surfactant Formulations — OEM Manufacturer | Agrospear',
+      metaTitle: 'Adjuvant Manufacturer China | OEM Surfactant Formulations | Agrospear',
       metaDescription:
-        'Custom adjuvant and surfactant formulations for crop protection brands — tank-mix partners, spreader-stickers, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+        'Adjuvant manufacturer in China producing custom surfactant formulations for crop protection brands — tank-mix partners, spreader-stickers, OEM from 5-ton pilot, factory direct from Qingdao.',
       kicker: 'Series · Adjuvants',
-      h1: 'Custom Adjuvant & Surfactant Formulations — Performance Enhancement For Your Brand',
+      h1: 'Adjuvant Manufacturer China — OEM Surfactant & Performance Enhancement Formulations',
       intro: [
         'Adjuvants and surfactants enhance the performance of crop protection products: better coverage, improved rain-fastness, reduced drift and optimized tank-mix compatibility. They are a growing category for brands that want to offer complete spray programs.',
         'We manufacture adjuvant formulations under your brand — non-ionic surfactants, organosilicone spreaders, crop oil concentrates, drift control agents and fertilizer-compatible tank-mix partners.',
@@ -183,11 +183,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'biopesticide',
       navLabel: 'Biopesticide Formulations',
-      metaTitle: 'Custom Biopesticide Formulations — OEM Manufacturer | Agrospear',
+      metaTitle: 'Biopesticide Manufacturer China | OEM Biological Crop Protection | Agrospear',
       metaDescription:
-        'Custom biopesticide formulations for brands — microbial and biochemical actives, stable SC/WP/OD types, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+        'Biopesticide manufacturer in China producing custom formulations for brands — microbial and biochemical actives, stable SC/WP/OD types, OEM from 5-ton pilot, factory direct from Qingdao.',
       kicker: 'Series · Biopesticide',
-      h1: 'Custom Biopesticide Formulations — Biological Solutions For Your Brand',
+      h1: 'Biopesticide Manufacturer China — OEM Biological Crop Protection Formulations',
       intro: [
         'Biopesticides are the fastest-growing segment in crop protection: driven by residue limits, export market requirements and integrated pest management programs. Both microbial (bacteria, fungi) and biochemical (plant extracts, semiochemicals) actives require specialized formulation expertise.',
         'We manufacture biopesticide formulations under your brand with viability-preserving adjuvant systems, cold-chain-compatible production and registration support for organic and reduced-risk claims.',
@@ -210,11 +210,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'mixture',
       navLabel: 'Pre-Mixtures & Combinations',
-      metaTitle: 'Custom Pesticide Pre-Mixture Formulations — OEM Manufacturer | Agrospear',
+      metaTitle: 'Premix Formulation Manufacturer China | OEM Combination Pesticides | Agrospear',
       metaDescription:
-        'Custom pesticide pre-mixture and combination formulations — dual & triple AI products, SC/EC/WDG types, OEM from 5-ton pilot, factory direct from Qingdao, China.',
+        'Premix formulation manufacturer in China producing custom pesticide combinations — dual & triple AI products, SC/EC/WDG types, OEM from 5-ton pilot, factory direct from Qingdao.',
       kicker: 'Series · Pre-Mixtures',
-      h1: 'Custom Pre-Mixture Formulations — Multi-Mode-Of-Action Products For Your Brand',
+      h1: 'Premix Formulation Manufacturer China — OEM Combination Pesticide Products',
       intro: [
         'Pre-mixtures (combination products with two or more active ingredients) are the highest-value segment in crop protection: they offer multi-mode-of-action convenience, resistance management and simplified spray programs. Most branded pesticide portfolios are built around combination products.',
         'We manufacture pre-mixture formulations under your brand with validated compatibility, proven physical and chemical stability, and registration-ready documentation for combination products.',
@@ -239,11 +239,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'herbicide',
       navLabel: 'Formulaciones de herbicida',
-      metaTitle: 'Formulaciones de herbicida personalizadas — Fabricante OEM/ODM de fitosanitarios | Agrospear',
+      metaTitle: 'Fabricante de Herbicidas China | OEM/ODM Fitosanitarios | Agrospear',
       metaDescription:
-        'Formulaciones de herbicida personalizadas bajo tu marca — selectivos y no selectivos, tipos SC/EC/WP/WDG, OEM/ODM desde piloto de 5 toneladas, muestras en 7–15 días. Directo de fábrica en Qingdao, China.',
+        'Fabricante de herbicidas en China con formulaciones personalizadas bajo tu marca — selectivos y no selectivos, tipos SC/EC/WP/WDG, OEM/ODM desde piloto de 5 toneladas, muestras en 7–15 días. Directo de fábrica en Qingdao.',
       kicker: 'Serie · Herbicida',
-      h1: 'Formulaciones de herbicida personalizadas — la categoría base para marcas de fitosanitarios',
+      h1: 'Fabricante de Herbicidas China — Formulaciones OEM y ODM para Marcas de Fitosanitarios',
       intro: [
         'Los herbicidas son la categoría principal de la protección de cultivos: el mayor segmento por volumen, la categoría de partida por defecto para nuevas marcas y la base de la mayoría de los catálogos de distribuidores. Tanto si son selectivos de post-emergencia para cereales como no selectivos a base de glifosato para grandes superficies, la demanda de herbicidas es constante y por volumen.',
         'Fabricamos formulaciones de herbicida bajo tu marca desde 20+ toneladas (volumen estándar), con pedidos piloto desde 5 toneladas. Ingrediente activo, tipo de formulación (SC, EC, WP, WDG, SL), sistema de coadyuvantes, diseño de etiqueta y embalaje se especifican por proyecto.',
@@ -270,11 +270,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'insecticide',
       navLabel: 'Formulaciones de insecticida',
-      metaTitle: 'Formulaciones de insecticida personalizadas — Fabricante OEM de fitosanitarios | Agrospear',
+      metaTitle: 'Fabricante de Insecticidas China | OEM Fitosanitarios | Agrospear',
       metaDescription:
-        'Formulaciones de insecticida personalizadas para marcas de fitosanitarios — modos de acción sistémicos y de contacto, tipos SC/EC/CS/ME, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao.',
+        'Fabricante de insecticidas en China con formulaciones personalizadas para marcas — modos de acción sistémicos y de contacto, tipos SC/EC/CS/ME, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao.',
       kicker: 'Serie · Insecticida',
-      h1: 'Formulaciones de insecticida personalizadas — soluciones fitosanitarias para tu marca',
+      h1: 'Fabricante de Insecticidas China — Formulaciones OEM para Marcas de Fitosanitarios',
       intro: [
         'Los insecticidas son el segundo segmento más grande de la protección de cultivos y el de mayor crecimiento en muchos mercados tropicales y subtropicales. Las neonicotinoides sistémicas, los piretroides de contacto y los nuevos modos de acción exigen una experiencia precisa de formulación para asegurar el rendimiento en campo y la estabilidad en estante.',
         'Producimos formulaciones de insecticida bajo tu marca con sistemas de coadyuvantes optimizados, perfiles de estabilidad probados y documentación lista para el registro — testados en condiciones aceleradas y de almacenamiento a largo plazo.',
@@ -297,11 +297,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'fungicide',
       navLabel: 'Formulaciones de fungicida',
-      metaTitle: 'Formulaciones de fungicida personalizadas — Fabricante OEM de fitosanitarios | Agrospear',
+      metaTitle: 'Fabricante de Fungicidas China | OEM Fitosanitarios | Agrospear',
       metaDescription:
-        'Formulaciones de fungicida personalizadas para marcas y distribuidores — modos de acción protectores y curativos, tipos SC/WP/WDG, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+        'Fabricante de fungicidas en China con formulaciones personalizadas para marcas y distribuidores — modos de acción protectores y curativos, tipos SC/WP/WDG, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao.',
       kicker: 'Serie · Fungicida',
-      h1: 'Formulaciones de fungicida personalizadas — soluciones protectoras y curativas para tu marca',
+      h1: 'Fabricante de Fungicidas China — Formulaciones OEM para Marcas de Fitosanitarios',
       intro: [
         'Los fungicidas son esenciales para cultivos de alto valor — frutas, hortalizas, viñedos y cereales — donde la presión de enfermedades determina el rendimiento y la calidad. Tanto los modos de acción protectores (pre-infección) como curativos (post-infección) requieren una formulación precisa para un rendimiento fiable en campo.',
         'Fabricamos formulaciones de fungicida bajo tu marca con distribución de tamaño de partícula optimizada, tasas de suspensión probadas y documentación lista para el registro en tus mercados objetivo.',
@@ -324,11 +324,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'pgr',
       navLabel: 'Reguladores de crecimiento',
-      metaTitle: 'Formulaciones de reguladores de crecimiento personalizados — Fabricante OEM | Agrospear',
+      metaTitle: 'Fabricante de Reguladores de Crecimiento China | OEM PGR | Agrospear',
       metaDescription:
-        'Formulaciones de reguladores de crecimiento (PGR) personalizadas — giberelinas, auxinas, reguladores de etileno, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+        'Fabricante de reguladores de crecimiento vegetal en China — giberelinas, auxinas, reguladores de etileno, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao.',
       kicker: 'Serie · Reguladores de crecimiento',
-      h1: 'Formulaciones de reguladores de crecimiento personalizadas — gestión del crecimiento para tu marca',
+      h1: 'Fabricante de Reguladores de Crecimiento China — Formulaciones OEM PGR',
       intro: [
         'Los reguladores de crecimiento vegetal (PGR) son productos de alto valor y bajo volumen que gestionan la arquitectura de la planta, el cuajado del fruto, la maduración y la tolerancia al estrés. Tienen precios premium y son una categoría estratégica para marcas orientadas a frutales, hortalizas y cultivos extensivos.',
         'Fabricamos formulaciones de PGR bajo tu marca con control preciso de concentración, sistemas de coadyuvantes validados en estabilidad y tipos de formulación adaptados a los requisitos de aplicación.',
@@ -351,11 +351,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'seed-treatment',
       navLabel: 'Tratamiento de semillas',
-      metaTitle: 'Formulaciones de tratamiento de semillas personalizadas — FS concentrado fluido OEM | Agrospear',
+      metaTitle: 'Fabricante de Tratamiento de Semillas China | FS Concentrado Fluido OEM | Agrospear',
       metaDescription:
-        'Formulaciones de tratamiento de semillas (FS) personalizadas para marcas y empresas de semillas — concentrados fluidos para recubrimiento, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+        'Fabricante de tratamiento de semillas en China con formulaciones FS personalizadas para marcas y empresas de semillas — concentrados fluidos para recubrimiento, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao.',
       kicker: 'Serie · Tratamiento de semillas',
-      h1: 'Formulaciones de tratamiento de semillas personalizadas — concentrados fluidos para recubrimiento',
+      h1: 'Fabricante de Tratamiento de Semillas China — Formulaciones FS OEM',
       intro: [
         'El tratamiento de semillas es el método de aplicación de mayor crecimiento en la protección de cultivos: dosificación precisa, menor exposición ambiental y protección temprana lo convierten en la tecnología preferida para cereales, maíz, soja y algodón. La formulación tipo FS (concentrado fluido para tratamiento de semillas) es el estándar global.',
         'Fabricamos formulaciones FS bajo tu marca con viscosidad optimizada para equipos de recubrimiento, uniformidad de película probada y documentación lista para el registro para clientes de semillas y marcas.',
@@ -378,11 +378,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'adjuvant',
       navLabel: 'Coadyuvantes y tensioactivos',
-      metaTitle: 'Formulaciones de coadyuvantes y tensioactivos personalizados — Fabricante OEM | Agrospear',
+      metaTitle: 'Fabricante de Coadyuvantes China | OEM Tensioactivos | Agrospear',
       metaDescription:
-        'Formulaciones de coadyuvantes y tensioactivos personalizadas — compañeros de mezcla en tanque, adherentes, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+        'Fabricante de coadyuvantes en China con formulaciones de tensioactivos personalizadas — compañeros de mezcla en tanque, adherentes, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao.',
       kicker: 'Serie · Coadyuvantes',
-      h1: 'Formulaciones de coadyuvantes y tensioactivos personalizados — mejora del rendimiento para tu marca',
+      h1: 'Fabricante de Coadyuvantes China — Formulaciones OEM de Tensioactivos',
       intro: [
         'Los coadyuvantes y tensioactivos mejoran el rendimiento de los productos fitosanitarios: mejor cobertura, resistencia al lavado por lluvia, reducción de deriva y compatibilidad optimizada de la mezcla en tanque. Son una categoría en crecimiento para marcas que quieren ofrecer programas completos de pulverización.',
         'Fabricamos formulaciones de coadyuvantes bajo tu marca — tensioactivos no iónicos, expansores organosiliconados, concentrados de aceite vegetal, agentes de control de deriva y compañeros de mezcla en tanque compatibles con fertilizantes.',
@@ -405,11 +405,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'biopesticide',
       navLabel: 'Formulaciones de biopesticidas',
-      metaTitle: 'Formulaciones de biopesticidas personalizadas — Fabricante OEM | Agrospear',
+      metaTitle: 'Fabricante de Biopesticidas China | OEM Fitosanitarios Biológicos | Agrospear',
       metaDescription:
-        'Formulaciones de biopesticidas personalizadas para marcas — activos microbianos y bioquímicos, tipos estables SC/WP/OD, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+        'Fabricante de biopesticidas en China con formulaciones personalizadas para marcas — activos microbianos y bioquímicos, tipos estables SC/WP/OD, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao.',
       kicker: 'Serie · Biopesticidas',
-      h1: 'Formulaciones de biopesticidas personalizadas — soluciones biológicas para tu marca',
+      h1: 'Fabricante de Biopesticidas China — Formulaciones OEM de Fitosanitarios Biológicos',
       intro: [
         'Los biopesticidas son el segmento de mayor crecimiento en la protección de cultivos: impulsados por los límites de residuos, los requisitos de los mercados de exportación y los programas de manejo integrado de plagas. Tanto los activos microbianos (bacterias, hongos) como bioquímicos (extractos vegetales, semioquímicos) requieren experiencia especializada en formulación.',
         'Fabricamos formulaciones de biopesticidas bajo tu marca con sistemas de coadyuvantes que preservan la viabilidad, producción compatible con cadena de frío y apoyo al registro para declaraciones de producto orgánico y riesgo reducido.',
@@ -432,11 +432,11 @@ export const seriesPages: Localized<SeriesPageData[]> = {
     {
       slug: 'mixture',
       navLabel: 'Pre-mezclas y combinaciones',
-      metaTitle: 'Formulaciones de pre-mezclas de pesticidas personalizadas — Fabricante OEM | Agrospear',
+      metaTitle: 'Fabricante de Pre-Mezclas China | OEM Pesticidas Combinados | Agrospear',
       metaDescription:
-        'Formulaciones de pre-mezclas y combinaciones de pesticidas personalizadas — productos con 2-3 ingredientes activos, tipos SC/EC/WDG, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.',
+        'Fabricante de pre-mezclas en China con formulaciones combinadas personalizadas — productos con 2-3 ingredientes activos, tipos SC/EC/WDG, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao.',
       kicker: 'Serie · Pre-mezclas',
-      h1: 'Formulaciones de pre-mezclas personalizadas — productos multimodo para tu marca',
+      h1: 'Fabricante de Pre-Mezclas China — Formulaciones OEM de Pesticidas Combinados',
       intro: [
         'Las pre-mezclas (productos combinados con dos o más ingredientes activos) son el segmento de mayor valor en la protección de cultivos: ofrecen la comodidad de multimodo de acción, gestión de resistencias y programas de pulverización simplificados. La mayoría de los portfolios de pesticidas de marca se construyen en torno a productos combinados.',
         'Fabricamos formulaciones de pre-mezcla bajo tu marca con compatibilidad validada, estabilidad física y química probada y documentación lista para el registro de productos combinados.',

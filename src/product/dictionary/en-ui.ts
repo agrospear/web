@@ -315,9 +315,9 @@ export const enUi = {
       faqDesc: 'Frequently asked questions about Agrospear agrochemical OEM/ODM manufacturing — formulations, certifications, minimum order quantities and wholesale supply.',
       waitlistTitle: 'Join the waitlist',
       waitlistDesc: "We'll let you know the moment we launch.",
-      homeTitle: 'Custom Agrochemical Manufacturing | OEM/ODM for Brands & Distributors',
-      homeDesc: '{siteName} builds custom agrochemical formulations for brands and distributors: specification, pilot batches, QC, packaging and export-ready production.',
-      homeOgTitle: '{siteName} — Custom Agrochemical Manufacturing',
+      homeTitle: 'Agrochemical Manufacturer China | OEM ODM & Private Label Pesticides | Agrospear',
+      homeDesc: 'Agrospear is a China agrochemical manufacturer providing OEM, ODM and private label pesticide manufacturing — custom formulations, pilot batches, QC, packaging and export-ready production from Qingdao.',
+      homeOgTitle: 'Agrospear — Agrochemical Manufacturer China',
     },
     jsonld: {
       moq: 'Minimum order quantity (MOQ)',

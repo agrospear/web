@@ -44,9 +44,9 @@ export interface HeroContent {
 
 export const hero: Localized<HeroContent> = {
   en: {
-    kicker: 'Designated Agrochemical Manufacturer · Qingdao, China · 8 Formulation Lines · From 1-ton Samples to Container Loads',
-    titlePre: 'Custom Agrochemical Manufacturing for',
-    titleAccent: 'Brands, Distributors & Importers',
+    kicker: 'Agrochemical Manufacturer · Qingdao, China · 8 Formulation Lines · From 1-ton Samples to Container Loads',
+    titlePre: 'China Agrochemical Manufacturer for',
+    titleAccent: 'OEM, ODM & Private Label Brands',
     titlePost: '',
     sub: 'From raw active ingredient to export-ready crop protection product — all under one roof. Eight formulation types (SC, EC, WP, WDG, SL, ME, CS, FS), 200+ workers, two daily shifts, and 50,000+ tons annual capacity. OEM, ODM and private-label programs for brands, distributors and importers in 60+ countries.',
     ctaPrimary: 'Start Your Agrochemical Project',
