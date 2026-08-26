@@ -1,0 +1,230 @@
+meta:
+  title: 'Fábrica y Fabricación — OEM Agroquímico | {SITE}'
+  description: 'Visita la fábrica de Agrospear: planta de 12.500 m² con mezcla, molienda, llenado, etiquetado y laboratorio de calidad para fabricación OEM/ODM de agroquímicos.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'fábrica agroquímica China'
+    - 'fábrica OEM agroquímica'
+    - 'visita fábrica protección de cultivos'
+    - 'planta de fabricación agroquímica'
+    - 'fábrica agroquímica Qingdao'
+
+hero:
+  tagline: Fábrica
+  title: 'Fábrica y Planta de Fabricación'
+  subtitle: 'Visita la fábrica de Agrospear — planta de 12.500 m² con mezcla, molienda, llenado, etiquetado y laboratorio de calidad para fabricación OEM/ODM en Qingdao, China.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'La fábrica de Agrospear en Qingdao (China) abarca 12.500 m² con 4 talleres especializados, más de 350 trabajadores y más de 20.000 toneladas de producción anual. Certificada ISO 9001, ISO 14001, BSCI e ICAMA. Cada lote se prueba de estabilidad a 54 °C durante 14 días, supera una lista de control de 100 puntos y conserva trazabilidad de materiales de 10 años. Producción OEM/ODM desde pilotos de 5 toneladas hasta lotes estándar de 20+ toneladas.'
+  verified: '2026-08'
+
+intro:
+  - Como división de fabricación de **Qingdao Vatrad Group Co., Ltd.**, Agrospear controla cada etapa desde el ingrediente activo bruto hasta el producto de protección de cultivos terminado. Nuestra planta en la Zona de Desarrollo Económico de Qingdao alberga talleres dedicados a la mezcla, molienda, llenado, etiquetado y ensayos de calidad.
+  - Al integrar el diseño de formulación, la ingeniería, la creación de prototipos, la fabricación y los ensayos bajo un mismo techo, eliminamos las ineficiencias de la fabricación por contrato y mantenemos el control directo sobre la calidad del producto, la selección de materias primas y los plazos de entrega.
+
+stats:
+  - value: 12,500 m²
+    label: Superficie de fabricación
+  - value: 350+
+    label: Trabajadores cualificados
+  - value: 20,000+
+    label: Toneladas producidas al año
+  - value: ISO 9001
+    label: Calidad certificada
+
+intelligence_cards:
+  - title: Capacidad de Producción
+    icon: C
+    icon_bg: blue
+    desc: 'Instalación de 12.500 m² que produce más de 20.000 toneladas/año. 350+ trabajadores, 2 turnos.'
+    metrics:
+      - label: MOQ
+        value: 'Muestra 1–4 t / Piloto 5 t / Volumen 20+'
+      - label: Plazo
+        value: '25–35 días'
+    link: /es/manufacturing/factory/capacity
+    link_label: 'Detalles de capacidad →'
+  - title: Laboratorio de Calidad y Ensayos
+    icon: Q
+    icon_bg: green
+    desc: 'Laboratorio de control de calidad independiente con HPLC, GC, analizador de tamaño de partícula y cámara de estabilidad. 4 fases de ensayo por lote.'
+    metrics:
+      - label: Estándares
+        value: 'ISO 9001, CIPAC, ICAMA'
+      - label: Estabilidad
+        value: '54 °C / 14 días por lote'
+    link: /es/manufacturing/factory/quality-lab
+    link_label: 'Procedimientos y equipo del laboratorio →'
+  - title: Capacidad OEM/ODM
+    icon: O
+    icon_bg: purple
+    desc: 'Formulación personalizada, embalaje con etiqueta privada, concentraciones a medida, etiquetado multilingüe y embalaje listo para exportación.'
+    metrics:
+      - label: Certificaciones
+        value: 'ISO 9001, ISO 14001, BSCI, ICAMA'
+      - label: Mercados de exportación
+        value: 'Más de 50 países'
+    link: /es/manufacturing/factory/oem-capability
+    link_label: 'Servicios OEM completos →'
+
+workshops_section:
+  tagline: Talleres
+  title: Talleres de Fabricación
+  workshops:
+    - title: Mezcla y Mezclado de Alto Corte
+      description: Taller de mezcla dedicado con mezcladores de alto corte y tanques de premezcla. Los mezcladores combinan ingredientes activos con dispersantes, emulsionantes y transportadores; los molinos de arena producen distribuciones de tamaño de partícula uniformes para formulaciones SC y WDG.
+      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      alt: Equipo de mezclado de alto corte en la fábrica agroquímica de Qingdao
+    - title: Molienda de Formulación y Molino de Arena
+      description: Los molinos de arena y molinos de cuentas logran distribuciones de tamaño de partícula objetivo (D50 1–5 μm para SC, D50 20–40 μm para WDG). Los secadores por aspersión y granuladores de lecho fluido producen gránulos WP y WDG.
+      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing.webp
+      alt: Línea de molienda de formulación en la fábrica agroquímica de Qingdao
+    - title: Llenado y Sellado
+      description: Máquinas de llenado automáticas para tambores, garrafas y botellas. Cada lote sigue una lista de verificación de llenado de 100 puntos firmada por el responsable.
+      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      alt: Línea de llenado automático en la fábrica agroquímica de Qingdao
+    - title: Etiquetado y Decoración
+      description: Máquinas de etiquetado automáticas para etiquetas GHS conformes multilingües. Codificadores de inyección de tinta para codificación de lote y fecha con trazabilidad completa.
+      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department-2.webp
+      alt: Taller de etiquetado en la fábrica agroquímica de Qingdao
+
+equipment_section:
+  tagline: Equipo
+  title: Equipo de Fabricación Principal
+  view_full: Ver la lista completa de equipos →
+  view_full_link: /es/manufacturing/factory/equipment
+  items:
+    - name: Sistema Automático de Pesaje y Dosificación
+      spec: Control PLC, precisión ±0,1%
+    - name: Mezclador de Alto Corte
+      spec: 3.000–10.000 rpm, para formulaciones SC/EC/SL
+    - name: Molino de Arena / Molino de Cuentas
+      spec: Tamaño de partícula 0,1–50 μm, para SC/WDG
+    - name: Línea Automática de Llenado
+      spec: Tambores de 20–200 L, botellas de 100–1000 mL
+    - name: Máquina de Etiquetado Automática
+      spec: Aplicación de etiquetas GHS multilingües
+
+qc_section:
+  tagline: Control de Calidad
+  title: Ensayos y Garantía de Calidad
+  subtitle: Cada lote se somete a ensayos obligatorios antes del envío. Nuestro laboratorio opera de forma independiente de la producción.
+  steps:
+    - step: '1'
+      title: Inspección de Materias Primas
+      desc: Análisis de pureza por HPLC/GC, perfilado de impurezas y verificación de propiedades físicas antes de la producción.
+    - step: '2'
+      title: Ensayo de Estabilidad de 14 días a 54 °C
+      desc: Cada lote se mantiene a 54 °C durante 14 días según CIPAC MT 46. Desviación de contenido activo superior a ±2% provoca rechazo automático.
+    - step: '3'
+      title: Verificación de Contenido Activo y Especificaciones
+      desc: Formulaciones analizadas para contenido activo por HPLC/GC y comprobadas en suspensibilidad, estabilidad de emulsión, pH, viscosidad y tamaño de partícula.
+
+oem_section:
+  tagline: Proyectos OEM
+  title: Casos de Éxito de Marcas y Asociaciones OEM
+  subtitle: 'Del concepto a la producción — cómo ayudamos a marcas globales a lanzar líneas de productos agroquímicos.'
+  cases:
+    - challenge: Un distribuidor europeo necesitaba una línea de herbicidas de etiqueta privada con formulaciones únicas e ingredientes conformes a REACH en 60 días.
+      solution: Desarrollamos formulaciones SC personalizadas, conseguimos ingredientes conformes a REACH y redujimos las muestras al ubicar al equipo en nuestra fábrica.
+      result: Producción de 25–35 días desde PO firmado. 200+ toneladas en 4 SKU. Pedido repetido antes de completar la primera tirada.
+      disclaimer: 'Resumen de proyecto anonimizado — el tipo y alcance son representativos; los resultados específicos no son verificables de forma independiente.'
+    - challenge: Una startup estadounidense necesitaba una formulación SC de insecticida con concentración personalizada y registro ICAMA.
+      solution: Adaptamos la formulación SC existente con proporción modificada de IA, desarrollamos embalaje co-marcado y proporcionamos documentación de registro ICAMA.
+      result: Más de 500 toneladas vendidas en el primer año con una tasa de reorden del 95%.
+      disclaimer: 'Resumen de proyecto anonimizado — el tipo y alcance son representativos; los resultados específicos no son verificables de forma independiente.'
+
+faq_section:
+  tagline: FAQ
+  title: 'Fábrica — Preguntas Frecuentes'
+  questions:
+    - q: ¿Cuál es el MOQ para formulaciones OEM?
+      a: 'El MOQ se confirma por configuración del proyecto. Volumen estándar 20+ toneladas por lote, pilotos desde 5 toneladas y cada proyecto pasa por muestras (1–4 toneladas) y etapas piloto.'
+    - q: ¿Qué certificaciones tiene la fábrica?
+      a: 'ISO 9001, ISO 14001, BSCI e ICAMA. Documentación completa de cumplimiento con cada envío OEM.'
+    - q: ¿Cuál es el plazo típico?
+      a: 'Plazo estándar de 25–35 días desde PO confirmado y depósito. El desarrollo a medida añade 15–20 días. Muestras de prototipo listas en 7–12 días.'
+    - q: ¿Gestionáis la documentación de exportación?
+      a: 'Sí. Gestionamos internamente la documentación de exportación y el despacho de aduanas, suministrando a más de 50 países.'
+
+production_flow:
+  tagline: Flujo de Producción
+  title: Del Material al Producto Terminado
+  subtitle: 'Cada lote pasa por 6 etapas de producción con puntos de control de calidad en cada paso.'
+  stages:
+    - stage: '01'
+      title: Recepción de Materiales y QC de Entrada
+      description: 'Todos los materiales registrados por número de lote. En cuarentena hasta el visto bueno del QC.'
+      qc_check: 'Pureza de IA (HPLC/GC), perfil de impurezas, pureza del solvente'
+    - stage: '02'
+      title: Mezcla y Premezcla
+      description: 'Loteado optimizado por ordenador con precisión de ±0,1%.'
+      qc_check: 'Verificación de peso, identidad de materia prima, uniformidad de premezcla'
+    - stage: '03'
+      title: Procesamiento de Formulación y Molienda
+      description: 'Mezclado de alto corte, molienda de arena, secado por aspersión y granulación.'
+      qc_check: 'Distribución de tamaño de partícula, viscosidad, pH, suspensibilidad'
+    - stage: '04'
+      title: Llenado y Embalaje
+      description: 'Lista de verificación de llenado y embalaje de 100 puntos por lote.'
+      qc_check: 'Peso de llenado, integridad del sellado, precisión de etiqueta, verificación de código de barras'
+    - stage: '05'
+      title: Ensayo de Estabilidad y Retención de Calidad
+      description: 'Ensayo de estabilidad a 54 °C de 14 días según CIPAC MT 46 en cada lote.'
+      qc_check: 'Contenido activo, suspensibilidad, pH, estabilidad física'
+    - stage: '06'
+      title: Inspección Final y Embalaje
+      description: 'Inspección visual y de especificaciones completa antes de la carga del contenedor.'
+      qc_check: 'Inspección visual, lista de etiquetas, integridad del embalaje, escaneo de código de barras'
+
+workforce:
+  tagline: Nuestra Gente
+  title: Plantilla y Experiencia
+  engineers: 25+
+  engineers_detail: 'Ingenieros en I+D, diseño de formulaciones, laboratorio analítico e ingeniería de producción. Media de más de 7 años en fabricación agroquímica.'
+  shift_pattern: '2 turnos/día. Turno nocturno opcional para pedidos urgentes.'
+
+material_traceability:
+  tagline: Trazabilidad
+  title: Seguimiento de Materiales y Control de Lotes
+  description: A cada lote de materia prima se le asigna un número de lote único en nuestro sistema ERP, permitiendo trazabilidad ascendente completa.
+  system: ERP a medida (sistema interno de Qingdao Vatrad Group) + etiquetas físicas de lote
+  coverage: 100% de los materiales de producción
+  records_retained: 10 años
+
+qc_dashboard:
+  tagline: Control de Calidad en Cifras
+  title: Métricas de Control de Calidad
+  stats:
+    - value: 100%
+      label: Lotes con ensayo de estabilidad
+      detail: Cada lote, cada especificación
+    - value: '±2%'
+      label: Desviación máxima permitida de contenido activo
+      detail: Tras ensayo de estabilidad a 54 °C de 14 días
+    - value: AQL 2.5
+      label: Umbral de defectos mayores
+      detail: Según la norma ISO 2859
+    - value: 14 días
+      label: Duración de la retención de estabilidad
+      detail: Cada lote a 54 °C según CIPAC MT 46
+
+process_cta:
+  title: Ver nuestro proceso de fabricación
+  desc: Sigue una formulación a través de cada etapa de producción.
+  label: Ver el proceso de producción →
+  link: /es/manufacturing/factory/process
+
+evidence_review:
+  tagline: 'Evidencia y Verificación'
+  title: 'Evidencia de Fábrica — Verificada'
+  body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Qingdao. Certificados, registros de QC y registros de trazabilidad están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
+
+cta:
+  title: 'Explora Nuestra Fábrica'
+  actions:
+    - text: Lista de Verificación de Auditoría de Fábrica
+      href: /es/manufacturing/factory-audit
+    - text: Inicia Tu Proyecto
+      href: /es/request-quote

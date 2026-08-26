@@ -31,12 +31,12 @@ test('robots disallows app/admin/api/docs + allows AI crawlers explicitly', () =
 })
 
 test('locale sitemap: single locale + lastmod + hreflang', () => {
-  const xml = buildLocaleSitemap(origin, 'en', [{ path: '/factory', lastmod: '2026-06-01' }])
-  expect(xml).toContain(`<loc>${origin}/factory</loc>`)
+  const xml = buildLocaleSitemap(origin, 'en', [{ path: '/manufacturing/factory', lastmod: '2026-06-01' }])
+  expect(xml).toContain(`<loc>${origin}/manufacturing/factory</loc>`)
   expect(xml).toContain('<lastmod>2026-06-01</lastmod>')
   expect(xml).toContain('hreflang="es-ES"')
-  expect(xml).toContain(`href="${origin}/es/factory"`)
-  expect(xml).not.toContain(`<loc>${origin}/es/factory</loc>`)
+  expect(xml).toContain(`href="${origin}/es/manufacturing/factory"`)
+  expect(xml).not.toContain(`<loc>${origin}/es/manufacturing/factory</loc>`)
 })
 
 test('sitemap index aggregates per-section files', () => {
@@ -55,8 +55,8 @@ test('sitemap lists both locales of public pages with hreflang', () => {
   expect(xml).toContain(`<loc>${origin}/es/solutions</loc>`)
   expect(xml).toContain(`<loc>${origin}/contact</loc>`)
   expect(xml).toContain(`<loc>${origin}/es/contact</loc>`)
-  expect(xml).toContain(`<loc>${origin}/product-development</loc>`)
-  expect(xml).toContain(`<loc>${origin}/es/product-development</loc>`)
+  expect(xml).toContain(`<loc>${origin}/solutions/custom-formulation</loc>`)
+  expect(xml).toContain(`<loc>${origin}/es/solutions/custom-formulation</loc>`)
   expect(xml).toContain('hreflang="en-US"')
   expect(xml).toContain('hreflang="es-ES"')
   expect(xml).toContain('hreflang="x-default"')
@@ -64,7 +64,7 @@ test('sitemap lists both locales of public pages with hreflang', () => {
   expect(xml).toContain(`<loc>${origin}/es/products</loc>`)
   expect(xml).toContain(`<loc>${origin}/solutions/co-branding</loc>`)
   expect(xml).toContain(`<loc>${origin}/es/solutions/co-branding</loc>`)
-  expect(xml).toContain(`<loc>${origin}/oem-manufacturing</loc>`)
+  expect(xml).toContain(`<loc>${origin}/solutions/agrochemical-oem</loc>`)
   expect(xml).not.toContain(`<loc>${origin}/custom-sup-manufacturing</loc>`)
   expect(xml).not.toContain(`<loc>${origin}/solutions/custom-sup</loc>`)
 })

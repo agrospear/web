@@ -99,19 +99,19 @@ test('hasLocaleVariant covers registry, faq and sidecar content', () => {
   expect(hasLocaleVariant('/products/does-not-exist', 'es')).toBe(false)
 })
 
-test('product-development page: registered EN+ES with structured sections', () => {
-  const en = getContentPage('/product-development')
+test('solutions/custom-formulation page: registered EN+ES with structured sections', () => {
+  const en = getContentPage('/solutions/custom-formulation')
   expect(en).toBeDefined()
   expect(en!.meta?.title).toContain('Formulation')
   const types = en!.sections.map((s) => s.type)
   expect(types).toContain('hero')
   expect(types).toContain('faqs')
   expect(types).toContain('cta')
-  const esPage = getContentPage('/product-development', 'es')
+  const esPage = getContentPage('/solutions/custom-formulation', 'es')
   expect(esPage?.meta?.title).not.toBe(en?.meta?.title)
-  expect(hasLocaleVariant('/product-development', 'es')).toBe(true)
-  expect(getPublicPaths()).toContain('/product-development')
-  expect(getLocalePaths('es')).toContain('/product-development')
+  expect(hasLocaleVariant('/solutions/custom-formulation', 'es')).toBe(true)
+  expect(getPublicPaths()).toContain('/solutions/custom-formulation')
+  expect(getLocalePaths('es')).toContain('/solutions/custom-formulation')
 })
 
 test('oem-trust-assurance page: registered EN+ES with structured sections', () => {

@@ -1,0 +1,74 @@
+meta:
+  title: 'Proceso de formulación de pesticidas — Del AI al producto terminado | {SITE}'
+  description: 'Proceso de formulación de pesticidas Agrospear: mezclado, molienda, llenado, etiquetado y control de calidad desde ingrediente activo hasta producto terminado bajo tu marca.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'proceso de formulación de pesticidas'
+    - 'mezclado agroquímico'
+    - 'llenado y etiquetado'
+    - 'fabricación de fitosanitarios'
+    - 'producción de formulación'
+
+hero:
+  tagline: 'Fabricación · Formulación'
+  title: 'Proceso de Formulación de Pesticidas'
+  subtitle: 'Nuestro proceso de formulación integral transforma ingredientes activos en productos terminados con tu marca — desde el mezclado y la molienda hasta el llenado y la liberación de calidad.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Nuestro proceso de formulación cubre cada etapa desde el ingrediente activo hasta el producto terminado: mezclado (mezcla de IA con coformulantes), molienda (reducción de tamaño de partícula para SC/WP/WDG), llenado (líneas automatizadas de líquido y polvo), etiquetado (tu marca en cada envase) y liberación de calidad (QC por lote antes del envío). Seis líneas de producción manejan formas dosage SC, EC, WP, WDG, SL, ME, CS y FS.'
+  verified: '2026-08'
+
+intro:
+  - El camino desde el ingrediente activo hasta un producto agroquímico terminado con marca implica ingeniería de formulación precisa en cada etapa. Cada paso — mezclado, molienda, llenado, etiquetado y liberación de calidad — está controlado y documentado para asegurar consistencia lote a lote.
+  - Nuestras seis líneas de producción están configuradas para todas las formas dosage agroquímicas principales: concentrados en suspensión (SC), concentrados emulsionables (EC), polvos mojables (WP), gránulos dispersables en agua (WDG), líquidos solubles (SL), microemulsiones (ME), suspensiones encapsuladas (CS) y concentrados fluidos para tratamiento de semillas (FS).
+
+capabilities:
+  tagline: 'Capacidades'
+  title: 'Etapas del Proceso de Formulación'
+  features:
+    - icon: F
+      icon_bg: green
+      title: 'Mezclado'
+      desc: 'Mezcla de ingrediente activo con coformulantes, adyuvantes y portadores bajo temperatura y condiciones de mezcla controladas. Sistemas de dosificación precisa aseguran concentración exacta de IA en cada lote.'
+      link_label: 'Ver detalles'
+      href: /es/manufacturing/pesticide-formulation
+    - icon: F
+      icon_bg: blue
+      title: 'Molienda'
+      desc: 'Reducción de tamaño de partícula para formulaciones SC, WP y WDG. Molienda con molino de perlas para concentrados en suspensión (objetivo D90 < 5 μm), molino jet para polvos mojables y granulación en lecho fluidizado para WDG.'
+      link_label: 'Ver detalles de molienda'
+      href: /es/manufacturing/pesticide-formulation
+    - icon: F
+      icon_bg: purple
+      title: 'Llenado y embalaje'
+      desc: 'Líneas de llenado automatizadas para formulaciones líquidas (SC, EC, SL, ME, CS, FS) y en polvo (WP, WDG). Verificación de volumen y peso en cada envase. Llenado en sala limpia para formulaciones de alta pureza.'
+      link_label: 'Ver detalles de llenado'
+      href: /es/manufacturing/pesticide-formulation
+    - icon: F
+      icon_bg: orange
+      title: 'Etiquetado y marca'
+      desc: 'Tu marca en cada envase: aplicación de etiqueta personalizada, codificación de lote, fecha de caducidad y marcados de cumplimiento regulatorio. Aprobación de prueba de etiqueta antes de la producción.'
+      link_label: 'Ver detalles de marca'
+      href: /es/manufacturing/packaging
+
+faqs:
+  tagline: FAQ
+  title: 'Proceso de formulación — Preguntas frecuentes'
+  items:
+    - q: '¿Qué formas dosage podéis producir?'
+      a: 'Concentrado en suspensión (SC), concentrado emulsionable (EC), polvo mojable (WP), gránulo dispersable en agua (WDG), líquido soluble (SL), microemulsión (ME), suspensión encapsulada (CS) y concentrado fluido para tratamiento de semillas (FS). Seis líneas de producción dedicadas cubren todas las formas dosage principales.'
+    - q: '¿Cómo se controla el tamaño de partícula en formulaciones SC?'
+      a: 'Molienda con molino de perlas con múltiples pasadas para lograr D90 < 5 μm. Monitoreo de tamaño de partícula en proceso durante la molienda, con análisis final por difracción láser antes del llenado.'
+    - q: '¿Qué controles de calidad se realizan durante la producción?'
+      a: 'Monitoreo en proceso incluye verificación de peso, registro de temperatura, control de tiempo de mezcla, medición de tamaño de partícula, comprobación de viscosidad y pH, y verificación de peso de llenado. Cada comprobación se registra en el registro de producción del lote.'
+    - q: '¿Cuánto tarda una producción?'
+      a: 'La producción en 25–35 días tras PO y depósito confirmados para formulaciones existentes. Las formulaciones nuevas que requieren desarrollo añaden 35–55 días para análisis de laboratorio, producción piloto y pruebas de estabilidad.'
+
+cta:
+  title: 'Comenta tus requisitos de formulación'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Fabricación
+      href: /es/manufacturing

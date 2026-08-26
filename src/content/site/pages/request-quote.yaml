@@ -1,0 +1,93 @@
+meta:
+  title: 'Request a Quote — Agrochemical OEM/ODM Manufacturing | {SITE}'
+  description: 'Request a quote for custom agrochemical manufacturing. Submit your project brief for OEM/ODM formulation, private label, or bulk supply. Response within one business day.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical quote'
+    - 'OEM agrochemical quotation'
+    - 'ODM crop protection quote'
+    - 'private label pesticide quote'
+    - 'agrochemical manufacturing quote'
+
+hero:
+  tagline: Get a Quote
+  title: 'Request a Quote — Agrochemical OEM/ODM Manufacturing'
+  subtitle: 'Submit your project brief for OEM/ODM formulation, private label or bulk supply. Our team reviews and returns a detailed quotation within one business day.'
+
+answer:
+  label: 'What happens next'
+  text: 'After you submit a project brief, you receive a response within one business day. An NDA is available before you share proprietary details. R&D reviews your brief and returns an itemized quotation with MOQ, sample fees and a gate-by-gate timeline — typically 7–12 days for samples and 6–8 weeks for first production from confirmed PO. Sample fees are credited toward your production order. No commitment until you sign.'
+  verified: '2026-08'
+
+process_steps:
+  tagline: The Process
+  title: 'From Brief to Quotation — Five Steps'
+  subtitle: 'Every step has a defined timeline, a documented deliverable and a go/no-go checkpoint. You proceed only when you are ready.'
+  steps:
+    - step: 'Step 1'
+      title: 'Submit Your Project Brief'
+      desc: 'Tell us about your product — target active ingredient, concentration, formulation type, volume, compliance needs and timeline. The brief takes 5–10 minutes. If you are not sure about every detail, share what you have and we will guide the rest. An NDA is available before you share proprietary formulations.'
+    - step: 'Step 2'
+      title: 'NDA & Feasibility Review (1–5 Days)'
+      desc: 'We sign an NDA if requested, then R&D reviews your brief against manufacturing capability, raw material availability and compliance scope. You receive an itemized quotation with MOQ calculation, sample fees and a gate-by-gate timeline.'
+    - step: 'Step 3'
+      title: 'Sample & Approval (7–21 Days)'
+      desc: '1–4 ton prototype batch produced to your specification. You evaluate — composition accuracy, physical properties, label accuracy, packaging fitment. Adjustments are captured in a revised BOM. Sample fees are credited toward production.'
+    - step: 'Step 4'
+      title: 'Pre-Production Planning (7 Days)'
+      desc: 'Raw materials procurement, equipment setup, packaging confirmation and production slot reservation. All materials are incoming-inspected against the frozen BOM. A production schedule with QC gate dates is issued before manufacturing begins.'
+    - step: 'Step 5'
+      title: 'Production, QC & Shipping (4–6 Weeks)'
+      desc: 'Manufacturing runs through the 7-stage inspection gate system with pass/fail criteria at each gate. Export-grade packing, compliance documentation and ocean freight coordination to 50+ countries. Post-delivery review captures refinements for the next order.'
+
+collaboration_types:
+  tagline: Choose Your Path
+  title: 'Three Ways to Work with Agrospear'
+  subtitle: 'Every project goes through the same process — what changes is the R&D scope and where IP ownership sits.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'OEM Manufacturing'
+      desc: 'You provide the formulation. We manufacture to your spec. You own all IP. Best for brands with proven formulations.'
+      link_label: 'See OEM details'
+      href: /solutions/agrochemical-oem
+    - icon: D
+      icon_bg: green
+      title: 'ODM Development'
+      desc: 'You provide the brief. We develop the formulation. Adapted platform with your branding. Best for brands entering the market without in-house R&D.'
+      link_label: 'See ODM details'
+      href: /solutions/custom-formulation
+    - icon: P
+      icon_bg: purple
+      title: 'Private Label'
+      desc: 'Your brand on a proven platform. No R&D stage. Lower MOQ quantities. Best for distributors and cooperatives.'
+      link_label: 'See Private Label options'
+      href: /solutions/private-label-pesticides
+
+faqs:
+  tagline: FAQ
+  title: 'Requesting a Quote — Frequently Asked Questions'
+  items:
+    - q: 'What information do I need to provide?'
+      a: 'Your business type, target product specifications (active ingredient, concentration, formulation type), order quantity range, timeline and any compliance requirements. The brief takes 5–10 minutes. If you are unsure about any field, skip it — we will follow up.'
+    - q: 'How quickly will I receive a response?'
+      a: 'You receive a response within one business day. R&D reviews your brief and returns an itemized quotation with MOQ, sample fees and a gate-by-gate timeline.'
+    - q: 'Is my formulation protected?'
+      a: 'Yes. An NDA is available immediately — before you share any proprietary information. We manufacture exclusively under our clients'' brands and never compete with them.'
+    - q: 'What is the minimum order to start?'
+      a: 'The entry point is tiered: 1–4 ton samples first (7–12 days), a trial order of 5 tons (25–35 days), then standard volume runs of 20+ tons per approved configuration.'
+    - q: 'Do sample fees apply?'
+      a: 'Sample fees are quoted at the feasibility review stage and credited toward your production order. No commitment is required until you review and sign the contract.'
+
+cta:
+  title: 'Ready to Get Started?'
+  subtitle: 'Submit your project brief — product specs, volume and timeline — and we will confirm feasibility, produce samples and deliver a production schedule with documented QC at every step.'
+  actions:
+    - variant: primary
+      text: 'Submit Your Project Brief'
+      href: /contact#project-brief
+    - text: 'Read the full onboarding guide'
+      href: /oem-onboarding-guide
+    - text: 'Verify the factory & quality system'
+      href: /proof-center

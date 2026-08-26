@@ -1,0 +1,72 @@
+meta:
+  title: 'Formulaciones de insecticida personalizadas — Fabricante OEM | {SITE}'
+  description: 'Formulaciones de insecticida personalizadas para marcas de fitosanitarios — modos de acción sistémicos y de contacto, tipos SC/EC/CS/ME, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'formulación insecticida'
+    - 'insecticida OEM'
+    - 'insecticida sistémico'
+    - 'insecticida de contacto'
+    - 'fabricación insecticida'
+
+hero:
+  tagline: 'Productos · Insecticidas'
+  title: 'Formulaciones de Insecticida'
+  subtitle: 'Formulaciones de insecticida personalizadas para marcas de fitosanitarios — modos sistémicos y de contacto, desde lotes piloto de 5 toneladas hasta producción completa. Directo de fábrica en Qingdao, China.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Fabricamos formulaciones de insecticida personalizadas bajo tu marca: neonicotinoides sistémicos, piretroides de contacto y nuevos modos de acción en formas dosage SC, EC, CS, ME, WDG y FS. Lotes piloto desde 5 toneladas; producción estándar desde 20+ toneladas por SKU.'
+  verified: '2026-08'
+
+intro:
+  - Los insecticidas son el segundo segmento más grande de la protección de cultivos y el de mayor crecimiento en muchos mercados tropicales y subtropicales. Las neonicotinoides sistémicas, los piretroides de contacto y los nuevos modos de acción exigen una experiencia precisa de formulación.
+  - Producimos formulaciones de insecticida bajo tu marca con sistemas de coadyuvantes optimizados, perfiles de estabilidad probados y documentación lista para el registro.
+
+product_highlights:
+  tagline: 'Productos destacados'
+  title: 'Ingredientes activos insecticidas principales'
+  features:
+    - icon: I
+      icon_bg: green
+      title: 'Imidacloprid 350 SC / 200 SL'
+      desc: 'Neonicotinoide sistémico para control de plagas chupadoras. Aplicaciones foliares y tratamiento de semillas.'
+      link_label: 'Ver detalles'
+      href: /es/products/insecticides
+    - icon: I
+      icon_bg: blue
+      title: 'Abamectina 18 EC / 36 SC'
+      desc: 'Acaricida-insecticida de amplio espectro para control de ácaros y minadores. Baja toxicidad mamaria.'
+      link_label: 'Ver detalles'
+      href: /es/products/insecticides
+    - icon: I
+      icon_bg: purple
+      title: 'Emamectina Benzoato 5 WDG / 19 EC'
+      desc: 'Especialista lepidóptero para control de heliothis y barrenadores. Dosis de aplicación extremadamente baja.'
+      link_label: 'Ver detalles'
+      href: /es/products/insecticides
+    - icon: I
+      icon_bg: orange
+      title: 'Lambda-Cialotrina 25 EC / 50 CS'
+      desc: 'Piretroide de acción rápida para derribo y control residual. Disponible en EC y suspensión encapsulada.'
+      link_label: 'Ver detalles'
+      href: /es/products/insecticides
+
+faqs:
+  tagline: FAQ
+  title: 'Formulaciones de insecticida — Preguntas frecuentes'
+  items:
+    - q: '¿Qué tipos de formulación de insecticida fabricáis?'
+      a: 'Concentrado en suspensión (SC), concentrado emulsionable (EC), suspensión encapsulada (CS), microemulsión (ME), gránulo dispersable en agua (WDG) y tratamiento de semillas (FS).'
+    - q: '¿Las formulaciones de insecticida requieren pruebas de estabilidad especiales?'
+      a: 'Sí — los insecticidas con sistemas de coadyuvantes complejos se someten a pruebas de estabilidad acelerada de 54 °C/14 días y almacenamiento a largo plazo de 2 años.'
+    - q: '¿Puedo pedir formulaciones para complejos de plagas específicos?'
+      a: 'Sí. Las formulaciones se adaptan a espectros de plagas objetivo con el ingrediente activo, concentración y paquete de coadyuvantes adecuados.'
+
+cta:
+  title: 'Inicia tu proyecto de insecticida'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Ver todos los productos
+      href: /es/products

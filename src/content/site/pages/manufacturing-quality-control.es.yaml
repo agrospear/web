@@ -1,0 +1,75 @@
+meta:
+  title: 'Control de calidad y ensayos — Marco de QC de 7 etapas | {SITE}'
+  description: 'Control de calidad de Agrospear: marco de inspección de 7 etapas, análisis del 100% de lotes, pruebas de estabilidad CIPAC, inspección de terceros y registro de documentos controlados.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'control calidad agroquímico'
+    - 'marco QC'
+    - 'análisis por lote'
+    - 'pruebas estabilidad CIPAC'
+    - 'inspección terceros'
+    - 'calidad fitosanitarios'
+
+hero:
+  tagline: 'Fabricación · Calidad'
+  title: 'Control de Calidad y Ensayos'
+  subtitle: 'Nuestro marco de control de calidad de 7 etapas asegura que cada lote cumple la especificación — análisis del 100% de lotes, pruebas de estabilidad CIPAC y trazabilidad documentada controlada.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Nuestro sistema de control de calidad opera un marco de inspección de 7 etapas: verificación de materia prima, monitorización en proceso, ensayo de contenido activo, pruebas de propiedades físicas, inspección pre-embarque, documentación por lote y liberación controlada. Análisis del 100% de lotes con estabilidad CIPAC y pruebas de especificación. No conformidad = cuarentena y disposición. Inspección de terceros (SGS, TÜV, BV, Intertek) disponible a petición.'
+  verified: '2026-08'
+
+intro:
+  - La calidad no es una ocurrencia tardía en Agrospear — está integrada en cada etapa de producción. Nuestro marco de inspección de 7 etapas asegura que cada lote cumple la especificación antes de salir de fábrica, con trazabilidad completa desde la materia prima hasta el producto terminado.
+  - Operamos análisis del 100% de lotes con pruebas de estabilidad CIPAC, gestión documentada controlada y retenciones de calidad obligatorias. Los productos no conformes se ponen en cuarentena, se investigan y se disponen — nunca se envían.
+
+capabilities:
+  tagline: 'Capacidades'
+  title: 'Capacidades de control de calidad'
+  features:
+    - icon: Q
+      icon_bg: green
+      title: 'Marco de QC de 7 etapas'
+      desc: 'Verificación de materia prima → monitorización en proceso → ensayo de contenido activo → pruebas de propiedades físicas → inspección pre-embarque → documentación por lote → liberación controlada. Cada lote pasa las siete etapas.'
+      link_label: 'Ver marco de QC'
+      href: /es/manufacturing/quality-control
+    - icon: Q
+      icon_bg: blue
+      title: 'Análisis y pruebas por lote'
+      desc: 'El 100% de los lotes de producción se analizan para contenido activo (HPLC/GC), suspensibilidad, estabilidad de emulsión, pH, viscosidad y tamaño de partícula. Certificado de análisis emitido por lote.'
+      link_label: 'Ver detalles de pruebas'
+      href: /es/manufacturing/quality-control
+    - icon: Q
+      icon_bg: purple
+      title: 'Pruebas de estabilidad'
+      desc: 'Estabilidad acelerada CIPAC MT 46 a 54 °C/14 días en cada lote. Estudios de estabilidad a largo plazo a 25 °C y 30 °C para registro. Desviación de contenido activo superior a ±2% provoca rechazo automático.'
+      link_label: 'Ver protocolos de estabilidad'
+      href: /es/manufacturing/quality-control
+    - icon: Q
+      icon_bg: orange
+      title: 'Inspección de terceros'
+      desc: 'Inspección pre-embarque y durante la producción por SGS, TÜV, BV o Intertek disponible a petición. Verificación independiente de calidad, cantidad y cumplimiento del embalaje.'
+      link_label: 'Ver apoyo a inspección'
+      href: /es/manufacturing/quality-control
+
+faqs:
+  tagline: FAQ
+  title: 'Control de calidad — Preguntas frecuentes'
+  items:
+    - q: '¿Qué cubre el marco de QC de 7 etapas?'
+      a: 'Verificación de materia prima (pureza e identidad), monitorización en proceso (peso, temperatura, tiempo de mezcla), ensayo de contenido activo (HPLC/GC), pruebas de propiedades físicas (suspensibilidad, pH, viscosidad), inspección pre-embarque (visual, etiquetado, embalaje), documentación por lote (CoA, CoO, informe de estabilidad) y liberación controlada (aprobación de QA antes del envío).'
+    - q: '¿Se prueba realmente cada lote?'
+      a: 'Sí — el 100% de los lotes de producción se someten a análisis de contenido activo, pruebas de propiedades físicas y pruebas de estabilidad acelerada a 54 °C/14 días. Ningún lote se envía sin un certificado de análisis completado firmado por el Director de QA.'
+    - q: '¿Qué ocurre cuando un lote no supera el QC?'
+      a: 'Los lotes no conformes se ponen en cuarentena inmediatamente. El equipo de QC investiga la causa raíz, documenta los hallazgos y determina la disposición: retrabajo (bajo procedimiento controlado y con reinspección) o rechazo. Los lotes retrabajados se reanalizan completamente — nunca parcialmente.'
+    - q: '¿Puedo solicitar inspección de terceros?'
+      a: 'Sí. Apoyamos inspecciones pre-embarque, durante la producción y de carga de contenedor por SGS, TÜV, BV o Intertek. Los calendarios de inspección pueden escribirse en el contrato y proporcionamos acceso completo a los registros de producción, datos de QC y documentación por lote para el inspector.'
+
+cta:
+  title: 'Solicitar documentación de calidad'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Vista general de fabricación
+      href: /es/manufacturing

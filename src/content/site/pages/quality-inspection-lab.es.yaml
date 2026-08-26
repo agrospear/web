@@ -142,7 +142,7 @@ cta:
       text: Solicitar la lista de QC
       href: /es/contact#quality-inquiry
     - text: El sistema de inspección de 7 etapas
-      href: /es/quality
+      href: /es/manufacturing/quality-control
     - text: Laboratorio de calidad de fábrica y descargas
       href: /es/factory/quality-lab
     - text: Estándar de control de producto no conforme

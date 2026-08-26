@@ -110,7 +110,7 @@ intelligence_cards:
         value: '01 → 07'
       - label: Descargas
         value: 'Dosieres de informes por puerta (PDF)'
-    link: /es/quality
+    link: /es/manufacturing/quality-control
     link_label: 'Ver el flujo de 7 etapas →'
 
 workshops_section:
@@ -344,4 +344,4 @@ cta:
   title: 'Explora nuestra fábrica'
   actions:
     - text: Lista de Verificación de Auditoría de Fábrica
-      href: /es/factory-audit-checklist
+      href: /es/manufacturing/factory-audit

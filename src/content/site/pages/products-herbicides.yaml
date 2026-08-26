@@ -1,0 +1,75 @@
+meta:
+  title: 'Herbicide Formulations — OEM/ODM Crop Protection | {SITE}'
+  description: 'Custom herbicide formulations manufactured under your brand — selective & non-selective, SC/EC/WP/WDG types, OEM/ODM from 5-ton pilot. Factory direct from Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'herbicide formulation'
+    - 'custom herbicide OEM'
+    - 'selective herbicide'
+    - 'non-selective herbicide'
+    - 'glyphosate formulation'
+    - 'herbicide manufacturing'
+
+hero:
+  tagline: 'Products · Herbicides'
+  title: 'Herbicide Formulations'
+  subtitle: 'Custom herbicide formulations manufactured under your brand — selective and non-selective, from 5-ton pilot batches to full-scale production. Factory direct from Qingdao, China.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We manufacture custom herbicide formulations under your brand: selective post-emergence, non-selective broad-spectrum, and pre-emergent residual products in SC, EC, WP, WDG and SL dosage forms. Pilot batches from 5 tons; standard production from 20+ tons per SKU. Samples ready in 7–15 days.'
+  verified: '2026-08'
+
+intro:
+  - Herbicides are the workhorse of crop protection: the largest segment by volume, the default starting category for new brands and the backbone of most distributor catalogs. Whether selective post-emergence for cereals or non-selective glyphosate for broad-acre, herbicide demand is consistent and volume-driven.
+  - We manufacture herbicide formulations under your brand from 20+ tons (standard volume), with pilot runs from 5 tons. Active ingredient, formulation type (SC, EC, WP, WDG, SL), adjuvant system, label design and packaging are specified per project.
+
+product_highlights:
+  tagline: 'Featured Products'
+  title: 'Core Herbicide Active Ingredients'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Glyphosate 480 SL / 41% SL'
+      desc: 'Non-selective systemic herbicide for broad-acre weed control. Available in SL and ammonium salt formulations. The highest-volume herbicide globally.'
+      link_label: 'View formulation details'
+      href: /products/herbicides
+    - icon: H
+      icon_bg: blue
+      title: 'Glufosinate 200 SL'
+      desc: 'Non-selective contact herbicide for burndown and desiccation. Growing demand as glyphosate alternative in resistant weed management.'
+      link_label: 'View formulation details'
+      href: /products/herbicides
+    - icon: H
+      icon_bg: purple
+      title: '2,4-D 720 EC / 860 SL'
+      desc: 'Selective systemic herbicide for broadleaf weed control in cereals and corn. Available in ester and amine salt formulations.'
+      link_label: 'View formulation details'
+      href: /products/herbicides
+    - icon: H
+      icon_bg: orange
+      title: 'Atrazine 80 WDG / 500 SC'
+      desc: 'Selective pre- and post-emergence herbicide for corn and sorghum. Residual soil activity for season-long weed suppression.'
+      link_label: 'View formulation details'
+      href: /products/herbicides
+
+faqs:
+  tagline: FAQ
+  title: 'Herbicide Formulations — Frequently Asked Questions'
+  items:
+    - q: 'Can I customize a herbicide formulation for my brand?'
+      a: 'Yes. Every herbicide project starts with your target crop, weed spectrum and market registration status. You specify the active ingredient, concentration, formulation type (SC, EC, WP, WDG, SL, ME), adjuvant package, label design and packaging. Custom formulations start at 5-ton pilot batches; standard volume production from 20+ tons per SKU.'
+    - q: 'What is the MOQ for herbicide formulations?'
+      a: 'Pilot batches start at 5 tons per formulation; standard volume production from 20+ tons per SKU. Sample batches (1–4 tons) are available for registration and field trial purposes. Samples ship in 7–15 days and bulk production runs 25–35 days after confirmed PO and deposit.'
+    - q: 'What formulation types are available for herbicides?'
+      a: 'Suspension concentrate (SC), emulsifiable concentrate (EC), wettable powder (WP), water-dispersible granule (WDG), soluble liquid (SL), micro-emulsion (ME) and capsule suspension (CS). The optimal type depends on the active ingredient, target application method and your market preference.'
+    - q: 'Do you provide herbicide registration documentation?'
+      a: 'Yes. We supply complete registration support packages: ICAMA certificates, FAO/WHO specification compliance, five-batch analysis, stability data, toxicology summaries and local registration dossiers. Documentation is tailored to your target market requirements.'
+
+cta:
+  title: 'Start Your Herbicide Project'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: See all products
+      href: /products

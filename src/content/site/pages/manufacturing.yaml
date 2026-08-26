@@ -1,0 +1,82 @@
+meta:
+  title: 'Manufacturing — Agrochemical OEM & ODM Factory | {SITE}'
+  description: 'Agrospear manufacturing: 12,500 m² agrochemical factory in Qingdao, China. OEM/ODM formulation, production, quality control and export for crop protection brands.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical manufacturing'
+    - 'OEM agrochemical factory'
+    - 'ODM crop protection'
+    - 'agrochemical production China'
+    - 'crop protection manufacturing'
+
+hero:
+  tagline: Manufacturing
+  title: 'Agrochemical Manufacturing Hub'
+  subtitle: '12,500 m² agrochemical factory in Qingdao, China — OEM/ODM formulation, production, quality control and export for crop protection brands worldwide.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Agrospear operates a 12,500 m² agrochemical factory in Qingdao, China with 350+ workers, 6 production lines and 20,000+ tons annual output. ISO 9001, ISO 14001, BSCI and ICAMA certified. OEM/ODM services from 5-ton pilot to 20+ ton standard batches, shipped to 50+ countries. Every batch is stability-tested at 54°C for 14 days with full material traceability.'
+  verified: '2026-08'
+
+intro:
+  - As the manufacturing division of **Qingdao Vatrad Group Co., Ltd.**, Agrospear controls every stage of agrochemical manufacturing — from raw active ingredient to finished crop protection product. Our facility houses dedicated workshops for compounding, grinding, filling, labeling and quality testing under one roof.
+  - By integrating formulation design, engineering, prototyping, manufacturing and testing, we eliminate the inefficiencies of contract manufacturing and maintain direct control over product quality, raw material selection and delivery timelines.
+
+stats:
+  - value: 12,500 m²
+    label: Manufacturing floor
+  - value: 350+
+    label: Skilled workers
+  - value: 20,000+
+    label: Tons produced annually
+  - value: 6
+    label: Production lines
+
+sub_page_cards:
+  - title: Factory & Plant Tour
+    icon: F
+    icon_bg: blue
+    desc: 'Full factory overview: workshops, equipment, production flow, workforce, material traceability and QC dashboard for the Qingdao manufacturing plant.'
+    metrics:
+      - label: Floor
+        value: '12,500 m²'
+      - label: Workers
+        value: '350+'
+    link: /manufacturing/factory
+    link_label: 'Explore the factory →'
+  - title: Agrochemical Manufacturing Process
+    icon: M
+    icon_bg: green
+    desc: 'End-to-end manufacturing process: compounding, grinding, filling, labeling, QC and shipping. OEM/ODM from 5-ton pilot to standard volume.'
+    metrics:
+      - label: MOQ
+        value: 'Pilot 5 tons / Volume 20+'
+      - label: Lead Time
+        value: '25–35 days'
+    link: /manufacturing/agrochemical-manufacturing
+    link_label: 'See the process →'
+
+faqs:
+  tagline: FAQ
+  title: 'Manufacturing — Frequently Asked Questions'
+  items:
+    - q: 'What manufacturing capabilities does Agrospear have?'
+      a: '12,500 m² factory with 6 production lines, 350+ workers and 20,000+ tons annual capacity. We compound, grind, fill, label and ship agrochemical products across SC, EC, WP, WDG, SL, ME, CS and FS formulations with ISO 9001 and ICAMA certification.'
+    - q: 'What is the MOQ for manufacturing?'
+      a: 'MOQ is confirmed by project configuration: sample batches 1–4 tons, pilot runs from 5 tons, standard volume production 20+ tons per batch. Production lead time is 25–35 days from confirmed PO.'
+    - q: 'Does Agrospear handle export?'
+      a: 'Yes. We ship to 50+ countries with in-house export documentation, customs clearance and FOB Qingdao, CIF or DDP terms.'
+    - q: 'How is quality controlled?'
+      a: 'Every batch passes a 7-stage inspection gate system with stability testing at 54°C for 14 days, active content verification by HPLC/GC, and 10-year ERP batch traceability.'
+
+cta:
+  title: 'Explore Our Manufacturing'
+  actions:
+    - variant: primary
+      text: 'Tour the Factory'
+      href: /manufacturing/factory
+    - text: 'See Manufacturing Process'
+      href: /manufacturing/agrochemical-manufacturing
+    - text: 'Start Your Project'
+      href: /request-quote

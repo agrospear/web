@@ -15,7 +15,7 @@ hero:
   subtitle: 'One page that maps every claim on this site to its evidence: the registered entity behind the factory, certificates with scope, the machines that do the work, and the batch records that survive each production run.'
   actions:
     - { variant: primary, text: 'Request Verification Pack', href: '/contact#trust-verification' }
-    - { variant: ghost, text: 'Explore the Quality System', href: '/quality' }
+    - { variant: ghost, text: 'Explore the Quality System', href: '/manufacturing/quality-control' }
 
 answer:
   label: 'Straight answer'
@@ -166,4 +166,4 @@ cta:
     - text: Brand Identity
       href: /about/identity
     - text: Factory Audit Checklist
-      href: /factory-audit-checklist
+      href: /manufacturing/factory-audit

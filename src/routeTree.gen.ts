@@ -22,8 +22,7 @@ import { Route as SeedTreatmentRouteImport } from './routes/seed-treatment'
 import { Route as SearchIndexDotjsonRouteImport } from './routes/search-index[.]json'
 import { Route as RssDotxmlRouteImport } from './routes/rss[.]xml'
 import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
-import { Route as RanddcenterRouteImport } from './routes/randdcenter'
-import { Route as QualityRouteImport } from './routes/quality'
+import { Route as RequestQuoteRouteImport } from './routes/request-quote'
 import { Route as ProofCenterRouteImport } from './routes/proof-center'
 import { Route as ProductDevelopmentRouteImport } from './routes/product-development'
 import { Route as PgrRouteImport } from './routes/pgr'
@@ -50,7 +49,6 @@ import { Route as FungicideRouteImport } from './routes/fungicide'
 import { Route as FormulationTypeComparisonRouteImport } from './routes/formulation-type-comparison'
 import { Route as FormulationSelectorRouteImport } from './routes/formulation-selector'
 import { Route as FaqRouteImport } from './routes/faq'
-import { Route as FactoryAuditChecklistRouteImport } from './routes/factory-audit-checklist'
 import { Route as FactoryRouteImport } from './routes/factory'
 import { Route as EntityDotjsonRouteImport } from './routes/entity[.]json'
 import { Route as CropProtectionSolutionsRouteImport } from './routes/crop-protection-solutions'
@@ -62,6 +60,7 @@ import { Route as AgrochemicalCertificationGuideRouteImport } from './routes/agr
 import { Route as SplatRouteImport } from './routes/$'
 import { Route as Char123LocaleChar125RouteRouteImport } from './routes/{-$locale}/route'
 import { Route as Char123LocaleChar125IndexRouteImport } from './routes/{-$locale}/index'
+import { Route as ManufacturingIndexRouteImport } from './routes/manufacturing/index'
 import { Route as Char123LocaleChar125WhoWeServeRouteImport } from './routes/{-$locale}/who-we-serve'
 import { Route as Char123LocaleChar125WaitlistRouteImport } from './routes/{-$locale}/waitlist'
 import { Route as Char123LocaleChar125TermsRouteImport } from './routes/{-$locale}/terms'
@@ -79,6 +78,13 @@ import { Route as Char123LocaleChar125CustomSupManufacturingRouteImport } from '
 import { Route as Char123LocaleChar125CustomSupDevelopmentRouteImport } from './routes/{-$locale}/custom-sup-development'
 import { Route as Char123LocaleChar125ContactRouteImport } from './routes/{-$locale}/contact'
 import { Route as Char123LocaleChar125ChangelogRouteImport } from './routes/{-$locale}/changelog'
+import { Route as ManufacturingResearchDevelopmentRouteImport } from './routes/manufacturing/research-development'
+import { Route as ManufacturingQualityControlRouteImport } from './routes/manufacturing/quality-control'
+import { Route as ManufacturingPesticideFormulationRouteImport } from './routes/manufacturing/pesticide-formulation'
+import { Route as ManufacturingPackagingRouteImport } from './routes/manufacturing/packaging'
+import { Route as ManufacturingFactoryAuditRouteImport } from './routes/manufacturing/factory-audit'
+import { Route as ManufacturingFactoryRouteImport } from './routes/manufacturing/factory'
+import { Route as ManufacturingAgrochemicalManufacturingRouteImport } from './routes/manufacturing/agrochemical-manufacturing'
 import { Route as DocsSplatRouteImport } from './routes/docs/$'
 import { Route as DocsMdSplatRouteImport } from './routes/docs-md/$'
 import { Route as ApiSearchRouteImport } from './routes/api/search'
@@ -91,6 +97,7 @@ import { Route as Char123LocaleChar125AdminRouteRouteImport } from './routes/{-$
 import { Route as Char123LocaleChar125SolutionsIndexRouteImport } from './routes/{-$locale}/solutions/index'
 import { Route as Char123LocaleChar125ProjectsIndexRouteImport } from './routes/{-$locale}/projects/index'
 import { Route as Char123LocaleChar125ProductsIndexRouteImport } from './routes/{-$locale}/products/index'
+import { Route as Char123LocaleChar125MarketsIndexRouteImport } from './routes/{-$locale}/markets/index'
 import { Route as Char123LocaleChar125KnowledgeIndexRouteImport } from './routes/{-$locale}/knowledge/index'
 import { Route as Char123LocaleChar125AppIndexRouteImport } from './routes/{-$locale}/app/index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
@@ -98,11 +105,26 @@ import { Route as Char123LocaleChar125AboutIndexRouteImport } from './routes/{-$
 import { Route as Char123LocaleChar125SolutionsSchoolSupRouteImport } from './routes/{-$locale}/solutions/school-sup'
 import { Route as Char123LocaleChar125SolutionsResortSupRouteImport } from './routes/{-$locale}/solutions/resort-sup'
 import { Route as Char123LocaleChar125SolutionsPrivateLabelSupRouteImport } from './routes/{-$locale}/solutions/private-label-sup'
+import { Route as Char123LocaleChar125SolutionsPrivateLabelPesticidesRouteImport } from './routes/{-$locale}/solutions/private-label-pesticides'
+import { Route as Char123LocaleChar125SolutionsGovernmentTenderRouteImport } from './routes/{-$locale}/solutions/government-tender'
 import { Route as Char123LocaleChar125SolutionsDistributorPartnersRouteImport } from './routes/{-$locale}/solutions/distributor-partners'
 import { Route as Char123LocaleChar125SolutionsCustomSupRouteImport } from './routes/{-$locale}/solutions/custom-sup'
+import { Route as Char123LocaleChar125SolutionsCustomFormulationRouteImport } from './routes/{-$locale}/solutions/custom-formulation'
 import { Route as Char123LocaleChar125SolutionsClubSupRouteImport } from './routes/{-$locale}/solutions/club-sup'
+import { Route as Char123LocaleChar125SolutionsAgrochemicalOemRouteImport } from './routes/{-$locale}/solutions/agrochemical-oem'
 import { Route as Char123LocaleChar125ProjectsSlugRouteImport } from './routes/{-$locale}/projects/$slug'
+import { Route as Char123LocaleChar125ProductsSeedTreatmentRouteImport } from './routes/{-$locale}/products/seed-treatment'
+import { Route as Char123LocaleChar125ProductsPremixFormulationsRouteImport } from './routes/{-$locale}/products/premix-formulations'
+import { Route as Char123LocaleChar125ProductsPgrRouteImport } from './routes/{-$locale}/products/pgr'
+import { Route as Char123LocaleChar125ProductsInsecticidesRouteImport } from './routes/{-$locale}/products/insecticides'
+import { Route as Char123LocaleChar125ProductsHerbicidesRouteImport } from './routes/{-$locale}/products/herbicides'
+import { Route as Char123LocaleChar125ProductsFungicidesRouteImport } from './routes/{-$locale}/products/fungicides'
+import { Route as Char123LocaleChar125ProductsBiopesticidesRouteImport } from './routes/{-$locale}/products/biopesticides'
+import { Route as Char123LocaleChar125ProductsAdjuvantsRouteImport } from './routes/{-$locale}/products/adjuvants'
 import { Route as Char123LocaleChar125ProductsSeriesRouteImport } from './routes/{-$locale}/products/$series'
+import { Route as Char123LocaleChar125MarketsSoutheastAsiaRouteImport } from './routes/{-$locale}/markets/southeast-asia'
+import { Route as Char123LocaleChar125MarketsLatinAmericaRouteImport } from './routes/{-$locale}/markets/latin-america'
+import { Route as Char123LocaleChar125MarketsAfricaRouteImport } from './routes/{-$locale}/markets/africa'
 import { Route as Char123LocaleChar125KnowledgeSlugRouteImport } from './routes/{-$locale}/knowledge/$slug'
 import { Route as Char123LocaleChar125AppFeedbackRouteImport } from './routes/{-$locale}/app/feedback'
 import { Route as Char123LocaleChar125AppAccountRouteImport } from './routes/{-$locale}/app/account'
@@ -192,16 +214,11 @@ const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
   path: '/robots.txt',
   getParentRoute: () => rootRouteImport,
 } as any)
-const RanddcenterRoute = RanddcenterRouteImport.update({
-  id: '/randdcenter',
-  path: '/randdcenter',
+const RequestQuoteRoute = RequestQuoteRouteImport.update({
+  id: '/request-quote',
+  path: '/request-quote',
   getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/randdcenter.lazy').then((d) => d.Route))
-const QualityRoute = QualityRouteImport.update({
-  id: '/quality',
-  path: '/quality',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() => import('./routes/quality.lazy').then((d) => d.Route))
+} as any).lazy(() => import('./routes/request-quote.lazy').then((d) => d.Route))
 const ProofCenterRoute = ProofCenterRouteImport.update({
   id: '/proof-center',
   path: '/proof-center',
@@ -358,13 +375,6 @@ const FaqRoute = FaqRouteImport.update({
   path: '/faq',
   getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/faq.lazy').then((d) => d.Route))
-const FactoryAuditChecklistRoute = FactoryAuditChecklistRouteImport.update({
-  id: '/factory-audit-checklist',
-  path: '/factory-audit-checklist',
-  getParentRoute: () => rootRouteImport,
-} as any).lazy(() =>
-  import('./routes/factory-audit-checklist.lazy').then((d) => d.Route),
-)
 const FactoryRoute = FactoryRouteImport.update({
   id: '/factory',
   path: '/factory',
@@ -439,6 +449,13 @@ const Char123LocaleChar125IndexRoute =
     path: '/',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
+const ManufacturingIndexRoute = ManufacturingIndexRouteImport.update({
+  id: '/manufacturing/',
+  path: '/manufacturing/',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/manufacturing/index.lazy').then((d) => d.Route),
+)
 const Char123LocaleChar125WhoWeServeRoute =
   Char123LocaleChar125WhoWeServeRouteImport.update({
     id: '/who-we-serve',
@@ -543,6 +560,66 @@ const Char123LocaleChar125ChangelogRoute =
   } as any).lazy(() =>
     import('./routes/{-$locale}/changelog.lazy').then((d) => d.Route),
   )
+const ManufacturingResearchDevelopmentRoute =
+  ManufacturingResearchDevelopmentRouteImport.update({
+    id: '/manufacturing/research-development',
+    path: '/manufacturing/research-development',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/manufacturing/research-development.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+const ManufacturingQualityControlRoute =
+  ManufacturingQualityControlRouteImport.update({
+    id: '/manufacturing/quality-control',
+    path: '/manufacturing/quality-control',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/manufacturing/quality-control.lazy').then((d) => d.Route),
+  )
+const ManufacturingPesticideFormulationRoute =
+  ManufacturingPesticideFormulationRouteImport.update({
+    id: '/manufacturing/pesticide-formulation',
+    path: '/manufacturing/pesticide-formulation',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/manufacturing/pesticide-formulation.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+const ManufacturingPackagingRoute = ManufacturingPackagingRouteImport.update({
+  id: '/manufacturing/packaging',
+  path: '/manufacturing/packaging',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/manufacturing/packaging.lazy').then((d) => d.Route),
+)
+const ManufacturingFactoryAuditRoute =
+  ManufacturingFactoryAuditRouteImport.update({
+    id: '/manufacturing/factory-audit',
+    path: '/manufacturing/factory-audit',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/manufacturing/factory-audit.lazy').then((d) => d.Route),
+  )
+const ManufacturingFactoryRoute = ManufacturingFactoryRouteImport.update({
+  id: '/manufacturing/factory',
+  path: '/manufacturing/factory',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() =>
+  import('./routes/manufacturing/factory.lazy').then((d) => d.Route),
+)
+const ManufacturingAgrochemicalManufacturingRoute =
+  ManufacturingAgrochemicalManufacturingRouteImport.update({
+    id: '/manufacturing/agrochemical-manufacturing',
+    path: '/manufacturing/agrochemical-manufacturing',
+    getParentRoute: () => rootRouteImport,
+  } as any).lazy(() =>
+    import('./routes/manufacturing/agrochemical-manufacturing.lazy').then(
+      (d) => d.Route,
+    ),
+  )
 const DocsSplatRoute = DocsSplatRouteImport.update({
   id: '/docs/$',
   path: '/docs/$',
@@ -609,6 +686,14 @@ const Char123LocaleChar125ProductsIndexRoute =
     path: '/products/',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
+const Char123LocaleChar125MarketsIndexRoute =
+  Char123LocaleChar125MarketsIndexRouteImport.update({
+    id: '/markets/',
+    path: '/markets/',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/markets/index.lazy').then((d) => d.Route),
+  )
 const Char123LocaleChar125KnowledgeIndexRoute =
   Char123LocaleChar125KnowledgeIndexRouteImport.update({
     id: '/knowledge/',
@@ -651,6 +736,26 @@ const Char123LocaleChar125SolutionsPrivateLabelSupRoute =
     path: '/private-label-sup',
     getParentRoute: () => Char123LocaleChar125SolutionsRoute,
   } as any)
+const Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute =
+  Char123LocaleChar125SolutionsPrivateLabelPesticidesRouteImport.update({
+    id: '/private-label-pesticides',
+    path: '/private-label-pesticides',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/solutions/private-label-pesticides.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+const Char123LocaleChar125SolutionsGovernmentTenderRoute =
+  Char123LocaleChar125SolutionsGovernmentTenderRouteImport.update({
+    id: '/government-tender',
+    path: '/government-tender',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/solutions/government-tender.lazy').then(
+      (d) => d.Route,
+    ),
+  )
 const Char123LocaleChar125SolutionsDistributorPartnersRoute =
   Char123LocaleChar125SolutionsDistributorPartnersRouteImport.update({
     id: '/distributor-partners',
@@ -663,18 +768,110 @@ const Char123LocaleChar125SolutionsCustomSupRoute =
     path: '/custom-sup',
     getParentRoute: () => Char123LocaleChar125SolutionsRoute,
   } as any)
+const Char123LocaleChar125SolutionsCustomFormulationRoute =
+  Char123LocaleChar125SolutionsCustomFormulationRouteImport.update({
+    id: '/custom-formulation',
+    path: '/custom-formulation',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/solutions/custom-formulation.lazy').then(
+      (d) => d.Route,
+    ),
+  )
 const Char123LocaleChar125SolutionsClubSupRoute =
   Char123LocaleChar125SolutionsClubSupRouteImport.update({
     id: '/club-sup',
     path: '/club-sup',
     getParentRoute: () => Char123LocaleChar125SolutionsRoute,
   } as any)
+const Char123LocaleChar125SolutionsAgrochemicalOemRoute =
+  Char123LocaleChar125SolutionsAgrochemicalOemRouteImport.update({
+    id: '/agrochemical-oem',
+    path: '/agrochemical-oem',
+    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/solutions/agrochemical-oem.lazy').then(
+      (d) => d.Route,
+    ),
+  )
 const Char123LocaleChar125ProjectsSlugRoute =
   Char123LocaleChar125ProjectsSlugRouteImport.update({
     id: '/projects/$slug',
     path: '/projects/$slug',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
+const Char123LocaleChar125ProductsSeedTreatmentRoute =
+  Char123LocaleChar125ProductsSeedTreatmentRouteImport.update({
+    id: '/products/seed-treatment',
+    path: '/products/seed-treatment',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/products/seed-treatment.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+const Char123LocaleChar125ProductsPremixFormulationsRoute =
+  Char123LocaleChar125ProductsPremixFormulationsRouteImport.update({
+    id: '/products/premix-formulations',
+    path: '/products/premix-formulations',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/products/premix-formulations.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+const Char123LocaleChar125ProductsPgrRoute =
+  Char123LocaleChar125ProductsPgrRouteImport.update({
+    id: '/products/pgr',
+    path: '/products/pgr',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/products/pgr.lazy').then((d) => d.Route),
+  )
+const Char123LocaleChar125ProductsInsecticidesRoute =
+  Char123LocaleChar125ProductsInsecticidesRouteImport.update({
+    id: '/products/insecticides',
+    path: '/products/insecticides',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/products/insecticides.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+const Char123LocaleChar125ProductsHerbicidesRoute =
+  Char123LocaleChar125ProductsHerbicidesRouteImport.update({
+    id: '/products/herbicides',
+    path: '/products/herbicides',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/products/herbicides.lazy').then((d) => d.Route),
+  )
+const Char123LocaleChar125ProductsFungicidesRoute =
+  Char123LocaleChar125ProductsFungicidesRouteImport.update({
+    id: '/products/fungicides',
+    path: '/products/fungicides',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/products/fungicides.lazy').then((d) => d.Route),
+  )
+const Char123LocaleChar125ProductsBiopesticidesRoute =
+  Char123LocaleChar125ProductsBiopesticidesRouteImport.update({
+    id: '/products/biopesticides',
+    path: '/products/biopesticides',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/products/biopesticides.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+const Char123LocaleChar125ProductsAdjuvantsRoute =
+  Char123LocaleChar125ProductsAdjuvantsRouteImport.update({
+    id: '/products/adjuvants',
+    path: '/products/adjuvants',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/products/adjuvants.lazy').then((d) => d.Route),
+  )
 const Char123LocaleChar125ProductsSeriesRoute =
   Char123LocaleChar125ProductsSeriesRouteImport.update({
     id: '/products/$series',
@@ -682,6 +879,34 @@ const Char123LocaleChar125ProductsSeriesRoute =
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any).lazy(() =>
     import('./routes/{-$locale}/products/$series.lazy').then((d) => d.Route),
+  )
+const Char123LocaleChar125MarketsSoutheastAsiaRoute =
+  Char123LocaleChar125MarketsSoutheastAsiaRouteImport.update({
+    id: '/markets/southeast-asia',
+    path: '/markets/southeast-asia',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/markets/southeast-asia.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+const Char123LocaleChar125MarketsLatinAmericaRoute =
+  Char123LocaleChar125MarketsLatinAmericaRouteImport.update({
+    id: '/markets/latin-america',
+    path: '/markets/latin-america',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/markets/latin-america.lazy').then(
+      (d) => d.Route,
+    ),
+  )
+const Char123LocaleChar125MarketsAfricaRoute =
+  Char123LocaleChar125MarketsAfricaRouteImport.update({
+    id: '/markets/africa',
+    path: '/markets/africa',
+    getParentRoute: () => Char123LocaleChar125RouteRoute,
+  } as any).lazy(() =>
+    import('./routes/{-$locale}/markets/africa.lazy').then((d) => d.Route),
   )
 const Char123LocaleChar125KnowledgeSlugRoute =
   Char123LocaleChar125KnowledgeSlugRouteImport.update({
@@ -788,7 +1013,6 @@ export interface FileRoutesByFullPath {
   '/crop-protection-solutions': typeof CropProtectionSolutionsRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
-  '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
   '/formulation-selector': typeof FormulationSelectorRoute
   '/formulation-type-comparison': typeof FormulationTypeComparisonRoute
@@ -815,8 +1039,7 @@ export interface FileRoutesByFullPath {
   '/pgr': typeof PgrRoute
   '/product-development': typeof ProductDevelopmentRoute
   '/proof-center': typeof ProofCenterRoute
-  '/quality': typeof QualityRoute
-  '/randdcenter': typeof RanddcenterRoute
+  '/request-quote': typeof RequestQuoteRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
@@ -839,6 +1062,13 @@ export interface FileRoutesByFullPath {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
+  '/manufacturing/agrochemical-manufacturing': typeof ManufacturingAgrochemicalManufacturingRoute
+  '/manufacturing/factory': typeof ManufacturingFactoryRoute
+  '/manufacturing/factory-audit': typeof ManufacturingFactoryAuditRoute
+  '/manufacturing/packaging': typeof ManufacturingPackagingRoute
+  '/manufacturing/pesticide-formulation': typeof ManufacturingPesticideFormulationRoute
+  '/manufacturing/quality-control': typeof ManufacturingQualityControlRoute
+  '/manufacturing/research-development': typeof ManufacturingResearchDevelopmentRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
@@ -856,6 +1086,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
   '/{-$locale}/waitlist': typeof Char123LocaleChar125WaitlistRoute
   '/{-$locale}/who-we-serve': typeof Char123LocaleChar125WhoWeServeRoute
+  '/manufacturing/': typeof ManufacturingIndexRoute
   '/{-$locale}/': typeof Char123LocaleChar125IndexRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
   '/api/avatars/$': typeof ApiAvatarsSplatRoute
@@ -873,11 +1104,26 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
+  '/{-$locale}/markets/africa': typeof Char123LocaleChar125MarketsAfricaRoute
+  '/{-$locale}/markets/latin-america': typeof Char123LocaleChar125MarketsLatinAmericaRoute
+  '/{-$locale}/markets/southeast-asia': typeof Char123LocaleChar125MarketsSoutheastAsiaRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
+  '/{-$locale}/products/adjuvants': typeof Char123LocaleChar125ProductsAdjuvantsRoute
+  '/{-$locale}/products/biopesticides': typeof Char123LocaleChar125ProductsBiopesticidesRoute
+  '/{-$locale}/products/fungicides': typeof Char123LocaleChar125ProductsFungicidesRoute
+  '/{-$locale}/products/herbicides': typeof Char123LocaleChar125ProductsHerbicidesRoute
+  '/{-$locale}/products/insecticides': typeof Char123LocaleChar125ProductsInsecticidesRoute
+  '/{-$locale}/products/pgr': typeof Char123LocaleChar125ProductsPgrRoute
+  '/{-$locale}/products/premix-formulations': typeof Char123LocaleChar125ProductsPremixFormulationsRoute
+  '/{-$locale}/products/seed-treatment': typeof Char123LocaleChar125ProductsSeedTreatmentRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
+  '/{-$locale}/solutions/agrochemical-oem': typeof Char123LocaleChar125SolutionsAgrochemicalOemRoute
   '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
+  '/{-$locale}/solutions/custom-formulation': typeof Char123LocaleChar125SolutionsCustomFormulationRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
+  '/{-$locale}/solutions/government-tender': typeof Char123LocaleChar125SolutionsGovernmentTenderRoute
+  '/{-$locale}/solutions/private-label-pesticides': typeof Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
@@ -885,6 +1131,7 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
   '/{-$locale}/knowledge/': typeof Char123LocaleChar125KnowledgeIndexRoute
+  '/{-$locale}/markets/': typeof Char123LocaleChar125MarketsIndexRoute
   '/{-$locale}/products/': typeof Char123LocaleChar125ProductsIndexRoute
   '/{-$locale}/projects/': typeof Char123LocaleChar125ProjectsIndexRoute
   '/{-$locale}/solutions/': typeof Char123LocaleChar125SolutionsIndexRoute
@@ -899,7 +1146,6 @@ export interface FileRoutesByTo {
   '/crop-protection-solutions': typeof CropProtectionSolutionsRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
-  '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
   '/formulation-selector': typeof FormulationSelectorRoute
   '/formulation-type-comparison': typeof FormulationTypeComparisonRoute
@@ -926,8 +1172,7 @@ export interface FileRoutesByTo {
   '/pgr': typeof PgrRoute
   '/product-development': typeof ProductDevelopmentRoute
   '/proof-center': typeof ProofCenterRoute
-  '/quality': typeof QualityRoute
-  '/randdcenter': typeof RanddcenterRoute
+  '/request-quote': typeof RequestQuoteRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
@@ -949,6 +1194,13 @@ export interface FileRoutesByTo {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
+  '/manufacturing/agrochemical-manufacturing': typeof ManufacturingAgrochemicalManufacturingRoute
+  '/manufacturing/factory': typeof ManufacturingFactoryRoute
+  '/manufacturing/factory-audit': typeof ManufacturingFactoryAuditRoute
+  '/manufacturing/packaging': typeof ManufacturingPackagingRoute
+  '/manufacturing/pesticide-formulation': typeof ManufacturingPesticideFormulationRoute
+  '/manufacturing/quality-control': typeof ManufacturingQualityControlRoute
+  '/manufacturing/research-development': typeof ManufacturingResearchDevelopmentRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
@@ -965,6 +1217,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
   '/{-$locale}/waitlist': typeof Char123LocaleChar125WaitlistRoute
   '/{-$locale}/who-we-serve': typeof Char123LocaleChar125WhoWeServeRoute
+  '/manufacturing': typeof ManufacturingIndexRoute
   '/{-$locale}': typeof Char123LocaleChar125IndexRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
   '/api/avatars/$': typeof ApiAvatarsSplatRoute
@@ -982,11 +1235,26 @@ export interface FileRoutesByTo {
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
+  '/{-$locale}/markets/africa': typeof Char123LocaleChar125MarketsAfricaRoute
+  '/{-$locale}/markets/latin-america': typeof Char123LocaleChar125MarketsLatinAmericaRoute
+  '/{-$locale}/markets/southeast-asia': typeof Char123LocaleChar125MarketsSoutheastAsiaRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
+  '/{-$locale}/products/adjuvants': typeof Char123LocaleChar125ProductsAdjuvantsRoute
+  '/{-$locale}/products/biopesticides': typeof Char123LocaleChar125ProductsBiopesticidesRoute
+  '/{-$locale}/products/fungicides': typeof Char123LocaleChar125ProductsFungicidesRoute
+  '/{-$locale}/products/herbicides': typeof Char123LocaleChar125ProductsHerbicidesRoute
+  '/{-$locale}/products/insecticides': typeof Char123LocaleChar125ProductsInsecticidesRoute
+  '/{-$locale}/products/pgr': typeof Char123LocaleChar125ProductsPgrRoute
+  '/{-$locale}/products/premix-formulations': typeof Char123LocaleChar125ProductsPremixFormulationsRoute
+  '/{-$locale}/products/seed-treatment': typeof Char123LocaleChar125ProductsSeedTreatmentRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
+  '/{-$locale}/solutions/agrochemical-oem': typeof Char123LocaleChar125SolutionsAgrochemicalOemRoute
   '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
+  '/{-$locale}/solutions/custom-formulation': typeof Char123LocaleChar125SolutionsCustomFormulationRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
+  '/{-$locale}/solutions/government-tender': typeof Char123LocaleChar125SolutionsGovernmentTenderRoute
+  '/{-$locale}/solutions/private-label-pesticides': typeof Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
@@ -994,6 +1262,7 @@ export interface FileRoutesByTo {
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app': typeof Char123LocaleChar125AppIndexRoute
   '/{-$locale}/knowledge': typeof Char123LocaleChar125KnowledgeIndexRoute
+  '/{-$locale}/markets': typeof Char123LocaleChar125MarketsIndexRoute
   '/{-$locale}/products': typeof Char123LocaleChar125ProductsIndexRoute
   '/{-$locale}/projects': typeof Char123LocaleChar125ProjectsIndexRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsIndexRoute
@@ -1010,7 +1279,6 @@ export interface FileRoutesById {
   '/crop-protection-solutions': typeof CropProtectionSolutionsRoute
   '/entity.json': typeof EntityDotjsonRoute
   '/factory': typeof FactoryRoute
-  '/factory-audit-checklist': typeof FactoryAuditChecklistRoute
   '/faq': typeof FaqRoute
   '/formulation-selector': typeof FormulationSelectorRoute
   '/formulation-type-comparison': typeof FormulationTypeComparisonRoute
@@ -1037,8 +1305,7 @@ export interface FileRoutesById {
   '/pgr': typeof PgrRoute
   '/product-development': typeof ProductDevelopmentRoute
   '/proof-center': typeof ProofCenterRoute
-  '/quality': typeof QualityRoute
-  '/randdcenter': typeof RanddcenterRoute
+  '/request-quote': typeof RequestQuoteRoute
   '/robots.txt': typeof RobotsDottxtRoute
   '/rss.xml': typeof RssDotxmlRoute
   '/search-index.json': typeof SearchIndexDotjsonRoute
@@ -1061,6 +1328,13 @@ export interface FileRoutesById {
   '/api/search': typeof ApiSearchRoute
   '/docs-md/$': typeof DocsMdSplatRoute
   '/docs/$': typeof DocsSplatRoute
+  '/manufacturing/agrochemical-manufacturing': typeof ManufacturingAgrochemicalManufacturingRoute
+  '/manufacturing/factory': typeof ManufacturingFactoryRoute
+  '/manufacturing/factory-audit': typeof ManufacturingFactoryAuditRoute
+  '/manufacturing/packaging': typeof ManufacturingPackagingRoute
+  '/manufacturing/pesticide-formulation': typeof ManufacturingPesticideFormulationRoute
+  '/manufacturing/quality-control': typeof ManufacturingQualityControlRoute
+  '/manufacturing/research-development': typeof ManufacturingResearchDevelopmentRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
   '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
@@ -1078,6 +1352,7 @@ export interface FileRoutesById {
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
   '/{-$locale}/waitlist': typeof Char123LocaleChar125WaitlistRoute
   '/{-$locale}/who-we-serve': typeof Char123LocaleChar125WhoWeServeRoute
+  '/manufacturing/': typeof ManufacturingIndexRoute
   '/{-$locale}/': typeof Char123LocaleChar125IndexRoute
   '/api/auth/$': typeof ApiAuthSplatRoute
   '/api/avatars/$': typeof ApiAvatarsSplatRoute
@@ -1095,11 +1370,26 @@ export interface FileRoutesById {
   '/{-$locale}/app/account': typeof Char123LocaleChar125AppAccountRoute
   '/{-$locale}/app/feedback': typeof Char123LocaleChar125AppFeedbackRoute
   '/{-$locale}/knowledge/$slug': typeof Char123LocaleChar125KnowledgeSlugRoute
+  '/{-$locale}/markets/africa': typeof Char123LocaleChar125MarketsAfricaRoute
+  '/{-$locale}/markets/latin-america': typeof Char123LocaleChar125MarketsLatinAmericaRoute
+  '/{-$locale}/markets/southeast-asia': typeof Char123LocaleChar125MarketsSoutheastAsiaRoute
   '/{-$locale}/products/$series': typeof Char123LocaleChar125ProductsSeriesRoute
+  '/{-$locale}/products/adjuvants': typeof Char123LocaleChar125ProductsAdjuvantsRoute
+  '/{-$locale}/products/biopesticides': typeof Char123LocaleChar125ProductsBiopesticidesRoute
+  '/{-$locale}/products/fungicides': typeof Char123LocaleChar125ProductsFungicidesRoute
+  '/{-$locale}/products/herbicides': typeof Char123LocaleChar125ProductsHerbicidesRoute
+  '/{-$locale}/products/insecticides': typeof Char123LocaleChar125ProductsInsecticidesRoute
+  '/{-$locale}/products/pgr': typeof Char123LocaleChar125ProductsPgrRoute
+  '/{-$locale}/products/premix-formulations': typeof Char123LocaleChar125ProductsPremixFormulationsRoute
+  '/{-$locale}/products/seed-treatment': typeof Char123LocaleChar125ProductsSeedTreatmentRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
+  '/{-$locale}/solutions/agrochemical-oem': typeof Char123LocaleChar125SolutionsAgrochemicalOemRoute
   '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
+  '/{-$locale}/solutions/custom-formulation': typeof Char123LocaleChar125SolutionsCustomFormulationRoute
   '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
+  '/{-$locale}/solutions/government-tender': typeof Char123LocaleChar125SolutionsGovernmentTenderRoute
+  '/{-$locale}/solutions/private-label-pesticides': typeof Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute
   '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
   '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
@@ -1107,6 +1397,7 @@ export interface FileRoutesById {
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
   '/{-$locale}/knowledge/': typeof Char123LocaleChar125KnowledgeIndexRoute
+  '/{-$locale}/markets/': typeof Char123LocaleChar125MarketsIndexRoute
   '/{-$locale}/products/': typeof Char123LocaleChar125ProductsIndexRoute
   '/{-$locale}/projects/': typeof Char123LocaleChar125ProjectsIndexRoute
   '/{-$locale}/solutions/': typeof Char123LocaleChar125SolutionsIndexRoute
@@ -1124,7 +1415,6 @@ export interface FileRouteTypes {
     | '/crop-protection-solutions'
     | '/entity.json'
     | '/factory'
-    | '/factory-audit-checklist'
     | '/faq'
     | '/formulation-selector'
     | '/formulation-type-comparison'
@@ -1151,8 +1441,7 @@ export interface FileRouteTypes {
     | '/pgr'
     | '/product-development'
     | '/proof-center'
-    | '/quality'
-    | '/randdcenter'
+    | '/request-quote'
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
@@ -1175,6 +1464,13 @@ export interface FileRouteTypes {
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
+    | '/manufacturing/agrochemical-manufacturing'
+    | '/manufacturing/factory'
+    | '/manufacturing/factory-audit'
+    | '/manufacturing/packaging'
+    | '/manufacturing/pesticide-formulation'
+    | '/manufacturing/quality-control'
+    | '/manufacturing/research-development'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
     | '/{-$locale}/custom-sup-development'
@@ -1192,6 +1488,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/terms'
     | '/{-$locale}/waitlist'
     | '/{-$locale}/who-we-serve'
+    | '/manufacturing/'
     | '/{-$locale}/'
     | '/api/auth/$'
     | '/api/avatars/$'
@@ -1209,11 +1506,26 @@ export interface FileRouteTypes {
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/knowledge/$slug'
+    | '/{-$locale}/markets/africa'
+    | '/{-$locale}/markets/latin-america'
+    | '/{-$locale}/markets/southeast-asia'
     | '/{-$locale}/products/$series'
+    | '/{-$locale}/products/adjuvants'
+    | '/{-$locale}/products/biopesticides'
+    | '/{-$locale}/products/fungicides'
+    | '/{-$locale}/products/herbicides'
+    | '/{-$locale}/products/insecticides'
+    | '/{-$locale}/products/pgr'
+    | '/{-$locale}/products/premix-formulations'
+    | '/{-$locale}/products/seed-treatment'
     | '/{-$locale}/projects/$slug'
+    | '/{-$locale}/solutions/agrochemical-oem'
     | '/{-$locale}/solutions/club-sup'
+    | '/{-$locale}/solutions/custom-formulation'
     | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/distributor-partners'
+    | '/{-$locale}/solutions/government-tender'
+    | '/{-$locale}/solutions/private-label-pesticides'
     | '/{-$locale}/solutions/private-label-sup'
     | '/{-$locale}/solutions/resort-sup'
     | '/{-$locale}/solutions/school-sup'
@@ -1221,6 +1533,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
     | '/{-$locale}/knowledge/'
+    | '/{-$locale}/markets/'
     | '/{-$locale}/products/'
     | '/{-$locale}/projects/'
     | '/{-$locale}/solutions/'
@@ -1235,7 +1548,6 @@ export interface FileRouteTypes {
     | '/crop-protection-solutions'
     | '/entity.json'
     | '/factory'
-    | '/factory-audit-checklist'
     | '/faq'
     | '/formulation-selector'
     | '/formulation-type-comparison'
@@ -1262,8 +1574,7 @@ export interface FileRouteTypes {
     | '/pgr'
     | '/product-development'
     | '/proof-center'
-    | '/quality'
-    | '/randdcenter'
+    | '/request-quote'
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
@@ -1285,6 +1596,13 @@ export interface FileRouteTypes {
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
+    | '/manufacturing/agrochemical-manufacturing'
+    | '/manufacturing/factory'
+    | '/manufacturing/factory-audit'
+    | '/manufacturing/packaging'
+    | '/manufacturing/pesticide-formulation'
+    | '/manufacturing/quality-control'
+    | '/manufacturing/research-development'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
     | '/{-$locale}/custom-sup-development'
@@ -1301,6 +1619,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/terms'
     | '/{-$locale}/waitlist'
     | '/{-$locale}/who-we-serve'
+    | '/manufacturing'
     | '/{-$locale}'
     | '/api/auth/$'
     | '/api/avatars/$'
@@ -1318,11 +1637,26 @@ export interface FileRouteTypes {
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/knowledge/$slug'
+    | '/{-$locale}/markets/africa'
+    | '/{-$locale}/markets/latin-america'
+    | '/{-$locale}/markets/southeast-asia'
     | '/{-$locale}/products/$series'
+    | '/{-$locale}/products/adjuvants'
+    | '/{-$locale}/products/biopesticides'
+    | '/{-$locale}/products/fungicides'
+    | '/{-$locale}/products/herbicides'
+    | '/{-$locale}/products/insecticides'
+    | '/{-$locale}/products/pgr'
+    | '/{-$locale}/products/premix-formulations'
+    | '/{-$locale}/products/seed-treatment'
     | '/{-$locale}/projects/$slug'
+    | '/{-$locale}/solutions/agrochemical-oem'
     | '/{-$locale}/solutions/club-sup'
+    | '/{-$locale}/solutions/custom-formulation'
     | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/distributor-partners'
+    | '/{-$locale}/solutions/government-tender'
+    | '/{-$locale}/solutions/private-label-pesticides'
     | '/{-$locale}/solutions/private-label-sup'
     | '/{-$locale}/solutions/resort-sup'
     | '/{-$locale}/solutions/school-sup'
@@ -1330,6 +1664,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin'
     | '/{-$locale}/app'
     | '/{-$locale}/knowledge'
+    | '/{-$locale}/markets'
     | '/{-$locale}/products'
     | '/{-$locale}/projects'
     | '/{-$locale}/solutions'
@@ -1345,7 +1680,6 @@ export interface FileRouteTypes {
     | '/crop-protection-solutions'
     | '/entity.json'
     | '/factory'
-    | '/factory-audit-checklist'
     | '/faq'
     | '/formulation-selector'
     | '/formulation-type-comparison'
@@ -1372,8 +1706,7 @@ export interface FileRouteTypes {
     | '/pgr'
     | '/product-development'
     | '/proof-center'
-    | '/quality'
-    | '/randdcenter'
+    | '/request-quote'
     | '/robots.txt'
     | '/rss.xml'
     | '/search-index.json'
@@ -1396,6 +1729,13 @@ export interface FileRouteTypes {
     | '/api/search'
     | '/docs-md/$'
     | '/docs/$'
+    | '/manufacturing/agrochemical-manufacturing'
+    | '/manufacturing/factory'
+    | '/manufacturing/factory-audit'
+    | '/manufacturing/packaging'
+    | '/manufacturing/pesticide-formulation'
+    | '/manufacturing/quality-control'
+    | '/manufacturing/research-development'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
     | '/{-$locale}/custom-sup-development'
@@ -1413,6 +1753,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/terms'
     | '/{-$locale}/waitlist'
     | '/{-$locale}/who-we-serve'
+    | '/manufacturing/'
     | '/{-$locale}/'
     | '/api/auth/$'
     | '/api/avatars/$'
@@ -1430,11 +1771,26 @@ export interface FileRouteTypes {
     | '/{-$locale}/app/account'
     | '/{-$locale}/app/feedback'
     | '/{-$locale}/knowledge/$slug'
+    | '/{-$locale}/markets/africa'
+    | '/{-$locale}/markets/latin-america'
+    | '/{-$locale}/markets/southeast-asia'
     | '/{-$locale}/products/$series'
+    | '/{-$locale}/products/adjuvants'
+    | '/{-$locale}/products/biopesticides'
+    | '/{-$locale}/products/fungicides'
+    | '/{-$locale}/products/herbicides'
+    | '/{-$locale}/products/insecticides'
+    | '/{-$locale}/products/pgr'
+    | '/{-$locale}/products/premix-formulations'
+    | '/{-$locale}/products/seed-treatment'
     | '/{-$locale}/projects/$slug'
+    | '/{-$locale}/solutions/agrochemical-oem'
     | '/{-$locale}/solutions/club-sup'
+    | '/{-$locale}/solutions/custom-formulation'
     | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/distributor-partners'
+    | '/{-$locale}/solutions/government-tender'
+    | '/{-$locale}/solutions/private-label-pesticides'
     | '/{-$locale}/solutions/private-label-sup'
     | '/{-$locale}/solutions/resort-sup'
     | '/{-$locale}/solutions/school-sup'
@@ -1442,6 +1798,7 @@ export interface FileRouteTypes {
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
     | '/{-$locale}/knowledge/'
+    | '/{-$locale}/markets/'
     | '/{-$locale}/products/'
     | '/{-$locale}/projects/'
     | '/{-$locale}/solutions/'
@@ -1458,7 +1815,6 @@ export interface RootRouteChildren {
   CropProtectionSolutionsRoute: typeof CropProtectionSolutionsRoute
   EntityDotjsonRoute: typeof EntityDotjsonRoute
   FactoryRoute: typeof FactoryRoute
-  FactoryAuditChecklistRoute: typeof FactoryAuditChecklistRoute
   FaqRoute: typeof FaqRoute
   FormulationSelectorRoute: typeof FormulationSelectorRoute
   FormulationTypeComparisonRoute: typeof FormulationTypeComparisonRoute
@@ -1485,8 +1841,7 @@ export interface RootRouteChildren {
   PgrRoute: typeof PgrRoute
   ProductDevelopmentRoute: typeof ProductDevelopmentRoute
   ProofCenterRoute: typeof ProofCenterRoute
-  QualityRoute: typeof QualityRoute
-  RanddcenterRoute: typeof RanddcenterRoute
+  RequestQuoteRoute: typeof RequestQuoteRoute
   RobotsDottxtRoute: typeof RobotsDottxtRoute
   RssDotxmlRoute: typeof RssDotxmlRoute
   SearchIndexDotjsonRoute: typeof SearchIndexDotjsonRoute
@@ -1508,6 +1863,14 @@ export interface RootRouteChildren {
   ApiSearchRoute: typeof ApiSearchRoute
   DocsMdSplatRoute: typeof DocsMdSplatRoute
   DocsSplatRoute: typeof DocsSplatRoute
+  ManufacturingAgrochemicalManufacturingRoute: typeof ManufacturingAgrochemicalManufacturingRoute
+  ManufacturingFactoryRoute: typeof ManufacturingFactoryRoute
+  ManufacturingFactoryAuditRoute: typeof ManufacturingFactoryAuditRoute
+  ManufacturingPackagingRoute: typeof ManufacturingPackagingRoute
+  ManufacturingPesticideFormulationRoute: typeof ManufacturingPesticideFormulationRoute
+  ManufacturingQualityControlRoute: typeof ManufacturingQualityControlRoute
+  ManufacturingResearchDevelopmentRoute: typeof ManufacturingResearchDevelopmentRoute
+  ManufacturingIndexRoute: typeof ManufacturingIndexRoute
   ApiAuthSplatRoute: typeof ApiAuthSplatRoute
   ApiAvatarsSplatRoute: typeof ApiAvatarsSplatRoute
   ApiInquiryLogoSplatRoute: typeof ApiInquiryLogoSplatRoute
@@ -1606,18 +1969,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof RobotsDottxtRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/randdcenter': {
-      id: '/randdcenter'
-      path: '/randdcenter'
-      fullPath: '/randdcenter'
-      preLoaderRoute: typeof RanddcenterRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/quality': {
-      id: '/quality'
-      path: '/quality'
-      fullPath: '/quality'
-      preLoaderRoute: typeof QualityRouteImport
+    '/request-quote': {
+      id: '/request-quote'
+      path: '/request-quote'
+      fullPath: '/request-quote'
+      preLoaderRoute: typeof RequestQuoteRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/proof-center': {
@@ -1802,13 +2158,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FaqRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/factory-audit-checklist': {
-      id: '/factory-audit-checklist'
-      path: '/factory-audit-checklist'
-      fullPath: '/factory-audit-checklist'
-      preLoaderRoute: typeof FactoryAuditChecklistRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/factory': {
       id: '/factory'
       path: '/factory'
@@ -1885,6 +2234,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/{-$locale}/'
       preLoaderRoute: typeof Char123LocaleChar125IndexRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/manufacturing/': {
+      id: '/manufacturing/'
+      path: '/manufacturing'
+      fullPath: '/manufacturing/'
+      preLoaderRoute: typeof ManufacturingIndexRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/{-$locale}/who-we-serve': {
       id: '/{-$locale}/who-we-serve'
@@ -2005,6 +2361,55 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125ChangelogRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
+    '/manufacturing/research-development': {
+      id: '/manufacturing/research-development'
+      path: '/manufacturing/research-development'
+      fullPath: '/manufacturing/research-development'
+      preLoaderRoute: typeof ManufacturingResearchDevelopmentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/manufacturing/quality-control': {
+      id: '/manufacturing/quality-control'
+      path: '/manufacturing/quality-control'
+      fullPath: '/manufacturing/quality-control'
+      preLoaderRoute: typeof ManufacturingQualityControlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/manufacturing/pesticide-formulation': {
+      id: '/manufacturing/pesticide-formulation'
+      path: '/manufacturing/pesticide-formulation'
+      fullPath: '/manufacturing/pesticide-formulation'
+      preLoaderRoute: typeof ManufacturingPesticideFormulationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/manufacturing/packaging': {
+      id: '/manufacturing/packaging'
+      path: '/manufacturing/packaging'
+      fullPath: '/manufacturing/packaging'
+      preLoaderRoute: typeof ManufacturingPackagingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/manufacturing/factory-audit': {
+      id: '/manufacturing/factory-audit'
+      path: '/manufacturing/factory-audit'
+      fullPath: '/manufacturing/factory-audit'
+      preLoaderRoute: typeof ManufacturingFactoryAuditRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/manufacturing/factory': {
+      id: '/manufacturing/factory'
+      path: '/manufacturing/factory'
+      fullPath: '/manufacturing/factory'
+      preLoaderRoute: typeof ManufacturingFactoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/manufacturing/agrochemical-manufacturing': {
+      id: '/manufacturing/agrochemical-manufacturing'
+      path: '/manufacturing/agrochemical-manufacturing'
+      fullPath: '/manufacturing/agrochemical-manufacturing'
+      preLoaderRoute: typeof ManufacturingAgrochemicalManufacturingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/docs/$': {
       id: '/docs/$'
       path: '/docs/$'
@@ -2089,6 +2494,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125ProductsIndexRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
+    '/{-$locale}/markets/': {
+      id: '/{-$locale}/markets/'
+      path: '/markets'
+      fullPath: '/{-$locale}/markets/'
+      preLoaderRoute: typeof Char123LocaleChar125MarketsIndexRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
     '/{-$locale}/knowledge/': {
       id: '/{-$locale}/knowledge/'
       path: '/knowledge'
@@ -2138,6 +2550,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRouteImport
       parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
+    '/{-$locale}/solutions/private-label-pesticides': {
+      id: '/{-$locale}/solutions/private-label-pesticides'
+      path: '/private-label-pesticides'
+      fullPath: '/{-$locale}/solutions/private-label-pesticides'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsPrivateLabelPesticidesRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
+    '/{-$locale}/solutions/government-tender': {
+      id: '/{-$locale}/solutions/government-tender'
+      path: '/government-tender'
+      fullPath: '/{-$locale}/solutions/government-tender'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsGovernmentTenderRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
     '/{-$locale}/solutions/distributor-partners': {
       id: '/{-$locale}/solutions/distributor-partners'
       path: '/distributor-partners'
@@ -2152,11 +2578,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125SolutionsCustomSupRouteImport
       parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
+    '/{-$locale}/solutions/custom-formulation': {
+      id: '/{-$locale}/solutions/custom-formulation'
+      path: '/custom-formulation'
+      fullPath: '/{-$locale}/solutions/custom-formulation'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsCustomFormulationRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
     '/{-$locale}/solutions/club-sup': {
       id: '/{-$locale}/solutions/club-sup'
       path: '/club-sup'
       fullPath: '/{-$locale}/solutions/club-sup'
       preLoaderRoute: typeof Char123LocaleChar125SolutionsClubSupRouteImport
+      parentRoute: typeof Char123LocaleChar125SolutionsRoute
+    }
+    '/{-$locale}/solutions/agrochemical-oem': {
+      id: '/{-$locale}/solutions/agrochemical-oem'
+      path: '/agrochemical-oem'
+      fullPath: '/{-$locale}/solutions/agrochemical-oem'
+      preLoaderRoute: typeof Char123LocaleChar125SolutionsAgrochemicalOemRouteImport
       parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
     '/{-$locale}/projects/$slug': {
@@ -2166,11 +2606,88 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125ProjectsSlugRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
+    '/{-$locale}/products/seed-treatment': {
+      id: '/{-$locale}/products/seed-treatment'
+      path: '/products/seed-treatment'
+      fullPath: '/{-$locale}/products/seed-treatment'
+      preLoaderRoute: typeof Char123LocaleChar125ProductsSeedTreatmentRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/products/premix-formulations': {
+      id: '/{-$locale}/products/premix-formulations'
+      path: '/products/premix-formulations'
+      fullPath: '/{-$locale}/products/premix-formulations'
+      preLoaderRoute: typeof Char123LocaleChar125ProductsPremixFormulationsRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/products/pgr': {
+      id: '/{-$locale}/products/pgr'
+      path: '/products/pgr'
+      fullPath: '/{-$locale}/products/pgr'
+      preLoaderRoute: typeof Char123LocaleChar125ProductsPgrRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/products/insecticides': {
+      id: '/{-$locale}/products/insecticides'
+      path: '/products/insecticides'
+      fullPath: '/{-$locale}/products/insecticides'
+      preLoaderRoute: typeof Char123LocaleChar125ProductsInsecticidesRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/products/herbicides': {
+      id: '/{-$locale}/products/herbicides'
+      path: '/products/herbicides'
+      fullPath: '/{-$locale}/products/herbicides'
+      preLoaderRoute: typeof Char123LocaleChar125ProductsHerbicidesRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/products/fungicides': {
+      id: '/{-$locale}/products/fungicides'
+      path: '/products/fungicides'
+      fullPath: '/{-$locale}/products/fungicides'
+      preLoaderRoute: typeof Char123LocaleChar125ProductsFungicidesRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/products/biopesticides': {
+      id: '/{-$locale}/products/biopesticides'
+      path: '/products/biopesticides'
+      fullPath: '/{-$locale}/products/biopesticides'
+      preLoaderRoute: typeof Char123LocaleChar125ProductsBiopesticidesRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/products/adjuvants': {
+      id: '/{-$locale}/products/adjuvants'
+      path: '/products/adjuvants'
+      fullPath: '/{-$locale}/products/adjuvants'
+      preLoaderRoute: typeof Char123LocaleChar125ProductsAdjuvantsRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
     '/{-$locale}/products/$series': {
       id: '/{-$locale}/products/$series'
       path: '/products/$series'
       fullPath: '/{-$locale}/products/$series'
       preLoaderRoute: typeof Char123LocaleChar125ProductsSeriesRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/markets/southeast-asia': {
+      id: '/{-$locale}/markets/southeast-asia'
+      path: '/markets/southeast-asia'
+      fullPath: '/{-$locale}/markets/southeast-asia'
+      preLoaderRoute: typeof Char123LocaleChar125MarketsSoutheastAsiaRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/markets/latin-america': {
+      id: '/{-$locale}/markets/latin-america'
+      path: '/markets/latin-america'
+      fullPath: '/{-$locale}/markets/latin-america'
+      preLoaderRoute: typeof Char123LocaleChar125MarketsLatinAmericaRouteImport
+      parentRoute: typeof Char123LocaleChar125RouteRoute
+    }
+    '/{-$locale}/markets/africa': {
+      id: '/{-$locale}/markets/africa'
+      path: '/markets/africa'
+      fullPath: '/{-$locale}/markets/africa'
+      preLoaderRoute: typeof Char123LocaleChar125MarketsAfricaRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/knowledge/$slug': {
@@ -2314,9 +2831,13 @@ const Char123LocaleChar125AdminRouteRouteWithChildren =
   )
 
 interface Char123LocaleChar125SolutionsRouteChildren {
+  Char123LocaleChar125SolutionsAgrochemicalOemRoute: typeof Char123LocaleChar125SolutionsAgrochemicalOemRoute
   Char123LocaleChar125SolutionsClubSupRoute: typeof Char123LocaleChar125SolutionsClubSupRoute
+  Char123LocaleChar125SolutionsCustomFormulationRoute: typeof Char123LocaleChar125SolutionsCustomFormulationRoute
   Char123LocaleChar125SolutionsCustomSupRoute: typeof Char123LocaleChar125SolutionsCustomSupRoute
   Char123LocaleChar125SolutionsDistributorPartnersRoute: typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
+  Char123LocaleChar125SolutionsGovernmentTenderRoute: typeof Char123LocaleChar125SolutionsGovernmentTenderRoute
+  Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute: typeof Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute
   Char123LocaleChar125SolutionsPrivateLabelSupRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
   Char123LocaleChar125SolutionsResortSupRoute: typeof Char123LocaleChar125SolutionsResortSupRoute
   Char123LocaleChar125SolutionsSchoolSupRoute: typeof Char123LocaleChar125SolutionsSchoolSupRoute
@@ -2325,12 +2846,20 @@ interface Char123LocaleChar125SolutionsRouteChildren {
 
 const Char123LocaleChar125SolutionsRouteChildren: Char123LocaleChar125SolutionsRouteChildren =
   {
+    Char123LocaleChar125SolutionsAgrochemicalOemRoute:
+      Char123LocaleChar125SolutionsAgrochemicalOemRoute,
     Char123LocaleChar125SolutionsClubSupRoute:
       Char123LocaleChar125SolutionsClubSupRoute,
+    Char123LocaleChar125SolutionsCustomFormulationRoute:
+      Char123LocaleChar125SolutionsCustomFormulationRoute,
     Char123LocaleChar125SolutionsCustomSupRoute:
       Char123LocaleChar125SolutionsCustomSupRoute,
     Char123LocaleChar125SolutionsDistributorPartnersRoute:
       Char123LocaleChar125SolutionsDistributorPartnersRoute,
+    Char123LocaleChar125SolutionsGovernmentTenderRoute:
+      Char123LocaleChar125SolutionsGovernmentTenderRoute,
+    Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute:
+      Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute,
     Char123LocaleChar125SolutionsPrivateLabelSupRoute:
       Char123LocaleChar125SolutionsPrivateLabelSupRoute,
     Char123LocaleChar125SolutionsResortSupRoute:
@@ -2375,11 +2904,23 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125AppAccountRoute: typeof Char123LocaleChar125AppAccountRoute
   Char123LocaleChar125AppFeedbackRoute: typeof Char123LocaleChar125AppFeedbackRoute
   Char123LocaleChar125KnowledgeSlugRoute: typeof Char123LocaleChar125KnowledgeSlugRoute
+  Char123LocaleChar125MarketsAfricaRoute: typeof Char123LocaleChar125MarketsAfricaRoute
+  Char123LocaleChar125MarketsLatinAmericaRoute: typeof Char123LocaleChar125MarketsLatinAmericaRoute
+  Char123LocaleChar125MarketsSoutheastAsiaRoute: typeof Char123LocaleChar125MarketsSoutheastAsiaRoute
   Char123LocaleChar125ProductsSeriesRoute: typeof Char123LocaleChar125ProductsSeriesRoute
+  Char123LocaleChar125ProductsAdjuvantsRoute: typeof Char123LocaleChar125ProductsAdjuvantsRoute
+  Char123LocaleChar125ProductsBiopesticidesRoute: typeof Char123LocaleChar125ProductsBiopesticidesRoute
+  Char123LocaleChar125ProductsFungicidesRoute: typeof Char123LocaleChar125ProductsFungicidesRoute
+  Char123LocaleChar125ProductsHerbicidesRoute: typeof Char123LocaleChar125ProductsHerbicidesRoute
+  Char123LocaleChar125ProductsInsecticidesRoute: typeof Char123LocaleChar125ProductsInsecticidesRoute
+  Char123LocaleChar125ProductsPgrRoute: typeof Char123LocaleChar125ProductsPgrRoute
+  Char123LocaleChar125ProductsPremixFormulationsRoute: typeof Char123LocaleChar125ProductsPremixFormulationsRoute
+  Char123LocaleChar125ProductsSeedTreatmentRoute: typeof Char123LocaleChar125ProductsSeedTreatmentRoute
   Char123LocaleChar125ProjectsSlugRoute: typeof Char123LocaleChar125ProjectsSlugRoute
   Char123LocaleChar125AboutIndexRoute: typeof Char123LocaleChar125AboutIndexRoute
   Char123LocaleChar125AppIndexRoute: typeof Char123LocaleChar125AppIndexRoute
   Char123LocaleChar125KnowledgeIndexRoute: typeof Char123LocaleChar125KnowledgeIndexRoute
+  Char123LocaleChar125MarketsIndexRoute: typeof Char123LocaleChar125MarketsIndexRoute
   Char123LocaleChar125ProductsIndexRoute: typeof Char123LocaleChar125ProductsIndexRoute
   Char123LocaleChar125ProjectsIndexRoute: typeof Char123LocaleChar125ProjectsIndexRoute
 }
@@ -2427,14 +2968,37 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
     Char123LocaleChar125AppFeedbackRoute: Char123LocaleChar125AppFeedbackRoute,
     Char123LocaleChar125KnowledgeSlugRoute:
       Char123LocaleChar125KnowledgeSlugRoute,
+    Char123LocaleChar125MarketsAfricaRoute:
+      Char123LocaleChar125MarketsAfricaRoute,
+    Char123LocaleChar125MarketsLatinAmericaRoute:
+      Char123LocaleChar125MarketsLatinAmericaRoute,
+    Char123LocaleChar125MarketsSoutheastAsiaRoute:
+      Char123LocaleChar125MarketsSoutheastAsiaRoute,
     Char123LocaleChar125ProductsSeriesRoute:
       Char123LocaleChar125ProductsSeriesRoute,
+    Char123LocaleChar125ProductsAdjuvantsRoute:
+      Char123LocaleChar125ProductsAdjuvantsRoute,
+    Char123LocaleChar125ProductsBiopesticidesRoute:
+      Char123LocaleChar125ProductsBiopesticidesRoute,
+    Char123LocaleChar125ProductsFungicidesRoute:
+      Char123LocaleChar125ProductsFungicidesRoute,
+    Char123LocaleChar125ProductsHerbicidesRoute:
+      Char123LocaleChar125ProductsHerbicidesRoute,
+    Char123LocaleChar125ProductsInsecticidesRoute:
+      Char123LocaleChar125ProductsInsecticidesRoute,
+    Char123LocaleChar125ProductsPgrRoute: Char123LocaleChar125ProductsPgrRoute,
+    Char123LocaleChar125ProductsPremixFormulationsRoute:
+      Char123LocaleChar125ProductsPremixFormulationsRoute,
+    Char123LocaleChar125ProductsSeedTreatmentRoute:
+      Char123LocaleChar125ProductsSeedTreatmentRoute,
     Char123LocaleChar125ProjectsSlugRoute:
       Char123LocaleChar125ProjectsSlugRoute,
     Char123LocaleChar125AboutIndexRoute: Char123LocaleChar125AboutIndexRoute,
     Char123LocaleChar125AppIndexRoute: Char123LocaleChar125AppIndexRoute,
     Char123LocaleChar125KnowledgeIndexRoute:
       Char123LocaleChar125KnowledgeIndexRoute,
+    Char123LocaleChar125MarketsIndexRoute:
+      Char123LocaleChar125MarketsIndexRoute,
     Char123LocaleChar125ProductsIndexRoute:
       Char123LocaleChar125ProductsIndexRoute,
     Char123LocaleChar125ProjectsIndexRoute:
@@ -2457,7 +3021,6 @@ const rootRouteChildren: RootRouteChildren = {
   CropProtectionSolutionsRoute: CropProtectionSolutionsRoute,
   EntityDotjsonRoute: EntityDotjsonRoute,
   FactoryRoute: FactoryRoute,
-  FactoryAuditChecklistRoute: FactoryAuditChecklistRoute,
   FaqRoute: FaqRoute,
   FormulationSelectorRoute: FormulationSelectorRoute,
   FormulationTypeComparisonRoute: FormulationTypeComparisonRoute,
@@ -2484,8 +3047,7 @@ const rootRouteChildren: RootRouteChildren = {
   PgrRoute: PgrRoute,
   ProductDevelopmentRoute: ProductDevelopmentRoute,
   ProofCenterRoute: ProofCenterRoute,
-  QualityRoute: QualityRoute,
-  RanddcenterRoute: RanddcenterRoute,
+  RequestQuoteRoute: RequestQuoteRoute,
   RobotsDottxtRoute: RobotsDottxtRoute,
   RssDotxmlRoute: RssDotxmlRoute,
   SearchIndexDotjsonRoute: SearchIndexDotjsonRoute,
@@ -2507,6 +3069,16 @@ const rootRouteChildren: RootRouteChildren = {
   ApiSearchRoute: ApiSearchRoute,
   DocsMdSplatRoute: DocsMdSplatRoute,
   DocsSplatRoute: DocsSplatRoute,
+  ManufacturingAgrochemicalManufacturingRoute:
+    ManufacturingAgrochemicalManufacturingRoute,
+  ManufacturingFactoryRoute: ManufacturingFactoryRoute,
+  ManufacturingFactoryAuditRoute: ManufacturingFactoryAuditRoute,
+  ManufacturingPackagingRoute: ManufacturingPackagingRoute,
+  ManufacturingPesticideFormulationRoute:
+    ManufacturingPesticideFormulationRoute,
+  ManufacturingQualityControlRoute: ManufacturingQualityControlRoute,
+  ManufacturingResearchDevelopmentRoute: ManufacturingResearchDevelopmentRoute,
+  ManufacturingIndexRoute: ManufacturingIndexRoute,
   ApiAuthSplatRoute: ApiAuthSplatRoute,
   ApiAvatarsSplatRoute: ApiAvatarsSplatRoute,
   ApiInquiryLogoSplatRoute: ApiInquiryLogoSplatRoute,

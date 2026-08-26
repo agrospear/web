@@ -1,0 +1,75 @@
+meta:
+  title: 'Formulaciones de herbicida personalizadas — Fabricante OEM/ODM | {SITE}'
+  description: 'Formulaciones de herbicida personalizadas bajo tu marca — selectivos y no selectivos, tipos SC/EC/WP/WDG, OEM/ODM desde piloto de 5 toneladas. Directo de fábrica en Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'formulación herbicida'
+    - 'herbicida OEM'
+    - 'herbicida selectivo'
+    - 'herbicida no selectivo'
+    - 'formulación glifosato'
+    - 'fabricación herbicida'
+
+hero:
+  tagline: 'Productos · Herbicidas'
+  title: 'Formulaciones de Herbicida'
+  subtitle: 'Formulaciones de herbicida personalizadas bajo tu marca — selectivos y no selectivos, desde lotes piloto de 5 toneladas hasta producción a escala. Directo de fábrica en Qingdao, China.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Fabricamos formulaciones de herbicida personalizadas bajo tu marca: selectivos de post-emergencia, no selectivos de amplio espectro y residuales pre-emergencia en formas dosage SC, EC, WP, WDG y SL. Lotes piloto desde 5 toneladas; producción estándar desde 20+ toneladas por SKU. Muestras en 7–15 días.'
+  verified: '2026-08'
+
+intro:
+  - Los herbicidas son la categoría principal de la protección de cultivos: el mayor segmento por volumen, la categoría de partida por defecto para nuevas marcas y la base de la mayoría de los catálogos de distribuidores. Tanto si son selectivos de post-emergencia para cereales como no selectivos a base de glifosato para grandes superficies, la demanda de herbicidas es constante y por volumen.
+  - Fabricamos formulaciones de herbicida bajo tu marca desde 20+ toneladas (volumen estándar), con pedidos piloto desde 5 toneladas. Ingrediente activo, tipo de formulación (SC, EC, WP, WDG, SL), sistema de coadyuvantes, diseño de etiqueta y embalaje se especifican por proyecto.
+
+product_highlights:
+  tagline: 'Productos destacados'
+  title: 'Ingredientes activos herbicidas principales'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Glifosato 480 SL / 41% SL'
+      desc: 'Herbicida sistémico no selectivo para control de malas hierbas en grandes superficies. Disponible en formulaciones SL y sal de amonio.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/herbicides
+    - icon: H
+      icon_bg: blue
+      title: 'Glufosinato 200 SL'
+      desc: 'Herbicida de contacto no selectivo para quema y desecación. Demanda creciente como alternativa al glifosato en manejo de resistencias.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/herbicides
+    - icon: H
+      icon_bg: purple
+      title: '2,4-D 720 EC / 860 SL'
+      desc: 'Herbicida sistémico selectivo para control de malas hierbas de hoja ancha en cereales y maíz.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/herbicides
+    - icon: H
+      icon_bg: orange
+      title: 'Atrazina 80 WDG / 500 SC'
+      desc: 'Herbicida selectivo pre y post-emergencia para maíz y sorgo. Actividad residual en suelo para supresión estacional.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/herbicides
+
+faqs:
+  tagline: FAQ
+  title: 'Formulaciones de herbicida — Preguntas frecuentes'
+  items:
+    - q: '¿Puedo personalizar una formulación de herbicida para mi marca?'
+      a: 'Sí. Cada proyecto de herbicida empieza con tu cultivo objetivo, espectro de malas hierbas y estado de registro en el mercado. Especificas el ingrediente activo, la concentración, el tipo de formulación (SC, EC, WP, WDG, SL, ME), el paquete de coadyuvantes, el diseño de etiqueta y el embalaje.'
+    - q: '¿Cuál es el pedido mínimo para formulaciones de herbicida?'
+      a: 'Los lotes piloto parten de 5 toneladas por formulación; la producción en volumen estándar, desde 20+ toneladas por SKU. Los lotes de muestra (1–4 toneladas) están disponibles para registro y ensayos de campo.'
+    - q: '¿Qué tipos de formulación de herbicida están disponibles?'
+      a: 'Concentrado en suspensión (SC), concentrado emulsionable (EC), polvo mojable (WP), gránulo dispersable en agua (WDG), líquido soluble (SL), microemulsión (ME) y suspensión encapsulada (CS).'
+    - q: '¿Proporcionáis documentación de registro de herbicidas?'
+      a: 'Sí. Suministramos paquetes completos de apoyo al registro: certificados ICAMA, cumplimiento de especificaciones FAO/OMS, análisis de cinco lotes, datos de estabilidad y expedientes de registro local.'
+
+cta:
+  title: 'Inicia tu proyecto de herbicida'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Ver todos los productos
+      href: /es/products

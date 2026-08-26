@@ -1,0 +1,96 @@
+meta:
+  title: 'Private Label Pesticide Manufacturing — Your Brand on Proven Formulations | {SITE}'
+  description: 'Private label pesticide manufacturing: your brand on proven agrochemical formulations. Custom labels, branded packaging, from pilot quantities. Fastest route to market.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'private label pesticide'
+    - 'private label agrochemical'
+    - 'branded pesticide manufacturing'
+    - 'custom label agrochemical'
+    - 'OEM private label crop protection'
+
+hero:
+  tagline: Private Label
+  title: 'Private Label Pesticide Manufacturing — Your Brand on Proven Formulations'
+  subtitle: 'Your brand, your labels, your packaging — on proven agrochemical formulations manufactured at our ISO 9001 factory. No R&D stage required. Fastest route to market for distributors and cooperatives.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Private label pesticide manufacturing at Agrospear puts your brand on proven formulation platforms — no R&D stage required. Custom labels, branded packaging and regulatory documentation come standard. MOQ from 5-ton pilot batches, production in 25–35 days, shipped to 50+ countries from our ISO 9001 and ICAMA certified factory in Qingdao, China.'
+  verified: '2026-08'
+
+intro:
+  - Private label is the fastest route to market for distributors, cooperatives and agricultural retailers who want their own branded agrochemical product line without investing in formulation development. You select from Agrospear's proven formulation platforms, and we manufacture under your brand with custom labels, branded packaging and full regulatory documentation.
+  - Because the formulation platform is already proven and registered, there is no R&D stage — which means shorter lead times and lower MOQ entry points compared to custom formulation projects.
+
+benefits:
+  tagline: Why Private Label
+  title: 'Private Label Advantages'
+  subtitle: 'Everything you need to launch a branded agrochemical line without the R&D investment.'
+  items:
+    - title: No R&D Stage
+      desc: 'Proven formulation platforms already tested and registered. You skip the development timeline and go straight to production.'
+      icon: 'tabler:clock'
+    - title: Your Brand, Front and Center
+      desc: 'Custom labels with your logo, brand colors and product names. Your packaging, your market presence.'
+      icon: 'tabler:tag'
+    - title: Lower MOQ Entry
+      desc: 'Pilot batches from 5 tons on existing platforms — lower volume commitment than custom formulation projects.'
+      icon: 'tabler:scale'
+    - title: Regulatory Documentation Included
+      desc: 'ICAMA registration data, FAO/WHO specifications and per-market compliance documentation prepared for your territories.'
+      icon: 'tabler:file-certificate'
+    - title: Full Quality System
+      desc: 'Every batch passes the 7-stage inspection gate system with 14-day stability testing and full batch traceability.'
+      icon: 'tabler:shield-check'
+    - title: Global Export Ready
+      desc: 'FOB Qingdao, CIF or DDP to 50+ countries with export packing and customs documentation handled by our logistics team.'
+      icon: 'tabler:world'
+
+process_steps:
+  tagline: The Process
+  title: 'From Brand Concept to First Shipment'
+  subtitle: 'A streamlined process designed for speed — no R&D stage means faster time to market.'
+  steps:
+    - step: '01'
+      title: 'Select Your Platform'
+      desc: "Choose from Agrospear's proven formulation platforms — herbicides, insecticides, fungicides or PGRs. We recommend the best match for your target market and crop segments."
+    - step: '02'
+      title: 'Brand & Packaging Design'
+      desc: 'Provide your label artwork and packaging specifications, or work with our in-house design team. Multi-language GHS-compliant labels included.'
+    - step: '03'
+      title: 'Sample & Approval (7–12 Days)'
+      desc: 'A physical sample batch with your branding is produced for your review. Label accuracy, packaging fit and product quality verified before production commitment.'
+    - step: '04'
+      title: 'Production & QC (25–35 Days)'
+      desc: 'Manufacturing through the 7-stage inspection gate system. Pilot batches from 5 tons, standard volume 20+ tons per formulation.'
+    - step: '05'
+      title: 'Packing & Shipment'
+      desc: 'Export packing with your branded documentation and COA. Shipped to 50+ countries with FOB, CIF or DDP terms.'
+
+faqs:
+  tagline: FAQ
+  title: 'Private Label Manufacturing — Frequently Asked Questions'
+  items:
+    - q: 'How is private label different from OEM manufacturing?'
+      a: 'OEM manufacturing produces from your existing formulation specification — you own the IP. Private label puts your brand on a proven Agrospear platform — no R&D stage, lower MOQ and faster time to market. See our OEM vs Private Label comparison for details.'
+    - q: 'What is the MOQ for private label?'
+      a: 'Pilot batches start at 5 tons on existing platforms. Standard volume production runs 20+ tons per batch. No formulation development fee since the platform is already proven.'
+    - q: 'Can I customize the label and packaging?'
+      a: 'Yes — fully custom labels with your logo, brand colors and product names. Multi-language GHS-compliant labels, branded packaging and custom drum specifications. Our design team can assist.'
+    - q: 'How long does it take to get my first shipment?'
+      a: 'Without an R&D stage, the timeline is shorter: sample in 7–12 days, then 25–35 days production from confirmed PO. Total timeline from first contact to first shipment is typically 6–8 weeks.'
+    - q: 'Do you provide regulatory documentation?'
+      a: 'Yes. ICAMA registration data, FAO/WHO specifications and per-market compliance documentation are included with every private label order.'
+
+cta:
+  title: 'Launch Your Private Label Line'
+  subtitle: 'Tell us your brand concept and target market — we will recommend the best platform and return a quotation within one business day.'
+  actions:
+    - variant: primary
+      text: 'Start Private Label Project'
+      href: /request-quote
+    - text: 'Compare OEM vs Private Label'
+      href: /oem-vs-private-label
+    - text: 'See OEM Services'
+      href: /solutions/agrochemical-oem

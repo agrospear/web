@@ -1,0 +1,73 @@
+meta:
+  title: 'Insecticide Formulations — OEM Crop Protection | {SITE}'
+  description: 'Custom insecticide formulations for crop protection brands — systemic & contact modes of action, SC/EC/CS/ME types, OEM from 5-ton pilot, factory direct from Qingdao.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'insecticide formulation'
+    - 'custom insecticide OEM'
+    - 'systemic insecticide'
+    - 'contact insecticide'
+    - 'imidacloprid formulation'
+    - 'insecticide manufacturing'
+
+hero:
+  tagline: 'Products · Insecticides'
+  title: 'Insecticide Formulations'
+  subtitle: 'Custom insecticide formulations for crop protection brands — systemic and contact modes of action, from 5-ton pilot batches to full-scale production. Factory direct from Qingdao, China.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We manufacture custom insecticide formulations under your brand: systemic neonicotinoids, contact pyrethroids, and novel modes of action in SC, EC, CS, ME, WDG and FS dosage forms. Pilot batches from 5 tons; standard production from 20+ tons per SKU. Samples ready in 7–15 days.'
+  verified: '2026-08'
+
+intro:
+  - Insecticides are the second-largest crop protection segment and the fastest-growing in many tropical and subtropical markets. Systemic neonicotinoids, contact pyrethroids and novel modes of action each demand precise formulation expertise to deliver field performance and shelf stability.
+  - We produce insecticide formulations under your brand with optimized adjuvant systems, proven stability profiles and registration-ready documentation — tested under accelerated and long-term storage conditions.
+
+product_highlights:
+  tagline: 'Featured Products'
+  title: 'Core Insecticide Active Ingredients'
+  features:
+    - icon: I
+      icon_bg: green
+      title: 'Imidacloprid 350 SC / 200 SL'
+      desc: 'Systemic neonicotinoid for sucking pest control. Seed treatment and foliar applications. Broad-spectrum efficacy against aphids, whitefly and thrips.'
+      link_label: 'View formulation details'
+      href: /products/insecticides
+    - icon: I
+      icon_bg: blue
+      title: 'Abamectin 18 EC / 36 SC'
+      desc: 'Broad-spectrum acaricide-insecticide for mite and leafminer control. Fermentation-derived active with low mammalian toxicity.'
+      link_label: 'View formulation details'
+      href: /products/insecticides
+    - icon: I
+      icon_bg: purple
+      title: 'Emamectin Benzoate 5 WDG / 19 EC'
+      desc: 'Potent lepidoptera specialist for bollworm and fruit borer control. Extremely low application rates with excellent crop safety.'
+      link_label: 'View formulation details'
+      href: /products/insecticides
+    - icon: I
+      icon_bg: orange
+      title: 'Lambda-Cyhalothrin 25 EC / 50 CS'
+      desc: 'Fast-acting pyrethroid for knockdown and residual control. Available in EC and capsule suspension for extended field persistence.'
+      link_label: 'View formulation details'
+      href: /products/insecticides
+
+faqs:
+  tagline: FAQ
+  title: 'Insecticide Formulations — Frequently Asked Questions'
+  items:
+    - q: 'What insecticide formulation types do you manufacture?'
+      a: 'Suspension concentrate (SC), emulsifiable concentrate (EC), capsule suspension (CS), micro-emulsion (ME), water-dispersible granule (WDG) and seed treatment (FS). Formulation type is selected based on the active ingredient properties, application method and target crop requirements.'
+    - q: 'Do insecticide formulations require special stability testing?'
+      a: 'Yes — insecticides with complex adjuvant systems (especially CS and ME) undergo 54°C/14-day accelerated stability and 2-year long-term storage testing at 25°C and 30°C. Stability data is included in registration documentation.'
+    - q: 'Can I order insecticide formulations for specific pest complexes?'
+      a: 'Yes. Formulations are tailored to target pest spectrums — aphids, whitefly, bollworm, thrips, leafhopper, etc. — with the appropriate active ingredient, concentration and adjuvant package. Pre-mixtures and combination products are available.'
+
+cta:
+  title: 'Start Your Insecticide Project'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: See all products
+      href: /products

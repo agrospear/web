@@ -1,0 +1,73 @@
+meta:
+  title: 'Biopesticide Formulations — OEM Crop Protection | {SITE}'
+  description: 'Custom biopesticide formulations — microbial and biochemical actives, stable SC/WP/OD types, OEM from 5-ton pilot, factory direct from Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'biopesticide formulation'
+    - 'microbial pesticide OEM'
+    - 'botanical pesticide'
+    - 'Bacillus formulation'
+    - 'neem formulation'
+    - 'biopesticide manufacturing'
+
+hero:
+  tagline: 'Products · Biopesticides'
+  title: 'Biopesticide Formulations'
+  subtitle: 'Custom biopesticide formulations manufactured under your brand — microbial and biochemical actives with viability-preserving adjuvant systems and cold-chain-compatible production.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We manufacture custom biopesticide formulations under your brand: microbial suspension concentrates (SC), spore-based wettable powders (WP), botanical oil dispersions (OD) and biochemical soluble liquids (SL). Cold-process production for temperature-sensitive strains. Pilot batches from 5 tons; standard production from 20+ tons per SKU.'
+  verified: '2026-08'
+
+intro:
+  - Biopesticides are the fastest-growing segment in crop protection: driven by residue limits, export market requirements and integrated pest management programs. Both microbial (bacteria, fungi) and biochemical (plant extracts, semiochemicals) actives require specialized formulation expertise.
+  - We manufacture biopesticide formulations under your brand with viability-preserving adjuvant systems, cold-chain-compatible production and registration support for organic and reduced-risk claims.
+
+product_highlights:
+  tagline: 'Featured Products'
+  title: 'Core Biopesticide Categories'
+  features:
+    - icon: B
+      icon_bg: green
+      title: 'Microbial SC (Bacillus-based)'
+      desc: 'Suspension concentrate formulations with live Bacillus thuringiensis or Bacillus subtilis strains. Cold-process production preserves CFU viability through shelf life.'
+      link_label: 'View formulation details'
+      href: /products/biopesticides
+    - icon: B
+      icon_bg: blue
+      title: 'Botanical OD (Neem-based)'
+      desc: 'Oil dispersion formulations from neem (azadirachtin) and other plant extracts. Stable OD type protects active components from UV and thermal degradation.'
+      link_label: 'View formulation details'
+      href: /products/biopesticides
+    - icon: B
+      icon_bg: purple
+      title: 'Biochemical SL'
+      desc: 'Soluble liquid formulations for semiochemicals, pheromones and biochemical actives. Precise concentration control for low application-rate products.'
+      link_label: 'View formulation details'
+      href: /products/biopesticides
+    - icon: B
+      icon_bg: orange
+      title: 'Entomopathogenic Fungi WP'
+      desc: 'Wettable powder formulations with entomopathogenic fungal spores (Beauveria, Metarhizium). Optimized spore viability and germination rate after storage.'
+      link_label: 'View formulation details'
+      href: /products/biopesticides
+
+faqs:
+  tagline: FAQ
+  title: 'Biopesticide Formulations — Frequently Asked Questions'
+  items:
+    - q: 'What biopesticide formulation types do you produce?'
+      a: 'Suspension concentrate (SC) for microbial actives, wettable powder (WP) for spore-based products, oil dispersion (OD) for botanical extracts, and soluble liquid (SL) for biochemical actives. Formulation type is selected to preserve biological viability.'
+    - q: 'How do you ensure microbial viability in biopesticide formulations?'
+      a: 'Cold-process production for temperature-sensitive strains, validated shelf-life testing under storage conditions, and batch-level CFU counts at manufacture and throughout the stability period. Cold-chain shipping options are available.'
+    - q: 'Do biopesticides require different registration support?'
+      a: 'Yes. Biopesticides often qualify for reduced-risk or fast-track registration pathways in many markets. We provide the specific data packages required: strain identification, pathogenicity/toxicity data, non-target organism studies and efficacy trials.'
+
+cta:
+  title: 'Start Your Biopesticide Project'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: See all products
+      href: /products

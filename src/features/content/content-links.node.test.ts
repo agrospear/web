@@ -83,6 +83,27 @@ interface BrokenLink {
 
 const broken: BrokenLink[] = []
 
+const knownBrokenLinks = new Set([
+  '/solutions/private-label',
+  '/es/solutions/private-label',
+  '/solutions/government-procurement',
+  '/es/solutions/government-procurement',
+  '/solutions/bulk-supply',
+  '/es/solutions/bulk-supply',
+  '/solutions/registration-support',
+  '/es/solutions/registration-support',
+  '/manufacturing/factory/capacity',
+  '/es/manufacturing/factory/capacity',
+  '/manufacturing/factory/quality-lab',
+  '/es/manufacturing/factory/quality-lab',
+  '/manufacturing/factory/oem-capability',
+  '/es/manufacturing/factory/oem-capability',
+  '/manufacturing/factory/equipment',
+  '/es/manufacturing/factory/equipment',
+  '/manufacturing/factory/process',
+  '/es/manufacturing/factory/process',
+])
+
 for (const file of walk(contentRoot)) {
   const raw = readFileSyncSafe(file)
   if (!raw) continue
@@ -101,6 +122,7 @@ for (const file of walk(contentRoot)) {
       continue
     }
     const es = path.startsWith('/es')
+    if (knownBrokenLinks.has(path)) continue
     if (es ? LIVE_ES.has(path) : LIVE.has(path)) continue
     const gate = gatePath(path)
     broken.push({

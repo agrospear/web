@@ -30,11 +30,11 @@ related:
   title: Related
   links:
     - text: R&D Center
-      url: /randdcenter
+      url: /manufacturing/research-development
     - text: Quality Testing
-      url: /quality
+      url: /manufacturing/quality-control
     - text: Safety Standards
-      url: /quality
+      url: /manufacturing/quality-control
     - text: Warranty
       url: /warranty
     - text: OEM Manufacturing

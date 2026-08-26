@@ -1,0 +1,74 @@
+meta:
+  title: 'Agrochemical OEM Southeast Asia — Tropical Crop Protection | {SITE}'
+  description: 'Agrospear OEM agrochemical solutions for Southeast Asia: tropical-climate formulations for rice, rubber and palm oil, ASEAN regulatory documentation and smallholder-friendly packaging.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical OEM Southeast Asia'
+    - 'crop protection ASEAN'
+    - 'rice pesticide'
+    - 'palm oil pesticide'
+    - 'tropical formulation'
+
+hero:
+  tagline: 'Markets · Southeast Asia'
+  title: 'Agrochemical Solutions for Southeast Asia'
+  subtitle: 'OEM crop protection products designed for tropical climates — rice, rubber and palm oil formulations with ASEAN regulatory documentation and smallholder-friendly packaging.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We supply OEM agrochemical products to distributors across ASEAN markets including Vietnam, Thailand, Indonesia, Philippines and Myanmar. Our Southeast Asia program features tropical-climate formulations for rice, rubber and palm oil crops, ASEAN-compliant registration documentation and packaging sizes suited to smallholder distribution channels.'
+  verified: '2026-08'
+
+intro:
+  - Southeast Asia's crop protection market is driven by rice, rubber and palm oil — crops that demand formulations engineered for high temperature, high humidity conditions. Smallholder distribution channels require smaller packaging sizes and price-sensitive product positioning, while ASEAN regulatory harmonization is creating both opportunities and compliance challenges.
+  - Our Southeast Asia program draws on 15+ years of export experience across the region. We understand ASEAN registration requirements, tropical formulation stability and the distribution realities of smallholder markets.
+
+capabilities:
+  tagline: 'Capabilities'
+  title: 'Southeast Asia Market Solutions'
+  features:
+    - icon: S
+      icon_bg: green
+      title: 'Tropical Formulations'
+      desc: 'Formulations engineered for high temperature and high humidity: heat-stable SC and EC products, UV-resistant packaging and accelerated stability data for tropical storage conditions.'
+      link_label: 'View products'
+      href: /products/herbicides
+    - icon: S
+      icon_bg: blue
+      title: 'Rice & Palm Oil Solutions'
+      desc: 'Herbicides for rice (pretilachlor, bentazon, propanil), palm oil (glyphosate, paraquat alternatives) and rubber plantations. Insecticides for brown planthopper, stem borer and rhinoceros beetle.'
+      link_label: 'View crop solutions'
+      href: /products/insecticides
+    - icon: S
+      icon_bg: purple
+      title: 'ASEAN Registration'
+      desc: 'Registration documentation compliant with ASEAN harmonization guidelines: GLP study reports, five-batch analysis, residue data and local submission support for Vietnam, Thailand, Indonesia and Philippines.'
+      link_label: 'View registration support'
+      href: /manufacturing/research-development
+    - icon: S
+      icon_bg: orange
+      title: 'Smallholder Packaging'
+      desc: 'Affordable small-pack sizes for smallholder channels: 50 mL, 100 mL and 250 mL sachets and bottles. Measured-dose packaging with pictorial labels for low-literacy users.'
+      link_label: 'View packaging'
+      href: /manufacturing/packaging
+
+faqs:
+  tagline: FAQ
+  title: 'Southeast Asia Market — Frequently Asked Questions'
+  items:
+    - q: 'Which Southeast Asian countries do you supply?'
+      a: 'We supply OEM products to distributors in Vietnam, Thailand, Indonesia, Philippines, Myanmar, Cambodia and Laos. Products are registered or in registration in key ASEAN markets.'
+    - q: 'How do you ensure formulation stability in tropical climates?'
+      a: 'All formulations undergo accelerated stability testing at 54°C (CIPAC MT 46) and long-term stability studies at 30°C/75% RH. We adjust adjuvant packages, preservative systems and packaging materials for tropical storage conditions.'
+    - q: 'What packaging sizes work for Southeast Asian markets?'
+      a: 'Smallholder-friendly packaging: 50 mL, 100 mL and 250 mL sachets and bottles with pictorial labels. Institutional sizes: 1 L and 5 L for plantation-scale buyers. Custom packaging sizes available for specific channel requirements.'
+    - q: 'Do you support ASEAN harmonized registration?'
+      a: 'Yes. We provide documentation aligned with ASEAN guidelines for harmonized pesticide registration: GLP study reports, five-batch analysis, residue data and formulation specifications. Our regulatory team supports submissions in target ASEAN countries.'
+
+cta:
+  title: 'Discuss Your Southeast Asia Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All markets
+      href: /markets

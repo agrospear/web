@@ -1,0 +1,64 @@
+meta:
+  title: 'Formulaciones de Fungicidas — OEM Protección de Cultivos | {SITE}'
+  description: 'Formulaciones de fungicidas personalizadas para marcas y distribuidores — modos de acción protectores y curativos, tipos SC/WP/WDG, OEM desde piloto de 5 toneladas, directo de fábrica desde Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'formulación fungicida OEM'
+    - 'fabricante fungicida protector'
+    - 'fungicida curativo OEM'
+    - 'fabricante tebuconazol'
+    - 'azoxistrobina OEM'
+    - 'formulación control de enfermedades'
+
+hero:
+  tagline: Fungicidas
+  title: 'Formulaciones de Fungicidas — Fabricación OEM'
+  subtitle: 'Formulaciones de fungicidas personalizadas para marcas y distribuidores — modos de acción protectores y curativos en SC, WP y WDG. OEM desde piloto de 5 toneladas, directo de fábrica desde Qingdao, China.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Agrospear fabrica formulaciones de fungicidas OEM en Qingdao (China): modos de acción protectores y curativos en tipos SC, WP, WDG y FS. Principios activos clave incluyen tebuconazol y azoxistrobina. MOQ desde piloto de 5 toneladas hasta lotes estándar de 20+ toneladas, enviados a más de 50 países en 25–35 días. Manejo de resistencia alineado con FRAC integrado en cada recomendación.'
+  verified: '2026-08'
+
+intro:
+  - Las enfermedades fúngicas reducen la producción global de cultivos en un 10–20% estimado anualmente. El portfolio de fungicidas de Agrospear ofrece tanto protección barrera preventiva como acción sistémica curativa frente a los principales grupos de patógenos.
+  - Cada formulación se diseña para estabilidad, adherencia resistente a la lluvia y cumplimiento de las normas internacionales. Programas de manejo de resistencia alineados con FRAC se integran en cada recomendación para prolongar la vida útil del producto.
+
+product_highlights:
+  tagline: Principios Activos Clave
+  title: 'Destacados de Productos Fungicidas'
+  subtitle: 'Principios activos fungicidas principales disponibles para fabricación OEM/ODM en múltiples tipos de formulación.'
+  items:
+    - name: Tebuconazol
+      type: DMI Triazol (FRAC Grupo 3)
+      desc: 'Fungicida sistémico curativo y protector para control de amplio espectro — royas, oídio, manchas foliares y rhizoctonia. Disponible en formulaciones SC y WDG.'
+      formulations: 'SC, WDG'
+    - name: Azoxistrobina
+      type: Estrobilurina (FRAC Grupo 11)
+      desc: 'Fungicida preventivo de amplio espectro para Ascomicetos, Basidiomicetos y Oomicetos. Ideal para aplicaciones foliares con adherencia resistente a la lluvia. Disponible en formulación SC.'
+      formulations: 'SC'
+
+faqs:
+  tagline: FAQ
+  title: 'Formulaciones de Fungicidas — Preguntas Frecuentes'
+  items:
+    - q: '¿Qué tipos de formulación de fungicidas fabrica Agrospear?'
+      a: 'SC, WP, WDG y FS. La elección depende del ingrediente activo, el patógeno objetivo, el método de aplicación y las preferencias de registro regional.'
+    - q: '¿Cuál es la diferencia entre acción fungicida protectora y curativa?'
+      a: 'Los fungicidas protectores forman una barrera química en la superficie de la planta antes de la infección. Los curativos (sistémicos) se absorben en el tejido vegetal y pueden detener infecciones en etapa temprana. Los programas eficaces suelen combinar ambos modos.'
+    - q: '¿Cómo maneja Agrospear la resistencia a fungicidas?'
+      a: 'Seguimos la clasificación FRAC y diseñamos programas de pulverización que alternan o mezclan principios activos de diferentes grupos de modo de acción, reduciendo la selección de cepas resistentes.'
+    - q: '¿Qué tramos de MOQ están disponibles para fungicidas?'
+      a: 'Muestras desde 1–4 toneladas, pilotos desde 5 toneladas y producción estándar desde 20+ toneladas. Plazo de 25–35 días desde la especificación confirmada.'
+
+cta:
+  title: 'Lanza Tu Marca de Fungicidas'
+  subtitle: 'Cuéntanos tu patógeno objetivo, cultivo y mercado — recibe un presupuesto detallado en un día laborable.'
+  actions:
+    - variant: primary
+      text: 'Solicitar Presupuesto de Fungicidas'
+      href: /es/request-quote
+    - text: 'Ver Todos los Productos'
+      href: /es/crop-protection-solutions
+    - text: 'Fabricación OEM'
+      href: /es/solutions/agrochemical-oem

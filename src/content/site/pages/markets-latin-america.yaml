@@ -1,0 +1,74 @@
+meta:
+  title: 'Agrochemical OEM Latin America — Large-Scale Crop Protection | {SITE}'
+  description: 'Agrospear OEM agrochemical solutions for Latin America: large-scale formulations for soybean, corn, sugarcane and coffee, Spanish and Portuguese documentation and bulk packaging.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical OEM Latin America'
+    - 'crop protection LATAM'
+    - 'soybean pesticide'
+    - 'sugarcane pesticide'
+    - 'pesticide registration Brazil'
+
+hero:
+  tagline: 'Markets · Latin America'
+  title: 'Agrochemical Solutions for Latin America'
+  subtitle: 'OEM crop protection products for Latin American agriculture — large-scale formulations for soybean, corn, sugarcane and coffee with Spanish and Portuguese documentation and registration support.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We supply OEM agrochemical products to distributors and importers across Latin America, with focus on Brazil, Argentina, Colombia and Mexico. Our LATAM program includes large-scale formulations for extensive agriculture, Spanish and Portuguese documentation, registration support for key markets and bulk packaging options for plantation-scale distribution.'
+  verified: '2026-08'
+
+intro:
+  - Latin America is one of the world's largest and most dynamic crop protection markets, driven by extensive soybean, corn, sugarcane and coffee production. Distributors need OEM partners who can deliver large volumes at competitive prices, with the registration documentation required by increasingly strict regulatory environments in Brazil, Argentina, Colombia and Mexico.
+  - Our Latin America program leverages 15+ years of export experience across the region, with products registered or in registration in 10+ LATAM countries.
+
+capabilities:
+  tagline: 'Capabilities'
+  title: 'Latin America Market Solutions'
+  features:
+    - icon: L
+      icon_bg: green
+      title: 'Large-Scale Formulations'
+      desc: 'High-volume formulations for extensive agriculture: glyphosate, 2,4-D, atrazine, mancozeb and chlorpyrifos in bulk quantities. Optimized for aerial and mechanized application at plantation scale.'
+      link_label: 'View products'
+      href: /products/herbicides
+    - icon: L
+      icon_bg: blue
+      title: 'Soybean & Corn Solutions'
+      desc: 'Herbicides for soybean (glyphosate, fomesafen, clethodim), corn (atrazine, nicosulfuron, mesotrione) and sugarcane (tebuthiuron, ametryn, diuron). Insecticides for soybean rust and corn earworm.'
+      link_label: 'View crop solutions'
+      href: /products/fungicides
+    - icon: L
+      icon_bg: purple
+      title: 'Registration Support'
+      desc: 'Registration dossiers for Brazil (MAPA), Argentina (SENASA), Colombia (ICA) and Mexico (COFEPRIS). GLP study reports, five-batch analysis and residue data for local submissions.'
+      link_label: 'View registration support'
+      href: /manufacturing/research-development
+    - icon: L
+      icon_bg: orange
+      title: 'Bulk Packaging'
+      desc: 'Large-scale packaging options: 5 L, 10 L, 20 L and 200 L for liquid formulations; 5 kg, 10 kg and 25 kg for powder formulations. Custom bulk packaging for plantation distribution.'
+      link_label: 'View packaging'
+      href: /manufacturing/packaging
+
+faqs:
+  tagline: FAQ
+  title: 'Latin America Market — Frequently Asked Questions'
+  items:
+    - q: 'Which Latin American countries do you supply?'
+      a: 'We supply OEM products to distributors in Brazil, Argentina, Colombia, Mexico, Peru, Chile, Ecuador, Paraguay, Uruguay and Bolivia. Products are registered or in registration in 10+ LATAM countries.'
+    - q: 'Do you provide Portuguese documentation for Brazil?'
+      a: 'Yes. We provide complete product documentation in Portuguese for the Brazilian market: labels, safety data sheets, technical data sheets and MAPA registration dossiers. Our regulatory team has experience with Brazilian registration requirements.'
+    - q: 'What volumes can you supply for large-scale agriculture?'
+      a: 'We supply bulk quantities for extensive agriculture: 200 L drums, 1,000 L IBCs and custom bulk packaging. Production capacity supports multi-container orders with 25–35 day lead time for existing formulations.'
+    - q: 'Do you support registration in Brazil (MAPA)?'
+      a: 'Yes. We provide MAPA-compliant registration documentation including GLP study reports, five-batch analysis, residue data and formulation specifications. Our regulatory team coordinates with local Brazilian consultants for MAPA submissions.'
+
+cta:
+  title: 'Discuss Your Latin America Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All markets
+      href: /markets

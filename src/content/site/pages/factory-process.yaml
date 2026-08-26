@@ -58,7 +58,7 @@ steps:
 evidence_gates:
   tagline: Inspection Evidence
   title: 'Every Stage Leaves a Record — Photos & Reports'
-  subtitle: 'Below are the actual inspection photos and test-report dossiers from our seven controlled quality gates. Each PDF is a real bilingual record you can download and audit — the same records that back every batch in the 10-year ERP traceability archive. See the full 7-stage flow on /quality.'
+  subtitle: 'Below are the actual inspection photos and test-report dossiers from our seven controlled quality gates. Each PDF is a real bilingual record you can download and audit — the same records that back every batch in the 10-year ERP traceability archive. See the full 7-stage flow on /manufacturing/quality-control.'
   items:
     - title: 'PPM — Project Quality Planning'
       description: 'The pre-production meeting locks scope, the golden sample and the Quality Inspection Plan before the line starts. Unresolved items block production release.'

@@ -1,0 +1,93 @@
+meta:
+  title: 'Solicitar Presupuesto — Fabricación OEM/ODM de Agroquímicos | {SITE}'
+  description: 'Solicita un presupuesto para fabricación agroquímica personalizada. Envía tu brief de proyecto para formulación OEM/ODM, marca privada o suministro a granel. Respuesta en un día laborable.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'presupuesto agroquímico'
+    - 'cotización OEM agroquímica'
+    - 'cotización ODM protección de cultivos'
+    - 'presupuesto pesticida marca privada'
+    - 'cotización fabricación agroquímica'
+
+hero:
+  tagline: Solicitar Presupuesto
+  title: 'Solicitar Presupuesto — Fabricación OEM/ODM de Agroquímicos'
+  subtitle: 'Envía tu brief de proyecto para formulación OEM/ODM, marca privada o suministro a granel. Nuestro equipo revisa y devuelve un presupuesto detallado en un día laborable.'
+
+answer:
+  label: 'Qué pasa después'
+  text: 'Después de enviar un brief de proyecto, recibes una respuesta en un día laborable. Un NDA está disponible antes de que compartas detalles de propiedad. I+D revisa tu brief y devuelve una cotización detallada con MOQ, tarifas de muestra y un cronograma puerta por puerta — típicamente 7–12 días para muestras y 6–8 semanas para la primera producción desde PO confirmado. Las tarifas de muestra se acreditan hacia tu pedido de producción. Sin compromiso hasta que firmes.'
+  verified: '2026-08'
+
+process_steps:
+  tagline: El Proceso
+  title: 'Del Brief al Presupuesto — Cinco Pasos'
+  subtitle: 'Cada paso tiene un cronograma definido, un entregable documentado y un punto de control de aprobación/rechazo. Avanzas solo cuando estés listo.'
+  steps:
+    - step: 'Paso 1'
+      title: 'Envía Tu Brief de Proyecto'
+      desc: 'Cuéntanos sobre tu producto — ingrediente activo objetivo, concentración, tipo de formulación, volumen, necesidades de cumplimiento y cronograma. El brief toma 5–10 minutos. Si no estás seguro de cada detalle, comparte lo que tengas y nosotros guiamos el resto. Un NDA está disponible antes de compartir formulaciones de propiedad.'
+    - step: 'Paso 2'
+      title: 'NDA y Revisión de Factibilidad (1–5 Días)'
+      desc: 'Firmamos un NDA si lo solicitas, luego I+D revisa tu brief contra la capacidad de fabricación, disponibilidad de materias primas y alcance de cumplimiento. Recibes una cotización detallada con cálculo de MOQ, tarifas de muestra y un cronograma puerta por puerta.'
+    - step: 'Paso 3'
+      title: 'Muestra y Aprobación (7–21 Días)'
+      desc: '1–4 toneladas de lote prototipo producidas según tu especificación. Evalúas — precisión de composición, propiedades físicas, precisión de etiqueta, ajuste de embalaje. Los ajustes se capturan en un BOM revisado. Las tarifas de muestra se acreditan hacia la producción.'
+    - step: 'Paso 4'
+      title: 'Planificación de Preproducción (7 Días)'
+      desc: 'Adquisición de materias primas, configuración de equipos, confirmación de embalaje y reserva de cupo de producción. Todos los materiales son inspeccionados a la entrada contra el BOM congelado. Se emite un cronograma de producción con fechas de puertas de QC antes de que comience la fabricación.'
+    - step: 'Paso 5'
+      title: 'Producción, QC y Envío (4–6 Semanas)'
+      desc: 'La fabricación atraviesa el sistema de inspección de 7 etapas con criterios de aprobación/rechazo en cada puerta. Embalaje de grado exportación, documentación de cumplimiento y coordinación de flete marítimo a 50+ países. Una revisión post-entrega captura refinamientos para el próximo pedido.'
+
+collaboration_types:
+  tagline: Elige Tu Camino
+  title: 'Tres Formas de Trabajar con Agrospear'
+  subtitle: 'Cada proyecto pasa por el mismo proceso — lo que cambia es el alcance de I+D y dónde queda la propiedad del IP.'
+  grid: 'sm:grid-cols-2 lg:grid-cols-3'
+  features:
+    - icon: O
+      icon_bg: blue
+      title: 'Fabricación OEM'
+      desc: 'Provees la formulación. Fabricamos según tu especificación. Tú posees todo el IP. Mejor para marcas con formulaciones probadas.'
+      link_label: 'Ver detalles OEM'
+      href: /es/solutions/agrochemical-oem
+    - icon: D
+      icon_bg: green
+      title: 'Desarrollo ODM'
+      desc: 'Provees el brief. Desarrollamos la formulación. Plataforma adaptada con tu marca. Mejor para marcas que entran al mercado sin I+D interna.'
+      link_label: 'Ver detalles ODM'
+      href: /es/solutions/custom-formulation
+    - icon: P
+      icon_bg: purple
+      title: 'Marca Privada'
+      desc: 'Tu marca en una plataforma probada. Sin etapa de I+D. MOQ más bajos. Mejor para distribuidores y cooperativas.'
+      link_label: 'Ver opciones de Marca Privada'
+      href: /es/solutions/private-label-pesticides
+
+faqs:
+  tagline: FAQ
+  title: 'Solicitar Presupuesto — Preguntas Frecuentes'
+  items:
+    - q: '¿Qué información necesito proporcionar?'
+      a: 'Tu tipo de negocio, especificaciones de producto objetivo (ingrediente activo, concentración, tipo de formulación), rango de cantidad del pedido, cronograma y cualquier requisito de cumplimiento. El brief toma 5–10 minutos. Si no estás seguro de algún campo, omítelo — haremos seguimiento.'
+    - q: '¿Qué tan rápido recibiré una respuesta?'
+      a: 'Recibes una respuesta en un día laborable. I+D revisa tu brief y devuelve una cotización detallada con MOQ, tarifas de muestra y un cronograma puerta por puerta.'
+    - q: '¿Está protegida mi formulación?'
+      a: 'Sí. Un NDA está disponible de inmediato — antes de que compartas cualquier información de propiedad. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellas.'
+    - q: '¿Cuál es el pedido mínimo para empezar?'
+      a: 'El punto de entrada es escalonado: primero 1–4 toneladas de muestra (7–12 días), un pedido de prueba de 5 toneladas (25–35 días), y luego series de volumen estándar de 20+ toneladas por configuración aprobada.'
+    - q: '¿Se aplican tarifas de muestra?'
+      a: 'Las tarifas de muestra se presupuestan en la etapa de revisión de factibilidad y se acreditan hacia tu pedido de producción. No se requiere compromiso hasta que revises y firmes el contrato.'
+
+cta:
+  title: '¿Listo para Empezar?'
+  subtitle: 'Envía tu brief de proyecto — especificaciones de producto, volumen y cronograma — y confirmaremos factibilidad, produciremos muestras y entregaremos un cronograma de producción con QC documentado en cada paso.'
+  actions:
+    - variant: primary
+      text: 'Envía Tu Brief de Proyecto'
+      href: /es/contact#project-brief
+    - text: 'Lee la guía completa de onboarding'
+      href: /es/oem-onboarding-guide
+    - text: 'Verifica la fábrica y el sistema de calidad'
+      href: /es/proof-center

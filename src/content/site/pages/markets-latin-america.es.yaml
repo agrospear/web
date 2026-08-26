@@ -1,0 +1,74 @@
+meta:
+  title: 'Agroquímicos OEM América Latina — Fitosanitarios a gran escala | {SITE}'
+  description: 'Soluciones agroquímicas OEM de Agrospear para América Latina: formulaciones a gran escala para soja, maíz, caña de azúcar y café, documentación en español y portugués y embalaje al granel.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agroquímicos OEM América Latina'
+    - 'fitosanitarios LATAM'
+    - 'pesticida para soja'
+    - 'pesticida para caña de azúcar'
+    - 'registro de pesticidas Brasil'
+
+hero:
+  tagline: 'Mercados · América Latina'
+  title: 'Soluciones Agroquímicas para América Latina'
+  subtitle: 'Productos fitosanitarios OEM para la agricultura latinoamericana — formulaciones a gran escala para soja, maíz, caña de azúcar y café con documentación en español y portugués y soporte de registro.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Suministramos productos agroquímicos OEM a distribuidores e importadores en América Latina, con enfoque en Brasil, Argentina, Colombia y México. Nuestro programa LATAM incluye formulaciones a gran escala para agricultura extensiva, documentación en español y portugués, soporte de registro para mercados clave y opciones de embalaje al granel para distribución a escala de plantación.'
+  verified: '2026-08'
+
+intro:
+  - América Latina es uno de los mercados de fitosanitarios más grandes y dinámicos del mundo, impulsado por la extensa producción de soja, maíz, caña de azúcar y café. Los distribuidores necesitan socios OEM que entreguen grandes volúmenes a precios competitivos, con la documentación de registro requerida por entornos regulatorios cada vez más estrictos.
+  - Nuestro programa para América Latina aprovecha más de 15 años de experiencia de exportación en la región, con productos registrados o en registro en más de 10 países LATAM.
+
+capabilities:
+  tagline: 'Capacidades'
+  title: 'Soluciones para el Mercado de América Latina'
+  features:
+    - icon: L
+      icon_bg: green
+      title: 'Formulaciones a gran escala'
+      desc: 'Formulaciones de alto volumen para agricultura extensiva: glifosato, 2,4-D, atrazina, mancozeb y clorpirifos en cantidades al granel. Optimizadas para aplicación aérea y mecanizada a escala de plantación.'
+      link_label: 'Ver productos'
+      href: /es/products/herbicides
+    - icon: L
+      icon_bg: blue
+      title: 'Soluciones para soja y maíz'
+      desc: 'Herbicidas para soja (glifosato, fomesafen, clethodim), maíz (atrazina, nicosulfuron, mesotrione) y caña de azúcar (tebuthiuron, ametryn, diuron). Insecticidas para roya de la soja y gusano del maíz.'
+      link_label: 'Ver soluciones por cultivo'
+      href: /es/products/fungicides
+    - icon: L
+      icon_bg: purple
+      title: 'Soporte de registro'
+      desc: 'Expedientes de registro para Brasil (MAPA), Argentina (SENASA), Colombia (ICA) y México (COFEPRIS). Informes de estudios GLP, análisis de cinco lotes y datos de residuos para presentaciones locales.'
+      link_label: 'Ver soporte de registro'
+      href: /es/manufacturing/research-development
+    - icon: L
+      icon_bg: orange
+      title: 'Embalaje al granel'
+      desc: 'Opciones de embalaje a gran escala: 5 L, 10 L, 20 L y 200 L para formulaciones líquidas; 5 kg, 10 kg y 25 kg para formulaciones en polvo. Embalaje al granel personalizado para distribución en plantaciones.'
+      link_label: 'Ver embalaje'
+      href: /es/manufacturing/packaging
+
+faqs:
+  tagline: FAQ
+  title: 'Mercado de América Latina — Preguntas frecuentes'
+  items:
+    - q: '¿A qué países latinoamericanos suministráis?'
+      a: 'Suministramos productos OEM a distribuidores en Brasil, Argentina, Colombia, México, Perú, Chile, Ecuador, Paraguay, Uruguay y Bolivia. Productos registrados o en registro en 10+ países LATAM.'
+    - q: '¿Proporcionáis documentación en portugués para Brasil?'
+      a: 'Sí. Proporcionamos documentación completa de producto en portugués para el mercado brasileño: etiquetas, fichas de seguridad, fichas técnicas y expedientes de registro MAPA. Nuestro equipo regulatorio tiene experiencia con los requisitos de registro brasileños.'
+    - q: '¿Qué volúmenes podéis suministrar para agricultura a gran escala?'
+      a: 'Suministramos cantidades al granel para agricultura extensiva: tambores de 200 L, IBCs de 1,000 L y embalaje al granel personalizado. Capacidad de producción para pedidos de múltiples contenedores con plazo de 25–35 días para formulaciones existentes.'
+    - q: '¿Apoyáis el registro en Brasil (MAPA)?'
+      a: 'Sí. Proporcionamos documentación de registro conforme a MAPA incluyendo informes de estudios GLP, análisis de cinco lotes, datos de residuos y especificaciones de formulación. Nuestro equipo regulatorio coordina con consultores brasileños locales para presentaciones ante MAPA.'
+
+cta:
+  title: 'Comenta tus requisitos para América Latina'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Todos los mercados
+      href: /es/markets

@@ -1,0 +1,75 @@
+meta:
+  title: 'Centro de I+D — Desarrollo e innovación de formulaciones | {SITE}'
+  description: 'Centro de I+D de Agrospear: ingeniería de formulación, planta piloto, laboratorio de inspección de calidad y taller de prototipos para desarrollo de productos agroquímicos personalizados.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'I+D agroquímico'
+    - 'desarrollo de formulación'
+    - 'planta piloto'
+    - 'laboratorio inspección calidad'
+    - 'taller prototipos'
+    - 'innovación fitosanitarios'
+
+hero:
+  tagline: 'Fabricación · I+D'
+  title: 'Centro de Investigación y Desarrollo'
+  subtitle: 'Nuestro centro de I+D impulsa el desarrollo de formulaciones agroquímicas personalizadas — desde cribado en laboratorio y lotes piloto hasta formulaciones listas para producción bajo tu marca.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Nuestro centro de I+D ofrece capacidades completas de desarrollo de formulación: ingeniería de formulación, producción en planta piloto, laboratorio de inspección de calidad y taller de prototipos. Desarrollamos formulaciones agroquímicas personalizadas desde tus requisitos a través de cribado en laboratorio, lotes piloto y transferencia a producción a escala. Plazo típico: 25–35 días para formulaciones existentes, 60–90 días para nuevos registros.'
+  verified: '2026-08'
+
+intro:
+  - Nuestro centro de I+D es el motor detrás de cada formulación personalizada: desde el cribado inicial en laboratorio y las pruebas de compatibilidad hasta la producción en planta piloto y las especificaciones listas para producción. Cada producto de Agrospear empieza aquí antes de llegar a la línea de producción.
+  - Desarrollamos formulaciones agroquímicas personalizadas desde tus requisitos — cultivo objetivo, espectro de plagas, mercado y estado de registro — a través de un proceso de desarrollo estructurado con hitos documentados y puntos de control de calidad.
+
+capabilities:
+  tagline: 'Capacidades'
+  title: 'Capacidades del centro de I+D'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Laboratorio de ingeniería de formulación'
+      desc: 'Laboratorio dedicado al cribado de formulaciones, diseño de sistemas de coadyuvantes y pruebas de compatibilidad. Equipado para desarrollo de formulaciones SC, EC, WP, WDG, SL, ME, CS y FS.'
+      link_label: 'Ver ingeniería de formulación'
+      href: /es/manufacturing/research-development
+    - icon: R
+      icon_bg: blue
+      title: 'Planta piloto'
+      desc: 'Instalación de producción a pequeña escala para lotes piloto de 1–5 toneladas. Cubre el hueco entre la formulación de laboratorio y la fabricación a escala con validación de proceso real.'
+      link_label: 'Ver planta piloto'
+      href: /es/manufacturing/research-development
+    - icon: R
+      icon_bg: purple
+      title: 'Laboratorio de inspección de calidad'
+      desc: 'Laboratorio de QC independiente con HPLC, GC, analizador de tamaño de partícula y cámaras de estabilidad. Análisis del 100% de lotes y pruebas de estabilidad CIPAC en cada producción.'
+      link_label: 'Ver laboratorio de calidad'
+      href: /es/manufacturing/research-development
+    - icon: R
+      icon_bg: orange
+      title: 'Taller de prototipos'
+      desc: 'Taller dedicado a la preparación de muestras, prototipado de etiquetas y maquetas de embalaje. Respuesta rápida para muestras de registro y lotes de ensayo de campo.'
+      link_label: 'Ver taller de prototipos'
+      href: /es/manufacturing/research-development
+
+faqs:
+  tagline: FAQ
+  title: 'Centro de I+D — Preguntas frecuentes'
+  items:
+    - q: '¿Cuál es el plazo típico de desarrollo para una formulación personalizada?'
+      a: '25–35 días para formulaciones existentes (concentración adaptada, sistema de coadyuvantes o embalaje). 60–90 días para formulaciones nuevas que requieren validación de estabilidad, cribado de compatibilidad y documentación de registro. El plazo se confirma tras la revisión inicial de especificaciones.'
+    - q: '¿Puedo visitar el centro de I+D durante mi proyecto?'
+      a: 'Sí. Hay disponibles visitas presenciales y recorridos en vídeo por el centro de I+D. Muchos clientes visitan durante la producción piloto para observar los ensayos de formulación y dar retroalimentación en tiempo real sobre las especificaciones del producto.'
+    - q: '¿Desarrolláis formulaciones para nuevos ingredientes activos?'
+      a: 'Sí. Desarrollamos formulaciones a partir de tu ingrediente activo suministrado o lo obtenemos a través de nuestra red de proveedores aprobados. Las formulaciones con IA nuevo requieren plazos de desarrollo extendidos para validación de estabilidad y cribado de compatibilidad.'
+    - q: '¿Cómo se documentan los hitos de desarrollo?'
+      a: 'Cada proyecto sigue un protocolo de desarrollo documentado: brief de formulación, informe de cribado en laboratorio, registro de lote piloto, datos de estabilidad, ficha de especificación y protocolo de transferencia a producción. Todos los documentos se comparten con el cliente en cada hito.'
+
+cta:
+  title: 'Comenta tu proyecto de desarrollo de formulación'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Vista general de fabricación
+      href: /es/manufacturing

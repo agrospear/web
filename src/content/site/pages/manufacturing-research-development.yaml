@@ -1,0 +1,75 @@
+meta:
+  title: 'R&D Center — Formulation Development & Innovation | {SITE}'
+  description: 'Agrospear R&D center: formulation engineering, pilot plant, quality inspection lab and prototype workshop for custom agrochemical product development.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical R&D'
+    - 'formulation development'
+    - 'pilot plant'
+    - 'quality inspection lab'
+    - 'prototype workshop'
+    - 'crop protection innovation'
+
+hero:
+  tagline: 'Manufacturing · R&D'
+  title: 'Research & Development Center'
+  subtitle: 'Our R&D center drives custom agrochemical formulation development — from lab screening and pilot batches to production-ready formulations under your brand.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Our R&D center provides full formulation development capabilities: formulation engineering, pilot plant production, quality inspection lab and prototype workshop. We develop custom agrochemical formulations from your requirements through lab screening, pilot batches and full-scale production transfer. Typical development timeline: 25–35 days for existing formulations, 60–90 days for new registrations.'
+  verified: '2026-08'
+
+intro:
+  - Our R&D center is the engine behind every custom formulation: from initial lab screening and compatibility testing through pilot plant production to production-ready specifications. Every Agrospear product starts here before reaching the production floor.
+  - We develop custom agrochemical formulations from your requirements — target crop, pest spectrum, market and registration status — through a structured development process with documented milestones and quality checkpoints.
+
+capabilities:
+  tagline: 'Capabilities'
+  title: 'R&D Center Capabilities'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Formulation Engineering Lab'
+      desc: 'Dedicated lab for formulation screening, adjuvant system design and compatibility testing. Equipped for SC, EC, WP, WDG, SL, ME, CS and FS formulation development.'
+      link_label: 'View formulation engineering'
+      href: /manufacturing/research-development
+    - icon: R
+      icon_bg: blue
+      title: 'Pilot Plant'
+      desc: 'Small-scale production facility for pilot batches from 1–5 tons. Bridges the gap between lab formulation and full-scale manufacturing with real-world process validation.'
+      link_label: 'View pilot plant'
+      href: /manufacturing/research-development
+    - icon: R
+      icon_bg: purple
+      title: 'Quality Inspection Lab'
+      desc: 'Independent QC laboratory with HPLC, GC, particle size analyzer and stability chambers. 100% batch analysis and CIPAC stability testing on every production run.'
+      link_label: 'View quality lab'
+      href: /manufacturing/research-development
+    - icon: R
+      icon_bg: orange
+      title: 'Prototype Workshop'
+      desc: 'Dedicated workshop for sample preparation, label prototyping and packaging mockups. Fast turnaround for registration samples and field trial batches.'
+      link_label: 'View prototype workshop'
+      href: /manufacturing/research-development
+
+faqs:
+  tagline: FAQ
+  title: 'R&D Center — Frequently Asked Questions'
+  items:
+    - q: 'What is the typical development timeline for a custom formulation?'
+      a: '25–35 days for existing formulations (adapted concentration, adjuvant system or packaging). 60–90 days for new formulations requiring stability validation, compatibility screening and registration documentation. Timeline is confirmed after the initial specification review.'
+    - q: 'Can I visit the R&D center during my project?'
+      a: 'Yes. In-person visits and remote video walkthroughs of the R&D center are available. Many clients visit during pilot production to observe formulation trials and provide real-time feedback on product specifications.'
+    - q: 'Do you develop formulations for new active ingredients?'
+      a: 'Yes. We develop formulations from your supplied active ingredient or source it through our approved supplier network. New AI formulations require extended development timelines for stability validation and compatibility screening.'
+    - q: 'How are development milestones documented?'
+      a: 'Every project follows a documented development protocol: formulation brief, lab screening report, pilot batch record, stability data, specification sheet and production transfer protocol. All documents are shared with the client at each milestone.'
+
+cta:
+  title: 'Discuss Your Formulation Development Project'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: Manufacturing overview
+      href: /manufacturing

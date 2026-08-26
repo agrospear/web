@@ -1,0 +1,74 @@
+meta:
+  title: 'Mercados de agroquímicos — Soluciones OEM regionales | {SITE}'
+  description: 'Mercados agroquímicos regionales de Agrospear: fabricación OEM y soluciones de exportación para África, Sudeste Asiático, América Latina y mercados globales de fitosanitarios.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'mercados de agroquímicos'
+    - 'mercados de fitosanitarios'
+    - 'mercados de exportación OEM'
+    - 'soluciones agroquímicas regionales'
+    - 'exportación de pesticidas'
+
+hero:
+  tagline: 'Mercados'
+  title: 'Mercados Regionales'
+  subtitle: 'Fabricación OEM de agroquímicos y soluciones de exportación adaptadas a África, Sudeste Asiático, América Latina y mercados emergentes de fitosanitarios en todo el mundo.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Suministramos productos agroquímicos OEM a distribuidores e importadores en África, Sudeste Asiático, América Latina y Medio Oriente. Cada mercado tiene requisitos regulatorios, perfiles de cultivos y preferencias de embalaje distintos — adaptamos formulación, soporte de registro, embalaje y documentación para satisfacer las demandas regionales.'
+  verified: '2026-08'
+
+intro:
+  - Cada mercado agroquímico es diferente. África demanda productos de amplio espectro rentables con soporte de registro local. El Sudeste Asiático necesita formulaciones para clima tropical y embalaje adaptado a pequeños agricultores. América Latina requiere soluciones agrícolas a gran escala con servicio OEM de respuesta rápida.
+  - Adaptamos nuestra fabricación, documentación y logística a cada región — no un modelo de exportación único, sino soluciones específicas por mercado construidas sobre más de 15 años de experiencia regional.
+
+capabilities:
+  tagline: 'Mercados'
+  title: 'Soluciones por Mercado Regional'
+  features:
+    - icon: M
+      icon_bg: green
+      title: 'África'
+      desc: 'Herbicidas e insecticidas de amplio espectro para cultivos básicos. Documentación en francés e inglés. Expedientes de pre-registro para mercados de África Occidental y Oriental. MOQ flexible para entrada al mercado.'
+      link_label: 'Ver mercado de África'
+      href: /es/markets/africa
+    - icon: M
+      icon_bg: blue
+      title: 'Sudeste Asiático'
+      desc: 'Formulaciones para clima tropical adaptadas a arroz, caucho y aceite de palma. Tamaños de embalaje para pequeños agricultores. Documentación regulatoria ASEAN. Servicio OEM de respuesta rápida.'
+      link_label: 'Ver mercado Sudeste Asiático'
+      href: /es/markets/southeast-asia
+    - icon: M
+      icon_bg: purple
+      title: 'América Latina'
+      desc: 'Soluciones agrícolas a gran escala para soja, maíz, caña de azúcar y café. Documentación en español y portugués. Soporte de registro para mercados clave LATAM. Opciones de embalaje al granel.'
+      link_label: 'Ver mercado de América Latina'
+      href: /es/markets/latin-america
+    - icon: M
+      icon_bg: orange
+      title: 'Exportación global'
+      desc: 'Documentación personalizada, embalaje conforme a DG y soporte logístico para cualquier mercado. Más de 15 años de experiencia de exportación en 40+ países. Programas OEM flexibles para nueva entrada al mercado.'
+      link_label: 'Ver fabricación'
+      href: /es/manufacturing
+
+faqs:
+  tagline: FAQ
+  title: 'Mercados — Preguntas frecuentes'
+  items:
+    - q: '¿A qué mercados suministráis?'
+      a: 'Suministramos productos agroquímicos OEM a distribuidores e importadores en África Subsahariana, Sudeste Asiático, América Latina, Medio Oriente y Sur de Asia. Nuestros productos están registrados o en registro en 40+ países.'
+    - q: '¿Proporcionáis soporte de registro?'
+      a: 'Sí. Proporcionamos expedientes de pre-registro incluyendo estudios de toxicidad GLP, datos de residuos, análisis de formulación e informes de análisis de cinco lotes. Nuestro equipo regulatorio apoya presentaciones de registro local en mercados objetivo.'
+    - q: '¿Podéis adaptar formulaciones para necesidades regionales específicas?'
+      a: 'Sí. Ajustamos concentración de IA, forma dosage, paquete de adyuvantes y tamaño de embalaje para perfiles de cultivos regionales, condiciones climáticas y requisitos regulatorios. El desarrollo de formulación personalizada típicamente toma 35–55 días.'
+    - q: '¿Cuál es la cantidad mínima de pedido para un mercado nuevo?'
+      a: 'MOQ estándar es 1,000 L o 1,000 kg por SKU para formulaciones existentes. Nuevas formulaciones o embalaje personalizado pueden tener MOQs más altos, confirmados por proyecto según tu plan de entrada al mercado.'
+
+cta:
+  title: 'Comenta tus requisitos de mercado'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Soluciones OEM
+      href: /es/solutions/agrochemical-oem

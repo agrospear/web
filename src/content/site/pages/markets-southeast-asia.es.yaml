@@ -1,0 +1,74 @@
+meta:
+  title: 'Agroquímicos OEM Sudeste Asiático — Fitosanitarios tropicales | {SITE}'
+  description: 'Soluciones agroquímicas OEM de Agrospear para el Sudeste Asiático: formulaciones para clima tropical para arroz, caucho y aceite de palma, documentación regulatoria ASEAN y embalaje para pequeños agricultores.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agroquímicos OEM Sudeste Asiático'
+    - 'fitosanitarios ASEAN'
+    - 'pesticida para arroz'
+    - 'pesticida para aceite de palma'
+    - 'formulación tropical'
+
+hero:
+  tagline: 'Mercados · Sudeste Asiático'
+  title: 'Soluciones Agroquímicas para el Sudeste Asiático'
+  subtitle: 'Productos fitosanitarios OEM diseñados para climas tropicales — formulaciones para arroz, caucho y aceite de palma con documentación regulatoria ASEAN y embalaje adaptado a pequeños agricultores.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Suministramos productos agroquímicos OEM a distribuidores en mercados ASEAN incluyendo Vietnam, Tailandia, Indonesia, Filipinas y Myanmar. Nuestro programa para el Sudeste Asiático ofrece formulaciones para clima tropical para cultivos de arroz, caucho y aceite de palma, documentación de registro conforme a ASEAN y tamaños de embalaje adecuados para canales de distribución de pequeños agricultores.'
+  verified: '2026-08'
+
+intro:
+  - El mercado de fitosanitarios del Sudeste Asiático está impulsado por el arroz, el caucho y el aceite de palma — cultivos que demandan formulaciones diseñadas para condiciones de alta temperatura y alta humedad. Los canales de distribución de pequeños agricultores requieren tamaños de embalaje más pequeños y posicionamiento de producto sensible al precio.
+  - Nuestro programa para el Sudeste Asiático se basa en más de 15 años de experiencia de exportación en la región. Entendemos los requisitos de registro ASEAN, la estabilidad de formulaciones tropicales y las realidades de distribución de mercados de pequeños agricultores.
+
+capabilities:
+  tagline: 'Capacidades'
+  title: 'Soluciones para el Mercado del Sudeste Asiático'
+  features:
+    - icon: S
+      icon_bg: green
+      title: 'Formulaciones tropicales'
+      desc: 'Formulaciones diseñadas para alta temperatura y alta humedad: productos SC y EC estables al calor, embalaje resistente a UV y datos de estabilidad acelerada para condiciones de almacenamiento tropical.'
+      link_label: 'Ver productos'
+      href: /es/products/herbicides
+    - icon: S
+      icon_bg: blue
+      title: 'Soluciones para arroz y aceite de palma'
+      desc: 'Herbicidas para arroz (pretilacloro, bentazon, propanil), aceite de palma (glifosato, alternativas a paraquat) y plantaciones de caucho. Insecticidas para saltamontes marrones, barrenador del tallo y escarabajo rinoceronte.'
+      link_label: 'Ver soluciones por cultivo'
+      href: /es/products/insecticides
+    - icon: S
+      icon_bg: purple
+      title: 'Registro ASEAN'
+      desc: 'Documentación de registro conforme a las directrices de armonización ASEAN: informes de estudios GLP, análisis de cinco lotes, datos de residuos y soporte de presentación local para Vietnam, Tailandia, Indonesia y Filipinas.'
+      link_label: 'Ver soporte de registro'
+      href: /es/manufacturing/research-development
+    - icon: S
+      icon_bg: orange
+      title: 'Embalaje para pequeños agricultores'
+      desc: 'Tamaños pequeños asequibles para canales de pequeños agricultores: sobres y botellas de 50 mL, 100 mL y 250 mL. Embalaje con dosis medidas y etiquetas pictóricas para usuarios con baja alfabetización.'
+      link_label: 'Ver embalaje'
+      href: /es/manufacturing/packaging
+
+faqs:
+  tagline: FAQ
+  title: 'Mercado del Sudeste Asiático — Preguntas frecuentes'
+  items:
+    - q: '¿A qué países del Sudeste Asiático suministráis?'
+      a: 'Suministramos productos OEM a distribuidores en Vietnam, Tailandia, Indonesia, Filipinas, Myanmar, Camboya y Laos. Productos registrados o en registro en mercados clave de ASEAN.'
+    - q: '¿Cómo aseguráis la estabilidad de formulaciones en climas tropicales?'
+      a: 'Todas las formulaciones pasan pruebas de estabilidad acelerada a 54°C (CIPAC MT 46) y estudios de estabilidad a largo plazo a 30°C/75% HR. Ajustamos paquetes de adyuvantes, sistemas de conservantes y materiales de embalaje para condiciones de almacenamiento tropical.'
+    - q: '¿Qué tamaños de embalaje funcionan para los mercados del Sudeste Asiático?'
+      a: 'Embalaje para pequeños agricultores: sobres y botellas de 50 mL, 100 mL y 250 mL con etiquetas pictóricas. Tamaños institucionales: 1 L y 5 L para compradores de plantaciones. Tamaños personalizados disponibles.'
+    - q: '¿Apoyáis el registro armonizado ASEAN?'
+      a: 'Sí. Proporcionamos documentación alineada con las directrices ASEAN para registro armonizado de pesticidas: informes de estudios GLP, análisis de cinco lotes, datos de residuos y especificaciones de formulación. Nuestro equipo regulatorio apoya presentaciones en países ASEAN objetivo.'
+
+cta:
+  title: 'Comenta tus requisitos para el Sudeste Asiático'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Todos los mercados
+      href: /es/markets

@@ -62,35 +62,45 @@ export function Footer() {
         {/* Products */}
         <FooterCol title={t('agro.footer.colProducts')}>
           <a className="foot-link" href={fl('/products')}>{t('agro.nav.productsDropdown.all')}</a>
+          <a className="foot-link" href={fl('/products/herbicides')}>{t('agro.footer.herbicides')}</a>
+          <a className="foot-link" href={fl('/products/insecticides')}>{t('agro.footer.insecticides')}</a>
+          <a className="foot-link" href={fl('/products/fungicides')}>{t('agro.footer.fungicides')}</a>
+          <a className="foot-link" href={fl('/products/pgr')}>{t('agro.footer.pgr')}</a>
+          <a className="foot-link" href={fl('/products/seed-treatment')}>{t('agro.footer.seedTreatment')}</a>
+          <a className="foot-link" href={fl('/products/premix-formulations')}>{t('agro.footer.premixFormulations')}</a>
+          <a className="foot-link" href={fl('/products/adjuvants')}>{t('agro.footer.adjuvants')}</a>
+          <a className="foot-link" href={fl('/products/biopesticides')}>{t('agro.footer.biopesticides')}</a>
           <a className="foot-link" href={fl('/customizer')}>{t('agro.nav.productsDropdown.customizer')}</a>
           <a className="foot-link" href={fl('/formulation-type-comparison')}>{t('agro.nav.productsServicesDropdown.constructionComparison')}</a>
-          <a className="foot-link" href={fl('/product-development')}>{t('agro.footer.productDevelopment')}</a>
-          <a className="foot-link" href={fl('/oem-odm-private-label-comparison')}>{t('agro.nav.productsServicesDropdown.comparison')}</a>
-          <a className="foot-link" href={fl('/new-brand-trial-order')}>{t('agro.nav.oemDropdown.newBrandTrial')}</a>
         </FooterCol>
 
         {/* Manufacturing & Quality */}
         <FooterCol title={t('agro.footer.colManufacturing')}>
-          <a className="foot-link" href={fl('/factory')}>{t('agro.footer.factory')}</a>
+          <a className="foot-link" href={fl('/manufacturing/factory')}>{t('agro.footer.factory')}</a>
+          <a className="foot-link" href={fl('/manufacturing/agrochemical-manufacturing')}>{t('agro.footer.agrochemicalManufacturing')}</a>
+          <a className="foot-link" href={fl('/manufacturing/research-development')}>{t('agro.footer.researchDevelopment')}</a>
+          <a className="foot-link" href={fl('/manufacturing/quality-control')}>{t('agro.footer.qualityControl')}</a>
+          <a className="foot-link" href={fl('/manufacturing/factory-audit')}>{t('agro.footer.factoryAudit')}</a>
+          <a className="foot-link" href={fl('/manufacturing/pesticide-formulation')}>{t('agro.footer.pesticideFormulation')}</a>
+          <a className="foot-link" href={fl('/manufacturing/packaging')}>{t('agro.footer.packaging')}</a>
           <a className="foot-link" href={fl('/factory/capacity')}>{t('agro.footer.factoryCapacity')}</a>
-          <a className="foot-link" href={fl('/quality')}>{t('agro.nav.manufacturingDropdown.quality')}</a>
           <a className="foot-link" href={fl('/proof-center')}>{t('agro.nav.manufacturingDropdown.proofCenter')}</a>
           <a className="foot-link" href={fl('/agrochemical-regulation-by-market')}>{t('agro.nav.proofQualityDropdown.complianceByMarket')}</a>
-          <a className="foot-link" href={fl('/factory-audit-checklist')}>{t('agro.nav.proofQualityDropdown.auditChecklist')}</a>
-          <a className="foot-link" href={fl('/warranty')}>{t('agro.nav.manufacturingDropdown.warranty')}</a>
           <a className="foot-link" href={fl('/technology')}>{t('agro.nav.manufacturingDropdown.technology')}</a>
         </FooterCol>
 
         {/* Solutions */}
         <FooterCol title={t('agro.footer.colSolutions')}>
-          <a className="foot-link" href={fl('/solutions/distributors')}>{t('agro.footer.privateLabel')}</a>
-          <a className="foot-link" href={fl('/solutions/co-branding')}>{t('agro.footer.coBrand')}</a>
+          <a className="foot-link" href={fl('/solutions/agrochemical-oem')}>{t('agro.footer.agrochemicalOem')}</a>
+          <a className="foot-link" href={fl('/solutions/private-label-pesticides')}>{t('agro.footer.privateLabel')}</a>
+          <a className="foot-link" href={fl('/solutions/custom-formulation')}>{t('agro.footer.customFormulation')}</a>
           <a className="foot-link" href={fl('/solutions/distributor-partners')}>{t('agro.footer.distributorPartners')}</a>
-          <a className="foot-link" href={fl('/solutions/distributors')}>{t('agro.footer.bulkBuyers')}</a>
-          <a className="foot-link" href={fl('/solutions/distributors')}>{t('agro.nav.industriesDropdown.distributors')}</a>
-          <a className="foot-link" href={fl('/b2b-solutions-matrix')}>{t('agro.footer.b2bMatrix')}</a>
-          <a className="foot-link" href={fl('/oem/agrochemical-oem-africa')}>{t('agro.footer.marketsAfrica')}</a>
-          <a className="foot-link" href={fl('/oem/agrochemical-oem-southeast-asia')}>{t('agro.footer.marketsSoutheastAsia')}</a>
+          <a className="foot-link" href={fl('/solutions/co-branding')}>{t('agro.footer.coBrand')}</a>
+          <a className="foot-link" href={fl('/solutions/government-tender')}>{t('agro.footer.governmentTender')}</a>
+          <a className="foot-link" href={fl('/markets')}>{t('agro.footer.markets')}</a>
+          <a className="foot-link" href={fl('/markets/africa')}>{t('agro.footer.marketsAfrica')}</a>
+          <a className="foot-link" href={fl('/markets/southeast-asia')}>{t('agro.footer.marketsSoutheastAsia')}</a>
+          <a className="foot-link" href={fl('/markets/latin-america')}>{t('agro.footer.marketsLatinAmerica')}</a>
         </FooterCol>
 
         {/* Resources */}
@@ -109,6 +119,7 @@ export function Footer() {
           <a className="foot-link" href={fl('/about/identity')}>{t('agro.footer.aboutIdentity')}</a>
           <a className="foot-link" href={fl('/projects')}>{t('agro.nav.projects')}</a>
           <a className="foot-link" href={fl('/partners')}>{t('agro.footer.partners')}</a>
+          <a className="foot-link" href={fl('/request-quote')}>{t('agro.footer.requestQuote')}</a>
           <a className="foot-link" href={fl('/contact')}>{t('agro.footer.contact')}</a>
           <a className="foot-link" href={fl('/terms')}>{t('agro.footer.terms')}</a>
           <a className="foot-link" href={fl('/privacy')}>{t('agro.footer.privacy')}</a>

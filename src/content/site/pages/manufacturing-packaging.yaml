@@ -1,0 +1,74 @@
+meta:
+  title: 'Agrochemical Packaging & Labeling — OEM Brand Integration | {SITE}'
+  description: 'Agrospear agrochemical packaging: custom label design, branded packaging, DG-compliant export packing and OEM brand integration for crop protection products.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical packaging'
+    - 'custom label design'
+    - 'branded packaging'
+    - 'DG-compliant export'
+    - 'OEM brand integration'
+
+hero:
+  tagline: 'Manufacturing · Packaging'
+  title: 'Packaging & Labeling'
+  subtitle: 'Custom agrochemical packaging and labeling under your brand — from label design and branded retail boxes to DG-compliant export packing and point-of-sale displays.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We provide complete packaging and labeling services: custom label design from your brand assets, branded retail packaging, DG-compliant export cartons and point-of-sale displays. Our design team develops production-ready labels, leaflets and packaging artwork from your logo, brand colors or a rough concept. All packaging meets dangerous goods transport requirements.'
+  verified: '2026-08'
+
+intro:
+  - Packaging is the physical expression of your brand on the shelf and the regulatory face of your product in the market. We handle the complete packaging process — from label design and artwork development to retail box construction and export carton compliance — so your product arrives looking professional and sailing through customs.
+  - Every packaging element is approved by you before production: label proof, carton artwork, leaflet design and outer case marking. No packaging runs without your sign-off.
+
+capabilities:
+  tagline: 'Capabilities'
+  title: 'Packaging & Labeling Services'
+  features:
+    - icon: P
+      icon_bg: green
+      title: 'Label Design & Branding'
+      desc: 'Custom label design from your logo, brand colors and regulatory requirements. Production-ready label artwork with barcode, batch coding and GHS-compliant hazard pictograms. Label proof approval before production.'
+      link_label: 'View label design'
+      href: /manufacturing/packaging
+    - icon: P
+      icon_bg: blue
+      title: 'Retail Packaging'
+      desc: 'Branded retail boxes, bottles and containers under your brand name. Multiple packaging sizes from 100 mL to 200 L. Custom color coding, shaped containers and premium packaging options available.'
+      link_label: 'View retail packaging'
+      href: /manufacturing/packaging
+    - icon: P
+      icon_bg: purple
+      title: 'Export Packaging'
+      desc: 'DG-compliant export cartons, UN-certified packaging for dangerous goods transport. Palletization, container loading and shipping documentation. Fumigation certificates and phytosanitary documentation on request.'
+      link_label: 'View export packaging'
+      href: /manufacturing/packaging
+    - icon: P
+      icon_bg: orange
+      title: 'Point-of-Sale Displays'
+      desc: 'Counter displays, shelf talkers and promotional packaging for retail distribution. Coordinated branding across product line for unified brand presentation at point of sale.'
+      link_label: 'View POS displays'
+      href: /manufacturing/packaging
+
+faqs:
+  tagline: FAQ
+  title: 'Packaging & Labeling — Frequently Asked Questions'
+  items:
+    - q: 'Do you design labels or do I need to provide artwork?'
+      a: 'Both options work. Our design team develops production-ready labels from your logo and brand guidelines. If you have existing artwork, we adapt it to our printing specifications and regulatory requirements. Either way, you approve the label proof before production.'
+    - q: 'What packaging sizes are available?'
+      a: 'Liquid formulations: 100 mL, 250 mL, 500 mL, 1 L, 5 L, 10 L, 20 L and 200 L. Powder formulations: 100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg and 25 kg. Custom sizes available on request for specific market requirements.'
+    - q: 'Are your export packages DG-compliant?'
+      a: 'Yes. All export packaging meets UN packaging specifications for dangerous goods transport by sea (IMDG) and land (ADR). Packaging group, UN mark and proper shipping name are marked on every outer case. DG documentation is prepared for customs clearance.'
+    - q: 'Can packaging be changed between orders?'
+      a: 'Yes. Once brand assets are production-ready, reorders can refresh labels, colors or packaging at any time. Minimum packaging order quantities apply for custom-printed materials and are confirmed per project.'
+
+cta:
+  title: 'Discuss Your Packaging Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: Manufacturing overview
+      href: /manufacturing

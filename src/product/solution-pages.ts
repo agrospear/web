@@ -45,7 +45,9 @@ export interface SolutionPageData {
  * `/solutions/{slug}` path.
  */
 export const SOLUTION_PATHS: Record<string, string> = {
-  'custom-formulation': '/product-development',
+  'custom-formulation': '/solutions/custom-formulation',
+  'private-label': '/solutions/private-label-pesticides',
+  'government-procurement': '/solutions/government-tender',
 }
 
 export function solutionPath(slug: string): string {

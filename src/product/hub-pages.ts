@@ -117,6 +117,13 @@ function galleryContent(locale: Locale): string {
   )
 }
 
+function manufacturingContent(locale: Locale): string {
+  const m = pick(manufacturingGuides, locale)
+  return parts(
+    m.title, m.sub, m.guides.flatMap((g) => [g.title, g.body]),
+  )
+}
+
 export function buildHubEntries(locale: Locale): SearchEntry[] {
   const templates = HUB_PAGE_ENTRIES[locale] ?? HUB_PAGE_ENTRIES.en
   const projectsMetaData = projectsMeta[locale]
@@ -126,6 +133,8 @@ export function buildHubEntries(locale: Locale): SearchEntry[] {
     '/es': homeContent,
     '/products': productsContent,
     '/es/products': productsContent,
+    '/manufacturing': manufacturingContent,
+    '/es/manufacturing': manufacturingContent,
     '/solutions': solutionsContent,
     '/es/solutions': solutionsContent,
     '/projects': projectsContent,

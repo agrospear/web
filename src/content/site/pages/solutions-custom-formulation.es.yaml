@@ -1,0 +1,93 @@
+meta:
+  title: 'Desarrollo de Formulaciones Agroquímicas Personalizadas | OEM/ODM Protección de Cultivos | {SITE}'
+  description: 'Desarrolla formulaciones agroquímicas personalizadas con Agrospear. Apoyamos el desarrollo de productos OEM/ODM de protección de cultivos, desde el diseño de formulación y creación de prototipos hasta el registro y la fabricación.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'formulación agroquímica personalizada'
+    - 'desarrollo de formulación OEM'
+    - 'desarrollo ODM protección de cultivos'
+    - 'I+D agroquímica'
+    - 'formulación pesticida personalizada'
+
+hero:
+  tagline: Formulación Personalizada
+  title: 'Desarrollo de Formulaciones Agroquímicas Personalizadas'
+  subtitle: 'Desde el diseño de formulación y creación de prototipos hasta el registro y la fabricación — Agrospear desarrolla formulaciones agroquímicas personalizadas para marcas OEM/ODM de protección de cultivos.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Agrospear desarrolla formulaciones agroquímicas personalizadas en su centro de I+D en Qingdao: diseño de formulación, optimización de coformulantes, producción de prototipos, ensayos de estabilidad y documentación de registro. El desarrollo personalizado añade 15–20 días al cronograma del proyecto. Muestras de prototipo en 7–12 días. MOQ desde piloto de 5 toneladas hasta producción estándar de 20+ toneladas, enviado a más de 50 países.'
+  verified: '2026-08'
+
+intro:
+  - Cuando una plataforma de formulación estándar no cumple tus requisitos de producto, el equipo de I+D de Agrospear desarrolla una formulación personalizada a partir de tu especificación o producto de referencia. Esto incluye combinaciones nuevas de ingredientes activos, grados de concentración novedosos, paquetes de coadyuvantes especializados y tipos de formulación específicos por mercado.
+  - El desarrollo de formulación personalizada es el núcleo de nuestro modelo de servicio ODM. Provees el brief de producto — plaga o enfermedad objetivo, cultivo, mercado y requisitos de rendimiento — y nuestros químicos e ingenieros diseñan una formulación que cumple esas especificaciones.
+
+formulation_types:
+  tagline: Capacidades de Formulación
+  title: 'Tipos de Formulación Personalizada que Desarrollamos'
+  subtitle: 'Nuestro equipo de I+D desarrolla en todos los principales tipos de formulación agroquímica, cada uno con experiencia y equipos dedicados.'
+  items:
+    - title: Concentrado en Suspensión (SC)
+      desc: 'Partículas molidas en húmedo en suspensión acuosa. Nuestro laboratorio optimiza la distribución de tamaño de partícula, la reología anti-sedimentación y los baremos de suspensibilidad para cada combinación personalizada de IA.'
+    - title: Concentrado Emulsionable (EC)
+      desc: 'Sistemas solvente-emulsionante para rápida penetración foliar. Selección personalizada de solventes y optimización de estabilidad de emulsión para cada IA y paquete de coadyuvantes.'
+    - title: Gránulos Dispersables en Agua (WDG)
+      desc: 'Formulaciones granulares sin polvo. Secados por aspersión o granulados en lecho fluido con sistemas dispersantes personalizados para dispersión constante.'
+    - title: Microemulsión (ME) y Suspensión de Cápsulas (CS)
+      desc: 'Formulaciones con menos solventes y de liberación controlada. Sistemas de entrega avanzados para requisitos especializados de aplicación y actividad prolongada.'
+    - title: Solución Líquida (SL)
+      desc: 'Formulaciones totalmente solubles en agua. Paquetes personalizados de surfactantes y coadyuvantes para optimización de translocación sistémica.'
+    - title: Concentrado Fluidificable para Tratamiento de Semillas (FS)
+      desc: 'Flowables de baja viscosidad y alta suspensibilidad para recubrimiento por película y tratamiento en pasta. Personalizados para tipos específicos de semillas y equipos de tratamiento.'
+
+process_steps:
+  tagline: Proceso de Desarrollo
+  title: 'Desarrollo de Formulación Personalizada — Paso a Paso'
+  subtitle: 'Un proceso estructurado de I+D con hitos documentados y puntos de control de aprobación/rechazo en cada etapa.'
+  steps:
+    - step: '01'
+      title: 'Brief de Producto y Especificación'
+      desc: 'Define el IA objetivo, concentración, tipo de formulación, plaga/enfermedad objetivo, cultivo, mercado y requisitos de rendimiento. NDA disponible antes de compartir detalles de propiedad.'
+    - step: '02'
+      title: 'Diseño y Selección de Formulación'
+      desc: 'I+D diseña 3–5 candidatos de formulación con diferentes sistemas de coformulantes. Ensayos de selección para estabilidad, suspensibilidad, calidad de emulsión y contenido activo.'
+    - step: '03'
+      title: 'Producción de Prototipo (7–12 Días)'
+      desc: 'Se produce el candidato principal a escala piloto. Se evalúan propiedades físicas, contenido activo y estabilidad acelerada.'
+    - step: '04'
+      title: 'Validación de Estabilidad y Rendimiento'
+      desc: 'Estabilidad acelerada de 14 días a 54 °C según CIPAC MT 46. Datos de rendimiento de campo de ensayos de socios cuando disponibles. Especificación bloqueada al aprobar.'
+    - step: '05'
+      title: 'Documentación de Registro'
+      desc: 'Expediente de registro ICAMA, datos de especificaciones FAO/OMS y documentación de cumplimiento por mercado preparada a partir de la formulación validada.'
+    - step: '06'
+      title: 'Escalado y Producción'
+      desc: 'Transición de prototipo a escala de producción. Producción a través del sistema de inspección de 7 etapas con QC completo y trazabilidad.'
+
+faqs:
+  tagline: FAQ
+  title: 'Formulación Personalizada — Preguntas Frecuentes'
+  items:
+    - q: '¿Cuánto tarda el desarrollo de formulación personalizada?'
+      a: 'El desarrollo personalizado añade 15–20 días al cronograma estándar del proyecto. Las muestras de prototipo suelen estar listas en 7–12 días desde la especificación confirmada. El ciclo completo desde el brief hasta la primera producción es típicamente de 8–12 semanas.'
+    - q: '¿Quién es dueño del IP de la formulación?'
+      a: 'La propiedad del IP se acuerda en la etapa de brief del proyecto. En proyectos ODM, la formulación se licencia típicamente para tu uso exclusivo en los territorios acordados. En proyectos OEM, tú retienes la propiedad completa del IP.'
+    - q: '¿Qué tipos de formulación se pueden desarrollar?'
+      a: 'SC, EC, WP, WDG, SL, ME, CS y FS. Nuestro equipo de I+D tiene experiencia en todos los tipos principales con equipamiento de laboratorio dedicado para cada uno.'
+    - q: '¿Qué información necesito proporcionar?'
+      a: 'IA objetivo, concentración, tipo de formulación, plaga/enfermedad objetivo, cultivo, mercado y cualquier requisito específico de rendimiento. Los productos de referencia o perfiles competidores son útiles. Si no estás seguro, comparte lo que tengas y nosotros guiamos el resto.'
+    - q: '¿Hay una tarifa de desarrollo?'
+      a: 'Los costes de desarrollo se confirman en la etapa de presupuesto y típicamente se acreditan hacia tu primer pedido de producción. Contáctanos para una evaluación específica del proyecto.'
+
+cta:
+  title: 'Desarrolla Tu Formulación Personalizada'
+  subtitle: 'Envía tu brief de producto — nuestro equipo de I+D revisa y devuelve un plan de desarrollo y presupuesto en un día laborable.'
+  actions:
+    - variant: primary
+      text: 'Iniciar Desarrollo de Formulación'
+      href: /es/request-quote
+    - text: 'Ver Servicios OEM'
+      href: /es/solutions/agrochemical-oem
+    - text: 'Comparación de Tipos de Formulación'
+      href: /es/formulation-type-comparison

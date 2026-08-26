@@ -30,11 +30,11 @@ related:
   title: Relacionado
   links:
     - text: Centro de I+D
-      url: /es/randdcenter
+      url: /es/manufacturing/research-development
     - text: Ensayos de calidad
-      url: /es/quality
+      url: /es/manufacturing/quality-control
     - text: Normas de seguridad
-      url: /es/quality
+      url: /es/manufacturing/quality-control
     - text: Garantía
       url: /es/warranty
     - text: Fabricación OEM

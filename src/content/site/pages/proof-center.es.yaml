@@ -14,7 +14,7 @@ hero:
   subtitle: 'Una página que conecta cada afirmación de este sitio con su evidencia: la entidad registrada detrás de la fábrica, los certificados con su alcance, las máquinas que hacen el trabajo y los registros de lote que sobreviven a cada producción.'
   actions:
     - { variant: primary, text: 'Solicitar el paquete de verificación', href: '/es/contact#trust-verification' }
-    - { variant: ghost, text: 'Explorar el sistema de calidad', href: '/es/quality' }
+    - { variant: ghost, text: 'Explorar el sistema de calidad', href: '/es/manufacturing/quality-control' }
 
 answer:
   label: 'Respuesta directa'
@@ -165,4 +165,4 @@ cta:
     - text: Identidad de marca
       href: /es/about/identity
     - text: Lista de Verificación de Auditoría de Fábrica
-      href: /es/factory-audit-checklist
+      href: /es/manufacturing/factory-audit

@@ -1,0 +1,74 @@
+meta:
+  title: 'Pesticide Formulation Process — From AI to Finished Product | {SITE}'
+  description: 'Agrospear pesticide formulation process: compounding, grinding, filling, labeling and quality control from raw active ingredient to finished product under your brand.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'pesticide formulation process'
+    - 'agrochemical compounding'
+    - 'filling and labeling'
+    - 'crop protection manufacturing'
+    - 'formulation production'
+
+hero:
+  tagline: 'Manufacturing · Formulation'
+  title: 'Pesticide Formulation Process'
+  subtitle: 'Our end-to-end formulation process transforms raw active ingredients into finished, labeled products under your brand — from compounding and grinding to filling and quality release.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Our formulation process covers every stage from raw active ingredient to finished product: compounding (mixing AI with co-formulants), grinding (particle size reduction for SC/WP/WDG), filling (automated liquid and powder lines), labeling (your brand on every container) and quality release (batch-level QC before shipment). Six production lines handle SC, EC, WP, WDG, SL, ME, CS and FS dosage forms.'
+  verified: '2026-08'
+
+intro:
+  - The journey from raw active ingredient to a finished, branded agrochemical product involves precise formulation engineering at every stage. Each step — compounding, grinding, filling, labeling and quality release — is controlled and documented to ensure consistency batch after batch.
+  - Our six production lines are configured for all major agrochemical dosage forms: suspension concentrates (SC), emulsifiable concentrates (EC), wettable powders (WP), water-dispersible granules (WDG), soluble liquids (SL), micro-emulsions (ME), capsule suspensions (CS) and flowable concentrates for seed treatment (FS).
+
+capabilities:
+  tagline: 'Capabilities'
+  title: 'Formulation Process Stages'
+  features:
+    - icon: F
+      icon_bg: green
+      title: 'Compounding'
+      desc: 'Active ingredient mixing with co-formulants, adjuvants and carriers under controlled temperature and mixing conditions. Precise dosing systems ensure accurate AI concentration in every batch.'
+      link_label: 'View compounding details'
+      href: /manufacturing/pesticide-formulation
+    - icon: F
+      icon_bg: blue
+      title: 'Grinding & Milling'
+      desc: 'Particle size reduction for SC, WP and WDG formulations. Bead mill grinding for suspension concentrates (target D90 < 5 μm), jet mill for wettable powders and fluidized bed granulation for WDG.'
+      link_label: 'View grinding details'
+      href: /manufacturing/pesticide-formulation
+    - icon: F
+      icon_bg: purple
+      title: 'Filling & Packaging'
+      desc: 'Automated filling lines for liquid (SC, EC, SL, ME, CS, FS) and powder (WP, WDG) formulations. Volume and weight verification on every container. Cleanroom filling for high-purity formulations.'
+      link_label: 'View filling details'
+      href: /manufacturing/pesticide-formulation
+    - icon: F
+      icon_bg: orange
+      title: 'Labeling & Branding'
+      desc: 'Your brand on every container: custom label application, batch coding, expiration dating and regulatory compliance markings. Label proof approval before production run.'
+      link_label: 'View branding details'
+      href: /manufacturing/packaging
+
+faqs:
+  tagline: FAQ
+  title: 'Formulation Process — Frequently Asked Questions'
+  items:
+    - q: 'What dosage forms can you produce?'
+      a: 'Suspension concentrate (SC), emulsifiable concentrate (EC), wettable powder (WP), water-dispersible granule (WDG), soluble liquid (SL), micro-emulsion (ME), capsule suspension (CS) and flowable concentrate for seed treatment (FS). Six dedicated production lines cover all major agrochemical formulation types.'
+    - q: 'How is particle size controlled in SC formulations?'
+      a: 'Bead mill grinding with multiple passes to achieve target D90 < 5 μm. In-process particle size monitoring during grinding, with final laser diffraction analysis before filling. Suspension rate tested to >90% after 30 minutes per CIPAC MT 15.'
+    - q: 'What quality checks happen during production?'
+      a: 'In-process monitoring includes weight verification, temperature logging, mixing time control, particle size measurement (SC/WP/WDG), viscosity and pH checks, and fill weight verification. Every check is recorded in the batch production record.'
+    - q: 'How long does a production run take?'
+      a: 'Bulk production runs 25–35 days after confirmed PO and deposit for existing formulations. New formulations requiring development add 35–55 days for lab screening, pilot production and stability testing before full-scale production.'
+
+cta:
+  title: 'Discuss Your Formulation Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: Manufacturing overview
+      href: /manufacturing

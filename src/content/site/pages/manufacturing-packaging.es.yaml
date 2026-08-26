@@ -1,0 +1,74 @@
+meta:
+  title: 'Embalaje y etiquetado de agroquímicos — Integración de marca OEM | {SITE}'
+  description: 'Embalaje de agroquímicos Agrospear: diseño de etiqueta personalizado, embalaje con marca, embalaje de exportación conforme a DG e integración de marca OEM para productos fitosanitarios.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'embalaje agroquímico'
+    - 'diseño de etiqueta personalizado'
+    - 'embalaje con marca'
+    - 'exportación conforme a DG'
+    - 'integración de marca OEM'
+
+hero:
+  tagline: 'Fabricación · Embalaje'
+  title: 'Embalaje y Etiquetado'
+  subtitle: 'Embalaje y etiquetado de agroquímicos personalizado bajo tu marca — desde diseño de etiqueta y cajas minoristas hasta embalaje de exportación conforme a DG y exhibidores para punto de venta.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Proporcionamos servicios completos de embalaje y etiquetado: diseño de etiqueta personalizado desde tus activos de marca, embalaje minorista con marca, cajas de exportación conforme a DG y exhibidores para punto de venta. Nuestro equipo de diseño desarrolla etiquetas, folletos y arte de embalaje listos para producción desde tu logo, colores de marca o concepto aproximado.'
+  verified: '2026-08'
+
+intro:
+  - El embalaje es la expresión física de tu marca en el estante y la cara regulatoria de tu producto en el mercado. Gestionamos el proceso completo de embalaje — desde el diseño de etiqueta y desarrollo de arte hasta la construcción de cajas minoristas y el cumplimiento de cartones de exportación — para que tu producto llegue luciendo profesional y superando aduanas.
+  - Cada elemento de embalaje es aprobado por ti antes de la producción: prueba de etiqueta, arte de cartón, diseño de folleto y marcado de caja exterior. Ningún embalaje se produce sin tu aprobación.
+
+capabilities:
+  tagline: 'Capacidades'
+  title: 'Servicios de Embalaje y Etiquetado'
+  features:
+    - icon: P
+      icon_bg: green
+      title: 'Diseño de etiqueta y marca'
+      desc: 'Diseño de etiqueta personalizado desde tu logo, colores de marca y requisitos regulatorios. Arte de etiqueta listo para producción con código de barras, codificación de lote y pictogramas de peligro GHS.'
+      link_label: 'Ver diseño de etiqueta'
+      href: /es/manufacturing/packaging
+    - icon: P
+      icon_bg: blue
+      title: 'Embalaje minorista'
+      desc: 'Cajas, botellas y contenedores minoristas con tu nombre de marca. Múltiples tamaños de embalaje desde 100 mL hasta 200 L. Codificación de color personalizada y opciones de embalaje premium disponibles.'
+      link_label: 'Ver embalaje minorista'
+      href: /es/manufacturing/packaging
+    - icon: P
+      icon_bg: purple
+      title: 'Embalaje de exportación'
+      desc: 'Cartones de exportación conforme a DG, embalaje certificado UN para transporte de mercancías peligrosas. Paletización, carga de contenedor y documentación de envío. Certificados de fumigación disponibles.'
+      link_label: 'Ver embalaje de exportación'
+      href: /es/manufacturing/packaging
+    - icon: P
+      icon_bg: orange
+      title: 'Exhibidores para punto de venta'
+      desc: 'Exhibidores de mostrador, carteles de estante y embalaje promocional para distribución minorista. Marca coordinada en toda la línea de productos para presentación unificada en punto de venta.'
+      link_label: 'Ver exhibidores'
+      href: /es/manufacturing/packaging
+
+faqs:
+  tagline: FAQ
+  title: 'Embalaje y etiquetado — Preguntas frecuentes'
+  items:
+    - q: '¿Diseñáis etiquetas o necesito proporcionar el arte?'
+      a: 'Ambas opciones funcionan. Nuestro equipo de diseño desarrolla etiquetas listas para producción desde tu logo y guía de marca. Si tienes arte existente, lo adaptamos a nuestras especificaciones de impresión y requisitos regulatorios. En cualquier caso, apruebas la prueba de etiqueta antes de la producción.'
+    - q: '¿Qué tamaños de embalaje están disponibles?'
+      a: 'Formulaciones líquidas: 100 mL, 250 mL, 500 mL, 1 L, 5 L, 10 L, 20 L y 200 L. Formulaciones en polvo: 100 g, 250 g, 500 g, 1 kg, 5 kg, 10 kg y 25 kg. Tamaños personalizados disponibles bajo solicitud.'
+    - q: '¿Los embalajes de exportación cumplen con DG?'
+      a: 'Sí. Todo el embalaje de exportación cumple con las especificaciones de embalaje UN para transporte de mercancías peligrosas por mar (IMDG) y tierra (ADR). Grupo de embalaje, marca UN y nombre de envío correcto están marcados en cada caja exterior.'
+    - q: '¿Se puede cambiar el embalaje entre pedidos?'
+      a: 'Sí. Una vez que tus activos de marca están listos para producción, los reordenes pueden actualizar etiquetas, colores o embalaje en cualquier momento. Se aplican cantidades mínimas de pedido para materiales impresos personalizados, confirmadas por proyecto.'
+
+cta:
+  title: 'Comenta tus requisitos de embalaje'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Fabricación
+      href: /es/manufacturing

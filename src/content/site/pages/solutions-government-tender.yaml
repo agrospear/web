@@ -1,0 +1,99 @@
+meta:
+  title: 'Government & Institutional Agrochemical Procurement | {SITE}'
+  description: 'Agrospear supplies agrochemical products for government agencies, NGOs and institutional procurement programs including vector control, food security and tender compliance.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'government agrochemical procurement'
+    - 'institutional pesticide supply'
+    - 'agrochemical tender'
+    - 'vector control procurement'
+    - 'food security agrochemical'
+
+hero:
+  tagline: Government & Institutional
+  title: 'Government & Institutional Agrochemical Procurement'
+  subtitle: 'Agrospear supplies agrochemical products for government agencies, NGOs and institutional procurement programs — vector control, food security, tender compliance and bulk supply from our ISO 9001 factory.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Agrospear supplies agrochemical products for government and institutional procurement: vector control insecticides, food security herbicides and fungicides, and tender-compliant formulations with full documentation. ISO 9001, ISO 14001, BSCI and ICAMA certified factory. Bulk supply from 20+ ton batches, 25–35 day production, shipped to 50+ countries with compliance documentation tailored to procurement requirements.'
+  verified: '2026-08'
+
+intro:
+  - Government agencies, NGOs and institutional buyers require agrochemical products that meet strict procurement standards — documented quality systems, tender-compliant specifications, traceability and reliable supply chains. Agrospear's manufacturing infrastructure and quality system are designed to meet these requirements.
+  - From vector control programs in tropical regions to food security initiatives across Sub-Saharan Africa and Latin America, our factory produces formulations that comply with WHO, FAO and national procurement specifications. Full batch traceability and compliance documentation come standard.
+
+capabilities:
+  tagline: Capabilities
+  title: 'Institutional Procurement Capabilities'
+  subtitle: 'What government and institutional buyers need — and what Agrospear delivers.'
+  items:
+    - title: Vector Control Insecticides
+      desc: 'WHO-compliant insecticide formulations for public health vector control programs — indoor residual spraying, larviciding and space spraying. Full WHO specification documentation.'
+      icon: 'tabler:bug'
+    - title: Food Security Formulations
+      desc: 'Herbicide, insecticide and fungicide formulations for government food security and agricultural development programs. ICAMA and FAO/WHO documentation included.'
+      icon: 'tabler:plant'
+    - title: Tender-Compliant Specifications
+      desc: 'Product specifications formatted for public procurement tender requirements. CoA, CoQ, stability data and compliance certificates prepared per tender documentation.'
+      icon: 'tabler:file-check'
+    - title: Bulk Supply & Logistics
+      desc: 'Container-scale production from 20+ ton batches. FOB, CIF or DDP delivery to government-designated ports and warehouses in 50+ countries.'
+      icon: 'tabler:truck'
+    - title: Documented Quality System
+      desc: 'ISO 9001, ISO 14001, BSCI and ICAMA certifications. 7-stage inspection gate system, 14-day stability testing and 10-year batch traceability on every order.'
+      icon: 'tabler:shield-check'
+    - title: Registration & Compliance Support
+      desc: 'ICAMA registration data, FAO/WHO specifications and per-market documentation to support national registration and import permit requirements.'
+      icon: 'tabler:file-certificate'
+
+process_steps:
+  tagline: The Process
+  title: 'From Tender Specification to Delivered Product'
+  subtitle: 'A procurement-ready process designed for institutional compliance requirements.'
+  steps:
+    - step: '01'
+      title: 'Tender Specification Review'
+      desc: 'Share the tender or procurement specification. Our team reviews formulation requirements, compliance standards, packaging specifications and delivery timelines.'
+    - step: '02'
+      title: 'Quotation & Compliance Mapping'
+      desc: 'Detailed quotation with formulation specifications mapped to tender requirements. Compliance gap analysis and documentation checklist provided.'
+    - step: '03'
+      title: 'Sample & Pre-Qualification'
+      desc: 'Sample batches produced for evaluation and pre-qualification testing. WHO/FAO specification verification where required.'
+    - step: '04'
+      title: 'Award & Production Planning'
+      desc: 'On tender award, production is scheduled to meet delivery deadlines. Raw material procurement and quality planning confirmed before manufacturing begins.'
+    - step: '05'
+      title: 'Production, QC & Documentation'
+      desc: 'Manufacturing through the 7-stage inspection system. Full batch documentation — CoA, CoQ, stability reports and compliance certificates — prepared to procurement specification.'
+    - step: '06'
+      title: 'Delivery & Post-Delivery Support'
+      desc: 'Shipped to government-designated ports or warehouses. Post-delivery documentation support and reorder coordination for program continuity.'
+
+faqs:
+  tagline: FAQ
+  title: 'Government Procurement — Frequently Asked Questions'
+  items:
+    - q: 'Does Agrospear supply products for WHO vector control programs?'
+      a: 'Yes. We produce WHO-compliant insecticide formulations for indoor residual spraying, larviciding and space spraying programs, with full WHO specification documentation and quality certificates.'
+    - q: 'Can you meet government tender specifications?'
+      a: 'Yes. Our team reviews tender specifications and maps our formulations to the required standards. CoA, CoQ, stability data and compliance certificates are prepared per tender documentation requirements.'
+    - q: 'What certifications does the factory hold?'
+      a: 'ISO 9001, ISO 14001, BSCI and ICAMA. These certifications meet the pre-qualification requirements for most government and institutional procurement programs.'
+    - q: 'What is the minimum supply volume?'
+      a: 'Standard production runs 20+ tons per batch. Pilot quantities from 5 tons are available for pre-qualification and evaluation. We can schedule production to meet program delivery timelines.'
+    - q: 'Do you handle delivery to government-designated locations?'
+      a: 'Yes. We ship FOB, CIF or DDP to government-designated ports and warehouses in 50+ countries, with export documentation and customs clearance handled by our logistics team.'
+
+cta:
+  title: 'Discuss Your Procurement Requirements'
+  subtitle: 'Share your tender specification or procurement brief — our team responds with a compliance assessment and quotation within one business day.'
+  actions:
+    - variant: primary
+      text: 'Submit Procurement Inquiry'
+      href: /request-quote
+    - text: 'Verify Factory Certifications'
+      href: /manufacturing/factory
+    - text: 'See OEM Services'
+      href: /solutions/agrochemical-oem

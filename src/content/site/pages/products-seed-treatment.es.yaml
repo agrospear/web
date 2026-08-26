@@ -1,0 +1,73 @@
+meta:
+  title: 'Formulaciones de tratamiento de semillas personalizadas — FS concentrado fluido OEM | {SITE}'
+  description: 'Formulaciones de tratamiento de semillas (FS) personalizadas para marcas y empresas de semillas — concentrados fluidos para recubrimiento, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'formulación tratamiento de semillas'
+    - 'FS concentrado fluido'
+    - 'tratamiento de semillas OEM'
+    - 'imidacloprid tratamiento semillas'
+    - 'tiametoxam tratamiento semillas'
+    - 'formulación recubrimiento semillas'
+
+hero:
+  tagline: 'Productos · Tratamiento de semillas'
+  title: 'Formulaciones de Tratamiento de Semillas'
+  subtitle: 'Formulaciones FS de concentrado fluido personalizadas para recubrimiento de semillas — tratamientos insecticidas, fungicidas y combinados bajo tu marca.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Fabricamos formulaciones de tratamiento de semillas personalizadas bajo tu marca: concentrados fluidos FS optimizados para máquinas de slurizado y equipos de recubrimiento en película. Tratamientos insecticidas, fungicidas y combinados desde lotes piloto de 5 toneladas; producción estándar desde 20+ toneladas por SKU. Muestras en 7–15 días.'
+  verified: '2026-08'
+
+intro:
+  - El tratamiento de semillas es el método de aplicación de mayor crecimiento en la protección de cultivos: dosificación precisa, menor exposición ambiental y protección temprana lo convierten en la tecnología preferida para cereales, maíz, soja y algodón. La formulación tipo FS (concentrado fluido para tratamiento de semillas) es el estándar global.
+  - Fabricamos formulaciones FS bajo tu marca con viscosidad optimizada para equipos de recubrimiento, uniformidad de película probada y documentación lista para el registro para clientes de semillas y marcas.
+
+product_highlights:
+  tagline: 'Productos destacados'
+  title: 'Ingredientes activos de tratamiento de semillas principales'
+  features:
+    - icon: S
+      icon_bg: green
+      title: 'Imidacloprid 600 FS / 480 FS'
+      desc: 'Tratamiento de semillas neonicotinoide sistémico para protección insecticida temprana. Eficacia probada contra plagas del suelo y foliares en maíz, cereales y algodón.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/seed-treatment
+    - icon: S
+      icon_bg: blue
+      title: 'Tiametoxam 350 FS / 70 WS'
+      desc: 'Tratamiento de semillas neonicotinoide de segunda generación con absorción rápida y residual extendido. Ideal para recubrimiento de semillas de maíz, soja y arroz.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/seed-treatment
+    - icon: S
+      icon_bg: purple
+      title: 'Metalaxil-M + Fludioxonil FS'
+      desc: 'Tratamiento fungicida de semillas de doble modo que combina acción sistémica y de contacto. Control de enfermedades de amplio espectro para cereales y oleaginosas.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/seed-treatment
+    - icon: S
+      icon_bg: orange
+      title: 'Combinación insecticida + fungicida FS'
+      desc: 'Tratamiento de semillas de triple acción que combina insecticida neonicotinoide con modos fungicidas duales. La categoría de tratamiento de semillas más solicitada globalmente.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/seed-treatment
+
+faqs:
+  tagline: FAQ
+  title: 'Formulaciones de tratamiento de semillas — Preguntas frecuentes'
+  items:
+    - q: '¿Qué tipos de formulación de tratamiento de semillas producís?'
+      a: 'El concentrado fluido para tratamiento de semillas (FS) es el tipo principal — optimizado para máquinas de slurizado y equipos de recubrimiento en película. También producimos polvos para tratamiento de semillas (DS) y polvos dispersables en agua (WS) para requisitos específicos de cultivo y equipo.'
+    - q: '¿Qué ingredientes activos se usan en tratamientos de semillas?'
+      a: 'Tratamientos insecticidas: imidacloprid, tiametoxam, clotianidina, fipronil. Tratamientos fungicidas: metalaxil-M, fludioxonil, sedaxano, trifloxistrobina, tebuconazol. Los tratamientos combinados (insecticida + fungicida) son nuestra categoría más solicitada.'
+    - q: '¿Apoyáis a empresas de semillas con ensayos de recubrimiento?'
+      a: 'Sí. Proporcionamos lotes de muestra para ensayos de recubrimiento en sus lotes de semillas y equipos, con datos de viscosidad, tiempo de secado y uniformidad de película. Disponible soporte técnico para calibración de equipos de recubrimiento.'
+
+cta:
+  title: 'Inicia tu proyecto de tratamiento de semillas'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Ver todos los productos
+      href: /es/products

@@ -1,0 +1,96 @@
+meta:
+  title: 'Agrochemical OEM Manufacturing — Private Label & Contract Production | {SITE}'
+  description: 'Agrochemical OEM manufacturing: custom formulation, private label, contract production for crop protection brands. ISO 9001 factory, ICAMA registered, 50+ export markets.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical OEM manufacturing'
+    - 'private label agrochemical'
+    - 'contract agrochemical production'
+    - 'crop protection OEM'
+    - 'agrochemical contract manufacturing'
+
+hero:
+  tagline: OEM Solutions
+  title: 'Agrochemical OEM Manufacturing — Private Label & Contract Production'
+  subtitle: 'Custom formulation, private label and contract production for crop protection brands. ISO 9001 factory, ICAMA registered, shipped to 50+ export markets from Qingdao, China.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Agrospear provides agrochemical OEM manufacturing from its ISO 9001, ISO 14001, BSCI and ICAMA certified factory in Qingdao, China. Services include custom formulation development, private label production, co-branding and contract manufacturing. MOQ from 5-ton pilot to 20+ ton standard batches, 25–35 day production lead time, shipped to 50+ countries with full compliance documentation.'
+  verified: '2026-08'
+
+intro:
+  - OEM manufacturing at Agrospear means your formulation, specification or proven platform is produced at our factory under your brand. You own all intellectual property; we provide the manufacturing infrastructure, quality system and export logistics.
+  - Our integrated approach — formulation design, engineering, prototyping, manufacturing and testing under one roof — eliminates the handoff risk of contract manufacturing. Every batch is produced, tested and shipped by one team under one quality system.
+
+oem_services:
+  tagline: OEM Services
+  title: 'Three OEM Service Models'
+  subtitle: 'Every project goes through the same quality process — what changes is the R&D scope and where IP ownership sits.'
+  items:
+    - title: Custom Formulation OEM
+      desc: 'You provide the specification or reference product. Our R&D team develops the formulation to your exact requirements. Full documentation and registration support included. You own the formulation IP.'
+      icon: 'tabler:flask'
+      href: /solutions/custom-formulation
+    - title: Private Label Production
+      desc: 'Your brand on a proven Agrospear formulation platform. No R&D stage required — we manufacture under your label with custom packaging and regulatory documentation. Fastest route to market.'
+      icon: 'tabler:tag'
+      href: /solutions/private-label-pesticides
+    - title: Co-Branding Partnership
+      desc: 'Both brands on the product label. Shared R&D, shared registration data and combined market presence. Ideal for regional market entry with a trusted manufacturing partner.'
+      icon: 'tabler:branding'
+      href: /solutions/co-branding
+
+process_steps:
+  tagline: The Process
+  title: 'From Specification to Shipped Container'
+  subtitle: 'Every step has a defined timeline, documented deliverables and go/no-go checkpoints.'
+  steps:
+    - step: '01'
+      title: 'Specification Review & Quotation'
+      desc: 'Share your formulation, specification or reference product. Our engineers review manufacturability and return a detailed quotation within one business day.'
+    - step: '02'
+      title: 'Engineering Confirmation'
+      desc: 'Formulation type, concentration, raw material specs and dispersion system confirmed. Custom development starts when required — adds 15–20 days.'
+    - step: '03'
+      title: 'Prototype & Sample (7–12 Days)'
+      desc: 'Physical sample batch produced for your review. Composition and efficacy data included. Sample fees credited toward production order.'
+    - step: '04'
+      title: 'Testing & Validation'
+      desc: 'Stability testing, content analysis, physical property checks and compliance documentation prepared for your export markets.'
+    - step: '05'
+      title: 'Approval & Production Slot'
+      desc: 'You approve the sample and label artwork. PO and deposit lock the production slot. Pre-production plan confirms dates and quantities.'
+    - step: '06'
+      title: 'Production & QC (25–35 Days)'
+      desc: 'Manufacturing through the 7-stage inspection gate system. From pilot (5 tons) to standard volume (20+ tons) per formulation.'
+    - step: '07'
+      title: 'Packing & Shipment'
+      desc: 'Export packing with batch documentation and COA. FOB Qingdao, CIF or DDP to 50+ countries.'
+
+faqs:
+  tagline: FAQ
+  title: 'Agrochemical OEM — Frequently Asked Questions'
+  items:
+    - q: 'How do I start an OEM project?'
+      a: 'Send your formulation, specification or reference product. Our engineering review confirms manufacturability and returns a quotation within one business day. An NDA is available before any file exchange.'
+    - q: 'What is the MOQ for OEM manufacturing?'
+      a: 'MOQ is confirmed by project configuration: sample batches 1–4 tons, pilot runs from 5 tons, standard volume 20+ tons per batch. Production lead time 25–35 days from confirmed PO.'
+    - q: 'Do I own the formulation IP?'
+      a: 'Yes. On OEM projects, you own all intellectual property. We manufacture exclusively under your brand and never compete with our clients.'
+    - q: 'Which certifications does the factory hold?'
+      a: 'ISO 9001, ISO 14001, BSCI and ICAMA. Full compliance documentation is provided with every OEM shipment, prepared for your target markets.'
+    - q: 'What are your shipping terms?'
+      a: 'FOB Qingdao, CIF major global ports or DDP for qualified partners. We ship to 50+ countries across EU, US, LATAM, Africa and Asia.'
+
+cta:
+  title: 'Ready to Launch Your OEM Line?'
+  subtitle: 'Send your formulation or specification — receive a detailed quotation within one business day.'
+  actions:
+    - variant: primary
+      text: 'Request OEM Quotation'
+      href: /request-quote
+    - text: 'Start Your Project'
+      href: /start-agrochemical-project
+    - text: 'Verify the Factory'
+      href: /manufacturing/factory

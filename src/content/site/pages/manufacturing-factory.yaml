@@ -1,0 +1,230 @@
+meta:
+  title: 'Factory & Manufacturing — Agrochemical OEM | {SITE}'
+  description: 'Tour the Agrospear factory: 12,500 m² plant with compounding, grinding, filling, labeling, and quality lab for agrochemical OEM/ODM manufacturing.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical factory China'
+    - 'OEM agrochemical factory'
+    - 'crop protection factory tour'
+    - 'agrochemical manufacturing plant'
+    - 'Qingdao agrochemical factory'
+
+hero:
+  tagline: Factory
+  title: 'Factory & Manufacturing Plant'
+  subtitle: 'Tour the Agrospear factory — 12,500 m² plant with compounding, grinding, filling, labeling and quality lab for agrochemical OEM/ODM manufacturing in Qingdao, China.'
+
+answer:
+  label: 'Straight answer'
+  text: 'The Agrospear factory in Qingdao, China spans 12,500 m² with 4 specialized workshops, 350+ workers and 20,000+ tons annual output. ISO 9001, ISO 14001, BSCI and ICAMA certified. Every batch is stability-tested at 54°C for 14 days, passes a 100-point production checklist and carries 10-year material traceability. OEM/ODM production from 5-ton pilot to 20+ ton standard batches.'
+  verified: '2026-08'
+
+intro:
+  - As the manufacturing division of **Qingdao Vatrad Group Co., Ltd.**, Agrospear controls every stage from raw active ingredient to finished crop protection product. Our facility in the Qingdao Economic Development Zone houses dedicated workshops for compounding, grinding, filling, labeling and quality testing.
+  - By integrating formulation design, engineering, prototyping, manufacturing and testing under one roof, we eliminate the inefficiencies of contract manufacturing and maintain direct control over product quality, raw material selection and delivery timelines.
+
+stats:
+  - value: 12,500 m²
+    label: Manufacturing floor
+  - value: 350+
+    label: Skilled workers
+  - value: 20,000+
+    label: Tons produced annually
+  - value: ISO 9001
+    label: Quality certified
+
+intelligence_cards:
+  - title: Production Capacity
+    icon: C
+    icon_bg: blue
+    desc: '12,500 m² facility producing 20,000+ tons/yr across formulation and packaging lines. 350+ workers, 2 shifts.'
+    metrics:
+      - label: MOQ
+        value: 'Sample 1–4 t / Pilot 5 t / Volume 20+'
+      - label: Lead Time
+        value: '25–35 days'
+    link: /manufacturing/factory/capacity
+    link_label: 'Full capacity details →'
+  - title: Quality Lab & Testing
+    icon: Q
+    icon_bg: green
+    desc: 'Independent QC lab with HPLC, GC, particle size analyzer and stability chamber. 4 testing stages per batch.'
+    metrics:
+      - label: Standards
+        value: 'ISO 9001, CIPAC, ICAMA'
+      - label: Stability
+        value: '54°C / 14 days per batch'
+    link: /manufacturing/factory/quality-lab
+    link_label: 'Lab procedures & equipment →'
+  - title: OEM/ODM Capability
+    icon: O
+    icon_bg: purple
+    desc: 'Custom formulation, private-label packaging, custom concentration grades, multi-language labeling and export-ready packing.'
+    metrics:
+      - label: Certifications
+        value: 'ISO 9001, ISO 14001, BSCI, ICAMA'
+      - label: Export markets
+        value: '50+ countries'
+    link: /manufacturing/factory/oem-capability
+    link_label: 'Full OEM services →'
+
+workshops_section:
+  tagline: Workshops
+  title: Manufacturing Workshops
+  workshops:
+    - title: Compounding & High-Shear Mixing
+      description: Dedicated compounding workshop with high-shear mixers and premixing tanks. High-shear mixers blend active ingredients with dispersants, emulsifiers and carriers; sand mills produce uniform particle size distributions for SC and WDG formulations.
+      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      alt: High-shear mixing and compounding equipment at Qingdao agrochemical factory
+    - title: Formulation Grinding & Sand Milling
+      description: Sand mills and bead mills achieve target particle size distributions (D50 1–5 μm for SC, D50 20–40 μm for WDG). Spray dryers and fluid bed granulators produce WP and WDG granules.
+      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing.webp
+      alt: Formulation grinding and sand milling line at Qingdao agrochemical factory
+    - title: Filling & Sealing
+      description: Automatic filling machines handle drums, jerry cans and bottles. Each batch follows a 100-point filling checklist signed off by the team lead.
+      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      alt: Automatic filling and sealing line at Qingdao agrochemical factory
+    - title: Labeling & Decoration
+      description: Automatic labeling machines for multi-language GHS-compliant labels. Inkjet coders for batch and date coding with full traceability.
+      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department-2.webp
+      alt: Labeling and decoration workshop at Qingdao agrochemical factory
+
+equipment_section:
+  tagline: Equipment
+  title: Key Manufacturing Equipment
+  view_full: View full equipment list →
+  view_full_link: /manufacturing/factory/equipment
+  items:
+    - name: Automatic Weighing & Dosing System
+      spec: PLC-controlled, ±0.1% accuracy
+    - name: High-Shear Mixer
+      spec: 3,000–10,000 rpm, for SC/EC/SL compounding
+    - name: Sand Mill / Bead Mill
+      spec: 0.1–50 μm particle size, for SC/WDG
+    - name: Automatic Filling Line
+      spec: 20–200 L drums, 100–1000 mL bottles
+    - name: Automatic Labeling Machine
+      spec: Multi-language GHS label application
+
+qc_section:
+  tagline: Quality Control
+  title: Testing & Quality Assurance
+  subtitle: Every batch undergoes mandatory testing before shipping. Our quality lab operates independently from production.
+  steps:
+    - step: '1'
+      title: Raw Material Inspection
+      desc: HPLC/GC purity analysis, impurity profiling and physical property verification before production.
+    - step: '2'
+      title: 14-Day Stability Test at 54°C
+      desc: Every batch held at 54°C for 14 days per CIPAC MT 46. Active content deviation above ±2% triggers automatic rejection.
+    - step: '3'
+      title: Active Content & Specification Verification
+      desc: Completed formulations analyzed for active content by HPLC/GC and checked for suspensibility, emulsion stability, pH, viscosity and particle size.
+
+oem_section:
+  tagline: OEM Projects
+  title: Brand & OEM Partnership Case Studies
+  subtitle: 'From concept to production — how we help global brands launch and scale agrochemical product lines.'
+  cases:
+    - challenge: European agrochemical distributor needed a private-label herbicide range with unique formulations and REACH-compliant ingredients delivered in 60 days.
+      solution: Developed custom SC formulations, sourced REACH-compliant actives and compressed sampling by co-locating the formulation team at our factory.
+      result: 25–35 days production from signed PO. 200+ tons across 4 SKUs. Repeat order placed before first batch was fully delivered.
+      disclaimer: 'Anonymized project summary — project type and scope are representative; specific results are not independently verifiable.'
+    - challenge: US crop protection startup needed a high-efficacy insecticide SC formulation with custom concentration and ICAMA registration.
+      solution: Adapted existing SC formulation with modified AI ratio, developed co-branded packaging and provided full ICAMA registration documentation.
+      result: Over 500 tons sold in Year 1 with a 95% reorder rate.
+      disclaimer: 'Anonymized project summary — project type and scope are representative; specific results are not independently verifiable.'
+
+faq_section:
+  tagline: FAQ
+  title: 'Factory — Frequently Asked Questions'
+  questions:
+    - q: What is the MOQ for OEM agrochemical formulations?
+      a: 'MOQ is confirmed by project configuration. Standard volume production runs 20+ tons per batch, pilot runs start at 5 tons and every project moves through sample (1–4 tons) and pilot stages.'
+    - q: What certifications does the factory hold?
+      a: 'ISO 9001, ISO 14001, BSCI and ICAMA. Full compliance documentation is provided with every OEM shipment.'
+    - q: What is the typical lead time?
+      a: 'Standard lead time is 25–35 days from confirmed PO and deposit. Custom formulation development adds 15–20 days. Prototype samples typically ready in 7–12 days.'
+    - q: Do you handle export documentation?
+      a: 'Yes. We manage export documentation and customs clearance in-house, supplying to 50+ countries.'
+
+production_flow:
+  tagline: Production Flow
+  title: From Raw Material to Finished Product
+  subtitle: 'Every batch passes through 6 production stages with QC checkpoints at every step.'
+  stages:
+    - stage: '01'
+      title: Material Receiving & Incoming QC
+      description: 'All incoming materials logged by batch/lot number. Quarantined until QC sign-off.'
+      qc_check: 'AI purity (HPLC/GC), impurity profile, solvent purity'
+    - stage: '02'
+      title: Compounding & Premixing
+      description: 'Computer-optimized batching with ±0.1% accuracy.'
+      qc_check: 'Weight verification, raw material identity, premix uniformity'
+    - stage: '03'
+      title: Formulation Processing & Grinding
+      description: 'High-shear mixing, sand milling, spray drying and granulation.'
+      qc_check: 'Particle size distribution, viscosity, pH, suspensibility'
+    - stage: '04'
+      title: Filling & Packaging
+      description: '100-point filling and packaging checklist per batch.'
+      qc_check: 'Fill weight, seal integrity, label accuracy, barcode verification'
+    - stage: '05'
+      title: Stability Testing & Quality Hold
+      description: '14-day 54°C stability test per CIPAC MT 46 on every batch.'
+      qc_check: 'Active content, suspensibility, pH, physical stability'
+    - stage: '06'
+      title: Final Inspection & Packing
+      description: 'Full visual and specification inspection before container loading.'
+      qc_check: 'Visual inspection, label checklist, packaging integrity, barcode scan'
+
+workforce:
+  tagline: Our People
+  title: Workforce & Expertise
+  engineers: 25+
+  engineers_detail: 'Engineers across R&D, formulation design, analytical lab and production engineering. Average 7+ years in agrochemical manufacturing.'
+  shift_pattern: '2 shifts/day. Optional night shift for urgent orders.'
+
+material_traceability:
+  tagline: Traceability
+  title: Material Tracking & Batch Control
+  description: Every batch of raw material is assigned a unique lot number in our ERP system, enabling full upstream traceability.
+  system: Custom ERP (Qingdao Vatrad Group internal system) + physical batch tags
+  coverage: 100% of production materials
+  records_retained: 10 years
+
+qc_dashboard:
+  tagline: QC by the Numbers
+  title: Quality Control Metrics
+  stats:
+    - value: 100%
+      label: Batches stability-tested
+      detail: Every batch, every specification
+    - value: '±2%'
+      label: Max allowable active content deviation
+      detail: After 14-day 54°C stability test
+    - value: AQL 2.5
+      label: Major defect threshold
+      detail: Per ISO 2859 sampling standard
+    - value: 14 days
+      label: Stability hold duration
+      detail: Every batch at 54°C per CIPAC MT 46
+
+process_cta:
+  title: See our manufacturing process
+  desc: Follow a formulation through every stage of production.
+  label: View production process →
+  link: /manufacturing/factory/process
+
+evidence_review:
+  tagline: 'Evidence & Verification'
+  title: 'Factory Evidence — Verified'
+  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Qingdao plant. Certificates, QC records and batch traceability records are available on request. Specifications last verified 2026-08.'
+
+cta:
+  title: 'Explore Our Factory'
+  actions:
+    - text: Factory Audit Checklist
+      href: /manufacturing/factory-audit
+    - text: Start Your Project
+      href: /request-quote

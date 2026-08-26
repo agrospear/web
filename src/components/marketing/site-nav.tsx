@@ -56,21 +56,33 @@ export function SiteNav() {
         {
           label: t('agro.nav.productsServicesDropdown.startGroup'),
           items: [
-            { label: t('agro.nav.productsServicesDropdown.startProject'), href: '/start-agrochemical-project', highlight: true },
+            { label: t('agro.nav.productsServicesDropdown.startProject'), href: '/request-quote', highlight: true },
             { label: t('agro.nav.productsServicesDropdown.all'), href: '/products' },
             { label: t('agro.nav.productsServicesDropdown.customizer'), href: '/customizer' },
           ],
         },
         {
+          label: t('agro.nav.productsServicesDropdown.categoriesGroup'),
+          items: [
+            { label: t('agro.nav.productsServicesDropdown.herbicides'), href: '/products/herbicides' },
+            { label: t('agro.nav.productsServicesDropdown.insecticides'), href: '/products/insecticides' },
+            { label: t('agro.nav.productsServicesDropdown.fungicides'), href: '/products/fungicides' },
+            { label: t('agro.nav.productsServicesDropdown.pgr'), href: '/products/pgr' },
+            { label: t('agro.nav.productsServicesDropdown.seedTreatment'), href: '/products/seed-treatment' },
+            { label: t('agro.nav.productsServicesDropdown.premixFormulations'), href: '/products/premix-formulations' },
+            { label: t('agro.nav.productsServicesDropdown.adjuvants'), href: '/products/adjuvants' },
+            { label: t('agro.nav.productsServicesDropdown.biopesticides'), href: '/products/biopesticides' },
+          ],
+        },
+        {
           label: t('agro.nav.productsServicesDropdown.exploreGroup'),
           items: [
-            { label: t('agro.nav.productsServicesDropdown.manufacturer'), href: '/oem-manufacturing' },
+            { label: t('agro.nav.productsServicesDropdown.manufacturer'), href: '/solutions/agrochemical-oem' },
             { label: t('agro.nav.productsServicesDropdown.constructionComparison'), href: '/formulation-type-comparison' },
-            { label: t('agro.nav.productsServicesDropdown.privateLabel'), href: '/solutions/distributors' },
+            { label: t('agro.nav.productsServicesDropdown.privateLabel'), href: '/solutions/private-label-pesticides' },
             { label: t('agro.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
-            { label: t('agro.nav.productsServicesDropdown.productDevelopment'), href: '/product-development' },
-            { label: t('agro.nav.productsServicesDropdown.newBrandTrial'), href: '/new-brand-trial-order' },
-            { label: t('agro.nav.productsServicesDropdown.oemAdjuvant'), href: '/oem-adjuvants' },
+            { label: t('agro.nav.productsServicesDropdown.productDevelopment'), href: '/solutions/custom-formulation' },
+            { label: t('agro.nav.productsServicesDropdown.newBrandTrial'), href: '/request-quote' },
           ],
         },
       ],
@@ -102,11 +114,14 @@ export function SiteNav() {
         {
           label: t('agro.nav.proofQualityDropdown.evidenceGroup'),
           items: [
-            { label: t('agro.nav.proofQualityDropdown.factory'), href: '/factory' },
+            { label: t('agro.nav.proofQualityDropdown.factory'), href: '/manufacturing/factory' },
             { label: t('agro.nav.proofQualityDropdown.proofCenter'), href: '/proof-center' },
-            { label: t('agro.nav.proofQualityDropdown.quality'), href: '/quality' },
+            { label: t('agro.nav.proofQualityDropdown.researchDevelopment'), href: '/manufacturing/research-development' },
+            { label: t('agro.nav.proofQualityDropdown.qualityControl'), href: '/manufacturing/quality-control' },
+            { label: t('agro.nav.proofQualityDropdown.factoryAudit'), href: '/manufacturing/factory-audit' },
+            { label: t('agro.nav.proofQualityDropdown.pesticideFormulation'), href: '/manufacturing/pesticide-formulation' },
+            { label: t('agro.nav.proofQualityDropdown.packaging'), href: '/manufacturing/packaging' },
             { label: t('agro.nav.proofQualityDropdown.complianceByMarket'), href: '/agrochemical-regulation-by-market' },
-            { label: t('agro.nav.proofQualityDropdown.auditChecklist'), href: '/factory-audit-checklist' },
             { label: t('agro.nav.proofQualityDropdown.technology'), href: '/technology' },
           ],
         },
@@ -116,6 +131,25 @@ export function SiteNav() {
             { label: t('agro.nav.proofQualityDropdown.projects'), href: '/projects' },
             { label: t('agro.nav.proofQualityDropdown.gallery'), href: '/gallery' },
             { label: t('agro.nav.proofQualityDropdown.evidence'), href: '/evidence/case-studies' },
+          ],
+        },
+      ],
+    },
+    {
+      label: t('agro.nav.markets'),
+      groups: [
+        {
+          label: t('agro.nav.marketsDropdown.overviewGroup'),
+          items: [
+            { label: t('agro.nav.marketsDropdown.overview'), href: '/markets' },
+          ],
+        },
+        {
+          label: t('agro.nav.marketsDropdown.regionsGroup'),
+          items: [
+            { label: t('agro.nav.marketsDropdown.africa'), href: '/markets/africa' },
+            { label: t('agro.nav.marketsDropdown.southeastAsia'), href: '/markets/southeast-asia' },
+            { label: t('agro.nav.marketsDropdown.latinAmerica'), href: '/markets/latin-america' },
           ],
         },
       ],
@@ -144,7 +178,7 @@ export function SiteNav() {
   )
 
   const cta = (
-    <a href={fl('/start-agrochemical-project')} className={buttonVariants({ size: 'sm' })}>
+    <a href={fl('/request-quote')} className={buttonVariants({ size: 'sm' })}>
       {t('agro.nav.cta')}
     </a>
   )

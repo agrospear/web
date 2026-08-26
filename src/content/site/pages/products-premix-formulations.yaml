@@ -1,0 +1,73 @@
+meta:
+  title: 'Pre-Mixture & Combination Formulations — OEM Crop Protection | {SITE}'
+  description: 'Custom pesticide pre-mixture formulations — dual & triple AI products, SC/EC/WDG types, OEM from 5-ton pilot, factory direct from Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'pre-mixture formulation'
+    - 'combination pesticide OEM'
+    - 'dual active ingredient'
+    - 'thiamethoxam lambda-cyhalothrin'
+    - 'azoxystrobin propiconazole'
+    - 'pesticide combination manufacturing'
+
+hero:
+  tagline: 'Products · Pre-Mixtures'
+  title: 'Pre-Mixture & Combination Formulations'
+  subtitle: 'Custom pre-mixture formulations with multiple active ingredients — dual and triple mode-of-action products under your brand, from pilot batches to volume production.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We manufacture custom pre-mixture formulations under your brand: dual and triple active ingredient products in SC, EC and WDG dosage forms. Validated compatibility, proven physical and chemical stability. Pilot batches from 5 tons; standard production from 20+ tons per SKU. Samples ready in 7–15 days.'
+  verified: '2026-08'
+
+intro:
+  - Pre-mixtures (combination products with two or more active ingredients) are the highest-value segment in crop protection: they offer multi-mode-of-action convenience, resistance management and simplified spray programs. Most branded pesticide portfolios are built around combination products.
+  - We manufacture pre-mixture formulations under your brand with validated compatibility, proven physical and chemical stability, and registration-ready documentation for combination products.
+
+product_highlights:
+  tagline: 'Featured Products'
+  title: 'Core Pre-Mixture Combinations'
+  features:
+    - icon: M
+      icon_bg: green
+      title: 'Thiamethoxam + Lambda-Cyhalothrin SC'
+      desc: 'Insecticide combination with systemic and contact modes of action. Broad-spectrum pest control for row crops and vegetables in a single application.'
+      link_label: 'View formulation details'
+      href: /products/premix-formulations
+    - icon: M
+      icon_bg: blue
+      title: 'Azoxystrobin + Propiconazole SC'
+      desc: 'Dual fungicide combination spanning strobilurin and triazole modes of action. Protective and curative disease control with resistance management built in.'
+      link_label: 'View formulation details'
+      href: /products/premix-formulations
+    - icon: M
+      icon_bg: purple
+      title: 'Nicosulfuron + Atrazine WDG'
+      desc: 'Herbicide combination for corn weed control — post-emergence grass and broadleaf activity. Residual plus systemic action for season-long performance.'
+      link_label: 'View formulation details'
+      href: /products/premix-formulations
+    - icon: M
+      icon_bg: orange
+      title: 'Custom AI Combinations'
+      desc: 'Specify your active ingredient pair — insecticide + fungicide, dual-mode insecticide, dual-mode fungicide, or herbicide + safener. Formulated and stability-tested per project.'
+      link_label: 'View formulation details'
+      href: /products/premix-formulations
+
+faqs:
+  tagline: FAQ
+  title: 'Pre-Mixture Formulations — Frequently Asked Questions'
+  items:
+    - q: 'What pre-mixture combinations do you formulate?'
+      a: 'Insecticide + fungicide, dual-mode insecticide, dual-mode fungicide, and herbicide + safener combinations. Common examples: thiamethoxam + lambda-cyhalothrin SC, azoxystrobin + propiconazole SC, nicosulfuron + atrazine WDG. Custom AI pairs specified per project.'
+    - q: 'Are pre-mixture formulations more complex to develop?'
+      a: 'Yes. Compatibility between actives, adjuvant system design, and thermal stability of each component must be validated. Our R&D team performs compatibility screening before pilot production and provides stability data for the combined formulation.'
+    - q: 'Do pre-mixtures require separate registration?'
+      a: 'In most markets, yes — a pre-mixture is a separate product requiring its own registration dossier. We provide the complete data package: five-batch analysis, accelerated and long-term stability, toxicity data and field efficacy for the combination product.'
+
+cta:
+  title: 'Start Your Pre-Mixture Project'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: See all products
+      href: /products

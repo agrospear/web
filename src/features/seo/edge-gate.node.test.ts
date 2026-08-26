@@ -23,31 +23,31 @@ const LIVE_ROUTES = new Set([
 ])
 
 test('301 merge of duplicate paths (P0-4)', () => {
-  expect(gatePath('/oem-odm')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
-  expect(gatePath('/zh/oem-odm')).toEqual({ action: 'redirect', to: '/es/oem-manufacturing' })
+  expect(gatePath('/oem-odm')).toEqual({ action: 'redirect', to: '/solutions/agrochemical-oem' })
+  expect(gatePath('/zh/oem-odm')).toEqual({ action: 'redirect', to: '/es/solutions/agrochemical-oem' })
 })
 
 test('French-slug doorways 301 to closest English page (P1-5)', () => {
-  expect(gatePath('/fabricant-sup-gonflable')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
-  expect(gatePath('/bateau-gonflable-fabricant')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
+  expect(gatePath('/fabricant-sup-gonflable')).toEqual({ action: 'redirect', to: '/solutions/agrochemical-oem' })
+  expect(gatePath('/bateau-gonflable-fabricant')).toEqual({ action: 'redirect', to: '/solutions/agrochemical-oem' })
   expect(gatePath('/fournisseur-nautique')).toEqual({ action: 'redirect', to: '/solutions/co-branding' })
 })
 
 test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
-  expect(gatePath('/custom')).toEqual({ action: 'redirect', to: '/product-development' })
-  expect(gatePath('/es/custom')).toEqual({ action: 'redirect', to: '/es/product-development' })
-  expect(gatePath('/quality-testing')).toEqual({ action: 'redirect', to: '/quality' })
-  expect(gatePath('/es/quality-testing')).toEqual({ action: 'redirect', to: '/es/quality' })
-  expect(gatePath('/quality-control')).toEqual({ action: 'redirect', to: '/factory/quality-inspection' })
-  expect(gatePath('/es/quality-control')).toEqual({ action: 'redirect', to: '/es/factory/quality-inspection' })
-  expect(gatePath('/safety')).toEqual({ action: 'redirect', to: '/quality' })
-  expect(gatePath('/es/safety')).toEqual({ action: 'redirect', to: '/es/quality' })
-  expect(gatePath('/trust')).toEqual({ action: 'redirect', to: '/quality' })
-  expect(gatePath('/es/trust')).toEqual({ action: 'redirect', to: '/es/quality' })
+  expect(gatePath('/custom')).toEqual({ action: 'redirect', to: '/solutions/custom-formulation' })
+  expect(gatePath('/es/custom')).toEqual({ action: 'redirect', to: '/es/solutions/custom-formulation' })
+  expect(gatePath('/quality-testing')).toEqual({ action: 'redirect', to: '/manufacturing/quality-control' })
+  expect(gatePath('/es/quality-testing')).toEqual({ action: 'redirect', to: '/es/manufacturing/quality-control' })
+  expect(gatePath('/quality-control')).toEqual({ action: 'redirect', to: '/manufacturing/quality-control' })
+  expect(gatePath('/es/quality-control')).toEqual({ action: 'redirect', to: '/es/manufacturing/quality-control' })
+  expect(gatePath('/safety')).toEqual({ action: 'redirect', to: '/manufacturing/quality-control' })
+  expect(gatePath('/es/safety')).toEqual({ action: 'redirect', to: '/es/manufacturing/quality-control' })
+  expect(gatePath('/trust')).toEqual({ action: 'redirect', to: '/manufacturing/quality-control' })
+  expect(gatePath('/es/trust')).toEqual({ action: 'redirect', to: '/es/manufacturing/quality-control' })
   expect(gatePath('/solutions/resorts-hotels')).toEqual({ action: 'redirect', to: '/solutions/co-branding' })
   expect(gatePath('/solutions/paddle-clubs')).toEqual({ action: 'redirect', to: '/solutions/distributor-partners' })
   expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/distributor-partners' })
-  expect(gatePath('/oem-paddle')).toEqual({ action: 'redirect', to: '/oem-adjuvants' })
+  expect(gatePath('/oem-paddle')).toEqual({ action: 'redirect', to: '/products/adjuvants' })
 })
 
 test('brand pages collapse onto /about and /about/agrospear (P1-3)', () => {
@@ -114,18 +114,18 @@ test('non-agrochemical business lines 301 to agrospear.com (P1-7)', () => {
 
 test('legacy theagrospear URLs 301 to live pages (spot checks)', () => {
   expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/odm-development' })
-  expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
+  expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/solutions/agrochemical-oem' })
   expect(gatePath('/guides/herbicide-selection')).toEqual({ action: 'redirect', to: '/knowledge' })
   expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/knowledge' })
-  expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/biopesticide' })
+  expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/products' })
   expect(gatePath('/use-cases/disaster-relief')).toEqual({
     action: 'redirect',
     to: 'https://agrospear.com/disaster-relief-humanitarian-aid',
   })
   expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/products' })
   expect(gatePath('/es/resources/download-catalog')).toEqual({ action: 'redirect', to: '/es/products' })
-  expect(gatePath('/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/oem-manufacturing' })
-  expect(gatePath('/es/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/es/oem-manufacturing' })
+  expect(gatePath('/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/solutions/agrochemical-oem' })
+  expect(gatePath('/es/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/es/solutions/agrochemical-oem' })
   // consolidated news articles 301 to their successor guides
   expect(gatePath('/news/sup-oem-shipping-logistics')).toEqual({
     action: 'redirect',
@@ -170,13 +170,13 @@ test('no legacy key shadows a live page (P0-5)', () => {
 
 test('revived pages are served, not 301d (P0-5)', () => {
   expect(gatePath('/about/agrospear').action).toBe('ok')
-  expect(gatePath('/oem-adjuvants').action).toBe('ok')
+  expect(gatePath('/products/adjuvants').action).toBe('ok')
   expect(gatePath('/factory/oem-capability').action).toBe('ok')
   expect(gatePath('/factory/capacity').action).toBe('ok')
   expect(gatePath('/randdcenter/formulation-engineering').action).toBe('ok')
   expect(gatePath('/research/formulation-technology').action).toBe('ok')
   expect(gatePath('/solutions/distributor-partners').action).toBe('ok')
-  expect(gatePath('/oem-adjuvants').action).toBe('ok')
+  expect(gatePath('/manufacturing/research-development').action).toBe('ok')
   expect(gatePath('/guides/beginner-guide').action).toBe('ok')
   expect(gatePath('/guides/inflatable-vs-hard').action).toBe('ok')
   expect(gatePath('/evidence/case-studies').action).toBe('ok')
@@ -232,13 +232,13 @@ test('410 for removed template pages (P0-2)', () => {
 })
 
 test('trailing slash normalised (P0-6)', () => {
-  expect(gatePath('/factory/')).toEqual({ action: 'slash', to: '/factory' })
+  expect(gatePath('/factory/')).toEqual({ action: 'redirect', to: '/manufacturing/factory' })
   expect(gatePath('/es/solutions/')).toEqual({ action: 'slash', to: '/es/solutions' })
 })
 
 test('api/app/admin and plain paths untouched', () => {
-  expect(gatePath('/factory').action).toBe('ok')
-  expect(gatePath('/oem-manufacturing').action).toBe('ok')
+  expect(gatePath('/factory').action).toBe('redirect')
+  expect(gatePath('/oem-manufacturing').action).toBe('redirect')
   expect(gatePath('/odm-development').action).toBe('ok')
   expect(gatePath('/oem-odm-manufacturer').action).toBe('redirect')
   expect(gatePath('/api/v1/waitlist').action).toBe('ok')

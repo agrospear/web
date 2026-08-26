@@ -1,0 +1,99 @@
+meta:
+  title: 'Adquisición Gubernamental e Institucional de Agroquímicos | {SITE}'
+  description: 'Agrospear suministra productos agroquímicos para agencias gubernamentales, ONGs y programas de adquisición institucional incluyendo control de vectores, seguridad alimentaria y cumplimiento de licitaciones.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'adquisición agroquímica gubernamental'
+    - 'suministro pesticidas institucional'
+    - 'licitación agroquímica'
+    - 'adquisición control de vectores'
+    - 'seguridad alimentaria agroquímica'
+
+hero:
+  tagline: Gubernamental e Institucional
+  title: 'Adquisición Gubernamental e Institucional de Agroquímicos'
+  subtitle: 'Agrospear suministra productos agroquímicos para agencias gubernamentales, ONGs y programas de adquisición institucional — control de vectores, seguridad alimentaria, cumplimiento de licitaciones y suministro a granel desde nuestra fábrica ISO 9001.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Agrospear suministra productos agroquímicos para adquisición gubernamental e institucional: insecticidas para control de vectores, herbicidas y fungicidas para seguridad alimentaria, y formulaciones conformes con licitaciones con documentación completa. Fábrica certificada ISO 9001, ISO 14001, BSCI e ICAMA. Suministro a granel desde lotes de 20+ toneladas, producción en 25–35 días, enviado a más de 50 países con documentación adaptada a los requisitos de adquisición.'
+  verified: '2026-08'
+
+intro:
+  - Las agencias gubernamentales, ONGs y compradores institucionales requieren productos agroquímicos que cumplan estrictos estándares de adquisición — sistemas de calidad documentados, especificaciones conformes con licitaciones, trazabilidad y cadenas de suministro fiables. La infraestructura de fabricación y el sistema de calidad de Agrospear están diseñados para cumplir estos requisitos.
+  - Desde programas de control de vectores en regiones tropicales hasta iniciativas de seguridad alimentaria en el África Subsahariana y América Latina, nuestra fábrica produce formulaciones que cumplen las especificaciones de la OMS, la FAO y las especificaciones nacionales de adquisición. Trazabilidad completa por lote y documentación de cumplimiento incluidas.
+
+capabilities:
+  tagline: Capacidades
+  title: 'Capacidades de Adquisición Institucional'
+  subtitle: 'Lo que los compradores gubernamentales e institucionales necesitan — y lo que Agrospear entrega.'
+  items:
+    - title: Insecticidas para Control de Vectores
+      desc: 'Formulaciones de insecticidas conformes con la OMS para programas de control de vectores de salud pública — pulverización residual interior, larvicida y pulverización espacial. Documentación completa de especificaciones OMS.'
+      icon: 'tabler:bug'
+    - title: Formulaciones para Seguridad Alimentaria
+      desc: 'Formulaciones de herbicidas, insecticidas y fungicidas para programas gubernamentales de seguridad alimentaria y desarrollo agrícola. Documentación ICAMA y FAO/OMS incluida.'
+      icon: 'tabler:plant'
+    - title: Especificaciones Conformes con Licitaciones
+      desc: 'Especificaciones de producto formateadas para los requisitos de licitación pública. CoA, CoQ, datos de estabilidad y certificados de cumplimiento preparados según la documentación de la licitación.'
+      icon: 'tabler:file-check'
+    - title: Suministro a Granel y Logística
+      desc: 'Producción a escala de contenedor desde lotes de 20+ toneladas. Entrega FOB, CIF o DDP a puertos y almacenes designados por el gobierno en más de 50 países.'
+      icon: 'tabler:truck'
+    - title: Sistema de Calidad Documentado
+      desc: 'Certificaciones ISO 9001, ISO 14001, BSCI e ICAMA. Sistema de inspección de 7 etapas, ensayo de estabilidad de 14 días y trazabilidad por lote de 10 años en cada pedido.'
+      icon: 'tabler:shield-check'
+    - title: Soporte de Registro y Cumplimiento
+      desc: 'Datos de registro ICAMA, especificaciones FAO/OMS y documentación por mercado para respaldar los requisitos de registro nacional y permisos de importación.'
+      icon: 'tabler:file-certificate'
+
+process_steps:
+  tagline: El Proceso
+  title: 'De la Especificación de Licitación al Producto Entregado'
+  subtitle: 'Un proceso preparado para adquisiciones diseñado para los requisitos de cumplimiento institucional.'
+  steps:
+    - step: '01'
+      title: 'Revisión de Especificación de Licitación'
+      desc: 'Comparte la especificación de la licitación o adquisición. Nuestro equipo revisa los requisitos de formulación, estándares de cumplimiento, especificaciones de embalaje y plazos de entrega.'
+    - step: '02'
+      title: 'Presupuesto y Mapeo de Cumplimiento'
+      desc: 'Presupuesto detallado con especificaciones de formulación mapeadas a los requisitos de la licitación. Análisis de brechas de cumplimiento y lista de verificación de documentación proporcionados.'
+    - step: '03'
+      title: 'Muestra y Pre-Calificación'
+      desc: 'Lotes de muestra producidos para evaluación y ensayos de pre-calificación. Verificación de especificaciones OMS/FAO cuando sea requerido.'
+    - step: '04'
+      title: 'Adjudicación y Planificación de Producción'
+      desc: 'Tras la adjudicación de la licitación, la producción se programa para cumplir los plazos de entrega. Adquisición de materias primas y planificación de calidad confirmadas antes de que comience la fabricación.'
+    - step: '05'
+      title: 'Producción, QC y Documentación'
+      desc: 'Fabricación a través del sistema de inspección de 7 etapas. Documentación completa por lote — CoA, CoQ, informes de estabilidad y certificados de cumplimiento — preparada según la especificación de adquisición.'
+    - step: '06'
+      title: 'Entrega y Soporte Post-Entrega'
+      desc: 'Enviado a puertos o almacenes designados por el gobierno. Soporte documental post-entrega y coordinación de reordenes para la continuidad del programa.'
+
+faqs:
+  tagline: FAQ
+  title: 'Adquisición Gubernamental — Preguntas Frecuentes'
+  items:
+    - q: '¿Agrospear suministra productos para programas de control de vectores de la OMS?'
+      a: 'Sí. Producimos formulaciones de insecticidas conformes con la OMS para programas de pulverización residual interior, larvicida y pulverización espacial, con documentación completa de especificaciones OMS y certificados de calidad.'
+    - q: '¿Pueden cumplir las especificaciones de licitaciones gubernamentales?'
+      a: 'Sí. Nuestro equipo revisa las especificaciones de la licitación y mapea nuestras formulaciones a los estándares requeridos. CoA, CoQ, datos de estabilidad y certificados de cumplimiento se preparan según los requisitos documentales de la licitación.'
+    - q: '¿Qué certificaciones tiene la fábrica?'
+      a: 'ISO 9001, ISO 14001, BSCI e ICAMA. Estas certificaciones cumplen los requisitos de pre-calificación para la mayoría de los programas de adquisición gubernamental e institucional.'
+    - q: '¿Cuál es el volumen mínimo de suministro?'
+      a: 'La producción estándar corre de 20+ toneladas por lote. Cantidades piloto desde 5 toneladas están disponibles para pre-calificación y evaluación. Podemos programar la producción para cumplir los plazos de entrega del programa.'
+    - q: '¿Gestionáis la entrega a ubicaciones designadas por el gobierno?'
+      a: 'Sí. Enviamos FOB, CIF o DDP a puertos y almacenes designados por el gobierno en más de 50 países, con documentación de exportación y despacho de aduanas gestionados por nuestro equipo de logística.'
+
+cta:
+  title: 'Habla Sobre Tus Requisitos de Adquisición'
+  subtitle: 'Comparte tu especificación de licitación o brief de adquisición — nuestro equipo responde con una evaluación de cumplimiento y presupuesto en un día laborable.'
+  actions:
+    - variant: primary
+      text: 'Enviar Consulta de Adquisición'
+      href: /es/request-quote
+    - text: 'Verificar Certificaciones de Fábrica'
+      href: /es/manufacturing/factory
+    - text: 'Ver Servicios OEM'
+      href: /es/solutions/agrochemical-oem

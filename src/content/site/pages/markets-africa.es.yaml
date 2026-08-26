@@ -1,0 +1,74 @@
+meta:
+  title: 'Agroquímicos OEM África — Fitosanitarios para mercados subsaharianos | {SITE}'
+  description: 'Soluciones agroquímicas OEM de Agrospear para África: herbicidas, insecticidas y fungicidas de amplio espectro con soporte de registro, documentación en francés e inglés y MOQ flexible.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agroquímicos OEM África'
+    - 'fitosanitarios África'
+    - 'registro de pesticidas África'
+    - 'herbicida África'
+    - 'insecticida África'
+
+hero:
+  tagline: 'Mercados · África'
+  title: 'Soluciones Agroquímicas para África'
+  subtitle: 'Productos fitosanitarios OEM adaptados para mercados africanos subsaharianos — formulaciones de amplio espectro, soporte de registro local y cantidades de pedido flexibles para entrada y crecimiento.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Suministramos herbicidas, insecticidas y fungicidas OEM a distribuidores e importadores africanos en África Occidental, Oriental y Meridional. Nuestro programa para África incluye expedientes de pre-registro, documentación en francés e inglés, tamaños de embalaje adaptados a pequeños agricultores y MOQs flexibles desde 1,000 L/kg por SKU.'
+  verified: '2026-08'
+
+intro:
+  - El mercado de fitosanitarios de África crece rápidamente, impulsado por prioridades de seguridad alimentaria y creciente regulación de pesticidas. Los distribuidores necesitan socios OEM confiables que proporcionen productos efectivos y asequibles con la documentación necesaria para el registro local — y la flexibilidad para apoyar la entrada al mercado con cantidades de pedido realistas.
+  - Nuestro programa para África se basa en más de 15 años de experiencia de exportación en más de 20 países subsaharianos. Entendemos el panorama regulatorio, los perfiles de cultivos y las realidades de distribución de los mercados africanos.
+
+capabilities:
+  tagline: 'Capacidades'
+  title: 'Soluciones para el Mercado de África'
+  features:
+    - icon: A
+      icon_bg: green
+      title: 'Gama de productos'
+      desc: 'Herbicidas de amplio espectro (glifosato, glufosinato, 2,4-D, atrazina), insecticidas (cipermetrina, clorpirifos, imidacloprid, abamectina) y fungicidas (mancozeb, carbendazima, metalaxil) para cultivos básicos.'
+      link_label: 'Ver productos'
+      href: /es/products/herbicides
+    - icon: A
+      icon_bg: blue
+      title: 'Soporte de registro'
+      desc: 'Expedientes de pre-registro con estudios de toxicidad GLP, datos de residuos, análisis de cinco lotes y especificaciones de formulación. Nuestro equipo regulatorio apoya presentaciones locales en países objetivo.'
+      link_label: 'Ver soporte de registro'
+      href: /es/manufacturing/research-development
+    - icon: A
+      icon_bg: purple
+      title: 'Documentación'
+      desc: 'Documentación de producto en francés e inglés: etiquetas, SDS, fichas técnicas y expedientes de registro. Adaptada a requisitos regulatorios locales y preferencias de idioma.'
+      link_label: 'Ver documentación'
+      href: /es/manufacturing/quality-control
+    - icon: A
+      icon_bg: orange
+      title: 'MOQ flexible'
+      desc: 'MOQ estándar desde 1,000 L/kg por SKU para formulaciones existentes. Umbrales de entrada más bajos para programas de prueba de mercado. Estructuras de MOQ personalizadas para lanzamientos multi-SKU.'
+      link_label: 'Solicitar cotización'
+      href: /es/request-quote
+
+faqs:
+  tagline: FAQ
+  title: 'Mercado de África — Preguntas frecuentes'
+  items:
+    - q: '¿A qué países africanos suministráis?'
+      a: 'Suministramos productos OEM a distribuidores en África Occidental (Nigeria, Ghana, Costa de Marfil, Senegal), África Oriental (Kenia, Tanzania, Uganda, Etiopía) y África Meridional (Zambia, Zimbabue, Mozambique). Productos registrados o en registro en 20+ países subsaharianos.'
+    - q: '¿Qué cultivos abordan vuestros productos en África?'
+      a: 'Nuestra gama para África cubre cultivos básicos: maíz, arroz, sorgo, mijo, yuca, ñame, cacao, café, algodón y hortalizas. Las formulaciones se seleccionan según presión de plagas local, métodos de aplicación y estatus regulatorio.'
+    - q: '¿Proporcionáis documentación en francés para África francófona?'
+      a: 'Sí. Proporcionamos documentación completa de producto en francés para mercados francófonos: etiquetas, fichas de seguridad, fichas técnicas y expedientes de registro. Nuestro equipo regulatorio tiene experiencia con requisitos de registro WAEMU y CEMAC.'
+    - q: '¿Qué tamaños de embalaje funcionan para los mercados africanos?'
+      a: 'Embalaje adaptado a pequeños agricultores: 100 mL, 250 mL y 1 L para formulaciones líquidas; 100 g, 250 g y 1 kg para formulaciones en polvo. Embalaje al granel (5 L, 10 L, 20 L) para compradores institucionales y plantaciones.'
+
+cta:
+  title: 'Comenta tus requisitos para el mercado de África'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Todos los mercados
+      href: /es/markets

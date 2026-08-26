@@ -1,0 +1,74 @@
+meta:
+  title: 'Guía de auditoría de fábrica — Preparación y cumplimiento | {SITE}'
+  description: 'Guía de auditoría de fábrica Agrospear: lista de preparación, áreas de auditoría, documentación de cumplimiento y soporte de inspección de terceros para compradores OEM.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'auditoría de fábrica'
+    - 'inspección de fábrica agroquímica'
+    - 'auditoría OEM'
+    - 'documentación de cumplimiento'
+    - 'inspección de terceros'
+
+hero:
+  tagline: 'Fabricación · Auditoría'
+  title: 'Guía de Auditoría de Fábrica'
+  subtitle: 'Todo lo que necesitas para preparar una auditoría de fábrica — áreas de auditoría, documentación de cumplimiento, soporte de inspección de terceros y nuestro compromiso de transparencia.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Apoyamos auditorías de fábrica en nuestra planta de Qingdao: visitas presenciales, recorridos en video remoto e inspecciones de terceros (SGS, TÜV, BV, Intertek). Las áreas de auditoría cubren líneas de producción, laboratorio de calidad, control documental, trazabilidad de materiales y alcance de certificación.'
+  verified: '2026-08'
+
+intro:
+  - Una auditoría de fábrica es uno de los pasos más importantes para calificar a un socio de fabricación OEM. Damos la bienvenida a auditorías en nuestra planta de Qingdao — ya sean visitas presenciales, recorridos en video remoto o inspecciones de terceros — porque la transparencia construye la confianza que sustenta toda asociación de fabricación a largo plazo.
+  - Preparamos documentación de auditoría integral con antelación y proporcionamos acceso completo a áreas de producción, registros de calidad y archivos de certificación.
+
+capabilities:
+  tagline: 'Capacidades'
+  title: 'Capacidades de Auditoría de Fábrica'
+  features:
+    - icon: F
+      icon_bg: green
+      title: 'Preparación de auditoría'
+      desc: 'Paquete documental pre-auditoría: descripción de instalaciones, copias de certificación, organigrama, datos de capacidad de producción y documentación del sistema de calidad.'
+      link_label: 'Ver preparación'
+      href: /es/manufacturing/factory-audit
+    - icon: F
+      icon_bg: blue
+      title: 'Auditoría de línea de producción'
+      desc: 'Acceso completo a talleres de mezclado, molienda, llenado y etiquetado. Observar producción en curso, revisar registros de lote y verificar calibración de equipos.'
+      link_label: 'Ver auditoría de producción'
+      href: /es/manufacturing/factory-audit
+    - icon: F
+      icon_bg: purple
+      title: 'Auditoría de laboratorio de calidad'
+      desc: 'Laboratorio de QC independiente con HPLC, GC, analizador de tamaño de partícula y cámaras de estabilidad. Revisar métodos analíticos, registros de calibración y datos de estabilidad.'
+      link_label: 'Ver auditoría de calidad'
+      href: /es/manufacturing/factory-audit
+    - icon: F
+      icon_bg: orange
+      title: 'Auditoría documental y de trazabilidad'
+      desc: 'Acceso completo al sistema de control documental, registros de trazabilidad de materiales (retención de 10 años), seguimiento de lotes ERP y registros de no conformidad.'
+      link_label: 'Ver auditoría documental'
+      href: /es/manufacturing/factory-audit
+
+faqs:
+  tagline: FAQ
+  title: 'Auditoría de fábrica — Preguntas frecuentes'
+  items:
+    - q: '¿Cómo programo una auditoría de fábrica?'
+      a: 'Contacta a tu gestor de proyecto o a nuestro equipo de ventas para programar una visita. Normalmente requerimos 5–10 días hábiles de anticipación para visitas presenciales. Los recorridos en video remoto pueden organizarse con menor plazo.'
+    - q: '¿Qué formatos de auditoría admitís?'
+      a: 'Visitas presenciales en nuestra planta de Qingdao, recorridos en video en vivo y inspecciones de terceros por SGS, TÜV, BV o Intertek. También admitimos auditorías documentales para clientes que no pueden visitar en persona.'
+    - q: '¿Qué documentación está disponible para pre-calificación?'
+      a: 'Certificados ISO 9001 e ISO 14001, informe BSCI, registros ICAMA, datos de capacidad de producción, organigrama, SOPs del sistema de calidad y registros de lote representativos.'
+    - q: '¿Puede mi propio inspector realizar la auditoría?'
+      a: 'Sí. Damos la bienvenida a auditores y consultores independientes designados por el comprador. Se proporciona acceso completo a áreas de producción, registros de calidad y documentación.'
+
+cta:
+  title: 'Programa una Auditoría de Fábrica'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Fabricación
+      href: /es/manufacturing

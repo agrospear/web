@@ -1,0 +1,75 @@
+meta:
+  title: 'Quality Control & Testing — 7-Stage QC Framework | {SITE}'
+  description: 'Agrospear quality control: 7-stage inspection framework, 100% batch analysis, CIPAC stability testing, third-party inspection and controlled document register.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical quality control'
+    - 'QC framework'
+    - 'batch analysis'
+    - 'CIPAC stability testing'
+    - 'third-party inspection'
+    - 'crop protection quality'
+
+hero:
+  tagline: 'Manufacturing · Quality'
+  title: 'Quality Control & Testing'
+  subtitle: 'Our 7-stage quality control framework ensures every batch meets specification — 100% batch analysis, CIPAC stability testing and controlled document traceability.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Our quality control system operates a 7-stage inspection framework: raw material verification, in-process monitoring, active content assay, physical property testing, pre-shipment inspection, batch documentation and controlled release. 100% batch analysis with CIPAC stability and specification testing. Non-conformance = quarantine and disposition. Third-party inspection (SGS, TÜV, BV, Intertek) available on request.'
+  verified: '2026-08'
+
+intro:
+  - Quality is not an afterthought at Agrospear — it is built into every stage of production. Our 7-stage inspection framework ensures that every batch meets specification before it leaves the factory, with full traceability from raw material to finished product.
+  - We operate 100% batch analysis with CIPAC stability testing, controlled document management and mandatory quality holds. Non-conforming products are quarantined, investigated and dispositioned — never shipped.
+
+capabilities:
+  tagline: 'Capabilities'
+  title: 'Quality Control Capabilities'
+  features:
+    - icon: Q
+      icon_bg: green
+      title: '7-Stage QC Framework'
+      desc: 'Raw material verification → in-process monitoring → active content assay → physical property testing → pre-shipment inspection → batch documentation → controlled release. Every batch passes all seven stages.'
+      link_label: 'View QC framework'
+      href: /manufacturing/quality-control
+    - icon: Q
+      icon_bg: blue
+      title: 'Batch Analysis & Testing'
+      desc: '100% of production batches analyzed for active content (HPLC/GC), suspensibility, emulsion stability, pH, viscosity and particle size. Certificate of analysis issued per batch.'
+      link_label: 'View testing details'
+      href: /manufacturing/quality-control
+    - icon: Q
+      icon_bg: purple
+      title: 'Stability Testing'
+      desc: 'CIPAC MT 46 accelerated stability at 54°C/14 days on every batch. Long-term stability studies at 25°C and 30°C for registration. Active content deviation above ±2% triggers automatic rejection.'
+      link_label: 'View stability protocols'
+      href: /manufacturing/quality-control
+    - icon: Q
+      icon_bg: orange
+      title: 'Third-Party Inspection'
+      desc: 'Pre-shipment and during-production inspection by SGS, TÜV, BV or Intertek available on request. Independent verification of quality, quantity and packaging compliance.'
+      link_label: 'View inspection support'
+      href: /manufacturing/quality-control
+
+faqs:
+  tagline: FAQ
+  title: 'Quality Control — Frequently Asked Questions'
+  items:
+    - q: 'What does the 7-stage QC framework cover?'
+      a: 'Raw material verification (purity and identity), in-process monitoring (weight, temperature, mixing time), active content assay (HPLC/GC), physical property testing (suspensibility, pH, viscosity), pre-shipment inspection (visual, labeling, packaging), batch documentation (CoA, CoO, stability report) and controlled release (QA sign-off before shipment).'
+    - q: 'Is every batch really tested?'
+      a: 'Yes — 100% of production batches undergo active content analysis, physical property testing and 54°C/14-day accelerated stability testing. No batch ships without a completed certificate of analysis signed by the QA Director.'
+    - q: 'What happens when a batch fails QC?'
+      a: 'Non-conforming batches are immediately quarantined. The QC team investigates the root cause, documents the findings and determines disposition: rework (under controlled procedure and with re-inspection) or rejection. Retrworked batches are fully re-analyzed — never partially.'
+    - q: 'Can I request third-party inspection?'
+      a: 'Yes. We support pre-shipment, during-production and container-loading inspections by SGS, TÜV, BV or Intertek. Inspection schedules can be written into the contract and we provide full access to production records, QC data and batch documentation for the inspector.'
+
+cta:
+  title: 'Request Quality Documentation'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: Manufacturing overview
+      href: /manufacturing

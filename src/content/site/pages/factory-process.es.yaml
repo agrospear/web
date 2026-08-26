@@ -58,7 +58,7 @@ steps:
 evidence_gates:
   tagline: Evidencias de inspeccion
   title: 'Cada etapa deja un registro: fotos e informes'
-  subtitle: 'A continuacion tienes las fotos de inspeccion reales y los dosieres de informes de ensayo de nuestras siete puertas de control de calidad. Cada PDF es un registro bilingue real que puedes descargar y auditar — los mismos registros que respaldan cada lote en el archivo de trazabilidad ERP de 10 anos. Consulta el flujo completo de 7 etapas en /quality.'
+  subtitle: 'A continuacion tienes las fotos de inspeccion reales y los dosieres de informes de ensayo de nuestras siete puertas de control de calidad. Cada PDF es un registro bilingue real que puedes descargar y auditar — los mismos registros que respaldan cada lote en el archivo de trazabilidad ERP de 10 anos. Consulta el flujo completo de 7 etapas en /es/manufacturing/quality-control.'
   items:
     - title: 'PPM — Planificacion de calidad del proyecto'
       description: 'La reunion previa a la produccion fija el alcance, la muestra patron y el Plan de Inspeccion de Calidad antes de arrancar la linea. Los puntos sin resolver bloquean la liberacion a produccion.'

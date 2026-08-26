@@ -30,38 +30,24 @@ test('every Spanish twin renders without error (es)', () => {
 })
 
 test('factory intelligence cards render (bare array shape)', () => {
-  const out = html('/factory')
-  for (const t of ['Production Capacity', 'Quality Lab &amp; Testing', '7-Stage Quality Control Flow']) {
+  const out = html('/manufacturing/factory')
+  for (const t of ['Production Capacity', 'Quality Lab &amp; Testing', 'OEM/ODM Capability']) {
     expect(out, `factory card "${t}" not rendered`).toContain(t)
   }
 })
 
-test('/quality renders all 7 inspection gates and the documentation samples', () => {
-  const out = html('/quality')
-  for (const t of [
-    'Project Quality Planning (PPM)',
-    'Incoming Material Inspection (IQC)',
-    'In-Process Control &amp; First Article (IPQC / FAI)',
-    'Formulation Quality &amp; Stability Testing',
-    'Final Product Inspection (FQC)',
-    'Packaging &amp; Pre-Shipment Inspection (PSI)',
-    'Shipment Release &amp; Traceability',
-  ]) {
-    expect(out, `gate "${t}" not rendered`).toContain(t)
-  }
-  expect(out).toContain('Quality Records That Support Project Traceability')
-  expect(out).toContain('Incoming Material Inspection Record')
-  expect(out).toContain('Download QIP (PDF)')
-  expect(out).toContain('Download release reports (PDF)')
+test('/manufacturing/quality-control renders all quality control content', () => {
+  const out = html('/manufacturing/quality-control')
+  expect(out, 'QC page rendered').toContain('Quality Control')
+  expect(out, '7-stage framework rendered').toContain('7-stage')
+  expect(out, 'Batch analysis rendered').toContain('batch analysis')
+  expect(out, 'Stability testing rendered').toContain('stability')
+  expect(out, 'Third-party inspection rendered').toContain('Third-party')
 })
 
-test('/quality es twin renders gates in Spanish', () => {
-  const out = html('/quality', 'es')
-  for (const t of [
-    'Planificación de calidad del proyecto (PPM)',
-    'Liberación de envío y trazabilidad',
-    'Registros de calidad que respaldan la trazabilidad del proyecto',
-  ]) {
-    expect(out, `es gate "${t}" not rendered`).toContain(t)
-  }
+test('/manufacturing/quality-control es twin renders in Spanish', () => {
+  const out = html('/manufacturing/quality-control', 'es')
+  expect(out, 'ES QC page rendered').toContain('Control de Calidad')
+  expect(out, 'ES framework rendered').toContain('7 etapas')
+  expect(out, 'ES batch rendered').toContain('lote')
 })

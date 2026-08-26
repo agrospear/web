@@ -1,0 +1,64 @@
+meta:
+  title: 'Fungicide Formulations — OEM Crop Protection | {SITE}'
+  description: 'Custom fungicide formulations for brands and distributors — protective & curative modes of action, SC/WP/WDG types, OEM from 5-ton pilot, factory direct from Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'fungicide formulation OEM'
+    - 'protective fungicide manufacturer'
+    - 'curative fungicide OEM'
+    - 'tebuconazole manufacturer'
+    - 'azoxystrobin OEM'
+    - 'disease control formulation'
+
+hero:
+  tagline: Fungicides
+  title: 'Fungicide Formulations — OEM Manufacturing'
+  subtitle: 'Custom fungicide formulations for brands and distributors — protective and curative modes of action in SC, WP and WDG. OEM from 5-ton pilot, factory direct from Qingdao, China.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Agrospear manufactures OEM fungicide formulations in Qingdao, China: protective and curative modes of action in SC, WP, WDG and FS types. Key actives include tebuconazole and azoxystrobin. MOQ from 5-ton pilot to 20+ ton standard batches, shipped to 50+ countries in 25–35 days. FRAC-aligned resistance management built into every recommendation.'
+  verified: '2026-08'
+
+intro:
+  - Fungal diseases reduce global crop output by an estimated 10–20% annually. Agrospear's fungicide portfolio delivers both preventive barrier protection and curative systemic action across the major pathogen groups.
+  - Each formulation is engineered for stability, rainfast adhesion and compliance with international standards. FRAC-aligned resistance management programs are built into every product recommendation to extend product efficacy life.
+
+product_highlights:
+  tagline: Key Active Ingredients
+  title: 'Fungicide Product Highlights'
+  subtitle: 'Core fungicide active ingredients available for OEM/ODM manufacturing across multiple formulation types.'
+  items:
+    - name: Tebuconazole
+      type: DMI Triazole (FRAC Group 3)
+      desc: 'Systemic curative and protective fungicide for broad-spectrum disease control — rusts, powdery mildew, leaf spots and sheath blight. Available in SC and WDG formulations.'
+      formulations: 'SC, WDG'
+    - name: Azoxystrobin
+      type: Strobilurin (FRAC Group 11)
+      desc: 'Broad-spectrum preventive fungicide for Ascomycetes, Basidiomycetes and Oomycetes. Ideal for foliar applications with rainfast adhesion. Available in SC formulation.'
+      formulations: 'SC'
+
+faqs:
+  tagline: FAQ
+  title: 'Fungicide Formulations — Frequently Asked Questions'
+  items:
+    - q: 'What fungicide formulation types does Agrospear manufacture?'
+      a: 'SC, WP, WDG and FS. Formulation choice depends on the active ingredient, target pathogen, application method and regional registration preferences.'
+    - q: 'What is the difference between protective and curative fungicide action?'
+      a: 'Protective fungicides form a chemical barrier on the plant surface before infection. Curative (systemic) fungicides are absorbed into plant tissue and can arrest early-stage infections. Effective programs typically combine both modes.'
+    - q: 'How does Agrospear manage fungicide resistance?'
+      a: 'We follow FRAC classification and design spray programs that alternate or mix AIs from different mode-of-action groups, reducing selection for resistant strains.'
+    - q: 'What MOQ tiers are available for fungicide products?'
+      a: 'Sample orders start at 1–4 tons, pilot runs at 5 tons and standard production at 20+ tons. Lead time is 25–35 days from confirmed specification.'
+
+cta:
+  title: 'Launch Your Fungicide Brand'
+  subtitle: 'Tell us your target pathogen, crop and market — receive a detailed quotation within one business day.'
+  actions:
+    - variant: primary
+      text: 'Request Fungicide Quotation'
+      href: /request-quote
+    - text: 'See All Products'
+      href: /crop-protection-solutions
+    - text: 'OEM Manufacturing'
+      href: /solutions/agrochemical-oem

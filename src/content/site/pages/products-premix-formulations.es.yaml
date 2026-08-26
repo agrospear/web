@@ -1,0 +1,73 @@
+meta:
+  title: 'Formulaciones de pre-mezclas y combinaciones personalizadas — Fabricante OEM | {SITE}'
+  description: 'Formulaciones de pre-mezclas y combinaciones de pesticidas personalizadas — productos con 2-3 ingredientes activos, tipos SC/EC/WDG, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'formulación pre-mezcla'
+    - 'pesticida combinado OEM'
+    - 'doble ingrediente activo'
+    - 'tiametoxam lambda-cialotrina'
+    - 'azoxistrobina propiconazol'
+    - 'fabricación pesticida combinado'
+
+hero:
+  tagline: 'Productos · Pre-mezclas'
+  title: 'Formulaciones de Pre-Mezclas y Combinaciones'
+  subtitle: 'Formulaciones de pre-mezcla personalizadas con múltiples ingredientes activos — productos de doble y triple modo de acción bajo tu marca, desde lotes piloto hasta producción en volumen.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Fabricamos formulaciones de pre-mezcla personalizadas bajo tu marca: productos con doble y triple ingrediente activo en formas dosage SC, EC y WDG. Compatibilidad validada, estabilidad física y química probada. Lotes piloto desde 5 toneladas; producción estándar desde 20+ toneladas por SKU. Muestras en 7–15 días.'
+  verified: '2026-08'
+
+intro:
+  - Las pre-mezclas (productos combinados con dos o más ingredientes activos) son el segmento de mayor valor en la protección de cultivos: ofrecen la comodidad de multimodo de acción, gestión de resistencias y programas de pulverización simplificados. La mayoría de los portfolios de pesticidas de marca se construyen en torno a productos combinados.
+  - Fabricamos formulaciones de pre-mezcla bajo tu marca con compatibilidad validada, estabilidad física y química probada y documentación lista para el registro de productos combinados.
+
+product_highlights:
+  tagline: 'Productos destacados'
+  title: 'Combinaciones de pre-mezcla principales'
+  features:
+    - icon: M
+      icon_bg: green
+      title: 'Tiametoxam + Lambda-Cialotrina SC'
+      desc: 'Combinación insecticida con modos de acción sistémico y de contacto. Control de plagas de amplio espectro para cultivos extensivos y hortalizas en una sola aplicación.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/premix-formulations
+    - icon: M
+      icon_bg: blue
+      title: 'Azoxistrobina + Propiconazol SC'
+      desc: 'Combinación fungicida dual que abarca modos de acción estrobilurina y triazol. Control protector y curativo de enfermedades con gestión de resistencias integrada.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/premix-formulations
+    - icon: M
+      icon_bg: purple
+      title: 'Nicosulfuron + Atrazina WDG'
+      desc: 'Combinación herbicida para control de malas hierbas en maíz — actividad post-emergencia de gramíneas y hoja ancha. Acción residual y sistémica para rendimiento estacional.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/premix-formulations
+    - icon: M
+      icon_bg: orange
+      title: 'Combinaciones de IA personalizadas'
+      desc: 'Especifica tu par de ingredientes activos — insecticida + fungicida, insecticida de doble modo, fungicida de doble modo o herbicida + safener. Formulado y probado en estabilidad por proyecto.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/premix-formulations
+
+faqs:
+  tagline: FAQ
+  title: 'Formulaciones de pre-mezcla — Preguntas frecuentes'
+  items:
+    - q: '¿Qué combinaciones de pre-mezcla formuláis?'
+      a: 'Insecticida + fungicida, insecticida de doble modo, fungicida de doble modo y combinaciones de herbicida + safener. Ejemplos habituales: tiametoxam + lambda-cialotrina SC, azoxistrobina + propiconazol SC, nicosulfuron + atrazina WDG. Pares de IA personalizados especificados por proyecto.'
+    - q: '¿Las formulaciones de pre-mezcla son más complejas de desarrollar?'
+      a: 'Sí. La compatibilidad entre activos, el diseño del sistema de coadyuvantes y la estabilidad térmica de cada componente deben validarse. Nuestro equipo de I+D realiza cribados de compatibilidad antes de la producción piloto y proporciona datos de estabilidad para la formulación combinada.'
+    - q: '¿Las pre-mezclas requieren un registro separado?'
+      a: 'En la mayoría de los mercados, sí — una pre-mezcla es un producto independiente que requiere su propio expediente de registro. Proporcionamos el paquete de datos completo: análisis de cinco lotes, estabilidad acelerada y a largo plazo, datos de toxicidad y eficacia de campo para el producto combinado.'
+
+cta:
+  title: 'Inicia tu proyecto de pre-mezcla'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Ver todos los productos
+      href: /es/products

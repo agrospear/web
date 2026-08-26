@@ -1,0 +1,73 @@
+meta:
+  title: 'Formulaciones de reguladores de crecimiento personalizados — Fabricante OEM | {SITE}'
+  description: 'Formulaciones de reguladores de crecimiento (PGR) personalizadas — giberelinas, auxinas, reguladores de etileno, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'formulación regulador de crecimiento'
+    - 'PGR OEM'
+    - 'formulación ácido giberélico'
+    - 'formulación paclobutrazol'
+    - 'formulación etefón'
+    - 'fabricación PGR'
+
+hero:
+  tagline: 'Productos · Reguladores de crecimiento'
+  title: 'Formulaciones de Reguladores de Crecimiento'
+  subtitle: 'Formulaciones de PGR personalizadas bajo tu marca — giberelinas, auxinas, reguladores de etileno e inhibidores de crecimiento, desde lotes piloto hasta producción en volumen.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Fabricamos formulaciones de PGR personalizadas bajo tu marca: ácido giberélico, paclobutrazol, etefón, clormecuat, cloruro de mepiquat y CPPU en formas dosage SL, SC y WP. Por las dosis de aplicación más bajas, los lotes piloto parten de 1–5 toneladas; producción estándar desde 5+ toneladas por SKU. Muestras en 7–15 días.'
+  verified: '2026-08'
+
+intro:
+  - Los reguladores de crecimiento vegetal (PGR) son productos de alto valor y bajo volumen que gestionan la arquitectura de la planta, el cuajado del fruto, la maduración y la tolerancia al estrés. Tienen precios premium y son una categoría estratégica para marcas orientadas a frutales, hortalizas y cultivos extensivos.
+  - Fabricamos formulaciones de PGR bajo tu marca con control preciso de concentración, sistemas de coadyuvantes validados en estabilidad y tipos de formulación adaptados a los requisitos de aplicación.
+
+product_highlights:
+  tagline: 'Productos destacados'
+  title: 'Ingredientes activos PGR principales'
+  features:
+    - icon: P
+      icon_bg: green
+      title: 'Ácido giberélico (GA3) 10 SL / 20 SL'
+      desc: 'Hormona vegetal giberelina para cuajado de fruto, elongación y ruptura de dormancia. El ingrediente activo PGR más utilizado globalmente, disponible en formulaciones SL y en tabletas.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/pgr
+    - icon: P
+      icon_bg: blue
+      title: 'Paclobutrazol 250 SC / 95 WP'
+      desc: 'Inhibidor de crecimiento triazol para control de brotes en frutales y ornamentales. Reduce el vigor vegetativo y promueve la floración y el cuajado.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/pgr
+    - icon: P
+      icon_bg: purple
+      title: 'Etefón 480 SL / 40% SL'
+      desc: 'Agente liberador de etileno para maduración de frutos, estimulación del látex y control del encamado en cereales. Doble acción como regulador y ayuda a la cosecha.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/pgr
+    - icon: P
+      icon_bg: orange
+      title: 'Clormecuat 50 SL / 750 WDG'
+      desc: 'Retardante de crecimiento de amonio cuaternario para acortamiento de tallos en cereales y ornamentales. Previene el encamado y mejora la estabilidad en trigo y avena.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/pgr
+
+faqs:
+  tagline: FAQ
+  title: 'Formulaciones de PGR — Preguntas frecuentes'
+  items:
+    - q: '¿Qué ingredientes activos de PGR formuláis?'
+      a: 'Ácido giberélico (GA3), giberelina A4+A7, paclobutrazol, uniconazol, etefón, clormecuat, cloruro de mepiquat, forclorfenurón (CPPU), brasinólido, triacontanol y productos a base de auxinas. Combinaciones personalizadas disponibles.'
+    - q: '¿Cuál es el MOQ para formulaciones de PGR?'
+      a: 'Por las dosis de aplicación más bajas, los lotes piloto de PGR parten de 1–5 toneladas según el ingrediente activo y la concentración. Volumen estándar desde 5+ toneladas por SKU. Lotes de muestra para registro desde 500 kg.'
+    - q: '¿Las formulaciones de PGR requieren un manejo especial?'
+      a: 'Sí — muchos PGR son eficaces a concentraciones muy bajas (nivel de ppm), por lo que la precisión y homogeneidad de la formulación son críticas. Probamos la uniformidad del contenido activo por lote y proporcionamos certificado de análisis con cada envío.'
+
+cta:
+  title: 'Inicia tu proyecto de PGR'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Ver todos los productos
+      href: /es/products

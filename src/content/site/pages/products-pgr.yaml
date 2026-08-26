@@ -1,0 +1,73 @@
+meta:
+  title: 'Plant Growth Regulator Formulations — OEM Crop Protection | {SITE}'
+  description: 'Custom plant growth regulator formulations — gibberellins, auxins, ethylene regulators, OEM from 5-ton pilot, factory direct from Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'plant growth regulator formulation'
+    - 'custom PGR OEM'
+    - 'gibberellic acid formulation'
+    - 'paclobutrazol formulation'
+    - 'ethephon formulation'
+    - 'PGR manufacturing'
+
+hero:
+  tagline: 'Products · PGR'
+  title: 'Plant Growth Regulator Formulations'
+  subtitle: 'Custom PGR formulations manufactured under your brand — gibberellins, auxins, ethylene regulators and growth inhibitors, from pilot batches to volume production.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We manufacture custom PGR formulations under your brand: gibberellic acid, paclobutrazol, ethephon, chlormequat, mepiquat chloride and CPPU in SL, SC and WP dosage forms. Due to lower application rates, pilot batches start from 1–5 tons; standard production from 5+ tons per SKU. Samples ready in 7–15 days.'
+  verified: '2026-08'
+
+intro:
+  - Plant growth regulators (PGRs) are high-value, low-volume products that manage plant architecture, fruit set, ripening and stress tolerance. They command premium pricing and are a strategic category for brands targeting fruit, vegetable and row-crop markets.
+  - We manufacture PGR formulations under your brand with precise concentration control, stability-validated adjuvant systems and formulation types matched to application requirements.
+
+product_highlights:
+  tagline: 'Featured Products'
+  title: 'Core PGR Active Ingredients'
+  features:
+    - icon: P
+      icon_bg: green
+      title: 'Gibberellic Acid (GA3) 10 SL / 20 SL'
+      desc: 'Gibberellin plant hormone for fruit set, elongation and dormancy break. The most widely used PGR active globally, available in SL and tablet formulations.'
+      link_label: 'View formulation details'
+      href: /products/pgr
+    - icon: P
+      icon_bg: blue
+      title: 'Paclobutrazol 250 SC / 95 WP'
+      desc: 'Triazole growth inhibitor for shoot growth control in fruit trees and ornamentals. Reduces vegetative vigor and promotes flowering and fruit set.'
+      link_label: 'View formulation details'
+      href: /products/pgr
+    - icon: P
+      icon_bg: purple
+      title: 'Ethephon 480 SL / 40% SL'
+      desc: 'Ethylene-releasing agent for fruit ripening, latex stimulation and lodging control in cereals. Dual action as growth regulator and harvest aid.'
+      link_label: 'View formulation details'
+      href: /products/pgr
+    - icon: P
+      icon_bg: orange
+      title: 'Chlormequat 50 SL / 750 WDG'
+      desc: 'Quaternary ammonium growth retardant for stem shortening in cereals and ornamentals. Prevents lodging and improves standability in wheat and oats.'
+      link_label: 'View formulation details'
+      href: /products/pgr
+
+faqs:
+  tagline: FAQ
+  title: 'PGR Formulations — Frequently Asked Questions'
+  items:
+    - q: 'What PGR active ingredients do you formulate?'
+      a: 'Gibberellic acid (GA3), gibberellin A4+A7, paclobutrazol, uniconazole, ethephon, chlormequat, mepiquat chloride, forchlorfenuron (CPPU), brassinolide, triacontanol and auxin-based products. Custom combinations are available.'
+    - q: 'What is the MOQ for PGR formulations?'
+      a: 'Due to lower application rates, PGR pilot batches start at 1–5 tons depending on the active ingredient and concentration. Standard volume from 5+ tons per SKU. Sample batches for registration from 500 kg.'
+    - q: 'Do PGR formulations require special handling?'
+      a: 'Yes — many PGRs are effective at very low concentrations (ppm levels), so formulation precision and homogeneity are critical. We test active content uniformity per batch and provide certificate of analysis with every shipment.'
+
+cta:
+  title: 'Start Your PGR Project'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: See all products
+      href: /products

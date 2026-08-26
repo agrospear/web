@@ -1,0 +1,103 @@
+meta:
+  title: 'Fabricación Agroquímica — Producción OEM/ODM de Protección de Cultivos | {SITE}'
+  description: 'Fabricación agroquímica integral: desarrollo de formulaciones, mezcla, molienda, llenado, etiquetado, control de calidad y exportación. OEM/ODM desde piloto de 5 toneladas, volumen estándar 20+ toneladas.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'proceso de fabricación agroquímica'
+    - 'producción OEM agroquímica'
+    - 'ODM protección de cultivos'
+    - 'mezcla agroquímica'
+    - 'llenado y etiquetado agroquímico'
+
+hero:
+  tagline: Proceso de Fabricación
+  title: 'Fabricación Agroquímica — De la Formulación al Producto Enviado'
+  subtitle: 'Proceso de fabricación integral: mezcla, molienda, llenado, etiquetado, control de calidad y exportación. Producción OEM/ODM desde cantidades piloto hasta volúmenes a escala de contenedor.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Agrospear fabrica productos agroquímicos de principio a fin en Qingdao (China): mezcla y mezclado de alto corte, molienda de arena, llenado automático, etiquetado multilingüe, control de calidad de estabilidad de 14 días y embalaje de exportación. Producción OEM/ODM desde lotes piloto de 5 toneladas hasta volúmenes estándar de 20+ toneladas, enviados a más de 50 países en 25–35 días desde el PO confirmado.'
+  verified: '2026-08'
+
+intro:
+  - Cada producto agroquímico fabricado en Agrospear sigue un flujo de producción definido — desde la recepción de materias primas hasta la mezcla, el procesamiento de formulación, el llenado, el etiquetado, los ensayos de calidad y el embalaje de exportación. Cada etapa incluye puntos de control de calidad obligatorios con criterios de aprobación/rechazo documentados en nuestro sistema ERP.
+  - Nuestra planta de 12.500 m² alberga talleres dedicados para cada etapa de producción, con más de 350 trabajadores en dos turnos. El enfoque integrado significa que cada lote es producido, probado y enviado por un solo equipo bajo un solo sistema de calidad.
+
+manufacturing_process:
+  tagline: Etapas de Producción
+  title: 'El Proceso de Fabricación Agroquímica'
+  subtitle: 'Seis etapas de producción con puntos de control de calidad en cada paso. Sin atajos, sin inspecciones omitidas.'
+  steps:
+    - step: '01'
+      title: Mezcla y Premezcla
+      desc: 'El loteado optimizado por ordenador calcula las cantidades precisas de materias primas. Los mezcladores de alto corte combinan ingredientes activos con dispersantes, emulsionantes y transportadores. Los sistemas de pesaje automático mantienen una precisión de ±0,1%.'
+    - step: '02'
+      title: Molienda y Granulación
+      desc: 'Los molinos de arena y molinos de cuentas reducen el tamaño de partícula a la especificación — D50 1–5 μm para SC, D50 20–40 μm para WDG. Los secadores por aspersión y granuladores de lecho fluido producen gránulos WP y WDG.'
+    - step: '03'
+      title: Llenado y Sellado
+      desc: 'Las máquinas de llenado automáticas manejan tambores (20–200 L), garrafas y botellas (100–1000 mL). Cada lote sigue una lista de verificación de llenado de 100 puntos firmada por el responsable del equipo.'
+    - step: '04'
+      title: Etiquetado y Decoración
+      desc: 'Las máquinas de etiquetado automáticas aplican etiquetas GHS conformes multilingües. Los codificadores de inyección de tinta imprimen la codificación de lote y fecha para trazabilidad completa.'
+    - step: '05'
+      title: Control de Calidad y Ensayo de Estabilidad
+      desc: 'Cada lote se somete a un ensayo de estabilidad de 14 días a 54 °C según CIPAC MT 46, verificación de contenido activo por HPLC/GC y comprobaciones de suspensibilidad y estabilidad de emulsión. El laboratorio de calidad independiente informa a la dirección.'
+    - step: '06'
+      title: Embalaje y Envío
+      desc: 'Embalaje de grado exportación, documentación de cumplimiento y coordinación de flete marítimo a más de 50 países. Condiciones FOB Qingdao, CIF o DDP disponibles.'
+
+capabilities:
+  tagline: Tipos de Formulación
+  title: 'Capacidades de Fabricación por Formulación'
+  subtitle: 'Fabricamos en todos los principales tipos de formulación agroquímica, cada uno con equipos de producción dedicados y protocolos de control de calidad.'
+  items:
+    - code: SC
+      name: Concentrado en Suspensión
+      desc: 'Partículas molidas en húmedo en suspensión acuosa con reología anti-sedimentación. No inflamable, fácil de medir, versátil en múltiples cultivos.'
+    - code: EC
+      name: Concentrado Emulsionable
+      desc: 'Formulación a base de solventes para rápida penetración foliar y acción sistémica. Probada en aplicaciones de herbicidas e insecticidas.'
+    - code: WP
+      name: Polvo Mojable
+      desc: 'Formulación en polvo sólido para mercados sensibles al coste. Se dispersa en agua para aplicación por pulverización.'
+    - code: WDG
+      name: Gránulos Dispersables en Agua
+      desc: 'Formulación granular sin polvo para manipulación segura. Secados por aspersión o granulados en lecho fluido para dispersión constante.'
+    - code: SL
+      name: Solución Líquida
+      desc: 'Totalmente soluble en agua para translocación sistémica. Común para glifosato y otros ingredientes activos solubles en agua.'
+    - code: ME
+      name: Microemulsión
+      desc: 'Formulación con menos solventes, fácil de usar, con tamaño de gota fino para cobertura uniforme.'
+    - code: CS
+      name: Suspensión de Cápsulas
+      desc: 'Formulación encapsulada de liberación controlada para actividad prolongada y menor frecuencia de aplicación.'
+    - code: FS
+      name: Concentrado Fluidificable para Tratamiento de Semillas
+      desc: 'Flowable de baja viscosidad y alta suspensibilidad para tratamiento de semillas en recubrimiento por película y en pasta.'
+
+faqs:
+  tagline: FAQ
+  title: 'Fabricación Agroquímica — Preguntas Frecuentes'
+  items:
+    - q: '¿Qué tipos de formulación puede fabricar Agrospear?'
+      a: 'Fabricamos formulaciones SC, EC, WP, WDG, SL, ME, CS y FS. Cada tipo tiene equipos de producción dedicados y protocolos de control de calidad. La elección depende de las propiedades del ingrediente activo, el método de aplicación y las preferencias de registro regional.'
+    - q: '¿Cuál es el volumen mínimo de producción?'
+      a: 'Los lotes piloto parten de 5 toneladas sobre plataformas existentes. La producción de volumen estándar corre de 20+ toneladas por lote. Las muestras de 1–4 toneladas están disponibles para ensayos de registro y evaluación de producto.'
+    - q: '¿Cuánto tarda la producción?'
+      a: 'El plazo estándar de producción es de 25–35 días desde el PO confirmado y el depósito. El desarrollo de formulación a medida añade 15–20 días. Las muestras de prototipo se envían en 7–12 días.'
+    - q: '¿Se prueba la calidad de cada lote?'
+      a: 'Sí. El 100% de los lotes de producción se someten a ensayos de estabilidad a 54 °C durante 14 días, verificación de contenido activo por HPLC/GC y comprobaciones completas de especificaciones antes de la liberación. Nuestro laboratorio de calidad opera de forma independiente de la producción.'
+
+cta:
+  title: '¿Listo para Fabricar?'
+  subtitle: 'Envía tu especificación de formulación o brief de producto — recibe un presupuesto detallado en un día laborable.'
+  actions:
+    - variant: primary
+      text: 'Solicitar Presupuesto'
+      href: /es/request-quote
+    - text: 'Visitar la Fábrica'
+      href: /es/manufacturing/factory
+    - text: 'Ver Servicios OEM'
+      href: /es/solutions/agrochemical-oem

@@ -1,7 +1,7 @@
 import { createLazyFileRoute } from '@tanstack/react-router'
 import { ContentCatchAll } from '@/features/content/catchall'
 
-export const Route = createLazyFileRoute('/factory-audit-checklist')({ component: Page })
+export const Route = createLazyFileRoute('/{-$locale}/products/biopesticides')({ component: Page })
 
 function Page() {
   const data = Route.useLoaderData()

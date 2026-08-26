@@ -1,0 +1,73 @@
+meta:
+  title: 'Seed Treatment Formulations — FS Flowable Concentrate OEM | {SITE}'
+  description: 'Custom seed treatment (FS) formulations for brands and seed companies — flowable concentrates for coating, OEM from 5-ton pilot, factory direct from Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'seed treatment formulation'
+    - 'FS flowable concentrate'
+    - 'custom seed treatment OEM'
+    - 'imidacloprid seed treatment'
+    - 'thiamethoxam seed treatment'
+    - 'seed coating formulation'
+
+hero:
+  tagline: 'Products · Seed Treatment'
+  title: 'Seed Treatment Formulations'
+  subtitle: 'Custom FS flowable concentrate formulations for seed coating — insecticide, fungicide and combination seed treatments under your brand.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We manufacture custom seed treatment formulations under your brand: FS flowable concentrates optimized for slurry treaters and film-coating equipment. Insecticide, fungicide and combination seed treatments from pilot batches of 5 tons; standard production from 20+ tons per SKU. Samples ready in 7–15 days.'
+  verified: '2026-08'
+
+intro:
+  - Seed treatment is the fastest-growing application method in crop protection: precise dosing, reduced environmental exposure and early-season protection make it the preferred technology for cereals, corn, soybeans and cotton. The FS (flowable concentrate for seed treatment) formulation type is the global standard.
+  - We manufacture FS formulations under your brand with optimized viscosity for seed-coating equipment, proven film uniformity and registration-ready documentation for seed-company and brand customers.
+
+product_highlights:
+  tagline: 'Featured Products'
+  title: 'Core Seed Treatment Active Ingredients'
+  features:
+    - icon: S
+      icon_bg: green
+      title: 'Imidacloprid 600 FS / 480 FS'
+      desc: 'Systemic neonicotinoid seed treatment for early-season insect protection. Proven efficacy against soil and foliar pests in corn, cereals and cotton.'
+      link_label: 'View formulation details'
+      href: /products/seed-treatment
+    - icon: S
+      icon_bg: blue
+      title: 'Thiamethoxam 350 FS / 70 WS'
+      desc: 'Second-generation neonicotinoid seed treatment with rapid uptake and extended residual. Ideal for corn, soybean and rice seed coating.'
+      link_label: 'View formulation details'
+      href: /products/seed-treatment
+    - icon: S
+      icon_bg: purple
+      title: 'Metalaxyl-M + Fludioxonil FS'
+      desc: 'Dual-mode fungicide seed treatment combining systemic and contact action. Broad-spectrum disease control for cereals and oilseed crops.'
+      link_label: 'View formulation details'
+      href: /products/seed-treatment
+    - icon: S
+      icon_bg: orange
+      title: 'Combination Insecticide + Fungicide FS'
+      desc: 'Triple-action seed treatment combining neonicotinoid insecticide with dual fungicide modes. The most requested seed treatment category globally.'
+      link_label: 'View formulation details'
+      href: /products/seed-treatment
+
+faqs:
+  tagline: FAQ
+  title: 'Seed Treatment Formulations — Frequently Asked Questions'
+  items:
+    - q: 'What seed treatment formulation types do you produce?'
+      a: 'Flowable concentrate for seed treatment (FS) is the primary type — optimized for slurry treaters and film-coating equipment. We also produce seed treatment dusts (DS) and water-dispersible powders (WS) for specific crop and equipment requirements.'
+    - q: 'What active ingredients are used in seed treatments?'
+      a: 'Insecticide seed treatments: imidacloprid, thiamethoxam, clothianidin, fipronil. Fungicide seed treatments: metalaxyl-M, fludioxonil, sedaxane, trifloxystrobin, tebuconazole. Combination seed treatments (insecticide + fungicide) are our most requested category.'
+    - q: 'Do you support seed companies with coating trials?'
+      a: 'Yes. We provide sample batches for coating trials on your seed lots and equipment, with viscosity, drying time and film uniformity data. Technical support for coating equipment calibration is available.'
+
+cta:
+  title: 'Start Your Seed Treatment Project'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: See all products
+      href: /products

@@ -1,0 +1,73 @@
+meta:
+  title: 'Formulaciones de coadyuvantes y tensioactivos personalizados — Fabricante OEM | {SITE}'
+  description: 'Formulaciones de coadyuvantes y tensioactivos personalizadas — compañeros de mezcla en tanque, adherentes, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'formulación coadyuvante'
+    - 'tensioactivo OEM'
+    - 'tensioactivo no iónico'
+    - 'expansor organosiliconado'
+    - 'concentrado aceite vegetal'
+    - 'agente control deriva'
+
+hero:
+  tagline: 'Productos · Coadyuvantes'
+  title: 'Formulaciones de Coadyuvantes y Tensioactivos'
+  subtitle: 'Formulaciones de coadyuvantes personalizadas bajo tu marca — tensioactivos no iónicos, expansores organosiliconados, concentrados de aceite vegetal y agentes de control de deriva.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Fabricamos formulaciones de coadyuvantes y tensioactivos personalizadas bajo tu marca: tensioactivos no iónicos, superexpansores organosiliconados, concentrados de aceite vegetal, agentes de control de deriva y compañeros de mezcla en tanque. Lotes piloto desde 5 toneladas; producción estándar desde 20+ toneladas por SKU. Requisitos de registro más simples permiten una entrada más rápida al mercado.'
+  verified: '2026-08'
+
+intro:
+  - Los coadyuvantes y tensioactivos mejoran el rendimiento de los productos fitosanitarios: mejor cobertura, resistencia al lavado por lluvia, reducción de deriva y compatibilidad optimizada de la mezcla en tanque. Son una categoría en crecimiento para marcas que quieren ofrecer programas completos de pulverización.
+  - Fabricamos formulaciones de coadyuvantes bajo tu marca — tensioactivos no iónicos, expansores organosiliconados, concentrados de aceite vegetal, agentes de control de deriva y compañeros de mezcla en tanque compatibles con fertilizantes.
+
+product_highlights:
+  tagline: 'Productos destacados'
+  title: 'Categorías de coadyuvantes principales'
+  features:
+    - icon: A
+      icon_bg: green
+      title: 'Tensioactivo no iónico (NIS)'
+      desc: 'Coadyuvante de mezcla en tanque de uso general para mejora de mojado y cobertura. Compatible con la mayoría de formulaciones de herbicidas, insecticidas y fungicidas.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/adjuvants
+    - icon: A
+      icon_bg: blue
+      title: 'Superexpansor organosiliconado'
+      desc: 'Agente de expansión de alto rendimiento que alcanza 5–10× la cobertura frente a tensioactivos convencionales. Reduce el volumen de pulverización y mejora la resistencia a la lluvia.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/adjuvants
+    - icon: A
+      icon_bg: purple
+      title: 'Concentrado de aceite vegetal (COC)'
+      desc: 'Coadyuvante oleoso de mejora de penetración para aplicaciones de herbicidas de post-emergencia. Mejora la absorción de ingredientes activos lipofílicos.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/adjuvants
+    - icon: A
+      icon_bg: orange
+      title: 'Agente de control de deriva'
+      desc: 'Coadyuvante reductor de deriva de pulverización para aplicación aérea y terrestre. Aumenta el espectro de tamaño de gota y reduce la formación de gotas finas.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/adjuvants
+
+faqs:
+  tagline: FAQ
+  title: 'Formulaciones de coadyuvantes — Preguntas frecuentes'
+  items:
+    - q: '¿Qué tipos de coadyuvantes formuláis?'
+      a: 'Tensioactivos no iónicos (NIS), expansores organosiliconados, concentrados de aceite vegetal (COC), aceites de semilla metilados (MSO), agentes de control de deriva, ayudas de depósito, agentes de resistencia a la lluvia y tampones de pH. Mezclas personalizadas para combinaciones cultivo-pulverización específicas.'
+    - q: '¿Los coadyuvantes pueden co-marcar con mi línea de fitosanitarios?'
+      a: 'Sí. Muchas marcas empaquetan coadyuvantes como compañeros de mezcla en tanque junto a sus formulaciones de pesticidas. Podemos coordinar el diseño de etiqueta y embalaje en toda tu línea de productos para una presentación de marca unificada.'
+    - q: '¿Cuál es el MOQ para formulaciones de coadyuvantes?'
+      a: 'Lotes piloto desde 5 toneladas; volumen estándar desde 20+ toneladas por SKU. Las formulaciones de coadyuvantes suelen tener requisitos de registro más simples, lo que permite una entrada más rápida al mercado.'
+
+cta:
+  title: 'Inicia tu proyecto de coadyuvantes'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Ver todos los productos
+      href: /es/products

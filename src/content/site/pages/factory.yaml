@@ -110,7 +110,7 @@ intelligence_cards:
         value: '01 → 07'
       - label: Downloads
         value: 'Report dossiers per gate (PDF)'
-    link: /quality
+    link: /manufacturing/quality-control
     link_label: 'Inspect the 7-stage flow →'
 
 workshops_section:
@@ -344,4 +344,4 @@ cta:
   title: 'Explore Our Factory'
   actions:
     - text: Factory Audit Checklist
-      href: /factory-audit-checklist
+      href: /manufacturing/factory-audit

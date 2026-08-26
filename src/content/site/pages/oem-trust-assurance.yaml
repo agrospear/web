@@ -146,7 +146,7 @@ trust_downloads:
       icon_bg: orange
       title: 'The Quality System Behind These Claims'
       desc: 'One page that ties it together: the 7-stage inspection gate system, the four standards that govern it, and the 00–15 document register with every SOP and report you can download — QIP, inspection standards, traceability dossier, NCP and rework SOPs.'
-      link: '/quality'
+      link: '/manufacturing/quality-control'
       link_label: 'Explore the Quality System'
 
 evidence_review:
@@ -161,6 +161,6 @@ cta:
   button_link: '/contact#trust-verification'
   actions:
     - text: Factory Audit Checklist
-      href: /factory-audit-checklist
+      href: /manufacturing/factory-audit
     - text: Brand Identity
       href: /about/identity

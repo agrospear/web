@@ -142,7 +142,7 @@ cta:
       text: Request the QC checklist
       href: /contact#quality-inquiry
     - text: The 7-stage inspection system
-      href: /quality
+      href: /manufacturing/quality-control
     - text: Factory quality lab & test report downloads
       href: /factory/quality-lab
     - text: Non-conforming control standard

@@ -108,24 +108,24 @@ labs_section:
     - image: https://assets.agrospear.com/images/agrospear/randd/agrospear-formulation-chemistry-lab.webp
       title: Laboratorio de química de formulación
       description: 'Investigación y ensayo continuos de sistemas de formulación para precisión del contenido de ingrediente activo, estabilidad en estantería, tasa de suspensión y calidad de dispersión, para garantizar fiabilidad a largo plazo en condiciones de campo.'
-      href: /es/randdcenter
+      href: /es/manufacturing/research-development
     - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-design-discussion-2.webp
       title: Estudio de ingeniería de tamaño de partícula
       description: Molienda de precisión y optimización de distribución de tamaño de partícula para formulaciones SC, WDG y WP. Cada sistema de dispersión se valida en tasa de suspensión y redispersibilidad antes de la aprobación de producción.
-      href: /es/randdcenter
+      href: /es/manufacturing/research-development
     - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-formulation-lab.webp
       title: Centro de ensayos de estabilidad
       description: Instalación dedicada de evaluación de estabilidad con cámaras de temperatura controlada (0 °C, 25 °C, 54 °C), que produce datos de vida útil y resultados de almacenamiento acelerado conformes a los requisitos FAO/OMS e ICAMA.
-      href: /es/randdcenter
+      href: /es/manufacturing/research-development
     - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-design-discussion-original.webp
       title: Laboratorio de desarrollo de métodos analíticos
       description: Desarrollo, validación y transferencia a QC de métodos HPLC y GC. Garantiza la cuantificación precisa del ingrediente activo y el perfil de impurezas para cada tipo de formulación.
-      href: /es/randdcenter
+      href: /es/manufacturing/research-development
     - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-formulation-lab-2.webp
       title: Laboratorio de formulación y taller de lotes piloto
       description: Instalación de formulación a escala real y producción piloto donde se construyen, analizan y validan las nuevas formulaciones. Cada lote piloto se somete a análisis completo y ensayos de estabilidad antes de la aprobación de producción.
-      href: /es/randdcenter
+      href: /es/manufacturing/research-development
     - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-quality-lab.webp
       title: Laboratorio de calidad e inspección
       description: Laboratorio de garantía de calidad dedicado a análisis HPLC/GC, ensayos de tamaño de partícula, medición de viscosidad, evaluación de estabilidad y emisión de Certificado de Análisis, para garantizar que cada lote cumple las especificaciones publicadas.
-      href: /es/randdcenter
+      href: /es/manufacturing/research-development

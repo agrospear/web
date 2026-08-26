@@ -1,0 +1,73 @@
+meta:
+  title: 'Formulaciones de biopesticidas personalizadas — Fabricante OEM | {SITE}'
+  description: 'Formulaciones de biopesticidas personalizadas para marcas — activos microbianos y bioquímicos, tipos estables SC/WP/OD, OEM desde piloto de 5 toneladas, directo de fábrica en Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'formulación biopesticida'
+    - 'pesticida microbiano OEM'
+    - 'pesticida botánico'
+    - 'formulación Bacillus'
+    - 'formulación neem'
+    - 'fabricación biopesticida'
+
+hero:
+  tagline: 'Productos · Biopesticidas'
+  title: 'Formulaciones de Biopesticidas'
+  subtitle: 'Formulaciones de biopesticidas personalizadas bajo tu marca — activos microbianos y bioquímicos con sistemas de coadyuvantes que preservan la viabilidad y producción compatible con cadena de frío.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Fabricamos formulaciones de biopesticidas personalizadas bajo tu marca: concentrados en suspensión microbianos (SC), polvos mojables a base de esporas (WP), dispersiones oleosas botánicas (OD) y líquidos solubles bioquímicos (SL). Producción en proceso en frío para cepas sensibles a la temperatura. Lotes piloto desde 5 toneladas; producción estándar desde 20+ toneladas por SKU.'
+  verified: '2026-08'
+
+intro:
+  - Los biopesticidas son el segmento de mayor crecimiento en la protección de cultivos: impulsados por los límites de residuos, los requisitos de los mercados de exportación y los programas de manejo integrado de plagas. Tanto los activos microbianos (bacterias, hongos) como bioquímicos (extractos vegetales, semioquímicos) requieren experiencia especializada en formulación.
+  - Fabricamos formulaciones de biopesticidas bajo tu marca con sistemas de coadyuvantes que preservan la viabilidad, producción compatible con cadena de frío y apoyo al registro para declaraciones de producto orgánico y riesgo reducido.
+
+product_highlights:
+  tagline: 'Productos destacados'
+  title: 'Categorías de biopesticidas principales'
+  features:
+    - icon: B
+      icon_bg: green
+      title: 'SC microbiano (a base de Bacillus)'
+      desc: 'Formulaciones de concentrado en suspensión con cepas vivas de Bacillus thuringiensis o Bacillus subtilis. La producción en proceso en frío preserva la viabilidad de UFC durante la vida útil.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/biopesticides
+    - icon: B
+      icon_bg: blue
+      title: 'OD botánico (a base de neem)'
+      desc: 'Formulaciones de dispersión oleosa a base de neem (azadiractina) y otros extractos vegetales. El tipo OD estable protege los componentes activos de la degradación UV y térmica.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/biopesticides
+    - icon: B
+      icon_bg: purple
+      title: 'SL bioquímico'
+      desc: 'Formulaciones de líquido soluble para semioquímicos, feromonas y activos bioquímicos. Control preciso de concentración para productos de baja dosis de aplicación.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/biopesticides
+    - icon: B
+      icon_bg: orange
+      title: 'WP de hongos entomopatógenos'
+      desc: 'Formulaciones de polvo mojable con esporas de hongos entomopatógenos (Beauveria, Metarhizium). Viabilidad de esporas y tasa de germinación optimizadas tras el almacenamiento.'
+      link_label: 'Ver detalles de formulación'
+      href: /es/products/biopesticides
+
+faqs:
+  tagline: FAQ
+  title: 'Formulaciones de biopesticidas — Preguntas frecuentes'
+  items:
+    - q: '¿Qué tipos de formulación de biopesticidas producís?'
+      a: 'Concentrado en suspensión (SC) para activos microbianos, polvo mojable (WP) para productos a base de esporas, dispersión oleosa (OD) para extractos botánicos y líquido soluble (SL) para activos bioquímicos. El tipo de formulación se selecciona para preservar la viabilidad biológica.'
+    - q: '¿Cómo aseguráis la viabilidad microbiana en formulaciones de biopesticidas?'
+      a: 'Producción en proceso en frío para cepas sensibles a la temperatura, pruebas de vida útil validadas en condiciones de almacenamiento y recuentos de UFC por lote en el momento de fabricación y durante todo el periodo de estabilidad. Opciones de envío con cadena de frío disponibles.'
+    - q: '¿Los biopesticidas requieren un apoyo diferente al registro?'
+      a: 'Sí. Los biopesticidas suelen acogerse a vías de registro de riesgo reducido o evaluación acelerada en muchos mercados. Proporcionamos los paquetes de datos específicos: identificación de cepa, datos de patogenicidad/toxicidad, estudios de organismos no objetivo y ensayos de eficacia.'
+
+cta:
+  title: 'Inicia tu proyecto de biopesticidas'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Ver todos los productos
+      href: /es/products

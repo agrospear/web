@@ -1,0 +1,74 @@
+meta:
+  title: 'Agrochemical OEM Africa — Crop Protection for Sub-Saharan Markets | {SITE}'
+  description: 'Agrospear OEM agrochemical solutions for Africa: broad-spectrum herbicides, insecticides and fungicides with registration support, French and English documentation and flexible MOQ.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical OEM Africa'
+    - 'crop protection Africa'
+    - 'pesticide registration Africa'
+    - 'herbicide Africa'
+    - 'insecticide Africa'
+
+hero:
+  tagline: 'Markets · Africa'
+  title: 'Agrochemical Solutions for Africa'
+  subtitle: 'OEM crop protection products tailored for Sub-Saharan African markets — broad-spectrum formulations, local registration support and flexible order quantities for market entry and growth.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We supply OEM herbicides, insecticides and fungicides to African distributors and importers across West, East and Southern Africa. Our Africa program includes pre-registration dossiers, French and English documentation, smallholder-friendly packaging sizes and flexible MOQs starting from 1,000 L/kg per SKU.'
+  verified: '2026-08'
+
+intro:
+  - Africa's crop protection market is growing rapidly, driven by food security priorities and increasing pesticide regulation. Distributors need reliable OEM partners who can provide effective, affordable products with the documentation needed for local registration — and the flexibility to support market entry with realistic order quantities.
+  - Our Africa program is built on 15+ years of export experience across 20+ Sub-Saharan countries. We understand the regulatory landscape, crop profiles and distribution realities of African markets.
+
+capabilities:
+  tagline: 'Capabilities'
+  title: 'Africa Market Solutions'
+  features:
+    - icon: A
+      icon_bg: green
+      title: 'Product Range'
+      desc: 'Broad-spectrum herbicides (glyphosate, glufosinate, 2,4-D, atrazine), insecticides (cypermethrin, chlorpyrifos, imidacloprid, abamectin) and fungicides (mancozeb, carbendazim, metalaxyl) for staple crops.'
+      link_label: 'View products'
+      href: /products/herbicides
+    - icon: A
+      icon_bg: blue
+      title: 'Registration Support'
+      desc: 'Pre-registration dossiers with GLP toxicity studies, residue data, five-batch analysis and formulation specifications. Our regulatory team supports local submissions in target countries.'
+      link_label: 'View registration support'
+      href: /manufacturing/research-development
+    - icon: A
+      icon_bg: purple
+      title: 'Documentation'
+      desc: 'French and English product documentation: labels, SDS, technical data sheets and registration dossiers. Adapted to local regulatory requirements and language preferences.'
+      link_label: 'View documentation'
+      href: /manufacturing/quality-control
+    - icon: A
+      icon_bg: orange
+      title: 'Flexible MOQ'
+      desc: 'Standard MOQ from 1,000 L/kg per SKU for existing formulations. Lower entry thresholds for market testing programs. Custom MOQ structures for multi-SKU launches.'
+      link_label: 'Request a quote'
+      href: /request-quote
+
+faqs:
+  tagline: FAQ
+  title: 'Africa Market — Frequently Asked Questions'
+  items:
+    - q: 'Which African countries do you supply?'
+      a: 'We supply OEM products to distributors across West Africa (Nigeria, Ghana, Cote d''Ivoire, Senegal), East Africa (Kenya, Tanzania, Uganda, Ethiopia) and Southern Africa (Zambia, Zimbabwe, Mozambique). Products are registered or in registration in 20+ Sub-Saharan countries.'
+    - q: 'What crops do your products target in Africa?'
+      a: 'Our Africa product range covers staple crops: maize, rice, sorghum, millet, cassava, yam, cocoa, coffee, cotton and vegetables. Formulations are selected for local pest pressure, application methods and regulatory status.'
+    - q: 'Do you provide French documentation for Francophone Africa?'
+      a: 'Yes. We provide complete product documentation in French for Francophone markets: labels, safety data sheets, technical data sheets and registration dossiers. Our regulatory team has experience with WAEMU and CEMAC registration requirements.'
+    - q: 'What packaging sizes work for African markets?'
+      a: 'Smallholder-friendly packaging: 100 mL, 250 mL and 1 L for liquid formulations; 100 g, 250 g and 1 kg for powder formulations. Bulk packaging (5 L, 10 L, 20 L) for institutional and plantation-scale buyers.'
+
+cta:
+  title: 'Discuss Your Africa Market Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All markets
+      href: /markets

@@ -1,0 +1,96 @@
+meta:
+  title: 'Fabricación OEM Agroquímica — Marca Privada y Producción por Contrato | {SITE}'
+  description: 'Fabricación OEM agroquímica: formulación personalizada, marca privada, producción por contrato para marcas de protección de cultivos. Fábrica ISO 9001, registrada ICAMA, más de 50 mercados de exportación.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'fabricación OEM agroquímica'
+    - 'marca privada agroquímica'
+    - 'producción agroquímica por contrato'
+    - 'OEM protección de cultivos'
+    - 'fabricación por contrato agroquímica'
+
+hero:
+  tagline: Soluciones OEM
+  title: 'Fabricación OEM Agroquímica — Marca Privada y Producción por Contrato'
+  subtitle: 'Formulación personalizada, marca privada y producción por contrato para marcas de protección de cultivos. Fábrica ISO 9001, registrada ICAMA, enviada a más de 50 mercados desde Qingdao, China.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Agrospear ofrece fabricación OEM agroquímica desde su fábrica certificada ISO 9001, ISO 14001, BSCI e ICAMA en Qingdao (China). Los servicios incluyen desarrollo de formulación personalizada, producción de marca privada, co-branding y fabricación por contrato. MOQ desde piloto de 5 toneladas hasta lotes estándar de 20+ toneladas, plazo de producción de 25–35 días, enviado a más de 50 países con documentación completa de cumplimiento.'
+  verified: '2026-08'
+
+intro:
+  - La fabricación OEM en Agrospear significa que tu formulación, especificación o plataforma probada se produce en nuestra fábrica bajo tu marca. Tú eres dueño de toda la propiedad intelectual; nosotros proporcionamos la infraestructura de fabricación, el sistema de calidad y la logística de exportación.
+  - Nuestro enfoque integrado — diseño de formulación, ingeniería, creación de prototipos, fabricación y ensayos bajo un mismo techo — elimina el riesgo de transición de la fabricación por contrato. Cada lote es producido, probado y enviado por un solo equipo bajo un solo sistema de calidad.
+
+oem_services:
+  tagline: Servicios OEM
+  title: 'Tres Modelos de Servicio OEM'
+  subtitle: 'Cada proyecto pasa por el mismo proceso de calidad — lo que cambia es el alcance de I+D y dónde queda la propiedad del IP.'
+  items:
+    - title: OEM de Formulación Personalizada
+      desc: 'Provees la especificación o producto de referencia. Nuestro equipo de I+D desarrolla la formulación según tus requisitos exactos. Documentación completa y soporte de registro incluidos. Tú eres dueño del IP de la formulación.'
+      icon: 'tabler:flask'
+      href: /es/solutions/custom-formulation
+    - title: Producción de Marca Privada
+      desc: 'Tu marca en una plataforma de formulación probada de Agrospear. Sin etapa de I+D — fabricamos bajo tu etiqueta con embalaje personalizado y documentación regulatoria. La ruta más rápida al mercado.'
+      icon: 'tabler:tag'
+      href: /es/solutions/private-label-pesticides
+    - title: Asociación de Co-Branding
+      desc: 'Ambas marcas en la etiqueta del producto. I+D compartida, datos de registro compartidos y presencia combinada en el mercado. Ideal para entrada a mercados regionales con un socio de fabricación de confianza.'
+      icon: 'tabler:branding'
+      href: /es/solutions/co-branding
+
+process_steps:
+  tagline: El Proceso
+  title: 'De la Especificación al Contenedor Enviado'
+  subtitle: 'Cada paso tiene un cronograma definido, entregables documentados y puntos de control de aprobación/rechazo.'
+  steps:
+    - step: '01'
+      title: 'Revisión de Especificación y Presupuesto'
+      desc: 'Comparte tu formulación, especificación o producto de referencia. Nuestros ingenieros revisan la fabricabilidad y devuelven un presupuesto detallado en un día laborable.'
+    - step: '02'
+      title: 'Confirmación de Ingeniería'
+      desc: 'Tipo de formulación, concentración, especificaciones de materia prima y sistema de dispersión confirmados. El desarrollo a medida empieza cuando se requiere — añade 15–20 días.'
+    - step: '03'
+      title: 'Prototipo y Muestra (7–12 Días)'
+      desc: 'Lote de muestra física producido para tu revisión. Datos de composición y eficacia incluidos. Las tarifas de muestra se acreditan hacia el pedido de producción.'
+    - step: '04'
+      title: 'Ensayos y Validación'
+      desc: 'Ensayos de estabilidad, análisis de contenido, comprobaciones de propiedades físicas y documentación de cumplimiento preparada para tus mercados de exportación.'
+    - step: '05'
+      title: 'Aprobación y Cupo de Producción'
+      desc: 'Apruebas la muestra y el arte de etiqueta. El PO y el depósito bloquean el cupo de producción. El plan de preproducción confirma fechas y cantidades.'
+    - step: '06'
+      title: 'Producción y QC (25–35 Días)'
+      desc: 'Fabricación a través del sistema de inspección de 7 etapas. Desde piloto (5 toneladas) hasta volumen estándar (20+ toneladas) por formulación.'
+    - step: '07'
+      title: 'Embalaje y Envío'
+      desc: 'Embalaje de exportación con documentación por lote y COA. FOB Qingdao, CIF o DDP a más de 50 países.'
+
+faqs:
+  tagline: FAQ
+  title: 'OEM Agroquímico — Preguntas Frecuentes'
+  items:
+    - q: '¿Cómo inicio un proyecto OEM?'
+      a: 'Envía tu formulación, especificación o producto de referencia. Nuestra revisión de ingeniería confirma la fabricabilidad y devuelve un presupuesto en un día laborable. Un NDA está disponible antes de cualquier intercambio de archivos.'
+    - q: '¿Cuál es el MOQ para fabricación OEM?'
+      a: 'El MOQ se confirma por configuración del proyecto: muestras 1–4 toneladas, pilotos desde 5 toneladas, volumen estándar 20+ toneladas por lote. Plazo de producción de 25–35 días desde PO confirmado.'
+    - q: '¿Soy dueño del IP de la formulación?'
+      a: 'Sí. En proyectos OEM, tú eres dueño de toda la propiedad intelectual. Fabricamos exclusivamente bajo tu marca y nunca competimos con nuestros clientes.'
+    - q: '¿Qué certificaciones tiene la fábrica?'
+      a: 'ISO 9001, ISO 14001, BSCI e ICAMA. Documentación completa de cumplimiento con cada envío OEM, preparada para tus mercados objetivo.'
+    - q: '¿Cuáles son sus términos de envío?'
+      a: 'FOB Qingdao, CIF a los principales puertos globales o DDP para socios cualificados. Enviamos a más de 50 países en mercados de la UE, EE. UU., LATAM, África y Asia.'
+
+cta:
+  title: '¿Listo para Lanzar Tu Línea OEM?'
+  subtitle: 'Envía tu formulación o especificación — recibe un presupuesto detallado en un día laborable.'
+  actions:
+    - variant: primary
+      text: 'Solicitar Presupuesto OEM'
+      href: /es/request-quote
+    - text: 'Inicia Tu Proyecto'
+      href: /es/start-agrochemical-project
+    - text: 'Verifica la Fábrica'
+      href: /es/manufacturing/factory

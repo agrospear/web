@@ -1,0 +1,103 @@
+meta:
+  title: 'Agrochemical Manufacturing — OEM/ODM Crop Protection Production | {SITE}'
+  description: 'End-to-end agrochemical manufacturing: formulation development, compounding, grinding, filling, labeling, QC and export. OEM/ODM from 5-ton pilot, 20+ ton standard volume.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical manufacturing process'
+    - 'OEM agrochemical production'
+    - 'ODM crop protection'
+    - 'agrochemical compounding'
+    - 'agrochemical filling and labeling'
+
+hero:
+  tagline: Manufacturing Process
+  title: 'Agrochemical Manufacturing — From Formulation to Shipped Product'
+  subtitle: 'End-to-end manufacturing process: compounding, grinding, filling, labeling, quality control and export. OEM/ODM production from pilot quantities to container-scale volumes.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Agrospear manufactures agrochemical products end-to-end in Qingdao, China: compounding and high-shear mixing, sand milling and grinding, automatic filling, multi-language labeling, 14-day stability QC and export packing. OEM/ODM production from 5-ton pilot batches to 20+ ton standard volumes, shipped to 50+ countries in 25–35 days from confirmed PO.'
+  verified: '2026-08'
+
+intro:
+  - Every agrochemical product manufactured at Agrospear follows a defined production workflow — from raw material receiving through compounding, formulation processing, filling, labeling, quality testing and export packing. Each stage includes mandatory QC checkpoints with pass/fail criteria documented in our ERP system.
+  - Our 12,500 m² facility houses dedicated workshops for each production stage, staffed by 350+ workers across two shifts. The integrated approach means every batch is produced, tested and shipped by one team under one quality system.
+
+manufacturing_process:
+  tagline: Production Stages
+  title: 'The Agrochemical Manufacturing Process'
+  subtitle: 'Six production stages with QC checkpoints at every step. No shortcuts, no skipped inspections.'
+  steps:
+    - step: '01'
+      title: Compounding & Premixing
+      desc: 'Computer-optimized batching calculates precise raw material quantities. High-shear mixers blend active ingredients with dispersants, emulsifiers and carriers. Automatic weighing systems maintain ±0.1% accuracy.'
+    - step: '02'
+      title: Grinding & Milling
+      desc: 'Sand mills and bead mills reduce particle size to specification — D50 1–5 μm for SC, D50 20–40 μm for WDG. Spray dryers and fluid bed granulators produce WP and WDG granules.'
+    - step: '03'
+      title: Filling & Sealing
+      desc: 'Automatic filling machines handle drums (20–200 L), jerry cans and bottles (100–1000 mL). Each batch follows a 100-point filling checklist signed off by the team lead.'
+    - step: '04'
+      title: Labeling & Decoration
+      desc: 'Automatic labeling machines apply multi-language GHS-compliant labels. Inkjet coders print batch and date coding for full traceability.'
+    - step: '05'
+      title: Quality Control & Stability Testing
+      desc: 'Every batch undergoes 14-day stability testing at 54°C per CIPAC MT 46, active content verification by HPLC/GC, suspensibility and emulsion stability checks. Independent quality lab reports to management.'
+    - step: '06'
+      title: Packing & Shipping
+      desc: 'Export-grade packing, compliance documentation and ocean freight coordination to 50+ countries. FOB Qingdao, CIF or DDP terms available.'
+
+capabilities:
+  tagline: Formulation Types
+  title: 'Manufacturing Capabilities by Formulation'
+  subtitle: 'We manufacture across all major agrochemical formulation types, each with dedicated production equipment and QC protocols.'
+  items:
+    - code: SC
+      name: Suspension Concentrate
+      desc: 'Wet-milled particles in aqueous suspension with anti-settling rheology. Non-flammable, easy to measure, versatile across crops.'
+    - code: EC
+      name: Emulsifiable Concentrate
+      desc: 'Solvent-based formulation for rapid foliar penetration and systemic action. Proven in herbicide and insecticide applications.'
+    - code: WP
+      name: Wettable Powder
+      desc: 'Solid powder formulation for cost-sensitive markets. Disperses in water for spray application.'
+    - code: WDG
+      name: Water-Dispersible Granule
+      desc: 'Dust-free granular formulation for safe handling. Spray-dried or fluid-bed granulated for consistent dispersion.'
+    - code: SL
+      name: Soluble Liquid
+      desc: 'Fully soluble in water for systemic translocation. Common for glyphosate and other water-soluble actives.'
+    - code: ME
+      name: Microemulsion
+      desc: 'Reduced-solvent, user-friendly formulation with fine droplet size for uniform coverage.'
+    - code: CS
+      name: Capsule Suspension
+      desc: 'Controlled-release encapsulated formulation for extended activity and reduced application frequency.'
+    - code: FS
+      name: Flowable Concentrate for Seed Treatment
+      desc: 'Low-viscosity, high-suspensibility flowable for film-coat and slurry seed treatment.'
+
+faqs:
+  tagline: FAQ
+  title: 'Agrochemical Manufacturing — Frequently Asked Questions'
+  items:
+    - q: 'What formulation types can Agrospear manufacture?'
+      a: 'We manufacture SC, EC, WP, WDG, SL, ME, CS and FS formulations. Each type has dedicated production equipment and QC protocols. Formulation choice depends on active ingredient properties, target application method and regional registration preferences.'
+    - q: 'What is the minimum production volume?'
+      a: 'Pilot batches start at 5 tons on existing platforms. Standard volume production runs 20+ tons per batch. Sample batches of 1–4 tons are available for registration trials and product evaluation.'
+    - q: 'How long does production take?'
+      a: 'Standard production lead time is 25–35 days from confirmed PO and deposit. Custom formulation development adds 15–20 days. Prototype samples ship in 7–12 days.'
+    - q: 'Is every batch quality tested?'
+      a: 'Yes. 100% of production batches undergo stability testing at 54°C for 14 days, active content verification by HPLC/GC, and full specification checks before release. Our quality lab operates independently from production.'
+
+cta:
+  title: 'Ready to Manufacture?'
+  subtitle: 'Send your formulation specification or product brief — receive a detailed quotation within one business day.'
+  actions:
+    - variant: primary
+      text: 'Request a Quote'
+      href: /request-quote
+    - text: 'Tour the Factory'
+      href: /manufacturing/factory
+    - text: 'See OEM Services'
+      href: /solutions/agrochemical-oem

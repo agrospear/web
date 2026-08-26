@@ -1,0 +1,74 @@
+meta:
+  title: 'Agrochemical Markets — Regional OEM Solutions | {SITE}'
+  description: 'Agrospear regional agrochemical markets: OEM manufacturing and export solutions for Africa, Southeast Asia, Latin America and global crop protection markets.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'agrochemical markets'
+    - 'crop protection markets'
+    - 'OEM export markets'
+    - 'regional agrochemical solutions'
+    - 'pesticide export'
+
+hero:
+  tagline: 'Markets'
+  title: 'Regional Markets'
+  subtitle: 'OEM agrochemical manufacturing and export solutions tailored to Africa, Southeast Asia, Latin America and emerging crop protection markets worldwide.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We supply OEM agrochemical products to distributors and importers across Africa, Southeast Asia, Latin America and the Middle East. Each market has distinct regulatory requirements, crop profiles and packaging preferences — we tailor formulation, registration support, packaging and documentation to meet regional demands.'
+  verified: '2026-08'
+
+intro:
+  - Every agrochemical market is different. Africa demands cost-effective broad-spectrum products with local registration support. Southeast Asia needs tropical-climate formulations and smallholder-friendly packaging. Latin America requires large-scale agricultural solutions with fast-turnaround OEM service.
+  - We adapt our manufacturing, documentation and logistics to each region — not a one-size-fits-all export model, but market-specific solutions built on 15+ years of regional experience.
+
+capabilities:
+  tagline: 'Markets'
+  title: 'Regional Market Solutions'
+  features:
+    - icon: M
+      icon_bg: green
+      title: 'Africa'
+      desc: 'Broad-spectrum herbicides and insecticides for staple crops. French and English documentation. Pre-registration dossiers for West and East African markets. Flexible MOQ for market entry.'
+      link_label: 'View Africa market'
+      href: /markets/africa
+    - icon: M
+      icon_bg: blue
+      title: 'Southeast Asia'
+      desc: 'Tropical-climate formulations for rice, rubber and palm oil crops. Smallholder-friendly packaging sizes. ASEAN regulatory documentation. Fast-turnaround OEM service.'
+      link_label: 'View Southeast Asia market'
+      href: /markets/southeast-asia
+    - icon: M
+      icon_bg: purple
+      title: 'Latin America'
+      desc: 'Large-scale agricultural solutions for soybean, corn, sugarcane and coffee. Spanish and Portuguese documentation. Registration support for key LATAM markets. Bulk packaging options.'
+      link_label: 'View Latin America market'
+      href: /markets/latin-america
+    - icon: M
+      icon_bg: orange
+      title: 'Global Export'
+      desc: 'Custom documentation, DG-compliant packaging and logistics support for any market. 15+ years of export experience across 40+ countries. Flexible OEM programs for new market entry.'
+      link_label: 'View manufacturing'
+      href: /manufacturing
+
+faqs:
+  tagline: FAQ
+  title: 'Markets — Frequently Asked Questions'
+  items:
+    - q: 'Which markets do you supply?'
+      a: 'We supply OEM agrochemical products to distributors and importers across Sub-Saharan Africa, Southeast Asia, Latin America, the Middle East and South Asia. Our products are registered or in registration in 40+ countries.'
+    - q: 'Do you provide registration support?'
+      a: 'Yes. We provide pre-registration dossiers including GLP toxicity studies, residue data, formulation analysis and five-batch analysis reports. Our regulatory team supports local registration submissions in target markets.'
+    - q: 'Can you adapt formulations for specific regional needs?'
+      a: 'Yes. We adjust AI concentration, dosage form, adjuvant package and packaging size for regional crop profiles, climate conditions and regulatory requirements. Custom formulation development typically takes 35–55 days.'
+    - q: 'What is the minimum order quantity for a new market?'
+      a: 'Standard MOQ is 1,000 L or 1,000 kg per SKU for existing formulations. New formulations or custom packaging may have higher MOQs, confirmed per project based on your market entry plan.'
+
+cta:
+  title: 'Discuss Your Market Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: OEM Solutions
+      href: /solutions/agrochemical-oem

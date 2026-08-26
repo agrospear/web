@@ -1,0 +1,73 @@
+meta:
+  title: 'Adjuvant & Surfactant Formulations — OEM Crop Protection | {SITE}'
+  description: 'Custom adjuvant and surfactant formulations — tank-mix partners, spreader-stickers, OEM from 5-ton pilot, factory direct from Qingdao, China.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'adjuvant formulation'
+    - 'surfactant OEM'
+    - 'non-ionic surfactant'
+    - 'organosilicone spreader'
+    - 'crop oil concentrate'
+    - 'drift control agent'
+
+hero:
+  tagline: 'Products · Adjuvants'
+  title: 'Adjuvant & Surfactant Formulations'
+  subtitle: 'Custom adjuvant formulations manufactured under your brand — non-ionic surfactants, organosilicone spreaders, crop oil concentrates and drift control agents.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We manufacture custom adjuvant and surfactant formulations under your brand: non-ionic surfactants, organosilicone super-spreaders, crop oil concentrates, drift control agents and tank-mix partners. Pilot batches from 5 tons; standard production from 20+ tons per SKU. Simpler registration requirements enable faster market entry.'
+  verified: '2026-08'
+
+intro:
+  - Adjuvants and surfactants enhance the performance of crop protection products: better coverage, improved rain-fastness, reduced drift and optimized tank-mix compatibility. They are a growing category for brands that want to offer complete spray programs.
+  - We manufacture adjuvant formulations under your brand — non-ionic surfactants, organosilicone spreaders, crop oil concentrates, drift control agents and fertilizer-compatible tank-mix partners.
+
+product_highlights:
+  tagline: 'Featured Products'
+  title: 'Core Adjuvant Categories'
+  features:
+    - icon: A
+      icon_bg: green
+      title: 'Non-Ionic Surfactant (NIS)'
+      desc: 'General-purpose tank-mix adjuvant for improved wetting and coverage. Compatible with most herbicide, insecticide and fungicide formulations.'
+      link_label: 'View formulation details'
+      href: /products/adjuvants
+    - icon: A
+      icon_bg: blue
+      title: 'Organosilicone Super-Spreader'
+      desc: 'High-performance spreading agent achieving 5–10× coverage vs. conventional surfactants. Reduces spray volume requirements and improves rain-fastness.'
+      link_label: 'View formulation details'
+      href: /products/adjuvants
+    - icon: A
+      icon_bg: purple
+      title: 'Crop Oil Concentrate (COC)'
+      desc: 'Penetration-enhancing oil-based adjuvant for post-emergence herbicide applications. Improves absorption of lipophilic active ingredients.'
+      link_label: 'View formulation details'
+      href: /products/adjuvants
+    - icon: A
+      icon_bg: orange
+      title: 'Drift Control Agent'
+      desc: 'Spray drift reduction adjuvant for aerial and ground application. Increases droplet size spectrum and reduces fine droplet formation.'
+      link_label: 'View formulation details'
+      href: /products/adjuvants
+
+faqs:
+  tagline: FAQ
+  title: 'Adjuvant Formulations — Frequently Asked Questions'
+  items:
+    - q: 'What adjuvant types do you formulate?'
+      a: 'Non-ionic surfactants (NIS), organosilicone super-spreaders, crop oil concentrates (COC), methylated seed oils (MSO), drift control agents, deposition aids, rain-fastness agents and pH buffers. Custom blends for specific crop-spray combinations.'
+    - q: 'Can adjuvants be co-branded with my pesticide line?'
+      a: 'Yes. Many brands package adjuvants as tank-mix partners alongside their pesticide formulations. We can match label design and packaging across your product line for a unified brand presentation.'
+    - q: 'What is the MOQ for adjuvant formulations?'
+      a: 'Pilot batches from 5 tons; standard volume from 20+ tons per SKU. Adjuvant formulations typically have simpler registration requirements, enabling faster market entry.'
+
+cta:
+  title: 'Start Your Adjuvant Project'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: See all products
+      href: /products

@@ -1,0 +1,93 @@
+meta:
+  title: 'Custom Agrochemical Formulation Development | OEM/ODM Crop Protection | {SITE}'
+  description: 'Develop custom agrochemical formulations with Agrospear. We support OEM/ODM crop protection product development, from formulation design and prototyping to registration and manufacturing.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'custom agrochemical formulation'
+    - 'formulation development OEM'
+    - 'ODM crop protection development'
+    - 'agrochemical R&D'
+    - 'custom pesticide formulation'
+
+hero:
+  tagline: Custom Formulation
+  title: 'Custom Agrochemical Formulation Development'
+  subtitle: 'From formulation design and prototyping to registration and manufacturing — Agrospear develops custom agrochemical formulations for OEM/ODM crop protection brands.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Agrospear develops custom agrochemical formulations at its Qingdao R&D center: formulation design, co-formulant optimization, prototype production, stability testing and registration documentation. Custom development adds 15–20 days to project timelines. Prototype samples in 7–12 days. MOQ from 5-ton pilot to 20+ ton standard production, shipped to 50+ countries.'
+  verified: '2026-08'
+
+intro:
+  - When an off-the-shelf formulation platform does not meet your product requirements, Agrospear's R&D team develops a custom formulation from your specification or reference product. This covers new active ingredient combinations, novel concentration grades, specialized adjuvant packages and market-specific formulation types.
+  - Custom formulation development is the core of our ODM service model. You provide the product brief — target pest or disease, crop, market and performance requirements — and our chemists and engineers design a formulation that meets those specifications.
+
+formulation_types:
+  tagline: Formulation Capabilities
+  title: 'Custom Formulation Types We Develop'
+  subtitle: 'Our R&D team develops across all major agrochemical formulation types, each with dedicated expertise and equipment.'
+  items:
+    - title: Suspension Concentrate (SC)
+      desc: 'Wet-milled particles in aqueous suspension. Our lab optimizes particle size distribution, anti-settling rheology and suspensibility benchmarks for each custom AI combination.'
+    - title: Emulsifiable Concentrate (EC)
+      desc: 'Solvent-emulsifier systems for rapid foliar penetration. Custom solvent selection and emulsion stability optimization for each AI and adjuvant package.'
+    - title: Water-Dispersible Granule (WDG)
+      desc: 'Dust-free granular formulations. Spray-dried or fluid-bed granulated with custom dispersant systems for consistent dispersion quality.'
+    - title: Microemulsion (ME) & Capsule Suspension (CS)
+      desc: 'Reduced-solvent and controlled-release formulations. Advanced delivery systems for specialized application requirements and extended activity.'
+    - title: Soluble Liquid (SL)
+      desc: 'Fully water-soluble formulations. Custom surfactant and adjuvant packages for systemic translocation optimization.'
+    - title: Flowable Concentrate for Seed Treatment (FS)
+      desc: 'Low-viscosity, high-suspensibility flowables for film-coat and slurry treatment. Customized for specific seed types and treatment equipment.'
+
+process_steps:
+  tagline: Development Process
+  title: 'Custom Formulation Development — Step by Step'
+  subtitle: 'A structured R&D process with documented milestones and go/no-go checkpoints at every stage.'
+  steps:
+    - step: '01'
+      title: 'Product Brief & Specification'
+      desc: 'Define target AI, concentration, formulation type, target pest/disease, crop, market and performance requirements. NDA available before sharing proprietary details.'
+    - step: '02'
+      title: 'Formulation Design & Screening'
+      desc: 'R&D designs 3–5 formulation candidates with different co-formulant systems. Screening tests for stability, suspensibility, emulsion quality and active content.'
+    - step: '03'
+      title: 'Prototype Production (7–12 Days)'
+      desc: 'Lead formulation candidate produced at pilot scale. Physical properties, active content and accelerated stability evaluated.'
+    - step: '04'
+      title: 'Stability & Performance Validation'
+      desc: '14-day accelerated stability at 54°C per CIPAC MT 46. Field performance data from partner trials when available. Specification locked on approval.'
+    - step: '05'
+      title: 'Registration Documentation'
+      desc: 'ICAMA registration dossier, FAO/WHO specification data and per-market compliance documentation prepared from the validated formulation.'
+    - step: '06'
+      title: 'Scale-Up & Production'
+      desc: 'Transition from prototype to production scale. Production through the 7-stage inspection gate system with full QC and traceability.'
+
+faqs:
+  tagline: FAQ
+  title: 'Custom Formulation — Frequently Asked Questions'
+  items:
+    - q: 'How long does custom formulation development take?'
+      a: 'Custom development adds 15–20 days to the standard project timeline. Prototype samples are typically ready in 7–12 days from confirmed specification. Full cycle from brief to first production is typically 8–12 weeks.'
+    - q: 'Who owns the formulation IP?'
+      a: 'IP ownership is agreed at the project briefing stage. On ODM projects, the formulation is typically licensed for your exclusive use in agreed territories. On OEM projects, you retain full IP ownership.'
+    - q: 'What formulation types can be developed?'
+      a: 'SC, EC, WP, WDG, SL, ME, CS and FS. Our R&D team has experience across all major formulation types with dedicated laboratory equipment for each.'
+    - q: 'What information do I need to provide?'
+      a: 'Target AI, concentration, formulation type, target pest/disease, crop, market and any specific performance requirements. Reference products or competitor profiles are helpful. If unsure, share what you have and we will guide the rest.'
+    - q: 'Is there a development fee?'
+      a: 'Development costs are confirmed at the quotation stage and typically credited toward your first production order. Contact us for a project-specific assessment.'
+
+cta:
+  title: 'Develop Your Custom Formulation'
+  subtitle: 'Send your product brief — our R&D team reviews and returns a development plan and quotation within one business day.'
+  actions:
+    - variant: primary
+      text: 'Start Formulation Development'
+      href: /request-quote
+    - text: 'See OEM Services'
+      href: /solutions/agrochemical-oem
+    - text: 'Formulation Type Comparison'
+      href: /formulation-type-comparison

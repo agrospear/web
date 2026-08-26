@@ -1,0 +1,75 @@
+meta:
+  title: 'Factory Audit Guide — Preparation & Compliance | {SITE}'
+  description: 'Agrospear factory audit guide: preparation checklist, audit areas, compliance documentation and third-party inspection support for OEM buyers.'
+  dateModified: '2026-08-24'
+  keywords:
+    - 'factory audit'
+    - 'agrochemical factory inspection'
+    - 'OEM factory audit'
+    - 'compliance documentation'
+    - 'third-party inspection'
+    - 'supplier audit preparation'
+
+hero:
+  tagline: 'Manufacturing · Audit'
+  title: 'Factory Audit Guide'
+  subtitle: 'Everything you need to prepare for a factory audit — audit areas, compliance documentation, third-party inspection support and our transparency commitment.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We support factory audits at our Qingdao facility: in-person visits, remote video walkthroughs and third-party inspections (SGS, TÜV, BV, Intertek). Audit areas cover production lines, quality lab, document control, material traceability and certification scope. Pre-qualification documentation and audit schedules can be written into the contract.'
+  verified: '2026-08'
+
+intro:
+  - A factory audit is one of the most important steps in qualifying an OEM manufacturing partner. We welcome audits at our Qingdao facility — whether in-person visits, remote video walkthroughs or third-party inspections — because transparency builds the trust that underpins every long-term manufacturing partnership.
+  - We prepare comprehensive audit documentation in advance and provide full access to production areas, quality records and certification files. Audit schedules and pre-qualification requirements can be written into the manufacturing contract.
+
+capabilities:
+  tagline: 'Capabilities'
+  title: 'Factory Audit Capabilities'
+  features:
+    - icon: F
+      icon_bg: green
+      title: 'Audit Preparation'
+      desc: 'Comprehensive pre-audit documentation package: facility overview, certification copies, organizational chart, production capacity data and quality system documentation prepared before your visit.'
+      link_label: 'View audit preparation'
+      href: /manufacturing/factory-audit
+    - icon: F
+      icon_bg: blue
+      title: 'Production Line Audit'
+      desc: 'Full access to compounding, grinding, filling and labeling workshops. Observe production in progress, review batch records and verify equipment calibration and maintenance logs.'
+      link_label: 'View production audit'
+      href: /manufacturing/factory-audit
+    - icon: F
+      icon_bg: purple
+      title: 'Quality Lab Audit'
+      desc: 'Independent QC laboratory with HPLC, GC, particle size analyzer and stability chambers. Review analytical methods, calibration records, stability data and batch CoA files.'
+      link_label: 'View quality lab audit'
+      href: /manufacturing/factory-audit
+    - icon: F
+      icon_bg: orange
+      title: 'Document & Traceability Audit'
+      desc: 'Full access to document control system, material traceability records (10-year retention), ERP batch tracking, change control logs and non-conformance disposition records.'
+      link_label: 'View document audit'
+      href: /manufacturing/factory-audit
+
+faqs:
+  tagline: FAQ
+  title: 'Factory Audit — Frequently Asked Questions'
+  items:
+    - q: 'How do I schedule a factory audit?'
+      a: 'Contact your project manager or our sales team to schedule a visit. We typically require 5–10 business days advance notice for in-person visits. Remote video walkthroughs can be arranged with shorter lead time. Audit schedules can be written into the manufacturing contract.'
+    - q: 'What audit formats do you support?'
+      a: 'In-person factory visits at our Qingdao facility, remote live video walkthroughs via video call, and third-party inspections by SGS, TÜV, BV or Intertek. We also support document-based audits for clients unable to visit in person.'
+    - q: 'What documentation is available for pre-qualification?'
+      a: 'ISO 9001 and ISO 14001 certificates, BSCI report, ICAMA registration records, production capacity data, organizational chart, quality system SOPs and representative batch records. All documentation is prepared in advance of the audit date.'
+    - q: 'Can my own inspector or consultant conduct the audit?'
+      a: 'Yes. We welcome independent auditors and consultants designated by the buyer. Full access to production areas, quality records and documentation is provided. We only request advance notice of the audit scope and schedule to prepare the relevant documentation and personnel.'
+
+cta:
+  title: 'Schedule a Factory Audit'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: Manufacturing overview
+      href: /manufacturing
