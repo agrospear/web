@@ -22,7 +22,7 @@ beforeAll(async () => {
       "product_type" TEXT NOT NULL DEFAULT 'unsure', "model" TEXT NOT NULL DEFAULT 'unsure',
       "timeline" TEXT NOT NULL DEFAULT 'now', "target_market" TEXT NOT NULL DEFAULT '',
       "project_stage" TEXT NOT NULL DEFAULT '', "role" TEXT NOT NULL DEFAULT '',
-      "board_platform" TEXT NOT NULL DEFAULT '', "construction" TEXT NOT NULL DEFAULT '',
+      "formulation_platform" TEXT NOT NULL DEFAULT '', "formulation_type" TEXT NOT NULL DEFAULT '',
       "customization" TEXT NOT NULL DEFAULT '', "packaging" TEXT NOT NULL DEFAULT '',
       "compliance" TEXT NOT NULL DEFAULT '', "docs" TEXT NOT NULL DEFAULT '',
       "annual_volume" TEXT NOT NULL DEFAULT '', "budget" TEXT NOT NULL DEFAULT '',

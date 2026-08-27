@@ -17,7 +17,7 @@ export type InquiryCategory =
 export type InquiryTimeline = 'now' | 't1-3mo' | 't3-6mo' | 't6-12mo' | 't12mo+' | 'unsure'
 export type InquiryProjectStage = 'ready' | 'reviewing' | 'developing' | 'sampling' | 'future'
 export type InquiryRole = 'owner' | 'purchasing' | 'product' | 'designer' | 'operations' | 'other'
-export type InquiryConstruction = 'standard' | 'premium' | 'custom' | 'need-rec'
+export type InquiryFormulationType = 'standard' | 'premium' | 'custom' | 'need-rec'
 export type InquiryCustomization = 'logo' | 'label' | 'color-coding' | 'accessories' | 'packaging' | 'tooling' | 'not-sure'
 export type InquiryPackaging = 'export' | 'branded' | 'custom' | 'mixed' | 'not-decided'
 export type InquiryCompliance = 'eu' | 'uk' | 'us-ca' | 'au-nz' | 'other' | 'guidance'
@@ -35,7 +35,7 @@ export const CATEGORIES: InquiryCategory[] = [
 export const TIMELINES: InquiryTimeline[] = ['now', 't1-3mo', 't3-6mo', 't6-12mo', 't12mo+', 'unsure']
 export const PROJECT_STAGES: InquiryProjectStage[] = ['ready', 'reviewing', 'developing', 'sampling', 'future']
 export const ROLES: InquiryRole[] = ['owner', 'purchasing', 'product', 'designer', 'operations', 'other']
-export const CONSTRUCTIONS: InquiryConstruction[] = ['standard', 'premium', 'custom', 'need-rec']
+export const FORMULATION_TYPES: InquiryFormulationType[] = ['standard', 'premium', 'custom', 'need-rec']
 export const CUSTOMIZATIONS: InquiryCustomization[] = ['logo', 'label', 'color-coding', 'accessories', 'packaging', 'tooling', 'not-sure']
 export const PACKAGINGS: InquiryPackaging[] = ['export', 'branded', 'custom', 'mixed', 'not-decided']
 export const COMPLIANCES: InquiryCompliance[] = ['eu', 'uk', 'us-ca', 'au-nz', 'other', 'guidance']
@@ -52,7 +52,7 @@ export const INQUIRY_LIMITS = {
   emailMax: 200,
   whatsappMax: 60,
   targetMarketMax: 120,
-  boardPlatformMax: 120,
+  formulationPlatformMax: 120,
   budgetMax: 160,
   customizationMax: 200,
   docsMax: 200,
@@ -156,8 +156,8 @@ export type InquiryInput = {
   targetMarket: string
   projectStage: string
   role: string
-  boardPlatform: string
-  construction: string
+  formulationPlatform: string
+  formulationType: string
   customization: string
   packaging: string
   compliance: string
@@ -197,8 +197,8 @@ export function clampInquiryInput(d: unknown): InquiryInput {
     targetMarket: s(o.targetMarket, INQUIRY_LIMITS.targetMarketMax).trim(),
     projectStage: pick(o.projectStage, PROJECT_STAGES),
     role: pick(o.role, ROLES),
-    boardPlatform: s(o.boardPlatform, INQUIRY_LIMITS.boardPlatformMax).trim(),
-    construction: pick(o.construction, CONSTRUCTIONS),
+    formulationPlatform: s(o.formulationPlatform, INQUIRY_LIMITS.formulationPlatformMax).trim(),
+    formulationType: pick(o.formulationType, FORMULATION_TYPES),
     customization: pickList(o.customization, CUSTOMIZATIONS, INQUIRY_LIMITS.customizationMax),
     packaging: pick(o.packaging, PACKAGINGS),
     compliance: pick(o.compliance, COMPLIANCES),
@@ -293,7 +293,7 @@ export function inquiryScoreSignals(input: InquiryInput, opts: { hasFile: boolea
   if (input.quantity === 'q1-4') push('quantity', -25)
   if (input.projectStage === 'future') push('stageFuture', -10)
   const undecidedCount = [
-    input.quantity, input.timeline, input.construction, input.packaging, input.compliance, input.annualVolume, input.docs,
+    input.quantity, input.timeline, input.formulationType, input.packaging, input.compliance, input.annualVolume, input.docs,
   ].filter((v) => v === '' || UNDECIDED_VALUES.has(v)).length
   if (undecidedCount >= 3) push('undecided', -20)
   if (input.requirements.length > 0 && input.requirements.length < 120 && PRICE_ONLY_RE.test(input.requirements.trim())) push('priceOnly', -20)

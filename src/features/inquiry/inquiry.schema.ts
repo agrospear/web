@@ -17,8 +17,8 @@ export const inquiry = sqliteTable('inquiry', {
   targetMarket: text('target_market').notNull().default(''),      // free-text sales market
   projectStage: text('project_stage').notNull().default(''),      // InquiryProjectStage
   role: text('role').notNull().default(''),                       // InquiryRole
-  boardPlatform: text('board_platform').notNull().default(''),    // preferred platform / size
-  construction: text('construction').notNull().default(''),       // InquiryConstruction
+  formulationPlatform: text('formulation_platform').notNull().default(''),
+  formulationType: text('formulation_type').notNull().default(''),
   customization: text('customization').notNull().default(''),     // comma list, InquiryCustomization
   packaging: text('packaging').notNull().default(''),             // InquiryPackaging
   compliance: text('compliance').notNull().default(''),           // InquiryCompliance

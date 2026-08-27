@@ -10,17 +10,17 @@ interface Slide {
 
 const SLIDES_EN: Slide[] = [
   {
-    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-factory-exterior.webp`,
+    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-factory-exterior.webp`,
     tagline: '20,000 m\u00b2 Factory',
     title: 'From raw active ingredient to export-ready product — all under one roof',
   },
   {
-    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-formulation-lab.webp`,
+    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-formulation-lab.webp`,
     tagline: 'Formulation Lab',
     title: 'R&D and pilot-scale validation before every production commitment',
   },
   {
-    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-quality-lab.webp`,
+    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-quality-lab.webp`,
     tagline: 'Quality & Inspection Lab',
     title: 'HPLC/GC analysis, stability chambers, particle sizing — every batch tested',
   },
@@ -28,17 +28,17 @@ const SLIDES_EN: Slide[] = [
 
 const SLIDES_ES: Slide[] = [
   {
-    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-factory-exterior.webp`,
+    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-factory-exterior.webp`,
     tagline: 'F\u00e1brica de 20.000 m\u00b2',
     title: 'Del ingrediente activo al producto listo para exportar — todo bajo un mismo techo',
   },
   {
-    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-formulation-lab.webp`,
+    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-formulation-lab.webp`,
     tagline: 'Laboratorio de formulaci\u00f3n',
     title: 'I+D y validaci\u00f3n a escala piloto antes de cada compromiso de producci\u00f3n',
   },
   {
-    image: `${BRAND_ASSETS_CDN}/images/sups/factory/agrospear-quality-lab.webp`,
+    image: `${BRAND_ASSETS_CDN}/images/agrospear/factory/agrospear-quality-lab.webp`,
     tagline: 'Laboratorio de calidad e inspecci\u00f3n',
     title: 'An\u00e1lisis HPLC/GC, c\u00e1maras de estabilidad, granulometr\u00eda — cada lote analizado',
   },

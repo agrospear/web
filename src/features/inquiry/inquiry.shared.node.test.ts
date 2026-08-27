@@ -28,8 +28,8 @@ function validInput(overrides: Partial<InquiryInput> = {}): InquiryInput {
     targetMarket: 'EU distributors',
     projectStage: 'reviewing',
     role: 'purchasing',
-    boardPlatform: 'SC herbicide, glyphosate 480 g/L',
-    construction: 'premium',
+    formulationPlatform: 'SC herbicide, glyphosate 480 g/L',
+    formulationType: 'premium',
     customization: 'logo,label',
     packaging: 'branded',
     compliance: 'eu',
@@ -60,7 +60,7 @@ describe('clampInquiryInput', () => {
       timeline: 'yesterday',
       projectStage: 'nowhere',
       role: 'ceo-troll',
-      construction: 'beyond-premium',
+      formulationType: 'beyond-premium',
       packaging: 'void',
       compliance: 'mars',
       annualVolume: 'v99999',
@@ -73,7 +73,7 @@ describe('clampInquiryInput', () => {
     expect(out.timeline).toBe('')
     expect(out.projectStage).toBe('')
     expect(out.role).toBe('')
-    expect(out.construction).toBe('')
+    expect(out.formulationType).toBe('')
     expect(out.packaging).toBe('')
     expect(out.compliance).toBe('')
     expect(out.annualVolume).toBe('')
@@ -176,7 +176,7 @@ describe('scoreInquiry', () => {
         quantity: 'q1-4',
         timeline: 'unsure',
         projectStage: 'future',
-        construction: 'need-rec',
+        formulationType: 'need-rec',
         packaging: 'not-decided',
         compliance: 'guidance',
         annualVolume: 'not-decided',

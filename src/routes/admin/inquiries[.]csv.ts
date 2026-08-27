@@ -19,7 +19,7 @@ export function inquiriesToCsv(rows: InquiryRow[]): string {
     return [
       cell(r.tier), cell(String(r.score)), cell(r.category), cell(r.businessType),
       cell(r.projectStage), cell(r.timeline), cell(r.quantity), cell(r.annualVolume),
-      cell(r.role), cell(r.boardPlatform), cell(r.construction), cell(r.customization),
+      cell(r.role), cell(r.formulationPlatform), cell(r.formulationType), cell(r.customization),
       cell(r.packaging), cell(r.compliance), cell(r.docs), cell(r.budget), cell(r.nda),
       cell(r.company), cell(r.website), cell(r.country), cell(r.targetMarket),
       cell(r.email), cell(r.whatsapp), cell(r.requirements), cell(r.logoKey ?? ''),

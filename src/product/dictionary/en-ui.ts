@@ -195,7 +195,7 @@ export const enUi = {
       oemIntro: 'Businesses around the world manufacture this formulation with {siteName}:',
       relatedPlatforms: 'Related Platforms',
       faq: 'Frequently Asked Questions',
-      produceUnderBrand: 'Produce This Board Under Your Brand',
+      produceUnderBrand: 'Produce This Formulation Under Your Brand',
       readyToManufacture: 'Ready to manufacture this platform under your own brand?',
       oemOdmTitle: 'OEM / ODM Manufacturing',
       oemOdmDesc: 'Manufacture to your spec, from sample to batch',

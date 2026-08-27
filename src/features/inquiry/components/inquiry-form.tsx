@@ -297,7 +297,7 @@ export function InquiryForm({
             <Label htmlFor="inq-platform">{t('inquiry.formulationPlatform')} <span className="req">*</span></Label>
             <Input
               id="inq-platform"
-              name="boardPlatform"
+              name="formulationPlatform"
               required
               maxLength={120}
               defaultValue={prefill?.name ?? undefined}
@@ -306,8 +306,8 @@ export function InquiryForm({
             <span className="field-hint">{t('inquiry.formulationPlatformHint')}</span>
           </div>
           <div className="field">
-            <Label htmlFor="inq-construction">{t('inquiry.construction')} <span className="req">*</span></Label>
-            <Select id="inq-construction" name="construction" defaultValue="" required>
+            <Label htmlFor="inq-formulation-type">{t('inquiry.construction')} <span className="req">*</span></Label>
+            <Select id="inq-formulation-type" name="formulationType" defaultValue="" required>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
               <option value="standard">{t('inquiry.constructionOptions.standard')}</option>
               <option value="premium">{t('inquiry.constructionOptions.premium')}</option>

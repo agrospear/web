@@ -17,11 +17,11 @@ export const BRAND_LOGO_URL = '/apple-touch-icon.png' as const
 export const BRAND_FAVICON_ICO = '/favicon.ico' as const
 export const BRAND_FAVICON_SVG = '/favicon.svg' as const
 
-export const BRAND_OG_IMAGE = `https://assets.${SITE_DOMAIN}/images/sups/products/${PRODUCT_OG_IMAGE_FILENAME}.webp` as const
-export const BRAND_HERO_IMAGE = `https://assets.${SITE_DOMAIN}/images/sups/products/${PRODUCT_OG_IMAGE_FILENAME}.avif` as const
-export const BRAND_HERO_IMAGE_768 = `https://assets.${SITE_DOMAIN}/images/sups/products/${PRODUCT_OG_IMAGE_FILENAME}-768.avif` as const
-export const BRAND_HERO_IMAGE_480 = `https://assets.${SITE_DOMAIN}/images/sups/products/${PRODUCT_OG_IMAGE_FILENAME}-480.avif` as const
-export const BRAND_HERO_IMAGE_WEBP = `https://assets.${SITE_DOMAIN}/images/sups/products/${PRODUCT_OG_IMAGE_FILENAME}.webp` as const
+export const BRAND_OG_IMAGE = `https://assets.${SITE_DOMAIN}/images/agrospear/products/${PRODUCT_OG_IMAGE_FILENAME}.webp` as const
+export const BRAND_HERO_IMAGE = `https://assets.${SITE_DOMAIN}/images/agrospear/products/${PRODUCT_OG_IMAGE_FILENAME}.avif` as const
+export const BRAND_HERO_IMAGE_768 = `https://assets.${SITE_DOMAIN}/images/agrospear/products/${PRODUCT_OG_IMAGE_FILENAME}-768.avif` as const
+export const BRAND_HERO_IMAGE_480 = `https://assets.${SITE_DOMAIN}/images/agrospear/products/${PRODUCT_OG_IMAGE_FILENAME}-480.avif` as const
+export const BRAND_HERO_IMAGE_WEBP = `https://assets.${SITE_DOMAIN}/images/agrospear/products/${PRODUCT_OG_IMAGE_FILENAME}.webp` as const
 
 export const BRAND_ASSETS_CDN = `https://assets.${SITE_DOMAIN}` as const
 
