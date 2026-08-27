@@ -55,7 +55,7 @@ solutions:
     - clientType: Cooperative Founder
       need: Cooperative Supply
       solutionPage: Commercial Agrochemical Portfolio
-      link: /solutions/registration-support
+      link: /agrochemical-regulation-by-market
     - clientType: Distribution Business Owner
       need: Distribution Operations
       solutionPage: Reliable Distribution Supply Solution
@@ -63,11 +63,11 @@ solutions:
     - clientType: Farm Supply Manager
       need: Agricultural Supply
       solutionPage: Farm Supply Product Package
-      link: /solutions/bulk-supply
+      link: /solutions/distributors
     - clientType: Agricultural Training Academy
       need: Training & Education
       solutionPage: Agricultural Academy Product Program
-      link: /solutions/government-procurement
+      link: /solutions/government-tender
     - clientType: Export & Trading Company
       need: Export Supply
       solutionPage: Export-Grade Agrochemical Package
@@ -99,7 +99,7 @@ solutions:
     - clientType: Government Program Developer
       need: Government Procurement
       solutionPage: Government Agrochemical Procurement Program
-      link: /solutions/bulk-supply
+      link: /solutions/distributors
     - clientType: Large Estate & Plantation Owner
       need: High-Volume Supply
       solutionPage: Premium Custom Agrochemical Collection
@@ -111,7 +111,7 @@ solutions:
     - clientType: Farmer Training & Extension Operator
       need: Farmer Education
       solutionPage: Farmer Extension Agrochemical Program
-      link: /solutions/government-procurement
+      link: /solutions/government-tender
     - clientType: Pest Control & Public Health Organization
       need: Professional Vector Control
       solutionPage: Professional Public Health Agrochemical System

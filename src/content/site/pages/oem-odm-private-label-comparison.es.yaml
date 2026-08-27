@@ -90,7 +90,7 @@ scenario_cards:
       icon_bg: 'purple'
       title: 'Operas una red de distribución o cooperativa'
       desc: 'Necesitas productos agroquímicos de calidad consistente con consistencia por lote, documentación regulatoria y gestión de etiquetas entre reposiciones. Elige nuestro Programa de Socio de Distribución.'
-      link: '/es/solutions/bulk-supply'
+      link: '/es/solutions/distributors'
       link_label: 'Detalles del Programa de Distribución'
 
 ip_rules:

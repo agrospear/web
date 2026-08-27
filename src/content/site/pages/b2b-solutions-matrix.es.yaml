@@ -51,7 +51,7 @@ solutions:
     - clientType: Fundador de cooperativa
       need: Suministro cooperativo
       solutionPage: Portafolio agroquímico comercial
-      link: /es/solutions/registration-support
+      link: /es/agrochemical-regulation-by-market
     - clientType: Propietario de negocio de distribución
       need: Operaciones de distribución
       solutionPage: Solución de suministro de distribución confiable
@@ -59,11 +59,11 @@ solutions:
     - clientType: Responsable de suministro agrícola
       need: Suministro agrícola
       solutionPage: Paquete de productos de suministro agrícola
-      link: /es/solutions/bulk-supply
+      link: /es/solutions/distributors
     - clientType: Academia de formación agrícola
       need: Formación y educación
       solutionPage: Programa de productos para academias agrícolas
-      link: /es/solutions/government-procurement
+      link: /es/solutions/government-tender
     - clientType: Compañía de exportación y trading
       need: Suministro de exportación
       solutionPage: Paquete agroquímico de grado exportación
@@ -95,7 +95,7 @@ solutions:
     - clientType: Desarrollador de programas gubernamentales
       need: Compras gubernamentales
       solutionPage: Programa de compras agroquímicas gubernamentales
-      link: /es/solutions/bulk-supply
+      link: /es/solutions/distributors
     - clientType: Propietario de gran extensión y plantación
       need: Suministro de alto volumen
       solutionPage: Colección agroquímica premium a medida
@@ -107,7 +107,7 @@ solutions:
     - clientType: Operador de formación y extensión agraria
       need: Educación agraria
       solutionPage: Programa agroquímico de extensión agraria
-      link: /es/solutions/government-procurement
+      link: /es/solutions/government-tender
     - clientType: Organización de control de plagas y salud pública
       need: Control de vectores profesional
       solutionPage: Sistema agroquímico profesional de salud pública

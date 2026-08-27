@@ -90,7 +90,7 @@ scenario_cards:
       icon_bg: 'purple'
       title: 'You operate a distribution network or cooperative'
       desc: 'You need reliable, consistent-quality agrochemical products with batch consistency, regulatory documentation and label management across reorders. Choose our Distribution Partner Program.'
-      link: '/solutions/bulk-supply'
+      link: '/solutions/distributors'
       link_label: 'Distribution Program Details'
 
 ip_rules:
