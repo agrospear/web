@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'OEM Adjuvants & Co-Formulants | {SITE}'
   description: 'OEM/ODM adjuvant and co-formulant manufacturer: custom formulation production, private label, and wholesale. ISO 9001-certified factory in China.'
   dateModified: '2026-08-07'
@@ -82,7 +82,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> adjuvant and formulation production share the same <a href="/oem-manufacturing">OEM/ODM program</a> and the same <a href="/factory">12,500 m&sup2; factory floor</a> — one quote covers both.</p>
+    <p><strong>Keep reading:</strong> adjuvant and formulation production share the same <a href="/oem-manufacturing">OEM/ODM program</a> and the same <a href="/manufacturing/factory">12,500 m&sup2; factory floor</a> — one quote covers both.</p>
   </div>
 
 geo:

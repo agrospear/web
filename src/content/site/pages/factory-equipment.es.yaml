@@ -1,5 +1,5 @@
-meta:
-  title: 'Equipo de fabrica: mezclado, molienda y llenado'
+﻿meta:
+  title: 'Equipo de Fábrica | Mezclado, Molienda y Llenado | Fabricante Agroquímico China | {SITE}'
   description: 'Equipos de fabricacion de grado industrial de Agrospear: mezcladores de alto corte, molinos de arena, secadores por aspersion, lineas de llenado, analizadores HPLC/GC y camaras de estabilidad para produccion agroquimica.'
   dateModified: '2026-08'
   keywords:
@@ -12,7 +12,7 @@ hero:
   title: Equipos y maquinaria de fabricacion
   subtitle: Equipos de grado industrial en mezclado, molienda, llenado y ensayos
   back_label: Volver a la fabrica
-  back_link: /es/factory
+  back_link: /es/manufacturing/factory
 
 answer:
   label: 'Respuesta directa'

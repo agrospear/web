@@ -1,5 +1,5 @@
 meta:
-  title: 'Recursos Agroquímicos — Guías para Compradores y Respuestas Técnicas | {SITE}'
+  title: 'Recursos para Compradores Agroquímicos | Guías de Fabricante OEM | {SITE}'
   description: 'Guías para compradores de agroquímicos, recursos técnicos y respuestas directas para distribuidores, importadores y socios OEM.'
   dateModified: '2026-08-27'
 
@@ -79,7 +79,7 @@ resource_cards:
       title: 'Lista de Verificación de Auditoría de Fábrica para Fabricantes de Plaguicidas'
       desc: 'Lista de verificación de auditoría de ocho áreas para evaluar socios de fabricación agroquímica en China.'
       link_label: 'Leer guía'
-      href: /resources/factory-audit-china-pesticide
+      href: /resources/manufacturing/factory-audit-china-pesticide
     - icon: H
       icon_bg: purple
       title: 'Métodos de Prueba HPLC para Plaguicidas'

@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'OEM vs ODM vs Private Label Agrochemical Manufacturing — Comparison Guide'
   description: 'OEM vs ODM vs private-label agrochemical manufacturing compared: definitions, ownership, MOQ entry points, lead times, formulation development, IP rules and best-fit scenarios.'
   dateModified: '2026-08-20'
@@ -72,7 +72,7 @@ scenario_cards:
       icon_bg: 'blue'
       title: 'You have complete specs and own the formulation'
       desc: 'You have a complete formula, a reference product, or a detailed spec sheet with active ingredient, concentration, formulation type and packaging requirements. Choose OEM — we manufacture exactly to your specification.'
-      link: '/factory/oem-capability'
+      link: '/manufacturing/factory/oem-capability'
       link_label: 'OEM Manufacturing Details'
     - icon: '2'
       icon_bg: 'green'

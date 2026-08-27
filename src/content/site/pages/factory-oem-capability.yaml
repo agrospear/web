@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'OEM & Private Label Manufacturing | {SITE}'
   description: 'From concept to production: customize every detail of your agrochemical product line. Full OEM/ODM service for private label crop protection brands.'
   dateModified: '2026-08'
@@ -71,4 +71,4 @@ cta:
     - text: The 7-stage inspection system
       href: /manufacturing/quality-control
     - text: See the production line
-      href: /factory/process
+      href: /manufacturing/factory/process

@@ -1,5 +1,5 @@
-meta:
-  title: 'About Agrospear — the Agrochemical Manufacturing Division'
+﻿meta:
+  title: 'About Agrospear — Agrochemical OEM Manufacturer China | {SITE}'
   description: 'Agrospear is the agrochemical manufacturing division of Qingdao Vatrad Group, founded in 2012 in Qingdao, China — the factory behind every Agrospear custom project.'
   dateModified: '2026-08'
   keywords:
@@ -16,7 +16,7 @@ hero:
       href: /contact
       variant: primary
     - text: 'See the Factory'
-      href: /factory
+      href: /manufacturing/factory
       variant: secondary
 intro: |
   <p><strong>Agrospear</strong> is the agrochemical manufacturing division of <strong>Qingdao Vatrad Group Co., Ltd.</strong>, based in the Economic Development Zone of Laixi, Qingdao, Shandong, China. Founded in 2012, the company began as a specialized formulation workshop committed to crop protection science, and has grown into a state-designated pesticide manufacturer serving OEM and ODM clients across more than 60 countries on six continents.</p>

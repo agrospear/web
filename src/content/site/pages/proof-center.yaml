@@ -1,5 +1,5 @@
-meta:
-  title: 'Proof Center — The Evidence Behind Every Manufacturing Claim'
+﻿meta:
+  title: 'Proof Center | Manufacturing Evidence | Agrochemical OEM Supplier | {SITE}'
   description: 'Proof folder behind Agrospear claims: entity relationships, certificates with scope, equipment list, batch traceability and inspection documentation.'
   dateModified: '2026-08-16'
   keywords:
@@ -37,7 +37,7 @@ entities:
       icon_bg: green
       title: 'Agrospear — the manufacturing division'
       desc: 'The agrochemical manufacturing division behind the plant: herbicides, insecticides, fungicides, PGRs and seed treatments produced in the same Qingdao facility. Product and quality documentation is issued under this name.'
-      link: '/factory'
+      link: '/manufacturing/factory'
       link_label: 'Explore the factory'
     - icon: V
       icon_bg: orange
@@ -103,25 +103,25 @@ evidence_gates:
       icon_bg: blue
       title: 'Equipment & machinery list'
       desc: 'Mixing, grinding, granulation, filling and packaging plus the QC lab — machines with names, specs and what each one does. Ask for a live walkthrough.'
-      link: '/factory/equipment'
+      link: '/manufacturing/factory/equipment'
       link_label: 'Open equipment list'
     - icon: P
       icon_bg: green
       title: 'Inspection gate photos & reports'
       desc: 'Seven inspection gates with factory-floor photos and bilingual report links — what is checked, with which method, against which criterion, recorded where.'
-      link: '/factory/process'
+      link: '/manufacturing/factory/process'
       link_label: 'Open inspection gates'
     - icon: Q
       icon_bg: orange
       title: 'QC lab & test procedures'
       desc: 'HPLC and GC for active ingredient content, laser particle size analyzer, viscometer, pH meter and stability chambers — the instruments that verify formulations and raw materials.'
-      link: '/factory/quality-lab'
+      link: '/manufacturing/factory/quality-lab'
       link_label: 'Open the lab'
     - icon: T
       icon_bg: purple
       title: 'Traceability sample & quarantine'
       desc: 'The literal chain from raw material receipt to shipped drum, the 7-step quarantine flow for non-conforming stock, and the defect matrix that governs dispositions.'
-      link: '/factory/quality-inspection'
+      link: '/manufacturing/factory/quality-inspection'
       link_label: 'Open traceability file'
 
 traceability:

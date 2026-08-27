@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Fábrica y fabricación — OEM de agroquímicos'
   description: 'La fábrica de Agrospear: planta de 12.500 m² con mezclado, molienda, llenado, etiquetado y laboratorio de calidad para fabricación OEM/ODM.'
   dateModified: '2026-08-07'
@@ -44,7 +44,7 @@ intelligence_cards:
         value: 'Agroquímico: muestra 1–4 toneladas / piloto 5 toneladas / volumen 20+'
       - label: Plazo de entrega
         value: '25–35 días'
-    link: /es/factory/capacity
+    link: /es/manufacturing/factory/capacity
     link_label: Detalles completos de capacidad →
   - title: Laboratorio de calidad y ensayos
     icon: Q
@@ -55,7 +55,7 @@ intelligence_cards:
         value: 'HPLC, GC, analizador de tamaño de partícula, cámara de estabilidad'
       - label: Estándares
         value: 'ISO 9001, CIPAC, ICAMA'
-    link: /es/factory/quality-lab
+    link: /es/manufacturing/factory/quality-lab
     link_label: Procedimientos y equipo del laboratorio →
   - title: Capacidad OEM/ODM
     icon: O
@@ -77,7 +77,7 @@ intelligence_cards:
         value: 'Materiales → embalaje final'
       - label: Descargas
         value: 'Protocolo QC, informe de especificaciones y docs de retrabajo (PDF)'
-    link: /es/factory/quality-inspection
+    link: /es/manufacturing/factory/quality-inspection
     link_label: Estándares de inspección y descargas →
   - title: Estándar de control de cambios de retrabajo
     icon: C
@@ -88,7 +88,7 @@ intelligence_cards:
         value: 'QMS-SOP-QC-CC-001 Rev 2.0'
       - label: Descargas
         value: 'SOP de control de cambios y anexo de ejecución (PDF)'
-    link: /es/factory/quality-change-control
+    link: /es/manufacturing/factory/quality-change-control
     link_label: Estándar de control de cambios y descargas →
   - title: Control de productos no conformes
     icon: N
@@ -99,7 +99,7 @@ intelligence_cards:
         value: 'ISO 9001:2015 Cláusula 8.7'
       - label: Certificado de desguace
         value: 'VAT-QA-SCRAP-CERT-2026'
-    link: /es/factory/non-conforming-control
+    link: /es/manufacturing/factory/non-conforming-control
     link_label: 'Control de no conformes y descargas →'
   - title: Flujo de control de calidad en 7 etapas
     icon: Q
@@ -146,7 +146,7 @@ equipment_section:
   tagline: Equipo
   title: Equipo de fabricación principal
   view_full: Ver la lista completa de equipos →
-  view_full_link: /es/factory/equipment
+  view_full_link: /es/manufacturing/factory/equipment
   items:
     - name: Sistema automático de pesaje y dosificación
       spec: Control PLC, precisión de ±0,1%
@@ -333,7 +333,7 @@ process_cta:
   title: Ver nuestro proceso de fabricación
   desc: Sigue una formulación a través de cada etapa de la producción, de la materia prima al producto de protección de cultivos listo para el mercado.
   label: Ver el proceso de producción →
-  link: /es/factory/process
+  link: /es/manufacturing/factory/process
 
 evidence_review:
   tagline: 'Evidencia y verificación'

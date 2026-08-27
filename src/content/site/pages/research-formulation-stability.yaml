@@ -1,10 +1,14 @@
-meta:
-  title: 'How to Ensure Formulation Stability — Agrochemical Shelf Life Engineering'
+﻿meta:
+  title: 'Formulation Stability Testing | Agrochemical OEM Manufacturer China | {SITE}'
   description: 'How SC, EC, WP, and WDG formulations differ in shelf stability, sedimentation resistance, and physical-chemical properties, with accelerated testing advice.'
   author: 'Agrospear'
   datePublished: '2026-08-04'
   dateModified: '2026-08-07'
   back_text: 'Back to Research'
+  keywords:
+    - 'formulation stability'
+    - 'shelf life'
+    - 'CIPAC testing'
 
 hero:
   tagline: 'Engineering'
@@ -84,7 +88,7 @@ content_html: |
     <li><strong>WDG products:</strong> Agrospear WDG series — disintegration &lt; 60 s, free-flowing after 24 mo at 25 °C, moisture uptake &lt; 1 %</li>
   </ul>
   <p>All formulations utilise co-formulant packages validated by accelerated and long-term stability testing per CIPAC methods.</p>
-  <p>Stability parameters, co-formulant selection, and packaging are all configurable for custom lines — see how we <a href="/oem-manufacturing">engineer formulations for OEM and private-label brands</a> and walk through our stability testing at the <a href="/factory">factory floor</a>.</p>
+  <p>Stability parameters, co-formulant selection, and packaging are all configurable for custom lines — see how we <a href="/oem-manufacturing">engineer formulations for OEM and private-label brands</a> and walk through our stability testing at the <a href="/manufacturing/factory">factory floor</a>.</p>
 
 cta:
   title: 'Not sure which stability specification is right for your market?'

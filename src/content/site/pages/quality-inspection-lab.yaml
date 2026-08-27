@@ -1,8 +1,12 @@
-meta:
-  title: 'Quality & Inspection Lab — ISO-Compliant Agrochemical Testing'
+﻿meta:
+  title: 'Quality Inspection Lab | ISO-Compliant | OEM Manufacturer China | {SITE}'
   description: 'Independent quality verification for agrochemical formulations: HPLC/GC analysis, particle size testing, stability evaluation, viscosity and pH measurement.'
   back_text: 'Back to R&D Center'
   home_label: 'Home'
+  keywords:
+    - 'quality inspection'
+    - 'ISO lab'
+    - 'agrochemical testing'
 
 hero:
   tagline: 'Lab 06'
@@ -144,6 +148,6 @@ cta:
     - text: The 7-stage inspection system
       href: /manufacturing/quality-control
     - text: Factory quality lab & test report downloads
-      href: /factory/quality-lab
+      href: /manufacturing/factory/quality-lab
     - text: Non-conforming control standard
-      href: /factory/non-conforming-control
+      href: /manufacturing/factory/non-conforming-control

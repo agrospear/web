@@ -101,7 +101,6 @@ export function SiteNav() {
           items: [
             { label: t('agro.nav.industriesDropdown.coBrand'), href: '/solutions/co-branding' },
             { label: t('agro.nav.industriesDropdown.distributorPartners'), href: '/solutions/distributor-partners' },
-            { label: t('agro.nav.industriesDropdown.rentalBuyers'), href: '/solutions/distributors' },
             { label: t('agro.nav.industriesDropdown.distributors'), href: '/solutions/distributors' },
             { label: t('agro.nav.industriesDropdown.retail'), href: '/solutions/co-branding' },
           ],
@@ -161,7 +160,6 @@ export function SiteNav() {
         { label: 'Buyer Resources', href: '/resources' },
         { label: t('agro.nav.resourcesDropdown.onboarding'), href: '/oem-onboarding-guide' },
         { label: t('agro.nav.resourcesDropdown.faq'), href: '/faq' },
-        { label: t('agro.nav.resourcesDropdown.moqAndPricing'), href: '/oem-moq-guide' },
         { label: t('agro.nav.resourcesDropdown.moqGuide'), href: '/oem-moq-guide' },
         { label: t('agro.nav.resourcesDropdown.news'), href: '/news' },
       ],

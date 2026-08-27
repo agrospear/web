@@ -12,7 +12,7 @@ const MODE_ENTRIES = [
     icon: FileCode,
     buyerState: 'Already have specifications, target formulation or a reference product',
     ctaLabel: 'Build to Your Specification',
-    href: '/factory/oem-capability',
+    href: '/manufacturing/factory/oem-capability',
   },
   {
     key: 'odm' as const,

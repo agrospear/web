@@ -1,5 +1,5 @@
-meta:
-  title: 'Quality Lab — Testing & Quality Assurance | {SITE}'
+﻿meta:
+  title: 'Quality Lab | Testing & QA | Agrochemical OEM Manufacturer China | {SITE}'
   description: 'Independent quality lab with ISO 9001 processes at Agrospear: every batch tested for active content, stability and specification compliance before shipment.'
   dateModified: '2026-08-07'
   keywords:
@@ -125,6 +125,6 @@ cta:
     - text: The 4-stage inspection system
       href: /manufacturing/quality-control
     - text: Inspection standards & QMS downloads
-      href: /factory/quality-inspection
+      href: /manufacturing/factory/quality-inspection
     - text: Visit the R&D material testing lab
       href: /randdcenter/quality-inspection-lab

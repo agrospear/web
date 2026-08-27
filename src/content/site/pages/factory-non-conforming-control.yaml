@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Non-Conforming Agrochemical Control & Rework | OEM Factory | Agrospear'
   description: 'Non-conforming product control (ISO 9001:2015 Clause 8.7): NCR quarantine, controlled rework under SRI, independent re-inspection and witnessed destruction.'
   dateModified: '2026-08-14'
@@ -201,13 +201,13 @@ nc_downloads:
       icon_bg: green
       title: Controlled Rework Governance (Page)
       desc: 'Companion page for the approved specification rework method cards MC-RW-01 to MC-RW-06 and the 7-step controlled rework workflow.'
-      link: '/factory/quality-inspection'
+      link: '/manufacturing/factory/quality-inspection'
       link_label: View page
     - icon: C
       icon_bg: purple
       title: Rework Change Control Standard (Page)
       desc: 'Formal ISO 9001 change control for rework parameters: ECR, risk classification, approval matrix, validation plan and Poka-Yoke safeguards — QMS-SOP-QC-CC-001 Rev 2.0.'
-      link: '/factory/quality-change-control'
+      link: '/manufacturing/factory/quality-change-control'
       link_label: View page
 
 faqs:

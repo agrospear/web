@@ -67,6 +67,24 @@ const CATEGORIES_EN: CategoryCard[] = [
     gradFrom: '#eef2ff',
     gradTo: '#e0e7ff',
   },
+  {
+    slug: 'adjuvant',
+    label: 'Adjuvants',
+    sub: 'Surfactants, oils and drift control agents — tank-mix enhancers and spray modifiers',
+    image: `${BRAND_ASSETS_CDN}/images/sups/products/pgr-category.webp`,
+    href: '/products/adjuvants',
+    gradFrom: '#fefce8',
+    gradTo: '#fef9c3',
+  },
+  {
+    slug: 'biopesticide',
+    label: 'Biopesticides',
+    sub: 'Microbial and biochemical pest control — eco-friendly alternatives for organic programs',
+    image: `${BRAND_ASSETS_CDN}/images/sups/products/fungicides-category.webp`,
+    href: '/products/biopesticides',
+    gradFrom: '#f0fdf4',
+    gradTo: '#dcfce7',
+  },
 ]
 
 const CATEGORIES_ES: CategoryCard[] = [
@@ -123,6 +141,24 @@ const CATEGORIES_ES: CategoryCard[] = [
     href: '/products/premix-formulations',
     gradFrom: '#eef2ff',
     gradTo: '#e0e7ff',
+  },
+  {
+    slug: 'adjuvant',
+    label: 'Adyuvantes',
+    sub: 'Surfactantes, aceites y agentes de control de deriva — potenciadores de mezcla de tanque',
+    image: `${BRAND_ASSETS_CDN}/images/sups/products/pgr-category.webp`,
+    href: '/products/adjuvants',
+    gradFrom: '#fefce8',
+    gradTo: '#fef9c3',
+  },
+  {
+    slug: 'biopesticide',
+    label: 'Bioplaguicidas',
+    sub: 'Control microbiológico y bioquímico de plagas — alternativas ecológicas para programas orgánicos',
+    image: `${BRAND_ASSETS_CDN}/images/sups/products/fungicides-category.webp`,
+    href: '/products/biopesticides',
+    gradFrom: '#f0fdf4',
+    gradTo: '#dcfce7',
   },
 ]
 

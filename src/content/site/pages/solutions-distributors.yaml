@@ -1,7 +1,11 @@
-meta:
-  title: 'Agrochemical Distribution Partner Program | {SITE}'
+﻿meta:
+  title: 'Agrochemical Distribution Program | OEM Supplier China | {SITE}'
   description: "Join Agrospear's global agrochemical distribution network: exclusive territories, complete product portfolio and dedicated account management in 50+ countries."
   dateModified: '2026-08'
+  keywords:
+    - 'agrochemical distribution'
+    - 'OEM supply'
+    - 'wholesale pesticide'
 
 hero:
   tagline: Distributors
@@ -117,7 +121,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> distribution partners sell the same formulations we make for <a href="/oem-manufacturing">OEM/private-label brands</a> — review the manufacturing program and the <a href="/factory">factory quality process</a> so you can position the product with confidence.</p>
+    <p><strong>Keep reading:</strong> distribution partners sell the same formulations we make for <a href="/oem-manufacturing">OEM/private-label brands</a> — review the manufacturing program and the <a href="/manufacturing/factory">factory quality process</a> so you can position the product with confidence.</p>
   </div>
 
 related:

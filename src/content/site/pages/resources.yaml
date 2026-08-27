@@ -1,7 +1,11 @@
 meta:
-  title: 'Agrochemical Resources — Buyer Guides & Technical Answers | {SITE}'
+  title: 'Agrochemical Buyer Resources | OEM Manufacturer Guides | {SITE}'
   description: 'Agrochemical buyer guides, technical resources and direct answers for distributors, importers and OEM partners.'
   dateModified: '2026-08-27'
+  keywords:
+    - 'agrochemical resources'
+    - 'buyer guide'
+    - 'OEM manufacturer guide'
 
 hero:
   tagline: 'Resources'
@@ -79,7 +83,7 @@ resource_cards:
       title: 'Factory Audit Checklist for Pesticide Manufacturers'
       desc: 'Eight-area audit checklist for evaluating agrochemical manufacturing partners in China.'
       link_label: 'Read guide'
-      href: /resources/factory-audit-china-pesticide
+      href: /resources/manufacturing/factory-audit-china-pesticide
     - icon: H
       icon_bg: purple
       title: 'HPLC Pesticide Testing Methods'

@@ -1,5 +1,5 @@
-meta:
-  title: 'Agrochemical Formulation Warranty — Quality Guarantee | {SITE}'
+﻿meta:
+  title: 'Agrochemical Formulation Warranty | Quality Guarantee | OEM Manufacturer China | {SITE}'
   description: 'Agrospear quality guarantee and after-sales support for agrochemical formulations and adjuvants. Our quality commitment for B2B partners and distributors.'
   keywords:
     - 'agrochemical warranty'
@@ -97,7 +97,7 @@ body: |
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
     <h2 class="text-xl font-bold mb-3">Backed by a Documented Quality System</h2>
-    <p class="text-sm text-gray-600 dark:text-gray-400">Every batch is tested before shipping — <a href="/factory/quality-inspection" class="text-sky-600 underline">7-stage inspection gates</a> record results per lot number, and batches keep 10-year ERP traceability. Quality claims are adjudicated against these batch records and retained samples, not guesswork. See the <a href="/manufacturing/quality-control" class="text-sky-600 underline">full quality system</a> and download the actual <a href="https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">final inspection reports</a>.</p>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Every batch is tested before shipping — <a href="/manufacturing/factory/quality-inspection" class="text-sky-600 underline">7-stage inspection gates</a> record results per lot number, and batches keep 10-year ERP traceability. Quality claims are adjudicated against these batch records and retained samples, not guesswork. See the <a href="/manufacturing/quality-control" class="text-sky-600 underline">full quality system</a> and download the actual <a href="https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">final inspection reports</a>.</p>
   </div>
 
   <h2>Third-Party Items</h2>

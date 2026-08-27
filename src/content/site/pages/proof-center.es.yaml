@@ -1,5 +1,5 @@
-meta:
-  title: 'Centro de Evidencia — La Documentación Detrás de Cada Afirmación'
+﻿meta:
+  title: 'Centro de Evidencia | Pruebas de Fabricación | Proveedor OEM Agroquímico | {SITE}'
   description: 'Carpeta de prueba detrás de las afirmaciones de Agrospear: entidades, certificados con alcance, equipos, trazabilidad por lote y documentación de inspección.'
   dateModified: '2026-08-16'
   keywords:
@@ -36,7 +36,7 @@ entities:
       icon_bg: green
       title: 'Agrospear — la división de fabricación'
       desc: 'La división de fabricación agroquímica detrás de la planta: herbicidas, insecticidas, fungicidas, reguladores de crecimiento y tratamientos de semillas producidos en la misma instalación de Qingdao. La documentación de producto y calidad se emite bajo esta marca.'
-      link: '/es/factory'
+      link: '/es/manufacturing/factory'
       link_label: 'Explorar la fábrica'
     - icon: V
       icon_bg: orange
@@ -102,25 +102,25 @@ evidence_gates:
       icon_bg: blue
       title: 'Lista de equipos y maquinaria'
       desc: 'Mezcla, molienda, granulación, llenado y envasado, más el laboratorio de calidad — máquinas con nombre, especificación y función. Pide un recorrido en vivo.'
-      link: '/es/factory/equipment'
+      link: '/es/manufacturing/factory/equipment'
       link_label: 'Abrir lista de equipos'
     - icon: P
       icon_bg: green
       title: 'Fotos e informes de inspección'
       desc: 'Siete puertas de inspección con fotos de planta e informes bilingües — qué se verifica, con qué método, contra qué criterio, dónde queda registrado.'
-      link: '/es/factory/process'
+      link: '/es/manufacturing/factory/process'
       link_label: 'Abrir puertas de inspección'
     - icon: Q
       icon_bg: orange
       title: 'Laboratorio de calidad y procedimientos'
       desc: 'HPLC y GC para contenido de ingrediente activo, analizador de tamaño de partícula láser, viscosímetro, pH-metro y cámaras de estabilidad — los instrumentos que verifican formulaciones y materias primas.'
-      link: '/es/factory/quality-lab'
+      link: '/es/manufacturing/factory/quality-lab'
       link_label: 'Abrir el laboratorio'
     - icon: T
       icon_bg: purple
       title: 'Trazabilidad y cuarentena'
       desc: 'La cadena literal de la recepción de materia prima al bidón embarcado, el flujo de cuarentena de 7 pasos para existencias no conformes y la matriz de defectos que gobierna las disposiciones.'
-      link: '/es/factory/quality-inspection'
+      link: '/es/manufacturing/factory/quality-inspection'
       link_label: 'Abrir archivo de trazabilidad'
 
 traceability:

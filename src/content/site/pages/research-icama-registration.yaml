@@ -1,10 +1,14 @@
-meta:
-  title: 'How ICAMA Registration Works for Agrochemical Products'
+﻿meta:
+  title: 'ICAMA Registration Guide | Agrochemical OEM Supplier China | {SITE}'
   description: 'How ICAMA registration works for agrochemicals: registration categories (original, same-product, new formulation), data requirements, testing, timeline and costs for OEM/ODM partners.'
   author: 'Agrospear'
   datePublished: '2026-08-04'
   dateModified: '2026-08-23'
-back_text: 'Back to Research'
+  back_text: 'Back to Research'
+  keywords:
+    - 'ICAMA registration'
+    - 'pesticide registration China'
+    - 'agrochemical compliance'
 
 hero:
   tagline: 'Compliance'
@@ -77,7 +81,7 @@ content_html: |
 
   <h2>What This Means for Buyers</h2>
   <p>When sourcing agrochemical products for your market, always verify the ICAMA registration certificate is valid, the product specifications match FAO/WHO standards, analytical methods follow CIPAC guidelines, and the label meets regulatory requirements. All Agrospear products are manufactured under ISO 9001 and ISO 14001 certified systems, with ICAMA registration support and full traceability from raw material to finished product.</p>
-  <p>Registration support is part of every OEM/ODM project at our Qingdao plant &mdash; see the <a href="/factory">factory quality &amp; testing workflow</a> and how we support <a href="/oem-manufacturing">ICAMA registration for OEM/private label partners</a>.</p>
+  <p>Registration support is part of every OEM/ODM project at our Qingdao plant &mdash; see the <a href="/manufacturing/factory">factory quality &amp; testing workflow</a> and how we support <a href="/oem-manufacturing">ICAMA registration for OEM/private label partners</a>.</p>
 
 cta:
   title: 'Need ICAMA registration support?'

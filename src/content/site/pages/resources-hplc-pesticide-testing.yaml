@@ -1,7 +1,11 @@
-meta:
-  title: 'HPLC Pesticide Testing: Active Ingredient Verification Methods | Agrospear'
+﻿meta:
+  title: 'HPLC Pesticide Testing | Active Ingredient Verification | OEM Supplier | {SITE}'
   description: 'HPLC pesticide testing methods: active ingredient quantification, CIPAC reference methods, impurity profiling, batch consistency and quality control standards.'
   dateModified: '2026-08-27'
+  keywords:
+    - 'HPLC testing'
+    - 'active ingredient verification'
+    - 'pesticide analysis'
 
 hero:
   tagline: 'Resources'
@@ -37,7 +41,7 @@ related:
       title: 'Quality Lab'
       desc: 'In-house analytical laboratory capabilities and equipment'
       link_label: 'Learn more'
-      href: /factory/quality-lab
+      href: /manufacturing/factory/quality-lab
 
 cta:
   title: 'Discuss Your Requirements'

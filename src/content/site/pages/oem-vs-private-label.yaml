@@ -1,5 +1,5 @@
-meta:
-  title: 'Liquid vs Dry Agrochemical Formulation — Complete Comparison'
+﻿meta:
+  title: 'Liquid vs Dry Formulation | Agrochemical OEM Manufacturer China | {SITE}'
   description: 'An in-depth comparison of liquid and dry agrochemical formulations across handling, stability, performance, and regulatory preference.'
   keywords:
     - 'liquid vs dry formulation'
@@ -91,7 +91,7 @@ body: |
       <h3 class="font-display text-lg font-bold">See how a formulation is actually developed</h3>
       <p class="mt-2 text-sm text-fg-2">From active ingredient selection to 2-year stability testing — walk through the formulation development process behind every agrochemical product.</p>
       <p class="mt-4 flex flex-wrap justify-center gap-3">
-        <a href="/factory/process" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">How formulations are built</a>
+        <a href="/manufacturing/factory/process" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">How formulations are built</a>
         <a href="/product-development" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Formulation development</a>
         <a href="/formulation-type-comparison" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Compare formulation types</a>
       </p>

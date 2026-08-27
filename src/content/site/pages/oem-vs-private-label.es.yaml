@@ -1,5 +1,5 @@
-meta:
-  title: 'Formulación agroquímica líquida vs. sólida — Comparativa'
+﻿meta:
+  title: 'Formulación Líquida vs Seca | Fabricante OEM Agroquímico China | {SITE}'
   description: 'Una comparativa en profundidad de las formulaciones agroquímicas líquidas y sólidas: manipulación, estabilidad, rendimiento y preferencia regulatoria.'
   keywords:
     - 'formulación líquida vs sólida'
@@ -91,7 +91,7 @@ body: |
       <h3 class="font-display text-lg font-bold">Mira cómo se desarrolla realmente una formulación</h3>
       <p class="mt-2 text-sm text-fg-2">De la selección del ingrediente activo a las pruebas de estabilidad de 2 años: recorre el proceso de desarrollo de formulación detrás de cada producto agroquímico.</p>
       <p class="mt-4 flex flex-wrap justify-center gap-3">
-        <a href="/es/factory/process" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">Cómo se desarrollan las formulaciones</a>
+        <a href="/es/manufacturing/factory/process" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">Cómo se desarrollan las formulaciones</a>
         <a href="/es/product-development" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Desarrollo de formulación</a>
         <a href="/es/formulation-type-comparison" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Comparar tipos de formulación</a>
       </p>

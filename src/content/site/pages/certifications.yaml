@@ -1,5 +1,5 @@
-meta:
-  title: 'Agrochemical Quality Control: 7-Stage Inspection | Agrospear'
+﻿meta:
+  title: 'Agrochemical Quality Control | 7-Stage Inspection | OEM Manufacturer China | {SITE}'
   description: 'How every custom agrochemical order is controlled: 7 inspection gates from pre-production planning to shipment release, with downloadable bilingual reports.'
   dateModified: '2026-08-15'
   keywords:
@@ -211,22 +211,22 @@ system_map:
     - title: 'Inspection & Release Standards'
       description: 'The project QIP drives every gate: inspection object, method, acceptance criteria and record output per order. Includes the 4-stage QC framework, traceability chain, quarantine flow, defect matrix and the 00–15 documentation register.'
       icon: tabler:clipboard-check
-      link: /factory/quality-inspection
+      link: /manufacturing/factory/quality-inspection
       link_label: 'Inspection standards & QMS downloads'
     - title: 'Rework Change Control'
       description: 'No rework parameter changes without documented control: containment, risk classification, 9-step change loop, approval matrix and validation. Any change to approved specs, samples, BOMs or acceptance criteria requires written customer approval.'
       icon: tabler:git-branch
-      link: /factory/quality-change-control
+      link: /manufacturing/factory/quality-change-control
       link_label: 'Change control standard'
     - title: 'Non-Conforming Product Control'
       description: 'A closed 7-step loop under ISO 9001:2015 clause 8.7: identify, quarantine, disposition per NCR, rework or reject, re-inspect, release, correct. Includes severity authority, defect disposition matrix and witnessed destruction.'
       icon: tabler:alert-triangle
-      link: /factory/non-conforming-control
+      link: /manufacturing/factory/non-conforming-control
       link_label: 'Non-conforming product control standard'
     - title: 'Laboratory Testing & Equipment'
       description: 'The quality lab operates independently from production: HPLC, GC, particle size analysis, pH/density meters, stability chambers and viscosity testing — with the calibration and test procedures behind our published claims.'
       icon: tabler:flask
-      link: /factory/quality-lab
+      link: /manufacturing/factory/quality-lab
       link_label: 'Quality lab & test equipment'
     - title: 'Formulation R&D Lab'
       description: 'The R&D center runs independent formulation development, accelerated ageing studies and registration support, feeding the standards production uses.'
@@ -409,7 +409,7 @@ non_conformance:
     - title: 'Disposition per NCR'
       description: 'Quality issues a Non-Conformance Report and routes the batch to rework, re-inspection, reject or scrap according to the disposition matrix.'
       icon: tabler:git-branch
-      link: /factory/non-conforming-control
+      link: /manufacturing/factory/non-conforming-control
       link_label: 'Non-conforming product control standard'
     - title: 'Verify & Release'
       description: 'Reworked batches are re-inspected against the same criteria; the NCR is closed only after re-verification passes.'
@@ -432,7 +432,7 @@ third_party:
     - title: 'Inspection Scheduling'
       description: 'In-house or third-party inspections can be arranged at any of the seven gates, with your inspection plan applied as the acceptance basis.'
       icon: tabler:calendar-clock
-      link: /factory/quality-inspection
+      link: /manufacturing/factory/quality-inspection
       link_label: 'Inspection standards & QMS downloads'
     - title: 'Pre-Shipment Briefing Template'
       description: 'The briefing template inspectors use to announce, plan and report a pre-shipment inspection at our facility.'
@@ -508,6 +508,6 @@ cta:
     - text: Visit our quality inspection lab
       href: /randdcenter/quality-inspection-lab
     - text: Inspection standards & QMS downloads
-      href: /factory/quality-inspection
+      href: /manufacturing/factory/quality-inspection
     - text: Non-conforming product control standard
-      href: /factory/non-conforming-control
+      href: /manufacturing/factory/non-conforming-control

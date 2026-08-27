@@ -1,10 +1,14 @@
-meta:
-  title: 'How Formulation Technology Works — Agrochemical Dispersion & Stability Science'
+﻿meta:
+  title: 'Formulation Technology | Dispersion & Stability | OEM Manufacturer China | {SITE}'
   description: 'How dispersion systems turn technical-grade active ingredients into stable, field-ready agrochemical formulations: SC, EC, WP, WDG construction, quality indicators and applications.'
   author: 'Agrospear'
   datePublished: '2026-08-04'
   dateModified: '2026-08-07'
   back_text: 'Back to Research'
+  keywords:
+    - 'formulation technology'
+    - 'dispersion science'
+    - 'agrochemical stability'
 
 answer:
   label: 'Straight answer'
@@ -70,7 +74,7 @@ content_html: |
 
   <h2>How Agrospear Uses Formulation Technology</h2>
   <p>Agrospear applies systematic DoE-based co-formulant screening across its formulation lineup, with D50 &lt; 3 µm for SC products and ≥ 95 % suspensibility as standard. Formulations are validated by 14-day accelerated stability at 54 °C before shipment. Production lines are equipped with high-shear mixers, sand mills, and laser particle size analysers for real-time quality control.</p>
-  <p>SC formulation is the backbone of our agrochemical production — see the <a href="/technology/suspension-concentrate-sc">SC formulation technology page</a> and how the formulation is produced on the <a href="/factory">factory production line</a>.</p>
+  <p>SC formulation is the backbone of our agrochemical production — see the <a href="/technology/suspension-concentrate-sc">SC formulation technology page</a> and how the formulation is produced on the <a href="/manufacturing/factory">factory production line</a>.</p>
 
 cta:
   title: 'Want to learn more about formulation technology?'

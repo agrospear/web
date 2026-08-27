@@ -1,6 +1,6 @@
-slug: crop-protection-solutions
+﻿slug: crop-protection-solutions
 meta:
-  title: 'Soluciones de protección de cultivos — Formulaciones agroquímicas | {SITE}'
+  title: 'Soluciones de Protección de Cultivos | Proveedor OEM Agroquímico China | {SITE}'
   description: 'Formulaciones agroquímicas para protección de cultivos: programas de herbicidas, insecticidas, fungicidas y reguladores de crecimiento para cultivos extensivos, cereales, frutas y hortalizas.'
   keywords:
     - 'protección de cultivos agroquímica'
@@ -78,7 +78,7 @@ body: |
       <h3 class="font-display text-lg font-bold">Suministra tu red de distribución con un sistema de calidad documentado</h3>
       <p class="mt-2 text-sm text-fg-2">La consistencia a nivel de lote proviene del sistema de inspección de 7 etapas detrás de cada formulación — audítalo, o habla con ingeniería sobre tu programa.</p>
       <p class="mt-4 flex flex-wrap justify-center gap-3">
-        <a href="/es/factory/quality-inspection" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">El sistema de inspección de 7 etapas</a>
+        <a href="/es/manufacturing/factory/quality-inspection" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">El sistema de inspección de 7 etapas</a>
         <a href="/es/oem-moq-guide" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Guía de MOQ y distribución</a>
         <a href="/es/oem-manufacturing" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">Servicios OEM y ODM</a>
       </p>

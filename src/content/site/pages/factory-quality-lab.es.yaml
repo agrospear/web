@@ -1,5 +1,5 @@
-meta:
-  title: 'Laboratorio de calidad: ensayos y garantia de calidad | {SITE}'
+﻿meta:
+  title: 'Laboratorio de Calidad | Ensayos y GC | Fabricante OEM Agroquímico China | {SITE}'
   description: 'Laboratorio de calidad con procesos ISO 9001 en Agrospear: cada lote se prueba para contenido activo, estabilidad y cumplimiento de especificacion antes del envio.'
   dateModified: '2026-08-07'
   keywords:
@@ -125,6 +125,6 @@ cta:
     - text: El sistema de inspeccion de 4 etapas
       href: /es/manufacturing/quality-control
     - text: Estandares de inspeccion y descargas QMS
-      href: /es/factory/quality-inspection
+      href: /es/manufacturing/factory/quality-inspection
     - text: Visita el laboratorio de ensayos de materiales de I+D
       href: /es/randdcenter/quality-inspection-lab

@@ -1,5 +1,5 @@
-meta:
-  title: 'Biopesticide Formulation Guide — Development, Registration & Production | {SITE}'
+﻿meta:
+  title: 'Biopesticide Manufacturer China | OEM Formulation Supplier | {SITE}'
   description: 'Complete guide to biopesticide formulation: microbial and botanical active ingredients, formulation types, ICAMA registration requirements, and OEM manufacturing for crop protection brands.'
   keywords:
     - 'biopesticide formulation'
@@ -76,7 +76,7 @@ body: |
       <p class="mt-2 text-sm text-fg-2">Explore how our biopesticides are formulated, browse the product range, or send your requirements to our R&D team.</p>
       <p class="mt-4 flex flex-wrap justify-center gap-3">
         <a href="/products/biopesticides" class="rounded-full bg-green-600 px-6 py-2.5 text-sm font-bold text-white">Browse biopesticide range</a>
-        <a href="/factory/process" class="rounded-full border border-green-300 px-6 py-2.5 text-sm font-bold text-green-700 dark:border-green-700 dark:text-green-300">How formulations are developed</a>
+        <a href="/manufacturing/factory/process" class="rounded-full border border-green-300 px-6 py-2.5 text-sm font-bold text-green-700 dark:border-green-700 dark:text-green-300">How formulations are developed</a>
         <a href="/knowledge" class="rounded-full border border-green-300 px-6 py-2.5 text-sm font-bold text-green-700 dark:border-green-700 dark:text-green-300">More formulation guides</a>
       </p>
     </div>

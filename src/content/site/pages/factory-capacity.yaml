@@ -1,5 +1,5 @@
-meta:
-  title: 'Production Capacity — 12,500 m2 Factory | {SITE}'
+﻿meta:
+  title: 'Factory Production Capacity | 12,500 m² Agrochemical Manufacturer China | {SITE}'
   description: 'Agrospear factory capacity: 12,500 m2 facility producing 20,000+ tons of agrochemical formulations per year with room to scale. Large-scale OEM/ODM agrochemical manufacturing.'
   dateModified: '2026-08-07'
   keywords:
@@ -80,6 +80,6 @@ cta:
       text: Check availability
       href: /contact#production-availability
     - text: See the full factory overview
-      href: /factory
+      href: /manufacturing/factory
     - text: How formulations are produced
-      href: /factory/process
+      href: /manufacturing/factory/process

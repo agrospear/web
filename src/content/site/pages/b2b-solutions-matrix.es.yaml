@@ -1,5 +1,5 @@
-meta:
-  title: 'Matriz de soluciones para clientes B2B | {SITE}'
+﻿meta:
+  title: 'Matriz de Soluciones Agroquímicas B2B | Fabricante OEM China | {SITE}'
   description: 'Matriz completa de soluciones B2B de Agrospear para 24 tipos de cliente: desde startups agroquímicas hasta agencias de compras gubernamentales.'
   dateModified: '2026-08'
 
@@ -130,5 +130,5 @@ cta:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p>Todas las rutas de esta matriz parten de lo mismo: nuestro <a href="/es/oem-manufacturing">programa de fabricación OEM/ODM</a> y la <a href="/es/factory">fábrica</a> — una planta de 12.500 m&sup2;, un mismo estándar de calidad para cada canal.</p>
+    <p>Todas las rutas de esta matriz parten de lo mismo: nuestro <a href="/es/oem-manufacturing">programa de fabricación OEM/ODM</a> y la <a href="/es/manufacturing/factory">fábrica</a> — una planta de 12.500 m&sup2;, un mismo estándar de calidad para cada canal.</p>
   </div>

@@ -41,6 +41,7 @@ export const Route = createFileRoute('/docs/$')({
       meta: [
         { title },
         { property: 'og:title', content: title },
+        { property: 'og:type', content: 'article' },
         ...(loaderData?.description
           ? [
               { name: 'description', content: loaderData.description },
@@ -48,6 +49,13 @@ export const Route = createFileRoute('/docs/$')({
             ]
           : []),
         ...(canonical ? [{ property: 'og:url', content: canonical }] : []),
+        { property: 'og:image', content: `${loaderData?.origin ?? ''}/og-docs.png` },
+        { property: 'og:locale', content: 'en_US' },
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'twitter:title', content: title },
+        ...(loaderData?.description
+          ? [{ name: 'twitter:description', content: loaderData.description }]
+          : []),
       ],
       links: [
         { rel: 'stylesheet', href: docsCss },

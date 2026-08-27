@@ -1,5 +1,5 @@
-meta:
-  title: 'Formulation Selector — Agrochemical Formulation Type Guide | {SITE}'
+﻿meta:
+  title: 'Formulation Selector | SC EC WP WDG Guide | OEM Manufacturer China | {SITE}'
   description: 'Formulation types, specifications, and recommended uses for every Agrospear product. Find the right agrochemical formulation type for your crop and pest.'
   dateModified: '2026-08'
   keywords:
@@ -86,4 +86,4 @@ cta:
     - text: More formulation knowledge
       href: /knowledge
     - text: How formulations are produced
-      href: /factory/process
+      href: /manufacturing/factory/process

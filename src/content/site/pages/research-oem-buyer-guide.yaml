@@ -1,10 +1,14 @@
-meta:
-  title: 'OEM Buyer Guide: Sourcing Agrochemical Formulations from Asia | Agrospear'
+﻿meta:
+  title: 'OEM Buyer Guide | Sourcing Agrochemicals from China | {SITE}'
   description: 'Sourcing agrochemical formulations from Asia: factory audit checklist, QC protocols, compliance, MOQ negotiation, shipping terms and pitfalls.'
   author: 'Agrospear'
   datePublished: '2026-08-04'
   dateModified: '2026-08-07'
   back_text: 'Back to Research'
+  keywords:
+    - 'OEM buyer guide'
+    - 'sourcing agrochemicals'
+    - 'China pesticide manufacturer'
 
 hero:
   tagline: 'Sourcing'
@@ -94,7 +98,7 @@ content_html: |
 
   <h2>7. Why Agrospear</h2>
   <p>Agrospear has been manufacturing OEM/ODM agrochemical formulations since 2012. With a 12,500 m&sup2; ISO 9001 and ISO 14001 certified facility, 25+ engineers, and ICAMA registration support for target markets (scope confirmed per project), we meet every criterion in this guide. We offer trial MOQs for new partners and full compliance documentation packages.</p>
-  <p>Review our <a href="/oem-manufacturing">agrochemical OEM/ODM manufacturing services</a> or tour the <a href="/factory">12,500 m&sup2; factory floor</a> to see the equipment and QC processes behind each step above.</p>
+  <p>Review our <a href="/oem-manufacturing">agrochemical OEM/ODM manufacturing services</a> or tour the <a href="/manufacturing/factory">12,500 m&sup2; factory floor</a> to see the equipment and QC processes behind each step above.</p>
 
 cta:
   title: 'Ready to start sourcing?'

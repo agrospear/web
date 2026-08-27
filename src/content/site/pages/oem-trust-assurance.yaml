@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'OEM Trust & Factory Assurance —Verify Our Factory Before You Order'
   description: 'How buyers verify Agrospear before ordering: ICAMA documentation, ISO 9001, factory audits, engineers under NDA and third-party inspections (SGS/BV/Intertek).'
   dateModified: '2026-08-14'
@@ -49,7 +49,7 @@ role_boundary:
       icon_bg: blue
       title: 'What We Are —a Verifiable Manufacturer'
       desc: '· A registered legal entity: Qingdao Vatrad Group Co., Ltd. —registration details shared under NDA or during audit · A physical factory: 12,500 m² in the Laixi Economic Development Zone, Qingdao, with 4 specialized workshops, 350+ workers and 8 formulation lines · A manufacturing team: the people who answer your questions are the people who formulate your products · Real documents: QMS SOPs, inspection standards and anonymized quality records available for download · Independent verification welcome: SGS, BV or Intertek inspections at your choice, per ISO 2859-1 Level II'
-      link: '/factory'
+      link: '/manufacturing/factory'
       link_label: 'Visit the Factory Page'
     - icon: B
       icon_bg: green

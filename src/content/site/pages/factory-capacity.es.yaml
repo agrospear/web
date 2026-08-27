@@ -1,5 +1,5 @@
-meta:
-  title: 'Capacidad de produccion — Fabrica de 12.500 m2 | {SITE}'
+﻿meta:
+  title: 'Capacidad de Producción de Fábrica | 12.500 m² Fabricante Agroquímico China | {SITE}'
   description: 'La capacidad de la fabrica de Agrospear: 12.500 m2 que producen mas de 20.000 toneladas de formulaciones agroquimicas al ano. Fabricacion OEM/ODM a gran escala.'
   dateModified: '2026-08-07'
   keywords:
@@ -80,6 +80,6 @@ cta:
       text: Comprobar disponibilidad
       href: /es/contact#production-availability
     - text: Ver el resumen completo de la fabrica
-      href: /es/factory
+      href: /es/manufacturing/factory
     - text: Como se producen las formulaciones
-      href: /es/factory/process
+      href: /es/manufacturing/factory/process

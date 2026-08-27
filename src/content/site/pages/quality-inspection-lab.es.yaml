@@ -1,5 +1,5 @@
-meta:
-  title: 'Laboratorio de Calidad e Inspección — Ensayos agroquímicos conforme a ISO'
+﻿meta:
+  title: 'Laboratorio de Inspección de Calidad | Conforme a ISO | Fabricante OEM China | {SITE}'
   description: 'Verificación independiente de la calidad de las formulaciones agroquímicas: análisis HPLC/GC, tamaño de partícula, evaluación de estabilidad, viscosidad y pH.'
   back_text: 'Volver al Centro de I+D'
   home_label: 'Inicio'
@@ -144,6 +144,6 @@ cta:
     - text: El sistema de inspección de 7 etapas
       href: /es/manufacturing/quality-control
     - text: Laboratorio de calidad de fábrica y descargas
-      href: /es/factory/quality-lab
+      href: /es/manufacturing/factory/quality-lab
     - text: Estándar de control de producto no conforme
-      href: /es/factory/non-conforming-control
+      href: /es/manufacturing/factory/non-conforming-control

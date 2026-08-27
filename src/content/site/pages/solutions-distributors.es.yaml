@@ -1,5 +1,5 @@
-meta:
-  title: 'Programa de Socios de Distribución Agroquímica | {SITE}'
+﻿meta:
+  title: 'Programa de Distribución Agroquímica | Proveedor OEM China | {SITE}'
   description: "Únete a la red global de distribución agroquímica de Agrospear: territorios exclusivos, cartera de productos completa y gestión de cuenta dedicada en más de 50 países."
   dateModified: '2026-08'
 
@@ -117,7 +117,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> los socios de distribución venden las mismas formulaciones que fabricamos para <a href="/es/oem-manufacturing">marcas OEM/etiqueta privada</a> — revisa el programa de fabricación y el proceso de <a href="/es/factory">calidad de fábrica</a> para que puedas situar el producto con confianza.</p>
+    <p><strong>Sigue leyendo:</strong> los socios de distribución venden las mismas formulaciones que fabricamos para <a href="/es/oem-manufacturing">marcas OEM/etiqueta privada</a> — revisa el programa de fabricación y el proceso de <a href="/es/manufacturing/factory">calidad de fábrica</a> para que puedas situar el producto con confianza.</p>
   </div>
 
 related:

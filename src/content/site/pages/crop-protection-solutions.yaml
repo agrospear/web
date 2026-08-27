@@ -1,6 +1,6 @@
-slug: crop-protection-solutions
+﻿slug: crop-protection-solutions
 meta:
-  title: 'Crop Protection Solutions — Agrochemical Formulations | {SITE}'
+  title: 'Crop Protection Solutions | Agrochemical OEM Supplier China | {SITE}'
   description: 'Agrochemical formulations for crop protection: herbicide programs, insecticide programs, fungicide programs and PGRs for row crops, cereals, fruits and vegetables.'
   keywords:
     - 'agrochemical crop protection'
@@ -78,7 +78,7 @@ body: |
       <h3 class="font-display text-lg font-bold">Supply your distribution network with a documented quality system</h3>
       <p class="mt-2 text-sm text-fg-2">Batch-level consistency comes from the 7-stage inspection system behind every formulation — audit it, or talk to engineering about your program.</p>
       <p class="mt-4 flex flex-wrap justify-center gap-3">
-        <a href="/factory/quality-inspection" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">The 7-stage inspection system</a>
+        <a href="/manufacturing/factory/quality-inspection" class="rounded-full bg-sky-600 px-6 py-2.5 text-sm font-bold text-white">The 7-stage inspection system</a>
         <a href="/oem-moq-guide" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">MOQ & distribution guide</a>
         <a href="/oem-manufacturing" class="rounded-full border border-sky-300 px-6 py-2.5 text-sm font-bold text-sky-700 dark:border-sky-700 dark:text-sky-300">OEM & ODM services</a>
       </p>

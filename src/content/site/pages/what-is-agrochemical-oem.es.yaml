@@ -1,5 +1,5 @@
 ﻿meta:
-  title: '¿Qué es una formulación agroquímica? — Guía básica'
+  title: '¿Qué es OEM Agroquímico? | Guía para Principiantes | Fabricante China | {SITE}'
   description: '¿Qué es una formulación agroquímica? Guía completa de los productos de protección de cultivos: tipos, tecnología, usos y cómo elegir tu primera formulación.'
   keywords:
     - 'qué es una formulación agroquímica'
@@ -91,5 +91,5 @@ body: |
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>¿Listo para abastecerte de formulaciones?</strong> Descubre <a href="/es/oem-manufacturing">lo que podemos fabricar para tu marca</a> y cómo se producen las formulaciones en la <a href="/es/factory">fábrica</a>.</p>
+    <p><strong>¿Listo para abastecerte de formulaciones?</strong> Descubre <a href="/es/oem-manufacturing">lo que podemos fabricar para tu marca</a> y cómo se producen las formulaciones en la <a href="/es/manufacturing/factory">fábrica</a>.</p>
   </div>

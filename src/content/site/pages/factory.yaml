@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Factory & Manufacturing — Agrochemical OEM'
   description: 'Tour the Agrospear factory: 12,500 m² plant with compounding, grinding, filling, labeling, and quality lab for agrochemical OEM/ODM manufacturing.'
   dateModified: '2026-08-07'
@@ -44,7 +44,7 @@ intelligence_cards:
         value: 'Agrochemical: sample 1–4 tons / pilot 5 tons / volume 20+'
       - label: Lead Time
         value: '25–35 days'
-    link: /factory/capacity
+    link: /manufacturing/factory/capacity
     link_label: Full capacity details →
   - title: Quality Lab & Testing
     icon: Q
@@ -55,7 +55,7 @@ intelligence_cards:
         value: 'HPLC, GC, particle size analyzer, stability chamber'
       - label: Standards
         value: 'ISO 9001, CIPAC, ICAMA'
-    link: /factory/quality-lab
+    link: /manufacturing/factory/quality-lab
     link_label: 'Lab procedures & equipment →'
   - title: OEM/ODM Capability
     icon: O
@@ -66,7 +66,7 @@ intelligence_cards:
         value: 'ISO 9001, ISO 14001, BSCI, ICAMA'
       - label: Export markets
         value: '50+ countries'
-    link: /factory/oem-capability
+    link: /manufacturing/factory/oem-capability
     link_label: 'Full OEM services →'
   - title: Quality Inspection Standards
     icon: I
@@ -77,7 +77,7 @@ intelligence_cards:
         value: 'Materials → final packing'
       - label: Downloads
         value: 'QC protocol, specification report & rework docs (PDF)'
-    link: /factory/quality-inspection
+    link: /manufacturing/factory/quality-inspection
     link_label: 'Inspection standards & downloads →'
   - title: Rework Change Control Standard
     icon: C
@@ -88,7 +88,7 @@ intelligence_cards:
         value: 'QMS-SOP-QC-CC-001 Rev 2.0'
       - label: Downloads
         value: 'Change control SOP & execution annex (PDF)'
-    link: /factory/quality-change-control
+    link: /manufacturing/factory/quality-change-control
     link_label: 'Change control standard & downloads →'
   - title: Non-Conforming Product Control
     icon: N
@@ -99,7 +99,7 @@ intelligence_cards:
         value: 'ISO 9001:2015 Clause 8.7'
       - label: Scrap certificate
         value: 'VAT-QA-SCRAP-CERT-2026'
-    link: /factory/non-conforming-control
+    link: /manufacturing/factory/non-conforming-control
     link_label: 'Non-conforming control & downloads →'
   - title: 7-Stage Quality Control Flow
     icon: Q
@@ -146,7 +146,7 @@ equipment_section:
   tagline: Equipment
   title: Key Manufacturing Equipment
   view_full: View full equipment list →
-  view_full_link: /factory/equipment
+  view_full_link: /manufacturing/factory/equipment
   items:
     - name: Automatic Weighing & Dosing System
       spec: PLC-controlled, ±0.1% accuracy
@@ -333,7 +333,7 @@ process_cta:
   title: See our manufacturing process
   desc: Follow a formulation through every stage of production —from raw material to market-ready crop protection product.
   label: View production process →
-  link: /factory/process
+  link: /manufacturing/factory/process
 
 evidence_review:
   tagline: 'Evidence & Verification'

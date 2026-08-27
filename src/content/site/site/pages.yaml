@@ -1,4 +1,4 @@
-- slug: home
+﻿- slug: home
   label: Home
   path: /
   permalink: /
@@ -45,33 +45,11 @@
     - { key: contact_form, type: contact, label: 'Contact Form' }
     - { key: map, type: map, label: 'Google Maps Location' }
 
-- slug: factory
-  label: Factory
-  path: /factory
-  permalink: /factory
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: intro, type: content, label: 'Introduction' }
-    - { key: stats, type: stats, label: 'Statistics' }
-    - { key: intelligence_tagline, type: content, label: 'Intelligence Tagline' }
-    - { key: intelligence_title, type: content, label: 'Intelligence Title' }
-    - { key: intelligence_cards, type: content, label: 'Intelligence Cards' }
-    - { key: workshops_section, type: features, label: 'Workshops' }
-    - { key: equipment_section, type: features, label: 'Equipment' }
-    - { key: qc_section, type: content, label: 'Quality Control' }
-    - { key: oem_section, type: content, label: 'OEM/ODM Section' }
-    - { key: faq_section, type: faqs, label: 'FAQs' }
-    - { key: production_flow, type: content, label: 'Production Flow' }
-    - { key: workforce, type: content, label: 'Workforce' }
-    - { key: material_traceability, type: content, label: 'Material Traceability' }
-    - { key: qc_dashboard, type: content, label: 'QC Dashboard' }
-    - { key: process_cta, type: cta, label: 'Process CTA' }
-    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
 
 - slug: factory-capacity
   label: Factory Capacity
-  path: /factory/capacity
-  permalink: /factory/capacity
+  path: /manufacturing/factory/capacity
+  permalink: /manufacturing/factory/capacity
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -83,8 +61,8 @@
 
 - slug: factory-equipment
   label: Factory Equipment
-  path: /factory/equipment
-  permalink: /factory/equipment
+  path: /manufacturing/factory/equipment
+  permalink: /manufacturing/factory/equipment
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: categories, type: features, label: 'Equipment Categories' }
@@ -92,8 +70,8 @@
 
 - slug: factory-oem-capability
   label: Factory OEM Capability
-  path: /factory/oem-capability
-  permalink: /factory/oem-capability
+  path: /manufacturing/factory/oem-capability
+  permalink: /manufacturing/factory/oem-capability
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -105,8 +83,8 @@
 
 - slug: factory-process
   label: Factory Process
-  path: /factory/process
-  permalink: /factory/process
+  path: /manufacturing/factory/process
+  permalink: /manufacturing/factory/process
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -116,8 +94,8 @@
 
 - slug: factory-quality-lab
   label: Factory Quality Lab
-  path: /factory/quality-lab
-  permalink: /factory/quality-lab
+  path: /manufacturing/factory/quality-lab
+  permalink: /manufacturing/factory/quality-lab
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: intro, type: content, label: 'Introduction' }
@@ -129,8 +107,8 @@
 
 - slug: factory-quality-inspection
   label: Quality Inspection Standards
-  path: /factory/quality-inspection
-  permalink: /factory/quality-inspection
+  path: /manufacturing/factory/quality-inspection
+  permalink: /manufacturing/factory/quality-inspection
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'Direct Answer' }
@@ -158,8 +136,8 @@
 
 - slug: factory-quality-change-control
   label: Rework Change Control Standard
-  path: /factory/quality-change-control
-  permalink: /factory/quality-change-control
+  path: /manufacturing/factory/quality-change-control
+  permalink: /manufacturing/factory/quality-change-control
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'Direct Answer' }
@@ -179,8 +157,8 @@
 
 - slug: factory-non-conforming-control
   label: Non-Conforming Product Control
-  path: /factory/non-conforming-control
-  permalink: /factory/non-conforming-control
+  path: /manufacturing/factory/non-conforming-control
+  permalink: /manufacturing/factory/non-conforming-control
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'Direct Answer' }
@@ -1245,8 +1223,8 @@
 
 - slug: resources-factory-audit-china-pesticide
   label: Factory Audit China Pesticide
-  path: /resources/factory-audit-china-pesticide
-  permalink: /resources/factory-audit-china-pesticide
+  path: /resources/manufacturing/factory-audit-china-pesticide
+  permalink: /resources/manufacturing/factory-audit-china-pesticide
   sections:
     - { key: hero, type: hero, label: 'Top Hero' }
     - { key: answer, type: answer, label: 'Direct Answer' }

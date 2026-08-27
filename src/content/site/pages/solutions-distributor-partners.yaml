@@ -1,8 +1,12 @@
-slug: solutions-distributor-partners
+﻿slug: solutions-distributor-partners
 meta:
-  title: 'Agrochemical Distributor Partners — Private Label & Regional Supply | {SITE}'
+  title: 'Agrochemical Distributor Partners | Private Label OEM Supplier | {SITE}'
   description: 'Private label agrochemical production for distributor partners: custom formulation specifications, branded packaging, regional market documentation and factory QC — from sample to bulk.'
   dateModified: '2026-08'
+  keywords:
+    - 'distributor partners'
+    - 'private label supply'
+    - 'regional distribution'
 
 hero:
   tagline: Distributor Partners
@@ -90,7 +94,7 @@ support:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> see the full <a href="/oem-manufacturing">OEM/ODM manufacturing program</a> — project-confirmed MOQs across sample, pilot and volume stages, private-label branding and ICAMA documentation — or read the <a href="/oem-moq-guide">MOQ &amp; Flexible Branding Guide</a>, or tour the <a href="/factory">factory</a> to see how distributor-ready QC is run.</p>
+    <p><strong>Keep reading:</strong> see the full <a href="/oem-manufacturing">OEM/ODM manufacturing program</a> — project-confirmed MOQs across sample, pilot and volume stages, private-label branding and ICAMA documentation — or read the <a href="/oem-moq-guide">MOQ &amp; Flexible Branding Guide</a>, or tour the <a href="/manufacturing/factory">factory</a> to see how distributor-ready QC is run.</p>
   </div>
 
 related:

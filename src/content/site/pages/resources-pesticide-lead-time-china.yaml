@@ -1,7 +1,11 @@
-meta:
-  title: 'Pesticide Manufacturing Lead Time from China: What to Expect | Agrospear'
+﻿meta:
+  title: 'Pesticide Manufacturing Lead Time | OEM Supplier China | {SITE}'
   description: 'Pesticide manufacturing lead time from China: sample development 7-12 days, bulk production 25-35 days, custom formulation adds 15-20 days plus shipping transit.'
   dateModified: '2026-08-27'
+  keywords:
+    - 'pesticide lead time'
+    - 'manufacturing schedule'
+    - 'China export'
 
 hero:
   tagline: 'Resources'
@@ -37,7 +41,7 @@ related:
       title: 'Factory Capacity'
       desc: 'Production lines, equipment and annual output capabilities'
       link_label: 'Learn more'
-      href: /factory/capacity
+      href: /manufacturing/factory/capacity
 
 cta:
   title: 'Discuss Your Requirements'

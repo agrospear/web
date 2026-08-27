@@ -1,5 +1,5 @@
-meta:
-  title: 'Rework Parameter Change Control & Validation | Agrospear'
+﻿meta:
+  title: 'Quality Change Control | Agrochemical Manufacturer China | {SITE}'
   description: 'Rework parameter change control under ISO 9001: ECR, risk classification, approval matrix, validation and re-inspection for agrochemical production.'
   dateModified: '2026-08-14'
   keywords:
@@ -308,13 +308,13 @@ cc_downloads:
       icon_bg: purple
       title: Controlled Rework Governance (Page)
       desc: 'Companion page for the specification rework system: defect classification A–G, approved method cards MC-RW-01 to MC-RW-06, and the 7-step controlled rework workflow.'
-      link: '/factory/quality-inspection'
+      link: '/manufacturing/factory/quality-inspection'
       link_label: View page
     - icon: N
       icon_bg: orange
       title: Non-Conforming Product Control (Page)
       desc: 'ISO 9001:2015 Clause 8.7 control of non-conforming outputs: NCR registration, quarantine, severity-based disposition authority, controlled rework under SRI instructions, independent re-inspection and the witnessed destruction protocol.'
-      link: '/factory/non-conforming-control'
+      link: '/manufacturing/factory/non-conforming-control'
       link_label: View page
 
 faqs:

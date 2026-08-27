@@ -1,6 +1,6 @@
-slug: solutions-co-branding
+﻿slug: solutions-co-branding
 meta:
-  title: 'Soluciones de Co-Branding — Desarrollo Conjunto de Productos Agroquímicos | Agrospear'
+  title: 'Co-Branding Agroquímico | Desarrollo Conjunto de Producto OEM | {SITE}'
   description: 'Soluciones de co-branding para socios agroquímicos: desarrollo conjunto de productos, datos de registro compartidos, embalaje de marca combinada e ingeniería de formulación colaborativa con Agrospear.'
   dateModified: '2026-08'
 
@@ -68,7 +68,7 @@ fleet_guide:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> los productos co-brandeados parten de una especificación compartida: consulta nuestro <a href="/es/oem-manufacturing">programa OEM/ODM</a> para personalización, MOQ de prueba y condiciones de co-branding. Cada lote pasa por la <a href="/es/factory">línea de producción</a> de 12.500 m&sup2; y se prueba de estabilidad al 100% antes de enviarse bajo ambas marcas.</p>
+    <p><strong>Sigue leyendo:</strong> los productos co-brandeados parten de una especificación compartida: consulta nuestro <a href="/es/oem-manufacturing">programa OEM/ODM</a> para personalización, MOQ de prueba y condiciones de co-branding. Cada lote pasa por la <a href="/es/manufacturing/factory">línea de producción</a> de 12.500 m&sup2; y se prueba de estabilidad al 100% antes de enviarse bajo ambas marcas.</p>
   </div>
 
 related:

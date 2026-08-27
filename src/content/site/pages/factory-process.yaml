@@ -1,5 +1,5 @@
-meta:
-  title: 'Manufacturing Process — From Raw Material to Crop Protection Product'
+﻿meta:
+  title: 'Manufacturing Process | Agrochemical OEM Manufacturer China | {SITE}'
   description: 'From raw material to market-ready formulation: every step of the Agrospear manufacturing process under our control, from compounding and milling to testing.'
   dateModified: '2026-08'
   keywords:
@@ -12,7 +12,7 @@ hero:
   title: Manufacturing Process
   subtitle: From raw material to market-ready formulation —every step under our control
   back_label: Back to Factory
-  back_link: /factory
+  back_link: /manufacturing/factory
 
 answer:
   label: 'Straight answer'
@@ -106,4 +106,4 @@ cta:
   title: See our equipment and machinery
   desc: Explore the industrial-grade equipment behind every Agrospear formulation.
   label: View equipment →
-  link: /factory/equipment
+  link: /manufacturing/factory/equipment

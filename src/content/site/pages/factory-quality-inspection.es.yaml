@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Estándares de inspeccion de calidad para agroquimicos a medida | Agrospear'
   description: 'Fabricacion OEM de agroquimicos: inspeccion de materias primas, produccion, ensayos finales, embalaje y trazabilidad, con control de retrabajo bajo ISO 9001.'
   dateModified: '2026-08-14'
@@ -432,13 +432,13 @@ document_pack:
       icon_bg: orange
       title: Estandar de control de cambios de retrabajo (pagina)
       desc: 'Control de cambios formal segun ISO 9001 para parametros de retrabajo: ECR, clasificacion de riesgos, matriz de aprobacion interdepartamental, bucle cerrado de 9 pasos, validacion de ingenieria cuantificada y salvaguardas Poka-Yoke — con el SOP bilingue QMS-SOP-QC-CC-001 Rev 2.0.'
-      link: '/es/factory/quality-change-control'
+      link: '/es/manufacturing/factory/quality-change-control'
       link_label: Ver pagina
     - icon: N
       icon_bg: blue
       title: Control de productos no conformes (pagina)
       desc: 'Control de salidas no conformes segun la ISO 9001:2015 Clausula 8.7: registro NCR, cuarentena, autoridad de disposicion por gravedad, retrabajo controlado bajo SRI, reinspeccion independiente y destruccion presenciada con boveda SHA-256 — con SOP bilingue y descargas de certificado de desguace.'
-      link: '/es/factory/non-conforming-control'
+      link: '/es/manufacturing/factory/non-conforming-control'
       link_label: Ver pagina
 
 faqs:

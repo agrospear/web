@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'No conformidades y retrabajo agroquimicos | Fabrica OEM | Agrospear'
   description: 'Control de productos no conformes (ISO 9001 Clausula 8.7): cuarentena NCR, retrabajo controlado bajo SRI, reinspeccion independiente, destruccion presenciada.'
   dateModified: '2026-08-14'
@@ -201,13 +201,13 @@ nc_downloads:
       icon_bg: green
       title: Gobernanza controlada de retrabajo (pagina)
       desc: 'Pagina complementaria de las tarjetas de metodo de retrabajo de especificacion aprobadas MC-RW-01 a MC-RW-06 y el flujo de retrabajo controlado de 7 pasos.'
-      link: '/es/factory/quality-inspection'
+      link: '/es/manufacturing/factory/quality-inspection'
       link_label: Ver pagina
     - icon: C
       icon_bg: purple
       title: Estandar de control de cambios de retrabajo (pagina)
       desc: 'Control de cambios formal segun ISO 9001 para parametros de retrabajo: ECR, clasificacion de riesgos, matriz de aprobacion, plan de validacion y salvaguardas Poka-Yoke — QMS-SOP-QC-CC-001 Rev 2.0.'
-      link: '/es/factory/quality-change-control'
+      link: '/es/manufacturing/factory/quality-change-control'
       link_label: Ver pagina
 
 faqs:

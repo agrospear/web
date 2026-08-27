@@ -1,5 +1,5 @@
-meta:
-  title: 'Selector de formulaciones agroquímicas | {SITE}'
+﻿meta:
+  title: 'Selector de Formulación | Guía SC EC WP WDG | Fabricante OEM China | {SITE}'
   description: 'Concentraciones, tipos de formulación y usos recomendados para cada producto Agrospear. Encuentra la formulación adecuada de herbicida, insecticida o fungicida.'
   dateModified: '2026-08'
   keywords:
@@ -75,4 +75,4 @@ cta:
     - text: Más conocimiento sobre formulaciones
       href: /es/knowledge
     - text: Cómo se fabrican las formulaciones
-      href: /es/factory/process
+      href: /es/manufacturing/factory/process

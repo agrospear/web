@@ -1,5 +1,5 @@
-meta:
-  title: 'Control de cambios y validacion de retrabajo | Agrospear'
+﻿meta:
+  title: 'Control de Cambios de Calidad | Fabricante Agroquímico China | {SITE}'
   description: 'QINGDAO VATRAD GROUP gestiona cambios de parametros de retrabajo con control de cambios ISO 9001: ECR, riesgos, aprobacion, validacion y reinspeccion.'
   dateModified: '2026-08-14'
   keywords:
@@ -307,13 +307,13 @@ cc_downloads:
       icon_bg: purple
       title: Gobernanza controlada de retrabajo (pagina)
       desc: 'Pagina complementaria del sistema de retrabajo de especificaciones: clasificacion de defectos A–G, tarjetas de metodo aprobadas MC-RW-01 a MC-RW-06 y el flujo de retrabajo controlado de 7 pasos.'
-      link: '/es/factory/quality-inspection'
+      link: '/es/manufacturing/factory/quality-inspection'
       link_label: Ver pagina
     - icon: N
       icon_bg: orange
       title: Control de productos no conformes (pagina)
       desc: 'Control de salidas no conformes segun la ISO 9001:2015 Clausula 8.7: registro NCR, cuarentena, autoridad de disposicion por gravedad, retrabajo controlado bajo instrucciones SRI, reinspeccion independiente y el protocolo de destruccion presenciada.'
-      link: '/es/factory/non-conforming-control'
+      link: '/es/manufacturing/factory/non-conforming-control'
       link_label: Ver pagina
 
 faqs:

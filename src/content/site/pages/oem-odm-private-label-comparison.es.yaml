@@ -72,7 +72,7 @@ scenario_cards:
       icon_bg: 'blue'
       title: 'Tienes especificaciones completas y eres propietario de la formulación'
       desc: 'Tienes una fórmula completa, un producto de referencia o una ficha de especificación detallada con ingrediente activo, concentración, tipo de formulación y requisitos de envasado. Elige OEM — fabricamos exactamente según tu especificación.'
-      link: '/es/factory/oem-capability'
+      link: '/es/manufacturing/factory/oem-capability'
       link_label: 'Detalles de fabricación OEM'
     - icon: '2'
       icon_bg: 'green'

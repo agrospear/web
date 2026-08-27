@@ -1,8 +1,12 @@
 meta:
-  title: 'Formulation R&D Lab — Agrochemical Analytical Testing'
+  title: 'Formulation R&D Lab | Agrochemical OEM Supplier China | {SITE}'
   description: 'Analytical testing from raw material to finished formulation: active content by HPLC/GC, particle size analysis, viscosity testing, pH measurement, and emulsion stability for agrochemical products.'
   back_text: 'Back to R&D Center'
   home_label: 'Home'
+  keywords:
+    - 'formulation lab'
+    - 'analytical testing'
+    - 'agrochemical R&D'
 
 hero:
   tagline: 'Lab 01'

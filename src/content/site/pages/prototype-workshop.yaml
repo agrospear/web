@@ -1,9 +1,13 @@
 meta:
-  title: 'Formulation Lab & Pilot Batch Workshop — Agrochemical Sample Production'
+  title: 'Prototype Workshop | Pilot Batch Production | OEM Manufacturer China | {SITE}'
   description: 'From specification to tested sample formulation in 7–12 days. Our Formulation Lab builds, tests and validates custom agrochemical samples. Start your pilot project today.'
   dateModified: '2026-08'
   back_text: 'Back to R&D Center'
   home_label: 'Home'
+  keywords:
+    - 'prototype workshop'
+    - 'pilot batch'
+    - 'sample production'
 
 answer:
   label: 'Straight answer'

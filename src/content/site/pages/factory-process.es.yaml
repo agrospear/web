@@ -1,5 +1,5 @@
-meta:
-  title: 'Proceso de fabricacion: de la materia prima al producto agroquimico'
+﻿meta:
+  title: 'Proceso de Fabricación | Fabricante OEM Agroquímico China | {SITE}'
   description: 'De la materia prima al producto listo para el mercado: cada paso del proceso de fabricacion bajo nuestro control, desde el mezclado y la molienda hasta los ensayos.'
   dateModified: '2026-08'
   keywords:
@@ -12,7 +12,7 @@ hero:
   title: Proceso de fabricacion
   subtitle: 'De la materia prima al producto listo para el mercado: cada paso bajo nuestro control'
   back_label: Volver a la fabrica
-  back_link: /es/factory
+  back_link: /es/manufacturing/factory
 
 answer:
   label: 'Respuesta directa'
@@ -106,4 +106,4 @@ cta:
   title: Vea nuestros equipos y maquinaria
   desc: Explore el equipamiento de grado industrial que hay detras de cada formulacion de Agrospear.
   label: Ver equipos →
-  link: /es/factory/equipment
+  link: /es/manufacturing/factory/equipment

@@ -1,5 +1,5 @@
-meta:
-  title: 'Control de calidad agroquímico — 7 etapas | Agrospear'
+﻿meta:
+  title: 'Control de Calidad Agroquímico | 7 Etapas de Inspección | Fabricante OEM China | {SITE}'
   description: 'Cómo se controla cada pedido agroquímico a medida: 7 etapas de inspección, desde la planificación hasta la liberación del envío, con informes bilingües descargables.'
   dateModified: '2026-08-15'
   keywords:
@@ -211,22 +211,22 @@ system_map:
     - title: 'Estándares de inspección y liberación'
       description: 'El QIP del proyecto impulsa cada puerta: objeto de inspección, método, criterios de aceptación y registro de salida por pedido. Incluye el marco QC de 4 etapas, la cadena de trazabilidad, el flujo de cuarentena, la matriz de defectos y el registro documental 00–15.'
       icon: tabler:clipboard-check
-      link: /es/factory/quality-inspection
+      link: /es/manufacturing/factory/quality-inspection
       link_label: 'Estándares de inspección y descargas QMS'
     - title: 'Control de cambios de retrabajo'
       description: 'Ningún cambio de parámetros de retrabajo sin control documentado: contención, clasificación de riesgo, bucle de cambio de 9 pasos, matriz de aprobación y validación. Cualquier cambio en especificaciones, muestras, BOM o criterios de aceptación aprobados requiere la aprobación escrita del cliente.'
       icon: tabler:git-branch
-      link: /es/factory/quality-change-control
+      link: /es/manufacturing/factory/quality-change-control
       link_label: 'Estándar de control de cambios'
     - title: 'Control de productos no conformes'
       description: 'Un bucle cerrado de 7 pasos bajo ISO 9001:2015 cláusula 8.7: identificar, poner en cuarentena, decidir según NCR, retrabajar o rechazar, reinspeccionar, liberar, corregir. Incluye la autoridad por gravedad, la matriz de disposición de defectos y la destrucción presenciada.'
       icon: tabler:alert-triangle
-      link: /es/factory/non-conforming-control
+      link: /es/manufacturing/factory/non-conforming-control
       link_label: 'Estándar de control de productos no conformes'
     - title: 'Laboratorio de ensayos y equipos'
       description: 'El laboratorio de calidad opera independiente de la producción: HPLC, GC, análisis de tamaño de partícula, medidores de pH/densidad, cámaras de estabilidad y ensayos de viscosidad — con los procedimientos de calibración y ensayo detrás de nuestras afirmaciones publicadas.'
       icon: tabler:flask
-      link: /es/factory/quality-lab
+      link: /es/manufacturing/factory/quality-lab
       link_label: 'Laboratorio de calidad y equipos de ensayo'
     - title: 'Laboratorio de I+D de formulación'
       description: 'El centro de I+D realiza desarrollo independiente de formulaciones, estudios de envejecimiento acelerado y soporte de registro, alimentando los estándares que usa la producción.'
@@ -409,7 +409,7 @@ non_conformance:
     - title: 'Disposición según NCR'
       description: 'Calidad emite un Informe de No Conformidad y deriva el lote a retrabajo, reinspección, rechazo o desecho según la matriz de disposición.'
       icon: tabler:git-branch
-      link: /es/factory/non-conforming-control
+      link: /es/manufacturing/factory/non-conforming-control
       link_label: 'Estándar de control de productos no conformes'
     - title: 'Verificar y liberar'
       description: 'Los lotes retrabajados se reinspeccionan contra los mismos criterios; la NCR se cierra solo tras superar la re-verificación.'
@@ -432,7 +432,7 @@ third_party:
     - title: 'Programación de inspecciones'
       description: 'Inspecciones internas o de terceros en cualquiera de las siete puertas, aplicando su plan de inspección como base de aceptación.'
       icon: tabler:calendar-clock
-      link: /es/factory/quality-inspection
+      link: /es/manufacturing/factory/quality-inspection
       link_label: 'Estándares de inspección y descargas QMS'
     - title: 'Plantilla de briefing pre-embarque'
       description: 'La plantilla que usan los inspectores para anunciar, planificar e informar una inspección pre-embarque en nuestras instalaciones.'
@@ -507,6 +507,6 @@ cta:
     - text: Visitar nuestro laboratorio de inspección de calidad
       href: /es/randdcenter/quality-inspection-lab
     - text: Estándares de inspección y descargas QMS
-      href: /es/factory/quality-inspection
+      href: /es/manufacturing/factory/quality-inspection
     - text: Estándar de control de productos no conformes
-      href: /es/factory/non-conforming-control
+      href: /es/manufacturing/factory/non-conforming-control

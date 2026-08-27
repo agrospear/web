@@ -1,5 +1,5 @@
-meta:
-  title: 'Prueba HPLC de Plaguicidas: Métodos de Verificación de Ingrediente Activo | Agrospear'
+﻿meta:
+  title: 'Prueba HPLC de Plaguicidas | Verificación de Ingrediente Activo | Proveedor OEM | {SITE}'
   description: 'Métodos de prueba HPLC de plaguicidas: cuantificación de ingrediente activo, métodos de referencia CIPAC, perfilado de impurezas, consistencia de lote y estándares de control de calidad.'
   dateModified: '2026-08-27'
 
@@ -37,7 +37,7 @@ related:
       title: 'Laboratorio de Calidad'
       desc: 'Capacidades y equipos del laboratorio analítico interno'
       link_label: 'Más información'
-      href: /factory/quality-lab
+      href: /manufacturing/factory/quality-lab
 
 cta:
   title: 'Discuta Sus Requisitos'

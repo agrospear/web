@@ -1,4 +1,4 @@
-meta:
+﻿meta:
   title: 'Fabricacion OEM y con marca propia | {SITE}'
   description: 'Del concepto a la produccion: personalice cada detalle de su linea de productos agroquimicos. Servicio OEM/ODM completo para marcas de proteccion de cultivos con marca propia.'
   dateModified: '2026-08'
@@ -71,4 +71,4 @@ cta:
     - text: El sistema de inspeccion de 7 etapas
       href: /es/manufacturing/quality-control
     - text: Ve la linea de produccion
-      href: /es/factory/process
+      href: /es/manufacturing/factory/process

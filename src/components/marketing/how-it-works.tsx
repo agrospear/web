@@ -14,10 +14,10 @@ export function HowItWorks() {
 
   const deepLinks = [
     { label: t('agro.nav.manufacturingDropdown.quality'), href: '/quality' },
-    { label: t('agro.nav.manufacturingDropdown.qualityInspection'), href: '/factory/quality-inspection' },
-    { label: t('agro.nav.manufacturingDropdown.changeControl'), href: '/factory/quality-change-control' },
-    { label: t('agro.nav.manufacturingDropdown.nonConformingControl'), href: '/factory/non-conforming-control' },
-    { label: t('agro.footer.factoryCapacity'), href: '/factory/capacity' },
+    { label: t('agro.nav.manufacturingDropdown.qualityInspection'), href: '/manufacturing/factory/quality-inspection' },
+    { label: t('agro.nav.manufacturingDropdown.changeControl'), href: '/manufacturing/factory/quality-change-control' },
+    { label: t('agro.nav.manufacturingDropdown.nonConformingControl'), href: '/manufacturing/factory/non-conforming-control' },
+    { label: t('agro.footer.factoryCapacity'), href: '/manufacturing/factory/capacity' },
     { label: t('agro.nav.oemDropdown.trust'), href: '/oem-trust-assurance' },
     { label: t('agro.nav.caseStudiesDropdown.projects'), href: '/projects' },
   ]

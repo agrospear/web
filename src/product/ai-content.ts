@@ -154,11 +154,11 @@ export const STATIC_PAGE_CORPUS_TEXT =
   ' provides custom agrochemical OEM manufacturing solutions.'
 
 export const JSONLD_KEYWORDS: Record<string, { keywords: string[]; articleTitle?: string }> = {
-  '/factory/quality-change-control': {
+  '/manufacturing/factory/quality-change-control': {
     keywords: ['Agrochemical Manufacturing', 'Quality Management System', 'ISO 9001 Change Control', 'Stability Testing and Validation'],
     articleTitle: 'Agrochemical Rework Process Parameter Change Control & Validation Standard',
   },
-  '/factory/non-conforming-control': {
+  '/manufacturing/factory/non-conforming-control': {
     keywords: ['Agrochemical Manufacturing', 'Quality Management System', 'ISO 9001 Non-Conforming Output Control', 'Rework Re-Inspection and Scrap Disposition'],
   },
   '/oem-moq-guide': {

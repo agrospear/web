@@ -83,7 +83,7 @@ export function Footer() {
           <a className="foot-link" href={fl('/manufacturing/factory-audit')}>{t('agro.footer.factoryAudit')}</a>
           <a className="foot-link" href={fl('/manufacturing/pesticide-formulation')}>{t('agro.footer.pesticideFormulation')}</a>
           <a className="foot-link" href={fl('/manufacturing/packaging')}>{t('agro.footer.packaging')}</a>
-          <a className="foot-link" href={fl('/factory/capacity')}>{t('agro.footer.factoryCapacity')}</a>
+          <a className="foot-link" href={fl('/manufacturing/factory/capacity')}>{t('agro.footer.factoryCapacity')}</a>
           <a className="foot-link" href={fl('/proof-center')}>{t('agro.nav.manufacturingDropdown.proofCenter')}</a>
           <a className="foot-link" href={fl('/agrochemical-regulation-by-market')}>{t('agro.nav.proofQualityDropdown.complianceByMarket')}</a>
           <a className="foot-link" href={fl('/technology')}>{t('agro.nav.manufacturingDropdown.technology')}</a>
@@ -111,7 +111,6 @@ export function Footer() {
           <a className="foot-link" href={fl('/oem-onboarding-guide')}>{t('agro.nav.resourcesDropdown.onboarding')}</a>
           <a className="foot-link" href={fl('/oem-moq-guide')}>{t('agro.nav.resourcesDropdown.moqGuide')}</a>
           <a className="foot-link" href={fl('/what-is-agrochemical-oem')}>{t('agro.footer.whatIsAgrochemicalOem')}</a>
-          <a className="foot-link" href={fl('/oem-moq-guide')}>{t('agro.nav.resourcesDropdown.moqAndPricing')}</a>
           <a className="foot-link" href={fl('/news')}>{t('agro.footer.news')}</a>
         </FooterCol>
 

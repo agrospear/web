@@ -237,12 +237,12 @@ export function llmAfarierIndex(origin: string): string {
 /** Full text for the agrospear factory/technology pages + products + articles. */
 export function llmsAgrospearFull(): string {
   const DEEP_PAGES = new Set([
-    '/factory', '/quality', '/oem-moq-guide', '/agrochemical-oem-moq-lead-time',
+    '/manufacturing/factory', '/quality', '/oem-moq-guide', '/agrochemical-oem-moq-lead-time',
     '/oem-agrochemical-moq', '/agrochemical-certification-guide', '/oem-trust-assurance',
     '/proof-center', '/oem-odm-private-label-comparison',
-    '/factory/capacity', '/factory/equipment', '/factory/oem-capability',
-    '/factory/process', '/factory/quality-lab', '/factory/quality-inspection',
-    '/factory/quality-change-control', '/factory/non-conforming-control',
+    '/manufacturing/factory/capacity', '/manufacturing/factory/equipment', '/manufacturing/factory/oem-capability',
+    '/manufacturing/factory/process', '/manufacturing/factory/quality-lab', '/manufacturing/factory/quality-inspection',
+    '/manufacturing/factory/quality-change-control', '/manufacturing/factory/non-conforming-control',
     '/odm-development', '/oem-manufacturing', '/oem-adjuvants',
     '/new-brand-trial-order', '/b2b-solutions-matrix',
     '/formulation-type-comparison', '/agrochemical-regulation-by-market',
