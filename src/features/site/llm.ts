@@ -103,7 +103,7 @@ export function llmProductsFull(): string {
       flat(p.desc),
       '',
       `- Specs: ${flat(p.specs)}`,
-      `- Artwork & construction: ${flat(p.artwork)}`,
+      `- Artwork & formulation: ${flat(p.artwork)}`,
       `- Recommended for: ${p.for.join(', ')}`,
     ].join('\n'),
   )

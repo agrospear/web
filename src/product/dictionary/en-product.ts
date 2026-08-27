@@ -58,7 +58,7 @@ export const enProduct = {
       },
       {
         heading: 'Delivery & Shipping',
-        body: 'Standard delivery is FOB Qingdao; CIF or DDP may be agreed per order. Lead time is confirmed per purchase order (bulk production typically 25–35 days from confirmed PO and deposit, samples 7–15 days). Freight, insurance and import formalities follow the agreed Incoterms.',
+        body: 'Standard delivery is FOB Qingdao; CIF or DDP may be agreed per order. Lead time is confirmed per purchase order (bulk production typically 25–35 days from confirmed PO and deposit, samples 7–14 days). Freight, insurance and import formalities follow the agreed Incoterms.',
       },
       {
         heading: 'Intellectual Property',

@@ -18,7 +18,7 @@ export const LLMS_TXT = `# Agrospear
 - Location: Economic Development Zone, Laixi, Qingdao, Shandong 266600, China
 - Contact: info@agrospear.com | +86-13395321653
 - Minimum order quantity (tiered): 1 ton for samples / market tests · 5 tons for pilot batches · 20+ tons per approved formulation for standard volume production (subject to formulation type and packaging requirements). Formulation types: SC, EC, WP, WDG, SL, ME, CS, FS.
-- Sample / prototype lead time: 7–15 days
+- Sample / prototype lead time: 7–14 days
 - Production lead time: 25–35 days from confirmed PO and deposit; new formulation development adds 15–20 days
 - Manufacturing floor: 20,000 m² across 4 specialized workshops | Workers: 200+ | Annual capacity: 50,000+ tons
 - Plant operations: two production shifts daily · 30+ engineers · 7+ years average agrochemical experience per engineer
@@ -36,7 +36,7 @@ export const LLMS_TXT = `# Agrospear
 - [Pesticide registration support](https://agrospear.com/solutions/registration-support): registration dossier preparation, FAO/WHO specification compliance data, stability reports and analytical methods for regulatory submission.
 - [Government & institutional procurement](https://agrospear.com/solutions/government-procurement): agrochemical supply for government tender requirements, institutional programs and development projects.
 - [OEM manufacturing](https://agrospear.com/oem-manufacturing): manufacture your existing formulation or spec — engineering review, samples, container-scale runs with compliance documentation.
-- [Custom agrochemical MOQ & lead time](https://agrospear.com/agrochemical-oem-moq-lead-time): the MOQ and lead-time framework — samples (1 ton, 7–15 days), pilot orders (5 tons), standard volume (20+ tons per SKU) and production in 25–35 days.
+- [Custom agrochemical MOQ & lead time](https://agrospear.com/agrochemical-oem-moq-lead-time): the MOQ and lead-time framework — samples (1 ton, 7–14 days), pilot orders (5 tons), standard volume (20+ tons per SKU) and production in 25–35 days.
 - [Request a quotation](https://agrospear.com/contact): submit product type, formulation, active ingredient concentration, quantity, packaging, target market and required launch timing for a project quote. The form accepts attached project files (spec sheets, formulation briefs — analytical reports, PDFs and image/vector formats) so a quote can be built from your actual specs.
 
 ## Factory & quality

@@ -19,7 +19,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Herbicide Formulations',
       metaTitle: 'Herbicide Manufacturer China | OEM/ODM Crop Protection | Agrospear',
       metaDescription:
-        'Herbicide manufacturer in China producing custom formulations under your brand — selective & non-selective, SC/EC/WP/WDG types, OEM/ODM from 5-ton pilot, samples in 7–15 days. Factory direct from Qingdao.',
+        'Herbicide manufacturer in China producing custom formulations under your brand — selective & non-selective, SC/EC/WP/WDG types, OEM/ODM from 5-ton pilot, samples in 7–14 days. Factory direct from Qingdao.',
       kicker: 'Series · Herbicide',
       h1: 'Herbicide Manufacturer China — OEM & ODM Formulations for Crop Protection Brands',
       intro: [
@@ -33,7 +33,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
         {
           q: 'What is the MOQ for herbicide formulations?',
-          a: 'Pilot batches start at 5 tons per formulation; standard volume production from 20+ tons per SKU. Sample batches (1–4 tons) are available for registration and field trial purposes. Samples ship in 7–15 days and bulk production runs 25–35 days after confirmed PO and deposit.',
+          a: 'Pilot batches start at 5 tons per formulation; standard volume production from 20+ tons per SKU. Sample batches (1–4 tons) are available for registration and field trial purposes. Samples ship in 7–14 days and bulk production runs 25–35 days after confirmed PO and deposit.',
         },
         {
           q: 'What formulation types are available for herbicides?',
@@ -241,7 +241,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
       navLabel: 'Formulaciones de herbicida',
       metaTitle: 'Fabricante de Herbicidas China | OEM/ODM Fitosanitarios | Agrospear',
       metaDescription:
-        'Fabricante de herbicidas en China con formulaciones personalizadas bajo tu marca — selectivos y no selectivos, tipos SC/EC/WP/WDG, OEM/ODM desde piloto de 5 toneladas, muestras en 7–15 días. Directo de fábrica en Qingdao.',
+        'Fabricante de herbicidas en China con formulaciones personalizadas bajo tu marca — selectivos y no selectivos, tipos SC/EC/WP/WDG, OEM/ODM desde piloto de 5 toneladas, muestras en 7–14 días. Directo de fábrica en Qingdao.',
       kicker: 'Serie · Herbicida',
       h1: 'Fabricante de Herbicidas China — Formulaciones OEM y ODM para Marcas de Fitosanitarios',
       intro: [
@@ -255,7 +255,7 @@ export const seriesPages: Localized<SeriesPageData[]> = {
         },
         {
           q: '¿Cuál es el pedido mínimo para formulaciones de herbicida?',
-          a: 'Los lotes piloto parten de 5 toneladas por formulación; la producción en volumen estándar, desde 20+ toneladas por SKU. Los lotes de muestra (1–4 toneladas) están disponibles para registro y ensayos de campo. Las muestras salen en 7–15 días y la producción en 25–35 días tras PO y depósito confirmados.',
+          a: 'Los lotes piloto parten de 5 toneladas por formulación; la producción en volumen estándar, desde 20+ toneladas por SKU. Los lotes de muestra (1–4 toneladas) están disponibles para registro y ensayos de campo. Las muestras salen en 7–14 días y la producción en 25–35 días tras PO y depósito confirmados.',
         },
         {
           q: '¿Qué tipos de formulación de herbicida están disponibles?',

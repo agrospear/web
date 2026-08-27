@@ -58,7 +58,7 @@ export const esProduct = {
       },
       {
         heading: 'Entrega y envío',
-        body: 'La entrega estándar es FOB Qingdao; CIF o DDP pueden acordarse por pedido. El plazo se confirma por orden de compra (producción en volumen normalmente 25–35 días desde el PO y depósito confirmados; muestras, 7–15 días). El flete, el seguro y los trámites de importación siguen los Incoterms acordados.',
+        body: 'La entrega estándar es FOB Qingdao; CIF o DDP pueden acordarse por pedido. El plazo se confirma por orden de compra (producción en volumen normalmente 25–35 días desde el PO y depósito confirmados; muestras, 7–14 días). El flete, el seguro y los trámites de importación siguen los Incoterms acordados.',
       },
       {
         heading: 'Propiedad intelectual',

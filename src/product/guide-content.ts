@@ -77,11 +77,11 @@ export const GUIDES: Guide[] = [
       },
       {
         title: 'Sample Process',
-        body: 'Expect lab samples in 7–15 days after confirming the formulation spec and active concentration. You receive a COA (Certificate of Analysis) with every sample — active content, impurity profile, pH, viscosity and stability data. Approve the sample and it becomes the reference standard for mass production. Most manufacturers credit sample fees against your first production order.',
+        body: 'Expect lab samples in 7–14 days after confirming the formulation spec and active concentration. You receive a COA (Certificate of Analysis) with every sample — active content, impurity profile, pH, viscosity and stability data. Approve the sample and it becomes the reference standard for mass production. Most manufacturers credit sample fees against your first production order.',
       },
       {
         title: 'Lead Times',
-        body: 'Sample preparation: 7–15 days. Production: 25–35 days after confirmed PO and deposit. Registration dossiers and stability data add separate timelines. A factory quoting dramatically shorter lead times than the industry norm is quoting from a brochure, not a schedule.',
+        body: 'Sample preparation: 7–14 days. Production: 25–35 days after confirmed PO and deposit. Registration dossiers and stability data add separate timelines. A factory quoting dramatically shorter lead times than the industry norm is quoting from a brochure, not a schedule.',
       },
       {
         title: 'Registration Documentation',
@@ -98,7 +98,7 @@ export const GUIDES: Guide[] = [
     ],
     faqs: [
       { q: 'What is the minimum order for an agrochemical OEM batch?', a: 'Standard tiers: 1 ton for samples, 5 tons for a pilot batch, and 20+ tons for standard production. Some formulations and packaging options may shift these slightly.' },
-      { q: 'How long do samples take?', a: '7–15 days from confirmed formulation spec and active concentration, including COA with full analytical data.' },
+      { q: 'How long do samples take?', a: '7–14 days from confirmed formulation spec and active concentration, including COA with full analytical data.' },
       { q: 'What documents do I need for registration?', a: 'Full specification sheet, five-batch analysis, acute toxicity data, phys-chem properties, stability data (two-year accelerated and ambient), and process flow diagrams. Your OEM factory supplies all of these.' },
       { q: 'Can I use sample data for my registration filing?', a: 'Sample COA data supports initial filings, but most regulators require five-batch production data and long-term stability studies. Plan to generate these from your pilot or first production run.' },
     ],
@@ -233,7 +233,7 @@ export const GUIDES: Guide[] = [
     ],
     faqs: [
       { q: 'What is the minimum order for custom agrochemical manufacturing?', a: 'Standard tiers: 1 ton for samples, 5 tons for a pilot batch, and 20+ tons for standard production. Custom formulation development may require a minimum pilot batch.' },
-      { q: 'Can I see a sample before mass production?', a: 'Yes — lab samples are ready in 7–15 days with full COA. Most manufacturers credit sample fees toward your first production order once it is confirmed.' },
+      { q: 'Can I see a sample before mass production?', a: 'Yes — lab samples are ready in 7–14 days with full COA. Most manufacturers credit sample fees toward your first production order once it is confirmed.' },
       { q: 'How do I verify an agrochemical factory is real?', a: 'Ask for a live video walkthrough of the production floor and QC lab, check for certifications with issuing bodies, request five-batch analysis reports from prior productions, and place a trial sample order. Trial orders are the ultimate proof.' },
       { q: 'What certifications should an agrochemical OEM factory have?', a: 'Minimum: ISO 9001 and ISO 14001. Strongly preferred: GMP compliance and FAO/WHO specification alignment. For EU markets: REACH registration. Ask for certificate numbers and verify independently.' },
     ],
@@ -271,7 +271,7 @@ export const GUIDES: Guide[] = [
       },
       {
         title: 'Costs: Sample, Packaging Setup, Production',
-        body: 'Expect three types of charges: sample fees (1 ton minimum, 7–15 days to produce with COA), packaging and labeling setup costs for custom containers and print runs, and unit production cost at your volume tier. Most factories credit sample fees toward your first production order. At standard volumes (20+ tons), per-unit pricing becomes very competitive.',
+        body: 'Expect three types of charges: sample fees (1 ton minimum, 7–14 days to produce with COA), packaging and labeling setup costs for custom containers and print runs, and unit production cost at your volume tier. Most factories credit sample fees toward your first production order. At standard volumes (20+ tons), per-unit pricing becomes very competitive.',
       },
       {
         title: 'From PO to Finished Shipment',
@@ -282,7 +282,7 @@ export const GUIDES: Guide[] = [
       { q: 'What is the minimum order for private label agrochemicals?', a: '1 ton for sample evaluation, 5 tons for a pilot batch, and 20+ tons for standard production. Formulation-specific minimums may vary slightly.' },
       { q: 'Can I send my own brand design and packaging?', a: 'Yes — send your brand guidelines, logo files and packaging specifications; the factory produces a visual proof before production so you approve colors, placement and finishing.' },
       { q: 'Is my private label product exclusive to my brand?', a: 'Yes with standard private-label terms. Negotiate a territorial exclusivity clause; factories like ours do not supply competing brands in your contracted market when you meet volume commitments.' },
-      { q: 'How long does a private label agrochemical order take?', a: 'Samples ship in 7–15 days; batch production completes in 25–35 days after confirmed PO and deposit. Budget 10–14 weeks for the first full run including sample approval.' },
+      { q: 'How long does a private label agrochemical order take?', a: 'Samples ship in 7–14 days; batch production completes in 25–35 days after confirmed PO and deposit. Budget 10–14 weeks for the first full run including sample approval.' },
     ],
     related: [
       { label: 'Private label agrochemical solutions', href: '/solutions/private-label' },
@@ -396,11 +396,11 @@ export const GUIDES_ES: Guide[] = [
       },
       {
         title: 'Proceso de muestras',
-        body: 'Espera muestras de laboratorio en 7–15 días tras confirmar la especificación de formulación y la concentración de activo. Recibirás un COA (Certificado de Análisis) con cada muestra — contenido de activo, perfil de impurezas, pH, viscosidad y datos de estabilidad. Aprueba la muestra y se convierte en el estándar de referencia para la producción en serie. La mayoría de fabricantes descuentan las tarifas de muestra del primer pedido de producción.',
+        body: 'Espera muestras de laboratorio en 7–14 días tras confirmar la especificación de formulación y la concentración de activo. Recibirás un COA (Certificado de Análisis) con cada muestra — contenido de activo, perfil de impurezas, pH, viscosidad y datos de estabilidad. Aprueba la muestra y se convierte en el estándar de referencia para la producción en serie. La mayoría de fabricantes descuentan las tarifas de muestra del primer pedido de producción.',
       },
       {
         title: 'Plazos de entrega',
-        body: 'Preparación de muestras: 7–15 días. Producción: 25–35 días tras PO confirmado y depósito. Los expedientes de registro y los datos de estabilidad añaden cronogramas separados. Una fábrica que cotiza plazos mucho más cortos que la norma del sector está cotizando desde un folleto, no desde un calendario.',
+        body: 'Preparación de muestras: 7–14 días. Producción: 25–35 días tras PO confirmado y depósito. Los expedientes de registro y los datos de estabilidad añaden cronogramas separados. Una fábrica que cotiza plazos mucho más cortos que la norma del sector está cotizando desde un folleto, no desde un calendario.',
       },
       {
         title: 'Documentación para el registro',
@@ -417,7 +417,7 @@ export const GUIDES_ES: Guide[] = [
     ],
     faqs: [
       { q: '¿Cuál es el pedido mínimo para un lote OEM de fitosanitarios?', a: 'Tramos estándar: 1 tonelada para muestras, 5 toneladas para un lote piloto y 20+ toneladas para producción estándar. Algunas formulaciones y opciones de envasado pueden variar ligeramente.' },
-      { q: '¿Cuánto tardan las muestras?', a: '7–15 días desde la especificación de formulación y concentración de activo confirmadas, incluyendo COA con datos analíticos completos.' },
+      { q: '¿Cuánto tardan las muestras?', a: '7–14 días desde la especificación de formulación y concentración de activo confirmadas, incluyendo COA con datos analíticos completos.' },
       { q: '¿Qué documentos necesito para el registro?', a: 'Ficha de especificación completa, análisis de cinco lotes, datos de toxicidad aguda, propiedades fisicoquímicas, datos de estabilidad (dos años acelerado y ambiente) y diagramas de flujo de proceso. Tu fábrica OEM suministra todos estos.' },
       { q: '¿Puedo usar datos de muestras para mi expediente de registro?', a: 'Los datos de COA de muestras respaldan expedientes iniciales, pero la mayoría de reguladores requieren datos de producción de cinco lotes y estudios de estabilidad a largo plazo. Planifica generarlos desde tu lote piloto o primera producción.' },
     ],
@@ -552,7 +552,7 @@ export const GUIDES_ES: Guide[] = [
     ],
     faqs: [
       { q: '¿Cuál es el pedido mínimo para fabricación de fitosanitarios a medida?', a: 'Tramos estándar: 1 tonelada para muestras, 5 toneladas para un lote piloto y 20+ toneladas para producción estándar. El desarrollo de formulación a medida puede requerir un lote piloto mínimo.' },
-      { q: '¿Puedo ver una muestra antes de la producción en serie?', a: 'Sí — las muestras de laboratorio están listas en 7–15 días con COA completo. La mayoría de fabricantes descuentan las tarifas de muestra del primer pedido de producción una vez confirmado.' },
+      { q: '¿Puedo ver una muestra antes de la producción en serie?', a: 'Sí — las muestras de laboratorio están listas en 7–14 días con COA completo. La mayoría de fabricantes descuentan las tarifas de muestra del primer pedido de producción una vez confirmado.' },
       { q: '¿Cómo verifico que una fábrica de fitosanitarios es real?', a: 'Pide una visita por vídeo en directo a la planta y al laboratorio de QC, comprueba las certificaciones con los organismos emisores, solicita informes de análisis de cinco lotes de producciones anteriores y haz un pedido de muestra de prueba. Los pedidos de prueba son la prueba definitiva.' },
       { q: '¿Qué certificaciones debe tener una fábrica OEM de fitosanitarios?', a: 'Mínimo: ISO 9001 e ISO 14001. Muy preferible: cumplimiento GMP y alineación con especificaciones FAO/OMS. Para mercados europeos: registro REACH. Pide los números de certificado y verifica independientemente.' },
     ],
@@ -590,7 +590,7 @@ export const GUIDES_ES: Guide[] = [
       },
       {
         title: 'Costes: muestra, preparación de envase, producción',
-        body: 'Espera tres tipos de cargos: tarifas de muestra (mínimo 1 tonelada, 7–15 días para producir con COA), costes de preparación de envase y etiquetado para contenedores y tiradas de impresión personalizados, y coste de producción unitario en tu tramo de volumen. La mayoría de fábricas descuentan las tarifas de muestra del primer pedido de producción. A volúmenes estándar (20+ toneladas), el precio por unidad se vuelve muy competitivo.',
+        body: 'Espera tres tipos de cargos: tarifas de muestra (mínimo 1 tonelada, 7–14 días para producir con COA), costes de preparación de envase y etiquetado para contenedores y tiradas de impresión personalizados, y coste de producción unitario en tu tramo de volumen. La mayoría de fábricas descuentan las tarifas de muestra del primer pedido de producción. A volúmenes estándar (20+ toneladas), el precio por unidad se vuelve muy competitivo.',
       },
       {
         title: 'Del PO al embarque terminado',
@@ -601,7 +601,7 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Cuál es el pedido mínimo para fitosanitarios de marca privada?', a: '1 tonelada para evaluación de muestras, 5 toneladas para un lote piloto y 20+ toneladas para producción estándar. Los mínimos específicos por formulación pueden variar ligeramente.' },
       { q: '¿Puedo enviar mi propio diseño de marca y envase?', a: 'Sí — envía tus directrices de marca, archivos de logotipo y especificaciones de envase; la fábrica produce una prueba visual antes de la producción para que apruebes colores, colocación y acabado.' },
       { q: '¿Mi producto de marca privada es exclusivo de mi marca?', a: 'Sí, con condiciones estándar de marca privada. Negocia una cláusula de exclusividad territorial; fábricas como la nuestra no suministran marcas competidoras en tu mercado contratado cuando se cumplen los compromisos de volumen.' },
-      { q: '¿Cuánto tarda un pedido de fitosanitarios de marca privada?', a: 'Las muestras se envían en 7–15 días; la producción en serie se completa en 25–35 días tras PO confirmado y depósito. Calcula de 10 a 14 semanas para la primera tirada completa incluyendo aprobación de muestras.' },
+      { q: '¿Cuánto tarda un pedido de fitosanitarios de marca privada?', a: 'Las muestras se envían en 7–14 días; la producción en serie se completa en 25–35 días tras PO confirmado y depósito. Calcula de 10 a 14 semanas para la primera tirada completa incluyendo aprobación de muestras.' },
     ],
     related: [
       { label: 'Soluciones de marca privada de fitosanitarios', href: '/solutions/private-label' },
