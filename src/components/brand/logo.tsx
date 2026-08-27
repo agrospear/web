@@ -1,7 +1,6 @@
 import React from 'react'
-import { BRAND_ASSETS_CDN } from '@/config/branding'
 
-const LOGO_URL = `${BRAND_ASSETS_CDN}/images/sups/brand/agrospear-logo.webp`
+const LOGO_URL = '/apple-touch-icon.png'
 
 function LogoInner({ size = 18, compact = false }: { size?: number; compact?: boolean }) {
   return (
