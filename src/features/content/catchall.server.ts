@@ -11,31 +11,12 @@
 import { OG_IMAGE } from '@/features/seo/seo'
 import { SITE_NAME } from '@/config/site'
 import { defaultLocale, getDictionary, translate, type Locale } from '@/features/i18n/locale'
-import {
-  getContentPage,
-  getContentProduct,
-  getNewsPost,
-  getTechArticle,
-  getCaseUse,
-  getSiteFaqs,
-  hasLocaleVariant,
-  getNewsPosts,
-  getContentProducts,
-  getResearchTopics,
-  getCaseUses,
-  getRegionCount,
-  brandify,
-} from './loader'
+import { getContentPage, getContentProduct, getNewsPost, getTechArticle, getCaseUse, getSiteFaqs, hasLocaleVariant, getNewsPosts, getContentProducts, getResearchTopics, getCaseUses, getRegionCount, brandify } from './loader'
 import { getGuide } from './guide-content'
+import { CATEGORY_FROM_URL, productPath } from '@/product/route-registry'
 import type { CatchAllData } from './catchall'
 import type { ContentPage } from './types'
-import type {
-  AferIndexCase,
-  AferIndexData,
-  AferIndexNews,
-  AferIndexProduct,
-  AferIndexTopic,
-} from './index-data'
+import type { AferIndexCase, AferIndexData, AferIndexNews, AferIndexProduct, AferIndexTopic } from './index-data'
 
 const slugOf = (path: string): string => path.split('/').filter(Boolean).pop() ?? ''
 
@@ -54,7 +35,7 @@ function relatedProducts(
   for (const rest of all.filter((p) => !top.some((t) => t.p.slug === p.slug)).slice(0, Math.max(0, 3 - top.length))) {
     top.push({ p: rest, score: 0 })
   }
-  return top.map(({ p }) => ({ slug: p.slug, title: p.title, image: p.image ?? '' }))
+  return top.map(({ p }) => ({ slug: p.slug, title: p.title, image: p.image ?? '', category: p.category }))
 }
 
 /** Top-3 related posts by shared category (fallback: newest posts), locale-aware. */
@@ -157,11 +138,24 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
     }
   }
   if (path.startsWith('/products/')) {
-    const product = getContentProduct(slugOf(path), locale)
+    const segments = path.split('/').filter(Boolean)
+    const product = (() => {
+      if (segments.length === 3 && segments[0] === 'products') {
+        const maybeCategory = segments[1]
+        const slug = segments[2]
+        if (CATEGORY_FROM_URL[maybeCategory]) {
+          const p = getContentProduct(slug, locale)
+          if (p && (p.category === CATEGORY_FROM_URL[maybeCategory] || !p.category)) return p
+        }
+        return getContentProduct(slug, locale)
+      }
+      return getContentProduct(slugOf(path), locale)
+    })()
     if (product) {
+      const canonicalPath = productPath(product.slug, product.category)
       return {
         kind: 'product',
-        path,
+        path: canonicalPath,
         locale,
         translated,
         esTranslated,
@@ -172,6 +166,7 @@ export function resolveCatchAll(path: string, locale: Locale = defaultLocale): C
         origin: '',
         index: indexFor(undefined, locale),
         related: relatedProducts(product.slug, product.tags ?? [], locale),
+        redirect: path !== canonicalPath ? canonicalPath : undefined,
       }
     }
   }

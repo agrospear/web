@@ -1,0 +1,155 @@
+meta:
+  title: 'Agrochemical Supplier West Asia & Middle East | OEM Crop Protection for Arid Climates | {SITE}'
+  description: 'Agrospear OEM agrochemical solutions for West Asia and Middle East: heat-stable formulations for wheat, cotton and date palm, Arabic and English documentation and registration support.'
+  dateModified: '2026-08-27'
+  keywords:
+    - 'agrochemical OEM Middle East'
+    - 'crop protection West Asia'
+    - 'pesticide registration GCC'
+    - 'herbicide Middle East'
+    - 'wheat pesticide'
+
+hero:
+  tagline: 'Markets · West Asia & Middle East'
+  title: 'Agrochemical Supplier West Asia & Middle East — OEM Crop Protection for Arid Climates'
+  subtitle: 'OEM crop protection products engineered for arid and semi-arid conditions — heat-stable formulations for wheat, cotton and date palm with GCC regulatory documentation and Arabic labeling support.'
+
+answer:
+  label: 'Straight answer'
+  text: 'We supply OEM herbicides, insecticides and fungicides to distributors across the GCC, Levant and Central Asian markets. Our West Asia program features heat-stable formulations tested at 54°C, Arabic and English documentation, and registration support for GCC-standard and national regulatory frameworks.'
+  verified: '2026-08'
+
+intro:
+  - West Asia's crop protection market spans arid and semi-arid agricultural zones where heat stability, UV resistance and water-efficient application methods are critical. GCC countries import the majority of their agrochemical needs, demanding products with proven stability in extreme temperatures and complete documentation in Arabic and English.
+  - Our West Asia program draws on 15+ years of export experience across the region, with products registered or in registration in Saudi Arabia, UAE, Jordan, Iraq and Pakistan.
+
+capabilities:
+  tagline: 'Capabilities'
+  title: 'West Asia Market Solutions'
+  features:
+    - icon: W
+      icon_bg: green
+      title: 'Heat-Stable Formulations'
+      desc: 'Formulations tested at 54°C (CIPAC MT 46) and 45°C long-term storage. UV-resistant packaging and desert-climate adjuvant packages for extreme temperature conditions.'
+      link_label: 'View products'
+      href: /products/herbicides
+    - icon: W
+      icon_bg: blue
+      title: 'Arabic Documentation'
+      desc: 'Complete product documentation in Arabic and English: labels, SDS, technical data sheets and registration dossiers. Adapted to GCC standard and national regulatory requirements.'
+      link_label: 'View documentation'
+      href: /manufacturing/quality-control
+    - icon: W
+      icon_bg: purple
+      title: 'GCC Registration Support'
+      desc: 'Registration documentation compliant with GCC Standardization Organization (GSO) requirements and national pesticide registration authorities across the region.'
+      link_label: 'View registration support'
+      href: /manufacturing/research-development
+    - icon: W
+      icon_bg: orange
+      title: 'Bulk & Institutional Packaging'
+      desc: '5 L, 10 L, 20 L and 200 L packaging for plantation and institutional-scale distribution. Custom DG-compliant export packaging for regional logistics.'
+      link_label: 'View packaging'
+      href: /manufacturing/packaging
+
+crop_profiles:
+  tagline: 'Crops & Pests'
+  title: 'Key Crops and Target Pests — West Asia & Middle East'
+  features:
+    - icon: W
+      icon_bg: green
+      title: 'Wheat — Sunn Pest & Rust'
+      desc: 'Sunn pest (Eurygaster integriceps) and wheat rust affect grain production across the region. EC formulations of chlorpyrifos and SC formulations of tebuconazole for integrated wheat protection.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: D
+      icon_bg: blue
+      title: 'Date Palm — Red Palm Weevil'
+      desc: 'Red palm weevil (Rhynchophorus ferrugineus) devastates date palm plantations. EC formulations of chlorpyrifos and trunk-injection formulations for weevil management programs.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: C
+      icon_bg: purple
+      title: 'Cotton — Bollworm & Whitefly'
+      desc: 'Cotton bollworm complex and whitefly-transmitted viruses affect cotton production in Pakistan and Central Asia. EC formulations of cypermethrin and profenofos for broad-spectrum pest management.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: V
+      icon_bg: orange
+      title: 'Vegetables — Thrips & Leafminers'
+      desc: 'Thrips and leafminers damage greenhouse and open-field vegetables across the region. SC formulations of abamectin and WDG formulations of spinosad for protected cultivation.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+
+regulation_overview:
+  tagline: 'Regulation'
+  title: 'Registration Pathways — West Asia & Middle East'
+  features:
+    - icon: G
+      icon_bg: green
+      title: 'GCC Standardization (GSO)'
+      desc: 'GCC Standardization Organization requirements for pesticide registration across Saudi Arabia, UAE, Kuwait, Bahrain, Oman and Qatar. Harmonized documentation and testing standards.'
+      link_label: 'Registration support'
+      href: /manufacturing/research-development
+    - icon: J
+      icon_bg: blue
+      title: 'National Registration'
+      desc: 'Individual country registration through individual national authorities in Jordan, Iraq, Lebanon and Pakistan. Local dossier preparation and regulatory consulting support.'
+      link_label: 'Registration support'
+      href: /manufacturing/research-development
+    - icon: P
+      icon_bg: purple
+      title: 'Pakistan Pesticide Registration'
+      desc: 'Pakistan Department of Plant Protection registration. Complete documentation including GLP data, field trial reports and local formulation analysis requirements.'
+      link_label: 'Registration support'
+      href: /manufacturing/research-development
+
+faqs:
+  tagline: FAQ
+  title: 'West Asia Market — Frequently Asked Questions'
+  items:
+    - q: 'Which West Asian and Middle Eastern countries do you supply?'
+      a: 'We supply OEM products to distributors across Saudi Arabia, UAE, Kuwait, Bahrain, Oman, Qatar, Jordan, Iraq, Lebanon and Pakistan. Products are registered or in registration in key markets.'
+    - q: 'How do you ensure formulation stability in extreme heat?'
+      a: 'All formulations undergo accelerated stability testing at 54°C (CIPAC MT 46) and long-term stability at 45°C. We adjust adjuvant packages, preservative systems and packaging materials for desert storage conditions exceeding 50°C ambient temperature.'
+    - q: 'Do you provide Arabic documentation?'
+      a: 'Yes. We provide complete product documentation in Arabic and English: labels, safety data sheets, technical data sheets and registration dossiers adapted to GCC and national regulatory requirements.'
+    - q: 'What packaging works for Middle Eastern markets?'
+      a: 'Institutional and plantation-scale packaging: 5 L, 10 L, 20 L and 200 L for liquid formulations; 5 kg, 10 kg and 25 kg for powder formulations. UV-resistant containers for outdoor storage in high-temperature conditions.'
+
+related:
+  tagline: 'Related'
+  title: 'Explore Our OEM Solutions'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Heat-stable herbicide formulations for wheat, alfalfa and orchard weed management — glyphosate, 2,4-D and atrazine for arid agriculture.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Insecticides for date palm, wheat and cotton pest management — chlorpyrifos, cypermethrin and abamectin formulations for extreme temperature conditions.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'OEM Manufacturing'
+      desc: 'Full-service agrochemical OEM — heat-stable formulation engineering, Arabic documentation and GCC registration support.'
+      link_label: 'OEM solutions'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Factory & Quality Control'
+      desc: '12,500 m² manufacturing facility with 7-stage QC system, accelerated stability testing at 54°C and GLP-certified lab.'
+      link_label: 'View factory'
+      href: /manufacturing/factory
+
+cta:
+  title: 'Discuss Your West Asia Market Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All markets
+      href: /markets

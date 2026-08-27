@@ -66,6 +66,35 @@ faqs:
     - q: 'How are development milestones documented?'
       a: 'Every project follows a documented development protocol: formulation brief, lab screening report, pilot batch record, stability data, specification sheet and production transfer protocol. All documents are shared with the client at each milestone.'
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & Markets'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Herbicide R&D — formulation optimization, adjuvant systems and registration dossier development.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Insecticide R&D — novel formulations, stability testing and regulatory compliance.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: A
+      icon_bg: orange
+      title: 'Africa Market'
+      desc: 'Registration dossier support for Sub-Saharan African markets — GLP studies and local submissions.'
+      link_label: 'Africa market'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Southeast Asia Market'
+      desc: 'ASEAN registration support — tropical stability data and harmonized documentation.'
+      link_label: 'Southeast Asia market'
+      href: /markets/southeast-asia
+
 cta:
   title: 'Discuss Your Formulation Development Project'
   actions:

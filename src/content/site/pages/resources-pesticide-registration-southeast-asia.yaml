@@ -1,0 +1,48 @@
+meta:
+  title: 'ASEAN Pesticide Registration: Requirements and Process | Agrospear'
+  description: 'ASEAN pesticide registration requirements: country-by-country process, harmonization efforts, documentation checklists and timelines for agrochemical OEM buyers.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'ASEAN Pesticide Registration: Requirements and Process'
+
+answer:
+  label: 'Straight answer'
+  text: 'ASEAN pesticide registration remains country-specific despite harmonization efforts — each member state (Thailand, Vietnam, Indonesia, Philippines, Malaysia) requires its own submission with local bio-efficacy trials. Typical registration timelines range from 12-24 months, and most countries require ICAMA certificates, complete formulation specifications, GLP toxicity studies and residue data for food crops.'
+  verified: '2026-08'
+
+intro:
+  - 'The ASEAN Harmonized Classification and Labelling of Chemicals (AHLC) provides a framework but pesticide registration authority rests with each national body: the Department of Agriculture in Thailand, the Plant Protection Department in Vietnam, the Directorate General of Pest Control in Indonesia and the Fertilizer and Pesticide Authority in the Philippines. Mutual recognition of data is increasing under the ASEAN Guidelines on Maximum Residue Limits, but separate national dossiers are still required.'
+  - 'OEM buyers should partner with a manufacturer that provides complete data packages including ICAMA registration from China, CIPAC analytical methods, five-batch analysis, acute and chronic toxicity dossiers, and environmental fate studies. Agrospear supplies full registration documentation for all OEM formulations and has active registrations in 8+ ASEAN markets.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Southeast Asia Market'
+      desc: 'OEM supply and registration support for ASEAN countries'
+      link_label: 'Learn more'
+      href: /markets/southeast-asia
+    - icon: R
+      icon_bg: blue
+      title: 'ICAMA Registration'
+      desc: 'China ICAMA registration data packages for export markets'
+      link_label: 'Learn more'
+      href: /research/icama-registration
+    - icon: R
+      icon_bg: green
+      title: 'Regulation by Market'
+      desc: 'Pesticide regulation requirements across global markets'
+      link_label: 'Learn more'
+      href: /agrochemical-regulation-by-market
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

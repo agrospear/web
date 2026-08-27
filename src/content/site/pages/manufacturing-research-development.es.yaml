@@ -66,6 +66,35 @@ faqs:
     - q: '¿Cómo se documentan los hitos de desarrollo?'
       a: 'Cada proyecto sigue un protocolo de desarrollo documentado: brief de formulación, informe de cribado en laboratorio, registro de lote piloto, datos de estabilidad, ficha de especificación y protocolo de transferencia a producción. Todos los documentos se comparten con el cliente en cada hito.'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Mercados'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'I+D de herbicidas — optimización de formulaciones, sistemas de coadyuvantes y desarrollo de expedientes de registro.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'I+D de insecticidas — formulaciones novedosas, pruebas de estabilidad y cumplimiento regulatorio.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: A
+      icon_bg: orange
+      title: 'Mercado de África'
+      desc: 'Soporte de expedientes de registro para mercados del África Subsahariana — estudios GLP y presentaciones locales.'
+      link_label: 'Mercado de África'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Mercado del Sudeste Asiático'
+      desc: 'Soporte de registro ASEAN — datos de estabilidad tropical y documentación armonizada.'
+      link_label: 'Mercado del Sudeste Asiático'
+      href: /markets/southeast-asia
+
 cta:
   title: 'Comenta tu proyecto de desarrollo de formulación'
   actions:

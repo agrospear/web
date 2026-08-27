@@ -1,0 +1,48 @@
+meta:
+  title: 'Por Qué la Certificación ISO 9001 Importa para la Fabricación de Plaguicidas | Agrospear'
+  description: 'Certificación ISO 9001 para plantas de plaguicidas: requisitos de gestión de calidad, trazabilidad, consistencia de lote y por qué los compradores deben exigir proveedores certificados.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Por Qué la Certificación ISO 9001 Importa para la Fabricación de Plaguicidas'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'La certificación ISO 9001 asegura que un fabricante de plaguicidas mantiene sistemas documentados de gestión de calidad con trazabilidad completa de lote, SOPs estandarizados para cada etapa de producción, procesos de acción correctiva para no conformidades, y auditorías internas regulares. Para los compradores, significa calidad de producto consistente lote a lote y evidencia documentada que puede presentarse a autoridades de registro y funcionarios aduaneros.'
+  verified: '2026-08'
+
+intro:
+  - 'En la fabricación agroquímica, la certificación ISO 9001:2015 es más que una credencial — es una garantía estructural de que las especificaciones de materias primas se verifican antes de su uso, los parámetros de producción se registran y controlan en cada etapa, y los productos terminados se prueban contra criterios de aceptación definidos antes de su liberación. Sin ISO 9001, un fabricante no tiene obligación de mantener los procedimientos documentados que protegen a los compradores de la deriva de formulación, contaminación y errores de etiquetado.'
+  - 'Agrospear ha mantenido la certificación ISO 9001 desde 2015, integrándola en un sistema de QC de 7 etapas que cubre análisis de materias primas entrantes, monitoreo de parámetros en proceso, prueba final de producto por HPLC/GC, verificación de embalaje y etiqueta, revisión de datos de estabilidad, y reconciliación de documentación de envío. Cada lote puede rastrearse desde el lote de materia prima hasta el envío final, proporcionando la pista de auditoría que las autoridades de registro y los procesos de licitación gubernamental requieren.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Certificaciones'
+      desc: 'Todas las certificaciones de calidad, ambientales y de cumplimiento obtenidas'
+      link_label: 'Más información'
+      href: /agrochemical-certification-guide
+    - icon: R
+      icon_bg: blue
+      title: 'Lista de Verificación de Auditoría de Fábrica'
+      desc: 'Qué verificar durante una auditoría de fábrica de plaguicidas en China'
+      link_label: 'Más información'
+      href: /manufacturing/factory-audit
+    - icon: R
+      icon_bg: green
+      title: 'Proceso de Control de Calidad'
+      desc: 'QC de 7 etapas desde la materia prima hasta la liberación del envío'
+      link_label: 'Más información'
+      href: /manufacturing/quality-control
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

@@ -15,6 +15,7 @@ import { seriesPages } from '@/product/series-pages'
 import { buildHubEntries } from '@/product/hub-pages'
 import { localizedGuides } from '@/features/content/guide-content'
 import { STATIC_PAGE_CORPUS_TEXT } from '@/product/ai-content'
+import { productPath } from '@/product/route-registry'
 import {
   brandify,
   getContentPage,
@@ -97,7 +98,7 @@ export function buildChunks(locale: Locale): AiChunk[] {
   }
 
   for (const p of getContentProducts(locale)) {
-    const u = url(`/products/${p.slug}`)
+    const u = url(productPath(p.slug, p.category))
     push(u, p.title, [p.summary, p.description].filter(Boolean).join('\n'))
     for (const [i, t] of chunkBody(brandify(p.body)).entries()) push(u, p.title, t, `body${i}`)
   }

@@ -1,0 +1,48 @@
+meta:
+  title: 'OEM Pesticide Label Design: Compliance Requirements by Market | Agrospear'
+  description: 'OEM pesticide label design compliance: GHS pictograms, hazard statements, crop-specific claims, language requirements and registration number display by market.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'OEM Pesticide Label Design: Compliance Requirements by Market'
+
+answer:
+  label: 'Straight answer'
+  text: 'Pesticide labels must comply with GHS hazard communication standards (pictograms, signal words, hazard/precautionary statements), display the local registration number, list approved crop and pest claims, and appear in the official language of the destination market. Label artwork requires approval from the national pesticide registration authority before commercial sale in most countries.'
+  verified: '2026-08'
+
+intro:
+  - 'Label compliance is a registration requirement — not a branding exercise. Each market enforces specific rules: Brazil requires MAPA registration number and toxicological class color band on the label, Thailand mandates Thai-language labels with the Department of Agriculture registration number, and the EU requires CLP-regulated hazard statements in all official languages of the member state where the product is sold. Label text must exactly match the approved registration dossier — any deviation can result in market withdrawal.'
+  - 'Agrospear provides in-house label design and compliance review as part of OEM and private label services. The design team prepares label artwork conforming to each target market''s regulatory requirements, including GHS pictograms, crop-specific use instructions, first-aid statements, environmental hazard warnings and storage/disposal guidance. Labels are verified against the approved registration text as part of the 7-stage QC system before production release.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Private Label Pesticides'
+      desc: 'Brand-ready formulations with compliant label design'
+      link_label: 'Learn more'
+      href: /solutions/private-label-pesticides
+    - icon: R
+      icon_bg: blue
+      title: 'Packaging for Export'
+      desc: 'UN-certified packaging sizes, standards and compliance'
+      link_label: 'Learn more'
+      href: /manufacturing/packaging
+    - icon: R
+      icon_bg: green
+      title: 'SDS Documentation'
+      desc: 'Safety Data Sheet requirements for export markets'
+      link_label: 'Learn more'
+      href: /resources/pesticide-sds-documentation
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

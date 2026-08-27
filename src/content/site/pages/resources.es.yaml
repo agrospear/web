@@ -1,0 +1,102 @@
+meta:
+  title: 'Recursos Agroquímicos — Guías para Compradores y Respuestas Técnicas | {SITE}'
+  description: 'Guías para compradores de agroquímicos, recursos técnicos y respuestas directas para distribuidores, importadores y socios OEM.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Recursos para Compradores de Agroquímicos'
+  subtitle: 'Respuestas directas y guías técnicas para compradores de protección de cultivos, distribuidores y socios OEM.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Guías técnicas, recursos de registro y respuestas para compradores OEM para profesionales agroquímicos. Cada respuesta está respaldada por nuestra experiencia de fabricación en más de 60 países de exportación.'
+  verified: '2026-08'
+
+intro:
+  - Explore nuestra biblioteca de recursos para respuestas directas a preguntas comunes sobre abastecimiento de agroquímicos, guías técnicas de formulación y recursos de registro por mercado.
+
+resource_cards:
+  tagline: 'Recursos'
+  title: 'Todos los recursos'
+  features:
+    - icon: F
+      icon_bg: green
+      title: 'Cómo Encontrar un Fabricante de Plaguicidas Confiable en China'
+      desc: 'Lista de verificación de auditoría de fábrica, verificación de certificaciones y garantía de confianza para compradores de agroquímicos que abastecen desde China.'
+      link_label: 'Leer guía'
+      href: /resources/how-to-find-pesticide-manufacturer-china
+    - icon: O
+      icon_bg: blue
+      title: 'OEM vs Marca Privada de Plaguicidas'
+      desc: 'Comparación lado a lado de fabricación OEM, marca privada y co-branding para marcas agroquímicas.'
+      link_label: 'Leer guía'
+      href: /resources/oem-vs-private-label-pesticides
+    - icon: M
+      icon_bg: purple
+      title: 'MOQ para Fabricación OEM de Plaguicidas'
+      desc: 'Cantidades mínimas de pedido por tipo de formulación, opciones de lote piloto y consideraciones de materias primas.'
+      link_label: 'Leer guía'
+      href: /resources/moq-pesticide-oem
+    - icon: A
+      icon_bg: orange
+      title: 'Registro de Plaguicidas en África'
+      desc: 'Requisitos de registro, preparación de expedientes y documentación para mercados de África Subsahariana.'
+      link_label: 'Leer guía'
+      href: /resources/pesticide-registration-africa
+    - icon: S
+      icon_bg: green
+      title: 'Registro de Plaguicidas ASEAN'
+      desc: 'Directivas armonizadas de registro ASEAN, requisitos de documentación y soporte de presentación local.'
+      link_label: 'Leer guía'
+      href: /resources/pesticide-registration-southeast-asia
+    - icon: G
+      icon_bg: blue
+      title: 'Tipos de Formulación de Glifosato'
+      desc: 'Comparación técnica de formulaciones de glifosato SL, WP y SC — estabilidad, eficacia y manejo.'
+      link_label: 'Leer guía'
+      href: /resources/glyphosate-formulation-types
+    - icon: L
+      icon_bg: purple
+      title: 'Plazo de Fabricación de Plaguicidas desde China'
+      desc: 'Plazos de producción, calendarios de muestreo y planificación logística para pedidos OEM de agroquímicos.'
+      link_label: 'Leer guía'
+      href: /resources/pesticide-lead-time-china
+    - icon: C
+      icon_bg: orange
+      title: 'Desarrollo de Formulación Personalizada'
+      desc: 'Del concepto a la producción: selección de ingrediente activo, optimización de adyuvantes y ensayos piloto.'
+      link_label: 'Leer guía'
+      href: /resources/custom-formulation-development
+    - icon: P
+      icon_bg: green
+      title: 'Embalaje de Plaguicidas para Exportación'
+      desc: 'Tamaños de embalaje, especificaciones UN y requisitos específicos por mercado para exportación agroquímica.'
+      link_label: 'Leer guía'
+      href: /resources/pesticide-packaging-export
+    - icon: T
+      icon_bg: blue
+      title: 'Lista de Verificación de Auditoría de Fábrica para Fabricantes de Plaguicidas'
+      desc: 'Lista de verificación de auditoría de ocho áreas para evaluar socios de fabricación agroquímica en China.'
+      link_label: 'Leer guía'
+      href: /resources/factory-audit-china-pesticide
+    - icon: H
+      icon_bg: purple
+      title: 'Métodos de Prueba HPLC para Plaguicidas'
+      desc: 'Verificación de ingrediente activo, pruebas de especificación y análisis de lote para QC agroquímico.'
+      link_label: 'Leer guía'
+      href: /resources/hplc-pesticide-testing
+    - icon: D
+      icon_bg: orange
+      title: 'Documentación de Exportación de Plaguicidas'
+      desc: 'Certificados de origen, informes FQC, trazabilidad de lotes y documentación aduanera para mercados de exportación.'
+      link_label: 'Leer guía'
+      href: /resources/pesticide-export-documentation
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Soluciones OEM
+      href: /solutions/agrochemical-oem

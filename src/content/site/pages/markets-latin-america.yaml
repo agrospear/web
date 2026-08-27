@@ -52,6 +52,58 @@ capabilities:
       link_label: 'View packaging'
       href: /manufacturing/packaging
 
+crop_profiles:
+  tagline: 'Crops & Pests'
+  title: 'Key Crops and Target Pests — Latin America'
+  features:
+    - icon: S
+      icon_bg: green
+      title: 'Soybean — Soybean Rust & Armyworm'
+      desc: 'Asian soybean rust (Phakopsora pachyrhizi) and soybean looper cause significant yield loss. SC formulations of tebuconazole and azoxystrobin for rust, EC formulations of chlorpyrifos for lepidopteran control.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: C
+      icon_bg: blue
+      title: 'Corn — Fall Armyworm & Earworm'
+      desc: 'Fall armyworm and corn earworm threaten maize production across LATAM. SC formulations of chlorantraniliprole, WDG formulations of methomyl and EC formulations of lambda-cyhalothrin.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: G
+      icon_bg: purple
+      title: 'Sugarcane — Sugarcane Borer'
+      desc: 'Sugarcane borer (Diatraea saccharalis) is the primary pest in Brazilian and Colombian sugarcane. EC formulations of fipronil and lambda-cyhalothrin for borer management programs.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: orange
+      title: 'Coffee — Coffee Leaf Rust'
+      desc: 'Coffee leaf rust (Hemileia vastatrix) affects Arabica production in Brazil, Colombia and Central America. WP and SC formulations of mancozeb and tebuconazole for preventive and curative programs.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+
+regulation_overview:
+  tagline: 'Regulation'
+  title: 'Registration Pathways — Latin America'
+  features:
+    - icon: B
+      icon_bg: green
+      title: 'MAPA — Brazil'
+      desc: 'Brazilian Ministry of Agriculture registration through MAPA. GLP study reports, five-batch analysis, residue data and formulation specifications. Our team coordinates with local Brazilian consultants.'
+      link_label: 'Registration support'
+      href: /manufacturing/research-development
+    - icon: A
+      icon_bg: blue
+      title: 'SENASA — Argentina'
+      desc: 'Argentine National Service of Agrifood Health and Quality registration. Complete dossier preparation with GLP data, local consultant coordination and submission management.'
+      link_label: 'Registration support'
+      href: /manufacturing/research-development
+    - icon: M
+      icon_bg: purple
+      title: 'COFEPRIS — Mexico'
+      desc: 'Mexican Federal Commission for Protection against Sanitary Risks registration. COFEPRIS-compliant documentation with local submission support and regulatory consulting.'
+      link_label: 'Registration support'
+      href: /manufacturing/research-development
+
 faqs:
   tagline: FAQ
   title: 'Latin America Market — Frequently Asked Questions'
@@ -64,6 +116,41 @@ faqs:
       a: 'We supply bulk quantities for extensive agriculture: 200 L drums, 1,000 L IBCs and custom bulk packaging. Production capacity supports multi-container orders with 25–35 day lead time for existing formulations.'
     - q: 'Do you support registration in Brazil (MAPA)?'
       a: 'Yes. We provide MAPA-compliant registration documentation including GLP study reports, five-batch analysis, residue data and formulation specifications. Our regulatory team coordinates with local Brazilian consultants for MAPA submissions.'
+
+related:
+  tagline: 'Related'
+  title: 'Explore Our OEM Solutions'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Large-scale herbicides for extensive agriculture — glyphosate, 2,4-D, atrazine and fomesafen formulations for soybean and corn.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Insecticides for LATAM row crops — chlorpyrifos, abamectin and imidacloprid formulations for aerial and mechanized application.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicides'
+      desc: 'Fungicides for soybean rust, corn diseases and sugarcane — mancozeb, carbendazim and tebuconazole formulations.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: O
+      icon_bg: orange
+      title: 'OEM Manufacturing'
+      desc: 'Full-service agrochemical OEM — bulk formulation, MAPA/SENASA registration support and plantation-scale packaging.'
+      link_label: 'OEM solutions'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Factory & Quality Control'
+      desc: '12,500 m² manufacturing facility with 7-stage QC system, 50,000+ t annual capacity and multi-container order fulfillment.'
+      link_label: 'View factory'
+      href: /manufacturing/factory
 
 cta:
   title: 'Discuss Your Latin America Requirements'

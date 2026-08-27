@@ -65,6 +65,35 @@ faqs:
     - q: 'How long does a production run take?'
       a: 'Bulk production runs 25–35 days after confirmed PO and deposit for existing formulations. New formulations requiring development add 35–55 days for lab screening, pilot production and stability testing before full-scale production.'
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & OEM Services'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Herbicide formulation engineering — SC, EC, WP, WDG and microemulsion development.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Insecticide formulation development — EC, SC, WP and controlled-release technologies.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'OEM Solutions'
+      desc: 'Custom formulation OEM — from active ingredient selection to finished product delivery.'
+      link_label: 'OEM solutions'
+      href: /solutions/agrochemical-oem
+    - icon: F
+      icon_bg: purple
+      title: 'Factory'
+      desc: '12,500 m² facility with dedicated formulation lines and pilot plant capability.'
+      link_label: 'View factory'
+      href: /manufacturing/factory
+
 cta:
   title: 'Discuss Your Formulation Requirements'
   actions:

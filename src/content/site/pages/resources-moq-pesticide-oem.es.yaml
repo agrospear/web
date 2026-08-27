@@ -1,0 +1,48 @@
+meta:
+  title: 'Cuál Es la Cantidad Mínima de Pedido para Fabricación OEM de Plaguicidas | Agrospear'
+  description: 'MOQ de OEM de plaguicidas explicado: desarrollo de muestras desde 1-4 toneladas, pedidos piloto de 5 toneladas, producción en volumen de 20+ toneladas por lote con desglose completo de cronología.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Cuál Es la Cantidad Mínima de Pedido para Fabricación OEM de Plaguicidas'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El MOQ de OEM de plaguicidas sigue tres etapas: desarrollo de muestras de 1-4 toneladas por formulación (7-12 días), pedidos piloto de 5 toneladas en plataformas existentes, y producción estándar en volumen de más de 20 toneladas por lote (25-35 días después del PO y depósito). El desarrollo completo de formulación personalizada agrega 15-20 días a la cronología.'
+  verified: '2026-08'
+
+intro:
+  - 'El MOQ de agroquímicos no es un número fijo único — está determinado por la ruta de producción y la configuración del proyecto. Los lotes de muestra validan la química de formulación y las propiedades físicas antes de comprometerse con el volumen. Los pedidos piloto utilizan materiales existentes en stock para probar la aceptación del mercado con bajo riesgo. La producción en volumen se beneficia de economías de escala, con niveles de precios que disminuyen a medida que aumenta el tamaño del pedido.'
+  - 'Agrospear estructura el MOQ de manera flexible para apoyar la entrada a nuevos mercados: cantidades de prueba están disponibles para socios primerizos, y los proyectos de co-branding pueden comenzar con volúmenes más bajos en formulaciones registradas. Todos los términos de MOQ, plazos de entrega y condiciones de pago se confirman por escrito por proyecto antes de que comience la producción.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Servicios OEM Agroquímicos'
+      desc: 'Flujo de trabajo completo de proyecto OEM desde la formulación hasta el envío'
+      link_label: 'Más información'
+      href: /solutions/agrochemical-oem
+    - icon: R
+      icon_bg: blue
+      title: 'Guía del Comprador OEM'
+      desc: 'Guía de abastecimiento con estrategias de negociación de MOQ y errores comunes'
+      link_label: 'Más información'
+      href: /research/oem-buyer-guide
+    - icon: R
+      icon_bg: green
+      title: 'Plazo de Fabricación'
+      desc: 'Qué esperar en los plazos de producción y envío de plaguicidas'
+      link_label: 'Más información'
+      href: /resources/pesticide-lead-time-china
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

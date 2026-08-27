@@ -1,0 +1,48 @@
+meta:
+  title: 'Pesticide Safety Data Sheet (SDS) Documentation for Export Markets | Agrospear'
+  description: 'Pesticide SDS documentation for export: GHS classification, 16-section format, language requirements, REACH compliance and manufacturer documentation obligations.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Pesticide Safety Data Sheet (SDS) Documentation for Export Markets'
+
+answer:
+  label: 'Straight answer'
+  text: 'Every pesticide shipment must include a Safety Data Sheet conforming to the GHS 16-section format, with hazard classification, first-aid measures, exposure controls and disposal guidance specific to the formulation. Many markets require SDS in the local language (Brazilian Portuguese, Bahasa Indonesia, Vietnamese), and the EU additionally requires REACH-compliant extended SDS with exposure scenarios for professional users.'
+  verified: '2026-08'
+
+intro:
+  - 'The Safety Data Sheet is a legal requirement in virtually every pesticide import market and must accurately reflect the specific formulation — not just the technical-grade active ingredient. Section 9 (physical and chemical properties) must report measured values for pH, viscosity, flash point and density of the actual product. Section 10 (stability and reactivity) must identify incompatibilities specific to the co-formulants. OEM buyers who receive generic SDS copied from technical-grade data face customs rejection, registration refusal and liability exposure.'
+  - 'Agrospear provides formulation-specific SDS for every OEM product, prepared by regulatory affairs specialists in GHS-compliant 16-section format. SDS are available in English, Spanish, Portuguese, French, Arabic, Russian and other languages required by destination markets. All SDS are reviewed and updated with each batch''s Certificate of Analysis data, ensuring consistency between the SDS and the actual product shipped.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Quality Control Process'
+      desc: '7-stage QC including documentation verification and release'
+      link_label: 'Learn more'
+      href: /manufacturing/quality-control
+    - icon: R
+      icon_bg: blue
+      title: 'Export Documentation'
+      desc: 'Full documentation package for pesticide export shipments'
+      link_label: 'Learn more'
+      href: /resources/pesticide-export-documentation
+    - icon: R
+      icon_bg: green
+      title: 'OEM Label Design'
+      desc: 'Label compliance requirements by market'
+      link_label: 'Learn more'
+      href: /resources/pesticide-label-design-oem
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

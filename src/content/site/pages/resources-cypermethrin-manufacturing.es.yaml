@@ -1,0 +1,48 @@
+meta:
+  title: 'Fabricación de Cipermetrina: Guía de Formulación EC y WP | Agrospear'
+  description: 'Guía de fabricación de cipermetrina: formulaciones EC 250 y WP 25, selección de solventes, pruebas CIPAC, datos de estabilidad y especificaciones OEM para suministro global.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Fabricación de Cipermetrina: Guía de Formulación EC y WP'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'La cipermetrina se fabrica en dos formulaciones principales: EC 250 g/L (concentrado emulsionable — el estándar global para control de insectos de amplio espectro) y WP 25% (polvo mojable — menor costo para aplicación foliar). La formulación EC requiere xileno o nafta de solventes como portador con mezclas de emulsionantes que logran emulsión estable según CIPAC MT 36, mientras que WP requiere optimización de dispersante y agente humectante para >75% de suspensibilidad después de 30 minutos.'
+  verified: '2026-08'
+
+intro:
+  - 'La cipermetrina es un piretroide sintético con actividad contra lepidópteros, coleópteros y hemípteros en aplicaciones de algodón, hortalizas, frutas y control de vectores de salud pública. La formulación EC 250 domina el mercado debido a excelente cobertura de aspersión, resistencia a la lluvia y compatibilidad con equipos de aplicación ULV. WP 25 es preferida en mercados donde las formulaciones a base de solventes enfrentan restricciones regulatorias o donde se prioriza la aplicación de bajo costo.'
+  - 'Agrospear fabrica cipermetrina EC 250 en líneas dedicadas de concentrado emulsionable con pruebas de estabilidad de emulsión según CIPAC MT 36 (sin crema o separación después de 24 horas a 30°C en agua dura de 342 ppm). WP 25 se produce en la línea de polvo mojable con optimización de tamaño de partícula para D50 de 5-10 μm y suspensibilidad >75% según CIPAC MT 15. Cada lote se somete a análisis HPLC según método CIPAC 333 con verificación de relación de isómeros α/β, asegurando actividad biológica consistente.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Productos Insecticidas'
+      desc: 'Gama completa de insecticidas incluyendo piretroides y neonicotinoides'
+      link_label: 'Más información'
+      href: /products/insecticides
+    - icon: R
+      icon_bg: blue
+      title: 'Comparación de Tipos de Formulación'
+      desc: 'EC, WP, SC y otros tipos de formulación comparados'
+      link_label: 'Más información'
+      href: /formulation-type-comparison
+    - icon: R
+      icon_bg: green
+      title: 'Prueba HPLC de Plaguicidas'
+      desc: 'Verificación de ingrediente activo y análisis de relación de isómeros'
+      link_label: 'Más información'
+      href: /resources/hplc-pesticide-testing
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

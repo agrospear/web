@@ -26,6 +26,7 @@ test('every registry section with content renders non-empty markup', { timeout: 
     '/markets/africa → capabilities',
     '/markets/southeast-asia → capabilities',
     '/markets/latin-america → capabilities',
+    '/markets/west-asia → capabilities',
     '/products/herbicides → intro',
     '/products/insecticides → intro',
     '/products/fungicides → intro',

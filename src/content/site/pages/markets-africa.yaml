@@ -52,6 +52,64 @@ capabilities:
       link_label: 'Request a quote'
       href: /request-quote
 
+crop_profiles:
+  tagline: 'Crops & Pests'
+  title: 'Key Crops and Target Pests — Africa'
+  features:
+    - icon: M
+      icon_bg: green
+      title: 'Maize — Fall Armyworm'
+      desc: 'Fall armyworm (Spodoptera frugiperda) causes 20–50% yield loss across Sub-Saharan maize regions. SC formulations of emamectin benzoate and chlorantraniliprole, FS seed treatments of clothianidin and thiamethoxam for early-stage protection.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: C
+      icon_bg: blue
+      title: 'Cocoa — Black Pod & Mirids'
+      desc: 'Cocoa black pod (Phytophthora) and mirid bugs (Sahlbergella) threaten West African cocoa exports. WP and SC formulations of mancozeb and metalaxyl, COLEACP-compliant for export-grade production.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: R
+      icon_bg: purple
+      title: 'Rice — African Rice Gall Midge'
+      desc: 'Rice gall midge and stem borer affect irrigated and rainfed rice across West and East Africa. EC formulations of cypermethrin and chlorpyrifos, WP formulations of cartap for IPM programs.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: V
+      icon_bg: orange
+      title: 'Vegetables — Whitefly & Aphids'
+      desc: 'Whitefly-transmitted viruses and aphid damage affect tomato, pepper and leafy vegetable production. SC and EC formulations of imidacloprid and abamectin, smallholder-friendly packaging sizes.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: T
+      icon_bg: green
+      title: 'Cotton — Bollworm Complex'
+      desc: 'Bollworms, aphids and jassids affect cotton production in West, Central and Southern Africa. EC formulations of profenofos and cypermethrin for broad-spectrum cotton pest management.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+
+regulation_overview:
+  tagline: 'Regulation'
+  title: 'Registration Pathways — Africa'
+  features:
+    - icon: W
+      icon_bg: blue
+      title: 'WAEMU/CILLS — West Africa'
+      desc: 'Harmonized registration for Benin, Burkina Faso, Côte d''Ivoire, Guinea-Bissau, Mali, Niger, Senegal and Togo. Single dossier serves all WAEMU member states.'
+      link_label: 'Registration support'
+      href: /manufacturing/research-development
+    - icon: E
+      icon_bg: green
+      title: 'National Systems — East Africa'
+      desc: 'Individual registration through KEPHIS (Kenya), TPRI (Tanzania), NARL (Uganda). East African Community progressing toward mutual recognition.'
+      link_label: 'Registration support'
+      href: /manufacturing/research-development
+    - icon: C
+      icon_bg: purple
+      title: 'COLEACP Compliance'
+      desc: 'Good Practices protocols for export-grade cocoa, fruit and vegetable formulations. Documentation aligned with EU MRL requirements for African export crops.'
+      link_label: 'View certifications'
+      href: /agrochemical-certification-guide
+
 faqs:
   tagline: FAQ
   title: 'Africa Market — Frequently Asked Questions'
@@ -64,6 +122,41 @@ faqs:
       a: 'Yes. We provide complete product documentation in French for Francophone markets: labels, safety data sheets, technical data sheets and registration dossiers. Our regulatory team has experience with WAEMU and CEMAC registration requirements.'
     - q: 'What packaging sizes work for African markets?'
       a: 'Smallholder-friendly packaging: 100 mL, 250 mL and 1 L for liquid formulations; 100 g, 250 g and 1 kg for powder formulations. Bulk packaging (5 L, 10 L, 20 L) for institutional and plantation-scale buyers.'
+
+related:
+  tagline: 'Related'
+  title: 'Explore Our OEM Solutions'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Broad-spectrum and selective herbicides for African staple crops — glyphosate, glufosinate, 2,4-D and atrazine formulations.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Contact and systemic insecticides for food crop protection — cypermethrin, chlorpyrifos and abamectin formulations.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicides'
+      desc: 'Preventive and curative fungicides for staple crop disease management — mancozeb, carbendazim and metalaxyl formulations.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: O
+      icon_bg: orange
+      title: 'OEM Manufacturing'
+      desc: 'Full-service agrochemical OEM — formulation development, private labeling, registration support and export logistics.'
+      link_label: 'OEM solutions'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Factory & Quality Control'
+      desc: '12,500 m² manufacturing facility with 7-stage QC system, GLP-certified lab and 100% batch analysis.'
+      link_label: 'View factory'
+      href: /manufacturing/factory
 
 cta:
   title: 'Discuss Your Africa Market Requirements'

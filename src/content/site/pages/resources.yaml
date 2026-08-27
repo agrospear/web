@@ -1,0 +1,102 @@
+meta:
+  title: 'Agrochemical Resources — Buyer Guides & Technical Answers | {SITE}'
+  description: 'Agrochemical buyer guides, technical resources and direct answers for distributors, importers and OEM partners.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Agrochemical Buyer Resources'
+  subtitle: 'Direct answers and technical guides for crop protection buyers, distributors and OEM partners.'
+
+answer:
+  label: 'Straight answer'
+  text: 'Technical guides, registration resources and OEM buyer answers for agrochemical professionals. Every answer is backed by our manufacturing experience across 60+ export countries.'
+  verified: '2026-08'
+
+intro:
+  - Browse our resource library for direct answers to common agrochemical sourcing questions, technical formulation guides and market-specific registration resources.
+
+resource_cards:
+  tagline: 'Resources'
+  title: 'All Resources'
+  features:
+    - icon: F
+      icon_bg: green
+      title: 'How to Find a Reliable Pesticide Manufacturer in China'
+      desc: 'Factory audit checklist, certification verification and trust assurance for agrochemical buyers sourcing from China.'
+      link_label: 'Read guide'
+      href: /resources/how-to-find-pesticide-manufacturer-china
+    - icon: O
+      icon_bg: blue
+      title: 'OEM vs Private Label Pesticides'
+      desc: 'Side-by-side comparison of OEM manufacturing, private labeling and co-branding models for agrochemical brands.'
+      link_label: 'Read guide'
+      href: /resources/oem-vs-private-label-pesticides
+    - icon: M
+      icon_bg: purple
+      title: 'MOQ for Pesticide OEM Manufacturing'
+      desc: 'Minimum order quantities per formulation type, pilot batch options and raw-material considerations.'
+      link_label: 'Read guide'
+      href: /resources/moq-pesticide-oem
+    - icon: A
+      icon_bg: orange
+      title: 'Pesticide Registration in Africa'
+      desc: 'Registration requirements, dossier preparation and documentation for Sub-Saharan African markets.'
+      link_label: 'Read guide'
+      href: /resources/pesticide-registration-africa
+    - icon: S
+      icon_bg: green
+      title: 'ASEAN Pesticide Registration'
+      desc: 'ASEAN harmonized registration guidelines, documentation requirements and local submission support.'
+      link_label: 'Read guide'
+      href: /resources/pesticide-registration-southeast-asia
+    - icon: G
+      icon_bg: blue
+      title: 'Glyphosate Formulation Types'
+      desc: 'Technical comparison of glyphosate SL, WP and SC formulations — stability, efficacy and handling.'
+      link_label: 'Read guide'
+      href: /resources/glyphosate-formulation-types
+    - icon: L
+      icon_bg: purple
+      title: 'Pesticide Manufacturing Lead Time from China'
+      desc: 'Production timelines, sampling schedules and logistics planning for agrochemical OEM orders.'
+      link_label: 'Read guide'
+      href: /resources/pesticide-lead-time-china
+    - icon: C
+      icon_bg: orange
+      title: 'Custom Formulation Development'
+      desc: 'From concept to production: active ingredient selection, adjuvant optimization and pilot trials.'
+      link_label: 'Read guide'
+      href: /resources/custom-formulation-development
+    - icon: P
+      icon_bg: green
+      title: 'Pesticide Packaging for Export'
+      desc: 'Packaging sizes, UN specifications and market-specific requirements for agrochemical export.'
+      link_label: 'Read guide'
+      href: /resources/pesticide-packaging-export
+    - icon: T
+      icon_bg: blue
+      title: 'Factory Audit Checklist for Pesticide Manufacturers'
+      desc: 'Eight-area audit checklist for evaluating agrochemical manufacturing partners in China.'
+      link_label: 'Read guide'
+      href: /resources/factory-audit-china-pesticide
+    - icon: H
+      icon_bg: purple
+      title: 'HPLC Pesticide Testing Methods'
+      desc: 'Active ingredient verification, specification testing and batch analysis for agrochemical QC.'
+      link_label: 'Read guide'
+      href: /resources/hplc-pesticide-testing
+    - icon: D
+      icon_bg: orange
+      title: 'Pesticide Export Documentation'
+      desc: 'Certificates of origin, FQC reports, batch traceability and customs documentation for export markets.'
+      link_label: 'Read guide'
+      href: /resources/pesticide-export-documentation
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: OEM Solutions
+      href: /solutions/agrochemical-oem

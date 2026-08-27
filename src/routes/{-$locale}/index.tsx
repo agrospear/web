@@ -6,7 +6,7 @@ import type { Locale } from '@/features/i18n/locale'
 import { getDictionary, translate } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { pick, homeFaq } from '@/product/content'
-import { JsonLd, faqLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
+import { JsonLd, faqLd, siteBreadcrumbLd, manufacturingBusinessLd } from '@/features/seo/jsonld'
 import { SITE_NAME } from '@/config'
 import { MarketingShell } from '@/components/marketing/shell'
 import { Hero } from '@/components/marketing/hero'
@@ -22,6 +22,10 @@ const FaqSection = lazy(() => import('@/components/marketing/faq').then((m) => (
 const CtaBand = lazy(() => import('@/components/marketing/cta').then((m) => ({ default: m.CtaBand })))
 const FactoryCarousel = lazy(() => import('@/components/marketing/factory-carousel').then((m) => ({ default: m.FactoryCarousel })))
 const ProductCategories = lazy(() => import('@/components/marketing/product-categories').then((m) => ({ default: m.ProductCategories })))
+const TrustBar = lazy(() => import('@/components/marketing/trust-bar').then((m) => ({ default: m.TrustBar })))
+const ManufacturingFlow = lazy(() => import('@/components/marketing/manufacturing-flow').then((m) => ({ default: m.ManufacturingFlow })))
+const OemSolutions = lazy(() => import('@/components/marketing/oem-solutions').then((m) => ({ default: m.OemSolutions })))
+const MarketsSection = lazy(() => import('@/components/marketing/markets-section').then((m) => ({ default: m.MarketsSection })))
 
 export const Route = createFileRoute('/{-$locale}/')({
   loader: async () => ({ origin: await getOrigin() }),
@@ -48,9 +52,13 @@ function Home() {
   return (
     <MarketingShell>
       <Hero />
+      <Suspense fallback={null}><TrustBar /></Suspense>
       <Suspense fallback={null}><FactoryCarousel /></Suspense>
       <Suspense fallback={null}><ProductCategories /></Suspense>
+      <Suspense fallback={null}><ManufacturingFlow /></Suspense>
       <Suspense fallback={null}><CollaborationSelector /></Suspense>
+      <Suspense fallback={null}><OemSolutions /></Suspense>
+      <Suspense fallback={null}><MarketsSection /></Suspense>
       <Suspense fallback={null}><WhoWeServe /></Suspense>
       <Suspense fallback={null}><CommercialTerms /></Suspense>
       <Suspense fallback={null}><PlantCapability /></Suspense>
@@ -59,6 +67,7 @@ function Home() {
       <Suspense fallback={null}><ProjectsShowcase /></Suspense>
       <Suspense fallback={null}><FaqSection data={homeFaq} /></Suspense>
       <Suspense fallback={null}><CtaBand /></Suspense>
+      <JsonLd data={manufacturingBusinessLd({ path: '/', name: 'Agrospear Agrochemical Manufacturing', description: 'OEM agrochemical manufacturer in Qingdao, China — custom formulation, private label and bulk supply for 50+ export markets.' })} />
       <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }])} />
       <JsonLd data={faqLd(pick(homeFaq, locale).items, locale)} />
     </MarketingShell>

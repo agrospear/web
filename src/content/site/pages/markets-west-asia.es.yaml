@@ -1,0 +1,155 @@
+meta:
+  title: 'Proveedor de Agroquímicos Asia Occidental y Oriente Medio | OEM Fitosanitarios para Climas Áridos | {SITE}'
+  description: 'Soluciones agroquímicas OEM de Agrospear para Asia Occidental y Oriente Medio: formulaciones termoestables para trigo, algodón y palmera datilera, documentación en árabe e inglés y soporte de registro.'
+  dateModified: '2026-08-27'
+  keywords:
+    - 'agroquímicos OEM Oriente Medio'
+    - 'fitosanitarios Asia Occidental'
+    - 'registro de pesticidas GCC'
+    - 'herbicida Oriente Medio'
+    - 'pesticida para trigo'
+
+hero:
+  tagline: 'Mercados · Asia Occidental y Oriente Medio'
+  title: 'Proveedor de Agroquímicos Asia Occidental y Oriente Medio — OEM Fitosanitarios para Climas Áridos'
+  subtitle: 'Productos fitosanitarios OEM diseñados para condiciones áridas y semiáridas — formulaciones termoestables para trigo, algodón y palmera datilera con documentación regulatoria GCC y etiquetado en árabe.'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Suministramos herbicidas, insecticidas y fungicidas OEM a distribuidores en los mercados del GCC, Levante y Asia Central. Nuestro programa de Asia Occidental incluye formulaciones termoestables probadas a 54°C, documentación en árabe e inglés, y soporte de registro para marcos regulatorios del estándar GCC y nacionales.'
+  verified: '2026-08'
+
+intro:
+  - El mercado de fitosanitarios de Asia Occidental abarca zonas agrícolas áridas y semiáridas donde la estabilidad térmica, la resistencia UV y los métodos de aplicación eficientes en agua son críticos. Los países del GCC importan la mayoría de sus necesidades agroquímicas, exigiendo productos con estabilidad probada en temperaturas extremas y documentación completa en árabe e inglés.
+  - Nuestro programa de Asia Occidental se basa en más de 15 años de experiencia de exportación en la región, con productos registrados o en registro en Arabia Saudita, EAU, Jordania, Irak y Pakistán.
+
+capabilities:
+  tagline: 'Capacidades'
+  title: 'Soluciones para el Mercado de Asia Occidental'
+  features:
+    - icon: W
+      icon_bg: green
+      title: 'Formulaciones Termoestables'
+      desc: 'Formulaciones probadas a 54°C (CIPAC MT 46) y almacenamiento a largo plazo a 45°C. Embalaje resistente a UV y paquetes de adyuvantes para clima desértico en condiciones de temperatura extrema.'
+      link_label: 'Ver productos'
+      href: /es/products/herbicides
+    - icon: W
+      icon_bg: blue
+      title: 'Documentación en Árabe'
+      desc: 'Documentación completa del producto en árabe e inglés: etiquetas, SDS, fichas técnicas y expedientes de registro. Adaptada al estándar GCC y requisitos regulatorios nacionales.'
+      link_label: 'Ver documentación'
+      href: /es/manufacturing/quality-control
+    - icon: W
+      icon_bg: purple
+      title: 'Soporte de Registro GCC'
+      desc: 'Documentación de registro conforme a los requisitos de la Organización de Estandarización del GCC (GSO) y autoridades nacionales de registro de pesticidas en la región.'
+      link_label: 'Ver soporte de registro'
+      href: /es/manufacturing/research-development
+    - icon: W
+      icon_bg: orange
+      title: 'Embalaje Institucional y al por Mayor'
+      desc: 'Embalaje de 5 L, 10 L, 20 L y 200 L para distribución a escala de plantación e institucional. Embalaje de exportación personalizado conforme a DG para logística regional.'
+      link_label: 'Ver embalaje'
+      href: /es/manufacturing/packaging
+
+crop_profiles:
+  tagline: 'Cultivos y Plagas'
+  title: 'Cultivos Principales y Plagas Objetivo — Asia Occidental y Oriente Medio'
+  features:
+    - icon: W
+      icon_bg: green
+      title: 'Trigo — Plaga del Sol y Roya'
+      desc: 'La plaga del sol (Eurygaster integriceps) y la roya del trigo afectan la producción de grano en la región. Formulaciones EC de clorpirifos y formulaciones SC de tebuconazol para protección integrada del trigo.'
+      link_label: 'Ver insecticidas'
+      href: /es/products/insecticides
+    - icon: D
+      icon_bg: blue
+      title: 'Palmera Datilera — Picudo Rojo'
+      desc: 'El picudo rojo (Rhynchophorus ferrugineus) devasta las plantaciones de palmera datilera. Formulaciones EC de clorpirifos y formulaciones de inyección al tronco para programas de manejo del picudo.'
+      link_label: 'Ver insecticidas'
+      href: /es/products/insecticides
+    - icon: C
+      icon_bg: purple
+      title: 'Algodón — Gusano y Mosca Blanca'
+      desc: 'El complejo de gusano del algodonero y los virus transmitidos por mosca blanca afectan la producción de algodón en Pakistán y Asia Central. Formulaciones EC de cipermetrina y profenofos para manejo de plagas de amplio espectro.'
+      link_label: 'Ver insecticidas'
+      href: /es/products/insecticides
+    - icon: V
+      icon_bg: orange
+      title: 'Hortalizas — Trips y Minadores'
+      desc: 'Trips y minadores dañan hortalizas de invernadero y campo abierto en la región. Formulaciones SC de abamectina y formulaciones WDG de espinosad para cultivo protegido.'
+      link_label: 'Ver insecticidas'
+      href: /es/products/insecticides
+
+regulation_overview:
+  tagline: 'Regulación'
+  title: 'Vías de Registro — Asia Occidental y Oriente Medio'
+  features:
+    - icon: G
+      icon_bg: green
+      title: 'Estandarización GCC (GSO)'
+      desc: 'Requisitos de la Organización de Estandarización del GCC para el registro de pesticidas en Arabia Saudita, EAU, Kuwait, Bahréin, Omán y Qatar. Documentación y estándares de prueba armonizados.'
+      link_label: 'Soporte de registro'
+      href: /es/manufacturing/research-development
+    - icon: J
+      icon_bg: blue
+      title: 'Registro Nacional'
+      desc: 'Registro individual por país a través de autoridades nacionales en Jordania, Irak, Líbano y Pakistán. Preparación de expedientes locales y soporte de consultoría regulatoria.'
+      link_label: 'Soporte de registro'
+      href: /es/manufacturing/research-development
+    - icon: P
+      icon_bg: purple
+      title: 'Registro de Pesticidas en Pakistán'
+      desc: 'Registro ante el Departamento de Protección Vegetal de Pakistán. Documentación completa incluyendo datos GLP, informes de ensayos de campo y requisitos de análisis de formulación local.'
+      link_label: 'Soporte de registro'
+      href: /es/manufacturing/research-development
+
+faqs:
+  tagline: FAQ
+  title: 'Mercado de Asia Occidental — Preguntas frecuentes'
+  items:
+    - q: '¿A qué países de Asia Occidental y Oriente Medio suministráis?'
+      a: 'Suministramos productos OEM a distribuidores en Arabia Saudita, EAU, Kuwait, Bahréin, Omán, Qatar, Jordania, Irak, Líbano y Pakistán. Los productos están registrados o en registro en los mercados clave.'
+    - q: '¿Cómo aseguráis la estabilidad de la formulación en calor extremo?'
+      a: 'Todas las formulaciones se someten a pruebas de estabilidad acelerada a 54°C (CIPAC MT 46) y estabilidad a largo plazo a 45°C. Ajustamos paquetes de adyuvantes, sistemas de conservantes y materiales de embalaje para condiciones de almacenamiento desértico que superan los 50°C de temperatura ambiente.'
+    - q: '¿Proporcionáis documentación en árabe?'
+      a: 'Sí. Proporcionamos documentación completa del producto en árabe e inglés: etiquetas, fichas de seguridad, fichas técnicas y expedientes de registro adaptados a los requisitos regulatorios del GCC y nacionales.'
+    - q: '¿Qué embalaje funciona para los mercados de Oriente Medio?'
+      a: 'Embalaje institucional y a escala de plantación: 5 L, 10 L, 20 L y 200 L para formulaciones líquidas; 5 kg, 10 kg y 25 kg para formulaciones en polvo. Contenedores resistentes a UV para almacenamiento exterior en condiciones de alta temperatura.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Explore Nuestras Soluciones OEM'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Formulaciones herbicidas termoestables para trigo, alfalfa y manejo de malezas en huertos — glifosato, 2,4-D y atrazina para agricultura árida.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Insecticidas para palmera datilera, trigo y algodón — formulaciones de clorpirifos, cipermetrina y abamectina para condiciones de temperatura extrema.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'Fabricación OEM'
+      desc: 'OEM agroquímico integral — ingeniería de formulaciones termoestables, documentación en árabe y soporte de registro GCC.'
+      link_label: 'Soluciones OEM'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Fábrica y Control de Calidad'
+      desc: 'Instalación de fabricación de 12.500 m² con sistema de QC de 7 etapas, pruebas de estabilidad acelerada a 54°C y laboratorio certificado GLP.'
+      link_label: 'Ver fábrica'
+      href: /manufacturing/factory
+
+cta:
+  title: 'Comenta tus requisitos para el mercado de Asia Occidental'
+  actions:
+    - text: Solicitar cotización
+      href: /es/request-quote
+    - text: Todos los mercados
+      href: /es/markets

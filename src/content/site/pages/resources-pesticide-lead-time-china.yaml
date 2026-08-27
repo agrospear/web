@@ -1,0 +1,48 @@
+meta:
+  title: 'Pesticide Manufacturing Lead Time from China: What to Expect | Agrospear'
+  description: 'Pesticide manufacturing lead time from China: sample development 7-12 days, bulk production 25-35 days, custom formulation adds 15-20 days plus shipping transit.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Pesticide Manufacturing Lead Time from China: What to Expect'
+
+answer:
+  label: 'Straight answer'
+  text: 'Standard pesticide OEM lead time from China is 25-35 days after confirmed PO and deposit for volume production on existing formulations, with sample batches shipping in 7-12 days. Custom formulation development adds 15-20 days for R&D, compatibility testing and pilot batch validation. Sea freight adds 7-12 days to US West Coast, 25-35 days to Europe and 15-25 days to Africa.'
+  verified: '2026-08'
+
+intro:
+  - 'Lead time is one of the most critical factors in agrochemical sourcing — planting seasons don''t wait for late shipments. The total timeline breaks into three phases: production (25-35 days for standard formulations), quality control and documentation (3-5 days for final release, COA and customs paperwork), and shipping (varies by destination and Incoterms). Buyers should build a 10-15% buffer into planning for regulatory holds, raw material availability delays or port congestion.'
+  - 'Agrospear maintains raw material buffer stocks for high-demand active ingredients and operates 6 production lines to enable parallel batch scheduling, reducing lead time for multi-SKU orders. The 7-stage QC system is integrated into production — not a post-production bottleneck — so final release typically completes within 3 days of production finish. Emergency expedited production at 15-20 days is available for existing formulations with confirmed raw material availability.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Agrochemical OEM Services'
+      desc: 'Full OEM manufacturing project workflow and timelines'
+      link_label: 'Learn more'
+      href: /solutions/agrochemical-oem
+    - icon: R
+      icon_bg: blue
+      title: 'MOQ Guide'
+      desc: 'Minimum order quantities and production path options'
+      link_label: 'Learn more'
+      href: /resources/moq-pesticide-oem
+    - icon: R
+      icon_bg: green
+      title: 'Factory Capacity'
+      desc: 'Production lines, equipment and annual output capabilities'
+      link_label: 'Learn more'
+      href: /factory/capacity
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

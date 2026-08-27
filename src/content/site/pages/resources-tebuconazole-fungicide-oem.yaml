@@ -1,0 +1,48 @@
+meta:
+  title: 'Tebuconazole Fungicide OEM Manufacturing: What Buyers Need to Know | Agrospear'
+  description: 'Tebuconazole OEM manufacturing guide: SC 250, WP 25, WDG 80 formulations, CIPAC specs, stability data and registration support for global markets.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Tebuconazole Fungicide OEM Manufacturing: What Buyers Need to Know'
+
+answer:
+  label: 'Straight answer'
+  text: 'Tebuconazole OEM manufacturing covers SC 250 g/L, WP 25% and WDG 80% formulations, with SC 250 being the most traded globally for foliar spray on cereals, fruits and vegetables. Buyers should verify CIPAC method 407 compliance for active ingredient analysis, confirm accelerated stability data (54°C/14 days), and ensure the manufacturer provides complete ICAMA registration documentation for target market submissions.'
+  verified: '2026-08'
+
+intro:
+  - 'Tebuconazole is a triazole fungicide with broad-spectrum activity against rusts, powdery mildew and leaf spot diseases on over 70 crops worldwide. The SC 250 g/L formulation dominates trade due to superior spray coverage and rainfastness compared to WP alternatives. WDG 80% is preferred for export logistics — its higher concentration reduces shipping volume and cost per kilogram of active ingredient.'
+  - 'Agrospear manufactures tebuconazole formulations on its suspension concentrate and WDG lines, with 7-stage QC including HPLC analysis per CIPAC 407, particle size distribution verification (D90 < 5 μm for SC), suspensibility testing (>90% after 30 min), and pH/viscosity checks. Full registration data packages with five-batch analysis, acute toxicity studies and environmental fate data are available for OEM clients.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Fungicide Products'
+      desc: 'Full fungicide formulation range including triazoles'
+      link_label: 'Learn more'
+      href: /products/fungicides
+    - icon: R
+      icon_bg: blue
+      title: 'Custom Formulation Development'
+      desc: 'From concept to production for custom pesticide formulations'
+      link_label: 'Learn more'
+      href: /solutions/custom-formulation
+    - icon: R
+      icon_bg: green
+      title: 'Formulation Stability Testing'
+      desc: 'CIPAC methods for herbicide and fungicide stability validation'
+      link_label: 'Learn more'
+      href: /resources/herbicide-formulation-stability
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

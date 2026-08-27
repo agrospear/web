@@ -83,6 +83,47 @@ faqs:
     - q: '¿Cuáles son sus términos de envío?'
       a: 'FOB Qingdao, CIF a los principales puertos globales o DDP para socios cualificados. Enviamos a más de 50 países en mercados de la UE, EE. UU., LATAM, África y Asia.'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Mercados'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Fabricación OEM de herbicidas — formulaciones de glifosato, glufosinato, 2,4-D, atrazina y selectivos.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Fabricación OEM de insecticidas — formulaciones de cipermetrina, clorpirifos, imidacloprid y abamectina.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicidas'
+      desc: 'Fabricación OEM de fungicidas — formulaciones de mancozeb, carbendazima, metalaxil y combinaciones.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: A
+      icon_bg: orange
+      title: 'África'
+      desc: 'Suministro OEM para África Subsahariana — soporte de registro, MOQ flexible y documentación en francés e inglés.'
+      link_label: 'Mercado de África'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Sudeste Asiático'
+      desc: 'Suministro OEM para ASEAN — formulaciones tropicales, embalaje para pequeños agricultores y soporte de registro.'
+      link_label: 'Mercado del Sudeste Asiático'
+      href: /markets/southeast-asia
+    - icon: L
+      icon_bg: blue
+      title: 'América Latina'
+      desc: 'Suministro OEM para LATAM — formulaciones a granel, registro MAPA/SENASA y embalaje a escala de plantación.'
+      link_label: 'Mercado de América Latina'
+      href: /markets/latin-america
+
 cta:
   title: '¿Listo para Lanzar Tu Línea OEM?'
   subtitle: 'Envía tu formulación o especificación — recibe un presupuesto detallado en un día laborable.'

@@ -1,0 +1,48 @@
+meta:
+  title: 'Factory Audit Checklist for Pesticide Manufacturers in China | Agrospear'
+  description: 'Factory audit checklist for Chinese pesticide manufacturers: certifications, equipment, QC lab, production lines, documentation and red flags to verify on-site.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Factory Audit Checklist for Pesticide Manufacturers in China'
+
+answer:
+  label: 'Straight answer'
+  text: 'A factory audit for Chinese pesticide manufacturers should verify ISO 9001/14001 certification, inspect formulation compounding lines and bead mill equipment, confirm in-house QC lab with HPLC/GC capability, review ICAMA registration documents, check 7-stage QC records from raw material to shipment, and validate export experience with reference clients in your target market.'
+  verified: '2026-08'
+
+intro:
+  - 'An effective factory audit goes beyond documentary checks — it requires on-site verification of production capability, quality systems and regulatory compliance. Key areas include: formulation compounding equipment (mixing vessels, bead mills, sand mills for SC/WDG), QC laboratory instrumentation (HPLC, GC, particle size analyzer, viscosity meter, stability chambers), raw material and finished goods warehousing conditions, and traceability systems linking batch numbers to Certificate of Analysis documentation.'
+  - 'Agrospear''s 12,500 m² facility is designed for full transparency: visiting buyers can inspect all 6 production lines, the analytical lab, stability testing chambers and warehousing. The factory holds ISO 9001:2015 and ISO 14001 certifications, maintains ICAMA registrations for 200+ formulations, and operates a documented 7-stage QC system covering incoming materials, in-process monitoring and final release inspection.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Factory Audit Services'
+      desc: 'On-site and virtual audit options for qualified buyers'
+      link_label: 'Learn more'
+      href: /manufacturing/factory-audit
+    - icon: R
+      icon_bg: blue
+      title: 'Quality Control Process'
+      desc: '7-stage QC system from raw material intake to shipment release'
+      link_label: 'Learn more'
+      href: /manufacturing/quality-control
+    - icon: R
+      icon_bg: green
+      title: 'Find a Reliable Manufacturer'
+      desc: 'How to evaluate and verify Chinese pesticide suppliers'
+      link_label: 'Learn more'
+      href: /resources/how-to-find-pesticide-manufacturer-china
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

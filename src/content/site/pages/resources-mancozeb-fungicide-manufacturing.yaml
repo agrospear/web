@@ -1,0 +1,48 @@
+meta:
+  title: 'Mancozeb Fungicide Manufacturing: WP and WDG Formulations | Agrospear'
+  description: 'Mancozeb fungicide manufacturing: WP 80 and WDG 75 formulations, CIPAC methods, dithiocarbamate analysis, dust reduction and OEM supply specifications.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Mancozeb Fungicide Manufacturing: WP and WDG Formulations'
+
+answer:
+  label: 'Straight answer'
+  text: 'Mancozeb is manufactured primarily as WP 80% and WDG 75% formulations for foliar fungicide application on potatoes, tomatoes, grapes and cereals. WDG (water-dispersible granule) is increasingly preferred over WP due to reduced dust exposure, easier handling and better suspensibility (>85% after 30 minutes per CIPAC MT 15). Active ingredient analysis uses the CS₂ evolution method per CIPAC 39, as dithiocarbamates cannot be directly quantified by HPLC.'
+  verified: '2026-08'
+
+intro:
+  - 'Mancozeb is the world''s most widely used contact fungicide by volume, applied across 70+ crops as a multi-site protectant with no recorded field resistance. The WP 80 formulation has been the industry standard for decades, but occupational exposure concerns during mixing have driven demand for WDG 75 — the granular form generates minimal dust during handling and disperses rapidly in the spray tank. WDG manufacturing requires spray-drying or pan-granulation equipment with precise binder and dispersant formulation.'
+  - 'Agrospear produces mancozeb WP 80 and WDG 75 on dedicated dithiocarbamate lines with strict segregation from other formulation types to prevent cross-contamination. Each batch undergoes CIPAC 39 analysis for mancozeb content, suspensibility testing (WP >70%, WDG >85% per CIPAC MT 15), wet sieve test (residue <2% on 75 μm sieve), and accelerated stability at 54°C/14 days. The 7-stage QC system includes zinc and manganese ion verification to confirm ethylenebisdithiocarbamate integrity.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Fungicide Products'
+      desc: 'Full fungicide range including dithiocarbamates and triazoles'
+      link_label: 'Learn more'
+      href: /products/fungicides
+    - icon: R
+      icon_bg: blue
+      title: 'Formulation Type Comparison'
+      desc: 'WP vs WDG formulation properties and application differences'
+      link_label: 'Learn more'
+      href: /formulation-type-comparison
+    - icon: R
+      icon_bg: green
+      title: 'Formulation Stability Testing'
+      desc: 'CIPAC accelerated stability and suspensibility methods'
+      link_label: 'Learn more'
+      href: /resources/herbicide-formulation-stability
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

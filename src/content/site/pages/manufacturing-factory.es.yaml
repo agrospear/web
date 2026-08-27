@@ -221,6 +221,35 @@ evidence_review:
   title: 'Evidencia de Fábrica — Verificada'
   body: 'Todas las afirmaciones de fabricación en esta página son verificadas por nuestro equipo de ingeniería de fabricación en la planta de Qingdao. Certificados, registros de QC y registros de trazabilidad están disponibles a petición. Especificaciones verificadas por última vez 2026-08.'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Servicios OEM'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Líneas de producción de herbicidas — fabricación de formulaciones SC, EC, WP y WDG.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Líneas de producción de insecticidas — formulaciones EC, SC, WP y microencapsuladas.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'Soluciones OEM'
+      desc: 'OEM agroquímico integral — desde desarrollo de formulaciones hasta logística de exportación.'
+      link_label: 'Soluciones OEM'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Mercados'
+      desc: 'Programas de mercado regionales — África, Sudeste Asiático, América Latina y más de 40 países.'
+      link_label: 'Ver mercados'
+      href: /markets
+
 cta:
   title: 'Explora Nuestra Fábrica'
   actions:

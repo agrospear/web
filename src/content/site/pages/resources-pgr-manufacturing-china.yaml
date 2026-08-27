@@ -1,0 +1,48 @@
+meta:
+  title: 'Plant Growth Regulator Manufacturing in China: Paclobutrazol and Beyond | Agrospear'
+  description: 'Plant growth regulator manufacturing in China: paclobutrazol, chlormequat, ethephon formulations, OEM specs, CIPAC methods and market applications.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Plant Growth Regulator Manufacturing in China: Paclobutrazol and Beyond'
+
+answer:
+  label: 'Straight answer'
+  text: 'China is the world''s largest producer of plant growth regulators, with paclobutrazol SC 250 g/L, chlormequat AS 50% and ethephon SL 40% being the top three by volume. PGR manufacturing requires precise active ingredient dosing (±1% tolerance), stability-optimized formulations to prevent premature degradation, and crop-specific label claims validated by bio-efficacy trials in the target market.'
+  verified: '2026-08'
+
+intro:
+  - 'Plant growth regulators represent a specialized agrochemical segment where dosing precision is critical — over-application can stunt crops while under-application delivers no effect. Paclobutrazol, a triazole PGR, controls excessive vegetative growth in fruit trees and rice at application rates as low as 0.1-0.5 g/L. Chlormequat, the highest-volume PGR globally, prevents lodging in wheat and barley. Ethephon promotes uniform ripening in cotton and fruit crops. Each requires formulation-specific manufacturing: paclobutrazol in SC, chlormequat in aqueous solution (AS), and ethephon in SL.'
+  - 'Agrospear manufactures PGR formulations on dedicated lines with ±1% active ingredient tolerance — tighter than the standard ±2% for conventional pesticides — due to the dose-sensitivity of growth regulator applications. Each batch undergoes accelerated stability testing at 54°C with active ingredient recovery verification, and CIPAC analytical methods are applied for paclobutrazol (method 448), chlormequat (method 73) and ethephon (method 221).'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'PGR Products'
+      desc: 'Plant growth regulator formulations and applications'
+      link_label: 'Learn more'
+      href: /products/pgr
+    - icon: R
+      icon_bg: blue
+      title: 'Biopesticide OEM'
+      desc: 'Market opportunity and technical requirements'
+      link_label: 'Learn more'
+      href: /products/biopesticides
+    - icon: R
+      icon_bg: green
+      title: 'Formulation Type Comparison'
+      desc: 'All agrochemical formulation types and their properties'
+      link_label: 'Learn more'
+      href: /formulation-type-comparison
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

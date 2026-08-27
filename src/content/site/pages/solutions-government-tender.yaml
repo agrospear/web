@@ -86,6 +86,29 @@ faqs:
     - q: 'Do you handle delivery to government-designated locations?'
       a: 'Yes. We ship FOB, CIF or DDP to government-designated ports and warehouses in 50+ countries, with export documentation and customs clearance handled by our logistics team.'
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & Markets'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Tender-grade herbicide supply — bulk quantities, government specifications and full documentation.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Tender-grade insecticide supply — vector control and crop protection formulations for government programs.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: A
+      icon_bg: orange
+      title: 'Africa'
+      desc: 'Government tender supply for African markets — local registration, bulk packaging and documentation.'
+      link_label: 'Africa market'
+      href: /markets/africa
+
 cta:
   title: 'Discuss Your Procurement Requirements'
   subtitle: 'Share your tender specification or procurement brief — our team responds with a compliance assessment and quotation within one business day.'

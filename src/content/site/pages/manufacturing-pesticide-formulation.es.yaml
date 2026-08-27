@@ -65,6 +65,35 @@ faqs:
     - q: '¿Cuánto tarda una producción?'
       a: 'La producción en 25–35 días tras PO y depósito confirmados para formulaciones existentes. Las formulaciones nuevas que requieren desarrollo añaden 35–55 días para análisis de laboratorio, producción piloto y pruebas de estabilidad.'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Servicios OEM'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Ingeniería de formulación de herbicidas — desarrollo de formulaciones SC, EC, WP, WDG y microemulsión.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Desarrollo de formulación de insecticidas — formulaciones EC, SC, WP y tecnologías de liberación controlada.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'Soluciones OEM'
+      desc: 'OEM de formulación personalizada — desde selección de ingrediente activo hasta entrega de producto terminado.'
+      link_label: 'Soluciones OEM'
+      href: /solutions/agrochemical-oem
+    - icon: F
+      icon_bg: purple
+      title: 'Fábrica'
+      desc: 'Instalación de 12.500 m² con líneas de formulación dedicadas y capacidad de planta piloto.'
+      link_label: 'Ver fábrica'
+      href: /manufacturing/factory
+
 cta:
   title: 'Comenta tus requisitos de formulación'
   actions:

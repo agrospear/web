@@ -1,0 +1,48 @@
+meta:
+  title: 'Adjuvant Selection Guide: Surfactants, Oils and Drift Control Agents | Agrospear'
+  description: 'Adjuvant selection guide: non-ionic surfactants, crop oil concentrates, MSO, drift control agents and humectants — when and how to use each type.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Adjuvant Selection Guide: Surfactants, Oils and Drift Control Agents'
+
+answer:
+  label: 'Straight answer'
+  text: 'Adjuvants enhance pesticide performance through three mechanisms: non-ionic surfactants (NIS, 0.1-0.5% v/v) reduce surface tension for better leaf coverage, crop oil concentrates and methylated seed oils (MSO, 1-2% v/v) improve cuticular penetration of lipophilic actives, and drift control agents (polymer-based, 0.05-0.25% v/v) reduce fine droplet formation during aerial or boom spray application.'
+  verified: '2026-08'
+
+intro:
+  - 'Choosing the right adjuvant depends on the formulation type, target pest, crop canopy structure and spray equipment. Glyphosate SL performs best with ammonium sulfate (2% w/v) to counteract hard water cation antagonism, plus a non-ionic surfactant for wetting. Lipophilic fungicides (tebuconazole, azoxystrobin) show 15-30% improved rainfastness with MSO compared to NIS alone. Herbicide applications by aircraft require drift control agents to keep >90% of spray volume in the 200-400 μm droplet range.'
+  - 'Agrospear manufactures adjuvant formulations including non-ionic surfactant blends, vegetable-based MSO, and polymer drift control agents for OEM and co-branding supply. Each product is tank-mix compatibility tested against major herbicide, fungicide and insecticide formulations, with physical stability data (no phase separation, no sedimentation after 24 hours at 1:50 and 1:100 dilution ratios).'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Adjuvant Products'
+      desc: 'Surfactants, oils and drift control agent formulations'
+      link_label: 'Learn more'
+      href: /products/adjuvants
+    - icon: R
+      icon_bg: blue
+      title: 'Glyphosate Formulation Types'
+      desc: 'SL, WP and SC glyphosate with adjuvant compatibility data'
+      link_label: 'Learn more'
+      href: /resources/glyphosate-formulation-types
+    - icon: R
+      icon_bg: green
+      title: 'Custom Formulation Development'
+      desc: 'Custom adjuvant and pesticide formulation projects'
+      link_label: 'Learn more'
+      href: /solutions/custom-formulation
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

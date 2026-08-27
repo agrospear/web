@@ -70,6 +70,47 @@ faqs:
     - q: 'How is quality controlled?'
       a: 'Every batch passes a 7-stage inspection gate system with stability testing at 54°C for 14 days, active content verification by HPLC/GC, and 10-year ERP batch traceability.'
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & Markets'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Broad-spectrum and selective herbicide formulations — glyphosate, glufosinate, 2,4-D and atrazine manufacturing.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Contact and systemic insecticide formulations — cypermethrin, chlorpyrifos, imidacloprid and abamectin manufacturing.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicides'
+      desc: 'Preventive and curative fungicide formulations — mancozeb, carbendazim and metalaxyl manufacturing.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: A
+      icon_bg: orange
+      title: 'Africa'
+      desc: 'OEM agrochemical supply for Sub-Saharan Africa — broad-spectrum formulations, registration support and flexible MOQ.'
+      link_label: 'Africa market'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Southeast Asia'
+      desc: 'Tropical-climate OEM formulations for rice, rubber and palm oil — ASEAN registration support.'
+      link_label: 'Southeast Asia market'
+      href: /markets/southeast-asia
+    - icon: L
+      icon_bg: blue
+      title: 'Latin America'
+      desc: 'Large-scale OEM formulations for soybean, corn and sugarcane — MAPA and SENASA registration support.'
+      link_label: 'Latin America market'
+      href: /markets/latin-america
+
 cta:
   title: 'Explore Our Manufacturing'
   actions:

@@ -16,6 +16,7 @@ import { knowledge } from '@/product/knowledge'
 import { projects } from '@/product/projects'
 import { seriesPages } from '@/product/series-pages'
 import { solutionPath, solutionPages } from '@/product/solution-pages'
+import { productPath, CATEGORY_SLUGS } from '@/product/route-registry'
 
 /* ───────────────────────── live route set ───────────────────────── */
 
@@ -35,13 +36,13 @@ const LIVE = new Set([
   '/solutions', '/faq', '/partners', '/terms', '/privacy', '/search', '/evidence/case-studies',
   ...GUIDES.map((g) => `/guides/${g.slug}`),
   ...getNewsPosts().map((p) => `/news/${p.slug}`),
-  ...getContentProducts().map((p) => `/products/${p.slug}`),
+  ...getContentProducts().map((p) => productPath(p.slug, p.category)),
   ...getTechArticles().map((a) => `/technology/${a.slug}`),
   ...getCaseUses().map((c) => `/evidence/case-studies/${c.slug}`),
   ...getResearchTopics().map((t) => `/research/${t.slug}`),
   ...knowledge.en.map((a) => `/knowledge/${a.slug}`),
   ...projects.en.map((p) => `/projects/${p.slug}`),
-  ...seriesPages.en.map((s) => `/products/${s.slug}`),
+  ...seriesPages.en.map((s) => `/products/${CATEGORY_SLUGS[s.slug] ?? s.slug}`),
   ...solutionPages.en.map((s) => solutionPath(s.slug)),
 ])
 

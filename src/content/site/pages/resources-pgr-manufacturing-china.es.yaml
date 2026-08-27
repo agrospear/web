@@ -1,0 +1,48 @@
+meta:
+  title: 'Fabricación de Reguladores de Crecimiento Vegetal en China: Paclobutrazol y Más | Agrospear'
+  description: 'Fabricación de reguladores de crecimiento vegetal en China: formulaciones de paclobutrazol, clormequat, etefón, especificaciones OEM, métodos CIPAC y aplicaciones de mercado.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Fabricación de Reguladores de Crecimiento Vegetal en China: Paclobutrazol y Más'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'China es el mayor productor mundial de reguladores de crecimiento vegetal, con paclobutrazol SC 250 g/L, clormequat AS 50% y etefón SL 40% siendo los tres principales por volumen. La fabricación de RCV requiere dosificación precisa de ingrediente activo (tolerancia ±1%), formulaciones optimizadas para estabilidad para prevenir degradación prematura, y reclamaciones de etiqueta específicas por cultivo validadas por ensayos de bioeficacia en el mercado objetivo.'
+  verified: '2026-08'
+
+intro:
+  - 'Los reguladores de crecimiento vegetal representan un segmento agroquímico especializado donde la precisión de dosificación es crítica — la sobredosificación puede atrofiar los cultivos mientras que la infradosificación no produce efecto. El paclobutrazol, un RCV triazol, controla el crecimiento vegetativo excesivo en árboles frutales y arroz a tasas de aplicación tan bajas como 0.1-0.5 g/L. El clormequat, el RCV de mayor volumen a nivel global, previene el encamado en trigo y cebada. El etefón promueve la maduración uniforme en algodón y cultivos frutales. Cada uno requiere fabricación específica por formulación: paclobutrazol en SC, clormequat en solución acuosa (AS), y etefón en SL.'
+  - 'Agrospear fabrica formulaciones de RCV en líneas dedicadas con tolerancia de ingrediente activo de ±1% — más estricta que la estándar de ±2% para plaguicidas convencionales — debido a la sensibilidad de dosis de las aplicaciones de reguladores de crecimiento. Cada lote se somete a pruebas de estabilidad acelerada a 54°C con verificación de recuperación de ingrediente activo, y se aplican métodos analíticos CIPAC para paclobutrazol (método 448), clormequat (método 73) y etefón (método 221).'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Productos RCV'
+      desc: 'Formulaciones y aplicaciones de reguladores de crecimiento vegetal'
+      link_label: 'Más información'
+      href: /products/pgr
+    - icon: R
+      icon_bg: blue
+      title: 'OEM de Biopesticidas'
+      desc: 'Oportunidad de mercado y requisitos técnicos'
+      link_label: 'Más información'
+      href: /products/biopesticides
+    - icon: R
+      icon_bg: green
+      title: 'Comparación de Tipos de Formulación'
+      desc: 'Todos los tipos de formulación agroquímica y sus propiedades'
+      link_label: 'Más información'
+      href: /formulation-type-comparison
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

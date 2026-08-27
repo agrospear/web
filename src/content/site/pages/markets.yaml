@@ -47,6 +47,12 @@ capabilities:
       href: /markets/latin-america
     - icon: M
       icon_bg: orange
+      title: 'West Asia & Middle East'
+      desc: 'Heat-stable formulations for wheat, cotton and date palm. Arabic and English documentation. GCC registration support. Bulk and institutional packaging.'
+      link_label: 'View West Asia market'
+      href: /markets/west-asia
+    - icon: M
+      icon_bg: red
       title: 'Global Export'
       desc: 'Custom documentation, DG-compliant packaging and logistics support for any market. 15+ years of export experience across 40+ countries. Flexible OEM programs for new market entry.'
       link_label: 'View manufacturing'

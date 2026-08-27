@@ -1,0 +1,48 @@
+meta:
+  title: 'Seed Treatment Formulation Manufacturing: Flowable Concentrates and Film Coatings | Agrospear'
+  description: 'Seed treatment formulation manufacturing: flowable concentrates (FS), film coatings, colorants and key quality parameters for OEM seed treatment supply.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Seed Treatment Formulation Manufacturing: Flowable Concentrates and Film Coatings'
+
+answer:
+  label: 'Straight answer'
+  text: 'Seed treatment formulations are primarily flowable concentrates for seed treatment (FS) at 200-600 g/L active ingredient, combined with film-coating polymers, colorants and safeners. Key quality parameters include seed coverage uniformity (>95% coverage at target dose), low dust-off rates (<0.5 g/100 seeds), germination safety (≥95% of untreated control), and flowability through mechanized planting equipment.'
+  verified: '2026-08'
+
+intro:
+  - 'The global seed treatment market is growing at 8-10% annually as farmers shift from broadcast spray to precision seed-applied protection. FS formulations require specialized manufacturing: active ingredient must be micronized to D90 < 3 μm for uniform seed coverage, suspension stability must exceed 95% after 30 minutes, and the final product must be compatible with film-coating polymers without phase separation. Common active ingredients include imidacloprid, thiamethoxam, metalaxyl-M and fludioxonil in combination premixes.'
+  - 'Agrospear manufactures seed treatment formulations on dedicated FS lines with bead mill grinding for sub-3 μm particle size, automated colorant dosing for seed identification compliance, and in-house seed coverage and dust-off testing. The 7-stage QC process includes germination safety testing in partnership with certified seed laboratories, ensuring treated seeds meet ≥95% germination compared to untreated controls.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Seed Treatment Products'
+      desc: 'FS formulations and premix seed treatment solutions'
+      link_label: 'Learn more'
+      href: /products/seed-treatment
+    - icon: R
+      icon_bg: blue
+      title: 'Premix Formulations'
+      desc: 'Combination pesticides for broader spectrum protection'
+      link_label: 'Learn more'
+      href: /products/premix-formulations
+    - icon: R
+      icon_bg: green
+      title: 'Insecticide Products'
+      desc: 'Neonicotinoid and other insecticide formulations'
+      link_label: 'Learn more'
+      href: /products/insecticides
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

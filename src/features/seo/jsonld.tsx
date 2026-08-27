@@ -137,4 +137,6 @@ export {
   shippingLogisticsLd,
   productVariantFaqLd,
   qcHowToLd,
+  manufacturingBusinessLd,
+  marketRegionLd,
 } from './product-jsonld'

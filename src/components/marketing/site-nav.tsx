@@ -158,6 +158,7 @@ export function SiteNav() {
       label: t('agro.nav.resources'),
       items: [
         { label: t('agro.nav.resourcesDropdown.knowledge'), href: '/knowledge' },
+        { label: 'Buyer Resources', href: '/resources' },
         { label: t('agro.nav.resourcesDropdown.onboarding'), href: '/oem-onboarding-guide' },
         { label: t('agro.nav.resourcesDropdown.faq'), href: '/faq' },
         { label: t('agro.nav.resourcesDropdown.moqAndPricing'), href: '/oem-moq-guide' },

@@ -1,0 +1,48 @@
+meta:
+  title: 'Pruebas de Estabilidad de Formulación Herbicida: Métodos CIPAC Explicados | Agrospear'
+  description: 'Pruebas de estabilidad de herbicidas según métodos CIPAC: almacenamiento acelerado a 54°C, ciclos de congelación-descongelación, pruebas de suspensibilidad y deriva de pH para cumplimiento OEM.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Pruebas de Estabilidad de Formulación Herbicida: Métodos CIPAC Explicados'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Las pruebas de estabilidad CIPAC para formulaciones herbicidas implican almacenamiento acelerado a 54°C durante 14 días (simulando vida útil de 2 años), ciclos de congelación-descongelación a -10°C/+25°C durante 5 ciclos, y monitoreo continuo del contenido de ingrediente activo, suspensibilidad, pH y viscosidad. Las formulaciones deben retener ≥95% del ingrediente activo declarado y no mostrar separación física después del acondicionamiento de estabilidad para cumplir con las especificaciones FAO/OMS.'
+  verified: '2026-08'
+
+intro:
+  - 'El Consejo Colaborativo Internacional para el Análisis de Plaguicidas (CIPAC) publica los métodos de prueba reconocidos internacionalmente que fundamentan las especificaciones FAO/OMS de plaguicidas. MT 46 cubre las pruebas de almacenamiento acelerado, MT 39 mide la suspensibilidad de formulaciones dispersables en agua, MT 75 determina la estabilidad de emulsión, y MT 148 evalúa la vertibilidad. Estos métodos son obligatorios para el registro ICAMA y para cumplir con los requisitos de importación en la mayoría de los mercados regulados.'
+  - 'Agrospear realiza pruebas de estabilidad CIPAC en cámaras ambientales dedicadas en su instalación de 12.500 m². Cada lote de formulación se somete a pruebas aceleradas de 54°C/14 días antes de su liberación, y el monitoreo de estabilidad a largo plazo continúa a 25°C y 35°C para verificación continua de vida útil. El sistema de QC de 7 etapas integra métodos CIPAC en la recepción de materias primas, verificaciones en proceso y etapas de liberación final.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Control de Calidad'
+      desc: 'Proceso de QC de 7 etapas desde la materia prima hasta la liberación del envío'
+      link_label: 'Más información'
+      href: /manufacturing/quality-control
+    - icon: R
+      icon_bg: blue
+      title: 'Prueba HPLC de Plaguicidas'
+      desc: 'Verificación de ingrediente activo por métodos HPLC y GC'
+      link_label: 'Más información'
+      href: /resources/hplc-pesticide-testing
+    - icon: R
+      icon_bg: green
+      title: 'Tipos de Formulación de Glifosato'
+      desc: 'Formulaciones de glifosato SL, WP y SC comparadas'
+      link_label: 'Más información'
+      href: /resources/glyphosate-formulation-types
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

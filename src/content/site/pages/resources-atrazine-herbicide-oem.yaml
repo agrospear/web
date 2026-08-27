@@ -1,0 +1,48 @@
+meta:
+  title: 'Atrazine Herbicide OEM Manufacturing: Specifications and Market Access | Agrospear'
+  description: 'Atrazine herbicide OEM manufacturing: SC 500, WP 80 and WDG 90 formulations, CIPAC specs, market restrictions and supply for corn and sugarcane markets.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Atrazine Herbicide OEM Manufacturing: Specifications and Market Access'
+
+answer:
+  label: 'Straight answer'
+  text: 'Atrazine OEM manufacturing covers SC 500 g/L, WP 80% and WDG 90% formulations, with SC 500 being the dominant format for pre-emergence weed control in corn and sugarcane. While banned in the EU since 2004, atrazine remains registered and widely used across the Americas, Africa and parts of Asia. CIPAC method 153 validates active ingredient content, with chlorotriazine impurity limits strictly monitored per FAO/WHO specifications.'
+  verified: '2026-08'
+
+intro:
+  - 'Atrazine is the most widely used herbicide in global corn production, applied pre-emergence or early post-emergence at 1-3 kg ai/ha for broadleaf and grass weed control. The SC 500 formulation offers superior spray uniformity and tank-mix compatibility compared to WP alternatives, while WDG 90 reduces shipping cost per kilogram of active ingredient for export markets. Key markets include Brazil (largest consumer), the United States, Mexico, Argentina, China, India and across sub-Saharan Africa.'
+  - 'Agrospear manufactures atrazine SC 500 and WDG 90 with full ICAMA registration and CIPAC 153 analytical validation. Each batch undergoes impurity profiling for chlorotriazine metabolites (desethylatrazine, deisopropylatrazine) to meet the strictest market specifications. OEM clients receive complete registration data packages with five-batch analysis, toxicity dossiers and environmental fate data for independent registration in target markets across the Americas and Africa.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Herbicide Products'
+      desc: 'Full herbicide formulation range for row crop weed control'
+      link_label: 'Learn more'
+      href: /products/herbicides
+    - icon: R
+      icon_bg: blue
+      title: 'Latin America Market'
+      desc: 'OEM supply for corn and sugarcane crop protection'
+      link_label: 'Learn more'
+      href: /markets/latin-america
+    - icon: R
+      icon_bg: green
+      title: 'Glyphosate Formulation Types'
+      desc: 'SL, WP and SC glyphosate formulations compared'
+      link_label: 'Learn more'
+      href: /resources/glyphosate-formulation-types
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

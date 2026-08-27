@@ -1,0 +1,48 @@
+meta:
+  title: 'Fabricación de Fungicida Mancozeb: Formulaciones WP y WDG | Agrospear'
+  description: 'Fabricación de fungicida mancozeb: formulaciones WP 80 y WDG 75, métodos CIPAC, análisis de ditiocarbamato, reducción de polvo y especificaciones de suministro OEM.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Fabricación de Fungicida Mancozeb: Formulaciones WP y WDG'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El mancozeb se fabrica principalmente como formulaciones WP 80% y WDG 75% para aplicación foliar de fungicida en papas, tomates, uvas y cereales. WDG (granulado dispersable en agua) es cada vez más preferido sobre WP debido a la reducción de la exposición al polvo, manejo más fácil y mejor suspensibilidad (>85% después de 30 minutos según CIPAC MT 15). El análisis de ingrediente activo utiliza el método de evolución de CS₂ según CIPAC 39, ya que los ditiocarbamatos no pueden cuantificarse directamente por HPLC.'
+  verified: '2026-08'
+
+intro:
+  - 'El mancozeb es el fungicida de contacto más utilizado del mundo por volumen, aplicado en más de 70 cultivos como protectante multi-sitio sin resistencia de campo registrada. La formulación WP 80 ha sido el estándar de la industria durante décadas, pero las preocupaciones de exposición ocupacional durante la mezcla han impulsado la demanda de WDG 75 — la forma granular genera polvo mínimo durante el manejo y se dispersa rápidamente en el tanque de aspersión. La fabricación de WDG requiere equipos de secado por aspersión o granulación en tambor con formulación precisa de aglutinante y dispersante.'
+  - 'Agrospear produce mancozeb WP 80 y WDG 75 en líneas dedicadas de ditiocarbamato con segregación estricta de otros tipos de formulación para prevenir contaminación cruzada. Cada lote se somete a análisis CIPAC 39 para contenido de mancozeb, pruebas de suspensibilidad (WP >70%, WDG >85% según CIPAC MT 15), prueba de tamiz húmedo (residuo <2% en tamiz de 75 μm), y estabilidad acelerada a 54°C/14 días. El sistema de QC de 7 etapas incluye verificación de iones zinc y manganeso para confirmar la integridad del etilenbisditiocarbamato.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Productos Fungicidas'
+      desc: 'Gama completa de fungicidas incluyendo ditiocarbamatos y triazoles'
+      link_label: 'Más información'
+      href: /products/fungicides
+    - icon: R
+      icon_bg: blue
+      title: 'Comparación de Tipos de Formulación'
+      desc: 'Propiedades de formulación WP vs WDG y diferencias de aplicación'
+      link_label: 'Más información'
+      href: /formulation-type-comparison
+    - icon: R
+      icon_bg: green
+      title: 'Pruebas de Estabilidad de Formulación'
+      desc: 'Métodos CIPAC de estabilidad acelerada y suspensibilidad'
+      link_label: 'Más información'
+      href: /resources/herbicide-formulation-stability
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

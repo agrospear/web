@@ -1,0 +1,48 @@
+meta:
+  title: 'Pesticide Registration Requirements in Africa: A Buyer Guide | Agrospear'
+  description: 'African pesticide registration requirements by region: WAEMU, EAC, SADC harmonization, documentation needs and how OEM suppliers support the process.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Pesticide Registration Requirements in Africa: A Buyer''s Guide'
+
+answer:
+  label: 'Straight answer'
+  text: 'African pesticide registration varies by economic community: WAEMU (West Africa) uses a centralized procedure across 8 member states, EAC (East Africa) requires national registrations with mutual recognition, and SADC is progressing toward harmonization. Most registrations require ICAMA certificates from the country of origin, full formulation specifications, acute toxicity data and local bio-efficacy trials.'
+  verified: '2026-08'
+
+intro:
+  - 'Africa represents one of the fastest-growing agrochemical markets, but its regulatory landscape is fragmented across 54 countries with varying requirements. The WAEMU centralized procedure (CSP) offers a single submission evaluated by the Comité Sahélien des Pesticides that covers Burkina Faso, Côte d''Ivoire, Mali and other member states. East African Community countries accept mutual recognition of registrations but each retains final approval authority. South Africa has its own well-established registration system under Act 36 of 1947.'
+  - 'For OEM buyers, the critical factor is obtaining complete documentation packages from the manufacturer: Certificate of Analysis, Safety Data Sheets, ICAMA registration certificates, acute and chronic toxicity studies, and environmental fate data. Agrospear provides full registration data packages for all OEM formulations and has export experience across 15+ African markets.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Africa Market Services'
+      desc: 'OEM supply and registration support for African markets'
+      link_label: 'Learn more'
+      href: /markets/africa
+    - icon: R
+      icon_bg: blue
+      title: 'ICAMA Registration'
+      desc: 'China ICAMA registration documentation and process'
+      link_label: 'Learn more'
+      href: /research/icama-registration
+    - icon: R
+      icon_bg: green
+      title: 'Export Documentation'
+      desc: 'Certificates, licenses and customs requirements for pesticide export'
+      link_label: 'Learn more'
+      href: /resources/pesticide-export-documentation
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

@@ -93,6 +93,29 @@ content_html: |
     <p><strong>Sigue leyendo:</strong> consulta el <a href="/es/oem-manufacturing">programa completo de fabricación OEM/ODM</a> — MOQ confirmados por proyecto en las etapas de muestra, piloto y volumen, branding de etiqueta privada y documentación ICAMA — o lee la <a href="/es/oem-moq-guide">Guía de MOQ y Branding Flexible</a>, o visita la <a href="/es/factory">fábrica</a> para ver cómo se gestiona el QC preparado para distribución.</p>
   </div>
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Mercados'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Suministro de herbicidas para asociaciones — derechos de territorio exclusivo y soporte de marketing.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Suministro de insecticidas para asociaciones — asignación prioritaria y programas de co-marketing.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: M
+      icon_bg: orange
+      title: 'Mercados'
+      desc: 'Asociaciones de distribución regional en África, Sudeste Asiático y América Latina.'
+      link_label: 'Ver mercados'
+      href: /markets
+
 cta:
   title: 'Habla Sobre Tu Línea de Producto Distribuidor'
   subtitle: 'Envía tus requisitos: nuestro equipo responde en menos de 1 día laborable.'

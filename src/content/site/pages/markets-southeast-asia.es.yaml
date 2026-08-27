@@ -52,6 +52,58 @@ capabilities:
       link_label: 'Ver embalaje'
       href: /es/manufacturing/packaging
 
+crop_profiles:
+  tagline: 'Cultivos y Plagas'
+  title: 'Cultivos Principales y Plagas Objetivo — Sudeste Asiático'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Arroz — Saltamontes Marrón y Barrenador del Tallo'
+      desc: 'El saltamontes marrón (Nilaparvata lugens) y el barrenador amarillo del tallo (Scirpophaga incertulas) son plagas primarias del arroz en ASEAN. Formulaciones SC de buprofezina y formulaciones EC de clorpirifos para manejo integrado de plagas.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: P
+      icon_bg: blue
+      title: 'Palma Aceitera — Escarabajo Rinoceronte y Ganoderma'
+      desc: 'El escarabajo rinoceronte (Oryctes) y la podredumbre basal del tallo (Ganoderma) amenazan los rendimientos de aceite de palma. Formulaciones EC para control del escarabajo, formulaciones WP de trifloxistrobina para manejo de enfermedades.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: B
+      icon_bg: purple
+      title: 'Caucho — Caída de Hojas por Corynespora'
+      desc: 'La enfermedad de caída de hojas por Corynespora cassiicola afecta las plantaciones de caucho en el Sudeste Asiático. Formulaciones SC y WP de mancozeb y tebuconazol para programas de control de enfermedades.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: V
+      icon_bg: orange
+      title: 'Hortalizas — Polilla Dorada'
+      desc: 'La polilla dorada (Plutella xylostella) y barrenadores de frutos dañan hortalizas crucíferas y solanáceas. Formulaciones WDG de indoxacarb y formulaciones SC de clorantaniliprol para manejo de resistencia.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+
+regulation_overview:
+  tagline: 'Regulación'
+  title: 'Vías de Registro — Sudeste Asiático'
+  features:
+    - icon: A
+      icon_bg: green
+      title: 'Armonización ASEAN'
+      desc: 'Las directrices ASEAN para registro armonizado de pesticidas apoyan el reconocimiento mutuo entre estados miembros. Documentación alineada con directrices de ensayo ASEAN y requisitos de datos.'
+      link_label: 'Soporte de registro'
+      href: /manufacturing/research-development
+    - icon: T
+      icon_bg: blue
+      title: 'Registro Nacional'
+      desc: 'Registro individual por país a través de DVS (Vietnam), DOA (Tailandia), Comité de Pesticidas (Indonesia) y FPA (Filipinas). Preparación y soporte de presentación de expedientes locales.'
+      link_label: 'Soporte de registro'
+      href: /manufacturing/research-development
+    - icon: S
+      icon_bg: purple
+      title: 'Pruebas de Estabilidad Tropical'
+      desc: 'Estabilidad acelerada a 54°C (CIPAC MT 46) y a largo plazo a 30°C/75% HR para todas las formulaciones ASEAN. Paquetes de adyuvantes ajustados para alta temperatura y humedad.'
+      link_label: 'Ver control de calidad'
+      href: /manufacturing/quality-control
+
 faqs:
   tagline: FAQ
   title: 'Mercado del Sudeste Asiático — Preguntas frecuentes'
@@ -64,6 +116,41 @@ faqs:
       a: 'Embalaje para pequeños agricultores: sobres y botellas de 50 mL, 100 mL y 250 mL con etiquetas pictóricas. Tamaños institucionales: 1 L y 5 L para compradores de plantaciones. Tamaños personalizados disponibles.'
     - q: '¿Apoyáis el registro armonizado ASEAN?'
       a: 'Sí. Proporcionamos documentación alineada con las directrices ASEAN para registro armonizado de pesticidas: informes de estudios GLP, análisis de cinco lotes, datos de residuos y especificaciones de formulación. Nuestro equipo regulatorio apoya presentaciones en países ASEAN objetivo.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Explore Nuestras Soluciones OEM'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Herbicidas para cultivos de arroz y plantaciones — formulaciones de pretilacloro, bentazon, propanil y glifosato para condiciones tropicales.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Insecticidas para presión de plagas tropicales — formulaciones de control de saltamontes marrones, barrenador del tallo y escarabajo rinoceronte.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicidas'
+      desc: 'Fungicidas para manejo de enfermedades tropicales — formulaciones de piricularia, tizón de la vaina y mancha foliar.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: O
+      icon_bg: orange
+      title: 'Fabricación OEM'
+      desc: 'OEM agroquímico integral — ingeniería de formulaciones tropicales, etiqueta privada y soporte de registro ASEAN.'
+      link_label: 'Soluciones OEM'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Fábrica y Control de Calidad'
+      desc: 'Instalación de fabricación de 12.500 m² con sistema de QC de 7 etapas, pruebas de estabilidad tropical acelerada y laboratorio certificado GLP.'
+      link_label: 'Ver fábrica'
+      href: /manufacturing/factory
 
 cta:
   title: 'Comenta tus requisitos para el Sudeste Asiático'

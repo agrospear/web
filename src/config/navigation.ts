@@ -137,6 +137,21 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/safety': '/manufacturing/quality-control',
   '/trust': '/manufacturing/quality-control',
   '/quality-control': '/manufacturing/quality-control',
+  '/products/glyphosate-41-sl': '/products/herbicides/glyphosate-41-sl',
+  '/products/glufosinate-20-sl': '/products/herbicides/glufosinate-20-sl',
+  '/products/atrazine-80-wp': '/products/herbicides/atrazine-80-wp',
+  '/products/nicosulfuron-4-od': '/products/herbicides/nicosulfuron-4-od',
+  '/products/acetochlor-90-ec': '/products/herbicides/acetochlor-90-ec',
+  '/products/lambda-cyhalothrin-25-ec': '/products/insecticides/lambda-cyhalothrin-25-ec',
+  '/products/chlorpyrifos-40-ec': '/products/insecticides/chlorpyrifos-40-ec',
+  '/products/abamectin-18-ec': '/products/insecticides/abamectin-18-ec',
+  '/products/imidacloprid-70-ws': '/products/insecticides/imidacloprid-70-ws',
+  '/products/thiamethoxam-25-wg': '/products/insecticides/thiamethoxam-25-wg',
+  '/products/tebuconazole-25-ec': '/products/fungicides/tebuconazole-25-ec',
+  '/products/azoxystrobin-25-sc': '/products/fungicides/azoxystrobin-25-sc',
+  '/products/mancozeb-80-wp': '/products/fungicides/mancozeb-80-wp',
+  '/products/metalaxyl-35-fs': '/products/seed-treatment/metalaxyl-35-fs',
+  '/products/paclobutrazol-15-wp': '/products/pgr/paclobutrazol-15-wp',
 }
 
 export const GONE_PATHS: string[] = [

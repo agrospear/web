@@ -1,0 +1,48 @@
+meta:
+  title: 'Custom Pesticide Formulation Development: From Concept to Production | Agrospear'
+  description: 'Custom pesticide formulation development process: concept screening, lab formulation, pilot batch, CIPAC validation, stability testing and scale-up to production.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Custom Pesticide Formulation Development: From Concept to Production'
+
+answer:
+  label: 'Straight answer'
+  text: 'Custom formulation development follows five stages: concept and active ingredient selection (1-2 weeks), lab-scale formulation design with compatibility screening (2-3 weeks), pilot batch production and CIPAC analytical method validation (2-3 weeks), accelerated stability testing at 54°C/14 days (2 weeks), and production scale-up with full QC validation (1-2 weeks). Total timeline: 8-12 weeks from brief to first commercial batch.'
+  verified: '2026-08'
+
+intro:
+  - 'Custom formulation development is necessary when no existing registered product matches the buyer''s crop, pest spectrum, application method or regulatory requirements. The process begins with a technical brief specifying target active ingredients, desired formulation type (SC, WDG, EC, FS), application rate and market-specific registration requirements. Lab formulation chemists then screen co-formulant combinations — solvents, dispersants, wetting agents, thickeners and stabilizers — to achieve the target physical properties: particle size, viscosity, suspensibility and pH.'
+  - 'Agrospear''s in-house formulation lab develops custom products with full documentation packages including CIPAC analytical methods, five-batch analysis, accelerated and long-term stability data, acute toxicity studies and field bio-efficacy trial coordination. The 6 production lines enable scale-up from pilot to volume without line conflicts, and the 7-stage QC system ensures the commercial product matches the lab-validated specification within ±2% active ingredient tolerance.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Custom Formulation Services'
+      desc: 'Full custom formulation development from concept to production'
+      link_label: 'Learn more'
+      href: /solutions/custom-formulation
+    - icon: R
+      icon_bg: blue
+      title: 'Formulation Lab'
+      desc: 'In-house formulation chemistry capabilities and equipment'
+      link_label: 'Learn more'
+      href: /randdcenter/formulation-lab
+    - icon: R
+      icon_bg: green
+      title: 'Formulation Stability Testing'
+      desc: 'CIPAC methods for accelerated and long-term stability'
+      link_label: 'Learn more'
+      href: /resources/herbicide-formulation-stability
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

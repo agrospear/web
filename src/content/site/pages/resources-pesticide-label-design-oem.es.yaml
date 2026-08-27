@@ -1,0 +1,48 @@
+meta:
+  title: 'Diseño de Etiqueta OEM de Plaguicidas: Requisitos de Cumplimiento por Mercado | Agrospear'
+  description: 'Cumplimiento de diseño de etiqueta OEM de plaguicidas: pictogramas GHS, declaraciones de peligro, reclamaciones específicas por cultivo, requisitos de idioma y exhibición de número de registro por mercado.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Diseño de Etiqueta OEM de Plaguicidas: Requisitos de Cumplimiento por Mercado'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Las etiquetas de plaguicidas deben cumplir con los estándares GHS de comunicación de peligros (pictogramas, palabras de señal, declaraciones de peligro/precaución), exhibir el número de registro local, listar las reclamaciones aprobadas de cultivos y plagas, y aparecer en el idioma oficial del mercado de destino. La obra de arte de la etiqueta requiere aprobación de la autoridad nacional de registro de plaguicidas antes de la venta comercial en la mayoría de los países.'
+  verified: '2026-08'
+
+intro:
+  - 'El cumplimiento de la etiqueta es un requisito de registro — no un ejercicio de marca. Cada mercado impone reglas específicas: Brasil requiere el número de registro MAPA y la banda de color de clase toxicológica en la etiqueta, Tailandia exige etiquetas en idioma tailandés con el número de registro del Departamento de Agricultura, y la UE requiere declaraciones de peligro reguladas por CLP en todos los idiomas oficiales del estado miembro donde se vende el producto. El texto de la etiqueta debe coincidir exactamente con el expediente de registro aprobado — cualquier desviación puede resultar en retiro del mercado.'
+  - 'Agrospear proporciona diseño de etiqueta y revisión de cumplimiento interno como parte de los servicios OEM y de marca privada. El equipo de diseño prepara la obra de arte de etiqueta conforme a los requisitos regulatorios de cada mercado objetivo, incluyendo pictogramas GHS, instrucciones de uso específicas por cultivo, declaraciones de primeros auxilios, advertencias de peligro ambiental y orientación de almacenamiento/eliminación. Las etiquetas se verifican contra el texto de registro aprobado como parte del sistema de QC de 7 etapas antes de la liberación de producción.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Plaguicidas de Marca Privada'
+      desc: 'Formulaciones listas para marca con diseño de etiqueta conforme'
+      link_label: 'Más información'
+      href: /solutions/private-label-pesticides
+    - icon: R
+      icon_bg: blue
+      title: 'Embalaje para Exportación'
+      desc: 'Tamaños, estándares y cumplimiento de embalaje certificado UN'
+      link_label: 'Más información'
+      href: /manufacturing/packaging
+    - icon: R
+      icon_bg: green
+      title: 'Documentación SDS'
+      desc: 'Requisitos de Hoja de Datos de Seguridad para mercados de exportación'
+      link_label: 'Más información'
+      href: /resources/pesticide-sds-documentation
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

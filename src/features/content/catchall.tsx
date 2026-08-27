@@ -13,7 +13,7 @@
  */
 
 import * as React from 'react'
-import { notFound } from '@tanstack/react-router'
+import { notFound, redirect } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import {  I18nProvider, useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
@@ -21,7 +21,7 @@ import { type Locale } from '@/features/i18n/locale'
 import { MarketingShell } from '@/components/marketing/shell'
 import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { CtaBand } from '@/components/marketing/cta'
-import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd, serviceLd, qcHowToLd } from '@/features/seo/jsonld'
+import { JsonLd, breadcrumbLd, faqLd, itemListLd, newsArticleLd, serviceLd, qcHowToLd, manufacturingBusinessLd, marketRegionLd } from '@/features/seo/jsonld'
 import { brandify } from './brand'
 import { AferIndexProvider, type AferIndexData } from './index-data'
 import { getGuide } from './guide-content'
@@ -30,6 +30,7 @@ import { SITE_NAME } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME } from '@/config/branding'
 import { CUSTOMIZATION_OPTIONS, OEM_APPLICATIONS } from '@/product/ai-content'
 import { JSONLD_KEYWORDS } from '@/product/ai-content'
+import { productPath, CATEGORY_SLUGS, MARKET_SLUGS } from '@/product/route-registry'
 import { ArrowRight } from 'lucide-react'
 import { ContentSections, CaseStudiesIndex, ResearchIndex, collectPageFaqs } from './render/sections'
 import { Markdown } from './render/markdown'
@@ -87,17 +88,45 @@ const SERVICE_SCHEMA_PAGES: Record<string, { serviceType: string; description: s
   '/product-development': { serviceType: 'Product Development', description: 'Custom agrochemical product development service — from formulation concept through pilot trials, registration support, and first production run.' },
   '/oem-adjuvants': { serviceType: 'OEM Adjuvants & Co-Formulants', description: 'OEM application equipment manufacturing: sprayers, dosing systems and accessories for crop protection product lines.' },
   '/b2b-solutions-matrix': { serviceType: 'B2B Solutions Matrix', description: 'Structured overview of OEM, ODM, private-label, distributor, and co-branding partnership models for crop protection brands.' },
+  '/solutions/agrochemical-oem': { serviceType: 'Agrochemical OEM Solutions', description: 'Full-service agrochemical OEM manufacturing — custom formulation development, private labeling, registration support, and export logistics.' },
+  '/solutions/custom-formulation': { serviceType: 'Custom Formulation Service', description: 'Custom agrochemical formulation development — active ingredient selection, adjuvant optimization, dosage form engineering, and pilot trials.' },
+  '/solutions/private-label-pesticides': { serviceType: 'Private Label Pesticides', description: 'Private-label agrochemical manufacturing — your brand, your specifications, Agrospear manufacturing quality.' },
   '/solutions/co-branding': { serviceType: 'Co-Branding Solutions', description: 'Co-branding programs for agrochemical distributors: shared branding, regional formulation customization, and joint market development.' },
   '/solutions/distributor-partners': { serviceType: 'Distributor Partner Solutions', description: 'Distributor partnership program for agrochemical dealers: exclusive territories, complete product portfolio, and dedicated account management.' },
   '/solutions/distributors': { serviceType: 'Distributor Solutions', description: 'Global agrochemical distribution network: exclusive territories, complete product portfolio, and dedicated account management.' },
+  '/solutions/government-tender': { serviceType: 'Government Tender Supply', description: 'Agrochemical supply for government tenders: bulk quantities, compliance documentation, and registration support.' },
   '/oem/agrochemical-oem-north-america': { serviceType: 'Agrochemical OEM North America', description: 'OEM agrochemical manufacturing for North American brands: ICAMA compliance, USMCA logistics, and region-specific MOQ tiers.' },
   '/oem/agrochemical-oem-europe': { serviceType: 'Agrochemical OEM Europe', description: 'OEM agrochemical manufacturing for European brands: FAO/WHO compliance, REACH registration, and EU-specific logistics.' },
   '/oem/agrochemical-oem-australia': { serviceType: 'Agrochemical OEM Australia', description: 'OEM agrochemical manufacturing for Australian brands: APVMA registration, local standards, and Oceania logistics.' },
   '/oem/agrochemical-oem-canada': { serviceType: 'Agrochemical OEM Canada', description: 'OEM agrochemical manufacturing for Canadian brands: PMRA registration, USMCA logistics, and cold-climate formulation stability.' },
+  '/new-brand-trial-order': { serviceType: 'New Brand Trial Order', description: 'Low-risk trial order program for new agrochemical brands: sample quantities, pilot batches, and market validation support.' },
+  '/start-agrochemical-project': { serviceType: 'Start Agrochemical Project', description: 'Step-by-step guide to starting an agrochemical OEM project: inquiry, specification, sampling, production, and delivery.' },
+  '/certifications': { serviceType: 'Certification Documentation', description: 'Agrochemical manufacturing certifications: ISO 9001, ISO 14001, ICAMA, BSCI, FAO/WHO — scope, verification and document request.' },
+  '/prototype-workshop': { serviceType: 'Prototype Workshop', description: 'Agrochemical prototype and pilot workshop: small-batch formulation trials, sample production, and specification verification.' },
 }
 
 /** Minimal product card for the "related platforms" strip on product pages. */
-export type RelatedProduct = { slug: string; title: string; image: string; amount?: string }
+export type RelatedProduct = { slug: string; title: string; image: string; category?: string; amount?: string }
+
+const MANUFACTURING_SCHEMA_PAGES: Record<string, { name: string; description: string }> = {
+  '/manufacturing': { name: 'Agrospear Agrochemical Manufacturing', description: 'Full-service agrochemical manufacturing facility: 12,500 m² plant, 6 production lines, 50,000+ t annual capacity, 7-stage QC and 60+ export countries.' },
+  '/manufacturing/factory': { name: 'Agrospear Factory — Agrochemical Formulation Plant', description: '12,500 m² agrochemical formulation plant in Qingdao, China — 6 production workshops, 8 automated lines, GLP-certified analytical lab and 200+ workers.' },
+  '/manufacturing/agrochemical-manufacturing': { name: 'Agrochemical Manufacturing Service', description: 'End-to-end agrochemical manufacturing: herbicide, insecticide, fungicide, PGR, seed treatment and biopesticide formulation, packaging and export.' },
+  '/manufacturing/pesticide-formulation': { name: 'Pesticide Formulation Engineering', description: 'Pesticide formulation development and production: SC, EC, WP, WDG, SL, ME, CS, FS — from pilot trials to volume manufacturing.' },
+  '/manufacturing/quality-control': { name: 'Agrochemical Quality Control', description: '7-stage agrochemical quality control: incoming inspection, formulation verification, processing monitoring, stability testing, packaging QC, branding QC, and final documentation.' },
+  '/manufacturing/packaging': { name: 'Agrochemical Packaging', description: 'Agrochemical packaging capabilities: 50 mL to 200 L, smallholder sachets, bulk drums, IBCs and custom DG-compliant export packaging.' },
+  '/manufacturing/research-development': { name: 'Agrochemical R&D Center', description: 'Agrochemical research and development: formulation engineering, adjuvant optimization, registration dossier preparation and GLP stability studies.' },
+  '/manufacturing/factory-audit': { name: 'Factory Audit', description: 'Agrochemical factory audit: 8-area inspection checklist, third-party audit support, quality system documentation and facility tour.' },
+  '/factory': { name: 'Agrospear Factory — Agrochemical Formulation Plant', description: '12,500 m² agrochemical formulation plant in Qingdao, China — 6 production workshops, 8 automated lines, GLP-certified analytical lab and 200+ workers.' },
+}
+
+const MARKET_SCHEMA_PAGES: Record<string, { regionName: string; description: string; countries?: string[] }> = {
+  '/markets': { regionName: 'Global', description: 'OEM agrochemical manufacturing and export solutions for Africa, Southeast Asia, Latin America and emerging crop protection markets worldwide.' },
+  '/markets/africa': { regionName: 'Sub-Saharan Africa', description: 'OEM agrochemical supply for Sub-Saharan African markets: broad-spectrum formulations, French and English documentation, pre-registration dossiers and flexible MOQ.', countries: ['Nigeria', 'Ghana', 'Kenya', 'Tanzania', 'Ethiopia', 'Zambia', 'Zimbabwe', 'Mozambique', 'Senegal', "Côte d'Ivoire"] },
+  '/markets/southeast-asia': { regionName: 'Southeast Asia', description: 'OEM agrochemical supply for ASEAN markets: tropical-climate formulations for rice, rubber and palm oil, ASEAN regulatory documentation and smallholder-friendly packaging.', countries: ['Vietnam', 'Thailand', 'Indonesia', 'Philippines', 'Myanmar', 'Cambodia'] },
+  '/markets/latin-america': { regionName: 'Latin America', description: 'OEM agrochemical supply for Latin American markets: large-scale formulations for soybean, corn, sugarcane and coffee, Spanish and Portuguese documentation and bulk packaging.', countries: ['Brazil', 'Argentina', 'Colombia', 'Mexico', 'Peru', 'Chile', 'Ecuador'] },
+  '/markets/west-asia': { regionName: 'West Asia & Middle East', description: 'OEM agrochemical supply for West Asian and Middle Eastern markets: heat-stable formulations for wheat, cotton and date palm, Arabic and English documentation and GCC registration support.', countries: ['Saudi Arabia', 'UAE', 'Kuwait', 'Jordan', 'Iraq', 'Pakistan'] },
+}
 
 /** Minimal post card for the "related news" strip on article pages. */
 export type RelatedPost = { slug: string; title: string; excerpt: string; date: string }
@@ -115,7 +144,7 @@ export type CatchAllData = {
   index: AferIndexData
 } & (
   | { kind: 'page'; page: ContentPage; slug: string; title: string; description: string }
-  | { kind: 'product'; product: ContentProduct; title: string; description: string; image: string; related: RelatedProduct[] }
+  | { kind: 'product'; product: ContentProduct; title: string; description: string; image: string; related: RelatedProduct[]; redirect?: string }
   | { kind: 'post'; post: ContentPost; title: string; description: string; image: string; relatedPosts: RelatedPost[] }
   | { kind: 'article'; article: ContentArticle; slug: string; title: string; description: string }
   | { kind: 'case'; case: ContentCaseUse; slug: string; title: string; description: string }
@@ -133,6 +162,9 @@ export const contentServerLoader = createServerFn({ method: 'GET' })
     const origin = new URL(env.BETTER_AUTH_URL).origin
     const resolved = resolveCatchAll(data.path, data.locale as Locale)
     if (!resolved) throw notFound()
+    if (resolved.kind === 'product' && resolved.redirect) {
+      throw redirect({ href: resolved.redirect, statusCode: 301 })
+    }
     const d = { ...resolved, origin } as CatchAllData
     if (d.kind === 'product' || d.kind === 'post') {
       d.image = d.image.startsWith('http') ? d.image : `${origin}${d.image}`
@@ -153,6 +185,7 @@ export const contentProductLoader = createServerFn({ method: 'GET' })
     const origin = new URL(env.BETTER_AUTH_URL).origin
     const resolved = resolveCatchAll(`/products/${data.slug}`, data.locale as Locale)
     if (!resolved || resolved.kind !== 'product') throw notFound()
+    if (resolved.redirect) throw redirect({ href: resolved.redirect, statusCode: 301 })
     resolved.origin = origin
     resolved.image = resolved.image.startsWith('http') ? resolved.image : `${origin}${resolved.image}`
     return resolved
@@ -328,6 +361,12 @@ function renderContent(data: CatchAllData, t: (key: string, params?: Record<stri
           {SERVICE_SCHEMA_PAGES[data.path] && (
             <JsonLd data={serviceLd({ ...SERVICE_SCHEMA_PAGES[data.path], path: data.path })} />
           )}
+          {MANUFACTURING_SCHEMA_PAGES[data.path] && (
+            <JsonLd data={manufacturingBusinessLd({ ...MANUFACTURING_SCHEMA_PAGES[data.path], path: data.path })} />
+          )}
+          {MARKET_SCHEMA_PAGES[data.path] && (
+            <JsonLd data={marketRegionLd({ ...MARKET_SCHEMA_PAGES[data.path], path: data.path })} />
+          )}
           {data.path === '/quality' && <JsonLd data={qcHowToLd()} />}
         </>
       )
@@ -403,6 +442,13 @@ export function ProductView({ product, related, origin, locale }: { product: Con
   return (
     <>
       <PageHero kicker={product.category ?? t('content.kickers.product')} title={product.title} sub={brandify(product.summary ?? '')} />
+      {product.category && CATEGORY_SLUGS[product.category] && (
+        <div className="mx-auto max-w-6xl px-5 md:px-7">
+          <a href={fl(`/products/${CATEGORY_SLUGS[product.category]}`)} className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-primary hover:underline">
+            ← {t('content.product.viewAllCategory', { category: product.category })}
+          </a>
+        </div>
+      )}
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7 md:py-16">
         <div className="grid gap-8 lg:grid-cols-[1.1fr_1fr]">
           <div className="grid gap-3">
@@ -456,7 +502,8 @@ export function ProductView({ product, related, origin, locale }: { product: Con
               data={breadcrumbLd(origin, [
                 { name: t('content.nav.home'), path: '/' },
                 { name: t('content.nav.products'), path: '/products' },
-                { name: product.title, path: `/products/${product.slug}` },
+                { name: product.category ?? '', path: `/products/${product.category ? (CATEGORY_SLUGS[product.category] ?? product.category) : ''}` },
+                { name: product.title, path: productPath(product.slug, product.category) },
               ])}
             />
             <JsonLd data={productLd(origin, product, locale, t)} />
@@ -505,6 +552,149 @@ export function ProductView({ product, related, origin, locale }: { product: Con
           <Markdown text={brandify(product.body)} />
         </div>
 
+        {/* quick product facts — AEO/GEO-optimized structured summary */}
+        <div className="mx-auto mt-14 max-w-3xl">
+          <h2 className="font-display text-2xl font-extrabold tracking-tight">
+            {t('content.product.quickFacts')}
+          </h2>
+          <div className="mt-4 overflow-hidden rounded-2xl border border-border">
+            <table className="w-full text-left text-[13.5px]">
+              <tbody className="divide-y divide-border">
+                <tr className="odd:bg-bg-alt/60">
+                  <th scope="row" className="w-2/5 px-4 py-3 font-semibold">Category</th>
+                  <td className="px-4 py-3 text-fg-2">{product.category ?? '—'}</td>
+                </tr>
+                {product.sku && (
+                  <tr className="odd:bg-bg-alt/60">
+                    <th scope="row" className="w-2/5 px-4 py-3 font-semibold">SKU</th>
+                    <td className="px-4 py-3 text-fg-2">{product.sku}</td>
+                  </tr>
+                )}
+                {product.specs && product.specs.length > 0 && product.specs.slice(0, 3).map((s) => (
+                  <tr key={s.label} className="odd:bg-bg-alt/60">
+                    <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{brandify(s.label)}</th>
+                    <td className="px-4 py-3 text-fg-2">{brandify(s.value)}</td>
+                  </tr>
+                ))}
+                <tr className="odd:bg-bg-alt/60">
+                  <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.minimumOrder')}</th>
+                  <td className="px-4 py-3 text-fg-2">{t('content.product.moqVolume', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard })}</td>
+                </tr>
+                <tr className="odd:bg-bg-alt/60">
+                  <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.certifications')}</th>
+                  <td className="px-4 py-3 text-fg-2">{CERTIFICATION_NAMES.join(' · ')}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* available formulations */}
+        {product.formulations && product.formulations.length > 0 && (
+          <div className="mx-auto mt-14 max-w-3xl">
+            <h2 className="font-display text-2xl font-extrabold tracking-tight">
+              {t('content.product.availableFormulations')}
+            </h2>
+            <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">
+              This active ingredient is available in multiple formulation types for your target market:
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {product.formulations.map((f) => (
+                <span key={f} className="pill border-primary/25! bg-soft! text-primary!">{f}</span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* application & target crops */}
+        {product.applications && (
+          <div className="mx-auto mt-14 max-w-3xl">
+            <h2 className="font-display text-2xl font-extrabold tracking-tight">
+              {t('content.product.applicationCrops')}
+            </h2>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              <div className="marine-card p-5">
+                <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">Target Crops</p>
+                <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">{product.applications.crops}</p>
+              </div>
+              <div className="marine-card p-5">
+                <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">Application Uses</p>
+                <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">{product.applications.uses}</p>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* manufacturing capability */}
+        <div className="mx-auto mt-14 max-w-3xl">
+          <h2 className="font-display text-2xl font-extrabold tracking-tight">
+            {t('content.product.manufacturingCapability')}
+          </h2>
+          <div className="mt-4 grid gap-3 sm:grid-cols-3">
+            <div className="marine-card p-5">
+              <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">Production Lines</p>
+              <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">6 lines — SC, EC, WP, WDG, SL, ME, CS, FS</p>
+            </div>
+            <div className="marine-card p-5">
+              <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">Annual Capacity</p>
+              <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">50,000+ t</p>
+            </div>
+            <div className="marine-card p-5">
+              <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">QC Gates</p>
+              <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">7-stage quality gates, 100% batch analysis</p>
+            </div>
+          </div>
+          <div className="mt-4">
+            <a href={fl('/manufacturing/factory')} className="text-[13.5px] font-semibold text-primary hover:underline">
+              View factory details →
+            </a>
+          </div>
+        </div>
+
+        {/* packaging options */}
+        {product.packaging && product.packaging.length > 0 && (
+          <div className="mx-auto mt-14 max-w-3xl">
+            <h2 className="font-display text-2xl font-extrabold tracking-tight">
+              {t('content.product.packagingOptions')}
+            </h2>
+            <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">
+              Available packaging formats — all customizable with your brand and labeling:
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {product.packaging.map((p) => (
+                <span key={p} className="pill">{p}</span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* export & documentation */}
+        {product.export_markets && product.export_markets.length > 0 && (
+          <div className="mx-auto mt-14 max-w-3xl">
+            <h2 className="font-display text-2xl font-extrabold tracking-tight">
+              {t('content.product.exportSupport')}
+            </h2>
+            <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">
+              Export-ready with documentation and registration support for:
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {product.export_markets.map((m) => {
+                const marketSlug = MARKET_SLUGS[m]
+                return marketSlug ? (
+                  <a key={m} href={fl(`/markets/${marketSlug}`)} className="pill border-primary/25! bg-soft! text-primary! hover:underline">{m}</a>
+                ) : (
+                  <span key={m} className="pill border-primary/25! bg-soft! text-primary!">{m}</span>
+                )
+              })}
+            </div>
+            <div className="mt-4">
+              <a href={fl('/manufacturing/quality-control')} className="text-[13.5px] font-semibold text-primary hover:underline">
+                Quality control & documentation →
+              </a>
+            </div>
+          </div>
+        )}
+
         {/* customization options — every platform is customizable under your brand */}
         <div className="mx-auto mt-14 max-w-3xl">
           <h2 className="font-display text-2xl font-extrabold tracking-tight">
@@ -550,7 +740,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
               {related.map((r) => (
                 <a
                   key={r.slug}
-                  href={fl(`/products/${r.slug}`)}
+                  href={fl(productPath(r.slug, r.category))}
                   className="marine-card group flex flex-col overflow-hidden p-0"
                 >
                   {r.image && (
@@ -588,19 +778,19 @@ export function ProductView({ product, related, origin, locale }: { product: Con
             {t('content.product.produceUnderBrand')}
           </h2>
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
-            <a href={fl('/oem-manufacturing')} className="marine-card p-5">
+            <a href={fl('/solutions/agrochemical-oem')} className="marine-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.oemOdmTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.oemOdmDesc')}
               </p>
             </a>
-            <a href={fl('/product-development')} className="marine-card p-5">
+            <a href={fl('/solutions/custom-formulation')} className="marine-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.agroDevTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.agroDevDesc')}
               </p>
             </a>
-            <a href={fl('/solutions/distributors')} className="marine-card p-5">
+            <a href={fl('/solutions/private-label-pesticides')} className="marine-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.privateLabelTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.privateLabelDesc')}

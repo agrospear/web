@@ -52,6 +52,58 @@ capabilities:
       link_label: 'Ver embalaje'
       href: /es/manufacturing/packaging
 
+crop_profiles:
+  tagline: 'Cultivos y Plagas'
+  title: 'Cultivos Principales y Plagas Objetivo — América Latina'
+  features:
+    - icon: S
+      icon_bg: green
+      title: 'Soja — Roya de la Soja y Gusano Cogollero'
+      desc: 'La roya asiática de la soja (Phakopsora pachyrhizi) y el gusano medidor causan pérdidas significativas de rendimiento. Formulaciones SC de tebuconazol y azoxistrobina para roya, formulaciones EC de clorpirifos para control de lepidópteros.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: C
+      icon_bg: blue
+      title: 'Maíz — Gusano Cogollero y Gusano de la Espiga'
+      desc: 'El gusano cogollero y el gusano de la espiga amenazan la producción maicera en LATAM. Formulaciones SC de clorantaniliprol, formulaciones WDG de methomyl y formulaciones EC de lambda-cialotrina.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: G
+      icon_bg: purple
+      title: 'Caña de Azúcar — Barrenador de la Caña'
+      desc: 'El barrenador de la caña de azúcar (Diatraea saccharalis) es la plaga principal en la caña de azúcar brasileña y colombiana. Formulaciones EC de fipronil y lambda-cialotrina para programas de manejo del barrenador.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: orange
+      title: 'Café — Roya del Cafeto'
+      desc: 'La roya del cafeto (Hemileia vastatrix) afecta la producción de Arábica en Brasil, Colombia y Centroamérica. Formulaciones WP y SC de mancozeb y tebuconazol para programas preventivos y curativos.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+
+regulation_overview:
+  tagline: 'Regulación'
+  title: 'Vías de Registro — América Latina'
+  features:
+    - icon: B
+      icon_bg: green
+      title: 'MAPA — Brasil'
+      desc: 'Registro del Ministerio de Agricultura brasileño a través de MAPA. Informes de estudios GLP, análisis de cinco lotes, datos de residuos y especificaciones de formulación. Nuestro equipo coordina con consultores brasileños locales.'
+      link_label: 'Soporte de registro'
+      href: /manufacturing/research-development
+    - icon: A
+      icon_bg: blue
+      title: 'SENASA — Argentina'
+      desc: 'Registro del Servicio Nacional de Sanidad y Calidad Agroalimentaria argentino. Preparación completa de expedientes con datos GLP, coordinación con consultores locales y gestión de presentaciones.'
+      link_label: 'Soporte de registro'
+      href: /manufacturing/research-development
+    - icon: M
+      icon_bg: purple
+      title: 'COFEPRIS — México'
+      desc: 'Registro de la Comisión Federal para la Protección contra Riesgos Sanitarios mexicana. Documentación conforme a COFEPRIS con soporte de presentación local y consultoría regulatoria.'
+      link_label: 'Soporte de registro'
+      href: /manufacturing/research-development
+
 faqs:
   tagline: FAQ
   title: 'Mercado de América Latina — Preguntas frecuentes'
@@ -64,6 +116,41 @@ faqs:
       a: 'Suministramos cantidades al granel para agricultura extensiva: tambores de 200 L, IBCs de 1,000 L y embalaje al granel personalizado. Capacidad de producción para pedidos de múltiples contenedores con plazo de 25–35 días para formulaciones existentes.'
     - q: '¿Apoyáis el registro en Brasil (MAPA)?'
       a: 'Sí. Proporcionamos documentación de registro conforme a MAPA incluyendo informes de estudios GLP, análisis de cinco lotes, datos de residuos y especificaciones de formulación. Nuestro equipo regulatorio coordina con consultores brasileños locales para presentaciones ante MAPA.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Explore Nuestras Soluciones OEM'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Herbicidas a gran escala para agricultura extensiva — formulaciones de glifosato, 2,4-D, atrazina y fomesafen para soja y maíz.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Insecticidas para cultivos extensivos LATAM — formulaciones de clorpirifos, abamectina e imidacloprid para aplicación aérea y mecanizada.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicidas'
+      desc: 'Fungicidas para roya de la soja, enfermedades del maíz y caña de azúcar — formulaciones de mancozeb, carbendazima y tebuconazol.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: O
+      icon_bg: orange
+      title: 'Fabricación OEM'
+      desc: 'OEM agroquímico integral — formulación a granel, soporte de registro MAPA/SENASA y embalaje a escala de plantación.'
+      link_label: 'Soluciones OEM'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Fábrica y Control de Calidad'
+      desc: 'Instalación de fabricación de 12.500 m² con sistema de QC de 7 etapas, capacidad anual de 50.000+ t y cumplimiento de pedidos de múltiples contenedores.'
+      link_label: 'Ver fábrica'
+      href: /manufacturing/factory
 
 cta:
   title: 'Comenta tus requisitos para América Latina'

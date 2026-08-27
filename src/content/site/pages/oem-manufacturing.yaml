@@ -141,6 +141,47 @@ geo:
     - 'Distributors & Registrars'
     - 'Cooperatives & Government Programs'
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & Markets'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'OEM herbicide manufacturing — full product range from glyphosate to selective formulations.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'OEM insecticide manufacturing — EC, SC, WP and microencapsulated formulations.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicides'
+      desc: 'OEM fungicide manufacturing — preventive, curative and combination formulations.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: A
+      icon_bg: orange
+      title: 'Africa'
+      desc: 'OEM supply for Sub-Saharan Africa — registration support and flexible MOQ.'
+      link_label: 'Africa market'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Southeast Asia'
+      desc: 'OEM supply for ASEAN — tropical formulations and smallholder packaging.'
+      link_label: 'Southeast Asia market'
+      href: /markets/southeast-asia
+    - icon: L
+      icon_bg: blue
+      title: 'Latin America'
+      desc: 'OEM supply for LATAM — bulk formulations and registration support.'
+      link_label: 'Latin America market'
+      href: /markets/latin-america
+
 cta:
   title: 'Ready to run your agrochemical line?'
   subtitle: 'Receive a detailed OEM quotation within one business day — send your formulation or specification.'

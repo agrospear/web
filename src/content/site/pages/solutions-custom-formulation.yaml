@@ -80,6 +80,35 @@ faqs:
     - q: 'Is there a development fee?'
       a: 'Development costs are confirmed at the quotation stage and typically credited toward your first production order. Contact us for a project-specific assessment.'
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & OEM Services'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Custom herbicide formulation — active ingredient selection, adjuvant optimization and dosage form engineering.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Custom insecticide formulation — novel dosage forms, microencapsulation and controlled-release development.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicides'
+      desc: 'Custom fungicide formulation — combination products, seed treatment and systemic formulations.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: M
+      icon_bg: orange
+      title: 'Factory'
+      desc: '12,500 m² facility with dedicated formulation lines, pilot plant and analytical lab.'
+      link_label: 'View factory'
+      href: /manufacturing/factory
+
 cta:
   title: 'Develop Your Custom Formulation'
   subtitle: 'Send your product brief — our R&D team reviews and returns a development plan and quotation within one business day.'

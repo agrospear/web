@@ -28,6 +28,7 @@ import { mdToText, pageText } from '@/features/content/text'
 import { localizedGuides } from '@/features/content/guide-content'
 import { FAQ_EXCERPTS } from '@/product/ai-content'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
+import { productPath } from '@/product/route-registry'
 import type { SearchEntry } from './search'
 
 const squeeze = (s: string): string => s.replace(/\s+/g, ' ').trim()
@@ -94,7 +95,7 @@ function contentEntries(locale: Locale): SearchEntry[] {
   const out: SearchEntry[] = []
   const url = (p: string) => localizePath(locale, p)
   for (const p of getContentProducts(locale)) {
-    out.push({ url: url(`/products/${p.slug}`), title: squeeze(p.title), excerpt: squeeze(p.summary ?? ''), content: squeeze(mdToText(brandify(p.body))), type: 'page', locale })
+    out.push({ url: url(productPath(p.slug, p.category)), title: squeeze(p.title), excerpt: squeeze(p.summary ?? ''), content: squeeze(mdToText(brandify(p.body))), type: 'page', locale })
   }
   for (const n of getNewsPosts(locale)) {
     out.push({ url: url(`/news/${n.slug}`), title: squeeze(n.title), excerpt: squeeze(n.excerpt ?? ''), content: squeeze(mdToText(brandify(n.body))), type: 'page', locale })

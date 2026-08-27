@@ -120,6 +120,29 @@ content_html: |
     <p><strong>Keep reading:</strong> distribution partners sell the same formulations we make for <a href="/oem-manufacturing">OEM/private-label brands</a> — review the manufacturing program and the <a href="/factory">factory quality process</a> so you can position the product with confidence.</p>
   </div>
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & Markets'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Distribution-grade herbicide supply — consistent quality, competitive pricing and reliable delivery.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Distribution-grade insecticide supply — proven formulations with full registration documentation.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: M
+      icon_bg: orange
+      title: 'Markets'
+      desc: 'Regional market programs for 40+ export countries across Africa, Asia and Latin America.'
+      link_label: 'View markets'
+      href: /markets
+
 cta:
   title: 'Ready to become a distributor?'
   subtitle: 'Apply for our distributor program or download our distributor information kit.'

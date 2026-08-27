@@ -1,0 +1,48 @@
+meta:
+  title: 'What Is the Minimum Order Quantity for Pesticide OEM Manufacturing | Agrospear'
+  description: 'Pesticide OEM MOQ explained: sample development from 1-4 tons, pilot orders at 5 tons, volume production at 20+ tons per batch with full timeline breakdown.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'What Is the Minimum Order Quantity for Pesticide OEM Manufacturing'
+
+answer:
+  label: 'Straight answer'
+  text: 'Pesticide OEM MOQ follows three stages: sample development at 1-4 tons per formulation (7-12 days), pilot orders at 5 tons on existing platforms, and standard volume production at 20+ tons per batch (25-35 days after PO and deposit). Full custom formulation development adds 15-20 days to the timeline.'
+  verified: '2026-08'
+
+intro:
+  - 'Agrochemical MOQ is not a single fixed number — it is determined by the production path and project configuration. Sample batches validate the formulation chemistry and physical properties before committing to volume. Pilot orders use existing stock materials to test market acceptance at low risk. Volume production benefits from economies of scale, with pricing tiers that decrease as order size increases.'
+  - 'Agrospear structures MOQ flexibly to support new market entry: trial quantities are available for first-time partners, and co-branding projects can start at lower volumes on registered formulations. All MOQ terms, lead times and payment conditions are confirmed in writing per project before production begins.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Agrochemical OEM Services'
+      desc: 'Full OEM project workflow from formulation to shipment'
+      link_label: 'Learn more'
+      href: /solutions/agrochemical-oem
+    - icon: R
+      icon_bg: blue
+      title: 'OEM Buyer Guide'
+      desc: 'Sourcing guide with MOQ negotiation strategies and pitfalls'
+      link_label: 'Learn more'
+      href: /research/oem-buyer-guide
+    - icon: R
+      icon_bg: green
+      title: 'Manufacturing Lead Time'
+      desc: 'What to expect for pesticide production and shipping timelines'
+      link_label: 'Learn more'
+      href: /resources/pesticide-lead-time-china
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

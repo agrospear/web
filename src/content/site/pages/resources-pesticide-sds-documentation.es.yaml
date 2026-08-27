@@ -1,0 +1,48 @@
+meta:
+  title: 'Documentación de Hoja de Datos de Seguridad (SDS) de Plaguicidas para Mercados de Exportación | Agrospear'
+  description: 'Documentación SDS de plaguicidas para exportación: clasificación GHS, formato de 16 secciones, requisitos de idioma, cumplimiento REACH y obligaciones de documentación del fabricante.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Documentación de Hoja de Datos de Seguridad (SDS) de Plaguicidas para Mercados de Exportación'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Cada envío de plaguicidas debe incluir una Hoja de Datos de Seguridad conforme al formato GHS de 16 secciones, con clasificación de peligro, medidas de primeros auxilios, controles de exposición y orientación de eliminación específicos para la formulación. Muchos mercados requieren SDS en el idioma local (portugués brasileño, bahasa indonesia, vietnamita), y la UE adicionalmente requiere SDS extendido conforme a REACH con escenarios de exposición para usuarios profesionales.'
+  verified: '2026-08'
+
+intro:
+  - 'La Hoja de Datos de Seguridad es un requisito legal en prácticamente todos los mercados de importación de plaguicidas y debe reflejar con precisión la formulación específica — no solo el ingrediente activo de grado técnico. La Sección 9 (propiedades físicas y químicas) debe reportar valores medidos de pH, viscosidad, punto de inflamación y densidad del producto real. La Sección 10 (estabilidad y reactividad) debe identificar incompatibilidades específicas de los co-formulantes. Los compradores OEM que reciben SDS genéricos copiados de datos de grado técnico enfrentan rechazo aduanero, negativa de registro y exposición a responsabilidad.'
+  - 'Agrospear proporciona SDS específicos por formulación para cada producto OEM, preparados por especialistas en asuntos regulatorios en formato GHS de 16 secciones. Los SDS están disponibles en inglés, español, portugués, francés, árabe, ruso y otros idiomas requeridos por los mercados de destino. Todos los SDS se revisan y actualizan con los datos del Certificado de Análisis de cada lote, asegurando consistencia entre el SDS y el producto real enviado.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Proceso de Control de Calidad'
+      desc: 'QC de 7 etapas incluyendo verificación de documentación y liberación'
+      link_label: 'Más información'
+      href: /manufacturing/quality-control
+    - icon: R
+      icon_bg: blue
+      title: 'Documentación de Exportación'
+      desc: 'Paquete completo de documentación para envíos de exportación de plaguicidas'
+      link_label: 'Más información'
+      href: /resources/pesticide-export-documentation
+    - icon: R
+      icon_bg: green
+      title: 'Diseño de Etiqueta OEM'
+      desc: 'Requisitos de cumplimiento de etiquetas por mercado'
+      link_label: 'Más información'
+      href: /resources/pesticide-label-design-oem
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

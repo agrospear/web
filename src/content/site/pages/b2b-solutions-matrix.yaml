@@ -31,7 +31,7 @@ solutions:
     - clientType: Agricultural Retailer
       need: Retail Business Upgrade
       solutionPage: Bring OEM Formulations Into Your Retail Business
-      link: /products/fungicide
+      link: /products/fungicides
     - clientType: E-Commerce Seller
       need: E-commerce Growth
       solutionPage: Product Differentiation & Fast Supply
@@ -39,7 +39,7 @@ solutions:
     - clientType: Herbicide Brand
       need: Herbicide Program
       solutionPage: Create Your Herbicide Brand
-      link: /products/biopesticide
+      link: /products/biopesticides
     - clientType: Insecticide & Wellness Brand
       need: Insecticide Program
       solutionPage: Insecticide Formulation Solutions

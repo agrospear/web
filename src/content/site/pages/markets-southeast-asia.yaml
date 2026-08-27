@@ -52,6 +52,58 @@ capabilities:
       link_label: 'View packaging'
       href: /manufacturing/packaging
 
+crop_profiles:
+  tagline: 'Crops & Pests'
+  title: 'Key Crops and Target Pests — Southeast Asia'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Rice — Brown Planthopper & Stem Borer'
+      desc: 'Brown planthopper (Nilaparvata lugens) and yellow stem borer (Scirpophaga incertulas) are primary rice pests across ASEAN. SC formulations of buprofezin and EC formulations of chlorpyrifos for integrated pest management.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: P
+      icon_bg: blue
+      title: 'Oil Palm — Rhinoceros Beetle & Ganoderma'
+      desc: 'Rhinoceros beetle (Oryctes) and basal stem rot (Ganoderma) threaten palm oil yields. EC formulations for beetle control, WP formulations of trifloxystrobin for disease management.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: B
+      icon_bg: purple
+      title: 'Rubber — Corynespora Leaf Fall'
+      desc: 'Corynespora cassiicola leaf fall disease affects rubber plantations across Southeast Asia. SC and WP formulations of mancozeb and tebuconazole for disease control programs.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: V
+      icon_bg: orange
+      title: 'Vegetables — Diamondback Moth'
+      desc: 'Diamondback moth (Plutella xylostella) and fruit borers damage cruciferous and solanaceous vegetables. WDG formulations of indoxacarb and SC formulations of chlorantraniliprole for resistance management.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+
+regulation_overview:
+  tagline: 'Regulation'
+  title: 'Registration Pathways — Southeast Asia'
+  features:
+    - icon: A
+      icon_bg: green
+      title: 'ASEAN Harmonization'
+      desc: 'ASEAN guidelines for harmonized pesticide registration support mutual recognition across member states. Documentation aligned with ASEAN testing guidelines and data requirements.'
+      link_label: 'Registration support'
+      href: /manufacturing/research-development
+    - icon: T
+      icon_bg: blue
+      title: 'National Registration'
+      desc: 'Individual country registration through DVS (Vietnam), DOA (Thailand), Pesticide Committee (Indonesia) and FPA (Philippines). Local dossier preparation and submission support.'
+      link_label: 'Registration support'
+      href: /manufacturing/research-development
+    - icon: S
+      icon_bg: purple
+      title: 'Tropical Stability Testing'
+      desc: 'Accelerated stability at 54°C (CIPAC MT 46) and long-term at 30°C/75% RH for all ASEAN formulations. Adjuvant packages adjusted for high temperature and humidity.'
+      link_label: 'View quality control'
+      href: /manufacturing/quality-control
+
 faqs:
   tagline: FAQ
   title: 'Southeast Asia Market — Frequently Asked Questions'
@@ -64,6 +116,41 @@ faqs:
       a: 'Smallholder-friendly packaging: 50 mL, 100 mL and 250 mL sachets and bottles with pictorial labels. Institutional sizes: 1 L and 5 L for plantation-scale buyers. Custom packaging sizes available for specific channel requirements.'
     - q: 'Do you support ASEAN harmonized registration?'
       a: 'Yes. We provide documentation aligned with ASEAN guidelines for harmonized pesticide registration: GLP study reports, five-batch analysis, residue data and formulation specifications. Our regulatory team supports submissions in target ASEAN countries.'
+
+related:
+  tagline: 'Related'
+  title: 'Explore Our OEM Solutions'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Herbicides for rice and plantation crops — pretilachlor, bentazon, propanil and glyphosate formulations for tropical conditions.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Insecticides for tropical pest pressure — brown planthopper, stem borer and rhinoceros beetle control formulations.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicides'
+      desc: 'Fungicides for tropical disease management — rice blast, sheath blight and leaf spot formulations.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: O
+      icon_bg: orange
+      title: 'OEM Manufacturing'
+      desc: 'Full-service agrochemical OEM — tropical formulation engineering, private labeling and ASEAN registration support.'
+      link_label: 'OEM solutions'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Factory & Quality Control'
+      desc: '12,500 m² manufacturing facility with 7-stage QC system, accelerated tropical stability testing and GLP-certified lab.'
+      link_label: 'View factory'
+      href: /manufacturing/factory
 
 cta:
   title: 'Discuss Your Southeast Asia Requirements'

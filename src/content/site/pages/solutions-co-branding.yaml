@@ -71,6 +71,29 @@ content_html: |
     <p><strong>Keep reading:</strong> co-branded products start from a shared specification — see our <a href="/oem-manufacturing">OEM/ODM program</a> for customization, trial MOQs and co-branding terms. Every batch runs the 12,500 m&sup2; <a href="/factory">production line</a> and is 100% stability-tested before it ships under both brands.</p>
   </div>
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & OEM Services'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Co-branded herbicide programs — dual-branding with Agrospear manufacturing quality.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Co-branded insecticide programs — leverage Agrospear formulation expertise with your brand.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'OEM Solutions'
+      desc: 'Full-service agrochemical OEM from formulation development to export logistics.'
+      link_label: 'OEM solutions'
+      href: /solutions/agrochemical-oem
+
 cta:
   title: 'Discuss Your Co-Branding Project'
   subtitle: 'Send your co-branding concept — our team responds within 1 business day.'

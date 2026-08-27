@@ -4,6 +4,7 @@ import { ArrowRight, CheckCircle2, Package } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, products, productsPage } from '@/product/content'
+import { productPath } from '@/product/route-registry'
 import { seriesPages } from '@/product/series-pages'
 import { procurementProfiles, commercialRows } from '@/product/procurement'
 import { FACTS, MOQ_SHORT } from '@/product/facts'
@@ -153,7 +154,7 @@ function SeriesPage() {
           </h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {items.map((p) => (
-              <a key={p.slug} href={fl(`/products/${p.slug}`)} className="marine-card group flex flex-col gap-4 p-5 transition-transform hover:-translate-y-0.5">
+              <a key={p.slug} href={fl(productPath(p.slug))} className="marine-card group flex flex-col gap-4 p-5 transition-transform hover:-translate-y-0.5">
                 <img src={p.image} alt={p.name} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
                 <div>
                   <div className="flex items-center justify-between gap-2">
@@ -238,6 +239,32 @@ function SeriesPage() {
           </div>
         )}
 
+        <div className="mx-auto mt-14 max-w-3xl">
+          <h2 className="font-display text-2xl font-extrabold tracking-tight">
+            {t('content.product.produceUnderBrand')}
+          </h2>
+          <div className="mt-6 grid gap-3 sm:grid-cols-3">
+            <a href={fl('/solutions/agrochemical-oem')} className="marine-card p-5">
+              <p className="text-[14px] font-bold">{t('content.product.oemOdmTitle')}</p>
+              <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
+                {t('content.product.oemOdmDesc')}
+              </p>
+            </a>
+            <a href={fl('/manufacturing/factory')} className="marine-card p-5">
+              <p className="text-[14px] font-bold">{t('content.product.manufacturingCapability')}</p>
+              <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
+                12,500 m² plant · 6 production lines · 50,000+ t annual capacity
+              </p>
+            </a>
+            <a href={fl('/manufacturing/quality-control')} className="marine-card p-5">
+              <p className="text-[14px] font-bold">{t('content.product.qualityControl')}</p>
+              <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
+                7-stage QC gates · 100% batch analysis · CIPAC stability testing
+              </p>
+            </a>
+          </div>
+        </div>
+
         <JsonLd
           data={breadcrumbLd(origin, [
             { name: t('content.nav.home'), path: '/' },
@@ -245,7 +272,7 @@ function SeriesPage() {
             { name: page.h1, path: `/products/${page.slug}` },
           ])}
         />
-        <JsonLd data={itemListLd(items.map((p) => ({ name: p.name, path: `/products/${p.slug}` })))} />
+        <JsonLd data={itemListLd(items.map((p) => ({ name: p.name, path: productPath(p.slug) })))} />
         <JsonLd data={faqLd(page.faqs, locale)} />
       </section>
 

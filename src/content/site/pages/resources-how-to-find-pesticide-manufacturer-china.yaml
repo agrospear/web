@@ -1,0 +1,48 @@
+meta:
+  title: 'How to Find a Reliable Pesticide Manufacturer in China | Agrospear'
+  description: 'Find a reliable pesticide manufacturer in China: audit checklist, certification requirements, QC protocols and red flags to avoid costly sourcing mistakes.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'How to Find a Reliable Pesticide Manufacturer in China'
+
+answer:
+  label: 'Straight answer'
+  text: 'To find a reliable pesticide manufacturer in China, verify ISO 9001 and ICAMA certifications, conduct a factory audit covering production lines and QC lab equipment, request reference clients in your target market, and confirm the supplier can produce the specific formulations you need. Prioritize manufacturers with 10+ years of export experience and in-house analytical testing capability.'
+  verified: '2026-08'
+
+intro:
+  - 'China accounts for over 30% of global pesticide exports, making it the largest sourcing destination for agrochemical buyers worldwide. However, the market includes thousands of trading companies posing as manufacturers, so distinguishing actual producers from intermediaries is critical. A genuine manufacturer will have formulation compounding lines, an in-house QC lab with HPLC and GC equipment, and ICAMA registration certificates for their products.'
+  - 'The verification process starts with documentary checks — business license, ISO 9001/14001 certificates, ICAMA registrations — and progresses to an on-site or third-party audit. Agrospear operates a 12,500 m² ISO-certified facility with 6 production lines and 50,000+ t/year capacity, serving 60+ export countries with full 7-stage QC from raw material to shipment.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Factory Audit Checklist'
+      desc: 'Step-by-step audit checklist for evaluating Chinese pesticide manufacturers'
+      link_label: 'Learn more'
+      href: /manufacturing/factory-audit
+    - icon: R
+      icon_bg: blue
+      title: 'OEM Buyer Guide'
+      desc: 'Complete sourcing guide for agrochemical formulations from Asia'
+      link_label: 'Learn more'
+      href: /research/oem-buyer-guide
+    - icon: R
+      icon_bg: green
+      title: 'ISO 9001 Certification'
+      desc: 'Why quality management certification matters for pesticide plants'
+      link_label: 'Learn more'
+      href: /agrochemical-certification-guide
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

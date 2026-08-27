@@ -12,6 +12,7 @@ import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { assetUrl } from '../assets'
 import type { ContentPage, ContentSectionDef } from '../types'
+import { productPath } from '@/product/route-registry'
 
 /**
  * Generic content section renderer.
@@ -800,7 +801,7 @@ function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackFeaturedProducts'))} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((p) => (
-          <a key={p.slug} href={localize(`/products/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
+          <a key={p.slug} href={localize(productPath(p.slug), locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
             {p.image && (
               <img src={p.image} alt={p.title} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
             )}

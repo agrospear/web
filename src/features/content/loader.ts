@@ -2,7 +2,7 @@ import { parse } from 'yaml'
 import { assetUrl } from './assets'
 import { brandify as configBrandify } from './brand'
 import { defaultLocale, type Locale } from '@/features/i18n/locale'
-import { SHADOWED_PATHS, EXTRA_PATHS } from '@/product/route-registry'
+import { SHADOWED_PATHS, EXTRA_PATHS, productPath } from '@/product/route-registry'
 import type {
   ContentArticle,
   ContentCaseUse,
@@ -395,7 +395,7 @@ export const getEsPaths = () => getLocalePaths('es')
 export function getLocaleContentPaths(locale: string): string[] {
   const paths: string[] = []
   for (const slug of Object.keys(NEWS_LOCALE[locale] ?? {})) paths.push(`/news/${slug}`)
-  for (const slug of Object.keys(PRODUCTS_LOCALE[locale] ?? {})) paths.push(`/products/${slug}`)
+  for (const [slug, p] of Object.entries(PRODUCTS_LOCALE[locale] ?? {})) paths.push(productPath(slug, p.category))
   for (const slug of Object.keys(TECH_LOCALE[locale] ?? {})) paths.push(`/technology/${slug}`)
   for (const slug of Object.keys(CASE_LOCALE[locale] ?? {})) paths.push(`/evidence/case-studies/${slug}`)
   return paths

@@ -1,0 +1,48 @@
+meta:
+  title: 'Embalaje de Plaguicidas para Exportación: Tamaños, Estándares y Cumplimiento | Agrospear'
+  description: 'Estándares de embalaje de plaguicidas para exportación: tambores de 200L, garrafas de 20L, botellas de 1L, bolsas de 25kg para WDG/WP — certificación UN, etiquetado GHS y reglas específicas por mercado.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Embalaje de Plaguicidas para Exportación: Tamaños, Estándares y Cumplimiento'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El embalaje de plaguicidas para exportación debe cumplir con los estándares de embalaje UN para mercancías peligrosas (los números UN varían según la formulación), los requisitos de etiquetado GHS para el mercado de destino, y las especificaciones de tamaño alineadas con los canales de distribución local. Los formatos comunes incluyen tambores HDPE de 200L para granel líquido, garrafas de 20L para mercados de volumen medio, botellas de 1L para retail, y bolsas tejidas de 25 kg con forro PE para formulaciones WDG y WP.'
+  verified: '2026-08'
+
+intro:
+  - 'El cumplimiento del embalaje es un elemento innegociable de la exportación de plaguicidas — las autoridades aduaneras en cada mercado requieren embalaje certificado UN para agroquímicos clasificados como mercancías peligrosas. El código de embalaje UN (por ejemplo, UN 1H1/Y1.8/150 para tambores HDPE) debe estar impreso en cada contenedor. El embalaje interior para formulaciones líquidas requiere materiales compatibles: HDPE para formulaciones SL y EC, HDPE fluorado para productos EC a base de solventes para prevenir permeación y degradación del contenedor.'
+  - 'Agrospear ofrece personalización de embalaje en todos los formatos estándar de exportación, con capacidad de etiquetado interno para pictogramas conformes con GHS, declaraciones de peligro y texto de precaución en los idiomas de los mercados de destino. La verificación de etiquetas es parte del proceso de QC de 7 etapas, y cada envío incluye listas de embalaje con números de certificación UN, números de lote y declaraciones de peso neto coincidentes con la documentación del Certificado de Análisis.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Servicios de Embalaje'
+      desc: 'Capacidades completas de embalaje y opciones de personalización'
+      link_label: 'Más información'
+      href: /manufacturing/packaging
+    - icon: R
+      icon_bg: blue
+      title: 'Diseño de Etiqueta OEM'
+      desc: 'Requisitos de cumplimiento para etiquetas de plaguicidas por mercado'
+      link_label: 'Más información'
+      href: /resources/pesticide-label-design-oem
+    - icon: R
+      icon_bg: green
+      title: 'Documentación de Exportación'
+      desc: 'Certificados, licencias y requisitos aduaneros para envío'
+      link_label: 'Más información'
+      href: /resources/pesticide-export-documentation
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

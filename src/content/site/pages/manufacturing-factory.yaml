@@ -217,9 +217,38 @@ process_cta:
   link: /manufacturing/factory/process
 
 evidence_review:
-  tagline: 'Evidence & Verification'
-  title: 'Factory Evidence — Verified'
-  body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Qingdao plant. Certificates, QC records and batch traceability records are available on request. Specifications last verified 2026-08.'
+   tagline: 'Evidence & Verification'
+   title: 'Factory Evidence — Verified'
+   body: 'All manufacturing claims on this page are verified by our Manufacturing Engineering Team at the Qingdao plant. Certificates, QC records and batch traceability records are available on request. Specifications last verified 2026-08.'
+
+related:
+  tagline: 'Related'
+  title: 'Product Categories & OEM Services'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Herbicide production lines — SC, EC, WP and WDG formulation manufacturing.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Insecticide production lines — EC, SC, WP and microencapsulated formulations.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'OEM Solutions'
+      desc: 'Full-service agrochemical OEM from formulation development to export logistics.'
+      link_label: 'OEM solutions'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Markets'
+      desc: 'Regional market programs — Africa, Southeast Asia, Latin America and 40+ countries.'
+      link_label: 'View markets'
+      href: /markets
 
 cta:
   title: 'Explore Our Factory'

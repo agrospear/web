@@ -66,6 +66,35 @@ faqs:
     - q: 'Can I request third-party inspection?'
       a: 'Yes. We support pre-shipment, during-production and container-loading inspections by SGS, TÜV, BV or Intertek. Inspection schedules can be written into the contract and we provide full access to production records, QC data and batch documentation for the inspector.'
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & OEM Services'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Quality-controlled herbicide manufacturing — batch analysis, CIPAC testing and stability verification.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Quality-controlled insecticide manufacturing — residue analysis and specification compliance.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'OEM Solutions'
+      desc: 'OEM manufacturing with integrated 7-stage QC — every batch analyzed, every specification verified.'
+      link_label: 'OEM solutions'
+      href: /solutions/agrochemical-oem
+    - icon: F
+      icon_bg: purple
+      title: 'Factory'
+      desc: '12,500 m² manufacturing facility with 6 production lines and 50,000+ t annual capacity.'
+      link_label: 'View factory'
+      href: /manufacturing/factory
+
 cta:
   title: 'Request Quality Documentation'
   actions:

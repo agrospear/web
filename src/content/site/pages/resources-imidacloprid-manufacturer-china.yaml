@@ -1,0 +1,48 @@
+meta:
+  title: 'Imidacloprid Manufacturer China: OEM Supply Guide | Agrospear'
+  description: 'Imidacloprid OEM manufacturing from China: SL 200, SC 350, WP 70 and WDG formulations, ICAMA registration, QC specs and export capabilities.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Imidacloprid Manufacturer China: OEM Supply Guide'
+
+answer:
+  label: 'Straight answer'
+  text: 'China manufactures imidacloprid in multiple formulations — SL 200 g/L, SC 350 g/L, WP 70% and WDG 70% — with OEM supply available from ICAMA-registered facilities. Key quality benchmarks include active ingredient content within ±2% of label claim, suspended particle size D90 below 5 μm for SC formulations, and zero detectable impurities above CIPAC thresholds.'
+  verified: '2026-08'
+
+intro:
+  - 'Imidacloprid remains one of the most widely used neonicotinoid insecticides globally, particularly for seed treatment, soil application and foliar spray on cotton, rice and vegetable crops. While the EU has restricted outdoor use, demand continues strong across Asia, Africa, Latin America and the Middle East. Chinese manufacturers offer competitive pricing due to integrated technical-grade production, with formulation OEM margins typically 15-25% below European or Indian sources.'
+  - 'Agrospear produces imidacloprid formulations across 2 dedicated lines with full ICAMA registration data packages. Each batch undergoes HPLC analysis per CIPAC method 362, with impurity profiling for the key relevant metabolites. OEM clients receive Certificate of Analysis, Safety Data Sheets and five-batch analysis reports for independent registration in target markets.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Insecticide Products'
+      desc: 'Full insecticide formulation range including neonicotinoids'
+      link_label: 'Learn more'
+      href: /products/insecticides
+    - icon: R
+      icon_bg: blue
+      title: 'Seed Treatment Manufacturing'
+      desc: 'Flowable concentrates and film coatings for seed treatment'
+      link_label: 'Learn more'
+      href: /products/seed-treatment
+    - icon: R
+      icon_bg: green
+      title: 'HPLC Pesticide Testing'
+      desc: 'Active ingredient verification methods and CIPAC standards'
+      link_label: 'Learn more'
+      href: /resources/hplc-pesticide-testing
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

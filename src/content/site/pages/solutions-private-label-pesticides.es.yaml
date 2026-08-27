@@ -83,6 +83,35 @@ faqs:
     - q: '¿Proporcionáis documentación regulatoria?'
       a: 'Sí. Datos de registro ICAMA, especificaciones FAO/OMS y documentación de cumplimiento por mercado están incluidos con cada pedido de marca privada.'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Mercados'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Programas de herbicidas de marca privada — marca personalizada, embalaje y registro para tu mercado.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Programas de insecticidas de marca privada — productos con marca con tus especificaciones y documentación.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: A
+      icon_bg: orange
+      title: 'África'
+      desc: 'Suministro de marca privada para mercados africanos — registro local y soporte de documentación.'
+      link_label: 'Mercado de África'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Sudeste Asiático'
+      desc: 'Suministro de marca privada para mercados ASEAN — formulaciones tropicales y soporte de registro.'
+      link_label: 'Mercado del Sudeste Asiático'
+      href: /markets/southeast-asia
+
 cta:
   title: 'Lanza Tu Línea de Marca Privada'
   subtitle: 'Cuéntanos tu concepto de marca y mercado objetivo — recomendaremos la mejor plataforma y devolveremos un presupuesto en un día laborable.'

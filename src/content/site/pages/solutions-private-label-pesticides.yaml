@@ -83,6 +83,35 @@ faqs:
     - q: 'Do you provide regulatory documentation?'
       a: 'Yes. ICAMA registration data, FAO/WHO specifications and per-market compliance documentation are included with every private label order.'
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & Markets'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Private-label herbicide programs — custom branding, packaging and registration for your market.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Private-label insecticide programs — branded products with your specifications and documentation.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: A
+      icon_bg: orange
+      title: 'Africa'
+      desc: 'Private-label supply for African markets — local registration and documentation support.'
+      link_label: 'Africa market'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Southeast Asia'
+      desc: 'Private-label supply for ASEAN markets — tropical formulations and registration support.'
+      link_label: 'Southeast Asia market'
+      href: /markets/southeast-asia
+
 cta:
   title: 'Launch Your Private Label Line'
   subtitle: 'Tell us your brand concept and target market — we will recommend the best platform and return a quotation within one business day.'

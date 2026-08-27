@@ -1,0 +1,48 @@
+meta:
+  title: 'Premix Formulation Advantages: Combination Pesticides for Broader Protection | Agrospear'
+  description: 'Premix formulation advantages: broader spectrum, resistance management, reduced spray trips and cost savings from combination pesticide formulations for OEM buyers.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Premix Formulation Advantages: Combination Pesticides for Broader Protection'
+
+answer:
+  label: 'Straight answer'
+  text: 'Premix (combination) formulations combine two or more active ingredients in a single product, delivering broader-spectrum pest control, built-in resistance management, fewer spray applications and lower total cost per hectare compared to tank-mixing separate products. The global premix market is growing at 7% annually as farmers and regulators prioritize integrated pest management and reduced application frequency.'
+  verified: '2026-08'
+
+intro:
+  - 'Premix formulations solve multiple crop protection challenges in a single application: insecticide+fungicide combinations protect seeds from both soil pests and damping-off diseases, while herbicide premixes like atrazine+mesotrione control both broadleaf and grass weeds with different modes of action. The key technical challenge is ensuring chemical compatibility between actives — some combinations degrade rapidly or cause physical instability if improperly formulated.'
+  - 'Agrospear develops premix formulations in its in-house R&D lab with compatibility screening, accelerated stability testing and field bio-efficacy validation. Current premix capabilities include SC and WDG co-formulations with up to 3 active ingredients, seed treatment premixes (insecticide+fungicide+safener), and herbicide combinations with built-in adjuvant systems. Each premix undergoes CIPAC analytical method validation for every active ingredient independently and in combination.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Premix Formulations'
+      desc: 'Combination pesticide products and custom premix development'
+      link_label: 'Learn more'
+      href: /products/premix-formulations
+    - icon: R
+      icon_bg: blue
+      title: 'Seed Treatment Manufacturing'
+      desc: 'FS premixes for seed-applied insecticide+fungicide protection'
+      link_label: 'Learn more'
+      href: /products/seed-treatment
+    - icon: R
+      icon_bg: green
+      title: 'Custom Formulation Development'
+      desc: 'From concept to production for novel combination products'
+      link_label: 'Learn more'
+      href: /solutions/custom-formulation
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

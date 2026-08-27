@@ -1,0 +1,48 @@
+meta:
+  title: 'Fabricación de Formulación de Tratamiento de Semillas: Concentrados Fluidos y Recubrimientos Película | Agrospear'
+  description: 'Fabricación de formulación de tratamiento de semillas: concentrados fluidos (FS), recubrimientos película, colorantes y parámetros clave de calidad para suministro OEM de tratamiento de semillas.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Fabricación de Formulación de Tratamiento de Semillas: Concentrados Fluidos y Recubrimientos Película'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Las formulaciones de tratamiento de semillas son principalmente concentrados fluidos para tratamiento de semillas (FS) de 200-600 g/L de ingrediente activo, combinados con polímeros de recubrimiento película, colorantes y protectores. Los parámetros clave de calidad incluyen uniformidad de cobertura de semilla (>95% de cobertura a la dosis objetivo), tasas bajas de desprendimiento de polvo (<0.5 g/100 semillas), seguridad de germinación (≥95% del control no tratado), y fluidez a través de equipos de plantación mecanizada.'
+  verified: '2026-08'
+
+intro:
+  - 'El mercado global de tratamiento de semillas crece a un 8-10% anual a medida que los agricultores pasan de la aspersión broadcast a la protección de precisión aplicada a la semilla. Las formulaciones FS requieren fabricación especializada: el ingrediente activo debe micronizarse a D90 < 3 μm para cobertura uniforme de la semilla, la estabilidad de la suspensión debe exceder el 95% después de 30 minutos, y el producto final debe ser compatible con polímeros de recubrimiento película sin separación de fases. Los ingredientes activos comunes incluyen imidacloprid, tiametoxam, metalaxil-M y fludioxonil en premezclas combinadas.'
+  - 'Agrospear fabrica formulaciones de tratamiento de semillas en líneas FS dedicadas con molienda de molino de perlas para tamaño de partícula inferior a 3 μm, dosificación automatizada de colorantes para cumplimiento de identificación de semillas, y pruebas internas de cobertura y desprendimiento de polvo. El proceso de QC de 7 etapas incluye pruebas de seguridad de germinación en colaboración con laboratorios certificados de semillas, asegurando que las semillas tratadas cumplan con ≥95% de germinación en comparación con los controles no tratados.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Productos de Tratamiento de Semillas'
+      desc: 'Formulaciones FS y soluciones de tratamiento de semillas en premezcla'
+      link_label: 'Más información'
+      href: /products/seed-treatment
+    - icon: R
+      icon_bg: blue
+      title: 'Formulaciones Premezcla'
+      desc: 'Plaguicidas combinados para protección de espectro más amplio'
+      link_label: 'Más información'
+      href: /products/premix-formulations
+    - icon: R
+      icon_bg: green
+      title: 'Productos Insecticidas'
+      desc: 'Formulaciones neonicotinoides y otros insecticidas'
+      link_label: 'Más información'
+      href: /products/insecticides
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

@@ -133,6 +133,29 @@ geo:
     - 'Distribuidores y registradores'
     - 'Cooperativas y programas gubernamentales'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Servicios OEM'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Desarrollo ODM de herbicidas — formulación personalizada desde el concepto hasta la producción.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Desarrollo ODM de insecticidas — formulaciones novedosas con documentación regulatoria completa.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'Soluciones OEM'
+      desc: 'Servicio completo de fabricación OEM — etiqueta privada, co-branding y formulación personalizada.'
+      link_label: 'Soluciones OEM'
+      href: /solutions/agrochemical-oem
+
 cta:
   title: '¿Listo para desarrollar tu formulación agroquímica?'
   subtitle: 'Envía tu brief — un concepto, cultivos objetivo y mercados son suficientes para empezar. Revisión de I+D y presupuesto en un día laborable.'

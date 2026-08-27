@@ -1,0 +1,48 @@
+meta:
+  title: 'Guía de Selección de Adyuvantes: Surfactantes, Aceites y Agentes de Control de Deriva | Agrospear'
+  description: 'Guía de selección de adyuvantes: surfactantes no iónicos, concentrados de aceite de cultivo, MSO, agentes de control de deriva y humectantes — cuándo y cómo usar cada tipo.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Guía de Selección de Adyuvantes: Surfactantes, Aceites y Agentes de Control de Deriva'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Los adyuvantes mejoran el rendimiento de los plaguicidas a través de tres mecanismos: los surfactantes no iónicos (NIS, 0.1-0.5% v/v) reducen la tensión superficial para mejor cobertura foliar, los concentrados de aceite de cultivo y aceites de semilla metilados (MSO, 1-2% v/v) mejoran la penetración cuticular de activos lipofílicos, y los agentes de control de deriva (a base de polímeros, 0.05-0.25% v/v) reducen la formación de gotas finas durante la aplicación aérea o con barra de aspersión.'
+  verified: '2026-08'
+
+intro:
+  - 'La elección del adyuvante correcto depende del tipo de formulación, la plaga objetivo, la estructura del dosel del cultivo y el equipo de aspersión. El glifosato SL funciona mejor con sulfato de amonio (2% p/v) para contrarrestar el antagonismo catiónico del agua dura, más un surfactante no iónico para mojado. Los fungicidas lipofílicos (tebuconazole, azoxistrobina) muestran 15-30% de mejora en resistencia a la lluvia con MSO en comparación con NIS solo. Las aplicaciones herbicidas por aeronave requieren agentes de control de deriva para mantener >90% del volumen de aspersión en el rango de gotas de 200-400 μm.'
+  - 'Agrospear fabrica formulaciones de adyuvantes incluyendo mezclas de surfactantes no iónicos, MSO a base de vegetales, y agentes de control de deriva poliméricos para suministro OEM y co-branding. Cada producto se prueba en compatibilidad de mezcla en tanque contra las principales formulaciones herbicidas, fungicidas e insecticidas, con datos de estabilidad física (sin separación de fases, sin sedimentación después de 24 horas a diluciones 1:50 y 1:100).'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Productos Adyuvantes'
+      desc: 'Formulaciones de surfactantes, aceites y agentes de control de deriva'
+      link_label: 'Más información'
+      href: /products/adjuvants
+    - icon: R
+      icon_bg: blue
+      title: 'Tipos de Formulación de Glifosato'
+      desc: 'Glifosato SL, WP y SC con datos de compatibilidad de adyuvantes'
+      link_label: 'Más información'
+      href: /resources/glyphosate-formulation-types
+    - icon: R
+      icon_bg: green
+      title: 'Desarrollo de Formulación Personalizada'
+      desc: 'Proyectos de formulación de adyuvantes y plaguicidas personalizados'
+      link_label: 'Más información'
+      href: /solutions/custom-formulation
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

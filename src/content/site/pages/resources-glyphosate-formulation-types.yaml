@@ -1,0 +1,48 @@
+meta:
+  title: 'Glyphosate Formulation Types: SL, WP, SC Compared | Agrospear'
+  description: 'Glyphosate formulation types compared: soluble liquid (SL 41%), wettable powder (WP), suspension concentrate (SC) — properties, application and OEM specs.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Glyphosate Formulation Types: SL, WP, SC Compared'
+
+answer:
+  label: 'Straight answer'
+  text: 'The three main glyphosate formulations are SL 41% (soluble liquid — the global standard for foliar spray), WP (wettable powder — lower cost but dusty and less convenient), and SC (suspension concentrate — improved rainfastness and drift control). SL 41% accounts for over 80% of global glyphosate trade due to its ease of mixing, consistent efficacy and established registration history.'
+  verified: '2026-08'
+
+intro:
+  - 'Glyphosate SL 41% (isopropylamine salt, equivalent to 360 g ae/L) dominates the market because it dissolves completely in water, has excellent tank-mix compatibility and requires no special agitation during spraying. The WP formulation, typically at 50-75% acid equivalent, costs less to produce and ship but requires more careful handling and mixing. SC formulations incorporate adjuvant systems that improve leaf surface retention and rainfastness, making them suitable for high-rainfall regions.'
+  - 'Agrospear manufactures glyphosate SL 41% on dedicated production lines with CIPAC method 284 validation for active ingredient content, specific gravity and foam stability. Each batch undergoes 7-stage QC including HPLC verification of glyphosate acid equivalent, impurity profiling for N-nitrosoglyphosate, and accelerated stability testing at 54°C for 14 days.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Herbicide Products'
+      desc: 'Full range of herbicide formulations including glyphosate SL'
+      link_label: 'Learn more'
+      href: /products/herbicides
+    - icon: R
+      icon_bg: blue
+      title: 'Formulation Type Comparison'
+      desc: 'Detailed comparison of all agrochemical formulation types'
+      link_label: 'Learn more'
+      href: /formulation-type-comparison
+    - icon: R
+      icon_bg: green
+      title: 'Adjuvant Selection Guide'
+      desc: 'Surfactants and adjuvants for glyphosate tank mixes'
+      link_label: 'Learn more'
+      href: /resources/adjuvant-selection-guide
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

@@ -8,6 +8,7 @@ import { getDictionary, translate, localizePath } from '@/features/i18n/locale'
 import { useTranslation } from '@/features/i18n/provider'
 import { SECONDARY_PILL } from '@/components/marketing/cta-styles'
 import { pick, products, productsPage } from '@/product/content'
+import { productPath } from '@/product/route-registry'
 import { seriesPages } from '@/product/series-pages'
 import { JsonLd, itemListLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { MarketingShell } from '@/components/marketing/shell'
@@ -82,7 +83,7 @@ function ProductsPage() {
       />
       <JsonLd data={siteBreadcrumbLd([{ name: t('content.nav.home'), path: '/' }, { name: t('agro.nav.products'), path: '/products' }])} />
       <JsonLd
-        data={itemListLd(pick(products, locale).items.map((p) => ({ name: p.name, path: `/products/${p.slug}` })))}
+        data={itemListLd(pick(products, locale).items.map((p) => ({ name: p.name, path: productPath(p.slug) })))}
       />
 
       {/* everything is customizable */}

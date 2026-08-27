@@ -1,0 +1,48 @@
+meta:
+  title: 'Cypermethrin Manufacturing: EC and WP Formulation Guide | Agrospear'
+  description: 'Cypermethrin manufacturing guide: EC 250 and WP 25 formulations, solvent selection, CIPAC testing, stability data and OEM specifications for global supply.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Cypermethrin Manufacturing: EC and WP Formulation Guide'
+
+answer:
+  label: 'Straight answer'
+  text: 'Cypermethrin is manufactured in two primary formulations: EC 250 g/L (emulsifiable concentrate — the global standard for broad-spectrum insect control) and WP 25% (wettable powder — lower cost for foliar application). EC formulation requires xylene or solvent naphtha as carrier with emulsifier blends achieving stable emulsion per CIPAC MT 36, while WP requires dispersant and wetting agent optimization for >75% suspensibility after 30 minutes.'
+  verified: '2026-08'
+
+intro:
+  - 'Cypermethrin is a synthetic pyrethroid with activity against lepidoptera, coleoptera and hemiptera pests across cotton, vegetables, fruit and public health vector control applications. The EC 250 formulation dominates the market due to excellent spray coverage, rainfastness and compatibility with ULV application equipment. WP 25 is preferred in markets where solvent-based formulations face regulatory restrictions or where low-cost application is prioritized.'
+  - 'Agrospear manufactures cypermethrin EC 250 on dedicated emulsifiable concentrate lines with emulsion stability testing per CIPAC MT 36 (no creaming or separation after 24 hours at 30°C in 342 ppm hard water). WP 25 is produced on the wettable powder line with particle size optimization for D50 of 5-10 μm and suspensibility >75% per CIPAC MT 15. Each batch undergoes HPLC analysis per CIPAC method 333 with α/β isomer ratio verification, ensuring consistent biological activity.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Insecticide Products'
+      desc: 'Full insecticide range including pyrethroids and neonicotinoids'
+      link_label: 'Learn more'
+      href: /products/insecticides
+    - icon: R
+      icon_bg: blue
+      title: 'Formulation Type Comparison'
+      desc: 'EC, WP, SC and other formulation types compared'
+      link_label: 'Learn more'
+      href: /formulation-type-comparison
+    - icon: R
+      icon_bg: green
+      title: 'HPLC Pesticide Testing'
+      desc: 'Active ingredient verification and isomer ratio analysis'
+      link_label: 'Learn more'
+      href: /resources/hplc-pesticide-testing
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

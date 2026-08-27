@@ -1,0 +1,48 @@
+meta:
+  title: 'Mercado de Protección de Cultivos América Latina: Suministro OEM para Soja y Maíz | Agrospear'
+  description: 'Mercado de protección de cultivos en América Latina: suministro OEM para soja y maíz, registro en Brasil y Argentina, formulaciones clave y estrategias de distribución.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Mercado de Protección de Cultivos América Latina: Suministro OEM para Soja y Maíz'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'América Latina es la mayor región productora de soja del mundo (solo Brasil: más de 155M toneladas métricas/año) y la segunda mayor productora de maíz, impulsando una demanda masiva de herbicidas (glifosato, atrazina, 2,4-D), fungicidas (azoxistrobina, tebuconazole) e insecticidas (clorantraniliprol, lambda-cialotrina). El suministro OEM requiere registro MAPA en Brasil, aprobación SENASA en Argentina, y documentación específica por país en toda la región.'
+  verified: '2026-08'
+
+intro:
+  - 'El mercado agroquímico de Brasil es el más grande del mundo por valor con más de $13 mil millones anuales, siendo la soja y el maíz responsables de más del 70% del consumo de plaguicidas. El clima tropical de la región del Cerrado impulsa una intensa presión de enfermedades y plagas, requiriendo 3-5 aplicaciones de fungicida por temporada de soja contra la roya asiática de la soja (Phakopsora pachyrhizi). Argentina, Paraguay y Uruguay forman el mercado del Cono Sur con vías de registro compartidas bajo los esfuerzos de armonización del Mercosur.'
+  - 'Agrospear suministra formulaciones OEM a más de 8 mercados latinoamericanos con paquetes completos de datos de registro incluyendo expedientes en formato MAPA para Brasil. Los productos clave para la región incluyen glifosato SL 41%, atrazina SC 500, premezcla azoxistrobina+tebuconazole SC, y formulaciones lambda-cialotrina CS microencapsuladas. La capacidad de más de 50.000 t/año en 6 líneas respalda pedidos en volumen alineados con los picos de demanda de la temporada de siembra de la región.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Mercado de América Latina'
+      desc: 'Capacidades de suministro OEM para protección de cultivos en América Latina'
+      link_label: 'Más información'
+      href: /markets/latin-america
+    - icon: R
+      icon_bg: blue
+      title: 'Productos Herbicidas'
+      desc: 'Formulaciones de glifosato, atrazina y 2,4-D para cultivos en hilera'
+      link_label: 'Más información'
+      href: /products/herbicides
+    - icon: R
+      icon_bg: green
+      title: 'Productos Fungicidas'
+      desc: 'Azoxistrobina, tebuconazole y fungicidas premezcla'
+      link_label: 'Más información'
+      href: /products/fungicides
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

@@ -1,0 +1,48 @@
+meta:
+  title: 'ODM vs OEM in Agrochemical Manufacturing: Key Differences for Buyers | Agrospear'
+  description: 'ODM vs OEM in agrochemical manufacturing: design ownership, formulation control, registration responsibility, MOQ differences and which model fits your business.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'ODM vs OEM in Agrochemical Manufacturing: Key Differences for Buyers'
+
+answer:
+  label: 'Straight answer'
+  text: 'OEM (Original Equipment Manufacturing) means the buyer provides formulation specifications and the manufacturer produces to those specs, while ODM (Original Design Manufacturing) means the manufacturer designs the formulation and the buyer selects from existing products to brand as their own. OEM gives full formulation control and registration ownership; ODM offers faster market entry with lower MOQ since development costs are absorbed by the manufacturer.'
+  verified: '2026-08'
+
+intro:
+  - 'The OEM/ODM distinction is critical for agrochemical buyers because it determines who owns the formulation data, who holds registration rights and who controls future product modifications. Under OEM, the buyer specifies the active ingredient, concentration, formulation type and co-formulant requirements — the manufacturer executes. The buyer receives all technical data and can register independently. Under ODM, the manufacturer''s existing registered formulations are rebranded — the manufacturer retains the registration data and the buyer licenses the right to sell under their brand in a defined territory.'
+  - 'Agrospear supports both OEM and ODM models. OEM clients receive full data packages (CIPAC methods, five-batch analysis, toxicity dossiers, stability data) for independent registration and complete formulation ownership. ODM clients select from 200+ registered formulations with immediate availability, co-branding or full rebranding options, and lower MOQ thresholds starting from pilot quantities. Both models include Agrospear''s 7-stage QC, GHS-compliant SDS and export documentation packages.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Agrochemical OEM Services'
+      desc: 'Full OEM manufacturing with formulation ownership and registration data'
+      link_label: 'Learn more'
+      href: /solutions/agrochemical-oem
+    - icon: R
+      icon_bg: blue
+      title: 'Private Label Pesticides'
+      desc: 'ODM-style rebranding of registered formulations'
+      link_label: 'Learn more'
+      href: /solutions/private-label-pesticides
+    - icon: R
+      icon_bg: green
+      title: 'OEM vs Private Label'
+      desc: 'Detailed comparison of OEM and private label pesticide models'
+      link_label: 'Learn more'
+      href: /resources/oem-vs-private-label-pesticides
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

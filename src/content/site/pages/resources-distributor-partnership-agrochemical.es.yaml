@@ -1,0 +1,48 @@
+meta:
+  title: 'Cómo Convertirse en Socio Distribuidor Agroquímico | Agrospear'
+  description: 'Asociación de distribuidor agroquímico: requisitos, acuerdos de territorio, estructura de margen, soporte de registro y logística para distribución de protección de cultivos.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Cómo Convertirse en Socio Distribuidor Agroquímico'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Para convertirse en distribuidor agroquímico, necesita una licencia de distribución de plaguicidas válida en su territorio, almacenamiento que cumpla con las regulaciones de almacenamiento de mercancías peligrosas, un equipo técnico capaz de proporcionar servicios de asesoría en protección de cultivos, y capacidad de registro o registros existentes para la gama de productos que desea comercializar. Los acuerdos de distribuidor típicamente incluyen exclusividad territorial, estructuras de margen de 15-30% y soporte de marketing del fabricante.'
+  verified: '2026-08'
+
+intro:
+  - 'La distribución agroquímica es un negocio regulado en la mayoría de los países — los distribuidores deben poseer licencias válidas, mantener instalaciones de almacenamiento conformes y emplear personal técnico calificado. El modelo de asociación varía: los distribuidores de territorio exclusivo llevan el portafolio completo de la marca con soporte de marketing y demostración del fabricante, mientras que los distribuidores no exclusivos pueden llevar líneas competidoras con menor inversión del fabricante. Los distribuidores enfocados en licitaciones gubernamentales requieren capacidades adicionales en procesos de contratación pública y cumplimiento documental.'
+  - 'Agrospear se asocia con distribuidores en más de 60 países, ofreciendo acuerdos basados en territorio con soporte de paquete de datos de registro, materiales de co-marketing y programas de capacitación técnica. Los socios distribuidores reciben asignación prioritaria durante la temporada pico, niveles de precios competitivos basados en compromisos de volumen anual, y acceso directo al equipo técnico de Agrospear para soporte en días de campo de agricultores y servicios de asesoría en protección de cultivos.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Asociación de Distribuidor'
+      desc: 'Acuerdos de territorio, programas de soporte y niveles de asociación'
+      link_label: 'Más información'
+      href: /solutions/distributor-partners
+    - icon: R
+      icon_bg: blue
+      title: 'Suministro para Licitaciones Gubernamentales'
+      desc: 'Documentación y cumplimiento para contratación pública'
+      link_label: 'Más información'
+      href: /solutions/government-tender
+    - icon: R
+      icon_bg: green
+      title: 'Servicios OEM Agroquímicos'
+      desc: 'Fabricación personalizada y de marca privada para marcas de distribuidor'
+      link_label: 'Más información'
+      href: /solutions/agrochemical-oem
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

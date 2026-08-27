@@ -52,6 +52,64 @@ capabilities:
       link_label: 'Solicitar cotización'
       href: /es/request-quote
 
+crop_profiles:
+  tagline: 'Cultivos y Plagas'
+  title: 'Cultivos Principales y Plagas Objetivo — África'
+  features:
+    - icon: M
+      icon_bg: green
+      title: 'Maíz — Gusano Cogollero'
+      desc: 'El gusano cogollero (Spodoptera frugiperda) causa pérdidas de rendimiento del 20–50% en las regiones maiceras subsaharianas. Formulaciones SC de emamectina benzoato y clorantaniliprol, tratamientos de semilla FS de clothianidin y tiametoxam para protección en etapa temprana.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: C
+      icon_bg: blue
+      title: 'Cacao — Podredumbre Negra y Miridos'
+      desc: 'La podredumbre negra del cacao (Phytophthora) y los miridos (Sahlbergella) amenazan las exportaciones de cacao de África Occidental. Formulaciones WP y SC de mancozeb y metalaxil, conformes con COLEACP para producción de grado exportación.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: R
+      icon_bg: purple
+      title: 'Arroz — Cecidomyia del Arroz Africano'
+      desc: 'La cecidomyia del arroz y el barrenador del tallo afectan el arroz irrigado y de secano en África Occidental y Oriental. Formulaciones EC de cipermetrina y clorpirifos, formulaciones WP de cartap para programas MIP.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: V
+      icon_bg: orange
+      title: 'Hortalizas — Mosca Blanca y Pulgones'
+      desc: 'Los virus transmitidos por mosca blanca y el daño de pulgones afectan la producción de tomate, pimiento y hortalizas de hoja. Formulaciones SC y EC de imidacloprid y abamectina, tamaños de embalaje adaptados a pequeños agricultores.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: T
+      icon_bg: green
+      title: 'Algodón — Complejo de Heliothis'
+      desc: 'Heliothis, pulgones y jassidos afectan la producción algodonera en África Occidental, Central y Meridional. Formulaciones EC de profenofos y cipermetrina para manejo de amplio espectro de plagas del algodón.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+
+regulation_overview:
+  tagline: 'Regulación'
+  title: 'Vías de Registro — África'
+  features:
+    - icon: W
+      icon_bg: blue
+      title: 'WAEMU/CILLS — África Occidental'
+      desc: 'Registro armonizado para Benín, Burkina Faso, Costa de Marfil, Guinea-Bissau, Malí, Níger, Senegal y Togo. Un solo expediente sirve a todos los estados miembros de WAEMU.'
+      link_label: 'Soporte de registro'
+      href: /manufacturing/research-development
+    - icon: E
+      icon_bg: green
+      title: 'Sistemas Nacionales — África Oriental'
+      desc: 'Registro individual a través de KEPHIS (Kenia), TPRI (Tanzania), NARL (Uganda). La Comunidad de África Oriental progresa hacia el reconocimiento mutuo.'
+      link_label: 'Soporte de registro'
+      href: /manufacturing/research-development
+    - icon: C
+      icon_bg: purple
+      title: 'Conformidad COLEACP'
+      desc: 'Protocolos de Buenas Prácticas para formulaciones de cacao, frutas y hortalizas de grado exportación. Documentación alineada con requisitos LMR de la UE para cultivos de exportación africanos.'
+      link_label: 'Ver certificaciones'
+      href: /agrochemical-certification-guide
+
 faqs:
   tagline: FAQ
   title: 'Mercado de África — Preguntas frecuentes'
@@ -64,6 +122,41 @@ faqs:
       a: 'Sí. Proporcionamos documentación completa de producto en francés para mercados francófonos: etiquetas, fichas de seguridad, fichas técnicas y expedientes de registro. Nuestro equipo regulatorio tiene experiencia con requisitos de registro WAEMU y CEMAC.'
     - q: '¿Qué tamaños de embalaje funcionan para los mercados africanos?'
       a: 'Embalaje adaptado a pequeños agricultores: 100 mL, 250 mL y 1 L para formulaciones líquidas; 100 g, 250 g y 1 kg para formulaciones en polvo. Embalaje al granel (5 L, 10 L, 20 L) para compradores institucionales y plantaciones.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Explore Nuestras Soluciones OEM'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Herbicidas de amplio espectro y selectivos para cultivos básicos africanos — formulaciones de glifosato, glufosinato, 2,4-D y atrazina.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Insecticidas de contacto y sistémicos para protección de cultivos alimentarios — formulaciones de cipermetrina, clorpirifos y abamectina.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicidas'
+      desc: 'Fungicidas preventivos y curativos para manejo de enfermedades de cultivos básicos — formulaciones de mancozeb, carbendazima y metalaxil.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: O
+      icon_bg: orange
+      title: 'Fabricación OEM'
+      desc: 'OEM agroquímico integral — desarrollo de formulaciones, etiqueta privada, soporte de registro y logística de exportación.'
+      link_label: 'Soluciones OEM'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Fábrica y Control de Calidad'
+      desc: 'Instalación de fabricación de 12.500 m² con sistema de QC de 7 etapas, laboratorio certificado GLP y análisis del 100% de lotes.'
+      link_label: 'Ver fábrica'
+      href: /manufacturing/factory
 
 cta:
   title: 'Comenta tus requisitos para el mercado de África'

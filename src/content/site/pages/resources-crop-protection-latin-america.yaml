@@ -1,0 +1,48 @@
+meta:
+  title: 'Crop Protection Market Latin America: OEM Supply for Soybean and Corn | Agrospear'
+  description: 'Latin America crop protection market: OEM supply for soybean and corn, Brazil and Argentina registration, key formulations and distribution strategies.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Crop Protection Market Latin America: OEM Supply for Soybean and Corn'
+
+answer:
+  label: 'Straight answer'
+  text: 'Latin America is the world''s largest soybean-producing region (Brazil alone: 155M+ metric tons/year) and the second-largest corn producer, driving massive demand for herbicides (glyphosate, atrazine, 2,4-D), fungicides (azoxystrobin, tebuconazole) and insecticides (chlorantraniliprole, lambda-cyhalothrin). OEM supply requires MAPA registration in Brazil, SENASA approval in Argentina, and country-specific documentation across the region.'
+  verified: '2026-08'
+
+intro:
+  - 'Brazil''s agrochemical market is the world''s largest by value at $13+ billion annually, with soybean and corn accounting for over 70% of pesticide consumption. The Cerrado region''s tropical climate drives intense disease and pest pressure, requiring 3-5 fungicide applications per soybean season against Asian soybean rust (Phakopsora pachyrhizi). Argentina, Paraguay and Uruguay form the Southern Cone market with shared registration pathways under Mercosur harmonization efforts.'
+  - 'Agrospear supplies OEM formulations to 8+ Latin American markets with full registration data packages including MAPA-format dossiers for Brazil. Key products for the region include glyphosate SL 41%, atrazine SC 500, azoxystrobin+tebuconazole SC premix, and lambda-cyhalothrin CS microencapsulated formulations. The 50,000+ t/year capacity across 6 lines supports volume orders aligned with the region''s planting season demand peaks.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Latin America Market'
+      desc: 'OEM supply capabilities for Latin American crop protection'
+      link_label: 'Learn more'
+      href: /markets/latin-america
+    - icon: R
+      icon_bg: blue
+      title: 'Herbicide Products'
+      desc: 'Glyphosate, atrazine and 2,4-D formulations for row crops'
+      link_label: 'Learn more'
+      href: /products/herbicides
+    - icon: R
+      icon_bg: green
+      title: 'Fungicide Products'
+      desc: 'Azoxystrobin, tebuconazole and premix fungicides'
+      link_label: 'Learn more'
+      href: /products/fungicides
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

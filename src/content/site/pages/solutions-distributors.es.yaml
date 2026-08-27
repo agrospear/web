@@ -120,6 +120,29 @@ content_html: |
     <p><strong>Sigue leyendo:</strong> los socios de distribución venden las mismas formulaciones que fabricamos para <a href="/es/oem-manufacturing">marcas OEM/etiqueta privada</a> — revisa el programa de fabricación y el proceso de <a href="/es/factory">calidad de fábrica</a> para que puedas situar el producto con confianza.</p>
   </div>
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Mercados'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Suministro de herbicidas para distribución — calidad consistente, precios competitivos y entrega fiable.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Suministro de insecticidas para distribución — formulaciones probadas con documentación de registro completa.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: M
+      icon_bg: orange
+      title: 'Mercados'
+      desc: 'Programas de mercado regionales para más de 40 países de exportación en África, Asia y América Latina.'
+      link_label: 'Ver mercados'
+      href: /markets
+
 cta:
   title: '¿Listo Para Ser Distribuidor?'
   subtitle: 'Solicita el programa de distribución o descarga nuestro kit de información para distribuidores.'

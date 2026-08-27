@@ -1,0 +1,48 @@
+meta:
+  title: 'Fabricación OEM de Fungicida Tebuconazole: Lo Que los Compradores Deben Saber | Agrospear'
+  description: 'Guía de fabricación OEM de tebuconazole: formulaciones SC 250, WP 25, WDG 80, especificaciones CIPAC, datos de estabilidad y soporte de registro para mercados globales.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Fabricación OEM de Fungicida Tebuconazole: Lo Que los Compradores Deben Saber'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'La fabricación OEM de tebuconazole cubre formulaciones SC 250 g/L, WP 25% y WDG 80%, siendo SC 250 la más comercializada globalmente para aspersión foliar en cereales, frutas y hortalizas. Los compradores deben verificar el cumplimiento del método CIPAC 407 para análisis de ingrediente activo, confirmar datos de estabilidad acelerada (54°C/14 días), y asegurar que el fabricante proporcione documentación completa de registro ICAMA para presentaciones en mercados objetivo.'
+  verified: '2026-08'
+
+intro:
+  - 'El tebuconazole es un fungicida triazol con actividad de amplio espectro contra royes, mildiú polvoriento y enfermedades de manchas foliares en más de 70 cultivos en todo el mundo. La formulación SC 250 g/L domina el comercio debido a la superior cobertura de aspersión y resistencia a la lluvia en comparación con las alternativas WP. WDG 80% es preferida para logística de exportación — su mayor concentración reduce el volumen de envío y el costo por kilogramo de ingrediente activo.'
+  - 'Agrospear fabrica formulaciones de tebuconazole en sus líneas de concentrado en suspensión y WDG, con QC de 7 etapas incluyendo análisis HPLC según CIPAC 407, verificación de distribución de tamaño de partícula (D90 < 5 μm para SC), pruebas de suspensibilidad (>90% después de 30 min), y verificaciones de pH/viscosidad. Paquetes completos de datos de registro con análisis de cinco lotes, estudios de toxicidad aguda y datos de destino ambiental están disponibles para clientes OEM.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Productos Fungicidas'
+      desc: 'Gama completa de formulaciones fungicidas incluyendo triazoles'
+      link_label: 'Más información'
+      href: /products/fungicides
+    - icon: R
+      icon_bg: blue
+      title: 'Desarrollo de Formulación Personalizada'
+      desc: 'Del concepto a la producción para formulaciones personalizadas de plaguicidas'
+      link_label: 'Más información'
+      href: /solutions/custom-formulation
+    - icon: R
+      icon_bg: green
+      title: 'Pruebas de Estabilidad de Formulación'
+      desc: 'Métodos CIPAC para validación de estabilidad de herbicidas y fungicidas'
+      link_label: 'Más información'
+      href: /resources/herbicide-formulation-stability
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

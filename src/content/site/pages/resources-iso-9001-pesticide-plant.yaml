@@ -1,0 +1,48 @@
+meta:
+  title: 'Why ISO 9001 Certification Matters for Pesticide Manufacturing | Agrospear'
+  description: 'ISO 9001 certification for pesticide plants: quality management requirements, traceability, batch consistency and why buyers should demand certified suppliers.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Why ISO 9001 Certification Matters for Pesticide Manufacturing'
+
+answer:
+  label: 'Straight answer'
+  text: 'ISO 9001 certification ensures a pesticide manufacturer maintains documented quality management systems with full batch traceability, standardized SOPs for every production stage, corrective action processes for non-conformances, and regular internal audits. For buyers, it means consistent product quality batch-to-batch and documented evidence that can be presented to registration authorities and customs officials.'
+  verified: '2026-08'
+
+intro:
+  - 'In agrochemical manufacturing, ISO 9001:2015 certification is more than a credential — it is a structural guarantee that raw material specifications are verified before use, production parameters are recorded and controlled at every stage, and finished products are tested against defined acceptance criteria before release. Without ISO 9001, a manufacturer has no obligation to maintain the documented procedures that protect buyers from formulation drift, contamination and labeling errors.'
+  - 'Agrospear has maintained ISO 9001 certification since 2015, integrating it into a 7-stage QC system that covers incoming raw material analysis, in-process parameter monitoring, final product HPLC/GC testing, packaging and label verification, stability data review, and shipment documentation reconciliation. Every batch can be traced from raw material lot to final shipment, providing the audit trail that registration authorities and government tender processes require.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Certifications'
+      desc: 'All quality, environmental and compliance certifications held'
+      link_label: 'Learn more'
+      href: /agrochemical-certification-guide
+    - icon: R
+      icon_bg: blue
+      title: 'Factory Audit Checklist'
+      desc: 'What to verify during a pesticide factory audit in China'
+      link_label: 'Learn more'
+      href: /manufacturing/factory-audit
+    - icon: R
+      icon_bg: green
+      title: 'Quality Control Process'
+      desc: '7-stage QC from raw material to shipment release'
+      link_label: 'Learn more'
+      href: /manufacturing/quality-control
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

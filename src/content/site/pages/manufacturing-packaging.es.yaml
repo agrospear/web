@@ -65,6 +65,35 @@ faqs:
     - q: '¿Se puede cambiar el embalaje entre pedidos?'
       a: 'Sí. Una vez que tus activos de marca están listos para producción, los reordenes pueden actualizar etiquetas, colores o embalaje en cualquier momento. Se aplican cantidades mínimas de pedido para materiales impresos personalizados, confirmadas por proyecto.'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Mercados'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Embalaje de herbicidas — desde sobres de 50 mL hasta tambores de 200 L para todos los canales de distribución.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Opciones de embalaje de insecticidas — tamaños para pequeños agricultores, contenedores institucionales y embalaje a granel.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: A
+      icon_bg: orange
+      title: 'Mercado de África'
+      desc: 'Embalaje adaptado a pequeños agricultores para canales de distribución del África Subsahariana.'
+      link_label: 'Mercado de África'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Mercado del Sudeste Asiático'
+      desc: 'Embalaje para clima tropical con resistencia UV y sobres de dosis medidas.'
+      link_label: 'Mercado del Sudeste Asiático'
+      href: /markets/southeast-asia
+
 cta:
   title: 'Comenta tus requisitos de embalaje'
   actions:

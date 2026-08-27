@@ -2,6 +2,7 @@ import React, { startTransition, useState, useMemo } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, products, productFilters, type Product } from '@/product/content'
+import { productPath } from '@/product/route-registry'
 import { Reveal } from './reveal'
 
 /** Single catalog card: real product photo with sku/price chips, then brand-book details. */
@@ -10,7 +11,7 @@ function ProductCardInner({ product, priority = false }: { product: Product; pri
   const fl = useLocalizePath()
   return (
     <a
-      href={fl(`/products/${product.slug}`)}
+      href={fl(productPath(product.slug))}
       className="group block h-full text-current"
     >
       <div className="marine-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">

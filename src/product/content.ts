@@ -1517,9 +1517,9 @@ export const formulationCategories: Localized<FormulationCategoriesContent> = {
     sub: 'Every product category is a manufacturing platform — choose your starting point and we customize the formulation, concentration, packaging and labeling to your product.',
     viewLabel: 'View',
     items: [
-      { id: 'herbicide', label: 'Herbicides', desc: 'Selective and non-selective weed control formulations for all crop types.', image: 'https://assets.agrospear.com/site/products/2026/herbicides/glyphosate-480-sl.avif', href: '/products/glyphosate-480-sl' },
-      { id: 'insecticide', label: 'Insecticides', desc: 'Systemic, contact and translaminar insecticides for chewing and sucking pests.', image: 'https://assets.agrospear.com/site/products/2026/insecticides/imidacloprid-350-sc.avif', href: '/products/imidacloprid-350-sc' },
-      { id: 'fungicide', label: 'Fungicides', desc: 'Preventive and curative fungicides for foliar and soil-borne diseases.', image: 'https://assets.agrospear.com/site/products/2026/fungicides/azoxystrobin-250-sc.avif', href: '/products/azoxystrobin-250-sc' },
+      { id: 'herbicide', label: 'Herbicides', desc: 'Selective and non-selective weed control formulations for all crop types.', image: 'https://assets.agrospear.com/site/products/2026/herbicides/glyphosate-480-sl.avif', href: '/products/herbicides/glyphosate-41-sl' },
+      { id: 'insecticide', label: 'Insecticides', desc: 'Systemic, contact and translaminar insecticides for chewing and sucking pests.', image: 'https://assets.agrospear.com/site/products/2026/insecticides/imidacloprid-350-sc.avif', href: '/products/insecticides/imidacloprid-350-sc' },
+      { id: 'fungicide', label: 'Fungicides', desc: 'Preventive and curative fungicides for foliar and soil-borne diseases.', image: 'https://assets.agrospear.com/site/products/2026/fungicides/azoxystrobin-250-sc.avif', href: '/products/fungicides/azoxystrobin-250-sc' },
       { id: 'pgr', label: 'Plant Growth Regulators', desc: 'Growth promoters and inhibitors for yield and quality enhancement.', image: 'https://assets.agrospear.com/site/products/2026/pgr/pgr-01.avif', href: '/products/pgr' },
       { id: 'seed-treatment', label: 'Seed Treatment', desc: 'FS and WS formulations for seed dressing and coating applications.', image: 'https://assets.agrospear.com/site/products/2026/seed-treatment/seed-treatment-01.avif', href: '/products/seed-treatment' },
     ],
@@ -1530,9 +1530,9 @@ export const formulationCategories: Localized<FormulationCategoriesContent> = {
     sub: 'Cada categoría es una plataforma de fabricación: elige tu punto de partida y adaptamos la formulación, concentración, embalaje y etiquetado a tu producto.',
     viewLabel: 'Ver',
     items: [
-      { id: 'herbicide', label: 'Herbicidas', desc: 'Formulaciones selectivas y no selectivas de control de malezas para todos los cultivos.', image: 'https://assets.agrospear.com/site/products/2026/herbicides/glyphosate-480-sl.avif', href: '/products/glyphosate-480-sl' },
-      { id: 'insecticide', label: 'Insecticidas', desc: 'Insecticidas sistémicos, de contacto y translaminares para plagas masticadoras y chupadoras.', image: 'https://assets.agrospear.com/site/products/2026/insecticides/imidacloprid-350-sc.avif', href: '/products/imidacloprid-350-sc' },
-      { id: 'fungicide', label: 'Fungicidas', desc: 'Fungicidas preventivos y curativos para enfermedades foliares y del suelo.', image: 'https://assets.agrospear.com/site/products/2026/fungicides/azoxystrobin-250-sc.avif', href: '/products/azoxystrobin-250-sc' },
+      { id: 'herbicide', label: 'Herbicidas', desc: 'Formulaciones selectivas y no selectivas de control de malezas para todos los cultivos.', image: 'https://assets.agrospear.com/site/products/2026/herbicides/glyphosate-480-sl.avif', href: '/products/herbicides/glyphosate-41-sl' },
+      { id: 'insecticide', label: 'Insecticidas', desc: 'Insecticidas sistémicos, de contacto y translaminares para plagas masticadoras y chupadoras.', image: 'https://assets.agrospear.com/site/products/2026/insecticides/imidacloprid-350-sc.avif', href: '/products/insecticides/imidacloprid-350-sc' },
+      { id: 'fungicide', label: 'Fungicidas', desc: 'Fungicidas preventivos y curativos para enfermedades foliares y del suelo.', image: 'https://assets.agrospear.com/site/products/2026/fungicides/azoxystrobin-250-sc.avif', href: '/products/fungicides/azoxystrobin-250-sc' },
       { id: 'pgr', label: 'Reguladores de crecimiento', desc: 'Promotores e inhibidores de crecimiento para mejora de rendimiento y calidad.', image: 'https://assets.agrospear.com/site/products/2026/pgr/pgr-01.avif', href: '/products/pgr' },
       { id: 'seed-treatment', label: 'Tratamiento de semillas', desc: 'Formulaciones FS y WS para desinfección y recubrimiento de semillas.', image: 'https://assets.agrospear.com/site/products/2026/seed-treatment/seed-treatment-01.avif', href: '/products/seed-treatment' },
     ],
@@ -1993,6 +1993,135 @@ export const faq: Localized<FaqContent> = {
         q: '¿Qué información debo dar en una consulta OEM de agroquímicos?',
         a: 'La información más útil: cultivo y plaga objetivo, ingrediente activo y concentración deseados, tipo de formulación, mercado de destino, cantidad estimada, requisitos de embalaje y fecha de lanzamiento prevista. Nuestro equipo responde con una evaluación de formulación y un presupuesto en un día laborable.',
       },
+    ],
+  },
+}
+
+/* ─────────────────────────── home: manufacturing flow ─────────────────────────── */
+
+export interface ManufacturingFlowStep {
+  step: string
+  title: string
+  body: string
+  href: string
+}
+
+export interface ManufacturingFlowContent {
+  kicker: string
+  title: string
+  sub: string
+  steps: ManufacturingFlowStep[]
+}
+
+export const manufacturingFlow: Localized<ManufacturingFlowContent> = {
+  en: {
+    kicker: 'Manufacturing',
+    title: 'From Raw Material to Shipped Product — One Plant, Full Control',
+    sub: 'Every step of your agrochemical production happens under one roof: formulation R&D, pilot batching, scale-up, QC testing, packaging and export documentation. No outsourcing, no hand-offs.',
+    steps: [
+      { step: '01', title: 'Formulation R&D', body: 'Custom formulation development in our pilot lab — reverse engineering, stability screening and adjuvant optimization. Small-batch prototypes for your lab evaluation.', href: '/manufacturing/research-development' },
+      { step: '02', title: 'Scale-Up & Production', body: 'From pilot batch to full-scale production across 7 formulation lines: SC, EC, WP, WDG, SL, ME, CS and FS. ERP-tracked from raw AI lot to finished drum.', href: '/manufacturing/agrochemical-manufacturing' },
+      { step: '03', title: 'Quality Control', body: '7-stage QC system: raw material verification, in-process monitoring, pre-release HPLC/GC analysis, stability testing and full batch documentation.', href: '/manufacturing/quality-control' },
+      { step: '04', title: 'Packaging & Labeling', body: 'Custom packaging from 100 mL to 200 L — private label, co-brand or neutral. Multi-language labels, DG-compliant export packaging and photo verification before shipment.', href: '/manufacturing/packaging' },
+      { step: '05', title: 'Factory Audit & Documentation', body: 'On-site and virtual audit support. Complete registration dossiers, COA, SDS, five-batch analysis and export documentation for 50+ destination markets.', href: '/manufacturing/factory-audit' },
+    ],
+  },
+  es: {
+    kicker: 'Fabricación',
+    title: 'De materia prima a producto embarcado — una planta, control total',
+    sub: 'Cada paso de la producción agroquímica ocurre bajo un mismo techo: I+D de formulación, lote piloto, escalado, análisis de QC, envasado y documentación de exportación. Sin subcontratación, sin intermediarios.',
+    steps: [
+      { step: '01', title: 'I+D de Formulación', body: 'Desarrollo de formulaciones personalizadas en nuestro laboratorio piloto — ingeniería inversa,筛选 de estabilidad y optimización de adyuvantes. Prototipos de lote pequeño para evaluación en su laboratorio.', href: '/manufacturing/research-development' },
+      { step: '02', title: 'Escalado y Producción', body: 'Del lote piloto a la producción a escala completa en 7 líneas: SC, EC, WP, WDG, SL, ME, CS y FS. Rastreo por ERP desde el lote de IA bruto hasta el tambor terminado.', href: '/manufacturing/agrochemical-manufacturing' },
+      { step: '03', title: 'Control de Calidad', body: 'Sistema de QC en 7 etapas: verificación de materia prima, monitoreo en proceso, análisis HPLC/GC pre-liberación, pruebas de estabilidad y documentación completa por lote.', href: '/manufacturing/quality-control' },
+      { step: '04', title: 'Envasado y Etiquetado', body: 'Embalaje personalizado de 100 mL a 200 L — marca privada, co-brand o neutral. Etiquetas multilingües, embalaje DG conforme y verificación fotográfica antes del embarque.', href: '/manufacturing/packaging' },
+      { step: '05', title: 'Auditoría y Documentación', body: 'Soporte de auditoría presencial y virtual. Dossiers de registro completos, COA, SDS, análisis de cinco lotes y documentación de exportación para 50+ mercados destino.', href: '/manufacturing/factory-audit' },
+    ],
+  },
+}
+
+/* ─────────────────────────── home: OEM solutions ─────────────────────────── */
+
+export interface OemSolutionCard {
+  title: string
+  body: string
+  href: string
+  cta: string
+}
+
+export interface OemSolutionsContent {
+  kicker: string
+  title: string
+  sub: string
+  cards: OemSolutionCard[]
+}
+
+export const oemSolutions: Localized<OemSolutionsContent> = {
+  en: {
+    kicker: 'OEM Solutions',
+    title: 'Full-Service Agrochemical OEM — From Concept to Container',
+    sub: 'Whether you need custom formulation, private labeling, co-branding or distributor supply, our OEM programs cover every stage. One factory, one QC system, one documentation team.',
+    cards: [
+      { title: 'Agrochemical OEM Manufacturing', body: 'Build to your exact specification — formulation, packaging, labeling and documentation. Full batch traceability from raw material to shipping container.', href: '/solutions/agrochemical-oem', cta: 'OEM capabilities' },
+      { title: 'Custom Formulation Development', body: 'Our R&D lab develops formulations from your brief: target crop, pest spectrum, region and regulatory requirements. Stability-tested, field-verified prototypes.', href: '/solutions/custom-formulation', cta: 'Custom formulation' },
+      { title: 'Private Label Pesticides', body: 'Your brand on proven formulations — fast market entry with full regulatory documentation, multi-language labels and DG-compliant packaging.', href: '/solutions/private-label-pesticides', cta: 'Private label' },
+      { title: 'Co-Brand Partnerships', body: 'Joint-brand products for established distributors and regional brands. Shared formulation development, split-batch labeling and territory-exclusive supply.', href: '/solutions/co-branding', cta: 'Co-branding' },
+      { title: 'Distributor Supply Programs', body: 'Volume supply for established distribution networks — repeat-container contracts, priority scheduling for seasonal demand, locked specifications.', href: '/solutions/distributor-partners', cta: 'Distributor programs' },
+      { title: 'Government Tender Supply', body: 'National subsidy programs, seasonal tender orders and institutional procurement — complete documentation, local registration support and bulk packaging.', href: '/solutions/government-tender', cta: 'Tender supply' },
+    ],
+  },
+  es: {
+    kicker: 'Soluciones OEM',
+    title: 'OEM agroquímico integral — del concepto al contenedor',
+    sub: 'Ya sea formulación personalizada, marca privada, co-branding o suministro a distribuidores, nuestros programas OEM cubren cada etapa. Una fábrica, un sistema de QC, un equipo de documentación.',
+    cards: [
+      { title: 'Fabricación OEM de Agroquímicos', body: 'Fabricación según su especificación exacta — formulación, envasado, etiquetado y documentación. Trazabilidad completa por lote desde materia prima hasta contenedor.', href: '/solutions/agrochemical-oem', cta: 'Capacidades OEM' },
+      { title: 'Desarrollo de Formulación Personalizada', body: 'Nuestro laboratorio de I+D desarrolla formulaciones a partir de su brief: cultivo objetivo, espectro de plagas, región y requisitos regulatorios. Prototipos con prueba de estabilidad y verificación de campo.', href: '/solutions/custom-formulation', cta: 'Formulación personalizada' },
+      { title: 'Plaguicidas de Marca Privada', body: 'Su marca en formulaciones probadas — entrada rápida al mercado con documentación regulatoria completa, etiquetas multilingües y embalaje DG conforme.', href: '/solutions/private-label-pesticides', cta: 'Marca privada' },
+      { title: 'Asociaciones Co-Brand', body: 'Productos de marca conjunta para distribuidores consolidados y marcas regionales. Desarrollo compartido de formulación, etiquetado por lote dividido y suministro exclusivo por territorio.', href: '/solutions/co-branding', cta: 'Co-branding' },
+      { title: 'Programas de Suministro a Distribuidores', body: 'Suministro por volumen para redes de distribución consolidadas — contratos de contenedor repetido, programación prioritaria para demanda estacional, especificaciones fijadas.', href: '/solutions/distributor-partners', cta: 'Programas distribuidores' },
+      { title: 'Suministro para Licitaciones Gubernamentales', body: 'Programas de subsidio nacional, pedidos de licitación estacional y compras institucionales — documentación completa, soporte de registro local y embalaje al por mayor.', href: '/solutions/government-tender', cta: 'Suministro licitaciones' },
+    ],
+  },
+}
+
+/* ─────────────────────────── home: markets ─────────────────────────── */
+
+export interface MarketCard {
+  region: string
+  body: string
+  href: string
+  cta: string
+}
+
+export interface MarketsContent {
+  kicker: string
+  title: string
+  sub: string
+  cards: MarketCard[]
+}
+
+export const markets: Localized<MarketsContent> = {
+  en: {
+    kicker: 'Markets',
+    title: 'Serving Distributors Across 50+ Export Markets',
+    sub: 'From West Africa to Southeast Asia, our formulations are registered and field-proven in the world\'s fastest-growing crop protection markets. Regional documentation, regulatory support and market-specific formulation packages.',
+    cards: [
+      { region: 'Africa', body: 'Sub-Saharan and West African markets — fall armyworm, cocoa black pod and rice gall midge solutions. WAEMU/CILLS harmonized registration and COLEACP compliance.', href: '/markets/africa', cta: 'Africa market' },
+      { region: 'Southeast Asia', body: 'ASEAN markets — brown planthopper, oil palm rhinoceros beetle and rubber leaf fall solutions. ASEAN harmonization support and tropical stability testing.', href: '/markets/southeast-asia', cta: 'Southeast Asia market' },
+      { region: 'Latin America', body: 'Brazil, Argentina and regional markets — soybean rust, sugarcane borer and coffee leaf rust solutions. MAPA, SENASA and COFEPRIS registration support.', href: '/markets/latin-america', cta: 'Latin America market' },
+      { region: 'West Asia & Middle East', body: 'GCC and Central Asian markets — heat-stable formulations for wheat, date palm and cotton. Arabic documentation and GSO standard registration support.', href: '/markets/west-asia', cta: 'West Asia market' },
+    ],
+  },
+  es: {
+    kicker: 'Mercados',
+    title: 'Sirviendo a distribuidores en 50+ mercados de exportación',
+    sub: 'Desde África Occidental hasta el Sudeste Asiático, nuestras formulaciones están registradas y probadas en campo en los mercados de protección de cultivos de más rápido crecimiento. Documentación regional, soporte regulatorio y paquetes de formulación específicos por mercado.',
+    cards: [
+      { region: 'África', body: 'Mercados de África Subsahariana y Occidental — soluciones para gusano cogollero, podredumbre negra del cacao y mosquito del arroz. Registro armonizado WAEMU/CILLS y cumplimiento COLEACP.', href: '/markets/africa', cta: 'Mercado de África' },
+      { region: 'Sudeste Asiático', body: 'Mercados ASEAN — soluciones para saltador pardo, escarabajo rinoceronte de palma aceitera y enfermedad de hoja del caucho. Soporte de armonización ASEAN y pruebas de estabilidad tropical.', href: '/markets/southeast-asia', cta: 'Mercado del Sudeste Asiático' },
+      { region: 'América Latina', body: 'Brasil, Argentina y mercados regionales — soluciones para roya de la soja, barrenador de la caña y roya del cafeto. Soporte de registro MAPA, SENASA y COFEPRIS.', href: '/markets/latin-america', cta: 'Mercado de América Latina' },
+      { region: 'Asia Occidental y Oriente Medio', body: 'Mercados GCC y Asia Central — formulaciones termoestables para trigo, palmera datilera y algodón. Documentación en árabe y soporte de registro estándar GSO.', href: '/markets/west-asia', cta: 'Mercado de Asia Occidental' },
     ],
   },
 }

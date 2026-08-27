@@ -1,0 +1,48 @@
+meta:
+  title: 'Government Tender Pesticide Supply: Documentation and Compliance | Agrospear'
+  description: 'Government tender pesticide supply: documentation requirements, compliance standards, bidding qualifications and quality assurance for public procurement of agrochemicals.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Government Tender Pesticide Supply: Documentation and Compliance'
+
+answer:
+  label: 'Straight answer'
+  text: 'Government pesticide tenders require ISO 9001 certification, ICAMA or equivalent registration certificates, Certificate of Analysis per batch, GHS-compliant SDS, FAO/WHO specification compliance documentation and often a performance bank guarantee. Suppliers must demonstrate manufacturing capability, export track record and the ability to deliver within strict timelines aligned with planting seasons.'
+  verified: '2026-08'
+
+intro:
+  - 'Government procurement of pesticides — for national input subsidy programs, vector control campaigns and strategic crop protection initiatives — represents a significant portion of agrochemical demand in Africa, South Asia and Latin America. Tender specifications are often more stringent than commercial market requirements: products must meet FAO/WHO specifications with testing by accredited laboratories, delivery timelines are contractually enforced with penalties for delay, and post-delivery quality verification involves sampling and testing by government laboratories.'
+  - 'Agrospear supports government tender bids with complete documentation packages: ISO 9001:2015 and ISO 14001 certificates, ICAMA registrations, Certificate of Analysis per CIPAC methods, GHS-compliant SDS in destination-market language, manufacturing authorization and export licenses. The 50,000+ t/year capacity and 6 production lines enable volume fulfillment within tender deadlines, and the 7-stage QC system provides the batch-level traceability that audit processes demand.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Government Tender Services'
+      desc: 'Tender documentation, compliance and supply capabilities'
+      link_label: 'Learn more'
+      href: /solutions/government-tender
+    - icon: R
+      icon_bg: blue
+      title: 'Certifications'
+      desc: 'Quality and compliance certifications for public procurement'
+      link_label: 'Learn more'
+      href: /agrochemical-certification-guide
+    - icon: R
+      icon_bg: green
+      title: 'Export Documentation'
+      desc: 'Certificates, licenses and customs requirements'
+      link_label: 'Learn more'
+      href: /resources/pesticide-export-documentation
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

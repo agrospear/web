@@ -86,6 +86,29 @@ faqs:
     - q: '¿Gestionáis la entrega a ubicaciones designadas por el gobierno?'
       a: 'Sí. Enviamos FOB, CIF o DDP a puertos y almacenes designados por el gobierno en más de 50 países, con documentación de exportación y despacho de aduanas gestionados por nuestro equipo de logística.'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Mercados'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Suministro de herbicidas para licitaciones — cantidades a granel, especificaciones gubernamentales y documentación completa.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Suministro de insecticidas para licitaciones — formulaciones de control de vectores y protección de cultivos para programas gubernamentales.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: A
+      icon_bg: orange
+      title: 'África'
+      desc: 'Suministro para licitaciones gubernamentales en mercados africanos — registro local, embalaje a granel y documentación.'
+      link_label: 'Mercado de África'
+      href: /markets/africa
+
 cta:
   title: 'Habla Sobre Tus Requisitos de Adquisición'
   subtitle: 'Comparte tu especificación de licitación o brief de adquisición — nuestro equipo responde con una evaluación de cumplimiento y presupuesto en un día laborable.'

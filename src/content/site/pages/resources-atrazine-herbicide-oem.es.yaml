@@ -1,0 +1,48 @@
+meta:
+  title: 'Fabricación OEM de Herbicida Atrazina: Especificaciones y Acceso al Mercado | Agrospear'
+  description: 'Fabricación OEM de herbicida atrazina: formulaciones SC 500, WP 80 y WDG 90, especificaciones CIPAC, restricciones de mercado y suministro para mercados de maíz y caña de azúcar.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Fabricación OEM de Herbicida Atrazina: Especificaciones y Acceso al Mercado'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'La fabricación OEM de atrazina cubre formulaciones SC 500 g/L, WP 80% y WDG 90%, siendo SC 500 el formato dominante para control de malezas pre-emergente en maíz y caña de azúcar. Aunque prohibida en la UE desde 2004, la atrazina sigue registrada y ampliamente utilizada en las Américas, África y partes de Asia. El método CIPAC 153 valida el contenido de ingrediente activo, con límites de impurezas de clorotriazina estrictamente monitoreados según especificaciones FAO/OMS.'
+  verified: '2026-08'
+
+intro:
+  - 'La atrazina es el herbicida más utilizado en la producción global de maíz, aplicado pre-emergencia o post-emergencia temprana a 1-3 kg ia/ha para control de malezas de hoja ancha y gramíneas. La formulación SC 500 ofrece superior uniformidad de aspersión y compatibilidad en mezcla de tanque en comparación con las alternativas WP, mientras que WDG 90 reduce el costo de envío por kilogramo de ingrediente activo para mercados de exportación. Los mercados clave incluyen Brasil (mayor consumidor), Estados Unidos, México, Argentina, China, India y toda el África Subsahariana.'
+  - 'Agrospear fabrica atrazina SC 500 y WDG 90 con registro ICAMA completo y validación analítica CIPAC 153. Cada lote se somete a perfilado de impurezas para metabolitos de clorotriazina (desetilatrazina, desisopropilatrazina) para cumplir con las especificaciones más estrictas del mercado. Los clientes OEM reciben paquetes completos de datos de registro con análisis de cinco lotes, expedientes de toxicidad y datos de destino ambiental para registro independiente en mercados objetivo en las Américas y África.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Productos Herbicidas'
+      desc: 'Gama completa de formulaciones herbicidas para control de malezas en cultivos en hilera'
+      link_label: 'Más información'
+      href: /products/herbicides
+    - icon: R
+      icon_bg: blue
+      title: 'Mercado de América Latina'
+      desc: 'Suministro OEM para protección de cultivos de maíz y caña de azúcar'
+      link_label: 'Más información'
+      href: /markets/latin-america
+    - icon: R
+      icon_bg: green
+      title: 'Tipos de Formulación de Glifosato'
+      desc: 'Formulaciones de glifosato SL, WP y SC comparadas'
+      link_label: 'Más información'
+      href: /resources/glyphosate-formulation-types
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

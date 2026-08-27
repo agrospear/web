@@ -141,6 +141,47 @@ geo:
     - 'Distribuidores y registradores'
     - 'Cooperativas y programas gubernamentales'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Mercados'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Fabricación OEM de herbicidas — gama completa desde glifosato hasta formulaciones selectivas.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Fabricación OEM de insecticidas — formulaciones EC, SC, WP y microencapsuladas.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicidas'
+      desc: 'Fabricación OEM de fungicidas — formulaciones preventivas, curativas y de combinación.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: A
+      icon_bg: orange
+      title: 'África'
+      desc: 'Suministro OEM para África Subsahariana — soporte de registro y MOQ flexible.'
+      link_label: 'Mercado de África'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Sudeste Asiático'
+      desc: 'Suministro OEM para ASEAN — formulaciones tropicales y embalaje para pequeños agricultores.'
+      link_label: 'Mercado del Sudeste Asiático'
+      href: /markets/southeast-asia
+    - icon: L
+      icon_bg: blue
+      title: 'América Latina'
+      desc: 'Suministro OEM para LATAM — formulaciones a granel y soporte de registro.'
+      link_label: 'Mercado de América Latina'
+      href: /markets/latin-america
+
 cta:
   title: '¿Listo para producir tu línea agroquímica?'
   subtitle: 'Recibe un presupuesto OEM detallado en un día laborable — envía tu formulación o especificación.'

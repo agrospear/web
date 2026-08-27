@@ -1,0 +1,48 @@
+meta:
+  title: 'Cómo Encontrar un Fabricante de Plaguicidas Confiable en China | Agrospear'
+  description: 'Encuentre un fabricante de plaguicidas confiable en China: lista de verificación de auditoría, requisitos de certificación, protocolos de QC y señales de alerta para evitar costosos errores de abastecimiento.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Cómo Encontrar un Fabricante de Plaguicidas Confiable en China'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Para encontrar un fabricante de plaguicidas confiable en China, verifique las certificaciones ISO 9001 e ICAMA, realice una auditoría de fábrica que cubra líneas de producción y equipos del laboratorio de QC, solicite clientes de referencia en su mercado objetivo y confirme que el proveedor puede producir las formulaciones específicas que necesita. Priorice fabricantes con más de 10 años de experiencia en exportación y capacidad de prueba analítica interna.'
+  verified: '2026-08'
+
+intro:
+  - 'China representa más del 30% de las exportaciones globales de plaguicidas, lo que la convierte en el principal destino de abastecimiento para compradores de agroquímicos en todo el mundo. Sin embargo, el mercado incluye miles de empresas comerciales que se presentan como fabricantes, por lo que distinguir a los productores reales de los intermediarios es fundamental. Un fabricante genuino tendrá líneas de formulación, un laboratorio de QC interno con equipos HPLC y GC, y certificados de registro ICAMA para sus productos.'
+  - 'El proceso de verificación comienza con verificaciones documentales — licencia comercial, certificados ISO 9001/14001, registros ICAMA — y avanza hacia una auditoría in situ o de terceros. Agrospear opera una instalación certificada ISO de 12.500 m² con 6 líneas de producción y una capacidad de más de 50.000 t/año, sirviendo a más de 60 países de exportación con QC de 7 etapas desde la materia prima hasta el envío.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Lista de Verificación de Auditoría de Fábrica'
+      desc: 'Lista de verificación paso a paso para evaluar fabricantes chinos de plaguicidas'
+      link_label: 'Más información'
+      href: /manufacturing/factory-audit
+    - icon: R
+      icon_bg: blue
+      title: 'Guía del Comprador OEM'
+      desc: 'Guía completa de abastecimiento de formulaciones agroquímicas desde Asia'
+      link_label: 'Más información'
+      href: /research/oem-buyer-guide
+    - icon: R
+      icon_bg: green
+      title: 'Certificación ISO 9001'
+      desc: 'Por qué la certificación de gestión de calidad importa para las plantas de plaguicidas'
+      link_label: 'Más información'
+      href: /agrochemical-certification-guide
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

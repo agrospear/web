@@ -1,0 +1,48 @@
+meta:
+  title: 'Tipos de Formulación de Glifosato: SL, WP, SC Comparados | Agrospear'
+  description: 'Tipos de formulación de glifosato comparados: líquido soluble (SL 41%), polvo mojable (WP), concentrado en suspensión (SC) — propiedades, aplicación y especificaciones OEM.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Tipos de Formulación de Glifosato: SL, WP, SC Comparados'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Las tres formulaciones principales de glifosato son SL 41% (líquido soluble — el estándar global para aspersión foliar), WP (polvo mojable — menor costo pero polvoriento y menos conveniente), y SC (concentrado en suspensión — mejora la resistencia a la lluvia y el control de deriva). SL 41% representa más del 80% del comercio global de glifosato debido a su facilidad de mezcla, eficacia consistente e historial de registro establecido.'
+  verified: '2026-08'
+
+intro:
+  - 'El glifosato SL 41% (sal de isopropilamina, equivalente a 360 g ae/L) domina el mercado porque se disuelve completamente en agua, tiene excelente compatibilidad en tanque de mezcla y no requiere agitación especial durante la aspersión. La formulación WP, generalmente de 50-75% de equivalente ácido, cuesta menos de producir y transportar pero requiere un manejo y mezcla más cuidadosos. Las formulaciones SC incorporan sistemas de adyuvantes que mejoran la retención en la superficie foliar y la resistencia a la lluvia, haciéndolas adecuadas para regiones de alta precipitación.'
+  - 'Agrospear fabrica glifosato SL 41% en líneas de producción dedicadas con validación de método CIPAC 284 para contenido de ingrediente activo, gravedad específica y estabilidad de la espuma. Cada lote se somete a QC de 7 etapas incluyendo verificación HPLC del equivalente ácido de glifosato, perfilado de impurezas para N-nitrosoglyphosate, y pruebas de estabilidad acelerada a 54°C durante 14 días.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Productos Herbicidas'
+      desc: 'Gama completa de formulaciones herbicidas incluyendo glifosato SL'
+      link_label: 'Más información'
+      href: /products/herbicides
+    - icon: R
+      icon_bg: blue
+      title: 'Comparación de Tipos de Formulación'
+      desc: 'Comparación detallada de todos los tipos de formulación agroquímica'
+      link_label: 'Más información'
+      href: /formulation-type-comparison
+    - icon: R
+      icon_bg: green
+      title: 'Guía de Selección de Adyuvantes'
+      desc: 'Surfactantes y adyuvantes para mezclas en tanque de glifosato'
+      link_label: 'Más información'
+      href: /resources/adjuvant-selection-guide
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

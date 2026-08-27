@@ -1,0 +1,48 @@
+meta:
+  title: 'HPLC Pesticide Testing: Active Ingredient Verification Methods | Agrospear'
+  description: 'HPLC pesticide testing methods: active ingredient quantification, CIPAC reference methods, impurity profiling, batch consistency and quality control standards.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'HPLC Pesticide Testing: Active Ingredient Verification Methods'
+
+answer:
+  label: 'Straight answer'
+  text: 'HPLC (High-Performance Liquid Chromatography) is the primary analytical method for quantifying pesticide active ingredient content, verifying ±2% of label claim per CIPAC reference methods. Gas chromatography (GC) supplements HPLC for volatile actives. Both methods are mandatory for ICAMA registration, Certificate of Analysis documentation and import testing at destination customs laboratories.'
+  verified: '2026-08'
+
+intro:
+  - 'HPLC analysis separates, identifies and quantifies each active ingredient in a formulation using a calibrated reference standard. CIPAC publishes the official methods for each pesticide: CIPAC 284 for glyphosate, CIPAC 362 for imidacloprid, CIPAC 407 for tebuconazole. The method specifies mobile phase composition, column type, flow rate, detection wavelength and calculation procedures. Results must fall within ±2% of the declared active ingredient content to meet FAO/WHO specification tolerance.'
+  - 'Agrospear operates an in-house analytical laboratory with HPLC and GC systems calibrated against certified reference standards traceable to national metrology institutes. Every production batch undergoes HPLC/GC testing at three points: raw material incoming QC (verifying technical-grade purity), in-process monitoring (confirming active ingredient concentration during compounding), and final release testing (Certificate of Analysis generation). Impurity profiling by HPLC-MS identifies degradation products and process impurities above 0.1% threshold.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Quality Control Process'
+      desc: '7-stage QC system integrating HPLC analysis at three checkpoints'
+      link_label: 'Learn more'
+      href: /manufacturing/quality-control
+    - icon: R
+      icon_bg: blue
+      title: 'Formulation Stability Testing'
+      desc: 'CIPAC accelerated stability methods and shelf-life validation'
+      link_label: 'Learn more'
+      href: /resources/herbicide-formulation-stability
+    - icon: R
+      icon_bg: green
+      title: 'Quality Lab'
+      desc: 'In-house analytical laboratory capabilities and equipment'
+      link_label: 'Learn more'
+      href: /factory/quality-lab
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

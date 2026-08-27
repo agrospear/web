@@ -31,7 +31,7 @@ solutions:
     - clientType: Minorista agrícola
       need: Mejora del negocio agrícola
       solutionPage: Lleva formulaciones OEM a tu negocio agrícola
-      link: /es/products/fungicide
+      link: /es/products/fungicides
     - clientType: Vendedor de e-commerce
       need: Crecimiento del e-commerce
       solutionPage: Diferenciación de producto y suministro rápido
@@ -39,7 +39,7 @@ solutions:
     - clientType: Marca de herbicidas
       need: Programa de herbicidas
       solutionPage: Crea tu marca de herbicidas
-      link: /es/products/biopesticide
+      link: /es/products/biopesticides
     - clientType: Marca de insecticidas
       need: Programa de insecticidas
       solutionPage: Soluciones de formulación de insecticidas

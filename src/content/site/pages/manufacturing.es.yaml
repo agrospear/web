@@ -70,6 +70,47 @@ faqs:
     - q: '¿Cómo se controla la calidad?'
       a: 'Cada lote pasa un sistema de inspección de 7 etapas con ensayo de estabilidad a 54 °C durante 14 días, verificación de contenido activo por HPLC/GC y trazabilidad ERP de lotes de 10 años.'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Mercados'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Formulaciones herbicidas de amplio espectro y selectivas — fabricación de glifosato, glufosinato, 2,4-D y atrazina.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Formulaciones insecticidas de contacto y sistémicas — fabricación de cipermetrina, clorpirifos, imidacloprid y abamectina.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicidas'
+      desc: 'Formulaciones fungicidas preventivas y curativas — fabricación de mancozeb, carbendazima y metalaxil.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: A
+      icon_bg: orange
+      title: 'África'
+      desc: 'Suministro OEM agroquímico para África Subsahariana — formulaciones de amplio espectro, soporte de registro y MOQ flexible.'
+      link_label: 'Mercado de África'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Sudeste Asiático'
+      desc: 'Formulaciones OEM para clima tropical para arroz, caucho y aceite de palma — soporte de registro ASEAN.'
+      link_label: 'Mercado del Sudeste Asiático'
+      href: /markets/southeast-asia
+    - icon: L
+      icon_bg: blue
+      title: 'América Latina'
+      desc: 'Formulaciones OEM a gran escala para soja, maíz y caña de azúcar — soporte de registro MAPA y SENASA.'
+      link_label: 'Mercado de América Latina'
+      href: /markets/latin-america
+
 cta:
   title: 'Explora Nuestra Fabricación'
   actions:

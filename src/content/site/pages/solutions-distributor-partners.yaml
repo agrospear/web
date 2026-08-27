@@ -93,6 +93,29 @@ content_html: |
     <p><strong>Keep reading:</strong> see the full <a href="/oem-manufacturing">OEM/ODM manufacturing program</a> — project-confirmed MOQs across sample, pilot and volume stages, private-label branding and ICAMA documentation — or read the <a href="/oem-moq-guide">MOQ &amp; Flexible Branding Guide</a>, or tour the <a href="/factory">factory</a> to see how distributor-ready QC is run.</p>
   </div>
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & Markets'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Partnership-grade herbicide supply — exclusive territory rights and marketing support.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Partnership-grade insecticide supply — priority allocation and co-marketing programs.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: M
+      icon_bg: orange
+      title: 'Markets'
+      desc: 'Regional distribution partnerships across Africa, Southeast Asia and Latin America.'
+      link_label: 'View markets'
+      href: /markets
+
 cta:
   title: 'Discuss Your Distributor Product Line'
   subtitle: 'Send your requirements — our team responds within 1 business day.'

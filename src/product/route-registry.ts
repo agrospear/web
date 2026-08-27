@@ -13,6 +13,56 @@
 
 import { ENTITY_PAGE_PATH } from '@/config/navigation'
 
+/**
+ * Maps export_market display names to their URL slugs.
+ * Used by ProductView to turn export market pills into clickable links.
+ */
+export const MARKET_SLUGS: Record<string, string> = {
+  'Africa': 'africa',
+  'Southeast Asia': 'southeast-asia',
+  'Latin America': 'latin-america',
+  'Middle East': 'west-asia',
+  'Central Asia': 'central-asia',
+  'Eastern Europe': 'eastern-europe',
+  'África': 'africa',
+  'Sudeste Asiático': 'southeast-asia',
+  'América Latina': 'latin-america',
+  'Oriente Medio': 'west-asia',
+  'Asia Central': 'central-asia',
+  'Europa del Este': 'eastern-europe',
+}
+
+/**
+ * Maps product MDX `category` field to the URL slug used in nested URLs.
+ * e.g. category="herbicide" → "/products/herbicides/{slug}"
+ */
+export const CATEGORY_SLUGS: Record<string, string> = {
+  herbicide: 'herbicides',
+  insecticide: 'insecticides',
+  fungicide: 'fungicides',
+  pgr: 'pgr',
+  'seed-treatment': 'seed-treatment',
+  adjuvant: 'adjuvants',
+  biopesticide: 'biopesticides',
+  mixture: 'premix-formulations',
+}
+
+/** Reverse mapping: URL category slug → MDX category value. */
+export const CATEGORY_FROM_URL: Record<string, string> = Object.fromEntries(
+  Object.entries(CATEGORY_SLUGS).map(([cat, urlSlug]) => [urlSlug, cat]),
+)
+
+/**
+ * Build a nested product URL: /products/{category-slug}/{product-slug}
+ * Falls back to /products/{slug} if category is unknown.
+ */
+export function productPath(slug: string, category?: string): string {
+  if (category && CATEGORY_SLUGS[category]) {
+    return `/products/${CATEGORY_SLUGS[category]}/${slug}`
+  }
+  return `/products/${slug}`
+}
+
 export const SHADOWED_PATHS: Set<string> = new Set([
   '/', '/solutions', '/products', '/who-we-serve', '/how-it-works', '/gallery', '/about',
   '/contact', '/customizer', '/waitlist', '/changelog',

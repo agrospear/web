@@ -1,0 +1,48 @@
+meta:
+  title: 'Pesticide Packaging for Export: Sizes, Standards and Compliance | Agrospear'
+  description: 'Pesticide export packaging standards: 200L drums, 20L jugs, 1L bottles, 25kg bags for WDG/WP — UN certification, GHS labeling and market-specific rules.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Resources'
+  title: 'Pesticide Packaging for Export: Sizes, Standards and Compliance'
+
+answer:
+  label: 'Straight answer'
+  text: 'Pesticide export packaging must meet UN packaging standards for dangerous goods (UN numbers vary by formulation), GHS label requirements for the destination market, and size specifications aligned with local distribution channels. Common formats include 200L HDPE drums for liquid bulk, 20L jugs for mid-volume markets, 1L bottles for retail, and 25 kg woven bags with PE liners for WDG and WP formulations.'
+  verified: '2026-08'
+
+intro:
+  - 'Packaging compliance is a non-negotiable element of pesticide export — customs authorities in every market require UN-certified packaging for DG-classified agrochemicals. The UN packaging code (e.g., UN 1H1/Y1.8/150 for HDPE drums) must be printed on each container. Inner packaging for liquid formulations requires compatible materials: HDPE for SL and EC formulations, fluorinated HDPE for solvent-based EC products to prevent permeation and container degradation.'
+  - 'Agrospear offers packaging customization across all standard export formats, with in-house labeling capability for GHS-compliant pictograms, hazard statements and precautionary text in destination-market languages. Label verification is part of the 7-stage QC process, and each shipment includes packing lists with UN certification numbers, batch numbers and net weight declarations matched to Certificate of Analysis documentation.'
+
+related:
+  tagline: 'Related'
+  title: 'Learn More'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Packaging Services'
+      desc: 'Full packaging capabilities and customization options'
+      link_label: 'Learn more'
+      href: /manufacturing/packaging
+    - icon: R
+      icon_bg: blue
+      title: 'OEM Label Design'
+      desc: 'Compliance requirements for pesticide labels by market'
+      link_label: 'Learn more'
+      href: /resources/pesticide-label-design-oem
+    - icon: R
+      icon_bg: green
+      title: 'Export Documentation'
+      desc: 'Certificates, licenses and customs requirements for shipment'
+      link_label: 'Learn more'
+      href: /resources/pesticide-export-documentation
+
+cta:
+  title: 'Discuss Your Requirements'
+  actions:
+    - text: Request a Quote
+      href: /request-quote
+    - text: All resources
+      href: /knowledge

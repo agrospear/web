@@ -1,0 +1,48 @@
+meta:
+  title: 'Documentación de Exportación de Plaguicidas: Certificados, Licencias y Requisitos Aduaneros | Agrospear'
+  description: 'Guía de documentación de exportación de plaguicidas: certificados ICAMA, COA, SDS, licencias de exportación, certificados fitosanitarios, declaraciones de mercancías peligrosas y trámites aduaneros.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Documentación de Exportación de Plaguicidas: Certificados, Licencias y Requisitos Aduaneros'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'La exportación de plaguicidas requiere certificado de registro ICAMA, Certificado de Análisis por lote, Hoja de Datos de Seguridad conforme a GHS, licencia de exportación de MOFCOM, declaración de mercancías peligrosas (número UN, clase, grupo de embalaje), certificado fitosanitario para ciertos destinos, y documentación comercial (factura comercial, lista de embalaje, conocimiento de embarque). La documentación faltante o inconsistente es la principal causa de demoras aduaneras y rechazo de envíos.'
+  verified: '2026-08'
+
+intro:
+  - 'La documentación de exportación agroquímica es más compleja que la de mercancías generales debido a la clasificación de mercancías peligrosas, los requisitos regulatorios específicos de plaguicidas y la necesidad de consistencia entre todos los documentos. El certificado ICAMA debe coincidir con el nombre del producto y la especificación en el Certificado de Análisis, que debe coincidir con la descripción de la factura comercial, que debe coincidir con la declaración aduanera. Cualquier discrepancia — incluso una variación en el nombre de la formulación — puede activar retenciones de inspección, órdenes de reexportación o decomiso del producto.'
+  - 'El equipo de documentación de Agrospear prepara y verifica cruzadamente todos los trámites de exportación como parte del sistema de QC de 7 etapas. Cada envío incluye: certificado ICAMA, COA según métodos CIPAC, SDS en el idioma del mercado de destino, licencia de exportación MOFCOM, declaración DG con clasificación UN, certificado de fumigación (donde se requiera), certificado de origen y documentos comerciales autenticados. El paquete de documentación se verifica contra la lista de embalaje y el conocimiento de embarque antes de la liberación del envío, asegurando cero discrepancia en todos los más de 60 destinos de exportación.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Fábrica y Fabricación'
+      desc: 'Instalación de producción y capacidades de logística de exportación'
+      link_label: 'Más información'
+      href: /manufacturing/factory
+    - icon: R
+      icon_bg: blue
+      title: 'Documentación SDS'
+      desc: 'Requisitos de Hoja de Datos de Seguridad por mercado de exportación'
+      link_label: 'Más información'
+      href: /resources/pesticide-sds-documentation
+    - icon: R
+      icon_bg: green
+      title: 'Embalaje para Exportación'
+      desc: 'Estándares de embalaje certificado UN y cumplimiento'
+      link_label: 'Más información'
+      href: /manufacturing/packaging
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

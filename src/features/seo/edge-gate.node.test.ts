@@ -1,9 +1,10 @@
 import { test, expect } from 'vitest'
 import { gatePath, EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
-import { getContentPages } from '@/features/content/loader'
+import { getContentPages, getContentProducts } from '@/features/content/loader'
 import { GUIDES } from '@/features/content/guide-content'
 import { PUBLIC_PATHS } from '@/features/seo/seo'
+import { productPath } from '@/product/route-registry'
 
 /** Dedicated/static routes not covered by getContentPages() or PUBLIC_PATHS. */
 const TEMPLATE_ROUTES = [
@@ -17,6 +18,7 @@ const DYNAMIC_PREFIXES = ['/knowledge', '/projects', '/evidence/case-studies']
 /** Every legacy target must resolve to a live route (not another redirect). */
 const LIVE_ROUTES = new Set([
   ...getContentPages().map((p) => p.path),
+  ...getContentProducts().map((p) => productPath(p.slug, p.category)),
   ...GUIDES.map((g) => `/guides/${g.slug}`),
   ...PUBLIC_PATHS.map((e) => e.path),
   ...TEMPLATE_ROUTES,

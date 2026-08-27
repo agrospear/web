@@ -90,6 +90,41 @@ faqs:
     - q: 'Is every batch quality tested?'
       a: 'Yes. 100% of production batches undergo stability testing at 54°C for 14 days, active content verification by HPLC/GC, and full specification checks before release. Our quality lab operates independently from production.'
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & Markets'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Full herbicide manufacturing capability — glyphosate, glufosinate, 2,4-D, atrazine and selective herbicide formulations.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Insecticide manufacturing — cypermethrin, chlorpyrifos, imidacloprid, abamectin and premix formulations.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicides'
+      desc: 'Fungicide manufacturing — mancozeb, carbendazim, metalaxyl and combination formulations.'
+      link_label: 'View fungicides'
+      href: /products/fungicides
+    - icon: O
+      icon_bg: orange
+      title: 'OEM Solutions'
+      desc: 'Full-service agrochemical OEM — custom formulation, private labeling and registration support.'
+      link_label: 'OEM solutions'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Markets'
+      desc: 'Regional market programs for Africa, Southeast Asia, Latin America and 40+ export countries.'
+      link_label: 'View markets'
+      href: /markets
+
 cta:
   title: 'Ready to Manufacture?'
   subtitle: 'Send your formulation specification or product brief — receive a detailed quotation within one business day.'

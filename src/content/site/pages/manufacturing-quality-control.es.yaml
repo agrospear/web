@@ -66,6 +66,35 @@ faqs:
     - q: '¿Puedo solicitar inspección de terceros?'
       a: 'Sí. Apoyamos inspecciones pre-embarque, durante la producción y de carga de contenedor por SGS, TÜV, BV o Intertek. Los calendarios de inspección pueden escribirse en el contrato y proporcionamos acceso completo a los registros de producción, datos de QC y documentación por lote para el inspector.'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Servicios OEM'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Fabricación de herbicidas con control de calidad — análisis por lote, pruebas CIPAC y verificación de estabilidad.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Fabricación de insecticidas con control de calidad — análisis de residuos y cumplimiento de especificaciones.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'Soluciones OEM'
+      desc: 'Fabricación OEM con QC de 7 etapas integrado — cada lote analizado, cada especificación verificada.'
+      link_label: 'Soluciones OEM'
+      href: /solutions/agrochemical-oem
+    - icon: F
+      icon_bg: purple
+      title: 'Fábrica'
+      desc: 'Instalación de fabricación de 12.500 m² con 6 líneas de producción y capacidad anual de 50.000+ t.'
+      link_label: 'Ver fábrica'
+      href: /manufacturing/factory
+
 cta:
   title: 'Solicitar documentación de calidad'
   actions:

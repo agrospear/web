@@ -370,6 +370,89 @@ export function productVariantFaqLd(input: {
   }
 }
 
+export function manufacturingBusinessLd(input: {
+  path: string
+  name: string
+  description: string
+}): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': ['ManufacturingBusiness', 'Organization'],
+    '@id': `${SITE_ORIGIN}${input.path}#manufacturing`,
+    name: input.name,
+    description: input.description,
+    url: `${SITE_ORIGIN}${input.path}`,
+    parentOrganization: { '@id': `${SITE_ORIGIN}/#organization` },
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Economic Development Zone, Laixi',
+      addressLocality: 'Qingdao',
+      addressRegion: 'Shandong',
+      postalCode: '266600',
+      addressCountry: 'CN',
+    },
+    location: { '@type': 'Place', name: 'Qingdao, China' },
+    numberOfEmployees: { '@type': 'QuantitativeValue', value: FACTS.workers },
+    hasCredential: CERTIFICATION_NAMES.map((c) => ({
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'certification',
+      name: c,
+    })),
+    knowsAbout: [
+      'Agrochemical manufacturing',
+      'pesticide formulation',
+      'OEM agrochemical production',
+      'herbicide manufacturing',
+      'insecticide manufacturing',
+      'fungicide manufacturing',
+      'crop protection manufacturing',
+    ],
+    areaServed: { '@type': 'Place', name: 'Worldwide' },
+    foundingDate: '2012',
+  }
+}
+
+export function marketRegionLd(input: {
+  path: string
+  regionName: string
+  description: string
+  countries?: string[]
+}): Record<string, unknown> {
+  const areaServed: Record<string, unknown> = {
+    '@type': 'Place',
+    name: input.regionName,
+  }
+  if (input.countries && input.countries.length > 0) {
+    areaServed.containedInPlace = input.countries.map((c) => ({
+      '@type': 'Place',
+      name: c,
+    }))
+  }
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `Agrochemical OEM Supply — ${input.regionName}`,
+    serviceType: 'Agrochemical OEM Supply',
+    description: input.description,
+    url: `${SITE_ORIGIN}${input.path}`,
+    provider: { '@id': `${SITE_ORIGIN}/#organization` },
+    areaServed,
+    audience: {
+      '@type': 'BusinessAudience',
+      name: `Distributors and importers in ${input.regionName}`,
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Crop Protection Products',
+      itemListElement: [
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'OEM Herbicide Manufacturing' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'OEM Insecticide Manufacturing' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'OEM Fungicide Manufacturing' } },
+      ],
+    },
+  }
+}
+
 export function qcHowToLd(): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',

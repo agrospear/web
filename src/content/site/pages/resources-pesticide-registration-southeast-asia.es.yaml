@@ -1,0 +1,48 @@
+meta:
+  title: 'Registro de Plaguicidas ASEAN: Requisitos y Proceso | Agrospear'
+  description: 'Requisitos de registro de plaguicidas ASEAN: proceso por país, esfuerzos de armonización, listas de verificación de documentación y cronologías para compradores OEM agroquímicos.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Registro de Plaguicidas ASEAN: Requisitos y Proceso'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El registro de plaguicidas ASEAN sigue siendo específico por país a pesar de los esfuerzos de armonización — cada estado miembro (Tailandia, Vietnam, Indonesia, Filipinas, Malasia) requiere su propia presentación con ensayos locales de bioeficacia. Las cronologías típicas de registro van de 12 a 24 meses, y la mayoría de los países requieren certificados ICAMA, especificaciones completas de formulación, estudios de toxicidad GLP y datos de residuos para cultivos alimentarios.'
+  verified: '2026-08'
+
+intro:
+  - 'La Clasificación y Etiquetado Armonizado de Productos Químicos de ASEAN (AHLC) proporciona un marco pero la autoridad de registro de plaguicidas recae en cada organismo nacional: el Departamento de Agricultura en Tailandia, el Departamento de Protección Vegetal en Vietnam, la Dirección General de Control de Plagas en Indonesia y la Autoridad de Fertilizantes y Plaguicidas en Filipinas. El reconocimiento mutuo de datos está aumentando bajo las Directrices ASEAN sobre Límites Máximos de Residuos, pero aún se requieren expedientes nacionales separados.'
+  - 'Los compradores OEM deben asociarse con un fabricante que proporcione paquetes de datos completos incluyendo registro ICAMA de China, métodos analíticos CIPAC, análisis de cinco lotes, expedientes de toxicidad aguda y crónica, y estudios de destino ambiental. Agrospear suministra documentación de registro completa para todas las formulaciones OEM y tiene registros activos en más de 8 mercados ASEAN.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Mercado del Sudeste Asiático'
+      desc: 'Suministro OEM y soporte de registro para países ASEAN'
+      link_label: 'Más información'
+      href: /markets/southeast-asia
+    - icon: R
+      icon_bg: blue
+      title: 'Registro ICAMA'
+      desc: 'Paquetes de datos de registro ICAMA de China para mercados de exportación'
+      link_label: 'Más información'
+      href: /research/icama-registration
+    - icon: R
+      icon_bg: green
+      title: 'Regulación por Mercado'
+      desc: 'Requisitos de regulación de plaguicidas en mercados globales'
+      link_label: 'Más información'
+      href: /agrochemical-regulation-by-market
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

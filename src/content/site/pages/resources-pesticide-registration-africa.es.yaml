@@ -1,0 +1,48 @@
+meta:
+  title: 'Requisitos de Registro de Plaguicidas en África: Guía para Compradores | Agrospear'
+  description: 'Requisitos de registro de plaguicidas en África por región: WAEMU, EAC, armonización SADC, necesidades de documentación y cómo los proveedores OEM apoyan el proceso.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Requisitos de Registro de Plaguicidas en África: Guía para Compradores'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El registro de plaguicidas en África varía por comunidad económica: WAEMU (África Occidental) utiliza un procedimiento centralizado en 8 estados miembros, la EAC (África Oriental) requiere registros nacionales con reconocimiento mutuo, y la SADC avanza hacia la armonización. La mayoría de los registros requieren certificados ICAMA del país de origen, especificaciones completas de formulación, datos de toxicidad aguda y ensayos locales de bioeficacia.'
+  verified: '2026-08'
+
+intro:
+  - 'África representa uno de los mercados agroquímicos de más rápido crecimiento, pero su panorama regulatorio está fragmentado en 54 países con requisitos variables. El procedimiento centralizado de WAEMU (CSP) ofrece una única presentación evaluada por el Comité Sahélien des Pesticides que cubre Burkina Faso, Côte d''Ivoire, Malí y otros estados miembros. Los países de la Comidad de África Oriental aceptan el reconocimiento mutuo de registros pero cada uno conserva la autoridad final de aprobación. Sudáfrica tiene su propio sistema de registro bien establecido bajo la Ley 36 de 1947.'
+  - 'Para compradores OEM, el factor crítico es obtener paquetes de documentación completos del fabricante: Certificado de Análisis, Hojas de Datos de Seguridad, certificados de registro ICAMA, estudios de toxicidad aguda y crónica, y datos de destino ambiental. Agrospear proporciona paquetes completos de datos de registro para todas las formulaciones OEM y tiene experiencia de exportación en más de 15 mercados africanos.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Servicios de Mercado de África'
+      desc: 'Suministro OEM y soporte de registro para mercados africanos'
+      link_label: 'Más información'
+      href: /markets/africa
+    - icon: R
+      icon_bg: blue
+      title: 'Registro ICAMA'
+      desc: 'Documentación y proceso de registro ICAMA de China'
+      link_label: 'Más información'
+      href: /research/icama-registration
+    - icon: R
+      icon_bg: green
+      title: 'Documentación de Exportación'
+      desc: 'Certificados, licencias y requisitos aduaneros para exportación de plaguicidas'
+      link_label: 'Más información'
+      href: /resources/pesticide-export-documentation
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

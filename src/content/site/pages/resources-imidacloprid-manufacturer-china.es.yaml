@@ -1,0 +1,48 @@
+meta:
+  title: 'Fabricante de Imidacloprid China: Guía de Suministro OEM | Agrospear'
+  description: 'Fabricación OEM de imidacloprid desde China: formulaciones SL 200, SC 350, WP 70 y WDG, registro ICAMA, especificaciones QC y capacidades de exportación.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Fabricante de Imidacloprid China: Guía de Suministro OEM'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'China fabrica imidacloprid en múltiples formulaciones — SL 200 g/L, SC 350 g/L, WP 70% y WDG 70% — con suministro OEM disponible desde instalaciones registradas por ICAMA. Los parámetros clave de calidad incluyen contenido de ingrediente activo dentro de ±2% de la declaración de etiqueta, tamaño de partícula suspendida D90 inferior a 5 μm para formulaciones SC, e impurezas detectables por encima de los umbrales CIPAC iguales a cero.'
+  verified: '2026-08'
+
+intro:
+  - 'El imidacloprid sigue siendo uno de los insecticidas neonicotinoide más utilizados a nivel global, particularmente para tratamiento de semillas, aplicación al suelo y aspersión foliar en algodón, arroz y cultivos de hortalizas. Si bien la UE ha restringido el uso al aire libre, la demanda continúa fuerte en Asia, África, América Latina y Medio Oriente. Los fabricantes chinos ofrecen precios competitivos debido a la producción integrada de grado técnico, con márgenes OEM de formulación típicamente 15-25% por debajo de fuentes europeas o indias.'
+  - 'Agrospear produce formulaciones de imidacloprid en 2 líneas dedicadas con paquetes completos de datos de registro ICAMA. Cada lote se somete a análisis HPLC según método CIPAC 362, con perfilado de impurezas para los metabolitos relevantes clave. Los clientes OEM reciben Certificado de Análisis, Hojas de Datos de Seguridad e informes de análisis de cinco lotes para registro independiente en mercados objetivo.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Productos Insecticidas'
+      desc: 'Gama completa de formulaciones insecticidas incluyendo neonicotinoides'
+      link_label: 'Más información'
+      href: /products/insecticides
+    - icon: R
+      icon_bg: blue
+      title: 'Fabricación de Tratamiento de Semillas'
+      desc: 'Concentrados fluidos y recubrimientos para tratamiento de semillas'
+      link_label: 'Más información'
+      href: /products/seed-treatment
+    - icon: R
+      icon_bg: green
+      title: 'Prueba HPLC de Plaguicidas'
+      desc: 'Métodos de verificación de ingrediente activo y estándares CIPAC'
+      link_label: 'Más información'
+      href: /resources/hplc-pesticide-testing
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

@@ -4,13 +4,18 @@
   permalink: /
   sections:
     - { key: hero, type: hero, label: 'Hero Section' }
-    - { key: collaboration_selector, type: features, label: 'Collaboration Mode Selector (OEM/ODM/Private Label/Commercial)' }
+    - { key: trust_bar, type: features, label: 'Trust Bar' }
+    - { key: product_categories, type: features, label: 'Product Categories' }
+    - { key: manufacturing_flow, type: steps, label: 'Manufacturing Flow' }
+    - { key: collaboration_selector, type: features, label: 'Collaboration Mode Selector' }
+    - { key: oem_solutions, type: features, label: 'OEM Solutions' }
+    - { key: markets, type: features, label: 'Markets' }
     - { key: commercial_terms, type: content, label: 'Commercial Terms Summary' }
     - { key: factory_evidence, type: features, label: 'Factory Evidence (Capability + Quality)' }
     - { key: process_steps, type: steps, label: 'Process Steps (How It Works)' }
     - { key: client_types, type: features, label: 'Client Types (Who We Serve)' }
     - { key: cases, type: content, label: 'Case Studies' }
-    - { key: faqs, type: faqs, label: 'FAQs (5 key questions)' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA Section' }
 
 - slug: about-agrospear
@@ -572,6 +577,7 @@
     - { key: subtitle, type: content, label: 'Subtitle' }
     - { key: seo, type: content, label: 'SEO Metadata' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: body, type: content, label: 'Body Content' }
 
 - slug: solutions-co-branding
@@ -584,6 +590,7 @@
     - { key: subtitle, type: content, label: 'Subtitle' }
     - { key: seo, type: content, label: 'SEO Metadata' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: body, type: content, label: 'Body Content' }
 
 - slug: solutions
@@ -730,6 +737,7 @@
     - { key: stats, type: stats, label: 'Statistics' }
     - { key: sub_page_cards, type: features, label: 'Manufacturing Sub-Pages' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: manufacturing-agrochemical
@@ -743,6 +751,7 @@
     - { key: manufacturing_process, type: steps, label: 'Manufacturing Process' }
     - { key: capabilities, type: features, label: 'Capabilities' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: manufacturing-factory
@@ -766,6 +775,7 @@
     - { key: qc_dashboard, type: content, label: 'QC Dashboard' }
     - { key: process_cta, type: cta, label: 'Process CTA' }
     - { key: evidence_review, type: content, label: 'Evidence & Verification' }
+    - { key: related, type: features, label: 'Related Solutions' }
 
 - slug: products-herbicides
   label: Herbicides
@@ -814,6 +824,7 @@
     - { key: oem_services, type: features, label: 'OEM Services' }
     - { key: process_steps, type: steps, label: 'Process Steps' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: solutions-private-label-pesticides
@@ -827,6 +838,7 @@
     - { key: benefits, type: features, label: 'Benefits' }
     - { key: process_steps, type: steps, label: 'Process Steps' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: solutions-custom-formulation
@@ -840,6 +852,7 @@
     - { key: formulation_types, type: features, label: 'Formulation Types' }
     - { key: process_steps, type: steps, label: 'Process Steps' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: solutions-government-tender
@@ -853,6 +866,54 @@
     - { key: capabilities, type: features, label: 'Capabilities' }
     - { key: process_steps, type: steps, label: 'Process Steps' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: solutions-distributors
+  label: Distributors
+  path: /solutions/distributors
+  permalink: /solutions/distributors
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: wholesale_pricing, type: stats, label: 'Wholesale Pricing Stats' }
+    - { key: steps, type: steps, label: 'Steps' }
+    - { key: benefits, type: features, label: 'Benefits' }
+    - { key: coverage, type: content, label: 'Coverage' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: content_html, type: html, label: 'CTA Block' }
+    - { key: related, type: features, label: 'Related Solutions' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: oem-manufacturing
+  label: OEM Manufacturing
+  path: /oem-manufacturing
+  permalink: /oem-manufacturing
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: features, type: features, label: 'Features' }
+    - { key: customization, type: content, label: 'Customization' }
+    - { key: faq_section, type: faqs, label: 'FAQs' }
+    - { key: process, type: steps, label: 'Process' }
+    - { key: geo, type: content, label: 'Who We Work With' }
+    - { key: related, type: features, label: 'Related Solutions' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: odm-development
+  label: ODM Development
+  path: /odm-development
+  permalink: /odm-development
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: features, type: features, label: 'Features' }
+    - { key: customization, type: content, label: 'Customization' }
+    - { key: faq_section, type: faqs, label: 'FAQs' }
+    - { key: process, type: steps, label: 'Process' }
+    - { key: geo, type: content, label: 'Who We Work With' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: request-quote
@@ -937,6 +998,7 @@
     - { key: intro, type: content, label: 'Introduction' }
     - { key: capabilities, type: features, label: 'Capabilities' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: manufacturing-quality-control
@@ -949,6 +1011,7 @@
     - { key: intro, type: content, label: 'Introduction' }
     - { key: capabilities, type: features, label: 'Capabilities' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: manufacturing-factory-audit
@@ -973,6 +1036,7 @@
     - { key: intro, type: content, label: 'Introduction' }
     - { key: capabilities, type: features, label: 'Capabilities' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: manufacturing-packaging
@@ -985,6 +1049,7 @@
     - { key: intro, type: content, label: 'Introduction' }
     - { key: capabilities, type: features, label: 'Capabilities' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: markets
@@ -1008,7 +1073,10 @@
     - { key: answer, type: answer, label: 'Direct Answer' }
     - { key: intro, type: content, label: 'Introduction' }
     - { key: capabilities, type: features, label: 'Capabilities' }
+    - { key: crop_profiles, type: features, label: 'Crop Profiles' }
+    - { key: regulation_overview, type: features, label: 'Regulation Overview' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: markets-southeast-asia
@@ -1020,7 +1088,10 @@
     - { key: answer, type: answer, label: 'Direct Answer' }
     - { key: intro, type: content, label: 'Introduction' }
     - { key: capabilities, type: features, label: 'Capabilities' }
+    - { key: crop_profiles, type: features, label: 'Crop Profiles' }
+    - { key: regulation_overview, type: features, label: 'Regulation Overview' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
 - slug: markets-latin-america
@@ -1033,4 +1104,362 @@
     - { key: intro, type: content, label: 'Introduction' }
     - { key: capabilities, type: features, label: 'Capabilities' }
     - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: markets-west-asia
+  label: West Asia & Middle East
+  path: /markets/west-asia
+  permalink: /markets/west-asia
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: capabilities, type: features, label: 'Capabilities' }
+    - { key: crop_profiles, type: features, label: 'Crop Profiles' }
+    - { key: regulation_overview, type: features, label: 'Regulation Overview' }
+    - { key: faqs, type: faqs, label: 'FAQs' }
+    - { key: related, type: features, label: 'Related Solutions' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources
+  label: Resources
+  path: /resources
+  permalink: /resources
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: resource_cards, type: features, label: 'Resource Cards' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-how-to-find-pesticide-manufacturer-china
+  label: How to Find Pesticide Manufacturer in China
+  path: /resources/how-to-find-pesticide-manufacturer-china
+  permalink: /resources/how-to-find-pesticide-manufacturer-china
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-oem-vs-private-label-pesticides
+  label: OEM vs Private Label Pesticides
+  path: /resources/oem-vs-private-label-pesticides
+  permalink: /resources/oem-vs-private-label-pesticides
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-moq-pesticide-oem
+  label: MOQ for Pesticide OEM
+  path: /resources/moq-pesticide-oem
+  permalink: /resources/moq-pesticide-oem
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-pesticide-registration-africa
+  label: Pesticide Registration Africa
+  path: /resources/pesticide-registration-africa
+  permalink: /resources/pesticide-registration-africa
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-pesticide-registration-southeast-asia
+  label: Pesticide Registration Southeast Asia
+  path: /resources/pesticide-registration-southeast-asia
+  permalink: /resources/pesticide-registration-southeast-asia
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-glyphosate-formulation-types
+  label: Glyphosate Formulation Types
+  path: /resources/glyphosate-formulation-types
+  permalink: /resources/glyphosate-formulation-types
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-imidacloprid-manufacturer-china
+  label: Imidacloprid Manufacturer China
+  path: /resources/imidacloprid-manufacturer-china
+  permalink: /resources/imidacloprid-manufacturer-china
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-tebuconazole-fungicide-oem
+  label: Tebuconazole Fungicide OEM
+  path: /resources/tebuconazole-fungicide-oem
+  permalink: /resources/tebuconazole-fungicide-oem
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-herbicide-formulation-stability
+  label: Herbicide Formulation Stability
+  path: /resources/herbicide-formulation-stability
+  permalink: /resources/herbicide-formulation-stability
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-pesticide-packaging-export
+  label: Pesticide Packaging Export
+  path: /resources/pesticide-packaging-export
+  permalink: /resources/pesticide-packaging-export
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-factory-audit-china-pesticide
+  label: Factory Audit China Pesticide
+  path: /resources/factory-audit-china-pesticide
+  permalink: /resources/factory-audit-china-pesticide
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-iso-9001-pesticide-plant
+  label: ISO 9001 Pesticide Plant
+  path: /resources/iso-9001-pesticide-plant
+  permalink: /resources/iso-9001-pesticide-plant
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-seed-treatment-manufacturing
+  label: Seed Treatment Manufacturing
+  path: /resources/seed-treatment-manufacturing
+  permalink: /resources/seed-treatment-manufacturing
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-biopesticide-oem-opportunities
+  label: Biopesticide OEM Opportunities
+  path: /resources/biopesticide-oem-opportunities
+  permalink: /resources/biopesticide-oem-opportunities
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-pgr-manufacturing-china
+  label: PGR Manufacturing China
+  path: /resources/pgr-manufacturing-china
+  permalink: /resources/pgr-manufacturing-china
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-premix-formulation-advantages
+  label: Premix Formulation Advantages
+  path: /resources/premix-formulation-advantages
+  permalink: /resources/premix-formulation-advantages
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-crop-protection-latin-america
+  label: Crop Protection Latin America
+  path: /resources/crop-protection-latin-america
+  permalink: /resources/crop-protection-latin-america
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-adjuvant-selection-guide
+  label: Adjuvant Selection Guide
+  path: /resources/adjuvant-selection-guide
+  permalink: /resources/adjuvant-selection-guide
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-pesticide-lead-time-china
+  label: Pesticide Lead Time China
+  path: /resources/pesticide-lead-time-china
+  permalink: /resources/pesticide-lead-time-china
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-custom-formulation-development
+  label: Custom Formulation Development
+  path: /resources/custom-formulation-development
+  permalink: /resources/custom-formulation-development
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-pesticide-sds-documentation
+  label: Pesticide SDS Documentation
+  path: /resources/pesticide-sds-documentation
+  permalink: /resources/pesticide-sds-documentation
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-hplc-pesticide-testing
+  label: HPLC Pesticide Testing
+  path: /resources/hplc-pesticide-testing
+  permalink: /resources/hplc-pesticide-testing
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-pesticide-label-design-oem
+  label: Pesticide Label Design OEM
+  path: /resources/pesticide-label-design-oem
+  permalink: /resources/pesticide-label-design-oem
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-distributor-partnership-agrochemical
+  label: Distributor Partnership Agrochemical
+  path: /resources/distributor-partnership-agrochemical
+  permalink: /resources/distributor-partnership-agrochemical
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-government-tender-pesticide-supply
+  label: Government Tender Pesticide Supply
+  path: /resources/government-tender-pesticide-supply
+  permalink: /resources/government-tender-pesticide-supply
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-cypermethrin-manufacturing
+  label: Cypermethrin Manufacturing
+  path: /resources/cypermethrin-manufacturing
+  permalink: /resources/cypermethrin-manufacturing
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-mancozeb-fungicide-manufacturing
+  label: Mancozeb Fungicide Manufacturing
+  path: /resources/mancozeb-fungicide-manufacturing
+  permalink: /resources/mancozeb-fungicide-manufacturing
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-atrazine-herbicide-oem
+  label: Atrazine Herbicide OEM
+  path: /resources/atrazine-herbicide-oem
+  permalink: /resources/atrazine-herbicide-oem
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-pesticide-export-documentation
+  label: Pesticide Export Documentation
+  path: /resources/pesticide-export-documentation
+  permalink: /resources/pesticide-export-documentation
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+
+- slug: resources-odm-vs-oem-agrochemical
+  label: ODM vs OEM Agrochemical
+  path: /resources/odm-vs-oem-agrochemical
+  permalink: /resources/odm-vs-oem-agrochemical
+  sections:
+    - { key: hero, type: hero, label: 'Top Hero' }
+    - { key: answer, type: answer, label: 'Direct Answer' }
+    - { key: intro, type: content, label: 'Introduction' }
+    - { key: related, type: features, label: 'Related Resources' }
+    - { key: cta, type: cta, label: 'Bottom CTA' }
+

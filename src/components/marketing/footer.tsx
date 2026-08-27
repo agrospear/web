@@ -105,6 +105,7 @@ export function Footer() {
 
         {/* Resources */}
         <FooterCol title={t('agro.footer.colResources')}>
+          <a className="foot-link" href={fl('/resources')}>Buyer Resources</a>
           <a className="foot-link" href={fl('/knowledge')}>{t('agro.nav.guides')}</a>
           <a className="foot-link" href={fl('/faq')}>{t('agro.footer.faq')}</a>
           <a className="foot-link" href={fl('/oem-onboarding-guide')}>{t('agro.nav.resourcesDropdown.onboarding')}</a>

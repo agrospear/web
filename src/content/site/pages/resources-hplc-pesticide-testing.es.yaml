@@ -1,0 +1,48 @@
+meta:
+  title: 'Prueba HPLC de Plaguicidas: Métodos de Verificación de Ingrediente Activo | Agrospear'
+  description: 'Métodos de prueba HPLC de plaguicidas: cuantificación de ingrediente activo, métodos de referencia CIPAC, perfilado de impurezas, consistencia de lote y estándares de control de calidad.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Prueba HPLC de Plaguicidas: Métodos de Verificación de Ingrediente Activo'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'HPLC (Cromatografía Líquida de Alta Resolución) es el método analítico principal para cuantificar el contenido de ingrediente activo de plaguicidas, verificando ±2% de la declaración de etiqueta según métodos de referencia CIPAC. La cromatografía de gases (GC) complementa HPLC para activos volátiles. Ambos métodos son obligatorios para el registro ICAMA, documentación del Certificado de Análisis y pruebas de importación en laboratorios aduaneros de destino.'
+  verified: '2026-08'
+
+intro:
+  - 'El análisis HPLC separa, identifica y cuantifica cada ingrediente activo en una formulación utilizando un estándar de referencia calibrado. CIPAC publica los métodos oficiales para cada plaguicida: CIPAC 284 para glifosato, CIPAC 362 para imidacloprid, CIPAC 407 para tebuconazole. El método especifica la composición de fase móvil, tipo de columna, velocidad de flujo, longitud de onda de detección y procedimientos de cálculo. Los resultados deben caer dentro de ±2% del contenido declarado de ingrediente activo para cumplir con la tolerancia de especificación FAO/OMS.'
+  - 'Agrospear opera un laboratorio analítico interno con sistemas HPLC y GC calibrados contra estándares de referencia certificados trazables a institutos nacionales de metrología. Cada lote de producción se somete a pruebas HPLC/GC en tres puntos: QC de materias primas entrantes (verificando pureza de grado técnico), monitoreo en proceso (confirmando concentración de ingrediente activo durante la formulación), y prueba de liberación final (generación del Certificado de Análisis). El perfilado de impurezas por HPLC-MS identifica productos de degradación e impurezas de proceso por encima del umbral del 0.1%.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Proceso de Control de Calidad'
+      desc: 'Sistema de QC de 7 etapas integrando análisis HPLC en tres puntos de control'
+      link_label: 'Más información'
+      href: /manufacturing/quality-control
+    - icon: R
+      icon_bg: blue
+      title: 'Pruebas de Estabilidad de Formulación'
+      desc: 'Métodos CIPAC de estabilidad acelerada y validación de vida útil'
+      link_label: 'Más información'
+      href: /resources/herbicide-formulation-stability
+    - icon: R
+      icon_bg: green
+      title: 'Laboratorio de Calidad'
+      desc: 'Capacidades y equipos del laboratorio analítico interno'
+      link_label: 'Más información'
+      href: /factory/quality-lab
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

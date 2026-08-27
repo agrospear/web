@@ -1,0 +1,48 @@
+meta:
+  title: 'ODM vs OEM en Fabricación Agroquímica: Diferencias Clave para Compradores | Agrospear'
+  description: 'ODM vs OEM en fabricación agroquímica: propiedad del diseño, control de formulación, responsabilidad de registro, diferencias de MOQ y qué modelo se adapta a su negocio.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'ODM vs OEM en Fabricación Agroquímica: Diferencias Clave para Compradores'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'OEM (Fabricación de Equipo Original) significa que el comprador proporciona las especificaciones de formulación y el fabricante produce según esas especificaciones, mientras que ODM (Fabricación de Diseño Original) significa que el fabricante diseña la formulación y el comprador selecciona de productos existentes para marcar con su marca. OEM otorga control total de la formulación y propiedad del registro; ODM ofrece una entrada más rápida al mercado con MOQ más bajo ya que los costos de desarrollo son absorbidos por el fabricante.'
+  verified: '2026-08'
+
+intro:
+  - 'La distinción OEM/ODM es crítica para los compradores agroquímicos porque determina quién posee los datos de formulación, quién tiene los derechos de registro y quién controla las futuras modificaciones del producto. Bajo OEM, el comprador especifica el ingrediente activo, la concentración, el tipo de formulación y los requisitos de co-formulantes — el fabricante ejecuta. El comprador recibe todos los datos técnicos y puede registrar de forma independiente. Bajo ODM, las formulaciones registradas existentes del fabricante se re-marcan — el fabricante retiene los datos de registro y el comprador licencia el derecho de vender bajo su marca en un territorio definido.'
+  - 'Agrospear respalda ambos modelos OEM y ODM. Los clientes OEM reciben paquetes completos de datos (métodos CIPAC, análisis de cinco lotes, expedientes de toxicidad, datos de estabilidad) para registro independiente y propiedad completa de la formulación. Los clientes ODM seleccionan de más de 200 formulaciones registradas con disponibilidad inmediata, opciones de co-branding o re-branding completo, y umbrales de MOQ más bajos comenzando desde cantidades piloto. Ambos modelos incluyen el QC de 7 etapas de Agrospear, SDS conforme a GHS y paquetes de documentación de exportación.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Servicios OEM Agroquímicos'
+      desc: 'Fabricación OEM completa con propiedad de formulación y datos de registro'
+      link_label: 'Más información'
+      href: /solutions/agrochemical-oem
+    - icon: R
+      icon_bg: blue
+      title: 'Plaguicidas de Marca Privada'
+      desc: 'Re-marcaje estilo ODM de formulaciones registradas'
+      link_label: 'Más información'
+      href: /solutions/private-label-pesticides
+    - icon: R
+      icon_bg: green
+      title: 'OEM vs Marca Privada'
+      desc: 'Comparación detallada de los modelos OEM y de marca privada de plaguicidas'
+      link_label: 'Más información'
+      href: /resources/oem-vs-private-label-pesticides
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

@@ -18,6 +18,7 @@ import { FACTS, COLLABORATION_MODES } from '@/product/facts'
 import { EDGE_REDIRECTS } from '@/features/seo/edge-gate'
 import { LEGACY_REDIRECTS } from '@/features/seo/legacy-redirects'
 import { SITE_NAME } from '@/config/site'
+import { productPath } from '@/product/route-registry'
 import { PAGE_TITLES } from '@/product/entity-data'
 import { LLM_SITE_DESCRIPTION, LLM_FAQ_DESCRIPTION, LLM_SPANISH_HOMEPAGE_DESCRIPTION, LLM_FACT_BLOCK } from '@/product/ai-content'
 import { GLOSSARY } from '@/product/glossary'
@@ -90,7 +91,7 @@ export function llmSiteHeader(): string {
 export function llmProductsIndex(origin: string): string {
   // Real product detail pages exist for the ported agrospear products — link each
   // entry to its page instead of the /products index.
-  const lines = getContentProducts().map((p) => `- [${p.title}](${abs(origin, `/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const lines = getContentProducts().map((p) => `- [${p.title}](${abs(origin, productPath(p.slug, p.category))}): ${flat(p.summary ?? '')}`)
   return ['', '## Products', ...lines, ''].join('\n')
 }
 
@@ -348,7 +349,7 @@ export function llmsAgrospearFull(): string {
 /** `/llms.txt` Spanish section — absolute /es URLs so LLMs can ingest the mirror directly. */
 export function llmSpanishIndex(origin: string): string {
   const es = (path: string) => abs(origin, `/es${path}`)
-  const productLines = getContentProducts('es').map((p) => `- [${p.title}](${es(`/products/${p.slug}`)}): ${flat(p.summary ?? '')}`)
+  const productLines = getContentProducts('es').map((p) => `- [${p.title}](${es(productPath(p.slug, p.category))}): ${flat(p.summary ?? '')}`)
   const techLines = getTechArticles('es').map((a) => `- [${a.title}](${es(`/technology/${a.slug}`)}): ${flat(a.summary ?? '')}`)
   const caseLines = getCaseUses('es').map((c) => `- [${c.title}](${es(`/evidence/case-studies/${c.slug}`)}): ${flat(c.summary ?? '')}`)
   const guideLines = GUIDES_ES.map((g) => `- [${g.title}](${es(`/guides/${g.slug}`)}): ${flat(g.intro[0] ?? '')}`)

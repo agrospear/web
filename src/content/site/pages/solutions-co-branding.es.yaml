@@ -71,6 +71,29 @@ content_html: |
     <p><strong>Sigue leyendo:</strong> los productos co-brandeados parten de una especificación compartida: consulta nuestro <a href="/es/oem-manufacturing">programa OEM/ODM</a> para personalización, MOQ de prueba y condiciones de co-branding. Cada lote pasa por la <a href="/es/factory">línea de producción</a> de 12.500 m&sup2; y se prueba de estabilidad al 100% antes de enviarse bajo ambas marcas.</p>
   </div>
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Servicios OEM'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Programas de herbicidas co-brandeados — doble marca con calidad de fabricación Agrospear.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Programas de insecticidas co-brandeados — aprovecha la experiencia de formulación de Agrospear con tu marca.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: O
+      icon_bg: orange
+      title: 'Soluciones OEM'
+      desc: 'OEM agroquímico integral — desde desarrollo de formulaciones hasta logística de exportación.'
+      link_label: 'Soluciones OEM'
+      href: /solutions/agrochemical-oem
+
 cta:
   title: 'Habla Sobre Tu Proyecto de Co-Branding'
   subtitle: 'Envía tu concepto de co-branding: nuestro equipo responde en menos de 1 día laborable.'

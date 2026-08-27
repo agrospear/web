@@ -65,6 +65,35 @@ faqs:
     - q: 'Can packaging be changed between orders?'
       a: 'Yes. Once brand assets are production-ready, reorders can refresh labels, colors or packaging at any time. Minimum packaging order quantities apply for custom-printed materials and are confirmed per project.'
 
+related:
+  tagline: 'Related'
+  title: 'Product Categories & Markets'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicides'
+      desc: 'Herbicide packaging — from 50 mL sachets to 200 L drums for all distribution channels.'
+      link_label: 'View herbicides'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticides'
+      desc: 'Insecticide packaging options — smallholder sizes, institutional containers and bulk packaging.'
+      link_label: 'View insecticides'
+      href: /products/insecticides
+    - icon: A
+      icon_bg: orange
+      title: 'Africa Market'
+      desc: 'Smallholder-friendly packaging for Sub-Saharan African distribution channels.'
+      link_label: 'Africa market'
+      href: /markets/africa
+    - icon: S
+      icon_bg: green
+      title: 'Southeast Asia Market'
+      desc: 'Tropical-climate packaging with UV resistance and measured-dose sachets.'
+      link_label: 'Southeast Asia market'
+      href: /markets/southeast-asia
+
 cta:
   title: 'Discuss Your Packaging Requirements'
   actions:

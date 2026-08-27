@@ -90,6 +90,41 @@ faqs:
     - q: '¿Se prueba la calidad de cada lote?'
       a: 'Sí. El 100% de los lotes de producción se someten a ensayos de estabilidad a 54 °C durante 14 días, verificación de contenido activo por HPLC/GC y comprobaciones completas de especificaciones antes de la liberación. Nuestro laboratorio de calidad opera de forma independiente de la producción.'
 
+related:
+  tagline: 'Relacionado'
+  title: 'Categorías de Productos y Mercados'
+  features:
+    - icon: H
+      icon_bg: green
+      title: 'Herbicidas'
+      desc: 'Capacidad completa de fabricación de herbicidas — formulaciones de glifosato, glufosinato, 2,4-D, atrazina y herbicidas selectivos.'
+      link_label: 'Ver herbicidas'
+      href: /products/herbicides
+    - icon: I
+      icon_bg: blue
+      title: 'Insecticidas'
+      desc: 'Fabricación de insecticidas — formulaciones de cipermetrina, clorpirifos, imidacloprid, abamectina y premezclas.'
+      link_label: 'Ver insecticidas'
+      href: /products/insecticides
+    - icon: F
+      icon_bg: purple
+      title: 'Fungicidas'
+      desc: 'Fabricación de fungicidas — formulaciones de mancozeb, carbendazima, metalaxil y combinaciones.'
+      link_label: 'Ver fungicidas'
+      href: /products/fungicides
+    - icon: O
+      icon_bg: orange
+      title: 'Soluciones OEM'
+      desc: 'OEM agroquímico integral — formulación personalizada, etiqueta privada y soporte de registro.'
+      link_label: 'Soluciones OEM'
+      href: /solutions/agrochemical-oem
+    - icon: M
+      icon_bg: green
+      title: 'Mercados'
+      desc: 'Programas de mercado regionales para África, Sudeste Asiático, América Latina y más de 40 países de exportación.'
+      link_label: 'Ver mercados'
+      href: /markets
+
 cta:
   title: '¿Listo para Fabricar?'
   subtitle: 'Envía tu especificación de formulación o brief de producto — recibe un presupuesto detallado en un día laborable.'

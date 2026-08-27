@@ -47,6 +47,12 @@ capabilities:
       href: /es/markets/latin-america
     - icon: M
       icon_bg: orange
+      title: 'Asia Occidental y Oriente Medio'
+      desc: 'Formulaciones termoestables para trigo, algodón y palmera datilera. Documentación en árabe e inglés. Soporte de registro GCC. Embalaje institucional y al por mayor.'
+      link_label: 'Ver mercado de Asia Occidental'
+      href: /markets/west-asia
+    - icon: M
+      icon_bg: red
       title: 'Exportación global'
       desc: 'Documentación personalizada, embalaje conforme a DG y soporte logístico para cualquier mercado. Más de 15 años de experiencia de exportación en 40+ países. Programas OEM flexibles para nueva entrada al mercado.'
       link_label: 'Ver fabricación'

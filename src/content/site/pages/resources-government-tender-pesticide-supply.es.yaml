@@ -1,0 +1,48 @@
+meta:
+  title: 'Suministro de Plaguicidas para Licitaciones Gubernamentales: Documentación y Cumplimiento | Agrospear'
+  description: 'Suministro de plaguicidas para licitaciones gubernamentales: requisitos de documentación, estándares de cumplimiento, calificaciones de licitación y garantía de calidad para contratación pública de agroquímicos.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Suministro de Plaguicidas para Licitaciones Gubernamentales: Documentación y Cumplimiento'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'Las licitaciones gubernamentales de plaguicidas requieren certificación ISO 9001, certificados de registro ICAMA o equivalente, Certificado de Análisis por lote, SDS conforme a GHS, documentación de cumplimiento de especificaciones FAO/OMS y a menudo una garantía bancaria de cumplimiento. Los proveedores deben demostrar capacidad de fabricación, historial de exportación y la capacidad de entregar dentro de plazos estrictos alineados con las temporadas de siembra.'
+  verified: '2026-08'
+
+intro:
+  - 'La contratación pública de plaguicidas — para programas nacionales de subsidio de insumos, campañas de control de vectores e iniciativas estratégicas de protección de cultivos — representa una porción significativa de la demanda agroquímica en África, el Sur de Asia y América Latina. Las especificaciones de licitación son a menudo más rigurosas que los requisitos del mercado comercial: los productos deben cumplir con las especificaciones FAO/OMS con pruebas de laboratorios acreditados, los plazos de entrega se aplican contractualmente con penalidades por demora, y la verificación de calidad post-entrega involucra muestreo y prueba por laboratorios gubernamentales.'
+  - 'Agrospear respalda las ofertas de licitaciones gubernamentales con paquetes completos de documentación: certificados ISO 9001:2015 e ISO 14001, registros ICAMA, Certificado de Análisis según métodos CIPAC, SDS conforme a GHS en el idioma del mercado de destino, autorización de fabricación y licencias de exportación. La capacidad de más de 50.000 t/año y 6 líneas de producción permite el cumplimiento en volumen dentro de los plazos de licitación, y el sistema de QC de 7 etapas proporciona la trazabilidad a nivel de lote que los procesos de auditoría demandan.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Servicios de Licitación Gubernamental'
+      desc: 'Documentación, cumplimiento y capacidades de suministro para licitaciones'
+      link_label: 'Más información'
+      href: /solutions/government-tender
+    - icon: R
+      icon_bg: blue
+      title: 'Certificaciones'
+      desc: 'Certificaciones de calidad y cumplimiento para contratación pública'
+      link_label: 'Más información'
+      href: /agrochemical-certification-guide
+    - icon: R
+      icon_bg: green
+      title: 'Documentación de Exportación'
+      desc: 'Certificados, licencias y requisitos aduaneros'
+      link_label: 'Más información'
+      href: /resources/pesticide-export-documentation
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

@@ -1,0 +1,48 @@
+meta:
+  title: 'Desarrollo de Formulación de Plaguicida Personalizada: Del Concepto a la Producción | Agrospear'
+  description: 'Proceso de desarrollo de formulación de plaguicida personalizada: evaluación de conceptos, formulación de laboratorio, lote piloto, validación CIPAC, pruebas de estabilidad y escalado a producción.'
+  dateModified: '2026-08-27'
+
+hero:
+  tagline: 'Recursos'
+  title: 'Desarrollo de Formulación de Plaguicida Personalizada: Del Concepto a la Producción'
+
+answer:
+  label: 'Respuesta directa'
+  text: 'El desarrollo de formulación personalizada sigue cinco etapas: selección de concepto e ingrediente activo (1-2 semanas), diseño de formulación a escala de laboratorio con evaluación de compatibilidad (2-3 semanas), producción de lote piloto y validación de método analítico CIPAC (2-3 semanas), pruebas de estabilidad acelerada a 54°C/14 días (2 semanas), y escalado de producción con validación completa de QC (1-2 semanas). Cronología total: 8-12 semanas desde el brief hasta el primer lote comercial.'
+  verified: '2026-08'
+
+intro:
+  - 'El desarrollo de formulación personalizada es necesario cuando ningún producto registrado existente coincide con el cultivo, espectro de plagas, método de aplicación o requisitos regulatorios del comprador. El proceso comienza con un brief técnico especificando ingredientes activos objetivo, tipo de formulación deseado (SC, WDG, EC, FS), tasa de aplicación y requisitos de registro específicos por mercado. Los químicos de formulación de laboratorio luego evalúan combinaciones de co-formulantes — solventes, dispersantes, agentes humectantes, espesantes y estabilizadores — para lograr las propiedades físicas objetivo: tamaño de partícula, viscosidad, suspensibilidad y pH.'
+  - 'El laboratorio de formulación interno de Agrospear desarrolla productos personalizados con paquetes completos de documentación incluyendo métodos analíticos CIPAC, análisis de cinco lotes, datos de estabilidad acelerada y a largo plazo, estudios de toxicidad aguda y coordinación de ensayos de bioeficacia en campo. Las 6 líneas de producción permiten el escalado de piloto a volumen sin conflictos de línea, y el sistema de QC de 7 etapas asegura que el producto comercial coincida con la especificación validada en laboratorio dentro de la tolerancia de ±2% de ingrediente activo.'
+
+related:
+  tagline: 'Relacionado'
+  title: 'Más Información'
+  features:
+    - icon: R
+      icon_bg: green
+      title: 'Servicios de Formulación Personalizada'
+      desc: 'Desarrollo completo de formulación personalizada del concepto a la producción'
+      link_label: 'Más información'
+      href: /solutions/custom-formulation
+    - icon: R
+      icon_bg: blue
+      title: 'Laboratorio de Formulación'
+      desc: 'Capacidades y equipos de química de formulación interna'
+      link_label: 'Más información'
+      href: /randdcenter/formulation-lab
+    - icon: R
+      icon_bg: green
+      title: 'Pruebas de Estabilidad de Formulación'
+      desc: 'Métodos CIPAC para estabilidad acelerada y a largo plazo'
+      link_label: 'Más información'
+      href: /resources/herbicide-formulation-stability
+
+cta:
+  title: 'Discuta Sus Requisitos'
+  actions:
+    - text: Solicitar Cotización
+      href: /request-quote
+    - text: Todos los recursos
+      href: /knowledge

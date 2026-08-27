@@ -92,7 +92,7 @@ test('research topics: es localization swaps category/readTime labels', () => {
 
 test('hasLocaleVariant covers registry, faq and sidecar content', () => {
   expect(hasLocaleVariant('/faq', 'es')).toBe(true)
-  expect(hasLocaleVariant('/products/atrazine-80-wp', 'es')).toBe(true)
+  expect(hasLocaleVariant('/products/herbicides/atrazine-80-wp', 'es')).toBe(true)
   expect(hasLocaleVariant('/news/sc-formulation-technology-advances', 'es')).toBe(true)
   expect(hasLocaleVariant('/technology/emulsifiable-concentrate-ec', 'es')).toBe(true)
   expect(hasLocaleVariant('/evidence/case-studies/row-crop-herbicide-program', 'es')).toBe(true)
@@ -143,7 +143,7 @@ test('oem-trust-assurance page: registered EN+ES with structured sections', () =
 test('getLocaleContentPaths lists every es sidecar detail path', () => {
   const paths = getLocaleContentPaths('es')
   expect(paths.length).toBeGreaterThanOrEqual(18)
-  expect(paths).toContain('/products/atrazine-80-wp')
+  expect(paths).toContain('/products/herbicides/atrazine-80-wp')
   expect(paths).toContain('/news/sc-formulation-technology-advances')
   expect(paths).toContain('/technology/suspension-concentrate-sc')
   expect(paths).toContain('/evidence/case-studies/fruit-tree-insecticide-program')
@@ -152,7 +152,7 @@ test('getLocaleContentPaths lists every es sidecar detail path', () => {
 
 test('search index: es detail content indexed under /es urls with Spanish copy', () => {
   const es = buildExtendedIndex('es')
-  expect(es.some((e) => e.url === '/es/products/atrazine-80-wp' && e.title.length > 0)).toBe(true)
+  expect(es.some((e) => e.url === '/es/products/herbicides/atrazine-80-wp' && e.title.length > 0)).toBe(true)
   expect(es.some((e) => e.url === '/es/guides/choosing-agrochemical-formulation')).toBe(true)
   expect(es.some((e) => e.url === '/es/news/sc-formulation-technology-advances')).toBe(true)
   expect(es.some((e) => e.url === '/es/evidence/case-studies/fruit-tree-insecticide-program')).toBe(true)
@@ -167,8 +167,8 @@ test('search index: es index never links bare en urls', () => {
 
 test('search index: en and es twins both present in the full index', () => {
   const urls = new Set(buildFullIndex().map((e) => e.url))
-  expect(urls.has('/products/atrazine-80-wp')).toBe(true)
-  expect(urls.has('/es/products/atrazine-80-wp')).toBe(true)
+  expect(urls.has('/products/herbicides/atrazine-80-wp')).toBe(true)
+  expect(urls.has('/es/products/herbicides/atrazine-80-wp')).toBe(true)
   expect(urls.has('/faq')).toBe(true)
   expect(urls.has('/es/faq')).toBe(true)
 })

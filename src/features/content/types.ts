@@ -66,6 +66,14 @@ export interface ContentProduct {
   inStock?: boolean
   featured?: boolean
   metadata?: ContentProductMeta
+  /** Available formulation variants for this active ingredient. */
+  formulations?: string[]
+  /** Target crops and application scenarios. */
+  applications?: { crops: string; uses: string }
+  /** Packaging options available. */
+  packaging?: string[]
+  /** Export markets served. */
+  export_markets?: string[]
   /** Markdown body (ported from the source MDX). */
   body: string
 }
