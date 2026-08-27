@@ -676,6 +676,7 @@ export const esProduct = {
     captcha: 'Verificación fallida. Inténtalo de nuevo.',
     rateLimited: 'Demasiados intentos — vuelve a intentarlo en unos minutos.',
     failed: 'Algo salió mal. Inténtalo de nuevo o escríbenos directamente.',
+    submittedSuccess: 'Tu consulta ha sido enviada. Un especialista revisará tus requisitos y te contactará en 1 día hábil.',
     fileEmpty: 'El archivo está vacío.',
     fileType: 'Tipo de archivo no compatible (consulta los formatos aceptados arriba).',
     fileSize: 'El archivo es demasiado grande (máx. 10 MB).',

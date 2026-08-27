@@ -1,7 +1,7 @@
-import { useState, useCallback } from 'react'
-import { ArrowRight, Check, ChevronDown, FileText, ShieldCheck, UploadCloud, X } from 'lucide-react'
+import { useState, useCallback, useRef } from 'react'
+import { createPortal } from 'react-dom'
+import { ArrowRight, Check, ChevronDown, ShieldCheck, UploadCloud, X } from 'lucide-react'
 import { useTranslation } from '@/features/i18n/provider'
-import { dictionaries } from '@/features/i18n/locale'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/button'
 import { useTurnstile } from '@/features/auth/components/turnstile'
 import { trackLead } from '@/features/analytics/events'
 import { submitInquiry, type SubmitResult } from '../actions'
-import { INQUIRY_LIMITS, PROJECT_FILE_ACCEPT, PROJECT_FILE_EXTENSIONS, type InquiryTier } from '../inquiry.shared'
+import { INQUIRY_LIMITS, PROJECT_FILE_ACCEPT, PROJECT_FILE_EXTENSIONS } from '../inquiry.shared'
 
 export interface InquiryPrefill {
   /** Product platform name (shown in the notice + formulation-platform field). */
@@ -44,13 +44,14 @@ export function InquiryForm({
 
   const [step, setStep] = useState<1 | 2>(1)
   const [busy, setBusy] = useState(false)
-  const [doneTier, setDoneTier] = useState<InquiryTier | null>(null)
+  const [submitSuccess, setSubmitSuccess] = useState(false)
   const [msg, setMsg] = useState<{ kind: 'err'; text: string } | null>(null)
   const [fileName, setFileName] = useState<string | null>(null)
   const [fileError, setFileError] = useState<'empty' | 'type' | 'size' | null>(null)
   const [customization, setCustomization] = useState<Record<string, boolean>>({})
   const [docs, setDocs] = useState<Record<string, boolean>>({})
   const [consent, setConsent] = useState(false)
+  const submittedRef = useRef(false)
 
   const toggleKey = useCallback((set: Record<string, boolean>, setter: (v: Record<string, boolean>) => void, value: string) => {
     setter({ ...set, [value]: !set[value] })
@@ -91,6 +92,7 @@ export function InquiryForm({
       setStep(2)
       return
     }
+    if (submittedRef.current || busy) return
     // The file input is optional, so native validation won't catch a bad file —
     // block the POST here so the server never sees an invalid logo.
     if (fileError) {
@@ -98,6 +100,7 @@ export function InquiryForm({
       return
     }
     setBusy(true)
+    submittedRef.current = true
     setMsg(null)
     setFileError(null)
     try {
@@ -110,7 +113,7 @@ export function InquiryForm({
       const r = await submitInquiry({ data: fd })
       if (r.ok) {
         trackLead(`inquiry:${String(fd.get('category') ?? 'unsure')}`)
-        setDoneTier(r.tier)
+        setSubmitSuccess(true)
         form.reset()
         setStep(1)
         setFileName(null)
@@ -122,6 +125,7 @@ export function InquiryForm({
         if (r.reason !== 'invalid') reset()
       }
     } catch {
+      submittedRef.current = false
       setMsg({ kind: 'err', text: t('inquiry.failed') })
       reset()
     } finally {
@@ -143,9 +147,8 @@ export function InquiryForm({
     setFileName(f.name)
   }, [])
 
-  if (doneTier) return <SuccessPanel tier={doneTier} />
-
   return (
+    <>
     <form onSubmit={submit} className="flex flex-col gap-4">
       {prefill?.intent && (
         <p className="flex items-center gap-2 rounded-lg border border-primary/25 bg-soft/60 px-3 py-2 text-[12.5px] font-medium text-primary">
@@ -168,7 +171,7 @@ export function InquiryForm({
       </div>
 
       {/* ── Step 1: project fit ── */}
-      <fieldset disabled={step === 2} className={step === 2 ? 'hidden' : ''}>
+      <fieldset className={step === 2 ? 'hidden' : ''}>
         <legend className="sr-only">{t('inquiry.step1Legend')}</legend>
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="field">
@@ -475,47 +478,27 @@ export function InquiryForm({
         <p className="text-center text-[12px] text-fg-3">{t('inquiry.noObligation')}</p>
       </fieldset>
     </form>
-  )
-}
 
-/** Tiered post-submit panel (hard-split pricing/SLA messaging per lead grade). */
-function SuccessPanel({ tier }: { tier: InquiryTier }) {
-  const { t, locale } = useTranslation()
-  const fl = useLocalizePath()
-  if (tier === 'A') {
-    return (
-      <div className="rounded-2xl border border-success/30 bg-success/5 p-6">
-        <p className="flex items-center gap-2 text-[15px] font-bold text-success"><Check size={17} /> {t('inquiry.okA.title')}</p>
-        <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('inquiry.okA.body')}</p>
-      </div>
-    )
-  }
-  if (tier === 'B') {
-    return (
-      <div className="rounded-2xl border border-border bg-bg-alt p-6">
-        <p className="text-[15px] font-bold"><FileText size={16} className="mr-1.5 inline text-primary" /> {t('inquiry.okB.title')}</p>
-        <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('inquiry.okB.body')}</p>
-        <p className="mt-4 text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
-          {t('inquiry.oemBriefChecklist')}
-        </p>
-        <ul className="mt-2 flex flex-col gap-1.5">
-          {dictionaries[locale].inquiry.okB.checklist.map((line) => (
-            <li key={line} className="flex items-start gap-2 text-[13px] leading-relaxed text-fg-2">
-              <Check size={14} className="mt-0.5 shrink-0 text-primary" /> {line}
-            </li>
-          ))}
-        </ul>
-      </div>
-    )
-  }
-  return (
-    <div className="rounded-2xl border border-border bg-bg-alt p-6">
-      <p className="text-[15px] font-bold">{t('inquiry.okC.title')}</p>
-      <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{t('inquiry.okC.body')}</p>
-      <a href={fl('/oem-moq-guide')} className="mt-4 inline-flex h-10 items-center gap-1.5 rounded-full border border-primary/30 bg-primary/5 px-5 text-[13px] font-bold text-primary transition-colors hover:bg-primary/10">
-        {t('inquiry.okC.guideLink')}
-      </a>
-    </div>
+    {submitSuccess && createPortal(
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+        <div className="rounded-xl bg-background p-8 shadow-xl text-center max-w-sm mx-4">
+          <p className="text-2xl font-bold text-primary"><Check size={28} className="mx-auto mb-2" /></p>
+          <p className="text-[18px] font-bold">{t('inquiry.okA.title')}</p>
+          <p className="mt-3 text-[14px] leading-relaxed text-fg-2">
+            {t('inquiry.submittedSuccess')}
+          </p>
+          <button
+            type="button"
+            className="mt-6 rounded-lg bg-primary px-6 py-3 text-[14px] font-bold text-white transition-colors hover:bg-primary/90"
+            onClick={() => setSubmitSuccess(false)}
+          >
+            OK
+          </button>
+        </div>
+      </div>,
+      document.body,
+    )}
+    </>
   )
 }
 

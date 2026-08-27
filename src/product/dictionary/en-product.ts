@@ -676,6 +676,7 @@ export const enProduct = {
     captcha: 'Verification failed. Please try again.',
     rateLimited: 'Too many attempts — please try again in a few minutes.',
     failed: 'Something went wrong. Please try again or email us directly.',
+    submittedSuccess: 'Your inquiry has been submitted. A project specialist will review your requirements and contact you within 1 business day.',
     fileEmpty: 'That file is empty.',
     fileType: 'Unsupported file type (see accepted formats above).',
     fileSize: 'File is too large (max 10 MB).',
