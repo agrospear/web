@@ -747,7 +747,7 @@ export const enProduct = {
     entityMetaDescription: `${SITE_NAME} is the agrochemical OEM & ODM manufacturing company — formulation design, mixing, sampling and full-scale production by ${BRAND_COMPANY_NAME}.`,
     moqSummary: '{standardRun} standard volume · {trialStandard} pilot · {customMould} custom formulation',
     timelineSummary: 'Samples in {sampleTime} · production in {leadTime} after PO and deposit',
-    qcSummary: '{assemblyChecklist}-point checklist · {pressureTest} QC test',
+    qcSummary: '{qcChecklistPoints}-point checklist · {qualityTest} QC test',
     modelsHeading: '{navLabel} — Models',
     moqShort: 'MOQ {standardRun} · pilot from {trialStandard}',
     skillPathsSub: 'Step-by-step guides and tutorials organized by skill level — from agrochemical basics to advanced formulation technology.',

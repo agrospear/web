@@ -17,7 +17,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'We manufacture custom herbicide formulations under your brand: selective post-emergence, non-selective broad-spectrum, and pre-emergent residual products in SC, EC, WP, WDG and SL dosage forms. Pilot batches from 5 tons; standard production from 20+ tons per SKU. Samples ready in 7–15 days.'
+  text: 'We manufacture custom herbicide formulations under your brand: selective post-emergence, non-selective broad-spectrum, and pre-emergent residual products in SC, EC, WP, WDG and SL dosage forms. Pilot batches from 5 tons; standard production from 20+ tons per SKU. Samples ready in 7–14 days.'
   verified: '2026-08'
 
 intro:
@@ -60,7 +60,7 @@ faqs:
     - q: 'Can I customize a herbicide formulation for my brand?'
       a: 'Yes. Every herbicide project starts with your target crop, weed spectrum and market registration status. You specify the active ingredient, concentration, formulation type (SC, EC, WP, WDG, SL, ME), adjuvant package, label design and packaging. Custom formulations start at 5-ton pilot batches; standard volume production from 20+ tons per SKU.'
     - q: 'What is the MOQ for herbicide formulations?'
-      a: 'Pilot batches start at 5 tons per formulation; standard volume production from 20+ tons per SKU. Sample batches (1–4 tons) are available for registration and field trial purposes. Samples ship in 7–15 days and bulk production runs 25–35 days after confirmed PO and deposit.'
+      a: 'Pilot batches start at 5 tons per formulation; standard volume production from 20+ tons per SKU. Sample batches (1–4 tons) are available for registration and field trial purposes. Samples ship in 7–14 days and bulk production runs 25–35 days after confirmed PO and deposit.'
     - q: 'What formulation types are available for herbicides?'
       a: 'Suspension concentrate (SC), emulsifiable concentrate (EC), wettable powder (WP), water-dispersible granule (WDG), soluble liquid (SL), micro-emulsion (ME) and capsule suspension (CS). The optimal type depends on the active ingredient, target application method and your market preference.'
     - q: 'Do you provide herbicide registration documentation?'

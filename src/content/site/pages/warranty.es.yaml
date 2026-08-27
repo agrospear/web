@@ -97,7 +97,7 @@ body: |
 
   <div class="bg-sky-50 dark:bg-gray-900 border border-sky-200 dark:border-gray-800 rounded-xl p-6 my-10">
     <h2 class="text-xl font-bold mb-3">Respaldado por un Sistema de Calidad Documentado</h2>
-    <p class="text-sm text-gray-600 dark:text-gray-400">Cada lote se prueba antes del envío — <a href="/es/manufacturing/factory/quality-inspection" class="text-sky-600 underline">7 puertas de inspección</a> registran resultados por número de lote y los lotes mantienen trazabilidad ERP de 10 años. Las reclamaciones de calidad se resuelven con estos registros de lote y muestras retenidas, no con suposiciones. Consulta el <a href="/es/manufacturing/quality-control" class="text-sky-600 underline">sistema de calidad completo</a> y descarga los <a href="https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">informes de inspección final</a>.</p>
+    <p class="text-sm text-gray-600 dark:text-gray-400">Cada lote se prueba antes del envío — <a href="/es/manufacturing/factory/quality-inspection" class="text-sky-600 underline">7 puertas de inspección</a> registran resultados por número de lote y los lotes mantienen trazabilidad ERP de 5 años. Las reclamaciones de calidad se resuelven con estos registros de lote y muestras retenidas, no con suposiciones. Consulta el <a href="/es/manufacturing/quality-control" class="text-sky-600 underline">sistema de calidad completo</a> y descarga los <a href="https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf" class="text-sky-600 underline">informes de inspección final</a>.</p>
   </div>
 
   <h2>Artículos de Terceros</h2>

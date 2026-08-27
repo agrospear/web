@@ -48,7 +48,7 @@ capabilities:
     - icon: F
       icon_bg: orange
       title: 'Auditoría documental y de trazabilidad'
-      desc: 'Acceso completo al sistema de control documental, registros de trazabilidad de materiales (retención de 10 años), seguimiento de lotes ERP y registros de no conformidad.'
+      desc: 'Acceso completo al sistema de control documental, registros de trazabilidad de materiales (retención de 5 años), seguimiento de lotes ERP y registros de no conformidad.'
       link_label: 'Ver auditoría documental'
       href: /es/manufacturing/factory-audit
 

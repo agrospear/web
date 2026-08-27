@@ -41,7 +41,7 @@ capabilities:
       desc: 'Producción a escala de contenedor desde lotes de 20+ toneladas. Entrega FOB, CIF o DDP a puertos y almacenes designados por el gobierno en más de 50 países.'
       icon: 'tabler:truck'
     - title: Sistema de Calidad Documentado
-      desc: 'Certificaciones ISO 9001, ISO 14001, BSCI e ICAMA. Sistema de inspección de 7 etapas, ensayo de estabilidad de 14 días y trazabilidad por lote de 10 años en cada pedido.'
+      desc: 'Certificaciones ISO 9001, ISO 14001, BSCI e ICAMA. Sistema de inspección de 7 etapas, ensayo de estabilidad de 14 días y trazabilidad por lote de 5 años en cada pedido.'
       icon: 'tabler:shield-check'
     - title: Soporte de Registro y Cumplimiento
       desc: 'Datos de registro ICAMA, especificaciones FAO/OMS y documentación por mercado para respaldar los requisitos de registro nacional y permisos de importación.'

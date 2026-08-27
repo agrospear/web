@@ -191,7 +191,7 @@ material_traceability:
   description: Every batch of raw material is assigned a unique lot number in our ERP system, enabling full upstream traceability.
   system: Custom ERP (Qingdao Vatrad Group internal system) + physical batch tags
   coverage: 100% of production materials
-  records_retained: 10 years
+  records_retained: 5 years
 
 qc_dashboard:
   tagline: QC by the Numbers

@@ -176,7 +176,7 @@ moq_quality:
     - icon: B
       icon_bg: blue
       title: 'ERP Batch Traceability (10 Years)'
-      desc: 'Every batch carries lot-numbered production records — raw materials, operators, tests and inspection results — retained for 10 years and available for audit.'
+      desc: 'Every batch carries lot-numbered production records — raw materials, operators, tests and inspection results — retained for 5 years and available for audit.'
     - icon: I
       icon_bg: green
       title: 'Third-Party Inspection Ready'

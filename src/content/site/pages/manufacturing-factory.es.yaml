@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'La fábrica de Agrospear en Qingdao (China) abarca 12.500 m² con 4 talleres especializados, más de 350 trabajadores y más de 20.000 toneladas de producción anual. Certificada ISO 9001, ISO 14001, BSCI e ICAMA. Cada lote se prueba de estabilidad a 54 °C durante 14 días, supera una lista de control de 100 puntos y conserva trazabilidad de materiales de 10 años. Producción OEM/ODM desde pilotos de 5 toneladas hasta lotes estándar de 20+ toneladas.'
+  text: 'La fábrica de Agrospear en Qingdao (China) abarca 12.500 m² con 4 talleres especializados, más de 350 trabajadores y más de 20.000 toneladas de producción anual. Certificada ISO 9001, ISO 14001, BSCI e ICAMA. Cada lote se prueba de estabilidad a 54 °C durante 14 días, supera una lista de control de 100 puntos y conserva trazabilidad de materiales de 5 años. Producción OEM/ODM desde pilotos de 5 toneladas hasta lotes estándar de 20+ toneladas.'
   verified: '2026-08'
 
 intro:
@@ -191,7 +191,7 @@ material_traceability:
   description: A cada lote de materia prima se le asigna un número de lote único en nuestro sistema ERP, permitiendo trazabilidad ascendente completa.
   system: ERP a medida (sistema interno de Qingdao Vatrad Group) + etiquetas físicas de lote
   coverage: 100% de los materiales de producción
-  records_retained: 10 años
+  records_retained: 5 años
 
 qc_dashboard:
   tagline: Control de Calidad en Cifras

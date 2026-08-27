@@ -62,7 +62,7 @@ proof_stats:
   - value: '7-stage'
     label: 'Inspection gate system'
     detail: 'Node 01–07, recorded per batch number'
-  - value: '10 years'
+  - value: '5 years'
     label: 'ERP batch traceability'
     detail: 'Batch records kept and linked per lot'
 
@@ -155,7 +155,7 @@ faqs:
     - q: 'Do the certificates cover packaging and labeling too?'
       a: 'ICAMA registration and raw material COA documentation applies to the formulated product and packaging supplied in the same order, and QC checklists cover the complete shipment — formulation, drum, label and documentation pack.'
     - q: 'What happens to the evidence after the order?'
-      a: 'ERP batch traceability is kept for 10 years. QMS SOPs and inspection standards stay downloadable, and the buyer reserves an audit right during production per the contract.'
+      a: 'ERP batch traceability is kept for 5 years. QMS SOPs and inspection standards stay downloadable, and the buyer reserves an audit right during production per the contract.'
 
 cta:
   title: 'Verify First — Then Let''s Talk Specs'

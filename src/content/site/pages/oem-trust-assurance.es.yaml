@@ -17,7 +17,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'La confianza no es una promesa — es documentación. Somos una entidad manufacturera china registrada (Qingdao Vatrad Group Co., Ltd.) con una planta física de 12.500 m² en Qingdao, más de 350 trabajadores y más de 20.000 toneladas de capacidad anual de producción agroquímica. Puedes verificar el registro, auditar la fábrica, revisar los SOP de QMS, descargar registros de calidad de muestra, programar inspecciones de terceros (SGS, BV o Intertek) y firmar un NDA en un plazo de 4 horas laborables. Cada lote se somete a análisis completo de ingrediente activo, ensayo de propiedades físicas y verificación de estabilidad acelerada, y cada lote conserva trazabilidad ERP de 10 años. Si una afirmación no se puede documentar, no la hacemos.'
+  text: 'La confianza no es una promesa — es documentación. Somos una entidad manufacturera china registrada (Qingdao Vatrad Group Co., Ltd.) con una planta física de 12.500 m² en Qingdao, más de 350 trabajadores y más de 20.000 toneladas de capacidad anual de producción agroquímica. Puedes verificar el registro, auditar la fábrica, revisar los SOP de QMS, descargar registros de calidad de muestra, programar inspecciones de terceros (SGS, BV o Intertek) y firmar un NDA en un plazo de 4 horas laborables. Cada lote se somete a análisis completo de ingrediente activo, ensayo de propiedades físicas y verificación de estabilidad acelerada, y cada lote conserva trazabilidad ERP de 5 años. Si una afirmación no se puede documentar, no la hacemos.'
   verified: '2026-08'
 
 trust_stats:
@@ -77,7 +77,7 @@ trust_steps:
       desc: 'Se revisaron ISO 9001:2015, documentación de registro ICAMA y los SOP de QMS. El comprador programó una inspección pre-embarque SGS según ISO 2859-1 Nivel II en el primer pedido de volumen — y recibió un Certificado de Conformidad por lote.'
     - step: '05'
       title: 'Datos: registros de ensayo por número de lote'
-      desc: 'El comprador auditó registros de ensayo reales: cada lote analizado por contenido de ingrediente activo mediante HPLC/GC, ensayo de propiedades físicas según especificaciones FAO/OMS y trazabilidad ERP de lote de 10 años. Se entregaron registros de QC de muestra antes del pedido.'
+      desc: 'El comprador auditó registros de ensayo reales: cada lote analizado por contenido de ingrediente activo mediante HPLC/GC, ensayo de propiedades físicas según especificaciones FAO/OMS y trazabilidad ERP de lote de 5 años. Se entregaron registros de QC de muestra antes del pedido.'
     - step: '06'
       title: 'Protección contractual'
       desc: 'El contrato cubrió licencia de marca, un periodo acordado de exclusividad territorial, titularidad y compra de la formulación, y definió los datos y registros que se transfieren con el pedido. El comprador aprobó la muestra dorada en la fábrica antes de la producción.'
@@ -98,7 +98,7 @@ trust_faqs:
     - q: '¿Firmaréis un NDA antes de que comparta mis especificaciones de formulación?'
       a: 'Sí. Nuestro NDA estándar se firma en 4 horas laborables desde tu solicitud, antes de compartir cualquier especificación, arte o archivo técnico patentado. Hay versiones bilingües (inglés/chino) y el documento está contrafirmado por el director de fábrica.'
     - q: '¿Cómo sé que vuestras afirmaciones de calidad son reales?'
-      a: 'Cada afirmación de este sitio tiene un documento detrás: los SOP de QMS y los estándares de inspección son descargables, se publican muestras anonimizadas de registros de calidad y los datos de ensayo se registran por número de lote con trazabilidad ERP de lotes de 10 años. También puedes programar una inspección pre-embarque de terceros a tu elección.'
+      a: 'Cada afirmación de este sitio tiene un documento detrás: los SOP de QMS y los estándares de inspección son descargables, se publican muestras anonimizadas de registros de calidad y los datos de ensayo se registran por número de lote con trazabilidad ERP de lotes de 5 años. También puedes programar una inspección pre-embarque de terceros a tu elección.'
     - q: '¿Qué pasa si mis productos llegan con problemas de calidad?'
       a: 'Cada lote se prueba antes del embalaje y los registros por lote permiten rastrear la causa raíz por número de lote. El contrato define las obligaciones de inspección, sustitución y retrabajo, y el Director de QA firma la liberación del lote. Los lotes retrabajados se vuelven a probar por completo — nunca de forma parcial.'
     - q: '¿Podéis probar realmente el 100% de los lotes antes de enviar?'
@@ -123,7 +123,7 @@ governance:
 
     **Derechos reservados.** El comprador conserva el derecho de auditar la producción, revisar los registros de ensayo y retener la liberación del lote hasta la firma de la inspección. El retrabajo solo ocurre bajo un registro de cambio aprobado, y la liberación la valida QC independiente — nunca los operadores del retrabajo.
 
-    **Registros que se transfieren.** Los registros de ensayo por lote, los certificados de conformidad y los informes de inspección se entregan con cada envío, y la trazabilidad ERP de lotes se conserva durante 10 años. Los registros de formulación y los archivos técnicos se transfieren con el proyecto cuando el contrato lo establece.
+    **Registros que se transfieren.** Los registros de ensayo por lote, los certificados de conformidad y los informes de inspección se entregan con cada envío, y la trazabilidad ERP de lotes se conserva durante 5 años. Los registros de formulación y los archivos técnicos se transfieren con el proyecto cuando el contrato lo establece.
 
 trust_downloads:
   tagline: 'Documentos oficiales'

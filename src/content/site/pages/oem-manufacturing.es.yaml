@@ -42,7 +42,7 @@ features:
       description: 'ISO 9001, ISO 14001, BSCI e ICAMA — documentación de cumplimiento preparada para cada mercado al que exportas.'
       icon: 'tabler:certificate'
     - title: Inspección y trazabilidad
-      description: 'Ensayos de estabilidad y análisis de contenido por lote, sistema de inspección de 7 etapas y trazabilidad ERP de 10 años.'
+      description: 'Ensayos de estabilidad y análisis de contenido por lote, sistema de inspección de 7 etapas y trazabilidad ERP de 5 años.'
       icon: 'tabler:shield-check'
     - title: Logística global
       description: 'FOB Qingdao, CIF y DDP a más de 50 países, con embalaje de exportación y despacho de aduanas gestionados por nuestro equipo de logística.'
@@ -80,7 +80,7 @@ faq_section:
     - q: '¿Qué certificaciones tiene la fábrica?'
       a: 'ISO 9001, ISO 14001, BSCI e ICAMA. Con cada envío OEM se entrega documentación completa de cumplimiento, preparada para tus mercados objetivo.'
     - q: '¿Cómo se controla la calidad en una tirada OEM?'
-      a: 'La producción corre a través del sistema de inspección de 7 etapas — materia prima entrante, producto intermedio, mezcla y llenado, estabilidad y análisis de contenido, QC de etiqueta y embalaje, verificación de documentación de cumplimiento, y embalaje y documentación final — con trazabilidad por lote y registros ERP de 10 años.'
+      a: 'La producción corre a través del sistema de inspección de 7 etapas — materia prima entrante, producto intermedio, mezcla y llenado, estabilidad y análisis de contenido, QC de etiqueta y embalaje, verificación de documentación de cumplimiento, y embalaje y documentación final — con trazabilidad por lote y registros ERP de 5 años.'
     - q: '¿Cuáles son vuestros términos de envío?'
       a: 'FOB Qingdao, CIF a los principales puertos globales, o DDP para socios cualificados. Enviamos a más de 50 países en los mercados de la UE, EE. UU., LATAM, África y Asia.'
 

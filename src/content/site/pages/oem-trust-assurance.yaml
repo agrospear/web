@@ -123,7 +123,7 @@ governance:
 
     **Reserved rights.** The buyer retains the right to audit production, review test records and hold batch release until inspection sign-off. Rework only happens under an approved change record, and release is validated by independent QC —never by the rework operators.
 
-    **Records that transfer.** Batch test logs, certificates of conformance and inspection reports are delivered with each shipment, and ERP batch traceability is kept for 10 years. Formulation records and technical files transfer with the project when the contract so provides.
+    **Records that transfer.** Batch test logs, certificates of conformance and inspection reports are delivered with each shipment, and ERP batch traceability is kept for 5 years. Formulation records and technical files transfer with the project when the contract so provides.
 
 trust_downloads:
   tagline: 'Official Documents'

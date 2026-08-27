@@ -10,7 +10,7 @@
 hero:
   tagline: About Agrospear
   title: 'Agrospear — the Agrochemical Manufacturing Division Behind {SITE}'
-  subtitle: 'Founded in 2012 in Qingdao, China, Agrospear operates a 20,000 m² certified facility with 8 automated production lines and 50,000+ tons annual capacity — delivering custom crop protection formulations to OEM and ODM partners in 60+ countries across six continents.'
+  subtitle: 'Founded in 2012 in Qingdao, China, Agrospear operates a 20,000 m² certified facility with 8 automated production lines and 50,000+ tons annual capacity — delivering custom crop protection formulations to OEM and ODM partners in 50+ countries across six continents.'
   actions:
     - text: 'Start a Custom Project'
       href: /contact
@@ -37,7 +37,7 @@ stats:
     - title: Technology Patents
       amount: '30+'
     - title: Countries Served
-      amount: '60+'
+      amount: '50+'
     - title: Employees
       amount: '200+'
     - title: R&D Engineers

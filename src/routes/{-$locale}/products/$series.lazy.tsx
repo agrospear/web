@@ -88,7 +88,7 @@ function SeriesPage() {
           <div className="marine-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.qualityControl')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-              {t('inquiry.qcSummary', { assemblyChecklist: FACTS.assemblyChecklist, pressureTest: FACTS.pressureTest })}
+              {t('inquiry.qcSummary', { qcChecklistPoints: FACTS.qcChecklistPoints, qualityTest: FACTS.qualityTest })}
             </p>
           </div>
         </div>

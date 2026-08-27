@@ -18,7 +18,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'La cadena afirmación-evidencia es: cada afirmación de este sitio está respaldada por un registro, un certificado, una máquina, un documento o un registro de prueba — y cada uno de ellos puede revisarse. Agrospear es la división de desarrollo y fabricación agroquímica de Agrospear, la división de fabricación de Qingdao Vatrad Group Co., Ltd. (registrada en Qingdao desde 2012). La planta de 12,500 m² cuenta con gestión de calidad ISO 9001:2015, gestión medioambiental ISO 14001, documentación de registro ICAMA, cumplimiento social BSCI (informe de auditoría bajo petición) y documentación de registro ICAMA y COA de materias primas por pedido. Cada lote se prueba para verificar el contenido de ingrediente activo, las propiedades físicas y la estabilidad con auto-rechazo por encima de los límites de especificación, y los registros de lote se conservan con trazabilidad ERP de 10 años. La documentación se publica o se comparte, y la fábrica misma está abierta a auditorías.'
+  text: 'La cadena afirmación-evidencia es: cada afirmación de este sitio está respaldada por un registro, un certificado, una máquina, un documento o un registro de prueba — y cada uno de ellos puede revisarse. Agrospear es la división de desarrollo y fabricación agroquímica de Agrospear, la división de fabricación de Qingdao Vatrad Group Co., Ltd. (registrada en Qingdao desde 2012). La planta de 12,500 m² cuenta con gestión de calidad ISO 9001:2015, gestión medioambiental ISO 14001, documentación de registro ICAMA, cumplimiento social BSCI (informe de auditoría bajo petición) y documentación de registro ICAMA y COA de materias primas por pedido. Cada lote se prueba para verificar el contenido de ingrediente activo, las propiedades físicas y la estabilidad con auto-rechazo por encima de los límites de especificación, y los registros de lote se conservan con trazabilidad ERP de 5 años. La documentación se publica o se comparte, y la fábrica misma está abierta a auditorías.'
   verified: '2026-08'
 
 entities:
@@ -61,7 +61,7 @@ proof_stats:
   - value: '7 etapas'
     label: 'Sistema de puertas de inspección'
     detail: 'Nodo 01–07, registrado por número de lote'
-  - value: '10 años'
+  - value: '5 años'
     label: 'Trazabilidad ERP por lote'
     detail: 'Registros conservados y vinculados por lote'
 
@@ -127,7 +127,7 @@ traceability:
   tagline: 'Un Lote, Seguido De La Materia Prima Al Bidón Embarcado'
   title: 'Cómo Es La Trazabilidad Real'
   body: |
-    Cada lote recibe un **código de lote ERP de 10 años**. La cadena registrada bajo un mismo lote:
+    Cada lote recibe un **código de lote ERP de 5 años**. La cadena registrada bajo un mismo lote:
 
     - **Materia prima entrante** — COA del ingrediente activo de calidad técnica, número de lote, materia prima probada (contenido, impurezas, propiedades físicas)
     - **Pesaje y dosificación** — tarjeta de fórmula contra registro maestro de lote, cantidad registrada por ingrediente
@@ -154,7 +154,7 @@ faqs:
     - q: '¿Los certificados cubren también el envasado y el etiquetado?'
       a: 'La documentación de registro ICAMA y COA de materias primas aplica al producto formulado y al envasado del mismo pedido, y los checklists de control de calidad cubren el envío completo: formulación, bidón, etiqueta y paquete documental.'
     - q: '¿Qué pasa con la evidencia después del pedido?'
-      a: 'La trazabilidad ERP del lote se conserva durante 10 años. Los SOP del SGC y las normas de inspección siguen descargables, y el comprador reserva un derecho de auditoría durante la producción según el contrato.'
+      a: 'La trazabilidad ERP del lote se conserva durante 5 años. Los SOP del SGC y las normas de inspección siguen descargables, y el comprador reserva un derecho de auditoría durante la producción según el contrato.'
 
 cta:
   title: 'Verifica Primero — Después Hablamos De Especificaciones'

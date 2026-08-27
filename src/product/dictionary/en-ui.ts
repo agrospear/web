@@ -207,7 +207,7 @@ export const enUi = {
       leadTimeFacts: '{leadTime} after confirmed PO; samples in {sampleTime}',
       moqShort: '{standardRun} standard volume · {trialStandard} pilot · {customMould} custom mould',
       timelineShort: 'Samples in {sampleTime} · production in {leadTime} after PO and deposit',
-      qualityShort: '{assemblyChecklist} batch analysis · {pressureTest} specification test',
+      qualityShort: '{qcChecklistPoints} batch analysis · {qualityTest} specification test',
       startProject: 'Start an Agrochemical OEM Project',
       quickFacts: 'Quick Product Facts',
       availableFormulations: 'Available Formulations',

@@ -14,7 +14,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Fábrica certificada de agroquímicos en Qingdao, China: ISO 9001, ISO 14001, BSCI, ICAMA. Planta de 12.500 m² con 4 talleres especializados, más de 350 trabajadores y más de 20.000 toneladas producidas al año (2.000+ toneladas/mes en 4 líneas automatizadas). Cada lote se prueba de estabilidad a 54 °C durante 14 días, supera una lista de control de producción de 100 puntos y conserva una trazabilidad de materiales de 10 años.'
+  text: 'Fábrica certificada de agroquímicos en Qingdao, China: ISO 9001, ISO 14001, BSCI, ICAMA. Planta de 12.500 m² con 4 talleres especializados, más de 350 trabajadores y más de 20.000 toneladas producidas al año (2.000+ toneladas/mes en 4 líneas automatizadas). Cada lote se prueba de estabilidad a 54 °C durante 14 días, supera una lista de control de producción de 100 puntos y conserva una trazabilidad de materiales de 5 años.'
   verified: '2026-08'
 
 intro:
@@ -290,7 +290,7 @@ material_traceability:
   description: A cada lote de materia prima se le asigna un número de lote único en nuestro sistema ERP. Desde la llegada hasta la producción y el producto terminado, la lista de materiales de cada lote se vincula al lote original del proveedor. Esto permite la trazabilidad ascendente completa ante cualquier consulta de calidad o cumplimiento.
   system: ERP a medida (sistema interno de Qingdao Vatrad Group) + etiquetas físicas de lote en cada orden de trabajo
   coverage: 'El 100% de los materiales de producción: ingredientes activos, solventes, coadyuvantes, dispersantes, emulsionantes, embalaje'
-  records_retained: 10 años (según requisito regulatorio)
+  records_retained: 5 años (según requisito regulatorio)
   suppliers:
     - material: Ingredientes activos de grado técnico
       source: Proveedores chinos e indios

@@ -176,7 +176,7 @@ moq_quality:
     - icon: B
       icon_bg: blue
       title: 'Trazabilidad por Lotes ERP (10 Años)'
-      desc: 'Cada lote lleva registros de producción numerados — materias primas, operadores, pruebas y resultados de inspección — conservados durante 10 años y disponibles para auditoría.'
+      desc: 'Cada lote lleva registros de producción numerados — materias primas, operadores, pruebas y resultados de inspección — conservados durante 5 años y disponibles para auditoría.'
     - icon: I
       icon_bg: green
       title: 'Listo para Inspección de Terceros'

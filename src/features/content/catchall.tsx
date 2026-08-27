@@ -480,7 +480,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                     ))}
                     <tr className="odd:bg-bg-alt/60">
                       <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.factoryTestPressure')}</th>
-                      <td className="px-4 py-3 text-fg-2">{FACTS.pressureTest} · {FACTS.pressureReject}</td>
+                      <td className="px-4 py-3 text-fg-2">{FACTS.qualityTest} · {FACTS.qualityReject}</td>
                     </tr>
                     <tr className="odd:bg-bg-alt/60">
                       <th scope="row" className="w-2/5 px-4 py-3 font-semibold">{t('content.product.minimumOrder')}</th>
@@ -530,7 +530,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   {t('content.product.qualityControl')}
                 </p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
-                  {t('content.product.qualityShort', { assemblyChecklist: FACTS.assemblyChecklist, pressureTest: FACTS.pressureTest })}
+                  {t('content.product.qualityShort', { qcChecklistPoints: FACTS.qcChecklistPoints, qualityTest: FACTS.qualityTest })}
                 </p>
               </div>
             </div>
@@ -822,7 +822,7 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
         },
         {
           q: '¿Cómo se controla la calidad antes del envío?',
-          a: `Cada lote pasa por una lista de verificación de ${FACTS.assemblyChecklist} y una prueba de calidad de ${FACTS.pressureTest} antes de empaquetar; los lotes que superen un margen de impurezas mayor al 5% se rechazan automáticamente.`,
+          a: `Cada lote pasa por una lista de verificación de ${FACTS.qcChecklistPoints} y una prueba de calidad de ${FACTS.qualityTest} antes de empaquetar; los lotes que superen un margen de impurezas mayor al 5% se rechazan automáticamente.`,
         },
       ]
     : [
@@ -840,7 +840,7 @@ function productFaqs(product: ContentProduct, locale: Locale): { q: string; a: s
         },
         {
           q: 'How is quality controlled before shipment?',
-          a: `Every batch passes a ${FACTS.assemblyChecklist} production checklist and a ${FACTS.pressureTest} specification test before packing; batches exceeding specification limits are auto-rejected.`,
+          a: `Every batch passes a ${FACTS.qcChecklistPoints} production checklist and a ${FACTS.qualityTest} specification test before packing; batches exceeding specification limits are auto-rejected.`,
         },
       ]
   return [...specific, ...pool]

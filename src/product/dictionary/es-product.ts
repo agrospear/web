@@ -746,7 +746,7 @@ export const esProduct = {
     entityMetaDescription: `${SITE_NAME}: fabricación de agroquímicos OEM/ODM con ingeniería, formulación, muestras y producción a gran escala, por ${BRAND_COMPANY_NAME}.`,
     moqSummary: '{standardRun} volumen estándar · {trialStandard} piloto · {customMould} formulación a medida',
     timelineSummary: 'Muestras en {sampleTime} · producción en {leadTime} tras PO y depósito',
-    qcSummary: 'Checklist de {assemblyChecklist} puntos · análisis {pressureTest}',
+    qcSummary: 'Checklist de {qcChecklistPoints} puntos · análisis {qualityTest}',
     modelsHeading: '{navLabel} — formulaciones',
     moqShort: 'MOQ {standardRun} · piloto desde {trialStandard}',
     skillPathsSub: 'Guías y tutoriales paso a paso organizados por nivel de habilidad — desde los conceptos básicos de los agroquímicos hasta técnicas avanzadas de formulación.',

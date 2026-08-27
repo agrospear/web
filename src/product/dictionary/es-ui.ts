@@ -197,7 +197,7 @@ export const esUi = {
       leadTimeFacts: '{leadTime} tras PO confirmado; muestras en {sampleTime}',
       moqShort: '{standardRun} volumen estándar · {trialStandard} piloto · {customMould} molde a medida',
       timelineShort: 'Muestras en {sampleTime} · producción en {leadTime} tras PO y depósito',
-      qualityShort: 'Análisis de lote {assemblyChecklist} · prueba de especificación {pressureTest}',
+      qualityShort: 'Análisis de lote {qcChecklistPoints} · prueba de especificación {qualityTest}',
       startProject: 'Inicia tu proyecto',
       quickFacts: 'Datos rápidos del producto',
       availableFormulations: 'Formulaciones disponibles',
