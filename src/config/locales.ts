@@ -22,7 +22,6 @@ export const SUPPORTED_LOCALES = [
   'en',
   'es',
   'de',
-  'fr',
   'it',
   'pt',
   'nl',
@@ -40,7 +39,6 @@ export const SUPPORTED_LOCALES = [
   'th',
   'id',
   'tr',
-  'ar',
 ] as const
 
 export const ACTIVE_LOCALES: readonly Locale[] = ['en', 'es']
@@ -55,7 +53,6 @@ export const LOCALE_LABELS: Record<string, { native: string; short: string }> = 
   en: { native: 'English', short: 'EN' },
   es: { native: 'Español', short: 'ES' },
   de: { native: 'Deutsch', short: 'DE' },
-  fr: { native: 'Français', short: 'FR' },
   it: { native: 'Italiano', short: 'IT' },
   pt: { native: 'Português', short: 'PT' },
   nl: { native: 'Nederlands', short: 'NL' },
@@ -73,7 +70,6 @@ export const LOCALE_LABELS: Record<string, { native: string; short: string }> = 
   th: { native: 'ไทย', short: 'TH' },
   id: { native: 'Bahasa Indonesia', short: 'ID' },
   tr: { native: 'Türkçe', short: 'TR' },
-  ar: { native: 'العربية', short: 'AR' },
 }
 
 export function isLocale(value: unknown): value is Locale {
@@ -97,7 +93,6 @@ export const OG_LOCALE: Record<string, string> = {
   en: 'en_US',
   es: 'es_ES',
   de: 'de_DE',
-  fr: 'fr_FR',
   it: 'it_IT',
   pt: 'pt_PT',
   nl: 'nl_NL',
@@ -115,14 +110,12 @@ export const OG_LOCALE: Record<string, string> = {
   th: 'th_TH',
   id: 'id_ID',
   tr: 'tr_TR',
-  ar: 'ar_SA',
 }
 
 export const HREFLANG: Record<string, string> = {
-  en: 'en-US',
-  es: 'es-ES',
+  en: 'en',
+  es: 'es',
   de: 'de-DE',
-  fr: 'fr-FR',
   it: 'it-IT',
   pt: 'pt-PT',
   nl: 'nl-NL',
@@ -140,7 +133,6 @@ export const HREFLANG: Record<string, string> = {
   th: 'th-TH',
   id: 'id-ID',
   tr: 'tr-TR',
-  ar: 'ar-SA',
 }
 
 export function negotiateLocale(

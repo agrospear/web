@@ -18,10 +18,10 @@ export function contentSingleRoute(path: string) {
       const image = loaderData.kind === 'page' ? OG_IMAGE : ((loaderData as { image?: string }).image ?? OG_IMAGE)
       const absImage = (image.startsWith('http') ? image : `${origin}${image}`).replace(/\.avif$/, '.jpg')
       const links: { rel: string; href: string; hreflang?: string }[] = [{ rel: 'canonical', href: canonical }]
-      links.push({ rel: 'alternate', hreflang: 'en-US', href: canonical })
+      links.push({ rel: 'alternate', hreflang: 'en', href: canonical })
       links.push({ rel: 'alternate', hreflang: 'x-default', href: canonical })
       if (loaderData.esTranslated) {
-        links.push({ rel: 'alternate', hreflang: 'es-ES', href: `${origin}/es${path}` })
+        links.push({ rel: 'alternate', hreflang: 'es', href: `${origin}/es${path}` })
       }
       return {
         meta: [
