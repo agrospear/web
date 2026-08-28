@@ -150,8 +150,8 @@ qc_flow:
       record: 'Informes de ensayo de calidad de formulación y estabilidad, uno por lote, vinculados a la trazabilidad del lote.'
       image: https://assets.agrospear.com/site/quality/node04-airtightness.avif
       alt: Ensayo de calidad de formulación y estabilidad de lote agroquímico
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
-      link_label: 'Descargar informes de formulación (PDF)'
+      link: /es/manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - stage: ETAPA 05
       title: 'Inspección final de producto (FQC)'
       summary: 'Los productos terminados se verifican y califican contra la muestra dorada aprobada.'
@@ -321,8 +321,8 @@ doc_register:
     - title: '05 · Informes de calidad de formulación y estabilidad'
       description: 'Análisis de ingrediente activo al 100%, ensayo de propiedades físicas y registros de estabilidad acelerada.'
       icon: '05'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
-      link_label: 'Descargar informes de formulación (PDF)'
+      link: /es/manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - title: '06 · Informes de ensayo FQC'
       description: 'Inspección final del producto contra la muestra aprobada — contenido de ingrediente activo, apariencia, etiquetado y embalaje.'
       icon: '06'

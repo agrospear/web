@@ -80,8 +80,8 @@ evidence_gates:
       alt: In-process inspection and first article check during agrochemical production
     - title: 'Stability & Specification Verification'
       description: '100% of completed batches — not a sample — get a 14-day stability test at 54°C with automatic reject for active content deviation above ±2%. One record per batch.'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
-      link_label: 'Download stability reports (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'View QC/QA document library'
       image: https://assets.agrospear.com/site/quality/node04-airtightness.avif
       alt: Stability and specification verification testing of an agrochemical batch
     - title: 'FQC — Final Product Inspection'

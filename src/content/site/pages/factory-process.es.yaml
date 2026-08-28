@@ -80,8 +80,8 @@ evidence_gates:
       alt: Inspeccion en proceso y control de la primera pieza durante la produccion agroquimica
     - title: 'Verificacion de estabilidad y especificaciones'
       description: 'El 100% de los lotes terminados — no solo una muestra — pasa una prueba de estabilidad de 14 dias a 54 C con rechazo automatico por desviacion de contenido activo superior al ±2%. Un registro por lote.'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
-      link_label: 'Descargar informes de estabilidad (PDF)'
+      link: /es/manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
       image: https://assets.agrospear.com/site/quality/node04-airtightness.avif
       alt: Prueba de estabilidad y verificacion de especificaciones de un lote agroquimico
     - title: 'FQC — Inspeccion final del producto'

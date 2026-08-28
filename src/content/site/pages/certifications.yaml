@@ -150,8 +150,8 @@ qc_flow:
       record: 'Formulation quality and stability test reports, one per batch, linked to the batch traceability.'
       image: https://assets.agrospear.com/site/quality/node04-airtightness.avif
       alt: Formulation quality and stability testing of agrochemical batch
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
-      link_label: 'Download formulation test reports (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'View QC/QA document library'
     - stage: STAGE 05
       title: 'Final Product Inspection (FQC)'
       summary: 'Finished products are verified and graded against the approved golden sample.'
@@ -321,8 +321,8 @@ doc_register:
     - title: '05 · Formulation Quality & Stability Test Reports'
       description: '100% active ingredient analysis, physical property testing and accelerated stability records.'
       icon: '05'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_AIRTIGHTNESS_TEST_REPORTS.pdf
-      link_label: 'Download formulation test reports (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'View QC/QA document library'
     - title: '06 · FQC Test Reports'
       description: 'Final product inspection against the approved sample — active ingredient content, appearance, labeling and packaging.'
       icon: '06'

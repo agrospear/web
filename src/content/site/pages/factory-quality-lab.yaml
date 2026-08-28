@@ -92,8 +92,8 @@ lab_evidence:
     - title: 'Stability — Accelerated & Shelf-Life Records'
       description: '100% batch 54 °C accelerated stability, suspensibility, and active content verification.'
       icon: tabler:waves
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_STABILITY_TEST_REPORTS.pdf
-      link_label: 'Download stability reports (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'View QC/QA document library'
     - title: 'FQC — Final Product Test Reports'
       description: 'Final inspection against the approved sample — active content, physical properties, and specification compliance.'
       icon: tabler:shield-check

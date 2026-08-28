@@ -92,8 +92,8 @@ lab_evidence:
     - title: 'Estabilidad — Registros acelerados y de vida util'
       description: 'Estabilidad acelerada a 54 C del 100% de los lotes, suspensionibilidad y verificacion de contenido activo.'
       icon: tabler:waves
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_STABILITY_TEST_REPORTS.pdf
-      link_label: 'Descargar informes de estabilidad (PDF)'
+      link: /es/manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - title: 'FQC — Informes de prueba final del producto'
       description: 'Inspeccion final contra la muestra aprobada — contenido activo, propiedades fisicas y cumplimiento de especificacion.'
       icon: tabler:shield-check
