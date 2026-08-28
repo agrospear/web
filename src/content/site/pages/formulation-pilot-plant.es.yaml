@@ -14,7 +14,7 @@ hero:
   tagline: 'Lab 04'
   title: 'Planta Piloto'
   subtitle: 'Validación del rendimiento antes de la primera producción a escala completa'
-  image: 'https://assets.agrospear.com/images/agrospear/factory/agrospear-pilot-plant-original.webp'
+  image: 'https://assets.agrospear.com/site/factory/agrospear-pilot-plant-original.webp'
   image_alt: 'Ensayos de rendimiento en la planta piloto de Agrospear'
 
 intro: 'Es una idea equivocada común que los ensayos a escala piloto se reservan a las grandes corporaciones farmacéuticas. En realidad, el rendimiento de una formulación agroquímica — un sistema de dispersión de 500 g/L o más — depende de su composición tanto como cualquier otro producto industrial. El perfil de dispersión, la viscosidad, el tamaño de partícula y la suspensibilidad tienen un efecto significativo en la estabilidad, la eficacia de aplicación y la compatibilidad. En {SITE.name}, disponemos de una planta piloto específica que nos permite cuantificar estos efectos a escala reducida — antes de invertir en materias primas y equipos para una producción a escala completa.'

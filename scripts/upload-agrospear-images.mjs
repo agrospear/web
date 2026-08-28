@@ -1,8 +1,8 @@
 /**
- * Uploads the agrospear image tree to R2 under `images/sups/`.
+ * Uploads the Agrospear image tree to R2 under `images/agrochemical/`.
  *
  * Source:  <agrospear-repo>/public/images/agrospear/   (211 webp + 2 jpg + 1 ico)
- * Target:  R2 bucket, key prefix `images/sups/` so the CDN URLs match the
+ * Target:  R2 bucket, key prefix `images/agrochemical/` so the CDN URLs match the
  *          rewrite in src/features/content/assets.ts.
  *
  * Zero dependencies (SigV4 signing via node:crypto + fetch).
@@ -42,7 +42,7 @@ const HTTP_MODE = args.includes('--http')
 // workflow runs this mode automatically. HTTP mode only.
 const MISSING_ONLY = args.includes('--missing')
 const SRC_DIR = flagValue('src', process.env.AGROSPEAR_IMAGES_DIR ?? '')
-const KEY_PREFIX = flagValue('prefix', 'images/sups/')
+const KEY_PREFIX = flagValue('prefix', 'images/agrochemical/')
 // 图片是稳定路径的不可变资产，允许浏览器/CDN 长缓存。若日后原地替换同名图，
 // 记得 bump 版本号（文件名带上 hash），不要依赖短缓存覆盖。
 const CACHE_CONTROL = flagValue('cache', 'public, max-age=31536000, immutable')

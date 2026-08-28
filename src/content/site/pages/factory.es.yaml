@@ -119,27 +119,27 @@ workshops_section:
   workshops:
     - title: Recepción y preparación de materias primas
       description: Sistemas automáticos de pesaje y dosificación procesan ingredientes activos de grado técnico, solventes y coadyuvantes con una precisión de ±0,1%. El loteado optimizado por ordenador minimiza el desperdicio de material y garantiza que cada componente cumpla su especificación de pureza antes del mezclado.
-      image: https://assets.agrospear.com/images/agrospear/hero/production-dept.webp
+      image: https://assets.agrospear.com/site/hero/production-dept.webp
       alt: Área de recepción y preparación de materias primas en la fábrica agroquímica de Qingdao
     - title: Mezclado y mezclado de alto corte
       description: Taller de mezclado dedicado con mezcladores de alto corte y tanques de premezcla. Los mezcladores de alto corte combinan ingredientes activos con dispersantes, emulsionantes y transportadores, mientras que los molinos de arena producen distribuciones de tamaño de partícula uniformes para formulaciones SC y WDG.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department.webp
       alt: Equipo de mezclado de alto corte y mezclado en la fábrica agroquímica de Qingdao
     - title: Molienda de formulación y molino de arena
       description: Las formulaciones de productos de protección de cultivos se procesan a través de molinos de arena y molinos de cuentas para lograr distribuciones de tamaño de partícula objetivo (D50 1–5 μm para SC, D50 20–40 μm para WDG). Los secadores por aspersión y granuladores de lecho fluido producen gránulos WP y WDG con calidad de dispersión constante.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-sup-manufacturing.webp
       alt: Línea de molienda de formulación y molino de arena en la fábrica agroquímica de Qingdao
     - title: Etiquetado y decoración
       description: Los envases de producto se etiquetan con máquinas de etiquetado automáticas para etiquetas GHS conformes multilingües y codificadores de inyección de tinta para codificación de lote y fecha. Las máquinas de etiquetado producen marcas conformes al registro, mientras que la codificación por inyección ofrece identificación de lote duradera y trazable.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department-2.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department-2.webp
       alt: Interior del departamento de producción en la fábrica agroquímica de Qingdao
     - title: Llenado y sellado
       description: Línea de llenado donde tambores, garrafas y botellas se llenan, sellan y verifican en máquinas de llenado automáticas. Cada lote sigue una lista de verificación de llenado de 100 puntos firmada por el responsable del equipo.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department.webp
       alt: Línea automática de llenado y sellado en la fábrica agroquímica de Qingdao
     - title: Ensayos e inspección de calidad
       description: Cada lote terminado se somete a ensayos obligatorios de estabilidad, verificación de contenido activo por HPLC/GC y una comprobación completa de especificaciones antes del envío. Nuestro laboratorio de calidad opera de forma independiente de la producción e informa directamente a la dirección.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-pressure-testing.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-pressure-testing.webp
       alt: Ensayos de calidad y verificación de especificaciones en la fábrica agroquímica de Qingdao
 
 equipment_section:

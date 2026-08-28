@@ -26,7 +26,9 @@
     "db:seed:framework:local": "wrangler d1 execute ${npm_config_site_id:-agrospear}-db --local --file=./scripts/framework.sql",
     "db:reset:local": "rm -rf .wrangler/state/v3/d1 && pnpm db:migrate:local && pnpm db:seed:local",
     "upload:images": "node scripts/upload-agrospear-images.mjs",
-    "upload:site-assets": "node scripts/upload-site-assets.mjs"
+    "upload:site-assets": "node scripts/upload-site-assets.mjs",
+    "r2:delete-legacy-dry": "node scripts/delete-legacy-r2-objects.mjs",
+    "r2:delete-legacy": "node scripts/delete-legacy-r2-objects.mjs --confirm"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.52.1",

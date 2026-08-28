@@ -74,19 +74,19 @@ workshops_section:
   workshops:
     - title: Compounding & High-Shear Mixing
       description: Dedicated compounding workshop with high-shear mixers and premixing tanks. High-shear mixers blend active ingredients with dispersants, emulsifiers and carriers; sand mills produce uniform particle size distributions for SC and WDG formulations.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department.webp
       alt: High-shear mixing and compounding equipment at Qingdao agrochemical factory
     - title: Formulation Grinding & Sand Milling
       description: Sand mills and bead mills achieve target particle size distributions (D50 1–5 μm for SC, D50 20–40 μm for WDG). Spray dryers and fluid bed granulators produce WP and WDG granules.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-sup-manufacturing.webp
       alt: Formulation grinding and sand milling line at Qingdao agrochemical factory
     - title: Filling & Sealing
       description: Automatic filling machines handle drums, jerry cans and bottles. Each batch follows a 100-point filling checklist signed off by the team lead.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department.webp
       alt: Automatic filling and sealing line at Qingdao agrochemical factory
     - title: Labeling & Decoration
       description: Automatic labeling machines for multi-language GHS-compliant labels. Inkjet coders for batch and date coding with full traceability.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department-2.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department-2.webp
       alt: Labeling and decoration workshop at Qingdao agrochemical factory
 
 equipment_section:

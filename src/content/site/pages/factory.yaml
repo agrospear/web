@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Factory & Manufacturing — Agrochemical OEM'
   description: 'Tour the Agrospear factory: 20,000 m² plant with compounding, grinding, filling, labeling, and quality lab for agrochemical OEM/ODM manufacturing.'
   dateModified: '2026-08-07'
@@ -119,27 +119,27 @@ workshops_section:
   workshops:
     - title: Raw Material Receiving & Preparation
       description: Automatic weighing and dosing systems process technical-grade active ingredients, solvents, and adjuvants with ±0.1% accuracy. Computer-optimised batching minimises material waste and ensures every component meets its purity specification before compounding.
-      image: https://assets.agrospear.com/images/agrospear/hero/production-dept.webp
+      image: https://assets.agrospear.com/site/hero/production-dept.webp
       alt: Raw material receiving and preparation area at Qingdao agrochemical factory
     - title: Compounding & High-Shear Mixing
       description: Dedicated compounding workshop with high-shear mixers and premixing tanks. High-shear mixers blend active ingredients with dispersants, emulsifiers, and carriers, while sand mills produce uniform particle size distributions for SC and WDG formulations.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department.webp
       alt: High-shear mixing and compounding equipment at Qingdao agrochemical factory
     - title: Formulation Grinding & Sand Milling
       description: Crop protection product formulations are processed through sand mills and bead mills to achieve target particle size distributions (D50 1–5 μm for SC, D50 20–40 μm for WDG). Spray dryers and fluid bed granulators produce WP and WDG granules with consistent dispersion quality.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-sup-manufacturing.webp
       alt: Formulation grinding and sand milling line at Qingdao agrochemical factory
     - title: Labeling & Decoration
       description: Product containers are labeled using automatic labeling machines for multi-language GHS-compliant labels and inkjet coders for batch and date coding. Labeling machines produce registration-compliant marks, while inkjet coding delivers durable, traceable batch identification.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department-2.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department-2.webp
       alt: Production department interior at Qingdao agrochemical factory
     - title: Filling & Sealing
       description: Filling line where drums, jerry cans, and bottles are filled, sealed, and checked on automatic filling machines. Each batch follows a 100-point filling checklist signed off by the team lead.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department.webp
       alt: Automatic filling and sealing line at Qingdao agrochemical factory
     - title: Quality Testing & Inspection
       description: Every completed batch undergoes mandatory stability testing, active content verification by HPLC/GC, and a full specification check before shipping. Our quality lab operates independently from production and reports directly to management.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-pressure-testing.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-pressure-testing.webp
       alt: Quality testing and specification verification at Qingdao agrochemical factory
 
 equipment_section:

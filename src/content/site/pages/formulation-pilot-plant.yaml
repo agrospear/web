@@ -18,7 +18,7 @@ hero:
   tagline: 'Lab 04'
   title: 'Formulation Pilot Plant'
   subtitle: 'Validating performance before the first production batch'
-  image: 'https://assets.agrospear.com/images/agrospear/factory/agrospear-pilot-plant-original.webp'
+  image: 'https://assets.agrospear.com/site/factory/agrospear-pilot-plant-original.webp'
   image_alt: 'Agrospear formulation pilot plant small-scale batching'
 
 intro: 'It is a common misconception that pilot-scale testing is reserved for pharmaceutical products. In reality, the performance of a crop protection formulation — a suspension concentrate or emulsifiable concentrate — is just as dependent on its physical-chemical properties as any regulated product. Active content uniformity, particle size distribution, suspensibility, and emulsion stability all have a dramatic effect on field efficacy and shelf life. At {SITE.name}, we operate a dedicated formulation pilot plant that allows us to quantify these effects at small scale — before committing raw materials and production line time to a full-scale batch.'

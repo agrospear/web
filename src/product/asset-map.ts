@@ -7,7 +7,7 @@
  * replace the prefix and map below with the new brand's asset structure.
  */
 
-export const ASSET_CDN_PREFIX = 'images/agrospear/'
+export const ASSET_CDN_PREFIX = 'images/agrochemical/'
 
 export const ASSET_LEGACY_SUBDIR = 'agrospear/'
 

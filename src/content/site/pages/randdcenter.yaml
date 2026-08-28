@@ -109,27 +109,27 @@ labs_section:
   tagline: Labs
   title: Our Laboratories
   labs:
-    - image: https://assets.agrospear.com/images/agrospear/randd/agrospear-formulation-chemistry-lab.webp
+    - image: https://assets.agrospear.com/site/randd/agrospear-formulation-chemistry-lab.webp
       title: Formulation Chemistry Lab
       description: Continuous research and testing of formulation systems for active ingredient content accuracy, shelf stability, suspension rate and dispersion quality to ensure long-term reliability in field conditions.
       href: /randdcenter/formulation-lab
-    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-design-discussion-2.webp
+    - image: https://assets.agrospear.com/site/factory/agrospear-design-discussion-2.webp
       title: Particle Size Engineering Studio
       description: Precision grinding and particle size distribution optimization for SC, WDG and WP formulations. Every dispersion system is validated for suspension rate and redispersibility before production approval.
       href: /randdcenter/formulation-engineering
-    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-formulation-lab.webp
+    - image: https://assets.agrospear.com/site/factory/agrospear-formulation-lab.webp
       title: Stability Testing Center
       description: Dedicated stability evaluation facility with temperature-controlled chambers (0 °C, 25 °C, 54 °C), producing shelf-life data and accelerated storage results that meet FAO/WHO and ICAMA requirements.
       href: /randdcenter/formulation-pilot-plant
-    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-design-discussion-original.webp
+    - image: https://assets.agrospear.com/site/factory/agrospear-design-discussion-original.webp
       title: Analytical Method Development Lab
       description: HPLC and GC method development, validation and transfer to QC. Ensures accurate active ingredient quantification and impurity profiling for every formulation type.
       href: /randdcenter/formulation-lab
-    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-formulation-lab-2.webp
+    - image: https://assets.agrospear.com/site/factory/agrospear-formulation-lab-2.webp
       title: Formulation Lab & Pilot Batch Workshop
       description: Full-scale formulation compounding and pilot production facility where new formulations are built, analyzed and validated. Every pilot batch undergoes complete analytical and stability testing before production approval.
       href: /randdcenter/prototype-workshop
-    - image: https://assets.agrospear.com/images/agrospear/factory/agrospear-quality-lab.webp
+    - image: https://assets.agrospear.com/site/factory/agrospear-quality-lab.webp
       title: Quality & Inspection Lab
       description: Dedicated quality assurance lab performing HPLC/GC analysis, particle size testing, viscosity measurement, stability evaluation and Certificate of Analysis issuance to ensure every batch meets published specifications.
       href: /randdcenter/quality-inspection-lab

@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Agrochemical Quality Control | 7-Stage Inspection | OEM Manufacturer China | {SITE}'
   description: 'How every custom agrochemical order is controlled: 7 inspection gates from pre-production planning to shipment release, with downloadable bilingual reports.'
   dateModified: '2026-08-15'
@@ -45,35 +45,35 @@ quality_basis:
 tests:
   - title: Active Ingredient Analysis
     description: Every production batch undergoes active ingredient quantification using validated HPLC or GC methods. Results are compared against the declared content with ±5% tolerance per FAO/WHO specifications, ensuring potency and efficacy.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-pressure-testing.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-pressure-testing.webp
     alt: Active ingredient analysis using HPLC for agrochemical batch verification
   - title: Physical Property Testing
     description: 'Formulation-specific physical tests are performed per FAO/WHO guidelines: suspension stability (SC), emulsion stability (EC), wettability and dispersibility (WDG/WP), pourability and persistent foam. These verify the product will perform reliably in the field.'
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-production-department.webp
     alt: Physical property testing of agrochemical formulations per FAO/WHO standards
   - title: Accelerated Stability Testing
     description: Batches are subjected to 54 °C accelerated storage for 14 days per FAO/WHO CIPAC methods. Active ingredient content and physical properties are verified before and after, confirming shelf life and formulation integrity.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-uv-resistance-testing.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-uv-resistance-testing.webp
     alt: Accelerated stability testing chamber for agrochemical formulations at 54°C
   - title: Impurity & By-Product Screening
     description: Technical-grade active ingredients and finished formulations are screened for relevant impurities and degradation products per FAO/WHO specifications, ensuring product safety and regulatory compliance.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-pvc-material-testing.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-pvc-material-testing.webp
     alt: Impurity screening analysis for agrochemical technical and formulation products
   - title: Low-Temperature Stability Testing
     description: Liquid formulations (SC, EC, SL, ME) are stored at 0 °C for 7 days per CIPAC methods to verify no crystallization, phase separation or sedimentation occurs, ensuring product integrity in cold-climate storage and transport.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-factory-exterior.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-factory-exterior.webp
     alt: Low-temperature stability test chamber for liquid agrochemical formulations
   - title: pH & Density Verification
     description: pH and density are measured per CIPAC methods for every batch. These parameters serve as critical quality indicators and must fall within the specified range for the formulation type.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-stock-boat-inventory.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-stock-boat-inventory.webp
     alt: pH and density verification for agrochemical formulation quality control
   - title: Water Dispersibility & Suspensibility
     description: WDG and WP formulations are tested for wettability, dispersibility and suspensibility per CIPAC/FAO methods. These parameters determine field performance and spray uniformity, and must meet specification before release.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-sup-manufacturing.webp
     alt: Water dispersibility and suspensibility testing for WDG and WP formulations
   - title: Container Compatibility & Seal Integrity
     description: Filled drums, bottles and containers are tested for leakage, seal integrity and compatibility between the formulation and the packaging material. Every filled container passes a mandatory leak check before shipping.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department-2.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-production-department-2.webp
     alt: Container compatibility and seal integrity testing for agrochemical packaging
 qc_flow:
   tagline: The 7-Stage Inspection Flow

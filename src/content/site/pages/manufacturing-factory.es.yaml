@@ -74,19 +74,19 @@ workshops_section:
   workshops:
     - title: Mezcla y Mezclado de Alto Corte
       description: Taller de mezcla dedicado con mezcladores de alto corte y tanques de premezcla. Los mezcladores combinan ingredientes activos con dispersantes, emulsionantes y transportadores; los molinos de arena producen distribuciones de tamaño de partícula uniformes para formulaciones SC y WDG.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department.webp
       alt: Equipo de mezclado de alto corte en la fábrica agroquímica de Qingdao
     - title: Molienda de Formulación y Molino de Arena
       description: Los molinos de arena y molinos de cuentas logran distribuciones de tamaño de partícula objetivo (D50 1–5 μm para SC, D50 20–40 μm para WDG). Los secadores por aspersión y granuladores de lecho fluido producen gránulos WP y WDG.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-sup-manufacturing.webp
       alt: Línea de molienda de formulación en la fábrica agroquímica de Qingdao
     - title: Llenado y Sellado
       description: Máquinas de llenado automáticas para tambores, garrafas y botellas. Cada lote sigue una lista de verificación de llenado de 100 puntos firmada por el responsable.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department.webp
       alt: Línea de llenado automático en la fábrica agroquímica de Qingdao
     - title: Etiquetado y Decoración
       description: Máquinas de etiquetado automáticas para etiquetas GHS conformes multilingües. Codificadores de inyección de tinta para codificación de lote y fecha con trazabilidad completa.
-      image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department-2.webp
+      image: https://assets.agrospear.com/site/factory/agrospear-production-department-2.webp
       alt: Taller de etiquetado en la fábrica agroquímica de Qingdao
 
 equipment_section:

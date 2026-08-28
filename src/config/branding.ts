@@ -7,19 +7,22 @@
  */
 
 import { SITE_DOMAIN } from './site'
-import { PRODUCT_BOILERPLATE, PRODUCT_BUILD_LINE, PRODUCT_NOT_ROB, PRODUCT_OG_IMAGE_FILENAME } from '@/product/brand-constants'
+import { PRODUCT_BOILERPLATE, PRODUCT_BUILD_LINE, PRODUCT_NOT_ROB } from '@/product/brand-constants'
 import { ACTIVE_LOCALES, type ActiveLocale } from './locales'
+import { ASSET_KEYS, ASSETS_BUCKET, ASSETS_CDN, assetUrl } from '@/product/assets'
 
 export const BRAND_LOGO_URL = '/apple-touch-icon.png' as const
 export const BRAND_FAVICON_ICO = '/favicon.ico' as const
 export const BRAND_FAVICON_SVG = '/favicon.svg' as const
 
-export const BRAND_OG_IMAGE = `https://assets.${SITE_DOMAIN}/images/agrospear/products/${PRODUCT_OG_IMAGE_FILENAME}.webp` as const
-export const BRAND_HERO_IMAGE = `https://assets.${SITE_DOMAIN}/images/agrospear/products/${PRODUCT_OG_IMAGE_FILENAME}.avif` as const
-export const BRAND_HERO_IMAGE_768 = `https://assets.${SITE_DOMAIN}/images/agrospear/products/${PRODUCT_OG_IMAGE_FILENAME}-768.avif` as const
-export const BRAND_HERO_IMAGE_480 = `https://assets.${SITE_DOMAIN}/images/agrospear/products/${PRODUCT_OG_IMAGE_FILENAME}-480.avif` as const
-export const BRAND_HERO_IMAGE_WEBP = `https://assets.${SITE_DOMAIN}/images/agrospear/products/${PRODUCT_OG_IMAGE_FILENAME}.webp` as const
-export const BRAND_ASSETS_CDN = `https://assets.${SITE_DOMAIN}` as const
+// Canonical R2 CDN assets. The registry keeps paths consistent across the site.
+export const BRAND_OG_IMAGE = assetUrl(ASSET_KEYS.hero.webp)
+export const BRAND_HERO_IMAGE = assetUrl(ASSET_KEYS.hero.avif)
+export const BRAND_HERO_IMAGE_768 = assetUrl(ASSET_KEYS.hero.avif768)
+export const BRAND_HERO_IMAGE_480 = assetUrl(ASSET_KEYS.hero.avif480)
+export const BRAND_HERO_IMAGE_WEBP = BRAND_OG_IMAGE
+export const BRAND_ASSETS_CDN = ASSETS_CDN
+export const BRAND_ASSETS_BUCKET = ASSETS_BUCKET
 
 export type BrandSocial = {
   facebook: string

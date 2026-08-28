@@ -1,5 +1,5 @@
 /**
- * Uploads site media to R2 under `site/*` (CDN: https://assets.agrospear.com/site/*).
+ * Uploads site media to R2 under `site/*` (CDN: https://assets.agrospear.com/site/*). PDF and quality assets keep the site namespace.
  *
  * Mirrors the layout the files used to have under public/, minus the now-migrated
  * public/ prefix, so every URL stays predictable:

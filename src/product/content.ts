@@ -114,7 +114,7 @@ export const why: Localized<WhyContent> = {
     kicker: 'The Manufacturing Brand',
     title: 'Powered by Agrospear',
     sub: `Agrospear is the agrochemical formulation and manufacturing division of Qingdao Vatrad Group Co., Ltd. — a designated pesticide manufacturer operating since 2012. Our ${FACTS.warehouseM2} plant in Qingdao houses dedicated workshops for liquid formulations (SC, EC, SL, ME, CS, FS) and solid formulations (WP, WDG), with 200+ workers running two daily shifts across herbicide, insecticide, fungicide and PGR production lines. 25+ engineers spanning R&D, formulation chemistry, analytical lab and production engineering average 7+ years of agrochemical manufacturing experience and hold multiple formulation technology patents.`,
-    image: 'https://assets.agrospear.com/images/factory/agrospear-production-department.webp',
+    image: 'https://assets.agrospear.com/site/factory/agrospear-production-department.webp',
     imageCaption: 'Agrospear manufacturing facility, Qingdao, China',
     bullets: [
       {
@@ -139,7 +139,7 @@ export const why: Localized<WhyContent> = {
     kicker: 'La marca de fabricación',
     title: 'Con el respaldo de Agrospear',
     sub: `Agrospear es la división de formulación y fabricación de agroquímicos de Qingdao Vatrad Group Co., Ltd. — fabricante de pesticidas designado en activo desde 2012. Nuestra planta de ${FACTS.warehouseM2} en Qingdao alberga talleres dedicados para formulaciones líquidas (SC, EC, SL, ME, CS, FS) y formulaciones sólidas (WP, WDG), con 200+ operarios en dos turnos diarios en líneas de herbicidas, insecticidas, fungicidas y PGR. Más de 25 ingenieros entre I+D, química de formulación, laboratorio analítico e ingeniería de producción, con una media de más de 7 años en fabricación de agroquímicos y múltiples patentes de tecnología de formulación.`,
-    image: 'https://assets.agrospear.com/images/factory/agrospear-production-department.webp',
+    image: 'https://assets.agrospear.com/site/factory/agrospear-production-department.webp',
     imageCaption: 'Instalaciones de fabricación de Agrospear, Qingdao, China',
     bullets: [
       {

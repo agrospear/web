@@ -1,7 +1,7 @@
 name: Upload agrospear images to R2
 
 # 手动触发：把本仓库 scripts/agrospear-images/* 的图片上传到
-# R2 桶的 images/sups/ 前缀，并尝试把自定义域绑定到该桶。
+# R2 桶的 images/agrochemical/ 前缀，并尝试把自定义域绑定到该桶。
 # 桶名和域名从 GitHub Variables 读取，或使用 SITE_ID 派生的默认值。
 #
 # 依赖仓库 secrets：CLOUDFLARE_API_TOKEN（需 Account › R2 Storage › Edit
@@ -24,8 +24,8 @@ jobs:
           CF_PROD_DOMAIN: ${{ vars.CF_PROD_DOMAIN }}
           SITE_ID: ${{ vars.SITE_ID }}
         run: |
-          R2_BUCKET="${CF_PROD_R2_BUCKET:-${SITE_ID:-agrospear}-files-prod}"
-          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-${SITE_ID:-agrospear}.com}"
+          R2_BUCKET="${CF_PROD_R2_BUCKET:-agrospear-files-prod}"
+          CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-agrospear.com}"
           CDN_ZONE="${CF_PROD_DOMAIN:-${SITE_ID:-agrospear}.com}"
           echo "r2_bucket=$R2_BUCKET" >> "$GITHUB_OUTPUT"
           echo "cdn_domain=$CDN_DOMAIN" >> "$GITHUB_OUTPUT"
@@ -103,7 +103,7 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
             -d "{\"name\":\"$R2_BUCKET\"}" | jq .
 
-      # 图片源已提交在本仓库 scripts/agrospear-images/（从 agrospear 仓库同步）。
+      # 图片源位于本仓库 scripts/agrospear-images/，只包含当前品牌资源。
       # --missing：只上传 R2 缺失的对象，已存在的跳过（PUT 幂等但白费 12.9MiB
       # 流量；也让"新增图忘传"在 deploy 里被自动补上）。
       - name: Upload missing agrospear images to R2
@@ -142,11 +142,11 @@ jobs:
           R2_BUCKET: ${{ steps.config.outputs.r2_bucket }}
           CDN_DOMAIN: ${{ steps.config.outputs.cdn_domain }}
         run: |
-          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/sups/products/agrospear-og-default&per_page=20" \
+          curl -sS "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/r2/buckets/$R2_BUCKET/objects?prefix=images/agrochemical/products/agrospear-og-default&per_page=20" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
             | jq '{success, keys: [.result[].key]}'
-          echo "--- CDN reachability (the 3 hero AVIFs that silently 404'd before) ---"
+          echo "--- CDN reachability (the 3 hero AVIFs) ---"
           for f in agrospear-og-default.avif agrospear-og-default-768.avif agrospear-og-default-480.avif agrospear-og-default.webp; do
-            code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/sups/products/$f?v=$(date +%s)")
-            echo "$code https://$CDN_DOMAIN/images/sups/products/$f"
+            code=$(curl -s -o /dev/null -w '%{http_code}' --retry 8 --retry-delay 5 "https://$CDN_DOMAIN/images/agrochemical/products/$f?v=$(date +%s)")
+            echo "$code https://$CDN_DOMAIN/images/agrochemical/products/$f"
           done

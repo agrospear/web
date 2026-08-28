@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Control de Calidad Agroquímico | 7 Etapas de Inspección | Fabricante OEM China | {SITE}'
   description: 'Cómo se controla cada pedido agroquímico a medida: 7 etapas de inspección, desde la planificación hasta la liberación del envío, con informes bilingües descargables.'
   dateModified: '2026-08-15'
@@ -45,35 +45,35 @@ quality_basis:
 tests:
   - title: Análisis de ingrediente activo
     description: Cada lote de producción se somete a cuantificación de ingrediente activo mediante métodos validados de HPLC o GC. Los resultados se comparan con el contenido declarado con tolerancia de ±5% según especificaciones FAO/OMS, garantizando potencia y eficacia.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-pressure-testing.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-pressure-testing.webp
     alt: Análisis de ingrediente activo mediante HPLC para verificación de lote agroquímico
   - title: Ensayo de propiedades físicas
     description: 'Se realizan ensayos físicos específicos por formulación según directrices FAO/OMS: estabilidad de suspensión (SC), estabilidad de emulsión (EC), humectabilidad y dispersibilidad (WDG/WP), vertibilidad y espuma persistente. Estos verifican que el producto funcionará de forma fiable en el campo.'
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-production-department.webp
     alt: Ensayo de propiedades físicas de formulaciones agroquímicas según estándares FAO/OMS
   - title: Ensayo de estabilidad acelerada
     description: Los lotes se someten a almacenamiento acelerado a 54 °C durante 14 días según métodos CIPAC FAO/OMS. El contenido de ingrediente activo y las propiedades físicas se verifican antes y después, confirmando la vida útil y la integridad de la formulación.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-uv-resistance-testing.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-uv-resistance-testing.webp
     alt: Cámara de ensayo de estabilidad acelerada para formulaciones agroquímicas a 54°C
   - title: Detección de impurezas y subproductos
     description: Los ingredientes activos de grado técnico y las formulaciones terminadas se analizan para detectar impurezas relevantes y productos de degradación según especificaciones FAO/OMS, garantizando la seguridad del producto y el cumplimiento reglamentario.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-pvc-material-testing.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-pvc-material-testing.webp
     alt: Análisis de detección de impurezas para productos técnicos y formulaciones agroquímicas
   - title: Ensayo de estabilidad a baja temperatura
     description: Las formulaciones líquidas (SC, EC, SL, ME) se almacenan a 0 °C durante 7 días según métodos CIPAC para verificar que no se produce cristalización, separación de fases ni sedimentación, garantizando la integridad del producto en almacenamiento y transporte en climas fríos.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-factory-exterior.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-factory-exterior.webp
     alt: Cámara de ensayo de estabilidad a baja temperatura para formulaciones agroquímicas líquidas
   - title: Verificación de pH y densidad
     description: El pH y la densidad se miden según métodos CIPAC para cada lote. Estos parámetros sirven como indicadores críticos de calidad y deben estar dentro del rango especificado para el tipo de formulación.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-stock-boat-inventory.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-stock-boat-inventory.webp
     alt: Verificación de pH y densidad para control de calidad de formulación agroquímica
   - title: Dispersibilidad y suspensibilidad en agua
     description: Las formulaciones WDG y WP se ensayan para humectabilidad, dispersibilidad y suspensibilidad según métodos CIPAC/FAO. Estos parámetros determinan el rendimiento en campo y la uniformidad de pulverización, y deben cumplir la especificación antes de la liberación.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-sup-manufacturing.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-sup-manufacturing.webp
     alt: Ensayo de dispersibilidad y suspensibilidad en agua para formulaciones WDG y WP
   - title: Compatibilidad de envase e integridad del sellado
     description: Los tambores, botellas y contenedores llenos se ensayan para fugas, integridad del sellado y compatibilidad entre la formulación y el material de embalaje. Cada contenedor lleno supera una verificación obligatoria de fugas antes del envío.
-    image: https://assets.agrospear.com/images/agrospear/factory/agrospear-production-department-2.webp
+    image: https://assets.agrospear.com/site/factory/agrospear-production-department-2.webp
     alt: Ensayo de compatibilidad de envase e integridad del sellado para embalaje agroquímico
 qc_flow:
   tagline: Las 7 etapas de inspección
