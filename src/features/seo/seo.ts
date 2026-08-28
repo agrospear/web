@@ -1,7 +1,7 @@
 import { locales, defaultLocale, localizePath, type Locale } from '@/features/i18n/locale'
 import { SITE_NAME, SITE_TAGLINE } from '@/config/site'
 import { BRAND_OG_IMAGE, BRAND_HERO_IMAGE, BRAND_HERO_IMAGE_768, BRAND_HERO_IMAGE_480, BRAND_HERO_IMAGE_WEBP } from '@/config/branding'
-import { OG_LOCALE, HREFLANG } from '@/config/locales'
+import { OG_LOCALE, HREFLANG, ACTIVE_LOCALES } from '@/config/locales'
 import { ENTITY_PAGE_PATH } from '@/config/navigation'
 
 interface PublicPathEntry {
@@ -26,8 +26,6 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/projects', lastmod: '2026-08-15' },
   { path: '/knowledge', lastmod: '2026-06-25' },
   { path: '/oem-moq-guide', lastmod: '2026-08-20' },
-  { path: '/oem-agrochemical-moq', lastmod: '2026-08-20' },
-  { path: '/agrochemical-certification-guide', lastmod: '2026-08-20' },
   { path: '/oem-trust-assurance', lastmod: '2026-08-20' },
   { path: '/proof-center', lastmod: '2026-08-20' },
   { path: '/agrochemical-oem-moq-lead-time', lastmod: '2026-08-20' },
@@ -70,8 +68,8 @@ export const PUBLIC_PATHS: PublicPathEntry[] = [
   { path: '/manufacturing/factory/quality-inspection', lastmod: '2026-08-20' },
   { path: '/manufacturing/factory/quality-change-control', lastmod: '2026-08-20' },
   { path: '/manufacturing/factory/non-conforming-control', lastmod: '2026-08-20' },
+  { path: '/manufacturing/qcqa-documents', lastmod: '2026-08-28' },
   { path: '/odm-development', lastmod: '2026-08-20' },
-  { path: '/manufacturing/factory/capacity', lastmod: '2026-08-20' },
   { path: '/partners', lastmod: '2026-08-20' },
   { path: '/news', lastmod: '2026-08-20' },
   { path: '/technology', lastmod: '2026-08-20' },
@@ -151,9 +149,11 @@ export function buildRobots(origin: string): string {
 }
 
 function alternates(origin: string, path: string): string {
-  const links = locales.map(
-    (l) => `<xhtml:link rel="alternate" hreflang="${HREFLANG[l]}" href="${origin}${localizePath(l, path)}"/>`,
-  )
+  const links = locales
+    .filter((l) => ACTIVE_LOCALES.includes(l))
+    .map(
+      (l) => `<xhtml:link rel="alternate" hreflang="${HREFLANG[l]}" href="${origin}${localizePath(l, path)}"/>`,
+    )
   links.push(
     `<xhtml:link rel="alternate" hreflang="x-default" href="${origin}${localizePath(defaultLocale, path)}"/>`,
   )
@@ -189,7 +189,10 @@ export function buildSitemap(
                 `<url><loc>${origin}${localizePath(l, e.path)}</loc><lastmod>${e.lastmod}</lastmod>${alternates(origin, e.path)}</url>`,
             ),
           )
-  const single = singleLocalePaths.map((p) => {
+  const single = singleLocalePaths.filter((entry, index, all) => {
+    const path = typeof entry === 'string' ? entry : entry.loc
+    return all.findIndex((candidate) => (typeof candidate === 'string' ? candidate : candidate.loc) === path) === index
+  }).map((p) => {
     const entry = typeof p === 'string' ? { loc: p } : p
     const lastmod = entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : ''
     const links = entry.es
@@ -206,7 +209,7 @@ export function buildLocaleSitemap(
   locale: Locale,
   entries: { path: string; lastmod?: string }[],
 ): string {
-  const urls = entries.map(
+  const urls = entries.filter((entry, index, all) => all.findIndex((candidate) => candidate.path === entry.path) === index).map(
     (e) =>
       `<url><loc>${origin}${localizePath(locale, e.path)}</loc>${e.lastmod ? `<lastmod>${e.lastmod}</lastmod>` : ''}${alternates(origin, e.path)}</url>`,
   )
@@ -249,7 +252,7 @@ export function localeHead(input: {
   const image = input.image ?? OG_IMAGE
   const canonical = `${origin}${localizePath(locale, path)}`
   const links: HeadLink[] = [{ rel: 'canonical', href: canonical }]
-  for (const l of locales) {
+  for (const l of locales.filter((locale) => ACTIVE_LOCALES.includes(locale))) {
     links.push({ rel: 'alternate', hreflang: HREFLANG[l], href: `${origin}${localizePath(l, path)}` })
   }
   links.push({
@@ -266,7 +269,7 @@ export function localeHead(input: {
     { property: 'og:description', content: description },
     { property: 'og:url', content: canonical },
     { property: 'og:locale', content: OG_LOCALE[locale] },
-    ...locales.filter((l) => l !== locale).map((l) => ({ property: 'og:locale:alternate', content: OG_LOCALE[l] })),
+    ...locales.filter((l) => ACTIVE_LOCALES.includes(l) && l !== locale).map((l) => ({ property: 'og:locale:alternate', content: OG_LOCALE[l] })),
     { property: 'og:image', content: image },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },

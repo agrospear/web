@@ -49,7 +49,7 @@ capabilities:
     - icon: F
       icon_bg: orange
       title: 'Document & Traceability Audit'
-      desc: 'Full access to document control system, material traceability records (10-year retention), ERP batch tracking, change control logs and non-conformance disposition records.'
+      desc: 'Full access to document control system, material traceability records (5-year retention), ERP batch tracking, change control logs and non-conformance disposition records.'
       link_label: 'View document audit'
       href: /manufacturing/factory-audit
 

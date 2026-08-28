@@ -1,6 +1,6 @@
 meta:
   title: 'Fabricante OEM agroquímico | Producción de formulaciones a medida'
-  description: 'Fábrica OEM agroquímica: fabricamos tu formulación — revisión de ingeniería, muestras en 7–12 días, producción en 25–35 días, cumplimiento ISO/BSCI/ICAMA.'
+  description: 'Fábrica OEM agroquímica: fabricamos tu formulación — revisión de ingeniería, muestras en 7–14 días, producción en 25–35 días, cumplimiento ISO/BSCI/ICAMA.'
   dateModified: '2026-08-16'
   keywords:
     - 'fabricante OEM agroquímico'
@@ -12,11 +12,11 @@ meta:
 hero:
   tagline: Fabricación OEM
   title: 'Fabricación OEM agroquímica a medida — Tu especificación, nuestra fábrica'
-  subtitle: 'Tú aportas la formulación, la especificación o una plataforma probada — nosotros fabricamos a escala de contenedor. Revisión de ingeniería en un día laborable, muestras en 7–12 días y producción en 25–35 días tras confirmar el pedido y el depósito, enviada bajo tu marca.'
+  subtitle: 'Tú aportas la formulación, la especificación o una plataforma probada — nosotros fabricamos a escala de contenedor. Revisión de ingeniería en un día laborable, muestras en 7–14 días y producción en 25–35 días tras confirmar el pedido y el depósito, enviada bajo tu marca.'
 
 answer:
   label: 'Respuesta directa'
-  text: 'La producción OEM parte de tu especificación. El MOQ se confirma por configuración del proyecto y no es un número fijo: la producción de volumen estándar corre de 20+ toneladas por lote, los lotes piloto parten de 5 toneladas sobre plataformas existentes y cada proyecto pasa por una muestra (1–4 toneladas) antes del volumen. Las muestras salen en 7–12 días; la producción corre en 25–35 días tras confirmar el pedido y el depósito, más 15–20 días cuando se requiere desarrollo de formulación a medida.'
+  text: 'La producción OEM parte de tu especificación. El MOQ se confirma por configuración del proyecto y no es un número fijo: la producción de volumen estándar corre de 20+ toneladas por lote, los lotes piloto parten de 5 toneladas sobre plataformas existentes y cada proyecto pasa por una muestra (1–4 toneladas) antes del volumen. Las muestras salen en 7–14 días; la producción corre en 25–35 días tras confirmar el pedido y el depósito, más 15–20 días cuando se requiere desarrollo de formulación a medida.'
   verified: '2026-08'
 
 features:
@@ -33,7 +33,7 @@ features:
       description: 'Nuevas formulaciones a partir de tus especificaciones o productos de referencia — diseño e ingeniería de I+D en casa. El desarrollo añade 15–20 días al plazo del proyecto.'
       icon: 'tabler:shapes'
     - title: Prototipo y muestra
-      description: 'Se produce y aprueba un lote de muestra física antes de cualquier tirada, normalmente en 7–12 días, con datos de composición y eficacia para formulaciones nuevas.'
+      description: 'Se produce y aprueba un lote de muestra física antes de cualquier tirada, normalmente en 7–14 días, con datos de composición y eficacia para formulaciones nuevas.'
       icon: 'tabler:tools'
     - title: Producción a escala de contenedor
       description: 'Lotes de volumen estándar de 20+ toneladas por formulación, pilotos desde 5 toneladas y 25–35 días de plazo tras confirmar el pedido.'
@@ -72,11 +72,11 @@ faq_section:
     - q: '¿Cuál es el MOQ para fabricación OEM agroquímica?'
       a: 'El MOQ se confirma por configuración del proyecto — tipo de formulación y desarrollo, colores y concentración, arte, embalaje y configuración de tambores. La producción de volumen estándar corre de 20+ toneladas por lote, y los pilotos parten de 5 toneladas sobre plataformas existentes. Consulta la lógica completa en nuestra Guía de MOQ y branding flexible.'
     - q: '¿Cuál es el plazo típico de un pedido OEM?'
-      a: 'La producción corre en 25–35 días desde el pedido confirmado y el depósito. El desarrollo de formulación a medida añade 15–20 días. Las muestras de prototipo suelen enviarse en 7–12 días.'
+      a: 'La producción corre en 25–35 días desde el pedido confirmado y el depósito. El desarrollo de formulación a medida añade 15–20 días. Las muestras de prototipo suelen enviarse en 7–14 días.'
     - q: '¿Podéis fabricar solo a partir de mi formulación existente?'
       a: 'Sí. OEM construye desde tu especificación tal cual — tú eres dueño de la formulación. Nuestros ingenieros revisan la formulación para viabilidad de producción, señalan cualquier conflicto de especificación antes de empezar el desarrollo o la mezcla, y la muestra aprobada se convierte en la referencia de producción.'
     - q: '¿Proporcionáis muestras antes de la producción?'
-      a: 'Sí. Se produce y aprueba un lote de muestra física antes de cualquier tirada, normalmente en 7–12 días, y es la referencia para todos los controles de calidad posteriores.'
+      a: 'Sí. Se produce y aprueba un lote de muestra física antes de cualquier tirada, normalmente en 7–14 días, y es la referencia para todos los controles de calidad posteriores.'
     - q: '¿Qué certificaciones tiene la fábrica?'
       a: 'ISO 9001, ISO 14001, BSCI e ICAMA. Con cada envío OEM se entrega documentación completa de cumplimiento, preparada para tus mercados objetivo.'
     - q: '¿Cómo se controla la calidad en una tirada OEM?'
@@ -102,7 +102,7 @@ process:
         - 'Se cierran las decisiones de plataforma o formulación — el desarrollo a medida empieza aquí cuando se requiere.'
     - phase: '03'
       title: Prototipo y muestra
-      period: 7–12 días
+      period: 7–14 días
       items:
         - 'Se produce un lote de muestra física y se envía para tu revisión — datos de composición y eficacia incluidos para formulaciones nuevas.'
         - 'La muestra (1–4 toneladas) valida tu especificación antes de cualquier compromiso de volumen.'

@@ -17,7 +17,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Custom crop protection formulations are designed in-house with systematic active ingredient selection, co-formulant screening, and particle size optimization — every formulation is tested for suspensibility, emulsion stability, and pH compliance with a mandatory specification window before pilot batching. A custom formulation takes 7–12 days to prototype; full production validation adds 15–20 days to the 25–35 day production lead time, with MOQ confirmed by project configuration (see our MOQ guide).'
+  text: 'Custom crop protection formulations are designed in-house with systematic active ingredient selection, co-formulant screening, and particle size optimization — every formulation is tested for suspensibility, emulsion stability, and pH compliance with a mandatory specification window before pilot batching. A custom formulation takes 7–14 days to prototype; full production validation adds 15–20 days to the 25–35 day production lead time, with MOQ confirmed by project configuration (see our MOQ guide).'
   verified: '2026-08'
 
 intro: 'The formulation of a crop protection product — its active ingredient ratio, co-formulant package, particle size distribution, and rheology profile — determines how it performs, disperses, and delivers efficacy in the field. At {SITE.name}, our Formulation Engineering Studio combines active ingredient screening, co-formulant optimization, particle size engineering, and production experience to deliver formulations optimised for their intended use: foliar spray, seed treatment, or soil application. Every custom formulation starts from your specification, not a generic recipe from a catalogue.'

@@ -18,7 +18,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'MOQ is confirmed by project configuration: distributor partners start with a sample (1–4 tons) or pilot batch (5 tons, samples in 7–12 days), scale to a standard volume OEM run of 20+ tons per batch (25–35 days after PO and deposit), or invest in a custom formulation for full bespoke product lines (R&D adds 10–15 days). Every batch is stability-tested and content-analyzed before shipping, with FOB, CIF or DDP terms from Qingdao.'
+  text: 'MOQ is confirmed by project configuration: distributor partners start with a sample (1–4 tons) or pilot batch (5 tons, samples in 7–14 days), scale to a standard volume OEM run of 20+ tons per batch (25–35 days after PO and deposit), or invest in a custom formulation for full bespoke product lines (R&D adds 10–15 days). Every batch is stability-tested and content-analyzed before shipping, with FOB, CIF or DDP terms from Qingdao.'
   verified: '2026-08'
 
 margin_section:
@@ -27,7 +27,7 @@ margin_section:
   items:
     - tier: 'Sample Stage'
       moq: '1–4 tons'
-      margin_note: 'Sample lead time 7–12 days'
+      margin_note: 'Sample lead time 7–14 days'
       features:
         - 'Formulation development from your requirements'
         - 'Physical sample for approval'

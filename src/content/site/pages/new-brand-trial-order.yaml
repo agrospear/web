@@ -1,6 +1,6 @@
 meta:
   title: 'Low-MOQ Agrochemical Trial Order | OEM Manufacturer China | {SITE}'
-  description: 'Launch an agrochemical brand with a low-MOQ trial order: sample batches in 7–12 days, pilot runs of 5 tons, volume production in 25–35 days. Branding and QC handled.'
+  description: 'Launch an agrochemical brand with a low-MOQ trial order: sample batches in 7–14 days, pilot runs of 5 tons, volume production in 25–35 days. Branding and QC handled.'
   dateModified: '2026-08-16'
   keywords:
     - 'start an agrochemical brand'
@@ -20,11 +20,11 @@ hero:
       text: Start Your Launch with a Sample Batch
       href: /contact#custom-oem
     - text: See the full MOQ & lead time framework
-      href: /oem-agrochemical-moq
+      href: /oem-moq-guide
 
 answer:
   label: 'Straight answer'
-  text: 'Yes — you can launch an agrochemical brand with a low-MOQ trial order. The entry point is tiered rather than all-or-nothing: order a 1–4 ton sample batch first (ready in 7–12 days) to freeze your formulation, labeling and packaging; then place a pilot order of 5 tons (production in 25–35 days) to test real sell-through; finally scale into standard volume runs of 20+ tons per batch once the format is proven. Small-batch co-branding starts from lower quantities for operators that want branded products without any development stage at all. Your first volume order comes only when the data says it should.'
+  text: 'Yes — you can launch an agrochemical brand with a low-MOQ trial order. The entry point is tiered rather than all-or-nothing: order a 1–4 ton sample batch first (ready in 7–14 days) to freeze your formulation, labeling and packaging; then place a pilot order of 5 tons (production in 25–35 days) to test real sell-through; finally scale into standard volume runs of 20+ tons per batch once the format is proven. Small-batch co-branding starts from lower quantities for operators that want branded products without any development stage at all. Your first volume order comes only when the data says it should.'
   verified: '2026-08'
 
 trial_included:
@@ -56,7 +56,7 @@ trial_included:
     - icon: T
       icon_bg: green
       title: 'Timeline You Can Plan Around'
-      desc: 'Sample batches in 7–12 days, pilot production in 25–35 days after confirmed PO and deposit, and confirmed production slots for pre-season orders — so a launch lands in season, not after it.'
+      desc: 'Sample batches in 7–14 days, pilot production in 25–35 days after confirmed PO and deposit, and confirmed production slots for pre-season orders — so a launch lands in season, not after it.'
 
 trial_steps:
   tagline: The Launch Roadmap
@@ -149,9 +149,9 @@ trial_faqs:
   title: 'Frequently Asked Questions About Launching with a Trial Order'
   items:
     - q: 'Can I really launch an agrochemical brand without a volume order?'
-      a: 'Yes. The entry point is tiered: 1–4 ton sample batches validate the formulation (ready in 7–12 days), a pilot order of 5 tons validates the market (production in 25–35 days), and volume runs of 20+ tons per batch follow only when sell-through proves the format. Small-batch co-branding starts from lower quantities when you want branded products without any development stage.'
+      a: 'Yes. The entry point is tiered: 1–4 ton sample batches validate the formulation (ready in 7–14 days), a pilot order of 5 tons validates the market (production in 25–35 days), and volume runs of 20+ tons per batch follow only when sell-through proves the format. Small-batch co-branding starts from lower quantities when you want branded products without any development stage.'
     - q: 'How long does a full launch take, end to end?'
-      a: 'Using existing formulation platforms, a typical first launch runs 8–12 weeks from product brief to delivered pilot order: sample batches in 7–12 days, pilot production in 25–35 days after confirmed PO and deposit. A bespoke formulation adds 15–20 days of R&D development.'
+      a: 'Using existing formulation platforms, a typical first launch runs 8–12 weeks from product brief to delivered pilot order: sample batches in 7–14 days, pilot production in 25–35 days after confirmed PO and deposit. A bespoke formulation adds 15–20 days of R&D development.'
     - q: 'What does the price include — and what does it not?'
       a: 'Reference ranges are EXW Qingdao for the formulated product itself, including labeling application and standard QC. They are indicative: the final quotation is confirmed against your configuration — active ingredient, formulation type, label coverage, packaging and quantity — before any commitment. Freight, duties and customs clearance at destination are quoted separately.'
     - q: 'Do I have to buy 20 tons to get my brand on the label?'
@@ -169,7 +169,7 @@ cta:
       text: Start Your Launch
       href: /contact#custom-oem
     - text: Understand custom agrochemical MOQ & lead time first
-      href: /oem-agrochemical-moq
+      href: /oem-moq-guide
     - text: The flexible branding & MOQ guide
       href: /oem-moq-guide
     - text: Verify the factory & quality system

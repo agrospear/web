@@ -41,9 +41,17 @@ export const SUPPORTED_LOCALES = [
   'tr',
 ] as const
 
-export const ACTIVE_LOCALES: readonly Locale[] = ['en', 'es']
+/** Languages currently published. Add a locale only after its dictionary and content fallback are ready. */
+export const ACTIVE_LOCALES = ['en', 'es'] as const
 
+/**
+ * Every active locale uses the English page schema/content shape. Missing
+ * translations intentionally fall back to English until a translated overlay
+ * is supplied; this keeps one route/component tree and avoids bundle growth.
+ */
 export type Locale = (typeof SUPPORTED_LOCALES)[number]
+
+export const PUBLISHED_LOCALES: readonly Locale[] = ACTIVE_LOCALES
 
 export type ActiveLocale = typeof ACTIVE_LOCALES[number]
 

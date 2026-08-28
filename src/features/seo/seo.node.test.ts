@@ -69,6 +69,14 @@ test('sitemap lists both locales of public pages with hreflang', () => {
   expect(xml).not.toContain(`<loc>${origin}/solutions/custom-sup</loc>`)
 })
 
+test('sitemap removes duplicate single-locale paths', () => {
+  const xml = buildSitemap(origin, [
+    { loc: '/faq', lastmod: '2026-06-01' },
+    { loc: '/faq', lastmod: '2026-06-02' },
+  ], { locale: 'none' })
+  expect(xml.match(/<loc>https:\/\/app\.example\.com\/faq<\/loc>/g)).toHaveLength(1)
+})
+
 test('sitemap includes single-locale docs paths without hreflang alternates', () => {
   const xml = buildSitemap(origin, ['/docs', '/docs/install'])
   // exact <url> block match — alternates would sit between </loc> and </url>

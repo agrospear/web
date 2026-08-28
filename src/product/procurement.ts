@@ -18,7 +18,7 @@ export interface ProcurementRow {
 export interface ProcurementProfile {
   bestFor: string
   sizes: string
-  construction: string
+  formulation: string
   customization: string
   moq: string
   leadTime: string
@@ -31,7 +31,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     herbicide: {
       bestFor: 'Crop protection distributors, agrochemical brands & large-scale farming operations',
       sizes: '1–20 L HDPE / 200 L drum / IBC tote',
-      construction: 'SC, EC, WP, WDG, SL formulation types',
+      formulation: 'SC, EC, WP, WDG, SL formulation types',
       customization: 'Active ingredient, concentration, adjuvant system, label design & packaging',
       moq: `From ${MOQ_SHORT.standardRun} tons per project — pilot runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
@@ -51,7 +51,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     insecticide: {
       bestFor: 'Insect control brands, IPM program suppliers & vector control agencies',
       sizes: '1–20 L HDPE / 200 L drum / IBC tote',
-      construction: 'SC, EC, WDG, ME formulation types',
+      formulation: 'SC, EC, WDG, ME formulation types',
       customization: 'Active ingredient, concentration, adjuvant system, label design & packaging',
       moq: `From ${MOQ_SHORT.standardRun} tons per project — pilot runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
@@ -71,7 +71,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     fungicide: {
       bestFor: 'Fungicide brands, greenhouse operations & specialty crop suppliers',
       sizes: '1–20 L HDPE / 200 L drum / IBC tote',
-      construction: 'SC, WP, WDG, FS formulation types',
+      formulation: 'SC, WP, WDG, FS formulation types',
       customization: 'Active ingredient, concentration, adjuvant system, label design & packaging',
       moq: `From ${MOQ_SHORT.standardRun} tons per project — pilot runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
@@ -91,7 +91,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     pgr: {
       bestFor: 'Plant growth regulator brands, horticulture suppliers & specialty agriculture',
       sizes: '1–20 L HDPE / 200 L drum',
-      construction: 'SL, ME, SC formulation types',
+      formulation: 'SL, ME, SC formulation types',
       customization: 'Active ingredient, concentration, adjuvant system, label design & packaging',
       moq: `From ${MOQ_SHORT.standardRun} tons per project — pilot runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
@@ -111,7 +111,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     'seed-treatment': {
       bestFor: 'Seed treatment brands, seed companies & coating service providers',
       sizes: '1–20 L HDPE / 200 L drum / IBC tote',
-      construction: 'FS flowable seed treatment formulation',
+      formulation: 'FS flowable seed treatment formulation',
       customization: 'Active ingredient, film-former, colourant, label design & packaging',
       moq: `From ${MOQ_SHORT.standardRun} tons per project — pilot runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
@@ -132,7 +132,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     adjuvant: {
       bestFor: 'Adjuvant brands, tank-mix suppliers & formulation co-formulant distributors',
       sizes: '1–20 L HDPE / 200 L drum / IBC tote',
-      construction: 'Non-ionic surfactant, MSO, drift control & compatibility agents',
+      formulation: 'Non-ionic surfactant, MSO, drift control & compatibility agents',
       customization: 'Surfactant type, HLB range, concentration, label design & packaging',
       moq: `From ${MOQ_SHORT.standardRun} tons per project — pilot runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
@@ -152,7 +152,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     biopesticide: {
       bestFor: 'Biopesticide brands, organic agriculture suppliers & IPM programs',
       sizes: '1–20 L HDPE / 200 L drum',
-      construction: 'Microbial, botanical & semiochemical-based formulations',
+      formulation: 'Microbial, botanical & semiochemical-based formulations',
       customization: 'Active organism, potency, carrier system, label design & packaging',
       moq: `From ${MOQ_SHORT.standardRun} tons per project — pilot runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
@@ -172,7 +172,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     mixture: {
       bestFor: 'Premix & tank-mix brands, combination product distributors & multi-target programs',
       sizes: '1–20 L HDPE / 200 L drum / IBC tote',
-      construction: 'CS capsule suspension & multi-AI premix formulations',
+      formulation: 'CS capsule suspension & multi-AI premix formulations',
       customization: 'Dual-active combination, ratio, adjuvant system, label design & packaging',
       moq: `From ${MOQ_SHORT.standardRun} tons per project — pilot runs from ${MOQ_SHORT.trialStandard}`,
       leadTime: `Samples in ${FACTS.sampleTime} · production in ${FACTS.leadTime} after confirmed PO and deposit`,
@@ -194,7 +194,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     herbicide: {
       bestFor: 'Distribuidores de protección de cultivos, marcas de agroquímicos y operaciones agrícolas a gran escala',
       sizes: 'HDPE 1–20 L / tambor 200 L / IBC',
-      construction: 'Formulaciones tipo SC, EC, WP, WDG, SL',
+      formulation: 'Formulaciones tipo SC, EC, WP, WDG, SL',
       customization: 'Ingrediente activo, concentración, sistema de adyuvantes, diseño de etiqueta y embalaje',
       moq: `Desde ${MOQ_SHORT.standardRun} t por proyecto — pruebas piloto desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
@@ -214,7 +214,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     insecticide: {
       bestFor: 'Marcas de control de insectos, proveedores de programas MIP y agencias de control vectorial',
       sizes: 'HDPE 1–20 L / tambor 200 L / IBC',
-      construction: 'Formulaciones tipo SC, EC, WDG, ME',
+      formulation: 'Formulaciones tipo SC, EC, WDG, ME',
       customization: 'Ingrediente activo, concentración, sistema de adyuvantes, diseño de etiqueta y embalaje',
       moq: `Desde ${MOQ_SHORT.standardRun} t por proyecto — pruebas piloto desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
@@ -234,7 +234,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     fungicide: {
       bestFor: 'Marcas de fungicidas, operaciones en invernadero y proveedores de cultivos especiales',
       sizes: 'HDPE 1–20 L / tambor 200 L / IBC',
-      construction: 'Formulaciones tipo SC, WP, WDG, FS',
+      formulation: 'Formulaciones tipo SC, WP, WDG, FS',
       customization: 'Ingrediente activo, concentración, sistema de adyuvantes, diseño de etiqueta y embalaje',
       moq: `Desde ${MOQ_SHORT.standardRun} t por proyecto — pruebas piloto desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
@@ -254,7 +254,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     pgr: {
       bestFor: 'Marcas de reguladores de crecimiento, proveedores de horticultura y agricultura especializada',
       sizes: 'HDPE 1–20 L / tambor 200 L',
-      construction: 'Formulaciones tipo SL, ME, SC',
+      formulation: 'Formulaciones tipo SL, ME, SC',
       customization: 'Ingrediente activo, concentración, sistema de adyuvantes, diseño de etiqueta y embalaje',
       moq: `Desde ${MOQ_SHORT.standardRun} t por proyecto — pruebas piloto desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
@@ -274,7 +274,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     'seed-treatment': {
       bestFor: 'Marcas de tratamiento de semillas, empresas semilleras y proveedores de servicios de recubrimiento',
       sizes: 'HDPE 1–20 L / tambor 200 L / IBC',
-      construction: 'Formulación FS de tratamiento de semillas fluido',
+      formulation: 'Formulación FS de tratamiento de semillas fluido',
       customization: 'Ingrediente activo, formador de película, colorante, diseño de etiqueta y embalaje',
       moq: `Desde ${MOQ_SHORT.standardRun} t por proyecto — pruebas piloto desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
@@ -295,7 +295,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     adjuvant: {
       bestFor: 'Marcas de adyuvantes, proveedores de mezcla en tanque y distribuidores de coformulantes',
       sizes: 'HDPE 1–20 L / tambor 200 L / IBC',
-      construction: 'Surfactante no iónico, MSO, agentes de control de deriva y compatibilidad',
+      formulation: 'Surfactante no iónico, MSO, agentes de control de deriva y compatibilidad',
       customization: 'Tipo de surfactante, rango HLB, concentración, diseño de etiqueta y embalaje',
       moq: `Desde ${MOQ_SHORT.standardRun} t por proyecto — pruebas piloto desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
@@ -315,7 +315,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     biopesticide: {
       bestFor: 'Marcas de biopesticidas, proveedores de agricultura ecológica y programas MIP',
       sizes: 'HDPE 1–20 L / tambor 200 L',
-      construction: 'Formulaciones basadas en microorganismos, botánicos y semioquímicos',
+      formulation: 'Formulaciones basadas en microorganismos, botánicos y semioquímicos',
       customization: 'Organismo activo, potencia, sistema portador, diseño de etiqueta y embalaje',
       moq: `Desde ${MOQ_SHORT.standardRun} t por proyecto — pruebas piloto desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,
@@ -335,7 +335,7 @@ export const procurementProfiles: Localized<Record<string, ProcurementProfile>> 
     mixture: {
       bestFor: 'Marcas de premezclas y mezclas en tanque, distribuidores de productos combinados y programas multiobjetivo',
       sizes: 'HDPE 1–20 L / tambor 200 L / IBC',
-      construction: 'Suspensión en cápsula CS y formulaciones premezcla multi-IA',
+      formulation: 'Suspensión en cápsula CS y formulaciones premezcla multi-IA',
       customization: 'Combinación dual-activo, proporción, sistema de adyuvantes, diseño de etiqueta y embalaje',
       moq: `Desde ${MOQ_SHORT.standardRun} t por proyecto — pruebas piloto desde ${MOQ_SHORT.trialStandard}`,
       leadTime: `Muestras en ${FACTS.sampleTime} · producción en ${FACTS.leadTime} tras confirmar PO y depósito`,

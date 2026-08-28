@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Agrospear desarrolla formulaciones agroquímicas personalizadas en su centro de I+D en Qingdao: diseño de formulación, optimización de coformulantes, producción de prototipos, ensayos de estabilidad y documentación de registro. El desarrollo personalizado añade 15–20 días al cronograma del proyecto. Muestras de prototipo en 7–12 días. MOQ desde piloto de 5 toneladas hasta producción estándar de 20+ toneladas, enviado a más de 50 países.'
+  text: 'Agrospear desarrolla formulaciones agroquímicas personalizadas en su centro de I+D en Qingdao: diseño de formulación, optimización de coformulantes, producción de prototipos, ensayos de estabilidad y documentación de registro. El desarrollo personalizado añade 15–20 días al cronograma del proyecto. Muestras de prototipo en 7–14 días. MOQ desde piloto de 5 toneladas hasta producción estándar de 20+ toneladas, enviado a más de 50 países.'
   verified: '2026-08'
 
 intro:
@@ -70,7 +70,7 @@ faqs:
   title: 'Formulación Personalizada — Preguntas Frecuentes'
   items:
     - q: '¿Cuánto tarda el desarrollo de formulación personalizada?'
-      a: 'El desarrollo personalizado añade 15–20 días al cronograma estándar del proyecto. Las muestras de prototipo suelen estar listas en 7–12 días desde la especificación confirmada. El ciclo completo desde el brief hasta la primera producción es típicamente de 8–12 semanas.'
+      a: 'El desarrollo personalizado añade 15–20 días al cronograma estándar del proyecto. Las muestras de prototipo suelen estar listas en 7–14 días desde la especificación confirmada. El ciclo completo desde el brief hasta la primera producción es típicamente de 8–12 semanas.'
     - q: '¿Quién es dueño del IP de la formulación?'
       a: 'La propiedad del IP se acuerda en la etapa de brief del proyecto. En proyectos ODM, la formulación se licencia típicamente para tu uso exclusivo en los territorios acordados. En proyectos OEM, tú retienes la propiedad completa del IP.'
     - q: '¿Qué tipos de formulación se pueden desarrollar?'
@@ -105,7 +105,7 @@ related:
     - icon: M
       icon_bg: orange
       title: 'Fábrica'
-      desc: 'Instalación de 12.500 m² con líneas de formulación dedicadas, planta piloto y laboratorio analítico.'
+      desc: 'Instalación de 20.000 m² con líneas de formulación dedicadas, planta piloto y laboratorio analítico.'
       link_label: 'Ver fábrica'
       href: /manufacturing/factory
 

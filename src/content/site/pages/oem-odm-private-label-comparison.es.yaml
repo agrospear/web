@@ -55,9 +55,9 @@ comparison_table:
       odm: 'Total — la fábrica propone, tú apruebas cada elemento'
       pl: 'Solo diseño de etiqueta y embalaje — sin cambios de formulación'
     - dimension: 'Proceso de muestras'
-      oem: '1–4 toneladas de muestra de prototipo en 7–12 días tras aprobación de especificación'
-      odm: '1–4 toneladas de muestra de prototipo en 7–12 días tras aprobación de formulación'
-      pl: '1–4 toneladas de muestra en 7–12 días — plataforma ya validada'
+      oem: '1–4 toneladas de muestra de prototipo en 7–14 días tras aprobación de especificación'
+      odm: '1–4 toneladas de muestra de prototipo en 7–14 días tras aprobación de formulación'
+      pl: '1–4 toneladas de muestra en 7–14 días — plataforma ya validada'
     - dimension: 'Mejor para'
       oem: 'Compradores con formulaciones existentes, productos de referencia o especificaciones detalladas'
       odm: 'Compradores con ideas de producto o requisitos de mercado sin formulación detallada'
@@ -119,7 +119,7 @@ faqs:
     - q: '¿Qué tal si no estoy seguro de qué modelo elegir?'
       a: 'Contáctanos con tu situación — nuestro equipo de I+D recomendará la vía más práctica según tus requisitos de producto, plazo y objetivos de volumen. Sin compromiso antes de la revisión de especificaciones.'
     - q: '¿Puedo obtener muestras antes de comprometerme con algún modelo?'
-      a: 'Sí. 1–4 toneladas de muestra de prototipo salen en 7–12 días. El coste de la muestra se descuenta del pedido de volumen. Esto te permite evaluar la composición y calidad antes de cualquier compromiso de volumen.'
+      a: 'Sí. 1–4 toneladas de muestra de prototipo salen en 7–14 días. El coste de la muestra se descuenta del pedido de volumen. Esto te permite evaluar la composición y calidad antes de cualquier compromiso de volumen.'
 
 cta:
   title: '¿Listo para discutir tu proyecto agroquímico?'

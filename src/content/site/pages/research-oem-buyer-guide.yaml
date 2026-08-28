@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'OEM Buyer Guide | Sourcing Agrochemicals from China | {SITE}'
   description: 'Sourcing agrochemical formulations from Asia: factory audit checklist, QC protocols, compliance, MOQ negotiation, shipping terms and pitfalls.'
   author: 'Agrospear'
@@ -17,7 +17,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Minimum order quantity is confirmed by project configuration rather than a fixed number: sample development (1–4 tons) validates the formulation, pilot orders (5 tons) test the market on existing platforms, standard volume production runs 20+ tons per batch, and small-batch co-branding starts from lower quantities. Samples ship in 7–12 days; bulk production runs 25–35 days after confirmed PO and deposit, plus 15–20 days when new formulation development is required.'
+  text: 'Minimum order quantity is confirmed by project configuration rather than a fixed number: sample development (1–4 tons) validates the formulation, pilot orders (5 tons) test the market on existing platforms, standard volume production runs 20+ tons per batch, and small-batch co-branding starts from lower quantities. Samples ship in 7–14 days; bulk production runs 25–35 days after confirmed PO and deposit, plus 15–20 days when new formulation development is required.'
   verified: '2026-08'
 
 content_html: |
@@ -85,7 +85,7 @@ content_html: |
 
   <h2>5. Logistics and Shipping</h2>
   <p>Common Incoterms: <strong>FOB</strong> (Factory delivers to departure port – most common), <strong>EXW</strong> (Buyer arranges all shipping from factory door), <strong>CIF</strong> (Factory pays freight and insurance to destination port).</p>
-  <p>Agrochemical products are classified as hazardous goods (UN number varies by formulation) — ensure your logistics partner handles DG cargo. Drum packaging (200 L) is standard for liquid formulations; WDG and WP use 25 kg bags. Sea freight transit from China to the EU typically takes 25–35 days, and 7–12 days to the US West Coast — on top of the 25–35 day production lead time.</p>
+  <p>Agrochemical products are classified as hazardous goods (UN number varies by formulation) — ensure your logistics partner handles DG cargo. Drum packaging (200 L) is standard for liquid formulations; WDG and WP use 25 kg bags. Sea freight transit from China to the EU typically takes 25–35 days, and 7–14 days to the US West Coast — on top of the 25–35 day production lead time.</p>
 
   <h2>6. Common Pitfalls</h2>
   <ul>
@@ -97,8 +97,8 @@ content_html: |
   </ul>
 
   <h2>7. Why Agrospear</h2>
-  <p>Agrospear has been manufacturing OEM/ODM agrochemical formulations since 2012. With a 12,500 m&sup2; ISO 9001 and ISO 14001 certified facility, 25+ engineers, and ICAMA registration support for target markets (scope confirmed per project), we meet every criterion in this guide. We offer trial MOQs for new partners and full compliance documentation packages.</p>
-  <p>Review our <a href="/oem-manufacturing">agrochemical OEM/ODM manufacturing services</a> or tour the <a href="/manufacturing/factory">12,500 m&sup2; factory floor</a> to see the equipment and QC processes behind each step above.</p>
+  <p>Agrospear has been manufacturing OEM/ODM agrochemical formulations since 2012. With a 20,000 m&sup2; ISO 9001 and ISO 14001 certified facility, 25+ engineers, and ICAMA registration support for target markets (scope confirmed per project), we meet every criterion in this guide. We offer trial MOQs for new partners and full compliance documentation packages.</p>
+  <p>Review our <a href="/oem-manufacturing">agrochemical OEM/ODM manufacturing services</a> or tour the <a href="/manufacturing/factory">20,000 m&sup2; factory floor</a> to see the equipment and QC processes behind each step above.</p>
 
 cta:
   title: 'Ready to start sourcing?'

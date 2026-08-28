@@ -13,7 +13,7 @@ export const LLMS_TXT = `# Agrospear
 
 ## Key facts
 
-- Legal entity: Qingdao Vatrad Group Co., Ltd. — manufacturing division: Agrospear — B2B brand: Agrospear
+- Legal entity: Qingdao Vatrad Group Co., Ltd. — manufacturing division and B2B brand: Agrospear
 - Founded: 2012
 - Location: Economic Development Zone, Laixi, Qingdao, Shandong 266600, China
 - Contact: info@agrospear.com | +86-13395321653
@@ -22,7 +22,7 @@ export const LLMS_TXT = `# Agrospear
 - Production lead time: 25–35 days from confirmed PO and deposit; new formulation development adds 15–20 days
 - Manufacturing floor: 20,000 m² across 4 specialized workshops | Workers: 200+ | Annual capacity: 50,000+ tons
 - Plant operations: two production shifts daily · 30+ engineers · 7+ years average agrochemical experience per engineer
-- Hard specs: active content analysis per FAO/WHO specs · stability testing per CIPAC methods · batch traceability via ERP kept 10 years · 100-point QC checklist per batch · filling accuracy ±0.5% · packaging integrity test per shipment
+- Hard specs: active content analysis per FAO/WHO specs · stability testing per CIPAC methods · batch traceability via ERP kept 5 years · 100-point QC checklist per batch · filling accuracy ±0.5% · packaging integrity test per shipment
 - Certifications: ISO 9001, ISO 14001, GMP, FAO/WHO specifications, REACH — certificate numbers supplied on request
 - Export markets: 50+ countries with export-grade packing
 - Languages: English, Spanish; customer service in EN/CN/FR/ES/AR/DE
@@ -31,10 +31,10 @@ export const LLMS_TXT = `# Agrospear
 ## Services
 
 - [Custom agrochemical formulation development](https://agrospear.com/product-development): the development pipeline — specification, formulation design, pilot production, QC testing, registration support and mass production — for custom agrochemical products.
-- [Private label agrochemical manufacturing](https://agrospear.com/solutions/private-label-agrochemical): produce agrochemical formulations under your own brand — product, label, packaging all carry your identity, no factory branding.
-- [Bulk supply for distributors & importers](https://agrospear.com/solutions/bulk-supply): large-volume agrochemical supply for distributors, importers and trading companies, with flexible packaging and documentation.
-- [Pesticide registration support](https://agrospear.com/solutions/registration-support): registration dossier preparation, FAO/WHO specification compliance data, stability reports and analytical methods for regulatory submission.
-- [Government & institutional procurement](https://agrospear.com/solutions/government-procurement): agrochemical supply for government tender requirements, institutional programs and development projects.
+- [Private label agrochemical manufacturing](https://agrospear.com/solutions/private-label-pesticides): produce agrochemical formulations under your own brand — product, label, packaging all carry your identity, no factory branding.
+- [Bulk supply for distributors & importers](https://agrospear.com/solutions/distributors): large-volume agrochemical supply for distributors, importers and trading companies, with flexible packaging and documentation.
+- [Pesticide registration support](https://agrospear.com/agrochemical-regulation-by-market): registration dossier preparation, FAO/WHO specification compliance data, stability reports and analytical methods for regulatory submission.
+- [Government & institutional procurement](https://agrospear.com/solutions/government-tender): agrochemical supply for government tender requirements, institutional programs and development projects.
 - [OEM manufacturing](https://agrospear.com/oem-manufacturing): manufacture your existing formulation or spec — engineering review, samples, container-scale runs with compliance documentation.
 - [Custom agrochemical MOQ & lead time](https://agrospear.com/agrochemical-oem-moq-lead-time): the MOQ and lead-time framework — samples (1 ton, 7–14 days), pilot orders (5 tons), standard volume (20+ tons per SKU) and production in 25–35 days.
 - [Request a quotation](https://agrospear.com/contact): submit product type, formulation, active ingredient concentration, quantity, packaging, target market and required launch timing for a project quote. The form accepts attached project files (spec sheets, formulation briefs — analytical reports, PDFs and image/vector formats) so a quote can be built from your actual specs.
@@ -58,10 +58,10 @@ export const LLMS_TXT = `# Agrospear
 - [How to choose a reliable agrochemical OEM manufacturer](https://agrospear.com/news/how-to-choose-agrochemical-oem-manufacturer): the factory verification checklist — plant, quality system, certifications and company structure.
 - [Pesticide registration timelines](https://agrospear.com/news/pesticide-registration-timelines): registration process overview, typical timelines, dossier requirements and how an OEM partner supports submissions.
 - [FAO/WHO specification compliance](https://agrospear.com/news/fao-who-specification-compliance): what FAO/WHO specs mean, how they are tested, and why they matter for regulatory approval.
-- [Private label agrochemical guide](https://agrospear.com/news/private-label-agrochemical-guide): the full step-by-step journey from factory choice to production under your brand.
+- [Private label agrochemical guide](https://agrospear.com/news/private-label-agrochemical-oem-guide): the full step-by-step journey from factory choice to production under your brand.
 - [OEM Trust & Factory Assurance — how to verify our factory, people and test data](https://agrospear.com/oem-trust-assurance): entity registration, physical factory audit, real engineers under NDA, QMS documents, third-party inspection and batch test records.
 - [MOQ and pricing for agrochemical OEM](https://agrospear.com/news/agrochemical-oem-moq-pricing): the MOQ tiers (sample, pilot, standard volume) and the cost drivers that decide unit price.
-- [Sample vs pilot vs mass production agrochemical orders — when to use each order stage](https://agrospear.com/news/sample-vs-pilot-vs-mass-production-agrochemical)
+- [Sample vs pilot vs mass production agrochemical orders — when to use each order stage](https://agrospear.com/news/sample-vs-trial-vs-mass-production-agrochemical)
 - [Quality records to audit at an agrochemical OEM factory](https://agrospear.com/news/quality-records-audit-agrochemical-oem)
 - [Agrochemical manufacturing process explained](https://agrospear.com/news/agrochemical-manufacturing-process)
 - [Frequently asked questions](https://agrospear.com/faq)
@@ -69,7 +69,7 @@ export const LLMS_TXT = `# Agrospear
 ## Company
 
 - [About Agrospear](https://agrospear.com/about)
-- [About Agrospear, the parent manufacturing division](https://agrospear.com/about/agrospear)
+- [About Agrospear, the manufacturing division](https://agrospear.com/about/agrospear)
 - [Company entity — the structured overview](https://agrospear.com/about/agrospear-entity): the GEO-facing page that links organization facts, services, factory evidence and knowledge together.
 - [Projects and case studies](https://agrospear.com/projects)
 - [Contact](https://agrospear.com/contact)

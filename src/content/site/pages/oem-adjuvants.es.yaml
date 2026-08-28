@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Adyuvantes y Coformulantes OEM y marca privada | {SITE}'
   description: 'Fabricante de adyuvantes y coformulantes OEM/ODM: producción de formulaciones personalizadas, marca privada y venta al por mayor. Fábrica con certificación ISO 9001 en China.'
   dateModified: '2026-08-07'
@@ -22,7 +22,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'La cantidad mínima de pedido se confirma según la configuración del proyecto: muestra (1–4 toneladas), piloto (5 toneladas sobre plataformas existentes) y volumen estándar (20+ toneladas por lote de producción), con co-branding desde cantidades menores. Las muestras se envían en 7–12 días; la producción en serie tarda 25–35 días tras la confirmación del pedido y el depósito. Documentación ICAMA y FAO/OMS preparada para tus mercados objetivo, y toda la documentación de conformidad incluida en cada pedido.'
+  text: 'La cantidad mínima de pedido se confirma según la configuración del proyecto: muestra (1–4 toneladas), piloto (5 toneladas sobre plataformas existentes) y volumen estándar (20+ toneladas por lote de producción), con co-branding desde cantidades menores. Las muestras se envían en 7–14 días; la producción en serie tarda 25–35 días tras la confirmación del pedido y el depósito. Documentación ICAMA y FAO/OMS preparada para tus mercados objetivo, y toda la documentación de conformidad incluida en cada pedido.'
   verified: '2026-08'
   image:
     src: https://assets.agrospear.com/images/agrospear/products/adjuvant-series/adjuvant-spreadertest-1.webp
@@ -72,9 +72,9 @@ faqs:
   subtitle: 'Respuestas a las preguntas más habituales de las marcas que lanzan su propia línea de adyuvantes.'
   items:
     - title: '¿Cómo creo mi propia marca de adyuvantes?'
-      description: 'Lanza tu marca: briefing, diseño de formulación, prototipo con documentación ICAMA, producción en serie y entrega. Muestras en 7–12 días y producción en 25–35 días a partir del pedido y del depósito. Explora nuestros paquetes OEM.'
+      description: 'Lanza tu marca: briefing, diseño de formulación, prototipo con documentación ICAMA, producción en serie y entrega. Muestras en 7–14 días y producción en 25–35 días a partir del pedido y del depósito. Explora nuestros paquetes OEM.'
     - title: '¿Cuál es el plazo de producción?'
-      description: 'La muestra está lista en 7–12 días y la producción en serie en 25–35 días después del pedido y del depósito, según el volumen.'
+      description: 'La muestra está lista en 7–14 días y la producción en serie en 25–35 días después del pedido y del depósito, según el volumen.'
     - title: '¿El adyuvante lleva nuestra etiqueta?'
       description: 'Sí: marca privada completa con etiquetas personalizadas, marca en tambores, embalaje y fichas de datos de seguridad en tu marca.'
     - title: '¿Puedo comprar en gran volumen desde el primer día?'
@@ -82,7 +82,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Sigue leyendo:</strong> la producción de adyuvantes y formulaciones comparte el mismo <a href="/es/oem-manufacturing">programa OEM/ODM</a> y la misma <a href="/es/manufacturing/factory">planta de 12,500 m&sup2;</a> — un único presupuesto cubre ambos.</p>
+    <p><strong>Sigue leyendo:</strong> la producción de adyuvantes y formulaciones comparte el mismo <a href="/es/oem-manufacturing">programa OEM/ODM</a> y la misma <a href="/es/manufacturing/factory">planta de 20,000 m&sup2;</a> — un único presupuesto cubre ambos.</p>
   </div>
 
 geo:

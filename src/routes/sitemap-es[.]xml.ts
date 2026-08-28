@@ -27,7 +27,15 @@ const handler = () => {
     ...knowledge.es.map((a) => ({ path: `/knowledge/${a.slug}` })),
     ...seriesPages.es.map((s) => ({ path: `/products/${s.slug}` })),
   ]
-  return new Response(buildLocaleSitemap(origin, 'es', [...PUBLIC_PATHS, ...detailEs, ...agrospearEs]), {
+  const entries = [...PUBLIC_PATHS, ...detailEs, ...agrospearEs]
+    .filter((entry, index, all) => all.findIndex((candidate) => {
+      const path = typeof candidate === 'string' ? candidate : candidate.path
+      const currentPath = typeof entry === 'string' ? entry : entry.path
+      return path === currentPath
+    }) === index)
+  return new Response(buildLocaleSitemap(origin, 'es', entries.map((entry) => (
+    typeof entry === 'string' ? { path: entry } : entry
+  ))), {
     headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' },
   })
 }

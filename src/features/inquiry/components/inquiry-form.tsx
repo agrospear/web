@@ -306,15 +306,15 @@ export function InquiryForm({
             <span className="field-hint">{t('inquiry.formulationPlatformHint')}</span>
           </div>
           <div className="field">
-            <Label htmlFor="inq-formulation-type">{t('inquiry.construction')} <span className="req">*</span></Label>
+            <Label htmlFor="inq-formulation-type">{t('inquiry.formulation')} <span className="req">*</span></Label>
             <Select id="inq-formulation-type" name="formulationType" defaultValue="" required>
               <option value="" disabled>{t('inquiry.selectPlaceholder')}</option>
-              <option value="standard">{t('inquiry.constructionOptions.standard')}</option>
-              <option value="premium">{t('inquiry.constructionOptions.premium')}</option>
-              <option value="custom">{t('inquiry.constructionOptions.custom')}</option>
-              <option value="need-rec">{t('inquiry.constructionOptions.need-rec')}</option>
+              <option value="standard">{t('inquiry.formulationOptions.standard')}</option>
+              <option value="premium">{t('inquiry.formulationOptions.premium')}</option>
+              <option value="custom">{t('inquiry.formulationOptions.custom')}</option>
+              <option value="need-rec">{t('inquiry.formulationOptions.need-rec')}</option>
             </Select>
-            <span className="field-hint">{t('inquiry.constructionHint')}</span>
+            <span className="field-hint">{t('inquiry.formulationHint')}</span>
           </div>
           <div className="field">
             <Label htmlFor="inq-packaging">{t('inquiry.packaging')} <span className="req">*</span></Label>

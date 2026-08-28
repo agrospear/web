@@ -1,6 +1,6 @@
 meta:
   title: 'Desarrollo ODM Agroquímico | Diseño de formulación a medida desde tu idea'
-  description: 'Desarrollo ODM de formulaciones agroquímicas en Qingdao: de la idea a la formulación, etiquetado, prototipo y producción en serie — diseño interno, ingeniería de formulaciones y muestras en 7–12 días.'
+  description: 'Desarrollo ODM de formulaciones agroquímicas en Qingdao: de la idea a la formulación, etiquetado, prototipo y producción en serie — diseño interno, ingeniería de formulaciones y muestras en 7–14 días.'
   dateModified: '2026-08-16'
   keywords:
     - 'desarrollo ODM de formulaciones agroquímicas'
@@ -12,11 +12,11 @@ meta:
 hero:
   tagline: Desarrollo ODM
   title: 'Desarrollo ODM Agroquímico — De tu idea a una formulación lista para el mercado'
-  subtitle: '¿Aún no tienes especificación de formulación? Nuestro equipo de I+D diseña la formulación, el sistema de dispersión, el etiquetado y el embalaje alrededor de tu brief — y luego produce, prueba y fabrica en serie. Prototipos en 7–12 días, producción en 25–35 días tras confirmar el pedido.'
+  subtitle: '¿Aún no tienes especificación de formulación? Nuestro equipo de I+D diseña la formulación, el sistema de dispersión, el etiquetado y el embalaje alrededor de tu brief — y luego produce, prueba y fabrica en serie. Prototipos en 7–14 días, producción en 25–35 días tras confirmar el pedido.'
 
 answer:
   label: 'Respuesta directa'
-  text: 'El desarrollo ODM parte de tu brief, no de tu especificación: el diseño de la formulación (ingrediente activo, concentración, tipo de formulación, coadyuvantes), el sistema de dispersión y el etiquetado se ingenian en casa, se validan con muestras de prototipo en 7–12 días y se producen con un MOQ de volumen estándar de 20+ toneladas por lote (pilotos desde 5 toneladas). La producción corre en 25–35 días tras confirmar el pedido y el depósito; el desarrollo de formulación a medida añade 15–20 días. Con cada pedido se envía documentación ISO 9001, ISO 14001, BSCI e ICAMA.'
+  text: 'El desarrollo ODM parte de tu brief, no de tu especificación: el diseño de la formulación (ingrediente activo, concentración, tipo de formulación, coadyuvantes), el sistema de dispersión y el etiquetado se ingenian en casa, se validan con muestras de prototipo en 7–14 días y se producen con un MOQ de volumen estándar de 20+ toneladas por lote (pilotos desde 5 toneladas). La producción corre en 25–35 días tras confirmar el pedido y el depósito; el desarrollo de formulación a medida añade 15–20 días. Con cada pedido se envía documentación ISO 9001, ISO 14001, BSCI e ICAMA.'
   verified: '2026-08'
 
 features:
@@ -36,7 +36,7 @@ features:
       description: 'Las nuevas formulaciones empiezan como proyectos de I+D diseñados y probados en casa — el desarrollo añade 15–20 días al proyecto.'
       icon: 'tabler:shapes'
     - title: Validación con prototipo
-      description: 'Se produce un lote prototipo, se prueba y se envía para tu revisión — normalmente en 7–12 días.'
+      description: 'Se produce un lote prototipo, se prueba y se envía para tu revisión — normalmente en 7–14 días.'
       icon: 'tabler:tools'
     - title: Ensayos y cumplimiento
       description: 'Ensayos por lote de estabilidad, análisis de contenido y propiedades físicas, con documentación ISO 9001, ISO 14001, BSCI e ICAMA para exportación.'
@@ -71,7 +71,7 @@ faq_section:
     - q: 'Solo tengo una idea aproximada — ¿por dónde empezamos?'
       a: 'Envía un brief corto: cultivo objetivo, perfil de plagas, concentración aproximada, mercados y volúmenes. Nuestro equipo de I+D vuelve con un concepto de formulación, una dirección de productos de referencia y un plan de desarrollo en un día laborable — se firma un NDA antes de cualquier intercambio detallado cuando lo pidas.'
     - q: '¿Cuánto tarda el desarrollo de una formulación agroquímica nueva?'
-      a: 'Las muestras de prototipo salen en 7–12 días. Una formulación nueva con desarrollo a medida añade 15–20 días de I+D antes de las muestras. La producción corre en 25–35 días tras el pedido y el depósito.'
+      a: 'Las muestras de prototipo salen en 7–14 días. Una formulación nueva con desarrollo a medida añade 15–20 días de I+D antes de las muestras. La producción corre en 25–35 días tras el pedido y el depósito.'
     - q: '¿Cuál es el MOQ de una formulación ODM?'
       a: 'La producción de volumen estándar corre de 20+ toneladas por lote; los pilotos parten de 5 toneladas sobre plataformas existentes. El co-branding de lotes pequeños parte de 1–4 toneladas — consulta nuestra Guía de MOQ y branding flexible para el cálculo completo.'
     - q: '¿Quién es el dueño de la formulación y los datos de desarrollo?'
@@ -105,7 +105,7 @@ process:
         - 'Los términos de propiedad de la formulación se fijan en el contrato antes de empezar el desarrollo.'
     - phase: '04'
       title: Prototipo y muestra
-      period: 7–12 días
+      period: 7–14 días
       items:
         - 'Se produce un lote prototipo, se prueba y se envía para tu revisión — datos de composición y eficacia incluidos.'
         - 'La muestra (1–4 toneladas) valida formulación, estabilidad y branding antes del volumen.'

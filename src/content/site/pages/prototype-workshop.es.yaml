@@ -1,13 +1,13 @@
 meta:
   title: 'Taller de Prototipos | Producción de Lote Piloto | Fabricante OEM China | {SITE}'
-  description: 'De la especificación a la formulación de muestra probada en 7–12 días: nuestro Laboratorio de Formulación compone, analiza y valida muestras agroquímicas personalizadas.'
+  description: 'De la especificación a la formulación de muestra probada en 7–14 días: nuestro Laboratorio de Formulación compone, analiza y valida muestras agroquímicas personalizadas.'
   dateModified: '2026-08'
   back_text: 'Volver al Centro de I+D'
   home_label: 'Inicio'
 
 answer:
   label: 'Respuesta directa'
-  text: 'Convertimos una especificación de producto en una formulación de muestra probada y validada en 7–12 días: química de formulación, ensayos de estabilidad, validación de propiedades físicas y compromiso de producción posterior. El desarrollo completo de una formulación a medida requiere 15–20 días además del plazo estándar de 25–35 días de producción en serie.'
+  text: 'Convertimos una especificación de producto en una formulación de muestra probada y validada en 7–14 días: química de formulación, ensayos de estabilidad, validación de propiedades físicas y compromiso de producción posterior. El desarrollo completo de una formulación a medida requiere 15–20 días además del plazo estándar de 25–35 días de producción en serie.'
   verified: '2026-08'
 
 hero:
@@ -21,7 +21,7 @@ intro: 'Una especificación, por muy detallada que sea, no puede revelar cómo s
 
 content_html: |
   <h2>Donde la especificación se convierte en producto</h2>
-  <p>El laboratorio está equipado para la formulación simultánea, el análisis y la evaluación de estabilidad. Este enfoque de trabajo concurrente reduce el plazo de entrega de la muestra a 7–12 días desde la aprobación de la especificación. Cuando tu aplicación exige una solución especializada, podemos pasar del concepto a la muestra validada en menos de tres semanas.</p>
+  <p>El laboratorio está equipado para la formulación simultánea, el análisis y la evaluación de estabilidad. Este enfoque de trabajo concurrente reduce el plazo de entrega de la muestra a 7–14 días desde la aprobación de la especificación. Cuando tu aplicación exige una solución especializada, podemos pasar del concepto a la muestra validada en menos de tres semanas.</p>
 
   <h2>Capacidades del taller</h2>
   <table>

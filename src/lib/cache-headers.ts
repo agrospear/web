@@ -14,6 +14,7 @@
 
 const HASHED_ASSET = /^\/assets\/[^/]+-[0-9A-Za-z_-]{8,}\.(?:js|mjs|css)$/
 const FONT = /^\/fonts\/[^/]+\.woff2$/
+const PUBLIC_DOCUMENT = /^\/(?:downloads|images)\/qcqa\/[^/]+\.(?:pdf|jpe?g|png|webp)$/i
 // Un-hashed public images (e.g. /assets/products/2026/...). No fingerprint in
 // the URL, so keep it short: cache 7 days, refresh sooner on release.
 const STATIC_PUBLIC = /^\/assets\//
@@ -81,6 +82,8 @@ export function withStaticCache(request: Request, response: Response): Response 
     headers.set('Cache-Control', 'public, max-age=31536000, immutable')
   } else if (FONT.test(path)) {
     headers.set('Cache-Control', 'public, max-age=604800')
+  } else if (PUBLIC_DOCUMENT.test(path)) {
+    headers.set('Cache-Control', 'public, max-age=604800, stale-while-revalidate=86400')
   } else if (STATIC_PUBLIC.test(path)) {
     headers.set('Cache-Control', 'public, max-age=604800')
   } else {

@@ -21,7 +21,7 @@ answer:
 
 intro:
   - Cada producto agroquímico fabricado en Agrospear sigue un flujo de producción definido — desde la recepción de materias primas hasta la mezcla, el procesamiento de formulación, el llenado, el etiquetado, los ensayos de calidad y el embalaje de exportación. Cada etapa incluye puntos de control de calidad obligatorios con criterios de aprobación/rechazo documentados en nuestro sistema ERP.
-  - Nuestra planta de 12.500 m² alberga talleres dedicados para cada etapa de producción, con más de 350 trabajadores en dos turnos. El enfoque integrado significa que cada lote es producido, probado y enviado por un solo equipo bajo un solo sistema de calidad.
+  - Nuestra planta de 20.000 m² alberga talleres dedicados para cada etapa de producción, con más de 350 trabajadores en dos turnos. El enfoque integrado significa que cada lote es producido, probado y enviado por un solo equipo bajo un solo sistema de calidad.
 
 manufacturing_process:
   tagline: Etapas de Producción
@@ -86,7 +86,7 @@ faqs:
     - q: '¿Cuál es el volumen mínimo de producción?'
       a: 'Los lotes piloto parten de 5 toneladas sobre plataformas existentes. La producción de volumen estándar corre de 20+ toneladas por lote. Las muestras de 1–4 toneladas están disponibles para ensayos de registro y evaluación de producto.'
     - q: '¿Cuánto tarda la producción?'
-      a: 'El plazo estándar de producción es de 25–35 días desde el PO confirmado y el depósito. El desarrollo de formulación a medida añade 15–20 días. Las muestras de prototipo se envían en 7–12 días.'
+      a: 'El plazo estándar de producción es de 25–35 días desde el PO confirmado y el depósito. El desarrollo de formulación a medida añade 15–20 días. Las muestras de prototipo se envían en 7–14 días.'
     - q: '¿Se prueba la calidad de cada lote?'
       a: 'Sí. El 100% de los lotes de producción se someten a ensayos de estabilidad a 54 °C durante 14 días, verificación de contenido activo por HPLC/GC y comprobaciones completas de especificaciones antes de la liberación. Nuestro laboratorio de calidad opera de forma independiente de la producción.'
 

@@ -14,7 +14,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'El MOQ se confirma según la configuración del proyecto: los socios distribuidores empiezan con una muestra (1–4 toneladas) o un lote piloto (5 toneladas, muestras en 7–12 días), escalan a una producción de volumen estándar de 20+ toneladas por lote (25–35 días tras el PO y el depósito) o invierten en una formulación a medida para líneas de producto totalmente personalizadas (I+D añade 10–15 días). Cada lote se prueba en estabilidad y se analiza en contenido antes del envío, con condiciones FOB, CIF o DDP desde Qingdao.'
+  text: 'El MOQ se confirma según la configuración del proyecto: los socios distribuidores empiezan con una muestra (1–4 toneladas) o un lote piloto (5 toneladas, muestras en 7–14 días), escalan a una producción de volumen estándar de 20+ toneladas por lote (25–35 días tras el PO y el depósito) o invierten en una formulación a medida para líneas de producto totalmente personalizadas (I+D añade 10–15 días). Cada lote se prueba en estabilidad y se analiza en contenido antes del envío, con condiciones FOB, CIF o DDP desde Qingdao.'
   verified: '2026-08'
 
 margin_section:
@@ -23,7 +23,7 @@ margin_section:
   items:
     - tier: 'Etapa de Muestra'
       moq: '1–4 toneladas'
-      margin_note: 'Plazo de la muestra de 7–12 días'
+      margin_note: 'Plazo de la muestra de 7–14 días'
       features:
         - 'Desarrollo de formulación a partir de tus requisitos'
         - 'Muestra física para su aprobación'

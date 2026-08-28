@@ -18,7 +18,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'La cadena afirmación-evidencia es: cada afirmación de este sitio está respaldada por un registro, un certificado, una máquina, un documento o un registro de prueba — y cada uno de ellos puede revisarse. Agrospear es la división de desarrollo y fabricación agroquímica de Agrospear, la división de fabricación de Qingdao Vatrad Group Co., Ltd. (registrada en Qingdao desde 2012). La planta de 12,500 m² cuenta con gestión de calidad ISO 9001:2015, gestión medioambiental ISO 14001, documentación de registro ICAMA, cumplimiento social BSCI (informe de auditoría bajo petición) y documentación de registro ICAMA y COA de materias primas por pedido. Cada lote se prueba para verificar el contenido de ingrediente activo, las propiedades físicas y la estabilidad con auto-rechazo por encima de los límites de especificación, y los registros de lote se conservan con trazabilidad ERP de 5 años. La documentación se publica o se comparte, y la fábrica misma está abierta a auditorías.'
+  text: 'La cadena afirmación-evidencia es: cada afirmación de este sitio está respaldada por un registro, un certificado, una máquina, un documento o un registro de prueba — y cada uno de ellos puede revisarse. Agrospear es la división de desarrollo y fabricación agroquímica de Agrospear, la división de fabricación de Qingdao Vatrad Group Co., Ltd. (registrada en Qingdao desde 2012). La planta de 20,000 m² cuenta con gestión de calidad ISO 9001:2015, gestión medioambiental ISO 14001, documentación de registro ICAMA, cumplimiento social BSCI (informe de auditoría bajo petición) y documentación de registro ICAMA y COA de materias primas por pedido. Cada lote se prueba para verificar el contenido de ingrediente activo, las propiedades físicas y la estabilidad con auto-rechazo por encima de los límites de especificación, y los registros de lote se conservan con trazabilidad ERP de 5 años. La documentación se publica o se comparte, y la fábrica misma está abierta a auditorías.'
   verified: '2026-08'
 
 entities:
@@ -41,15 +41,15 @@ entities:
     - icon: V
       icon_bg: orange
       title: 'Qingdao Vatrad Group Co., Ltd. — la entidad legal'
-      desc: 'El fabricante registrado (desde 2012) que opera la planta de 12,500 m² en la Zona de Desarrollo Económico de Laixi, Qingdao. Los datos de registro, la licencia de comercio exterior y los registros de auditoría se comparten bajo NDA o durante una auditoría.'
+      desc: 'El fabricante registrado (desde 2012) que opera la planta de 20,000 m² en la Zona de Desarrollo Económico de Laixi, Qingdao. Los datos de registro, la licencia de comercio exterior y los registros de auditoría se comparten bajo NDA o durante una auditoría.'
       link: '/es/oem-trust-assurance'
       link_label: 'Ver el caso de verificación'
 
 proof_stats:
-  - value: '12,500 m²'
+  - value: '20,000 m²'
     label: 'Una sola planta'
     detail: '6 talleres especializados, abiertos a auditorías'
-  - value: '350+'
+  - value: '200+'
     label: 'Trabajadores en planta'
     detail: '25+ ingenieros en I+D, formulación y calidad'
   - value: '50,000+'
@@ -116,6 +116,12 @@ evidence_gates:
       desc: 'HPLC y GC para contenido de ingrediente activo, analizador de tamaño de partícula láser, viscosímetro, pH-metro y cámaras de estabilidad — los instrumentos que verifican formulaciones y materias primas.'
       link: '/es/manufacturing/factory/quality-lab'
       link_label: 'Abrir el laboratorio'
+    - icon: D
+      icon_bg: purple
+      title: 'Biblioteca pública de documentos QC/QA'
+      desc: 'Dossiers descargables de procesos e inspección para SC/WDG, herbicidas, insecticidas, fungicidas, acaricidas/nematicidas y PGR, además de evidencias IQC, IPQC, FQC/OQC y trazabilidad.'
+      link: '/es/manufacturing/qcqa-documents'
+      link_label: 'Abrir biblioteca documental'
     - icon: T
       icon_bg: purple
       title: 'Trazabilidad y cuarentena'

@@ -24,7 +24,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'A typical OEM onboarding takes 2–4 weeks for sample approval and 6–8 weeks for first production run from confirmed PO. You start by submitting a project brief (active ingredient, concentration, formulation type, compliance needs). We respond within one business day, offer an NDA before you share proprietary details, and produce 1–4 ton prototype samples in 7–12 days for your review and approval. Once the sample is frozen, production planning and manufacturing follow with fixed QC gates at each stage. Every step is documented and traceable.'
+  text: 'A typical OEM onboarding takes 2–4 weeks for sample approval and 6–8 weeks for first production run from confirmed PO. You start by submitting a project brief (active ingredient, concentration, formulation type, compliance needs). We respond within one business day, offer an NDA before you share proprietary details, and produce 1–4 ton prototype samples in 7–14 days for your review and approval. Once the sample is frozen, production planning and manufacturing follow with fixed QC gates at each stage. Every step is documented and traceable.'
   verified: '2026-08'
 
 process_steps:
@@ -102,11 +102,11 @@ faqs:
   title: 'OEM Onboarding — Frequently Asked Questions'
   items:
     - q: 'How long does the full onboarding process take?'
-      a: 'Sample approval typically takes 2–4 weeks (including sample production in 7–12 days and your review period). First production run takes 6–8 weeks from confirmed PO and deposit. A custom formulation adds 15–20 days of development. Every gate has a fixed timeline you agree in advance.'
+      a: 'Sample approval typically takes 2–4 weeks (including sample production in 7–14 days and your review period). First production run takes 6–8 weeks from confirmed PO and deposit. A custom formulation adds 15–20 days of development. Every gate has a fixed timeline you agree in advance.'
     - q: 'Do I need to sign an NDA before sharing my formulation?'
       a: 'An NDA is available immediately upon request — before you share any proprietary formulation specifications or label designs. We manufacture exclusively under the brands of our clients and never compete with them in any market. The same policy applies to a sample batch as to a container program.'
     - q: 'What is the minimum order for a first OEM run?'
-      a: 'The entry point is tiered: 1–4 ton samples first (ready in 7–12 days), a trial or pilot order of 5 tons (production in 25–35 days), then standard volume runs of 20+ tons per approved configuration. Small-batch co-branding starts from lower quantities when no development stage is needed. Sample fees are credited toward your production order.'
+      a: 'The entry point is tiered: 1–4 ton samples first (ready in 7–14 days), a trial or pilot order of 5 tons (production in 25–35 days), then standard volume runs of 20+ tons per approved configuration. Small-batch co-branding starts from lower quantities when no development stage is needed. Sample fees are credited toward your production order.'
     - q: 'How is IP protection handled during onboarding?'
       a: 'Your formulations and specifications are protected under the NDA signed before any proprietary information is shared. All label designs, BOM data and technical files are stored in access-controlled systems with audit trails. In OEM mode, you own all IP. In ODM mode, the adapted platform IP is shared per agreement. In Private Label mode, IP remains with Agrospear and you license the brand application.'
     - q: 'What quality guarantees apply to a first order?'

@@ -1,18 +1,18 @@
 import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND } from '@/config/branding'
 
 export const LLM_SITE_DESCRIPTION =
-  `{SITE} is the agrochemical product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}), a 12,500 m² agrochemical formulation plant in Qingdao, China. We build agrochemical formulations to your specification — engineering, formulation, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. MOQ is confirmed after specification review: 1–4 t sample batches on existing platforms, 5 t pilot batches with custom specifications, and 20+ t standard production per approved configuration (subject to formulation and packaging requirements); custom formulations run at the volume tier. A production batch yields different batch volumes depending on formulation type, concentration and packaging layout. Samples are ready in 7–12 days; bulk production 25–35 days after confirmed PO and deposit. All pricing, certification scope and lead times are project-confirmed — request a quote for your specific requirements.`
+  `{SITE} is the agrochemical product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}), a 20,000 m² agrochemical formulation plant in Qingdao, China. We build agrochemical formulations to your specification — engineering, formulation, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing. We do not sell to end consumers and we do not compete with our clients in any market. MOQ is confirmed after specification review: 1–4 t sample batches on existing platforms, 5 t pilot batches with custom specifications, and 20+ t standard production per approved configuration (subject to formulation and packaging requirements); custom formulations run at the volume tier. A production batch yields different batch volumes depending on formulation type, concentration and packaging layout. Samples are ready in 7–14 days; bulk production 25–35 days after confirmed PO and deposit. All pricing, certification scope and lead times are project-confirmed — request a quote for your specific requirements.`
 
 export const LLM_FACT_BLOCK =
   `## Verified Business Facts (Last verified: 2026-08-20)
 
 - Legal entity: ${BRAND_COMPANY_NAME}
 - Brand: ${BRAND_PARENT_BRAND} / {SITE} (agrochemical manufacturing division)
-- Facility: 12,500 m² in-house plant in Qingdao, Shandong, China (Economic Development Zone, Laixi, 266600)
-- Employees: 350+
+- Facility: 20,000 m² in-house plant in Qingdao, Shandong, China (Economic Development Zone, Laixi, 266600)
+- Employees: 200+
 - Annual capacity: 50,000+ t (6 production lines, SC/EC/WP/WDG/SL/ME/CS/FS)
 - MOQ tiers: 1–4 t sample batch (existing formulation) · 5 t pilot batch (custom specifications) · 20+ t per approved configuration for standard production (subject to formulation and packaging requirements). Each SKU (formulation/concentration) = separate batch = separate MOQ. Production batch yields vary depending on formulation type and concentration; the 20+ t figure represents the minimum batch per configuration.
-- Sample lead time: 7–12 days
+- Sample lead time: 7–14 days
 - Production lead time: 25–35 days after confirmed PO and deposit
 - Quality gates: 7-stage quality gates, 100% batch analysis, CIPAC stability and specification testing (non-conformance = quarantine and disposition)
 - Certifications: ICAMA Production License, ISO 9001 (facility QMS), ISO 14001, BSCI (facility, amfori), FAO/WHO, REACH compliance. Certificate numbers and validity available per project on request. Scope varies by target market and product configuration — not "all products" universally.
@@ -81,8 +81,8 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
   en: [
     { url: '/', title: 'Agrospear — Agrochemical OEM & ODM Manufacturing', excerpt: 'Qingdao agrochemical OEM/ODM factory: product development, custom manufacturing, private label and quality control for crop protection brands.' },
     { url: '/products', title: 'Agrochemical Product Range', excerpt: 'Premium agrochemical formulations: insecticides, herbicides, fungicides and more — built for OEM/ODM customization in SC, EC, WP, WDG, SL, ME, CS, FS.' },
-    { url: '/manufacturing', title: 'Manufacturing', excerpt: 'Agrospear manufacturing hub: 12,500 m² agrochemical factory, OEM/ODM production, quality control and factory evidence for crop protection brands.' },
-    { url: '/manufacturing/factory', title: 'Factory & Manufacturing', excerpt: 'Tour the Agrospear factory: 12,500 m² plant with compounding, grinding, filling, labeling, and quality lab for agrochemical OEM/ODM manufacturing.' },
+    { url: '/manufacturing', title: 'Manufacturing', excerpt: 'Agrospear manufacturing hub: 20,000 m² agrochemical factory, OEM/ODM production, quality control and factory evidence for crop protection brands.' },
+    { url: '/manufacturing/factory', title: 'Factory & Manufacturing', excerpt: 'Tour the Agrospear factory: 20,000 m² plant with compounding, grinding, filling, labeling, and quality lab for agrochemical OEM/ODM manufacturing.' },
     { url: '/manufacturing/agrochemical-manufacturing', title: 'Agrochemical Manufacturing', excerpt: 'End-to-end agrochemical manufacturing: formulation development, compounding, filling, labeling, QC and export for crop protection brands.' },
     { url: '/solutions', title: 'Solutions', excerpt: 'OEM/ODM agrochemical manufacturing programs: custom formulation development, private label, government procurement and agricultural cooperatives.' },
     { url: '/solutions/agrochemical-oem', title: 'Agrochemical OEM Manufacturing', excerpt: 'Agrochemical OEM manufacturing: custom formulation, private label, contract production for crop protection brands. ISO 9001 factory, ICAMA registered.' },
@@ -111,8 +111,8 @@ export const HUB_PAGE_ENTRIES: Record<string, { url: string; title: string; exce
   es: [
     { url: '/es', title: 'Agrospear — Fabricación OEM y ODM agroquímica', excerpt: 'Fábrica OEM/ODM agroquímica en Qingdao: desarrollo de producto, producción a medida, marca privada y control de calidad.' },
     { url: '/es/products', title: 'Gama de productos agroquímicos', excerpt: 'Formulaciones agroquímicas premium: insecticidas, herbicidas, fungicidas y más — fabricación OEM/ODM a medida en SC, EC, WP, WDG, SL, ME, CS, FS.' },
-    { url: '/es/manufacturing', title: 'Fabricación', excerpt: 'Hub de fabricación Agrospear: fábrica agroquímica de 12.500 m², producción OEM/ODM, control de calidad y evidencia de fábrica.' },
-    { url: '/es/manufacturing/factory', title: 'Fábrica y fabricación', excerpt: 'Visita la fábrica Agrospear: planta de 12.500 m² con mezclado, molienda, llenado, etiquetado y laboratorio de calidad.' },
+    { url: '/es/manufacturing', title: 'Fabricación', excerpt: 'Hub de fabricación Agrospear: fábrica agroquímica de 20.000 m², producción OEM/ODM, control de calidad y evidencia de fábrica.' },
+    { url: '/es/manufacturing/factory', title: 'Fábrica y fabricación', excerpt: 'Visita la fábrica Agrospear: planta de 20.000 m² con mezclado, molienda, llenado, etiquetado y laboratorio de calidad.' },
     { url: '/es/manufacturing/agrochemical-manufacturing', title: 'Fabricación agroquímica', excerpt: 'Fabricación agroquímica integral: desarrollo de formulación, mezclado, llenado, etiquetado, QC y exportación.' },
     { url: '/es/solutions', title: 'Soluciones', excerpt: 'Programas de fabricación OEM/ODM agroquímica: desarrollo de formulación a medida, marca privada, adquisición gubernamental y cooperativas agrícolas.' },
     { url: '/es/solutions/agrochemical-oem', title: 'Fabricación OEM agroquímica', excerpt: 'Fabricación OEM agroquímica: formulación a medida, marca privada, producción por contrato. Fábrica ISO 9001, ICAMA registrada.' },

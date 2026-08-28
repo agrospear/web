@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Agrospear develops custom agrochemical formulations at its Qingdao R&D center: formulation design, co-formulant optimization, prototype production, stability testing and registration documentation. Custom development adds 15–20 days to project timelines. Prototype samples in 7–12 days. MOQ from 5-ton pilot to 20+ ton standard production, shipped to 50+ countries.'
+  text: 'Agrospear develops custom agrochemical formulations at its Qingdao R&D center: formulation design, co-formulant optimization, prototype production, stability testing and registration documentation. Custom development adds 15–20 days to project timelines. Prototype samples in 7–14 days. MOQ from 5-ton pilot to 20+ ton standard production, shipped to 50+ countries.'
   verified: '2026-08'
 
 intro:
@@ -70,7 +70,7 @@ faqs:
   title: 'Custom Formulation — Frequently Asked Questions'
   items:
     - q: 'How long does custom formulation development take?'
-      a: 'Custom development adds 15–20 days to the standard project timeline. Prototype samples are typically ready in 7–12 days from confirmed specification. Full cycle from brief to first production is typically 8–12 weeks.'
+      a: 'Custom development adds 15–20 days to the standard project timeline. Prototype samples are typically ready in 7–14 days from confirmed specification. Full cycle from brief to first production is typically 8–12 weeks.'
     - q: 'Who owns the formulation IP?'
       a: 'IP ownership is agreed at the project briefing stage. On ODM projects, the formulation is typically licensed for your exclusive use in agreed territories. On OEM projects, you retain full IP ownership.'
     - q: 'What formulation types can be developed?'
@@ -105,7 +105,7 @@ related:
     - icon: M
       icon_bg: orange
       title: 'Factory'
-      desc: '12,500 m² facility with dedicated formulation lines, pilot plant and analytical lab.'
+      desc: '20,000 m² facility with dedicated formulation lines, pilot plant and analytical lab.'
       link_label: 'View factory'
       href: /manufacturing/factory
 

@@ -1,6 +1,6 @@
 meta:
   title: 'Pedido de Prueba Agroquímico Bajo MOQ | Fabricante OEM China | {SITE}'
-  description: 'Lanza tu marca agroquímica con pedido de prueba bajo MOQ: lotes de muestra en 7–12 días, piloto de 5 toneladas, producción en 25–35 días. Branding y QC incluidos.'
+  description: 'Lanza tu marca agroquímica con pedido de prueba bajo MOQ: lotes de muestra en 7–14 días, piloto de 5 toneladas, producción en 25–35 días. Branding y QC incluidos.'
   dateModified: '2026-08-16'
   keywords:
     - 'crear una marca agroquímica'
@@ -20,11 +20,11 @@ hero:
       text: Empieza Tu Lanzamiento con un Lote de Muestra
       href: /es/contact#custom-oem
     - text: Consulta el marco completo de MOQ y plazos
-      href: /es/oem-agrochemical-moq
+      href: /es/oem-moq-guide
 
 answer:
   label: 'Respuesta directa'
-  text: 'Sí — puedes lanzar una marca agroquímica con un pedido de prueba de bajo MOQ. El punto de entrada es escalonado, no de todo o nada: pide primero un lote de muestra de 1–4 toneladas (listo en 7–12 días) para congelar tu formulación, etiquetado y embalaje; luego haz un pedido piloto de 5 toneladas (producción en 25–35 días) para validar la rotación real; y finalmente escala a series de volumen estándar de 20+ toneladas por lote cuando el formato esté probado. El co-branding de lotes pequeños parte desde cantidades menores para operadores que quieren productos con su marca sin ninguna etapa de desarrollo. Tu primer pedido de volumen llega solo cuando los datos dicen que debe llegar.'
+  text: 'Sí — puedes lanzar una marca agroquímica con un pedido de prueba de bajo MOQ. El punto de entrada es escalonado, no de todo o nada: pide primero un lote de muestra de 1–4 toneladas (listo en 7–14 días) para congelar tu formulación, etiquetado y embalaje; luego haz un pedido piloto de 5 toneladas (producción en 25–35 días) para validar la rotación real; y finalmente escala a series de volumen estándar de 20+ toneladas por lote cuando el formato esté probado. El co-branding de lotes pequeños parte desde cantidades menores para operadores que quieren productos con su marca sin ninguna etapa de desarrollo. Tu primer pedido de volumen llega solo cuando los datos dicen que debe llegar.'
   verified: '2026-08'
 
 trial_included:
@@ -56,7 +56,7 @@ trial_included:
     - icon: T
       icon_bg: green
       title: 'Un Calendario Con el Que Puedes Planificar'
-      desc: 'Lotes de muestra en 7–12 días, producción piloto en 25–35 días tras confirmar PO y depósito, y cupos de producción confirmados para pedidos de pretemporada — para que un lanzamiento llegue en temporada, no después.'
+      desc: 'Lotes de muestra en 7–14 días, producción piloto en 25–35 días tras confirmar PO y depósito, y cupos de producción confirmados para pedidos de pretemporada — para que un lanzamiento llegue en temporada, no después.'
 
 trial_steps:
   tagline: La Hoja de Ruta del Lanzamiento
@@ -149,9 +149,9 @@ trial_faqs:
   title: 'Preguntas Frecuentes Sobre Lanzar con un Pedido de Prueba'
   items:
     - q: '¿De verdad puedo lanzar una marca agroquímica sin un pedido de volumen?'
-      a: 'Sí. El punto de entrada es escalonado: lotes de muestra de 1–4 toneladas validan la formulación (listos en 7–12 días), un pedido piloto de 5 toneladas valida el mercado (producción en 25–35 días) y las series de volumen de 20+ toneladas por lote llegan solo cuando la rotación demuestra el formato. El co-branding de lotes pequeños parte desde cantidades menores cuando quieres productos con tu marca sin ninguna etapa de desarrollo.'
+      a: 'Sí. El punto de entrada es escalonado: lotes de muestra de 1–4 toneladas validan la formulación (listos en 7–14 días), un pedido piloto de 5 toneladas valida el mercado (producción en 25–35 días) y las series de volumen de 20+ toneladas por lote llegan solo cuando la rotación demuestra el formato. El co-branding de lotes pequeños parte desde cantidades menores cuando quieres productos con tu marca sin ninguna etapa de desarrollo.'
     - q: '¿Cuánto tarda un lanzamiento completo, de principio a fin?'
-      a: 'Usando plataformas de formulación existentes, un primer lanzamiento típico corre en 8–12 semanas desde el brief de producto hasta el pedido piloto entregado: lotes de muestra en 7–12 días y producción piloto en 25–35 días tras confirmar PO y depósito. Una formulación a medida añade 15–20 días de desarrollo de I+D.'
+      a: 'Usando plataformas de formulación existentes, un primer lanzamiento típico corre en 8–12 semanas desde el brief de producto hasta el pedido piloto entregado: lotes de muestra en 7–14 días y producción piloto en 25–35 días tras confirmar PO y depósito. Una formulación a medida añade 15–20 días de desarrollo de I+D.'
     - q: '¿Qué incluye el precio — y qué no incluye?'
       a: 'Los rangos de referencia son EXW Qingdao para el producto formulado, incluida la aplicación de etiquetado y el control de calidad estándar. Son indicativos: la cotización final se confirma según tu configuración — ingrediente activo, tipo de formulación, cobertura de etiqueta, embalaje y cantidad — antes de cualquier compromiso. El flete, los aranceles y el despacho aduanero de destino se cotizan por separado.'
     - q: '¿Tengo que comprar 20 toneladas para poner mi marca en la etiqueta?'
@@ -169,7 +169,7 @@ cta:
       text: Empieza Tu Lanzamiento
       href: /es/contact#custom-oem
     - text: Entiende primero el MOQ y los plazos del agroquímico personalizado
-      href: /es/oem-agrochemical-moq
+      href: /es/oem-moq-guide
     - text: La guía de branding flexible y MOQ
       href: /es/oem-moq-guide
     - text: Verifica la fábrica y el sistema de calidad

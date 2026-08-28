@@ -108,7 +108,7 @@ regulation_overview:
       title: 'COLEACP Compliance'
       desc: 'Good Practices protocols for export-grade cocoa, fruit and vegetable formulations. Documentation aligned with EU MRL requirements for African export crops.'
       link_label: 'View certifications'
-      href: /agrochemical-certification-guide
+      href: /manufacturing/quality-control
 
 faqs:
   tagline: FAQ
@@ -154,7 +154,7 @@ related:
     - icon: M
       icon_bg: green
       title: 'Factory & Quality Control'
-      desc: '12,500 m² manufacturing facility with 7-stage QC system, GLP-certified lab and 100% batch analysis.'
+      desc: '20,000 m² manufacturing facility with 7-stage QC system, GLP-certified lab and 100% batch analysis.'
       link_label: 'View factory'
       href: /manufacturing/factory
 

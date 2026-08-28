@@ -56,7 +56,7 @@ describe('buildAskPrompt', () => {
 
 describe('matchFaq', () => {
   const faqs = [
-    { q: 'Where is your company and factory located?', a: 'We are based in Qingdao, China. A 12,500 m² agrochemical formulation plant in the Laixi Economic Development Zone, producing since 2012.' },
+    { q: 'Where is your company and factory located?', a: 'We are based in Qingdao, China. A 20,000 m² agrochemical formulation plant in the Laixi Economic Development Zone, producing since 2012.' },
     { q: 'What is the minimum order quantity (MOQ) for OEM agrochemical formulations?', a: 'Minimum order quantity is 20+ tons per standard production run.' },
     { q: 'How long does a sample take?', a: 'Samples ship in 7–12 days.' },
     { q: 'What is the lead time for OEM production?', a: 'Standard OEM production lead time is 25–35 days from confirmed PO.' },
@@ -170,7 +170,7 @@ describe('buildChunks', () => {
   })
   test('yaml page section text is chunked (e.g. factory capacity numbers)', () => {
     const chunks = buildChunks('en')
-    expect(chunks.some((c) => c.text.includes('12,500'))).toBe(true)
+    expect(chunks.some((c) => c.text.includes('20,000 m²'))).toBe(true)
   })
   test('full-body corpus is substantially larger than the summary-only one', () => {
     expect(buildChunks('en').length).toBeGreaterThan(300)

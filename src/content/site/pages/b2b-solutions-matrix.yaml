@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'B2B Agrochemical Solutions Matrix | OEM Manufacturer China | {SITE}'
   description: 'Complete Agrospear B2B client solutions matrix covering 24 customer types — from agrochemical startups to government procurement agencies.'
   dateModified: '2026-08'
@@ -17,7 +17,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'One factory serves every B2B route: OEM/ODM manufacturing with project-confirmed MOQ (sample 1–4 tons, pilot 5 tons, standard volume 20+ tons per batch; co-branding from lower quantities), private label on proven platforms, wholesale distribution and fleet programs for distributors and cooperatives. Every customer type maps to a specific solution set — samples in 7–12 days, production 25–35 days after PO and deposit.'
+  text: 'One factory serves every B2B route: OEM/ODM manufacturing with project-confirmed MOQ (sample 1–4 tons, pilot 5 tons, standard volume 20+ tons per batch; co-branding from lower quantities), private label on proven platforms, wholesale distribution and fleet programs for distributors and cooperatives. Every customer type maps to a specific solution set — samples in 7–14 days, production 25–35 days after PO and deposit.'
   verified: '2026-08'
 
 solutions:
@@ -134,5 +134,5 @@ cta:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p>Every route on this matrix starts with the same two things: our <a href="/oem-manufacturing">OEM/ODM manufacturing program</a> and the <a href="/manufacturing/factory">factory behind it</a> — one 12,500 m&sup2; plant, one set of quality standards, every channel served.</p>
+    <p>Every route on this matrix starts with the same two things: our <a href="/oem-manufacturing">OEM/ODM manufacturing program</a> and the <a href="/manufacturing/factory">factory behind it</a> — one 20,000 m&sup2; plant, one set of quality standards, every channel served.</p>
   </div>

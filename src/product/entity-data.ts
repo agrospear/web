@@ -1,10 +1,10 @@
-import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND } from '@/config/branding'
+import { BRAND_COMPANY_NAME, BRAND_PARENT_BRAND, getBrandSocial } from '@/config/branding'
 
 export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = {
   en: [
     { label: 'Brand', value: 'Agrospear — agrochemical manufacturing and export division' },
     { label: 'Legal entity', value: BRAND_COMPANY_NAME },
-    { label: 'Brand relationship', value: `Agrospear is the agrochemical division of Agrospear (${BRAND_PARENT_BRAND}), which is operated by ${BRAND_COMPANY_NAME}. Agrospear covers crop protection product formulation and manufacturing; Agrospear focuses exclusively on agrochemical OEM, ODM & private label manufacturing.` },
+    { label: 'Brand relationship', value: `Agrospear is the agrochemical manufacturing division and buyer-facing brand operated by ${BRAND_COMPANY_NAME} (${BRAND_PARENT_BRAND}). It focuses exclusively on crop protection product formulation, OEM, ODM and private-label manufacturing.` },
     { label: 'Product focus', value: 'Agrochemical formulation & manufacturing — OEM, ODM & private label' },
     { label: 'Factories', value: '20,000 m² in-house plant in Qingdao, China' },
     { label: 'Minimum order', value: 'Tiered: 1 ton (existing) · 5 tons (pilot) · 20+ tons (volume) per approved formulation' },
@@ -14,7 +14,7 @@ export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = 
   es: [
     { label: 'Marca', value: 'Agrospear — división de fabricación y exportación de agroquímicos' },
     { label: 'Entidad legal', value: BRAND_COMPANY_NAME },
-    { label: 'Relación de marca', value: `Agrospear es la división de agroquímicos de Agrospear (${BRAND_PARENT_BRAND}), operada por ${BRAND_COMPANY_NAME}. Agrospear cubre formulación y fabricación de productos de protección de cultivos; Agrospear se enfoca exclusivamente en fabricación OEM, ODM y etiqueta privada de agroquímicos.` },
+    { label: 'Relación de marca', value: `Agrospear es la división de fabricación agroquímica y la marca orientada al comprador operada por ${BRAND_COMPANY_NAME} (${BRAND_PARENT_BRAND}). Se enfoca exclusivamente en formulación, fabricación OEM, ODM y marca privada de productos de protección de cultivos.` },
     { label: 'Enfoque de producto', value: 'Formulación y fabricación de agroquímicos: OEM, ODM y etiqueta privada' },
     { label: 'Fábricas', value: 'Planta propia de 20.000 m² en Qingdao, China' },
     { label: 'Pedido mínimo', value: 'Escalonado: 1 tonelada (existente) · 5 toneladas (piloto) · 20+ toneladas (volumen) por formulación aprobada' },
@@ -23,14 +23,10 @@ export const ENTITY_FACTS: Record<string, { label: string; value: string }[]> = 
   ],
 }
 
-export const ENTITY_SAME_AS = [
-  'https://www.youtube.com/@agrospear',
-  'https://www.instagram.com/agrospear_watersports/',
-  'https://www.facebook.com/profile.php?id=61572404318679',
-  'https://www.linkedin.com/company/agrospear',
-  'https://agrospear.en.alibaba.com',
-  'https://agrospear.en.made-in-china.com',
-] as const
+export function getEntitySameAs(locale: string = 'en'): readonly string[] {
+  const social = getBrandSocial(locale)
+  return [social.facebook, social.linkedin, social.youtube] as const
+}
 
 export const ENTITY_SERVICES = ['custom-formulation', 'private-label', 'bulk-supply', 'registration-support']
 
@@ -62,6 +58,7 @@ export const ENTITY_SUBJECT_OF = [
   { type: 'WebPage', name: 'Agrochemical manufacturing', path: '/manufacturing/agrochemical-manufacturing' },
   { type: 'WebPage', name: 'R&D Center', path: '/manufacturing/research-development' },
   { type: 'WebPage', name: 'Quality control', path: '/manufacturing/quality-control' },
+  { type: 'WebPage', name: 'QC/QA document library', path: '/manufacturing/qcqa-documents' },
   { type: 'WebPage', name: 'Factory audit guide', path: '/manufacturing/factory-audit' },
   { type: 'WebPage', name: 'Pesticide formulation process', path: '/manufacturing/pesticide-formulation' },
   { type: 'WebPage', name: 'Packaging & labeling', path: '/manufacturing/packaging' },

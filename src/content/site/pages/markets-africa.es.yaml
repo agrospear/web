@@ -108,7 +108,7 @@ regulation_overview:
       title: 'Conformidad COLEACP'
       desc: 'Protocolos de Buenas Prácticas para formulaciones de cacao, frutas y hortalizas de grado exportación. Documentación alineada con requisitos LMR de la UE para cultivos de exportación africanos.'
       link_label: 'Ver certificaciones'
-      href: /agrochemical-certification-guide
+      href: /es/manufacturing/quality-control
 
 faqs:
   tagline: FAQ
@@ -154,7 +154,7 @@ related:
     - icon: M
       icon_bg: green
       title: 'Fábrica y Control de Calidad'
-      desc: 'Instalación de fabricación de 12.500 m² con sistema de QC de 7 etapas, laboratorio certificado GLP y análisis del 100% de lotes.'
+      desc: 'Instalación de fabricación de 20.000 m² con sistema de QC de 7 etapas, laboratorio certificado GLP y análisis del 100% de lotes.'
       link_label: 'Ver fábrica'
       href: /manufacturing/factory
 

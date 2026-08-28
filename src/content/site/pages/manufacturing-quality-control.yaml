@@ -62,7 +62,7 @@ faqs:
     - q: 'Is every batch really tested?'
       a: 'Yes — 100% of production batches undergo active content analysis, physical property testing and 54°C/14-day accelerated stability testing. No batch ships without a completed certificate of analysis signed by the QA Director.'
     - q: 'What happens when a batch fails QC?'
-      a: 'Non-conforming batches are immediately quarantined. The QC team investigates the root cause, documents the findings and determines disposition: rework (under controlled procedure and with re-inspection) or rejection. Retrworked batches are fully re-analyzed — never partially.'
+      a: 'Non-conforming batches are immediately quarantined. The QC team investigates the root cause, documents the findings and determines disposition: rework (under controlled procedure and with re-inspection) or rejection. Reworked batches are fully re-analyzed — never partially.'
     - q: 'Can I request third-party inspection?'
       a: 'Yes. We support pre-shipment, during-production and container-loading inspections by SGS, TÜV, BV or Intertek. Inspection schedules can be written into the contract and we provide full access to production records, QC data and batch documentation for the inspector.'
 
@@ -91,7 +91,7 @@ related:
     - icon: F
       icon_bg: purple
       title: 'Factory'
-      desc: '12,500 m² manufacturing facility with 6 production lines and 50,000+ t annual capacity.'
+      desc: '20,000 m² manufacturing facility with 8 automated production lines and 50,000+ t annual capacity.'
       link_label: 'View factory'
       href: /manufacturing/factory
 

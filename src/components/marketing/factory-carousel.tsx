@@ -70,6 +70,9 @@ export function FactoryCarousel() {
           <img
             src={s.image}
             alt={s.title}
+            width={1920}
+            height={1080}
+            sizes="100vw"
             className="h-full w-full object-cover"
             loading={i === 0 ? 'eager' : 'lazy'}
           />

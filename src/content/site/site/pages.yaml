@@ -105,6 +105,17 @@
     - { key: lab_evidence, type: features, label: 'Lab Test Report Downloads' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
+- slug: qcqa-documents
+  label: QC/QA Document Library
+  path: /manufacturing/qcqa-documents
+  permalink: /manufacturing/qcqa-documents
+  sections:
+    - { key: hero, type: hero, label: 'QC/QA Document Library' }
+    - { key: answer, type: answer, label: 'Public Document Scope' }
+    - { key: document_groups, type: features, label: 'Process and Inspection Dossiers' }
+    - { key: evidence_images, type: features, label: 'Factory Evidence Images' }
+    - { key: cta, type: cta, label: 'Quality Review CTA' }
+
 - slug: factory-quality-inspection
   label: Quality Inspection Standards
   path: /manufacturing/factory/quality-inspection

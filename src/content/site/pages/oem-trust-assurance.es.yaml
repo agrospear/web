@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Confianza en una fábrica OEM: verifica antes de pedir'
   description: 'Cómo verifican los compradores a Agrospear antes de pedir: documentación ICAMA, ISO 9001, auditorías, ingenieros bajo NDA e inspecciones de terceros (SGS/BV/Intertek).'
   dateModified: '2026-08-14'
@@ -13,23 +13,23 @@
 hero:
   tagline: 'Fabricación que puedes verificar'
   title: 'Confianza y Garantía de Fábrica OEM'
-  subtitle: 'Cada afirmación de este sitio se puede verificar: registro oficial de la empresa, una fábrica física de 12.500 m² que puedes visitar o auditar, ingenieros reales bajo NDA, documentos QMS descargables y datos de ensayo registrados por número de lote. Ingeniería y operación de Qingdao Vatrad Group Co., Ltd.'
+  subtitle: 'Cada afirmación de este sitio se puede verificar: registro oficial de la empresa, una fábrica física de 20.000 m² que puedes visitar o auditar, ingenieros reales bajo NDA, documentos QMS descargables y datos de ensayo registrados por número de lote. Ingeniería y operación de Qingdao Vatrad Group Co., Ltd.'
 
 answer:
   label: 'Respuesta directa'
-  text: 'La confianza no es una promesa — es documentación. Somos una entidad manufacturera china registrada (Qingdao Vatrad Group Co., Ltd.) con una planta física de 12.500 m² en Qingdao, más de 350 trabajadores y más de 20.000 toneladas de capacidad anual de producción agroquímica. Puedes verificar el registro, auditar la fábrica, revisar los SOP de QMS, descargar registros de calidad de muestra, programar inspecciones de terceros (SGS, BV o Intertek) y firmar un NDA en un plazo de 4 horas laborables. Cada lote se somete a análisis completo de ingrediente activo, ensayo de propiedades físicas y verificación de estabilidad acelerada, y cada lote conserva trazabilidad ERP de 5 años. Si una afirmación no se puede documentar, no la hacemos.'
+  text: 'La confianza no es una promesa — es documentación. Somos una entidad manufacturera china registrada (Qingdao Vatrad Group Co., Ltd.) con una planta física de 20.000 m² en Qingdao, más de 350 trabajadores y más de 20.000 toneladas de capacidad anual de producción agroquímica. Puedes verificar el registro, auditar la fábrica, revisar los SOP de QMS, descargar registros de calidad de muestra, programar inspecciones de terceros (SGS, BV o Intertek) y firmar un NDA en un plazo de 4 horas laborables. Cada lote se somete a análisis completo de ingrediente activo, ensayo de propiedades físicas y verificación de estabilidad acelerada, y cada lote conserva trazabilidad ERP de 5 años. Si una afirmación no se puede documentar, no la hacemos.'
   verified: '2026-08'
 
 trust_stats:
-  - value: '12.500 m²'
+  - value: '20.000 m²'
     label: Superficie de fábrica
     detail: 4 talleres especializados, abiertos a auditorías
-  - value: '350+'
+  - value: '200+'
     label: Trabajadores en planta
     detail: 25+ ingenieros en I+D, formulación y QC
   - value: '20.000+'
     label: Toneladas producidas al año
-    detail: 1.500+ toneladas/mes en 8 líneas de formulación
+    detail: 1.500+ toneladas/mes en 8 líneas de formulación automatizadas
   - value: '4 horas'
     label: Respuesta de NDA
     detail: NDA estándar firmado en 4 horas laborables
@@ -48,14 +48,14 @@ role_boundary:
     - icon: A
       icon_bg: blue
       title: 'Qué somos — un fabricante verificable'
-      desc: '· Una entidad legal registrada: Qingdao Vatrad Group Co., Ltd. — datos del registro compartidos bajo NDA o durante la auditoría · Una fábrica física: 12.500 m² en la Zona de Desarrollo Económico de Laixi, Qingdao, con 4 talleres especializados, 350+ trabajadores y 8 líneas de formulación · Un equipo de fabricación: las personas que responden tus preguntas son las que formulan tus productos · Documentos reales: SOP de QMS, estándares de inspección y registros de calidad anonimizados descargables · Verificación independiente bienvenida: inspecciones SGS, BV o Intertek a tu elección, según ISO 2859-1 Nivel II'
+      desc: '· Una entidad legal registrada: Qingdao Vatrad Group Co., Ltd. — datos del registro compartidos bajo NDA o durante la auditoría · Una fábrica física: 20.000 m² en la Zona de Desarrollo Económico de Laixi, Qingdao, con 4 talleres especializados, 200+ trabajadores y 8 líneas de formulación automatizadas · Un equipo de fabricación: las personas que responden tus preguntas son las que formulan tus productos · Documentos reales: SOP de QMS, estándares de inspección y registros de calidad anonimizados descargables · Verificación independiente bienvenida: inspecciones SGS, BV o Intertek a tu elección, según ISO 2859-1 Nivel II'
       link: '/es/manufacturing/factory'
       link_label: 'Visita la página de la fábrica'
     - icon: B
       icon_bg: green
       title: 'Qué no somos — el perfil de mesa comercial'
       desc: '· Sin trading: no reenviamos tu pedido a una tercera fábrica ni añadimos márgenes de intermediario · Sin marca propia sobre tus productos: tú eres dueño de la marca, el mercado y el cliente · Sin mínimos vagos: el MOQ se calcula a partir de los requisitos de lote de formulación y se confirma por proyecto · Sin certificados "solo bajo petición": la lista está publicada y los registros de auditoría se pueden revisar · Sin afirmaciones solo verbales: contenido de ingrediente activo, datos de estabilidad y trazabilidad documentados por número de lote'
-      link: '/es/oem-agrochemical-moq'
+      link: '/es/oem-moq-guide'
       link_label: 'Consulta la guía MOQ transparente'
 
 trust_steps:
@@ -68,7 +68,7 @@ trust_steps:
       desc: 'El comprador solicitó el Registro Mercantil chino y la licencia de comercio exterior. La entidad legal detrás de Agrospear es Qingdao Vatrad Group Co., Ltd., fabricante registrado desde 2012 en Qingdao, Shandong — verificado en el registro nacional bajo NDA.'
     - step: '02'
       title: 'Auditoría física de la fábrica'
-      desc: 'Una auditoría de fábrica (presencial y por videollamada) confirmó la planta de 12.500 m²: cuatro talleres especializados, 350+ trabajadores, ocho líneas de formulación y una producción mensual de unas 1.500 toneladas. El informe de auditoría queda archivado con los registros del contrato.'
+      desc: 'Una auditoría de fábrica (presencial y por videollamada) confirmó la planta de 20.000 m²: cuatro talleres especializados, 200+ trabajadores, ocho líneas de formulación y una producción mensual de unas 1.500 toneladas. El informe de auditoría queda archivado con los registros del contrato.'
     - step: '03'
       title: 'Personas: ingenieros reales, no guiones de venta'
       desc: 'El comprador habló directamente con el equipo de ingeniería de formulación — laboratorio de I+D, producción y QC. La especificación del proyecto y el NDA se intercambiaron en 4 horas laborables, y la revisión de ingeniería llegó en un día laborable.'
@@ -90,7 +90,7 @@ trust_faqs:
   title: 'Las 12 preguntas que hacen los compradores antes de pedir'
   items:
     - q: '¿Agrospear es realmente una fábrica o una empresa comercial?'
-      a: 'Agrospear es la división de fabricación agroquímica de Qingdao Vatrad Group Co., Ltd. Operamos nosotros mismos la planta de 12.500 m² en Qingdao — formulación, producción, llenado y ensayos ocurren en una sola instalación. No hay intermediarios: las personas que responden tus preguntas son las que formulan tus productos.'
+      a: 'Agrospear es la división de fabricación agroquímica de Qingdao Vatrad Group Co., Ltd. Operamos nosotros mismos la planta de 20.000 m² en Qingdao — formulación, producción, llenado y ensayos ocurren en una sola instalación. No hay intermediarios: las personas que responden tus preguntas son las que formulan tus productos.'
     - q: '¿Con quién exactamente trataré durante mi proyecto?'
       a: 'Con un ingeniero de proyecto designado y un contacto de QC designado, además de los jefes de departamento que firman tus documentos. Puedes pedir hablar directamente con el Ingeniero Jefe, el Director de QA o el director de fábrica — antes y después del pedido. Ninguna capa de gestores de cuenta se interpone entre tú y las personas que hacen el trabajo.'
     - q: '¿Puedo visitar o auditar la fábrica?'

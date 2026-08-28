@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Agrochemical formulation development at Agrospear runs six stages — product specification, R&D and formulation design, prototype sampling, testing and validation, formulation development, and mass production. The first physical sample ships 7–12 days after specification approval; production runs 25–35 days after confirmed PO and deposit; new formulation development adds 15–20 days.'
+  text: 'Agrochemical formulation development at Agrospear runs six stages — product specification, R&D and formulation design, prototype sampling, testing and validation, formulation development, and mass production. The first physical sample ships 7–14 days after specification approval; production runs 25–35 days after confirmed PO and deposit; new formulation development adds 15–20 days.'
   verified: '2026-08'
 
 stages:
@@ -30,7 +30,7 @@ stages:
       description: 'Formulation chemistry, adjuvant selection and solvent system design, plus a manufacturability review and quotation — returned within one business day.'
       icon: 'tabler:blueprint'
     - title: '3. Prototype Sampling'
-      description: 'Your first physical sample ships in 7–12 days, documented with an approval sheet covering composition, physical properties and stability test results.'
+      description: 'Your first physical sample ships in 7–14 days, documented with an approval sheet covering composition, physical properties and stability test results.'
       icon: 'tabler:tools'
     - title: '4. Testing & Validation'
       description: 'Stability testing, content analysis and physical property checks against the approved sample, with ICAMA, FAO and WHO documentation prepared for your target markets.'
@@ -66,12 +66,12 @@ buyer_guides:
   items:
     - title: 'Private Label: The Complete Step-by-Step Guide'
       body: 'From choosing a factory to a delivered container — the full six-step journey for new brands.'
-      href: '/news/private-label-agrochemical-guide'
+      href: '/news/private-label-agrochemical-oem-guide'
     - title: 'How to Choose an Agrochemical OEM Manufacturer'
       body: 'The audit questions that separate a real factory from a trader: certifications, QC, samples and ownership.'
       href: '/news/how-to-choose-agrochemical-oem-manufacturer'
     - title: 'Agrochemical Formulation Development Timeline'
-      body: 'Sample in 7–12 days, production in 25–35 days, formulation plus 15–20 — the full calendar, stage by stage.'
+      body: 'Sample in 7–14 days, production in 25–35 days, formulation plus 15–20 — the full calendar, stage by stage.'
       href: '/news/custom-formulation-development-timeline'
     - title: 'Information to Prepare Before Ordering'
       body: 'The five details that let a factory quote accurately on the first pass — and avoid spec rework.'
@@ -95,7 +95,7 @@ faq_section:
     - q: What does agrochemical formulation development cost?
       a: 'The specification review and R&D assessment are free and returned within one business day. Prototype sampling is quoted per project after the spec is fixed; production pricing depends on raw materials, volume and whether custom formulation development is required.'
     - q: How long does agrochemical formulation development take?
-      a: 'The first sample ships 7–12 days after specification approval, with 3–7 days per revision round. Production runs 25–35 days after PO and deposit. Custom formulation development adds 15–20 days up front, and sea freight adds 4–6 weeks to most destinations.'
+      a: 'The first sample ships 7–14 days after specification approval, with 3–7 days per revision round. Production runs 25–35 days after PO and deposit. Custom formulation development adds 15–20 days up front, and sea freight adds 4–6 weeks to most destinations.'
     - q: What comes first — sample or production?
       a: 'Always the sample. A physical prototype is produced, tested and approved against the specification before any production run starts. We do not run bulk production on unapproved formulations.'
     - q: Do you sign an NDA for formulation development?

@@ -1,30 +1,30 @@
 {
   "name": "agrospear",
-  "industry": "Marine equipment manufacturing",
+  "industry": "Agrochemical formulation and manufacturing",
   "specialization": [
-    "RIB boats",
-    "Inflatable boats",
-    "SUP boards",
-    "Inflatable kayaks",
-    "Life vests",
-    "Marine accessories"
+    "Herbicide formulations",
+    "Insecticide formulations",
+    "Fungicide formulations",
+    "Plant growth regulators",
+    "Seed treatment products",
+    "Private-label agrochemical manufacturing"
   ],
   "manufacturing_location": "Qingdao, China",
-  "facility_size": "12,500 m²",
-  "employees": "350+",
-  "annual_capacity": "120,000+ units",
+  "facility_size": "20,000 m²",
+  "employees": "200+",
+  "annual_capacity": "50,000+ tons",
   "markets": "50+ countries",
-  "business_model": ["OEM", "ODM", "Private Label", "Wholesale", "Custom manufacturing"],
+  "business_model": ["OEM", "ODM", "Private Label", "Bulk Supply", "Custom Formulation"],
   "founded": 2012,
-  "certifications": ["CE", "ISO", "BSCI", "REACH"],
+  "certifications": ["ISO 9001", "ISO 14001", "GMP", "FAO/WHO", "REACH"],
   "expertise": [
-    "Marine-grade PVC fabrication",
-    "Hypalon/CSM rubber processing",
-    "Drop stitch core technology",
-    "Deep-V fiberglass hull design",
-    "Aluminum hull fabrication",
-    "High-frequency welding",
-    "CNC cutting",
-    "Pressure testing"
+    "Liquid and solid agrochemical formulation",
+    "Active ingredient dosing",
+    "Suspension and emulsion processing",
+    "Pilot-scale formulation validation",
+    "HPLC and GC quality analysis",
+    "Accelerated stability testing",
+    "GHS labeling and export packaging",
+    "ERP batch traceability"
   ]
 }

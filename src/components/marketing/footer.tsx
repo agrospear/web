@@ -1,10 +1,11 @@
 ﻿import { Facebook, Linkedin, Mail, MapPin, MessageCircle, Phone, Youtube } from 'lucide-react'
 import { Suspense, lazy } from 'react'
 import { getRouteApi } from '@tanstack/react-router'
-import {  useTranslation  } from '@/features/i18n/provider'
+
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { FACTS } from '@/product/facts'
-import { BRAND_CONTACT } from '@/config/branding'
+import { getBrandSocial, BRAND_CONTACT } from '@/config/branding'
+import { useTranslation } from '@/features/i18n/provider'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
@@ -17,8 +18,9 @@ const FOOTER_YEAR = new Date().getFullYear()
 
 export function Footer() {
   const { theme } = rootRoute.useLoaderData()
-  const { t } = useTranslation()
+  const { locale, t } = useTranslation()
   const fl = useLocalizePath()
+  const social = getBrandSocial(locale)
 
   return (
     <footer className="relative border-t border-border bg-bg-alt px-5 pb-12 pt-16 md:px-8 lg:px-10">
@@ -45,13 +47,13 @@ export function Footer() {
           <div className="mt-5">
             <p className="text-xs font-semibold uppercase tracking-[0.12em] text-fg-3">{t('agro.footer.followUs')}</p>
             <div className="mt-2.5 flex gap-3">
-              <a href={FACTS.social.facebook} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('agro.footer.facebook')}>
+              <a href={social.facebook} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('agro.footer.facebook')}>
                 <Facebook size={15} />
               </a>
-              <a href={FACTS.social.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('agro.footer.linkedin')}>
+              <a href={social.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('agro.footer.linkedin')}>
                 <Linkedin size={15} />
               </a>
-              <a href={FACTS.social.youtube} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('agro.footer.youtube')}>
+              <a href={social.youtube} target="_blank" rel="noopener noreferrer" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-bg text-fg-2 transition-colors hover:bg-primary hover:text-primary-foreground" aria-label={t('agro.footer.youtube')}>
                 <Youtube size={15} />
               </a>
             </div>
@@ -71,7 +73,7 @@ export function Footer() {
           <a className="foot-link" href={fl('/products/adjuvants')}>{t('agro.footer.adjuvants')}</a>
           <a className="foot-link" href={fl('/products/biopesticides')}>{t('agro.footer.biopesticides')}</a>
           <a className="foot-link" href={fl('/customizer')}>{t('agro.nav.productsDropdown.customizer')}</a>
-          <a className="foot-link" href={fl('/formulation-type-comparison')}>{t('agro.nav.productsServicesDropdown.constructionComparison')}</a>
+          <a className="foot-link" href={fl('/formulation-type-comparison')}>{t('agro.nav.productsServicesDropdown.formulationComparison')}</a>
         </FooterCol>
 
         {/* Manufacturing & Quality */}

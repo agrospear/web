@@ -41,7 +41,7 @@ function SeriesPage() {
     ? [
         { label: t('agro.procurement.bestFor'), value: profile.bestFor },
         { label: t('agro.procurement.sizes'), value: profile.sizes },
-        { label: t('agro.procurement.construction'), value: profile.construction },
+        { label: t('agro.procurement.formulation'), value: profile.formulation },
         { label: t('agro.procurement.customization'), value: profile.customization },
         { label: t('agro.procurement.moq'), value: profile.moq },
         { label: t('agro.procurement.leadTime'), value: profile.leadTime },
@@ -110,7 +110,7 @@ function SeriesPage() {
                   </tbody>
                 </table>
                 <p className="mt-4 text-[13px] leading-relaxed text-fg-2">
-                  {t('agro.procurement.constructionBody')}
+                  {t('agro.procurement.formulationBody')}
                 </p>
               </div>
               <div className="flex flex-col gap-6">
@@ -253,7 +253,7 @@ function SeriesPage() {
             <a href={fl('/manufacturing/factory')} className="marine-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.manufacturingCapability')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
-                12,500 m² plant · 6 production lines · 50,000+ t annual capacity
+                20,000 m² plant · 8 production lines · 50,000+ t annual capacity
               </p>
             </a>
             <a href={fl('/manufacturing/quality-control')} className="marine-card p-5">

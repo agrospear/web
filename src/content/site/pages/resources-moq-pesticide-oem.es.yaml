@@ -9,7 +9,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'El MOQ de OEM de plaguicidas sigue tres etapas: desarrollo de muestras de 1-4 toneladas por formulación (7-12 días), pedidos piloto de 5 toneladas en plataformas existentes, y producción estándar en volumen de más de 20 toneladas por lote (25-35 días después del PO y depósito). El desarrollo completo de formulación personalizada agrega 15-20 días a la cronología.'
+  text: 'El MOQ de OEM de plaguicidas sigue tres etapas: desarrollo de muestras de 1-4 toneladas por formulación (7-14 días), pedidos piloto de 5 toneladas en plataformas existentes, y producción estándar en volumen de más de 20 toneladas por lote (25-35 días después del PO y depósito). El desarrollo completo de formulación personalizada agrega 15-20 días a la cronología.'
   verified: '2026-08'
 
 intro:

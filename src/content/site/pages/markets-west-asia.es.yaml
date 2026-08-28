@@ -142,7 +142,7 @@ related:
     - icon: M
       icon_bg: green
       title: 'Fábrica y Control de Calidad'
-      desc: 'Instalación de fabricación de 12.500 m² con sistema de QC de 7 etapas, pruebas de estabilidad acelerada a 54°C y laboratorio certificado GLP.'
+      desc: 'Instalación de fabricación de 20.000 m² con sistema de QC de 7 etapas, pruebas de estabilidad acelerada a 54°C y laboratorio certificado GLP.'
       link_label: 'Ver fábrica'
       href: /manufacturing/factory
 

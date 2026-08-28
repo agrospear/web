@@ -1,7 +1,7 @@
 import { FACTS, MOQ_SHORT, CERTIFICATION_NAMES } from '@/product/facts'
 import { SITE_NAME } from '@/config/site'
 import { SITE_ORIGIN } from '@/features/seo/jsonld'
-import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT, BRAND_PARENT_URL } from '@/config/branding'
+import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_CONTACT, BRAND_PARENT_URL, getBrandSocial } from '@/config/branding'
 import { LLM_SITE_DESCRIPTION } from './ai-content'
 
 export function siteLd(): Record<string, unknown>[] {
@@ -16,7 +16,7 @@ export function siteLd(): Record<string, unknown>[] {
       url: `${SITE_ORIGIN}/`,
       logo: `${SITE_ORIGIN}/logo192.png`,
       description: LLM_SITE_DESCRIPTION.replaceAll('{SITE}', SITE_NAME),
-      sameAs: [BRAND_PARENT_URL, FACTS.social.facebook, FACTS.social.linkedin, FACTS.social.youtube],
+      sameAs: [BRAND_PARENT_URL, ...Object.values(getBrandSocial('en'))],
       parentOrganization: {
         '@type': 'Organization',
         name: BRAND_COMPANY_NAME,
@@ -29,7 +29,7 @@ export function siteLd(): Record<string, unknown>[] {
         sameAs: BRAND_PARENT_URL,
       },
       brand: { '@type': 'Brand', name: BRAND_PARENT_BRAND },
-      numberOfEmployees: { '@type': 'QuantitativeValue', value: '350+' },
+      numberOfEmployees: { '@type': 'QuantitativeValue', value: FACTS.workers },
       hasCredential: [
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'ISO 9001' },
         { '@type': 'EducationalOccupationalCredential', credentialCategory: 'certification', name: 'ISO 14001' },
@@ -140,7 +140,7 @@ export function factoryCapabilitiesLd(): Record<string, unknown> {
     '@type': 'ManufacturingFacility',
     name: `${SITE_NAME} Agrochemical Formulation Plant`,
     description:
-      `12,500 m\u00b2 agrochemical formulation plant in Qingdao, China \u2014 the agrochemical product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}).`,
+      `20,000 m\u00b2 agrochemical formulation plant in Qingdao, China \u2014 the agrochemical product development and manufacturing division of ${BRAND_PARENT_BRAND} (${BRAND_COMPANY_NAME}).`,
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Economic Development Zone, Laixi',
@@ -297,7 +297,7 @@ export function warrantyReturnsLd(): Record<string, unknown> {
       '@type': 'HowTo',
       name: 'Warranty claim',
       description:
-        `Contact ${SITE_NAME} through the contact page with your order number and product details; claims are adjudicated against the batch inspection records (10-year ERP traceability), not guesswork.`,
+        `Contact ${SITE_NAME} through the contact page with your order number and product details; claims are adjudicated against the batch inspection records (5-year ERP traceability), not guesswork.`,
       step: [
         { '@type': 'HowToStep', position: 1, name: 'Contact sales', text: 'Reach us via the contact page with your order number and product details.' },
         { '@type': 'HowToStep', position: 2, name: 'Review against batch records', text: 'Claims are checked against the batch number and 7-stage inspection records.' },
@@ -322,7 +322,7 @@ export function shippingLogisticsLd(): Record<string, unknown> {
       'Packing list',
       'Certificate of origin',
       'FQC test reports (final inspection)',
-      'Batch traceability records (10-year ERP)',
+      'Batch traceability records (5-year ERP)',
     ],
     logisticsCapabilities: {
       customsBrokerage: true,

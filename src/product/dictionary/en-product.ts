@@ -194,7 +194,7 @@ export const enProduct = {
         adjuvants: 'Adjuvants',
         biopesticides: 'Biopesticides',
         manufacturer: 'OEM / ODM Manufacturing',
-        constructionComparison: 'Agrochemical Formulation Comparison',
+        formulationComparison: 'Agrochemical Formulation Comparison',
         privateLabel: 'Private Label Agrochemicals',
         comparison: 'OEM / ODM / Private Label Comparison',
         productDevelopment: 'Agrochemical Product Development',
@@ -520,7 +520,7 @@ export const enProduct = {
         },
         {
           q: 'How do I know your quality claims are real?',
-          a: 'Every claim on this site has a document behind it: QMS SOPs and inspection standards are downloadable, anonymized quality-record samples are published, and test data is recorded per batch number with 10-year lot ERP traceability. You can also schedule a third-party pre-shipment inspection of your choice.',
+          a: 'Every claim on this site has a document behind it: QMS SOPs and inspection standards are downloadable, anonymized quality-record samples are published, and test data is recorded per batch number with 5-year lot ERP traceability. You can also schedule a third-party pre-shipment inspection of your choice.',
         },
         {
           q: 'What happens if my products arrive with defects?',
@@ -556,14 +556,14 @@ export const enProduct = {
       snapshotTitle: 'Procurement snapshot',
       bestFor: 'Best for',
       sizes: 'Formulation types',
-      construction: 'Formulation',
+      formulation: 'Formulation',
       customization: 'Customization',
       moq: 'MOQ',
       leadTime: 'Lead time',
       title: 'OEM Project Parameters',
       baseSpecsTitle: 'Base Specifications & Formulation',
-      constructionTitle: 'Formulation Options for Your Market Position',
-      constructionBody:
+      formulationTitle: 'Formulation Options for Your Market Position',
+      formulationBody:
         'Choose a formulation and packaging configuration based on your target price, crop profile, intended use and regulatory requirement. Final formulation configuration is confirmed through the approved sample and technical specification.',
       commercialTitle: 'Commercial & Procurement Parameters',
       docsTitle: 'Documentation and Market Requirements',
@@ -616,8 +616,8 @@ export const enProduct = {
     formulationPlatform: 'Preferred Formulation Platform or Type',
     formulationPlatformHint: 'Pick a platform from this page or the formulation type you have in mind. "Need recommendation" is fine.',
     formulationPlatformPlaceholder: "e.g. SC herbicide, EC insecticide, WDG fungicide — or need recommendation",
-    construction: 'Formulation Target',
-    constructionHint: 'Match your target price position and regulatory requirement.',
+    formulation: 'Formulation Target',
+    formulationHint: 'Match your target price position and regulatory requirement.',
     customization: 'Customization Required',
     customizationHint: 'Select all areas you expect to customize. We will confirm feasibility during project review.',
     packaging: 'Packaging Requirement',
@@ -715,7 +715,7 @@ export const enProduct = {
       owner: 'Owner / founder', purchasing: 'Purchasing / sourcing', product: 'Product manager',
       designer: 'Designer', operations: 'Operations', other: 'Other',
     },
-    constructionOptions: {
+    formulationOptions: {
       standard: 'Standard formulation', premium: 'Premium / optimized', custom: 'Custom specification', 'need-rec': 'Need recommendation',
     },
     customizationOptions: {

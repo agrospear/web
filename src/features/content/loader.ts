@@ -480,7 +480,8 @@ export function getGeoFacts(): {
 } {
   return {
     company: geoJson('company-facts'),
-    certifications: geoJson('certification-facts'),
+    // Certification details require verified business records and are not bundled as raw GEO data.
+    certifications: undefined,
     manufacturing: geoJson('manufacturing-facts'),
   }
 }

@@ -14,7 +14,7 @@ answer:
 
 intro:
   - 'China representa más del 30% de las exportaciones globales de plaguicidas, lo que la convierte en el principal destino de abastecimiento para compradores de agroquímicos en todo el mundo. Sin embargo, el mercado incluye miles de empresas comerciales que se presentan como fabricantes, por lo que distinguir a los productores reales de los intermediarios es fundamental. Un fabricante genuino tendrá líneas de formulación, un laboratorio de QC interno con equipos HPLC y GC, y certificados de registro ICAMA para sus productos.'
-  - 'El proceso de verificación comienza con verificaciones documentales — licencia comercial, certificados ISO 9001/14001, registros ICAMA — y avanza hacia una auditoría in situ o de terceros. Agrospear opera una instalación certificada ISO de 12.500 m² con 6 líneas de producción y una capacidad de más de 50.000 t/año, sirviendo a más de 60 países de exportación con QC de 7 etapas desde la materia prima hasta el envío.'
+  - 'El proceso de verificación comienza con verificaciones documentales — licencia comercial, certificados ISO 9001/14001, registros ICAMA — y avanza hacia una auditoría in situ o de terceros. Agrospear opera una instalación certificada ISO de 20.000 m² con 6 líneas de producción y una capacidad de más de 50.000 t/año, sirviendo a más de 60 países de exportación con QC de 7 etapas desde la materia prima hasta el envío.'
 
 related:
   tagline: 'Relacionado'
@@ -37,7 +37,7 @@ related:
       title: 'Certificación ISO 9001'
       desc: 'Por qué la certificación de gestión de calidad importa para las plantas de plaguicidas'
       link_label: 'Más información'
-      href: /agrochemical-certification-guide
+      href: /es/manufacturing/quality-control
 
 cta:
   title: 'Discuta Sus Requisitos'

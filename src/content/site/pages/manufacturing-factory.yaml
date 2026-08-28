@@ -1,6 +1,6 @@
 meta:
   title: 'Agrochemical Factory China | Pesticide Manufacturing Facility | {SITE}'
-  description: 'Tour the Agrospear factory: 12,500 m² plant with compounding, grinding, filling, labeling, and quality lab for agrochemical OEM/ODM manufacturing.'
+  description: 'Tour the Agrospear factory: 20,000 m² plant with compounding, grinding, filling, labeling, and quality lab for agrochemical OEM/ODM manufacturing.'
   dateModified: '2026-08-24'
   keywords:
     - 'agrochemical factory China'
@@ -12,11 +12,11 @@ meta:
 hero:
   tagline: Factory
   title: 'Agrochemical Factory China — Pesticide Manufacturing Facility'
-  subtitle: 'Tour the Agrospear factory — 12,500 m² plant with compounding, grinding, filling, labeling and quality lab for agrochemical OEM/ODM manufacturing in Qingdao, China.'
+  subtitle: 'Tour the Agrospear factory — 20,000 m² plant with compounding, grinding, filling, labeling and quality lab for agrochemical OEM/ODM manufacturing in Qingdao, China.'
 
 answer:
   label: 'Straight answer'
-  text: 'The Agrospear factory in Qingdao, China spans 12,500 m² with 4 specialized workshops, 350+ workers and 20,000+ tons annual output. ISO 9001, ISO 14001, BSCI and ICAMA certified. Every batch is stability-tested at 54°C for 14 days, passes a 100-point production checklist and carries 10-year material traceability. OEM/ODM production from 5-ton pilot to 20+ ton standard batches.'
+  text: 'The Agrospear factory in Qingdao, China spans 20,000 m² with 4 specialized workshops, 200+ workers and 50,000+ tons annual output. ISO 9001, ISO 14001, BSCI and ICAMA certified. Every batch is stability-tested at 54°C for 14 days, passes a 100-point production checklist and carries 5-year material traceability. OEM/ODM production from 5-ton pilot to 20+ ton standard batches.'
   verified: '2026-08'
 
 intro:
@@ -24,9 +24,9 @@ intro:
   - By integrating formulation design, engineering, prototyping, manufacturing and testing under one roof, we eliminate the inefficiencies of contract manufacturing and maintain direct control over product quality, raw material selection and delivery timelines.
 
 stats:
-  - value: 12,500 m²
+  - value: 20,000 m²
     label: Manufacturing floor
-  - value: 350+
+  - value: 200+
     label: Skilled workers
   - value: 20,000+
     label: Tons produced annually
@@ -37,7 +37,7 @@ intelligence_cards:
   - title: Production Capacity
     icon: C
     icon_bg: blue
-    desc: '12,500 m² facility producing 20,000+ tons/yr across formulation and packaging lines. 350+ workers, 2 shifts.'
+    desc: '20,000 m² facility producing 50,000+ tons/yr across formulation and packaging lines. 200+ workers, 2 shifts.'
     metrics:
       - label: MOQ
         value: 'Sample 1–4 t / Pilot 5 t / Volume 20+'
@@ -144,7 +144,7 @@ faq_section:
     - q: What certifications does the factory hold?
       a: 'ISO 9001, ISO 14001, BSCI and ICAMA. Full compliance documentation is provided with every OEM shipment.'
     - q: What is the typical lead time?
-      a: 'Standard lead time is 25–35 days from confirmed PO and deposit. Custom formulation development adds 15–20 days. Prototype samples typically ready in 7–12 days.'
+      a: 'Standard lead time is 25–35 days from confirmed PO and deposit. Custom formulation development adds 15–20 days. Prototype samples typically ready in 7–14 days.'
     - q: Do you handle export documentation?
       a: 'Yes. We manage export documentation and customs clearance in-house, supplying to 50+ countries.'
 

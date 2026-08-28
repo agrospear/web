@@ -24,7 +24,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'Un onboarding OEM típico toma 2–4 semanas para la aprobación de muestras y 6–8 semanas para la primera serie de producción desde PO confirmado. Empiezas enviando un brief de proyecto (ingrediente activo, concentración, tipo de formulación, necesidades de cumplimiento). Respondemos en un día hábil, ofrecemos un NDA antes de que compartas detalles de propiedad, y producimos 1–4 toneladas de muestra de prototipo en 7–12 días para tu revisión y aprobación. Una vez congelada la muestra, la planificación de producción y la fabricación siguen con puertas de QC fijas en cada etapa. Cada paso está documentado y es trazable.'
+  text: 'Un onboarding OEM típico toma 2–4 semanas para la aprobación de muestras y 6–8 semanas para la primera serie de producción desde PO confirmado. Empiezas enviando un brief de proyecto (ingrediente activo, concentración, tipo de formulación, necesidades de cumplimiento). Respondemos en un día hábil, ofrecemos un NDA antes de que compartas detalles de propiedad, y producimos 1–4 toneladas de muestra de prototipo en 7–14 días para tu revisión y aprobación. Una vez congelada la muestra, la planificación de producción y la fabricación siguen con puertas de QC fijas en cada etapa. Cada paso está documentado y es trazable.'
   verified: '2026-08'
 
 process_steps:
@@ -102,11 +102,11 @@ faqs:
   title: 'Onboarding OEM — Preguntas Frecuentes'
   items:
     - q: '¿Cuánto tarda el proceso completo de onboarding?'
-      a: 'La aprobación de muestras típicamente toma 2–4 semanas (incluyendo producción de muestras en 7–12 días y tu período de revisión). La primera serie de producción toma 6–8 semanas desde PO confirmado y depósito. Una formulación a medida añade 15–20 días de desarrollo. Cada puerta tiene un cronograma fijo que acuerdas por adelantado.'
+      a: 'La aprobación de muestras típicamente toma 2–4 semanas (incluyendo producción de muestras en 7–14 días y tu período de revisión). La primera serie de producción toma 6–8 semanas desde PO confirmado y depósito. Una formulación a medida añade 15–20 días de desarrollo. Cada puerta tiene un cronograma fijo que acuerdas por adelantado.'
     - q: '¿Necesito firmar un NDA antes de compartir mi formulación?'
       a: 'Un NDA está disponible de inmediato a petición — antes de que compartas cualquier especificación de formulación o diseño de etiqueta de propiedad. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos en ningún mercado. La misma política se aplica a un lote de muestra que a un programa de contenedor.'
     - q: '¿Cuál es el pedido mínimo para una primera serie OEM?'
-      a: 'El punto de entrada es escalonado: primero 1–4 toneladas de muestra (listas en 7–12 días), un pedido de prueba o piloto de 5 toneladas (producción en 25–35 días), y luego series de volumen estándar de 20+ toneladas por configuración aprobada. El co-branding de lotes pequeños parte desde cantidades inferiores cuando no se necesita etapa de desarrollo. Las tarifas de muestra se acreditan a tu pedido de producción.'
+      a: 'El punto de entrada es escalonado: primero 1–4 toneladas de muestra (listas en 7–14 días), un pedido de prueba o piloto de 5 toneladas (producción en 25–35 días), y luego series de volumen estándar de 20+ toneladas por configuración aprobada. El co-branding de lotes pequeños parte desde cantidades inferiores cuando no se necesita etapa de desarrollo. Las tarifas de muestra se acreditan a tu pedido de producción.'
     - q: '¿Cómo se maneja la protección de IP durante el onboarding?'
       a: 'Tus formulaciones y especificaciones están protegidas bajo el NDA firmado antes de que se comparta cualquier información de propiedad. Todos los diseños de etiqueta, datos de BOM y archivos técnicos se almacenan en sistemas con control de acceso y trazabilidad de auditoría. En modo OEM, tú posees todo el IP. En modo ODM, el IP de la plataforma adaptada se comparte según acuerdo. En modo Private Label, el IP permanece con Agrospear y tú licencias la aplicación de marca.'
     - q: '¿Qué garantías de calidad aplican a un primer pedido?'

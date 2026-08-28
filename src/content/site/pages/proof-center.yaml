@@ -19,7 +19,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'The claim-to-evidence chain is: every statement on this site is backed by a registration, a certificate, a machine, a document or a test record — and each of those can be reviewed. Agrospear is the agrochemical product development and manufacturing division of Agrospear, the manufacturing division of Qingdao Vatrad Group Co., Ltd. (registered in Qingdao since 2012). The 12,500 m² plant holds ISO 9001:2015 quality management, ISO 14001 environmental management, ICAMA registration documentation, BSCI social compliance (audit report on request) and ICAMA registration and raw material COA documentation per order. Every batch is tested for active ingredient content, physical properties and stability with auto-reject above specification limits, and batch records are kept under 10-year ERP traceability. The paper trail is published or shareable, and the factory itself is audit-open.'
+  text: 'The claim-to-evidence chain is: every statement on this site is backed by a registration, a certificate, a machine, a document or a test record — and each of those can be reviewed. Agrospear is the agrochemical product development and manufacturing division of Agrospear, the manufacturing division of Qingdao Vatrad Group Co., Ltd. (registered in Qingdao since 2012). The 20,000 m² plant holds ISO 9001:2015 quality management, ISO 14001 environmental management, ICAMA registration documentation, BSCI social compliance (audit report on request) and ICAMA registration and raw material COA documentation per order. Every batch is tested for active ingredient content, physical properties and stability with auto-reject above specification limits, and batch records are kept under 5-year ERP traceability. The paper trail is published or shareable, and the factory itself is audit-open.'
   verified: '2026-08'
 
 entities:
@@ -42,20 +42,20 @@ entities:
     - icon: V
       icon_bg: orange
       title: 'Qingdao Vatrad Group Co., Ltd. — the legal entity'
-      desc: 'The registered manufacturer (since 2012) operating the 12,500 m² plant in the Laixi Economic Development Zone, Qingdao. Registration details, export trade license and audit records are shared under NDA or during an audit.'
+      desc: 'The registered manufacturer (since 2012) operating the 20,000 m² plant in the Laixi Economic Development Zone, Qingdao. Registration details, export trade license and audit records are shared under NDA or during an audit.'
       link: '/oem-trust-assurance'
       link_label: 'See the verification case study'
 
 proof_stats:
-  - value: '12,500 m²'
+  - value: '20,000 m²'
     label: 'One factory floor'
-    detail: '6 specialized workshops, open to audits'
-  - value: '350+'
+    detail: 'Specialized workshops, open to audits'
+  - value: '200+'
     label: 'Workers on site'
     detail: '25+ engineers in R&D, formulation and QC'
   - value: '50,000+'
     label: 'Tons per year'
-    detail: '~4,000 tons/month on 6 production lines'
+    detail: '~4,000 tons/month on 8 automated production lines'
   - value: '50+'
     label: 'Countries served'
     detail: 'Europe, Americas, APAC, Middle East'
@@ -117,6 +117,18 @@ evidence_gates:
       desc: 'HPLC and GC for active ingredient content, laser particle size analyzer, viscometer, pH meter and stability chambers — the instruments that verify formulations and raw materials.'
       link: '/manufacturing/factory/quality-lab'
       link_label: 'Open the lab'
+    - icon: D
+      icon_bg: purple
+      title: 'Public QC/QA document library'
+      desc: 'Downloadable process and inspection dossiers covering SC/WDG, herbicide, insecticide, fungicide, acaricide/nematicide and PGR production, plus IQC, IPQC, FQC/OQC and traceability evidence.'
+      link: '/manufacturing/qcqa-documents'
+      link_label: 'Open the document library'
+    - icon: D
+      icon_bg: purple
+      title: 'Public QC/QA document library'
+      desc: 'Downloadable process and inspection dossiers covering SC/WDG, herbicide, insecticide, fungicide, acaricide/nematicide and PGR production, plus IQC, IPQC, FQC/OQC and traceability evidence.'
+      link: '/manufacturing/qcqa-documents'
+      link_label: 'Open the document library'
     - icon: T
       icon_bg: purple
       title: 'Traceability sample & quarantine'
@@ -128,7 +140,7 @@ traceability:
   tagline: 'A Batch, Followed From Raw Material To Shipped Drum'
   title: 'What Traceability Actually Looks Like'
   body: |
-    Every batch is issued a **10-year ERP lot code**. The chain recorded under one lot:
+    Every batch is issued a **5-year ERP lot code**. The chain recorded under one lot:
 
     - **Incoming raw material** — technical-grade active ingredient COA, lot number, raw material tested (content, impurities, physical properties)
     - **Weighing & dispensing** — formula card vs master batch record, quantity logged per ingredient

@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'OEM Adjuvants & Co-Formulants | {SITE}'
   description: 'OEM/ODM adjuvant and co-formulant manufacturer: custom formulation production, private label, and wholesale. ISO 9001-certified factory in China.'
   dateModified: '2026-08-07'
@@ -22,7 +22,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Minimum order quantity is confirmed by project configuration: sample (1–4 tons), pilot (5 tons on existing platforms) and standard volume (20+ tons per production batch), with co-branding from lower quantities. Samples ship in 7–12 days; bulk production runs 25–35 days after PO and deposit. ICAMA and FAO/WHO documentation prepared for your target markets, and full compliance documentation included with every order.'
+  text: 'Minimum order quantity is confirmed by project configuration: sample (1–4 tons), pilot (5 tons on existing platforms) and standard volume (20+ tons per production batch), with co-branding from lower quantities. Samples ship in 7–14 days; bulk production runs 25–35 days after PO and deposit. ICAMA and FAO/WHO documentation prepared for your target markets, and full compliance documentation included with every order.'
   verified: '2026-08'
   image:
     src: https://assets.agrospear.com/images/agrospear/products/adjuvant-series/adjuvant-spreadertest-1.webp
@@ -72,9 +72,9 @@ faqs:
   subtitle: 'Answers to the most common questions from brands launching their own adjuvant line.'
   items:
     - title: 'How do I create my own adjuvant brand?'
-      description: 'Launch your brand: brief, formulation design, ICAMA-documented prototype, mass production, and delivery. Samples in 7–12 days, production in 25–35 days from PO and deposit. Explore our OEM packages.'
+      description: 'Launch your brand: brief, formulation design, ICAMA-documented prototype, mass production, and delivery. Samples in 7–14 days, production in 25–35 days from PO and deposit. Explore our OEM packages.'
     - title: 'What is the production lead time?'
-      description: 'The sample is ready in 7–12 days, bulk production in 25–35 days after PO and deposit depending on volume.'
+      description: 'The sample is ready in 7–14 days, bulk production in 25–35 days after PO and deposit depending on volume.'
     - title: 'Does the adjuvant carry our label?'
       description: 'Yes — full private label: custom labels, drum branding, packaging, and safety data sheets in your brand.'
     - title: 'Can I buy in bulk from day one?'
@@ -82,7 +82,7 @@ faqs:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> adjuvant and formulation production share the same <a href="/oem-manufacturing">OEM/ODM program</a> and the same <a href="/manufacturing/factory">12,500 m&sup2; factory floor</a> — one quote covers both.</p>
+    <p><strong>Keep reading:</strong> adjuvant and formulation production share the same <a href="/oem-manufacturing">OEM/ODM program</a> and the same <a href="/manufacturing/factory">20,000 m&sup2; factory floor</a> — one quote covers both.</p>
   </div>
 
 geo:

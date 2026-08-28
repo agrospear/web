@@ -1,0 +1,114 @@
+meta:
+  title: 'QC/QA Document Library | Agrochemical Manufacturing Evidence | Agrospear'
+  description: 'Public QC/QA process, inspection and traceability dossiers from Agrospear agrochemical manufacturing operations.'
+  dateModified: '2026-08-28'
+  keywords:
+    - 'agrochemical QC QA documents'
+    - 'agrochemical inspection report'
+    - 'pesticide manufacturing quality system'
+
+hero:
+  tagline: 'Factory Evidence Library'
+  title: 'QC/QA Process, Inspection & Traceability Documents'
+  subtitle: 'A public library of Agrospear production-control and inspection dossiers: from raw-material IQC to finished-product release, retained samples and batch traceability.'
+  actions:
+    - variant: primary
+      text: 'Request a Project Quality Pack'
+      href: /contact#trust-verification
+    - text: 'Explore the 7-stage QC framework'
+      href: /manufacturing/quality-control
+
+answer:
+  label: 'What is included'
+  text: 'This library contains the approved public process and evidence documents supplied for Agrospear agrochemical manufacturing. It covers formulation-specific QC/QA systems, IQC, IPQC, FQC/OQC, COA-style release records, retained samples, batch traceability and pre-production coordination. Documents are provided for capability review; project specifications and release criteria remain defined by the approved customer specification and quality agreement.'
+  verified: '2026-08'
+
+document_groups:
+  tagline: 'Downloadable Dossiers'
+  title: 'Production and Inspection Evidence by Product Group'
+  subtitle: 'The original bilingual PDF dossiers are available for direct review and download.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'SC & WDG Production QC SOP'
+      desc: 'Bilingual SOP covering suspension concentrate and water-dispersible granule production, process checkpoints and quality inspection requirements.'
+      link: /downloads/qcqa/agrospear-sc-wdg-production-qc-sop.pdf
+      link_label: 'Download PDF'
+    - icon: H
+      icon_bg: green
+      title: 'Herbicide QC System & Dossier'
+      desc: 'Quality-control framework and supporting dossier for herbicide production and release.'
+      link: /downloads/qcqa/agrospear-herbicide-qc-system-and-dossier.pdf
+      link_label: 'Download PDF'
+    - icon: I
+      icon_bg: purple
+      title: 'Insecticide QC System & Dossier'
+      desc: 'Core insecticide quality-control system and supporting documentation.'
+      link: /downloads/qcqa/agrospear-insecticide-qc-system-and-dossier.pdf
+      link_label: 'Download PDF'
+    - icon: 4
+      icon_bg: orange
+      title: 'Insecticide 4-Stage Release Dossier'
+      desc: 'Four-stage evidence chain covering incoming inspection, in-process control, final release and retained-sample traceability.'
+      link: /downloads/qcqa/agrospear-insecticide-4stage-qc-and-release-dossier.pdf
+      link_label: 'Download PDF'
+    - icon: F
+      icon_bg: blue
+      title: 'Fungicide QC System & Dossier'
+      desc: 'Fungicide production QC/QA framework and supporting evidence dossier.'
+      link: /downloads/qcqa/agrospear-fungicide-qc-system-and-dossier.pdf
+      link_label: 'Download PDF'
+    - icon: A
+      icon_bg: green
+      title: 'Acaricide & Nematicide QC Dossier'
+      desc: 'Product-group-specific quality-control system for acaricide and nematicide production.'
+      link: /downloads/qcqa/agrospear-acaricides-nematicides-qc-system-and-dossier.pdf
+      link_label: 'Download PDF'
+    - icon: P
+      icon_bg: purple
+      title: 'PGR QC System Dossier'
+      desc: 'Quality-control overview for plant growth regulator formulation and production.'
+      link: /downloads/qcqa/agrospear-pgr-qc-system-and-dossier.pdf
+      link_label: 'Download PDF'
+
+evidence_images:
+  tagline: 'Factory-Floor Evidence'
+  title: 'Inspection and Production Coordination Records'
+  subtitle: 'Photographic records from the approved public document set, showing how production coordination, inspection and release responsibilities are organized.'
+  features:
+    - image: /images/qcqa/insecticide-pre-production-meeting.jpeg
+      alt: 'Pre-production coordination meeting for an agrochemical manufacturing project'
+      title: 'Pre-Production Coordination'
+      desc: 'Production coordination before a batch begins, aligning technical, production and quality responsibilities.'
+    - image: /images/qcqa/insecticide-four-party-meeting-roles.jpeg
+      alt: 'Four-party meeting roles and responsibilities for agrochemical production control'
+      title: 'Defined Roles and Responsibilities'
+      desc: 'Role allocation for the production-control team before execution.'
+    - image: /images/qcqa/insecticide-iqc-inspection.jpeg
+      alt: 'Incoming quality control inspection of agrochemical raw materials and packaging'
+      title: 'IQC Incoming Inspection'
+      desc: 'Incoming raw materials and packaging are checked before they enter production.'
+    - image: /images/qcqa/ipqc-critical-control-points.jpeg
+      alt: 'In-process quality control critical control points in agrochemical production'
+      title: 'IPQC Critical Control Points'
+      desc: 'In-process inspection points used to identify deviations before the next production stage.'
+    - image: /images/qcqa/fqc-personnel-release-verification.jpeg
+      alt: 'Final quality control personnel and product release verification'
+      title: 'FQC/OQC Release Verification'
+      desc: 'Final inspection and authorized release responsibilities before shipment.'
+    - image: /images/qcqa/traceability-key-personnel-verification.jpeg
+      alt: 'Batch traceability and retained-sample quality control verification'
+      title: 'Traceability and Retained Samples'
+      desc: 'Evidence of the personnel and records supporting retained-sample and batch-traceability controls.'
+
+cta:
+  title: 'Need the Quality Documents for Your OEM Project?'
+  subtitle: 'Send the formulation type, target market, packaging configuration and inspection requirements. We can map the appropriate QC/QA dossier and project-specific quality records.'
+  actions:
+    - variant: primary
+      text: 'Request Quality Documentation'
+      href: /contact#trust-verification
+    - text: 'View Quality Inspection Standards'
+      href: /manufacturing/factory/quality-inspection
+    - text: 'View Factory Process'
+      href: /manufacturing/factory/process

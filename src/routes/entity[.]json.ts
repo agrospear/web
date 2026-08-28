@@ -3,7 +3,7 @@ import { env } from '@/lib/env'
 import { getGeoEntity } from '@/features/content/loader'
 import { SITE_NAME } from '@/config/site'
 import { BRAND_PARENT_BRAND, BRAND_COMPANY_NAME, BRAND_BOILERPLATE, BRAND_PARENT_URL } from '@/config/branding'
-import { ENTITY_KNOWS_ABOUT, ENTITY_SUBJECT_OF } from '@/product/entity-data'
+import { ENTITY_KNOWS_ABOUT, ENTITY_SUBJECT_OF, getEntitySameAs } from '@/product/entity-data'
 import { PARENT_ORG_DESCRIPTION } from '@/product/ai-content'
 import {
   brandHeritageLd,
@@ -44,6 +44,7 @@ const handler = () => {
     description: PARENT_ORG_DESCRIPTION,
     sameAs: BRAND_PARENT_URL,
   }
+  out.sameAs = getEntitySameAs()
   out.knowsAbout = ENTITY_KNOWS_ABOUT
   out.subjectOf = ENTITY_SUBJECT_OF.map((s) => ({
     '@type': s.type,

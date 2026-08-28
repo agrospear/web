@@ -21,7 +21,7 @@ answer:
 
 intro:
   - Every agrochemical product manufactured at Agrospear follows a defined production workflow — from raw material receiving through compounding, formulation processing, filling, labeling, quality testing and export packing. Each stage includes mandatory QC checkpoints with pass/fail criteria documented in our ERP system.
-  - Our 12,500 m² facility houses dedicated workshops for each production stage, staffed by 350+ workers across two shifts. The integrated approach means every batch is produced, tested and shipped by one team under one quality system.
+  - Our 20,000 m² facility houses dedicated workshops for each production stage, staffed by 200+ workers across two shifts. The integrated approach means every batch is produced, tested and shipped by one team under one quality system.
 
 manufacturing_process:
   tagline: Production Stages
@@ -86,7 +86,7 @@ faqs:
     - q: 'What is the minimum production volume?'
       a: 'Pilot batches start at 5 tons on existing platforms. Standard volume production runs 20+ tons per batch. Sample batches of 1–4 tons are available for registration trials and product evaluation.'
     - q: 'How long does production take?'
-      a: 'Standard production lead time is 25–35 days from confirmed PO and deposit. Custom formulation development adds 15–20 days. Prototype samples ship in 7–12 days.'
+      a: 'Standard production lead time is 25–35 days from confirmed PO and deposit. Custom formulation development adds 15–20 days. Prototype samples ship in 7–14 days.'
     - q: 'Is every batch quality tested?'
       a: 'Yes. 100% of production batches undergo stability testing at 54°C for 14 days, active content verification by HPLC/GC, and full specification checks before release. Our quality lab operates independently from production.'
 

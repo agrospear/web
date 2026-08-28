@@ -1,4 +1,4 @@
-﻿slug: solutions-co-branding
+slug: solutions-co-branding
 meta:
   title: 'Agrochemical Co-Branding | Joint Product OEM Development | {SITE}'
   description: 'Co-branding solutions for agrochemical partners: joint product development, shared registration data, combined brand packaging and collaborative formulation engineering with Agrospear.'
@@ -48,7 +48,7 @@ stats:
   title: Co-Branding Metrics
   stats:
     - title: Factory Floor
-      amount: '12,500 m²'
+      amount: '20,000 m²'
     - title: Stability Test
       amount: '24-month shelf life'
     - title: Production Checklist
@@ -72,7 +72,7 @@ fleet_guide:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> co-branded products start from a shared specification — see our <a href="/oem-manufacturing">OEM/ODM program</a> for customization, trial MOQs and co-branding terms. Every batch runs the 12,500 m&sup2; <a href="/manufacturing/factory">production line</a> and is 100% stability-tested before it ships under both brands.</p>
+    <p><strong>Keep reading:</strong> co-branded products start from a shared specification — see our <a href="/oem-manufacturing">OEM/ODM program</a> for customization, trial MOQs and co-branding terms. Every batch runs the 20,000 m&sup2; <a href="/manufacturing/factory">production line</a> and is 100% stability-tested before it ships under both brands.</p>
   </div>
 
 related:

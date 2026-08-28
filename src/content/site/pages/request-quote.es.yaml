@@ -16,7 +16,7 @@ hero:
 
 answer:
   label: 'Qué pasa después'
-  text: 'Después de enviar un brief de proyecto, recibes una respuesta en un día laborable. Un NDA está disponible antes de que compartas detalles de propiedad. I+D revisa tu brief y devuelve una cotización detallada con MOQ, tarifas de muestra y un cronograma puerta por puerta — típicamente 7–12 días para muestras y 6–8 semanas para la primera producción desde PO confirmado. Las tarifas de muestra se acreditan hacia tu pedido de producción. Sin compromiso hasta que firmes.'
+  text: 'Después de enviar un brief de proyecto, recibes una respuesta en un día laborable. Un NDA está disponible antes de que compartas detalles de propiedad. I+D revisa tu brief y devuelve una cotización detallada con MOQ, tarifas de muestra y un cronograma puerta por puerta — típicamente 7–14 días para muestras y 6–8 semanas para la primera producción desde PO confirmado. Las tarifas de muestra se acreditan hacia tu pedido de producción. Sin compromiso hasta que firmes.'
   verified: '2026-08'
 
 process_steps:
@@ -76,7 +76,7 @@ faqs:
     - q: '¿Está protegida mi formulación?'
       a: 'Sí. Un NDA está disponible de inmediato — antes de que compartas cualquier información de propiedad. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellas.'
     - q: '¿Cuál es el pedido mínimo para empezar?'
-      a: 'El punto de entrada es escalonado: primero 1–4 toneladas de muestra (7–12 días), un pedido de prueba de 5 toneladas (25–35 días), y luego series de volumen estándar de 20+ toneladas por configuración aprobada.'
+      a: 'El punto de entrada es escalonado: primero 1–4 toneladas de muestra (7–14 días), un pedido de prueba de 5 toneladas (25–35 días), y luego series de volumen estándar de 20+ toneladas por configuración aprobada.'
     - q: '¿Se aplican tarifas de muestra?'
       a: 'Las tarifas de muestra se presupuestan en la etapa de revisión de factibilidad y se acreditan hacia tu pedido de producción. No se requiere compromiso hasta que revises y firmes el contrato.'
 

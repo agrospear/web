@@ -78,7 +78,7 @@ export function SiteNav() {
           label: t('agro.nav.productsServicesDropdown.exploreGroup'),
           items: [
             { label: t('agro.nav.productsServicesDropdown.manufacturer'), href: '/solutions/agrochemical-oem' },
-            { label: t('agro.nav.productsServicesDropdown.constructionComparison'), href: '/formulation-type-comparison' },
+            { label: t('agro.nav.productsServicesDropdown.formulationComparison'), href: '/formulation-type-comparison' },
             { label: t('agro.nav.productsServicesDropdown.privateLabel'), href: '/solutions/private-label-pesticides' },
             { label: t('agro.nav.productsServicesDropdown.comparison'), href: '/oem-odm-private-label-comparison' },
             { label: t('agro.nav.productsServicesDropdown.productDevelopment'), href: '/solutions/custom-formulation' },
@@ -170,11 +170,7 @@ export function SiteNav() {
     <a href={fl('/app')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
       {t('agro.nav.app')}
     </a>
-  ) : (
-    <a href={fl('/login')} className="text-[13px] font-semibold text-fg-2 transition-colors hover:text-foreground">
-      {t('common.signIn')}
-    </a>
-  )
+  ) : null
 
   const cta = (
     <a href={fl('/request-quote')} className={buttonVariants({ size: 'sm' })}>
@@ -289,10 +285,12 @@ export function SiteNav() {
         {t('common.skipToContent')}
       </a>
       <header className="sticky top-0 z-30 border-b border-border/80 shadow-[var(--shadow-sm)] backdrop-blur">
-        {/* top bar — auth utilities above the main nav */}
-        <div className="flex h-9 items-center justify-end gap-4 border-b border-border/60 px-4 md:px-7">
-          {authLink}
-        </div>
+        {/* top bar — authenticated users can access the private app; public visitors see no login link */}
+        {authLink && (
+          <div className="flex h-9 items-center justify-end gap-4 border-b border-border/60 px-4 md:px-7">
+            {authLink}
+          </div>
+        )}
         <nav aria-label={t('common.mainNav')} className="flex h-16 items-center gap-3 px-4 md:px-7">
           <a href={fl('/')} aria-label={SITE_NAME} className="shrink-0">
             <div className="flex flex-col leading-tight">
@@ -303,7 +301,7 @@ export function SiteNav() {
           <div className="flex-1" />
 
           {/* desktop nav with mega-menus */}
-          <div className="hidden items-center gap-0.5 lg:flex">{navItems.map(renderDesktopItem)}</div>
+          <div className="hidden items-center gap-0.5 lg:flex">{navItems.map((item) => <div key={item.label}>{renderDesktopItem(item)}</div>)}</div>
 
           {/* theme · search · language */}
           <div className="flex items-center gap-1">

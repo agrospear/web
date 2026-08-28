@@ -1,6 +1,6 @@
 meta:
   title: 'Agrochemical OEM Manufacturer China | Custom Formulation Production'
-  description: 'Agrochemical OEM factory: manufacture your existing formulation — engineering review, samples in 7–12 days, production in 25–35 days, ISO/BSCI/ICAMA compliance.'
+  description: 'Agrochemical OEM factory: manufacture your existing formulation — engineering review, samples in 7–14 days, production in 25–35 days, ISO/BSCI/ICAMA compliance.'
   dateModified: '2026-08-16'
   keywords:
     - 'agrochemical OEM manufacturer'
@@ -12,11 +12,11 @@ meta:
 hero:
   tagline: OEM Manufacturing
   title: 'Custom Agrochemical OEM Manufacturing — Your Spec, Our Factory'
-  subtitle: 'You bring the formulation, specification or proven platform — we manufacture it at container scale. Engineering review within one business day, samples in 7–12 days, production runs 25–35 days after confirmed PO and deposit, shipped under your brand.'
+  subtitle: 'You bring the formulation, specification or proven platform — we manufacture it at container scale. Engineering review within one business day, samples in 7–14 days, production runs 25–35 days after confirmed PO and deposit, shipped under your brand.'
 
 answer:
   label: 'Straight answer'
-  text: 'OEM production runs from your specification. MOQ is confirmed by project configuration rather than a fixed number: standard volume production runs 20+ tons per batch, pilot runs start at 5 tons on existing platforms, and every project moves through sample (1–4 tons) before volume. Samples ship in 7–12 days; production runs 25–35 days after confirmed PO and deposit, plus 15–20 days when custom formulation development is required.'
+  text: 'OEM production runs from your specification. MOQ is confirmed by project configuration rather than a fixed number: standard volume production runs 20+ tons per batch, pilot runs start at 5 tons on existing platforms, and every project moves through sample (1–4 tons) before volume. Samples ship in 7–14 days; production runs 25–35 days after confirmed PO and deposit, plus 15–20 days when custom formulation development is required.'
   verified: '2026-08'
 
 features:
@@ -33,7 +33,7 @@ features:
       description: 'New formulations from your specifications or reference products — in-house R&D design and engineering. Development adds 15–20 days to your project lead time.'
       icon: 'tabler:shapes'
     - title: Prototype & Sample
-      description: 'A physical sample batch is produced and approved before any volume run, typically within 7–12 days, with composition and efficacy data for new formulations.'
+      description: 'A physical sample batch is produced and approved before any volume run, typically within 7–14 days, with composition and efficacy data for new formulations.'
       icon: 'tabler:tools'
     - title: Container-Scale Production
       description: 'Standard volume batches of 20+ tons per formulation, pilot runs from 5 tons, 25–35 days lead time after confirmed PO.'
@@ -42,7 +42,7 @@ features:
       description: 'ISO 9001, ISO 14001, BSCI and ICAMA — compliance documentation prepared for every market you ship to.'
       icon: 'tabler:certificate'
     - title: Inspection & Traceability
-      description: 'Stability and content analysis testing per batch, a 7-stage inspection gate system and 10-year ERP batch traceability.'
+      description: 'Stability and content analysis testing per batch, a 7-stage inspection gate system and 5-year ERP batch traceability.'
       icon: 'tabler:shield-check'
     - title: Global Logistics
       description: 'FOB Qingdao, CIF and DDP to more than 50 countries, with export packing and customs clearance handled by our logistics team.'
@@ -72,15 +72,15 @@ faq_section:
     - q: What is the MOQ for OEM agrochemical manufacturing?
       a: 'MOQ is confirmed by project configuration — formulation type and development, colorways and concentration, artwork, packaging and drum configuration. Standard volume production runs 20+ tons per batch, while pilot runs start at 5 tons on existing platforms. Read the full calculation logic in our MOQ & Flexible Branding Guide.'
     - q: What is the typical lead time for an OEM order?
-      a: 'Production runs 25–35 days from confirmed PO and deposit. Custom formulation development adds 15–20 days. Prototype samples usually ship within 7–12 days.'
+      a: 'Production runs 25–35 days from confirmed PO and deposit. Custom formulation development adds 15–20 days. Prototype samples usually ship within 7–14 days.'
     - q: Can you manufacture from my existing formulation only?
       a: 'Yes. OEM builds from your specification as-is — you own the formulation. Our engineers review it for production feasibility, flag any spec conflicts before development or mixing starts, and the approved sample becomes the production reference.'
     - q: Do you provide samples before production?
-      a: 'Yes. A physical sample batch is produced and approved before any production run, typically within 7–12 days, and it is the reference for all subsequent QC checks.'
+      a: 'Yes. A physical sample batch is produced and approved before any production run, typically within 7–14 days, and it is the reference for all subsequent QC checks.'
     - q: Which certifications does the factory hold?
       a: 'ISO 9001, ISO 14001, BSCI and ICAMA. Full compliance documentation is provided with every OEM shipment, prepared for your target markets.'
     - q: How is quality controlled on an OEM run?
-      a: 'Production runs through the 7-stage inspection gate system — incoming raw material, intermediate product, mixing & filling, stability & content analysis, label & packaging QC, compliance documentation verification, and final packaging & documentation — with batch traceability and 10-year ERP records.'
+      a: 'Production runs through the 7-stage inspection gate system — incoming raw material, intermediate product, mixing & filling, stability & content analysis, label & packaging QC, compliance documentation verification, and final packaging & documentation — with batch traceability and 5-year ERP records.'
     - q: What are your shipping terms?
       a: 'FOB Qingdao, CIF major global ports, or DDP for qualified partners. We ship to 50+ countries across EU, US, LATAM, Africa and Asia markets.'
 
@@ -102,7 +102,7 @@ process:
         - 'Platform or formulation decisions are locked — custom development starts here when required.'
     - phase: '03'
       title: Prototype & Sample
-      period: 7–12 days
+      period: 7–14 days
       items:
         - 'A physical sample batch is produced and sent for your review — composition and efficacy data included for new formulations.'
         - 'Sample (1–4 tons) validates your spec before any volume commitment.'

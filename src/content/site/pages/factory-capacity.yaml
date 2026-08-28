@@ -1,6 +1,6 @@
-﻿meta:
-  title: 'Factory Production Capacity | 12,500 m² Agrochemical Manufacturer China | {SITE}'
-  description: 'Agrospear factory capacity: 12,500 m2 facility producing 20,000+ tons of agrochemical formulations per year with room to scale. Large-scale OEM/ODM agrochemical manufacturing.'
+meta:
+  title: 'Factory Production Capacity | 20,000 m² Agrochemical Manufacturer China | {SITE}'
+  description: 'Agrospear factory capacity: 20,000 m² facility producing 50,000+ tons of agrochemical formulations per year with room to scale. Large-scale OEM/ODM agrochemical manufacturing.'
   dateModified: '2026-08-07'
   keywords:
     - 'agrochemical production capacity'
@@ -10,23 +10,23 @@
 hero:
   tagline: Production Capacity
   title: Manufacturing Capacity & Annual Output
-  subtitle: 12,500 m2 facility producing 20,000+ tons of agrochemical formulations per year with room to scale
+  subtitle: 20,000 m² facility producing 50,000+ tons of agrochemical formulations per year with room to scale
 
 answer:
   label: 'Straight answer'
-  text: 'Factory capacity: 12,500 m2 across four specialized workshops, 20,000+ tons of agrochemical formulations per year, 350+ workers on two shifts, exporting to 50+ countries. MOQ is confirmed by project configuration — sample (1–4 tons), pilot (5 tons) and standard volume (20+ tons per batch); see our MOQ & Flexible Branding Guide for the full logic. Lead time 25–35 days, samples 7–12 days.'
+  text: 'Factory capacity: 20,000 m² across four specialized workshops, 50,000+ tons of agrochemical formulations per year, 200+ workers on two shifts, exporting to 50+ countries. MOQ is confirmed by project configuration — sample (1–4 tons), pilot (5 tons) and standard volume (20+ tons per batch); see our MOQ & Flexible Branding Guide for the full logic. Lead time 25–35 days, samples 7–14 days.'
   verified: '2026-08'
 
-intro: Agrospear operates one of the largest dedicated agrochemical manufacturing facilities in Qingdao, China. Our 12,500 m2 factory is organized into four specialized workshops operating in parallel, giving us the capacity to produce over 20,000 tons annually across formulation and packaging lines.
+intro: Agrospear operates one of the largest dedicated agrochemical manufacturing facilities in Qingdao, China. Our 20,000 m² factory is organized into four specialized workshops operating in parallel, giving us the capacity to produce over 50,000 tons annually across formulation and packaging lines.
 
 highlights:
-  - value: 12,500 m2
+  - value: 20,000 m²
     label: Total manufacturing floor
     detail: Across 4 specialized workshops
-  - value: 20,000+
+  - value: 50,000+
     label: Tons produced annually
     detail: Herbicides, insecticides, fungicides, PGRs
-  - value: 350+
+  - value: 200+
     label: Skilled workforce
     detail: 25+ engineers, 2 shifts/day
   - value: 50+
@@ -41,8 +41,8 @@ highlights:
 
 workshops:
   - title: SC/EC/SL Formulation Production
-    description: '4 automated production lines for SC, EC, and SL formulations with a combined output of about 2,000 tons per month. High-shear mixing and sand milling stations run concurrently. Annual capacity: 20,000+ tons.'
-    output: '20,000+ tons/year'
+    description: 'Automated production lines for SC, EC, and SL formulations with a combined output of about 4,000 tons per month. High-shear mixing and sand milling stations run concurrently. Annual capacity: 50,000+ tons.'
+    output: '50,000+ tons/year'
   - title: WDG/WP/ME Formulation Production
     description: 'Expanded production capacity for WDG, WP, and ME formulations utilizing additional spray drying and fluid bed granulation lines. Sand milling, spray drying, and packaging stations run concurrently.'
     output: 'Expanded WDG/WP capacity'
@@ -55,7 +55,7 @@ workshops:
 
 oem_capacity:
   moq: 'Agrochemical: sample 1–4 tons | pilot 5 tons | volume 20+ tons per batch'
-  lead_time: 'Standard 25–35 days. Sample 7–12 days. Rush available.'
+  lead_time: 'Standard 25–35 days. Sample 7–14 days. Rush available.'
   payment: 'T/T 30% deposit + 70% balance. L/C, Western Union accepted.'
 
 lead_time_explainer:

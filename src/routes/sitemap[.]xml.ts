@@ -10,7 +10,7 @@ const handler = () =>
       'sitemap-products.xml',
       'sitemap-news.xml',
     ]),
-    { headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600' } },
+    { headers: { 'content-type': 'application/xml; charset=utf-8', 'cache-control': 'public, max-age=3600, stale-while-revalidate=86400' } },
   )
 
 export const Route = createFileRoute('/sitemap.xml')({

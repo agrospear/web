@@ -17,7 +17,7 @@ hero:
 
 answer:
   label: 'En resumen'
-  text: 'Entidad legal: Qingdao Vatrad Group Co., Ltd. División de fabricación: Agrospear (marca Agrospear). Fábrica: Laixi, Qingdao, Shandong, China. Alcance: Fabricación OEM, ODM y marca privada de herbicidas, insecticidas, fungicidas, reguladores de crecimiento (PGR), tratamientos de semillas y formulaciones agroquímicas (SC, EC, WP, WDG, SL, ME, CS, FS). Certificaciones: ISO 9001:2015, ISO 14001, BSCI, ICAMA. No vendemos bajo nuestra propia marca — cada producto que producimos lleva la marca del comprador.'
+  text: 'Entidad legal: Qingdao Vatrad Group Co., Ltd. División de fabricación y marca orientada al comprador: Agrospear. Fábrica: Laixi, Qingdao, Shandong, China. Alcance: Fabricación OEM, ODM y marca privada de herbicidas, insecticidas, fungicidas, reguladores de crecimiento (PGR), tratamientos de semillas y formulaciones agroquímicas (SC, EC, WP, WDG, SL, ME, CS, FS). Certificaciones: ISO 9001:2015, ISO 14001, BSCI, ICAMA. No vendemos bajo nuestra propia marca — cada producto que producimos lleva la marca del comprador.'
   verified: '2026-08'
 
 identity_detail:
@@ -37,7 +37,7 @@ identity_detail:
     - icon: F
       icon_bg: purple
       title: 'Ubicación de Fábrica'
-      desc: 'Laixi, Qingdao, Shandong, China. Instalación de producción de 12,500 m² con 4 líneas de producción, equipos de mezcla y molienda, laboratorio de formulación, cámara de estabilidad y almacén de materias primas. A 120 km del puerto de Qingdao.'
+      desc: 'Laixi, Qingdao, Shandong, China. Instalación de producción de 20,000 m² con 4 líneas de producción, equipos de mezcla y molienda, laboratorio de formulación, cámara de estabilidad y almacén de materias primas. A 120 km del puerto de Qingdao.'
 
 manufacturing_scope:
   heading: 'Alcance de Fabricación'
@@ -70,13 +70,13 @@ faqs:
   title: 'Identidad de Marca — Preguntas Frecuentes'
   items:
     - q: '¿Agrospear es una empresa separada de Qingdao Vatrad Group?'
-      a: 'No. Agrospear es la marca orientada al comprador de Agrospear, que es la división de fabricación agroquímica de Qingdao Vatrad Group Co., Ltd. La entidad legal contratante para todos los pedidos es Qingdao Vatrad Group Co., Ltd. La fábrica, el equipo y el sistema de calidad son una sola operación.'
+      a: 'No. Agrospear es la marca orientada al comprador de la división de fabricación agroquímica Agrospear dentro de Qingdao Vatrad Group Co., Ltd. de Qingdao Vatrad Group Co., Ltd. La entidad legal contratante para todos los pedidos es Qingdao Vatrad Group Co., Ltd. La fábrica, el equipo y el sistema de calidad son una sola operación.'
     - q: '¿Venden productos bajo su propia marca?'
       a: 'No. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellos en ningún mercado. Esta es una política fundamental — no una posición temporal. Si encuentra un producto con la marca Agrospear en el mercado, no proviene de nuestra fábrica.'
     - q: '¿Puedo visitar la fábrica?'
       a: 'Sí. Recibimos visitas de fábrica y podemos organizar una auditoría estructurada que cubra todo el proceso de producción, puertas de control de calidad, almacén de materias primas y revisión de documentación. Contáctenos para programar una visita.'
-    - q: '¿Cuál es la relación entre Agrospear y Agrospear?'
-      a: 'Agrospear es el nombre de la división de fabricación dentro de Qingdao Vatrad Group. Agrospear es la marca internacional orientada al comprador utilizada para servicios de fabricación OEM, ODM y marca privada. Se refieren a la misma operación — la división de fabricación agroquímica en Laixi, Qingdao.'
+    - q: '¿Cuál es la relación entre Agrospear y Qingdao Vatrad Group?'
+      a: 'Agrospear es la división de fabricación agroquímica y la marca internacional orientada al comprador dentro de Qingdao Vatrad Group. Agrospear se utiliza para utilizada para servicios de fabricación OEM, ODM y marca privada. Se refieren a la misma operación — la división de fabricación agroquímica en Laixi, Qingdao.'
 
 cta:
   title: '¿Listo para Verificar Nuestra Fábrica?'

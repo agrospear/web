@@ -54,7 +54,7 @@ export const FACTS = {
   certificationNote: 'Certificate numbers, validity periods and issuing authorities are available per project on request. Registration status varies by target market and product; scope is confirmed per project.',
   exportCountries: '50+',
   workshops: '6 specialized production workshops',
-  productionLines: '8 automated lines',
+  productionLines: '8 automated formulation lines',
   monthlyCapacity: '4,000+ tons/month',
   ndaWindow: '4 business hours',
   qualityGates: '7-stage (Node 01–07)',

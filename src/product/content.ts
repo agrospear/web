@@ -1,4 +1,4 @@
-﻿import type { Locale } from '@/features/i18n/locale'
+import type { Locale } from '@/features/i18n/locale'
 import { FACTS, MOQ_SHORT, COLLABORATION_MODES } from './facts'
 
 /**
@@ -48,7 +48,7 @@ export const hero: Localized<HeroContent> = {
     titlePre: 'China Agrochemical Manufacturer for',
     titleAccent: 'OEM, ODM & Private Label Brands',
     titlePost: '',
-    sub: 'From raw active ingredient to export-ready crop protection product — all under one roof. Eight formulation types (SC, EC, WP, WDG, SL, ME, CS, FS), 200+ workers, two daily shifts, and 50,000+ tons annual capacity. OEM, ODM and private-label programs for brands, distributors and importers in 60+ countries.',
+    sub: `From raw active ingredient to export-ready crop protection product — all under one roof. Eight formulation types (SC, EC, WP, WDG, SL, ME, CS, FS), 200+ workers, two daily shifts, and 50,000+ tons annual capacity. OEM, ODM and private-label programs for brands, distributors and importers in ${FACTS.exportCountries} countries.`,
     ctaPrimary: 'Start Your Agrochemical Project',
     ctaSecondary: 'View Factory, MOQ & Quality Evidence',
     ctaTertiary: '',
@@ -68,11 +68,11 @@ export const hero: Localized<HeroContent> = {
     float2: { value: FACTS.leadTime, label: 'Production lead time (after PO)' },
   },
   es: {
-    kicker: 'Fabricante de agroquímicos designado · Qingdao, China · 8 líneas de formulación · De muestras de 1 tonelada a contenedores completos',
+    kicker: 'Fabricante de agroquímicos designado · Qingdao, China · 8 líneas de formulación automatizadas · De muestras de 1 tonelada a contenedores completos',
     titlePre: 'Fabricación de agroquímicos a medida para',
     titleAccent: 'marcas, distribuidores e importadores',
     titlePost: '',
-    sub: 'Del ingrediente activo en bruto al producto de protección de cultivos listo para exportar — todo bajo un mismo techo. Ocho tipos de formulación (SC, EC, WP, WDG, SL, ME, CS, FS), 200+ operarios, dos turnos diarios y 50.000+ toneladas de capacidad anual. Programas OEM, ODM y marca propia para marcas, distribuidores e importadores en 60+ países.',
+    sub: `Del ingrediente activo en bruto al producto de protección de cultivos listo para exportar — todo bajo un mismo techo. Ocho tipos de formulación (SC, EC, WP, WDG, SL, ME, CS, FS), 200+ operarios, dos turnos diarios y 50.000+ toneladas de capacidad anual. Programas OEM, ODM y marca propia para marcas, distribuidores e importadores en ${FACTS.exportCountries} países.`,
     ctaPrimary: 'Inicia tu proyecto de agroquímicos',
     ctaSecondary: 'Ver fábrica, MOQ y evidencia de calidad',
     ctaTertiary: '',
@@ -483,15 +483,15 @@ export const commercial: Localized<CommercialContent> = {
       {
         label: 'Lead time',
         lines: [
-          '25-35 days from confirmed PO and deposit',
-          'New formulation registration: +60-90 days',
+          `${FACTS.leadTime} from confirmed PO and deposit`,
+          'New formulation registration: +60–90 days',
           'Expedited production available for seasonal demand',
         ],
       },
       {
         label: 'Sampling',
         lines: [
-          'Formulation samples ship in 7-14 days',
+          `Formulation samples ship in ${FACTS.sampleTime}`,
           'Sample cost credited against bulk order',
         ],
       },
@@ -645,7 +645,7 @@ export const serve: Localized<ServeContent> = {
         body: 'Source quality-assured crop protection products with full regulatory documentation, batch traceability and ICAMA compliance — from national input subsidy programs in West and East Africa to regional tender orders in South and Southeast Asia.',
         points: ['Regulatory compliance & ICAMA registration', 'Competitive tender pricing', 'Bulk supply with locked specifications', 'Full batch traceability (ERP-linked)', 'Phytosanitary & export documentation per country'],
         cta: 'Learn More',
-        href: '/solutions/government-procurement',
+        href: '/solutions/government-tender',
       },
       {
         slug: 'retail-private-label',
@@ -653,7 +653,7 @@ export const serve: Localized<ServeContent> = {
         body: 'Create differentiated agrochemical product lines instead of competing on the same standard products — your brand, your label, your shelf positioning, with retail-ready packaging and regulatory compliance.',
         points: ['Private label on validated formulations', 'Custom packaging & retail-ready sizes', 'Regulatory text per destination market', 'Batch coding & expiry management', 'Low pilot MOQ for market testing'],
         cta: 'View Solutions',
-        href: '/solutions/private-label-agrochemical',
+        href: '/solutions/private-label-pesticides',
       },
     ],
   },
@@ -684,7 +684,7 @@ export const serve: Localized<ServeContent> = {
         body: 'Adquiere productos de protección de cultivos con garantía de calidad, documentación regulatoria completa, trazabilidad por lote y cumplimiento ICAMA — desde programas nacionales de subsidios en África Occidental y Oriental hasta licitaciones regionales en el Sur y Sudeste Asiático.',
         points: ['Cumplimiento regulatorio y registro ICAMA', 'Precios competitivos para licitaciones', 'Suministro por volumen con especificaciones fijadas', 'Trazabilidad completa (vinculada por ERP)', 'Documentación fitosanitaria y de exportación por país'],
         cta: 'Saber más',
-        href: '/solutions/government-procurement',
+        href: '/solutions/government-tender',
       },
       {
         slug: 'retail-private-label',
@@ -692,7 +692,7 @@ export const serve: Localized<ServeContent> = {
         body: 'Crea líneas de productos agroquímicos diferenciadas en lugar de competir con los mismos productos estándar — tu marca, tu etiqueta, tu posicionamiento en anaquel, con embalaje listo para retail y cumplimiento regulatorio.',
         points: ['Marca privada en formulaciones validadas', 'Embalaje personalizado y tamaños retail', 'Texto regulatorio según mercado de destino', 'Codificación de lote y gestión de caducidad', 'MOQ piloto bajo para testeo de mercado'],
         cta: 'Ver soluciones',
-        href: '/solutions/private-label-agrochemical',
+        href: '/solutions/private-label-pesticides',
       },
     ],
   },
@@ -1739,7 +1739,7 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'Registration & Regulatory Compliance for Agrochemical Products',
         body: 'What registration covers, the documentation to demand, and how to verify compliance for your target market.',
-        href: '/news/registration-regulatory-agrochemical',
+        href: '/news/icama-registration-agrochemical',
       },
     ],
   },
@@ -1761,7 +1761,7 @@ export const guides: Localized<GuidesContent> = {
       {
         title: 'Registro y cumplimiento regulatorio de productos agroquímicos',
         body: 'Qué cubre el registro, la documentación que debes exigir y cómo verificar el cumplimiento para tu mercado de destino.',
-        href: '/news/registration-regulatory-agrochemical',
+        href: '/news/icama-registration-agrochemical',
       },
     ],
   },
@@ -1783,7 +1783,7 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Agrochemical Product Development Timeline',
         body: `Sample in ${FACTS.sampleTime}, production in ${FACTS.leadTime}, registration plus 60-90 days — the full calendar, stage by stage.`,
-        href: '/news/custom-agrochemical-development-timeline',
+        href: '/news/custom-formulation-development-timeline',
       },
       {
         title: 'Information to Prepare Before Ordering',
@@ -1803,7 +1803,7 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Registration & Regulatory Compliance for Agrochemical Products',
         body: 'What registration covers, the documentation to demand, and how to verify compliance for your target market.',
-        href: '/news/registration-regulatory-agrochemical',
+        href: '/news/icama-registration-agrochemical',
       },
     ],
   },
@@ -1820,7 +1820,7 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Calendario de desarrollo de producto agroquímico',
         body: `Muestra en ${FACTS.sampleTime}, producción en ${FACTS.leadTime}, registro más 60-90 días — el calendario completo, etapa por etapa.`,
-        href: '/news/custom-agrochemical-development-timeline',
+        href: '/news/custom-formulation-development-timeline',
       },
       {
         title: 'Información para preparar antes de pedir',
@@ -1840,7 +1840,7 @@ export const manufacturingGuides: Localized<GuidesContent> = {
       {
         title: 'Registro y cumplimiento regulatorio de productos agroquímicos',
         body: 'Qué cubre el registro, la documentación que debes exigir y cómo verificar el cumplimiento para tu mercado de destino.',
-        href: '/news/registration-regulatory-agrochemical',
+        href: '/news/icama-registration-agrochemical',
       },
     ],
   },

@@ -1,6 +1,6 @@
 ﻿meta:
   title: 'Factory & Manufacturing — Agrochemical OEM'
-  description: 'Tour the Agrospear factory: 12,500 m² plant with compounding, grinding, filling, labeling, and quality lab for agrochemical OEM/ODM manufacturing.'
+  description: 'Tour the Agrospear factory: 20,000 m² plant with compounding, grinding, filling, labeling, and quality lab for agrochemical OEM/ODM manufacturing.'
   dateModified: '2026-08-07'
   keywords:
     - 'agrochemical factory china'
@@ -10,23 +10,23 @@
 hero:
   tagline: Factory
   title: Factory & Manufacturing
-  subtitle: 12,500 m2 agrochemical factory in Qingdao, China — custom agrochemical manufacturing from raw active ingredient to finished crop protection product
+  subtitle: 20,000 m² agrochemical factory in Qingdao, China — custom agrochemical manufacturing from raw active ingredient to finished crop protection product
 
 answer:
   label: 'Straight answer'
-  text: 'Certified agrochemical factory in Qingdao, China: ISO 9001, ISO 14001, BSCI, ICAMA. 12,500 m² plant across 4 specialized workshops, 350+ workers, 20,000+ tons produced annually (2,000+ tons/month on 4 automated lines). Every batch is stability-tested at 54°C for 14 days, passes a 100-point production checklist, and carries 10-year material traceability.'
+  text: 'Certified agrochemical factory in Qingdao, China: ISO 9001, ISO 14001, BSCI, ICAMA. 20,000 m² plant across 4 specialized workshops, 200+ workers, 50,000+ tons produced annually (4,000+ tons/month on automated production lines). Every batch is stability-tested at 54°C for 14 days, passes a 100-point production checklist, and carries 5-year material traceability.'
   verified: '2026-08'
 
 intro:
-  - As the manufacturing division of **Qingdao Vatrad Group Co., Ltd.**, Agrospear controls every stage of agrochemical manufacturing —from the arrival of raw active ingredients to the final pre-delivery inspection of the finished crop protection product. Our manufacturing facility in the Qingdao Economic Development Zone spans 12,500 square metres and houses dedicated workshops for raw material preparation, compounding and mixing, formulation grinding, filling and sealing, and quality testing.
+  - As the manufacturing division of **Qingdao Vatrad Group Co., Ltd.**, Agrospear controls every stage of agrochemical manufacturing —from the arrival of raw active ingredients to the final pre-delivery inspection of the finished crop protection product. Our manufacturing facility in the Qingdao Economic Development Zone spans 20,000 square metres and houses dedicated workshops for raw material preparation, compounding and mixing, formulation grinding, filling and sealing, and quality testing.
   - By integrating formulation design, engineering, prototyping, manufacturing, and testing under one roof, we eliminate the inefficiencies of contract manufacturing and maintain direct control over product quality, raw material selection, and delivery timelines. Every formulation that leaves our workshop is produced by our people, on our equipment, to our standards.
 
 stats:
-  - value: 12,500 m2
+  - value: 20,000 m²
     label: Manufacturing floor
-  - value: 350+
+  - value: 200+
     label: Skilled workers
-  - value: 20,000+
+  - value: 50,000+
     label: Tons produced annually
   - value: ISO 9001
     label: Quality certified
@@ -38,7 +38,7 @@ intelligence_cards:
   - title: Production Capacity
     icon: C
     icon_bg: blue
-    desc: '12,500 m² facility producing 20,000+ tons/yr across formulation and packaging lines. 350+ workers, 2 shifts.'
+    desc: '20,000 m² facility producing 50,000+ tons/yr across formulation and packaging lines. 200+ workers, 2 shifts.'
     metrics:
       - label: MOQ
         value: 'Agrochemical: sample 1–4 tons / pilot 5 tons / volume 20+'
@@ -203,7 +203,7 @@ faq_section:
     - q: Does Agrospear hold BSCI certification?
       a: Yes. Our factory maintains valid BSCI social compliance certification (audit report available on request). We also hold ISO 9001 for quality management and ISO 14001 for environmental management. ICAMA registration applies to formulations destined for Chinese and regulated markets; scope is confirmed per project. REACH compliance documentation is provided with every OEM order.
     - q: What is the typical lead time for an OEM order?
-      a: Standard lead time is 25–35 days from confirmed PO and deposit for bulk OEM production. Custom formulation development adds 15–20 days for lab trials. Expedited production is available for urgent orders and seasonal rushes. Prototype samples are typically ready within 7–12 days.
+      a: Standard lead time is 25–35 days from confirmed PO and deposit for bulk OEM production. Custom formulation development adds 15–20 days for lab trials. Expedited production is available for urgent orders and seasonal rushes. Prototype samples are typically ready within 7–14 days.
     - q: Do you handle export documentation?
       a: Yes. Our team manages export documentation and customs clearance in-house, and we supply to 50+ countries across EU, US, AU, and Asia markets.
 

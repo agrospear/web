@@ -55,9 +55,9 @@ comparison_table:
       odm: 'Full — factory proposes, you approve each element'
       pl: 'Label design and packaging only — no formulation changes'
     - dimension: 'Sample process'
-      oem: '1–4 ton prototype sample in 7–12 days after spec approval'
-      odm: '1–4 ton prototype sample in 7–12 days after formulation approval'
-      pl: '1–4 ton sample in 7–12 days — platform already validated'
+      oem: '1–4 ton prototype sample in 7–14 days after spec approval'
+      odm: '1–4 ton prototype sample in 7–14 days after formulation approval'
+      pl: '1–4 ton sample in 7–14 days — platform already validated'
     - dimension: 'Best for'
       oem: 'Buyers with existing formulations, reference products or detailed specs'
       odm: 'Buyers with product ideas or market requirements but no detailed formulation'
@@ -119,7 +119,7 @@ faqs:
     - q: 'What if I am not sure which model to choose?'
       a: 'Contact us with your situation — our R&D team will recommend the most practical path based on your product requirements, timeline and volume targets. No commitment required before specification review.'
     - q: 'Can I get samples before committing to any model?'
-      a: 'Yes. 1–4 ton prototype samples ship in 7–12 days. Sample cost is credited against your bulk order. This lets you evaluate composition and quality before any volume commitment.'
+      a: 'Yes. 1–4 ton prototype samples ship in 7–14 days. Sample cost is credited against your bulk order. This lets you evaluate composition and quality before any volume commitment.'
 
 cta:
   title: 'Ready to Discuss Your Agrochemical Project?'

@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Guía del Comprador OEM | Abastecimiento de Agroquímicos desde China | {SITE}'
   description: 'Cómo abastecer formulaciones agroquímicas desde Asia: auditoría de fábrica, control de calidad, cumplimiento, negociación de MOQ, envío y errores a evitar.'
   author: 'Agrospear'
@@ -13,7 +13,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'La cantidad mínima de pedido se confirma según la configuración del proyecto, no con un número fijo: el desarrollo de muestra (1–4 toneladas) valida la formulación, los pedidos piloto (5 toneladas) prueban el mercado sobre plataformas existentes, la producción de volumen estándar corre en lotes de 20+ toneladas, y el co-branding de lotes pequeños parte de cantidades inferiores. Las muestras se envían en 7–12 días; la producción en serie tarda 25–35 días tras la confirmación de la orden de compra y el depósito, más 15–20 días cuando se requiere desarrollo de formulación nuevo.'
+  text: 'La cantidad mínima de pedido se confirma según la configuración del proyecto, no con un número fijo: el desarrollo de muestra (1–4 toneladas) valida la formulación, los pedidos piloto (5 toneladas) prueban el mercado sobre plataformas existentes, la producción de volumen estándar corre en lotes de 20+ toneladas, y el co-branding de lotes pequeños parte de cantidades inferiores. Las muestras se envían en 7–14 días; la producción en serie tarda 25–35 días tras la confirmación de la orden de compra y el depósito, más 15–20 días cuando se requiere desarrollo de formulación nuevo.'
   verified: '2026-08'
 
 content_html: |
@@ -81,7 +81,7 @@ content_html: |
 
   <h2>5. Logística y envío</h2>
   <p>Incoterms habituales: <strong>FOB</strong> (la fábrica entrega en el puerto de salida: el más común), <strong>EXW</strong> (el comprador gestiona todo el envío desde la puerta de la fábrica), <strong>CIF</strong> (la fábrica paga el flete y el seguro hasta el puerto de destino).</p>
-  <p>Los productos agroquímicos se clasifican como mercancías peligrosas (el número UN varía según la formulación): asegúrate de que tu socio logístico maneja carga DG. El envasado en bidones (200 L) es estándar para formulaciones líquidas; WDG y WP usan bolsas de 25 kg. El tránsito marítimo de China a la UE suele tardar 25–35 días, y 7–12 días a la costa oeste de EE. UU., además del plazo de producción de 25–35 días.</p>
+  <p>Los productos agroquímicos se clasifican como mercancías peligrosas (el número UN varía según la formulación): asegúrate de que tu socio logístico maneja carga DG. El envasado en bidones (200 L) es estándar para formulaciones líquidas; WDG y WP usan bolsas de 25 kg. El tránsito marítimo de China a la UE suele tardar 25–35 días, y 7–14 días a la costa oeste de EE. UU., además del plazo de producción de 25–35 días.</p>
 
   <h2>6. Errores habituales</h2>
   <ul>
@@ -93,8 +93,8 @@ content_html: |
   </ul>
 
   <h2>7. Por qué Agrospear</h2>
-  <p>Agrospear fabrica formulaciones agroquímicas OEM/ODM desde 2012. Con unas instalaciones certificadas ISO 9001 e ISO 14001 de 12,500 m&sup2;, más de 25 ingenieros y soporte de registro ICAMA para mercados objetivo (alcance confirmado por proyecto), cumplimos todos los criterios de esta guía. Ofrecemos MOQ de prueba para nuevos socios y paquetes completos de documentación de cumplimiento.</p>
-  <p>Revisa nuestros <a href="/es/oem-manufacturing">servicios de fabricación OEM/ODM agroquímica</a> o visita la <a href="/es/manufacturing/factory">planta de 12,500 m&sup2;</a> para ver los equipos y los procesos de control de calidad que hay detrás de cada paso anterior.</p>
+  <p>Agrospear fabrica formulaciones agroquímicas OEM/ODM desde 2012. Con unas instalaciones certificadas ISO 9001 e ISO 14001 de 20,000 m&sup2;, más de 25 ingenieros y soporte de registro ICAMA para mercados objetivo (alcance confirmado por proyecto), cumplimos todos los criterios de esta guía. Ofrecemos MOQ de prueba para nuevos socios y paquetes completos de documentación de cumplimiento.</p>
+  <p>Revisa nuestros <a href="/es/oem-manufacturing">servicios de fabricación OEM/ODM agroquímica</a> o visita la <a href="/es/manufacturing/factory">planta de 20,000 m&sup2;</a> para ver los equipos y los procesos de control de calidad que hay detrás de cada paso anterior.</p>
 
 cta:
   title: '¿Listo para empezar a abastecerte?'

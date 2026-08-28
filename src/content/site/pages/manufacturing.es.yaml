@@ -1,6 +1,6 @@
 meta:
   title: 'Fabricante de Agroquímicos China | Fábrica OEM y ODM | {SITE}'
-  description: 'Fabricación Agrospear: fábrica de agroquímicos de 12.500 m² en Qingdao, China. Formulación OEM/ODM, producción, control de calidad y exportación para marcas de protección de cultivos.'
+  description: 'Fabricación Agrospear: fábrica de agroquímicos de 20.000 m² en Qingdao, China. Formulación OEM/ODM, producción, control de calidad y exportación para marcas de protección de cultivos.'
   dateModified: '2026-08-24'
   keywords:
     - 'fabricación agroquímica'
@@ -12,11 +12,11 @@ meta:
 hero:
   tagline: Fabricación
   title: 'Centro de Fabricación Agroquímica'
-  subtitle: 'Fábrica de agroquímicos de 12.500 m² en Qingdao, China — formulación OEM/ODM, producción, control de calidad y exportación para marcas de protección de cultivos en todo el mundo.'
+  subtitle: 'Fábrica de agroquímicos de 20.000 m² en Qingdao, China — formulación OEM/ODM, producción, control de calidad y exportación para marcas de protección de cultivos en todo el mundo.'
 
 answer:
   label: 'Respuesta directa'
-  text: 'Agrospear opera una fábrica de agroquímicos de 12.500 m² en Qingdao (China) con más de 350 trabajadores, 6 líneas de producción y más de 20.000 toneladas de producción anual. Certificada ISO 9001, ISO 14001, BSCI e ICAMA. Servicios OEM/ODM desde lotes piloto de 5 toneladas hasta lotes estándar de 20+ toneladas, enviados a más de 50 países. Cada lote se prueba de estabilidad a 54 °C durante 14 días con trazabilidad completa de materiales.'
+  text: 'Agrospear opera una fábrica de agroquímicos de 20.000 m² en Qingdao (China) con más de 350 trabajadores, 6 líneas de producción y más de 20.000 toneladas de producción anual. Certificada ISO 9001, ISO 14001, BSCI e ICAMA. Servicios OEM/ODM desde lotes piloto de 5 toneladas hasta lotes estándar de 20+ toneladas, enviados a más de 50 países. Cada lote se prueba de estabilidad a 54 °C durante 14 días con trazabilidad completa de materiales.'
   verified: '2026-08'
 
 intro:
@@ -24,9 +24,9 @@ intro:
   - Al integrar el diseño de formulación, la ingeniería, la creación de prototipos, la fabricación y los ensayos, eliminamos las ineficiencias de la fabricación por contrato y mantenemos el control directo sobre la calidad del producto, la selección de materias primas y los plazos de entrega.
 
 stats:
-  - value: 12,500 m²
+  - value: 20,000 m²
     label: Superficie de fabricación
-  - value: 350+
+  - value: 200+
     label: Trabajadores cualificados
   - value: 20,000+
     label: Toneladas producidas al año
@@ -40,9 +40,9 @@ sub_page_cards:
     desc: 'Visión completa de la fábrica: talleres, equipos, flujo de producción, plantilla, trazabilidad de materiales y panel de control de calidad de la planta de Qingdao.'
     metrics:
       - label: Superficie
-        value: '12.500 m²'
+        value: '20.000 m²'
       - label: Trabajadores
-        value: '350+'
+        value: '200+'
     link: /es/manufacturing/factory
     link_label: 'Explorar la fábrica →'
   - title: Proceso de Fabricación Agroquímica
@@ -62,7 +62,7 @@ faqs:
   title: 'Fabricación — Preguntas Frecuentes'
   items:
     - q: '¿Qué capacidades de fabricación tiene Agrospear?'
-      a: 'Fábrica de 12.500 m² con 6 líneas de producción, más de 350 trabajadores y más de 20.000 toneladas de capacidad anual. Mezclamos, molemos, llenamos, etiquetamos y enviamos productos agroquímicos en formulaciones SC, EC, WP, WDG, SL, ME, CS y FS con certificación ISO 9001 e ICAMA.'
+      a: 'Fábrica de 20.000 m² con 6 líneas de producción, más de 350 trabajadores y más de 20.000 toneladas de capacidad anual. Mezclamos, molemos, llenamos, etiquetamos y enviamos productos agroquímicos en formulaciones SC, EC, WP, WDG, SL, ME, CS y FS con certificación ISO 9001 e ICAMA.'
     - q: '¿Cuál es el MOQ para fabricación?'
       a: 'El MOQ se confirma por configuración del proyecto: muestras 1–4 toneladas, pilotos desde 5 toneladas, volumen estándar 20+ toneladas por lote. El plazo de producción es de 25–35 días desde el PO confirmado.'
     - q: '¿Agrospear gestiona la exportación?'

@@ -12,11 +12,11 @@ meta:
 hero:
   tagline: ODM Development
   title: 'ODM Agrochemical Development — From Your Idea to a Market-Ready Formulation'
-  subtitle: 'No formulation spec yet? Our in-house R&D team designs the formulation, dispersion system, labeling and packaging around your brief — then produces, tests and mass-manufactures it. Prototype samples in 7–12 days, production in 25–35 days after confirmed PO.'
+  subtitle: 'No formulation spec yet? Our in-house R&D team designs the formulation, dispersion system, labeling and packaging around your brief — then produces, tests and mass-manufactures it. Prototype samples in 7–14 days, production in 25–35 days after confirmed PO.'
 
 answer:
   label: 'Straight answer'
-  text: 'ODM development starts from your brief, not your specification: formulation design (active ingredient, concentration, formulation type, adjuvants), dispersion system and labeling are engineered in-house, validated by prototype samples in 7–12 days, and produced at standard volume MOQ of 20+ tons per batch (pilot from 5 tons). Production runs 25–35 days after confirmed PO and deposit; custom formulation development adds 15–20 days. ISO 9001, ISO 14001, BSCI and ICAMA documentation ships with every order.'
+  text: 'ODM development starts from your brief, not your specification: formulation design (active ingredient, concentration, formulation type, adjuvants), dispersion system and labeling are engineered in-house, validated by prototype samples in 7–14 days, and produced at standard volume MOQ of 20+ tons per batch (pilot from 5 tons). Production runs 25–35 days after confirmed PO and deposit; custom formulation development adds 15–20 days. ISO 9001, ISO 14001, BSCI and ICAMA documentation ships with every order.'
   verified: '2026-08'
 
 features:
@@ -36,7 +36,7 @@ features:
       description: 'New formulations start as R&D projects designed and tested in-house — development adds 15–20 days to the project timeline.'
       icon: 'tabler:shapes'
     - title: Prototype Validation
-      description: 'A prototype batch is produced, tested and sent for your review — usually within 7–12 days.'
+      description: 'A prototype batch is produced, tested and sent for your review — usually within 7–14 days.'
       icon: 'tabler:tools'
     - title: Testing & Compliance
       description: 'Stability testing, content analysis and physical property testing per batch, with ISO 9001, ISO 14001, BSCI and ICAMA documentation for export.'
@@ -71,7 +71,7 @@ faq_section:
     - q: I only have a rough idea — where do we start?
       a: 'Send a short brief: target crop, pest profile, rough concentration, markets and volumes. Our R&D team comes back with a formulation concept, a reference product direction and a development plan within one business day — an NDA is signed before any detailed exchange when requested.'
     - q: How long does it take to develop a new agrochemical formulation?
-      a: 'Prototype samples ship in 7–12 days. A new formulation with custom development adds 15–20 days of R&D before samples. Production runs 25–35 days after PO and deposit.'
+      a: 'Prototype samples ship in 7–14 days. A new formulation with custom development adds 15–20 days of R&D before samples. Production runs 25–35 days after PO and deposit.'
     - q: What is the MOQ for an ODM formulation?
       a: 'Standard volume production runs 20+ tons per batch; pilot runs start at 5 tons on existing platforms. Small-batch co-branding starts at 1–4 tons — see our MOQ & Flexible Branding Guide for the full calculation.'
     - q: Who owns the formulation and development data?
@@ -105,7 +105,7 @@ process:
         - 'Formulation ownership terms are fixed in the contract before development starts.'
     - phase: '04'
       title: Prototype & Sample
-      period: 7–12 days
+      period: 7–14 days
       items:
         - 'A prototype batch is produced, tested and sent for your review — composition and efficacy data included.'
         - 'Sample (1–4 tons) validates formulation, stability and branding before volume.'

@@ -1,6 +1,6 @@
 meta:
   title: 'MOQ y Plazo OEM Agroquímico | Fabricante China Pedido Mínimo | {SITE}'
-  description: 'MOQ y plazos de formulaciones agroquímicas personalizadas: muestras en 7–12 días, piloto de 5 toneladas, volumen de 20+ toneladas por lote y producción en 25–35 días.'
+  description: 'MOQ y plazos de formulaciones agroquímicas personalizadas: muestras en 7–14 días, piloto de 5 toneladas, volumen de 20+ toneladas por lote y producción en 25–35 días.'
   dateModified: '2026-08-16'
   keywords:
     - 'MOQ agroquímico personalizado'
@@ -24,7 +24,7 @@ hero:
 
 answer:
   label: 'Respuesta directa'
-  text: 'El MOQ y los plazos dependen de cada proyecto, pero el marco es fijo. Todo proyecto de formulación agroquímica personalizada pasa por las mismas etapas escalonadas: desarrollo de muestras (1–4 toneladas, listas en 7–12 días), pedidos de prueba y piloto (5 toneladas sobre plataformas existentes) y series de volumen estándar (20+ toneladas por lote de producción). El plazo de producción es de 25–35 días desde la confirmación del PO y el depósito; si el proyecto necesita una formulación nueva, el desarrollo añade 15–20 días antes de iniciar la producción. Así se ve un primer proyecto típico: muestras en unas 1–2 semanas, lotes piloto en 4–6 semanas y la primera serie completa enviándose unas 6–8 semanas después de la confirmación del pedido.'
+  text: 'El MOQ y los plazos dependen de cada proyecto, pero el marco es fijo. Todo proyecto de formulación agroquímica personalizada pasa por las mismas etapas escalonadas: desarrollo de muestras (1–4 toneladas, listas en 7–14 días), pedidos de prueba y piloto (5 toneladas sobre plataformas existentes) y series de volumen estándar (20+ toneladas por lote de producción). El plazo de producción es de 25–35 días desde la confirmación del PO y el depósito; si el proyecto necesita una formulación nueva, el desarrollo añade 15–20 días antes de iniciar la producción. Así se ve un primer proyecto típico: muestras en unas 1–2 semanas, lotes piloto en 4–6 semanas y la primera serie completa enviándose unas 6–8 semanas después de la confirmación del pedido.'
   verified: '2026-08'
 
 moq_lead_table:
@@ -39,7 +39,7 @@ moq_lead_table:
   rows:
     - stage: 'Desarrollo de muestras'
       quantity: '1–4 toneladas'
-      lead_time: '7–12 días'
+      lead_time: '7–14 días'
       best_for: 'Validar el rendimiento de la formulación, el contenido activo, el diseño de etiqueta y el ajuste del embalaje. Se aplican tarifas de muestra que se acreditan a tu pedido de producción al firmar el contrato.'
     - stage: 'Pedido de prueba / piloto'
       quantity: '5 toneladas'
@@ -123,7 +123,7 @@ expedite:
     - icon: S
       icon_bg: blue
       title: 'Muestras Rápidas por Defecto'
-      desc: 'El desarrollo de muestras toma 7–12 días en todos los proyectos. Usa la ronda de muestras para congelar tu especificación y que la producción nunca espere decisiones de etiqueta tardías.'
+      desc: 'El desarrollo de muestras toma 7–14 días en todos los proyectos. Usa la ronda de muestras para congelar tu especificación y que la producción nunca espere decisiones de etiqueta tardías.'
     - icon: P
       icon_bg: green
       title: 'Cupos de Producción Confirmados por Adelantado'
@@ -141,7 +141,7 @@ scenarios:
     - icon: A
       icon_bg: orange
       title: 'Marca Nueva: Valida Antes de Comprometerte'
-      desc: 'Pide primero 1–4 toneladas de muestra (7–12 días), prueba la eficacia biológica y el rendimiento en campo, y luego haz un pedido piloto de 5 toneladas para validar la rotación antes de cualquier serie completa. La exposición total de la primera temporada se mantiene por debajo de 10 toneladas.'
+      desc: 'Pide primero 1–4 toneladas de muestra (7–14 días), prueba la eficacia biológica y el rendimiento en campo, y luego haz un pedido piloto de 5 toneladas para validar la rotación antes de cualquier serie completa. La exposición total de la primera temporada se mantiene por debajo de 10 toneladas.'
     - icon: B
       icon_bg: blue
       title: 'Distribuidor o Minorista: Piloto y Luego Escala'
@@ -189,7 +189,7 @@ moq_faqs:
     - q: '¿Cuál es la cantidad mínima de pedido para una formulación agroquímica personalizada?'
       a: 'Depende de la etapa de tu proyecto: las muestras son de 1–4 toneladas, el co-branding de lotes pequeños parte desde cantidades menores, los pedidos de prueba y piloto corren 5 toneladas sobre plataformas existentes, y la producción de volumen estándar corre 20+ toneladas por lote de producción. Las formulaciones a medida corren en el nivel de volumen. Confirmamos el cálculo exacto para tu configuración antes de cotizar.'
     - q: '¿Cuánto tarda una muestra de formulación agroquímica?'
-      a: 'El desarrollo de muestras toma 7–12 días. La muestra verifica el contenido activo, las propiedades físicas, la precisión de la etiqueta y el ajuste del embalaje. Se aplican tarifas de muestra que se acreditan a tu pedido de producción al firmar el contrato.'
+      a: 'El desarrollo de muestras toma 7–14 días. La muestra verifica el contenido activo, las propiedades físicas, la precisión de la etiqueta y el ajuste del embalaje. Se aplican tarifas de muestra que se acreditan a tu pedido de producción al firmar el contrato.'
     - q: '¿Cuánto tarda la producción después de confirmar el pedido?'
       a: 'El plazo de producción es de 25–35 días desde el PO confirmado y el depósito. Si tu proyecto incluye una formulación a medida, el desarrollo añade 15–20 días de I+D antes de iniciar la producción.'
     - q: '¿El MOQ se calcula por pedido, por formulación o por versión de etiqueta?'

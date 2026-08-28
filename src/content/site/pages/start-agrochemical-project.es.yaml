@@ -1,6 +1,6 @@
 meta:
   title: 'Iniciar Proyecto Agroquímico | Fabricante OEM China | {SITE}'
-  description: 'Inicia tu proyecto agroquímico: envía un brief, obtén NDA, recibe muestras en 7–12 días, aprueba y escala a producción. Proceso paso a paso con cronogramas.'
+  description: 'Inicia tu proyecto agroquímico: envía un brief, obtén NDA, recibe muestras en 7–14 días, aprueba y escala a producción. Proceso paso a paso con cronogramas.'
   dateModified: '2026-08-20'
   keywords:
     - 'iniciar proyecto agroquímico'
@@ -24,7 +24,7 @@ hero:
 
 answer:
   label: 'Qué pasa después'
-  text: 'Después de enviar un brief de proyecto, recibes una respuesta en un día hábil. Un NDA está disponible antes de que compartas cualquier detalle de propiedad. I+D revisa tu brief y devuelve una cotización detallada con MOQ, tarifas de muestra y un cronograma puerta por puerta — típicamente 7–12 días para muestras y 6–8 semanas para la primera producción desde PO confirmado. Las tarifas de muestra se acreditan hacia tu pedido de producción. Sin compromiso hasta que firmes.'
+  text: 'Después de enviar un brief de proyecto, recibes una respuesta en un día hábil. Un NDA está disponible antes de que compartas cualquier detalle de propiedad. I+D revisa tu brief y devuelve una cotización detallada con MOQ, tarifas de muestra y un cronograma puerta por puerta — típicamente 7–14 días para muestras y 6–8 semanas para la primera producción desde PO confirmado. Las tarifas de muestra se acreditan hacia tu pedido de producción. Sin compromiso hasta que firmes.'
   verified: '2026-08'
 
 process_steps:
@@ -91,9 +91,9 @@ faqs:
   title: 'Iniciar un Proyecto Agroquímico — Preguntas Frecuentes'
   items:
     - q: '¿Cuál es el pedido mínimo para empezar?'
-      a: 'El punto de entrada es escalonado: primero 1–4 toneladas de muestra (7–12 días), un pedido de prueba de 5 toneladas (25–35 días), y luego series de volumen estándar de 20+ toneladas por configuración aprobada. El co-branding de marca privada empieza desde cantidades inferiores sin etapa de desarrollo.'
+      a: 'El punto de entrada es escalonado: primero 1–4 toneladas de muestra (7–14 días), un pedido de prueba de 5 toneladas (25–35 días), y luego series de volumen estándar de 20+ toneladas por configuración aprobada. El co-branding de marca privada empieza desde cantidades inferiores sin etapa de desarrollo.'
     - q: '¿Cuánto tardan las muestras?'
-      a: 'Los lotes de prototipo se producen en 7–12 días desde la especificación confirmada y el depósito. Usando plataformas de formulación existentes, el ciclo completo desde el brief hasta el pedido de prueba entregado típicamente corre en 8–12 semanas. Una formulación a medida añade 15–20 días de desarrollo.'
+      a: 'Los lotes de prototipo se producen en 7–14 días desde la especificación confirmada y el depósito. Usando plataformas de formulación existentes, el ciclo completo desde el brief hasta el pedido de prueba entregado típicamente corre en 8–12 semanas. Una formulación a medida añade 15–20 días de desarrollo.'
     - q: '¿Está protegida mi formulación?'
       a: 'Sí. Un NDA está disponible de inmediato — antes de que compartas cualquier información de propiedad. Fabricamos exclusivamente bajo las marcas de nuestros clientes y nunca competimos con ellas. Todos los archivos técnicos se almacenan en sistemas con control de acceso y trazabilidad de auditoría.'
     - q: '¿Qué pide el formulario de brief de proyecto?'

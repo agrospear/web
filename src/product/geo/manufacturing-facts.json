@@ -1,62 +1,62 @@
 {
   "facility": {
     "location": "Qingdao, China",
-    "size": "12,500 m²",
-    "employees": "350+",
-    "annual_capacity": "120,000+ units"
+    "size": "20,000 m²",
+    "employees": "200+",
+    "annual_capacity": "50,000+ tons"
   },
   "capabilities": {
     "design": ["Product requirement analysis", "3D modeling", "Prototype development"],
     "materials": [
-      "Marine-grade PVC (1100 denier)",
-      "Hypalon/CSM rubber",
-      "Fiberglass",
-      "Aluminum alloys",
-      "Stainless steel"
+      "Technical-grade active ingredients",
+      "Solvents and co-formulants",
+      "Surfactants and adjuvants",
+      "HDPE containers",
+      "UN-rated export packaging"
     ],
     "processes": [
-      "CNC cutting",
-      "High-frequency welding",
-      "PVC/Hypalon fabrication",
-      "Drop stitch core assembly",
-      "Fiberglass layup",
-      "Aluminum hull welding",
-      "Tube assembly & seam sealing",
-      "Pressure testing",
-      "Water testing"
+      "Active ingredient dosing",
+      "Liquid formulation blending",
+      "Solid formulation milling",
+      "Granulation and drying",
+      "Filling and packaging",
+      "GHS labeling and batch coding",
+      "HPLC and GC analysis",
+      "Accelerated stability testing",
+      "Export documentation review"
     ],
     "equipment": [
-      "CNC cutting machines",
-      "High-frequency welding machines",
-      "Drop stitch production line",
-      "Pressure testing rigs",
-      "Material aging testers",
-      "Seam strength testers"
+      "Dosing reactors",
+      "High-shear mixers and bead mills",
+      "Fluid-bed granulators",
+      "Automated filling lines",
+      "HPLC and GC instruments",
+      "Stability testing chambers"
     ]
   },
   "quality_control": [
-    "Incoming material inspection",
-    "In-process quality checks",
-    "Seam strength testing",
-    "Pressure testing for all inflatable products",
-    "Final product inspection",
-    "Sea trials for RIB boats"
+    "Incoming raw material inspection",
+    "In-process concentration checks",
+    "HPLC purity analysis",
+    "GC residue testing",
+    "Accelerated and long-term stability testing",
+    "Final packaging and label inspection"
   ],
   "oem_process": [
     "Product requirement analysis",
-    "Design confirmation",
-    "Prototype production",
-    "Testing & validation",
-    "Mass production",
-    "Quality inspection",
-    "Export delivery"
+    "Formulation and specification confirmation",
+    "Laboratory sample production",
+    "Testing and validation",
+    "Pilot batch production",
+    "Volume production",
+    "Quality inspection and export delivery"
   ],
   "customization_options": [
-    "Tube colors",
-    "Console position",
-    "Fuel capacity",
-    "Accessory mounts",
-    "Branding & logos",
-    "Packaging"
+    "Active ingredient and concentration",
+    "Formulation type",
+    "Adjuvant system",
+    "Branding and label artwork",
+    "Packaging size",
+    "Export documentation"
   ]
 }

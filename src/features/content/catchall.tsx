@@ -109,15 +109,15 @@ const SERVICE_SCHEMA_PAGES: Record<string, { serviceType: string; description: s
 export type RelatedProduct = { slug: string; title: string; image: string; category?: string; amount?: string }
 
 const MANUFACTURING_SCHEMA_PAGES: Record<string, { name: string; description: string }> = {
-  '/manufacturing': { name: 'Agrospear Agrochemical Manufacturing', description: 'Full-service agrochemical manufacturing facility: 12,500 m² plant, 6 production lines, 50,000+ t annual capacity, 7-stage QC and 60+ export countries.' },
-  '/manufacturing/factory': { name: 'Agrospear Factory — Agrochemical Formulation Plant', description: '12,500 m² agrochemical formulation plant in Qingdao, China — 6 production workshops, 8 automated lines, GLP-certified analytical lab and 200+ workers.' },
+  '/manufacturing': { name: 'Agrospear Agrochemical Manufacturing', description: 'Full-service agrochemical manufacturing facility: 20,000 m² plant, 8 production lines, 50,000+ t annual capacity, 7-stage QC and 50+ export countries.' },
+  '/manufacturing/factory': { name: 'Agrospear Factory — Agrochemical Formulation Plant', description: '20,000 m² agrochemical formulation plant in Qingdao, China — specialized workshops, 8 automated formulation lines, analytical lab and 200+ workers.' },
   '/manufacturing/agrochemical-manufacturing': { name: 'Agrochemical Manufacturing Service', description: 'End-to-end agrochemical manufacturing: herbicide, insecticide, fungicide, PGR, seed treatment and biopesticide formulation, packaging and export.' },
   '/manufacturing/pesticide-formulation': { name: 'Pesticide Formulation Engineering', description: 'Pesticide formulation development and production: SC, EC, WP, WDG, SL, ME, CS, FS — from pilot trials to volume manufacturing.' },
   '/manufacturing/quality-control': { name: 'Agrochemical Quality Control', description: '7-stage agrochemical quality control: incoming inspection, formulation verification, processing monitoring, stability testing, packaging QC, branding QC, and final documentation.' },
   '/manufacturing/packaging': { name: 'Agrochemical Packaging', description: 'Agrochemical packaging capabilities: 50 mL to 200 L, smallholder sachets, bulk drums, IBCs and custom DG-compliant export packaging.' },
   '/manufacturing/research-development': { name: 'Agrochemical R&D Center', description: 'Agrochemical research and development: formulation engineering, adjuvant optimization, registration dossier preparation and GLP stability studies.' },
   '/manufacturing/factory-audit': { name: 'Factory Audit', description: 'Agrochemical factory audit: 8-area inspection checklist, third-party audit support, quality system documentation and facility tour.' },
-  '/factory': { name: 'Agrospear Factory — Agrochemical Formulation Plant', description: '12,500 m² agrochemical formulation plant in Qingdao, China — 6 production workshops, 8 automated lines, GLP-certified analytical lab and 200+ workers.' },
+  '/factory': { name: 'Agrospear Factory — Agrochemical Formulation Plant', description: '20,000 m² agrochemical formulation plant in Qingdao, China — specialized workshops, 8 automated formulation lines, analytical lab and 200+ workers.' },
 }
 
 const MARKET_SCHEMA_PAGES: Record<string, { regionName: string; description: string; countries?: string[] }> = {

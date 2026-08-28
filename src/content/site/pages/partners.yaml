@@ -1,4 +1,4 @@
-﻿meta:
+meta:
   title: 'Agrochemical Distribution Partners | OEM Supplier China | {SITE}'
   description: 'Manufacturing partnerships with Agrospear: distribution, wholesale supply, OEM/private-label programs and specification support for agrochemical businesses worldwide.'
   keywords:
@@ -17,7 +17,7 @@ hero:
 
 answer:
   label: 'Straight answer'
-  text: 'Partnership terms start with sample (1–4 tons) and pilot batches (5 tons, samples in 7–12 days), then scale to standard volume OEM runs of 20+ tons per batch, or invest in custom formulations for private label products. MOQ is confirmed by project configuration. Distribution programs carry exclusive territories, factory-direct wholesale pricing and 45–60 day payment terms, shipped FOB Qingdao or CIF.'
+  text: 'Partnership terms start with sample (1–4 tons) and pilot batches (5 tons, samples in 7–14 days), then scale to standard volume OEM runs of 20+ tons per batch, or invest in custom formulations for private label products. MOQ is confirmed by project configuration. Distribution programs carry exclusive territories, factory-direct wholesale pricing and 45–60 day payment terms, shipped FOB Qingdao or CIF.'
   verified: '2026-08'
 content_programs:
   tagline: Partner Programs
@@ -79,5 +79,5 @@ cta:
 
 content_html: |
   <div class="mx-auto max-w-3xl space-y-4 rounded-2xl border bg-card p-6 text-[14.5px] leading-relaxed text-fg-2">
-    <p><strong>Keep reading:</strong> partner programs share one <a href="/oem-manufacturing">OEM/ODM manufacturing engine</a> — terms, trial MOQs and customization are defined there — and all production runs through the <a href="/manufacturing/factory">12,500 m&sup2; factory</a>.</p>
+    <p><strong>Keep reading:</strong> partner programs share one <a href="/oem-manufacturing">OEM/ODM manufacturing engine</a> — terms, trial MOQs and customization are defined there — and all production runs through the <a href="/manufacturing/factory">20,000 m&sup2; factory</a>.</p>
   </div>

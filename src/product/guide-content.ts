@@ -312,7 +312,7 @@ export const GUIDES: Guide[] = [
       },
       {
         title: 'Export Logistics and Compliance',
-        body: 'Agrochemical exports require: dangerous goods classification and packaging per IMDG/IATA codes, proper shipping names and UN numbers, MSDS in the destination language, phytosanitary or import permits for the target country, and certificate of origin for tariff purposes. An experienced factory handles all of this routinely. Agrospear exports to 60+ countries and manages documentation in-house.',
+        body: 'Agrochemical exports require: dangerous goods classification and packaging per IMDG/IATA codes, proper shipping names and UN numbers, MSDS in the destination language, phytosanitary or import permits for the target country, and certificate of origin for tariff purposes. An experienced factory handles all of this routinely. Agrospear exports to 50+ countries and manages documentation in-house.',
       },
       {
         title: 'Seasonal Planning and Inventory',
@@ -330,7 +330,7 @@ export const GUIDES: Guide[] = [
       { q: 'How far in advance should I place bulk orders?', a: '3–4 months before your target market season. Production is 25–35 days, sea shipping adds 2–4 weeks, plus customs clearance. During peak season, factory capacity fills early.' },
     ],
     related: [
-      { label: 'Bulk supply solutions', href: '/solutions/bulk-supply' },
+      { label: 'Bulk supply solutions', href: '/solutions/distributors' },
       { label: 'Factory capacity and plant', href: '/factory' },
       { label: 'Export markets and logistics', href: '/export' },
       { label: 'Talk to a supply specialist', href: '/contact' },
@@ -649,7 +649,7 @@ export const GUIDES_ES: Guide[] = [
       { q: '¿Con cuánta antelación debo hacer pedidos a granel?', a: '3–4 meses antes de la temporada de tu mercado objetivo. La producción es 25–35 días, el transporte marítimo añade 2–4 semanas, más el despacho de aduanas. En temporada pico, la capacidad de fábrica se llena pronto.' },
     ],
     related: [
-      { label: 'Soluciones de suministro a granel', href: '/solutions/bulk-supply' },
+      { label: 'Soluciones de suministro a granel', href: '/solutions/distributors' },
       { label: 'Capacidad de fábrica y planta', href: '/factory' },
       { label: 'Mercados de exportación y logística', href: '/export' },
       { label: 'Habla con un especialista de suministro', href: '/contact' },
