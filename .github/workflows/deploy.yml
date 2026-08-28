@@ -125,25 +125,30 @@ jobs:
           create_index "$IDX"
           create_index "$IDX-staging"
           create_index "$IDX-prod"
-      # site 媒体（视频/PDF/质量照片）源文件随仓库提交（public/downloads/ 等），
-      # 引用已改为 CDN 链接（https://assets.agrospear.com/site/*）。必须先于 deploy
-      # 上传：新代码上线瞬间 CDN 链接就要可访问，--missing 幂等，只 PUT 缺失对象。
+      # site 媒体（视频/PDF/质量照片）由独立资源工作流从授权资源源目录上传到 R2。
+      # 部署只负责补传当前 checkout 中存在的资源；缺失资源不会阻断 Worker 部署。
+      # 引用使用 CDN 链接（https://assets.agrospear.com/site/*）。
       # R2 权限缺失时跳过，不留红叉。
-      - name: Upload site assets to R2 (before deploy)
+      - name: Upload site assets to R2 (when checkout contains assets)
         if: steps.guard.outputs.enabled == 'true'
         continue-on-error: true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           R2_BUCKET: agrospear-assets
-        run: node scripts/upload-site-assets.mjs --http --missing
+        run: |
+          if [ -d public/assets/videos ] || [ -d public/downloads ] || [ -d public/assets/quality ] || [ -d public/assets/products ]; then
+            node scripts/upload-site-assets.mjs --http --missing
+          else
+            echo "::notice::No local site media in checkout; assets are managed by the dedicated R2 upload workflow."
+          fi
         working-directory: ${{ github.workspace }}
       - name: Deploy to Cloudflare
         if: steps.guard.outputs.enabled == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: npx wrangler deploy --config wrangler.jsonc
+        run: npx wrangler deploy --config dist/server/wrangler.json
       # 每次部署后把 GitHub Secrets 同步为 Worker secrets（单一数据源，无需手动
       # wrangler secret put）。GitHub 里未设置/为空的 key 自动跳过（不覆盖 Cloudflare
       # 已有值）；要"删除"某个密钥请先在 GitHub 清空它，再手动清理 Cloudflare 侧。
