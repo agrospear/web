@@ -1,4 +1,4 @@
-﻿import { Facebook, Linkedin, Mail, MapPin, MessageCircle, Phone, Youtube } from 'lucide-react'
+import { Facebook, Linkedin, Mail, MapPin, MessageCircle, Phone, Youtube } from 'lucide-react'
 import { Suspense, lazy } from 'react'
 import { getRouteApi } from '@tanstack/react-router'
 
@@ -9,7 +9,8 @@ import { useTranslation } from '@/features/i18n/provider'
 import { Logo } from '@/components/brand/logo'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
-import { ContactFloats } from '@/components/marketing/contact-floats'
+
+const ContactFloats = lazy(() => import('@/components/marketing/contact-floats').then(m => ({ default: m.ContactFloats })))
 
 const AiChat = lazy(() => import('@/features/ai/ai-chat').then(m => ({ default: m.AiChat })))
 
@@ -142,8 +143,8 @@ export function Footer() {
           <LangSwitch />
         </div>
       </div>
-      <ContactFloats />
-      <Suspense><AiChat /></Suspense>
+      <Suspense fallback={null}><ContactFloats /></Suspense>
+      <Suspense fallback={null}><AiChat /></Suspense>
     </footer>
   )
 }

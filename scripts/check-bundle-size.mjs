@@ -22,6 +22,13 @@ const LIMITS = [
 const files = readdirSync(ASSETS)
 let failed = false
 
+function findLargestChunk() {
+  return files
+    .filter((file) => file.endsWith('.js'))
+    .map((file) => ({ file, bytes: statSync(join(ASSETS, file)).size }))
+    .sort((a, b) => b.bytes - a.bytes)[0]
+}
+
 for (const { pattern, kind, maxKb } of LIMITS) {
   const match = files.find((f) => pattern.test(f))
   if (!match) {

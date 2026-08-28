@@ -5,7 +5,9 @@ import { Logo } from '@/components/brand/logo'
 import { buttonVariants } from '@/components/ui/button'
 import { ThemeToggle } from '@/features/theme/theme-toggle'
 import { LangSwitch } from '@/features/i18n/lang-switch'
-import { SearchDialog } from '@/components/marketing/search-dialog'
+import { lazy, Suspense } from 'react'
+
+const SearchDialog = lazy(() => import('@/components/marketing/search-dialog').then((m) => ({ default: m.SearchDialog })))
 import { useTranslation } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { SITE_NAME } from '@/config/site'
@@ -345,7 +347,7 @@ export function SiteNav() {
           </div>
         )}
       </header>
-      <SearchDialog open={searchOpen} onOpen={openSearch} onClose={closeSearch} />
+      <Suspense fallback={null}><SearchDialog open={searchOpen} onOpen={openSearch} onClose={closeSearch} /></Suspense>
     </>
   )
 }
