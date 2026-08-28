@@ -1,0 +1,158 @@
+name: Compress & upload PDFs to R2
+
+# Compresses PDF files using Ghostscript (CI), then uploads the smaller
+# versions to Cloudflare R2 so the website can serve them via CDN.
+#
+# Usage:
+#   1. Place PDFs in public/downloads/qcqa/ (or set source_path input)
+#   2. Run this workflow via Actions → "Run workflow"
+#   3. Choose quality preset and whether to upload
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_path:
+        description: 'Source directory containing PDFs (relative to repo root)'
+        required: false
+        default: 'public/downloads/qcqa'
+      quality:
+        description: 'Compression quality: screen (72dpi/small), ebook (150dpi/balanced), printer (300dpi/high)'
+        required: false
+        default: 'ebook'
+        type: choice
+        options:
+          - screen
+          - ebook
+          - printer
+      r2_prefix:
+        description: 'R2 key prefix to upload compressed PDFs'
+        required: false
+        default: 'site/downloads/qcqa'
+      dry_run:
+        description: 'Preview only — compress but do not upload to R2'
+        required: false
+        default: 'true'
+        type: boolean
+      delete_originals:
+        description: 'After upload, delete original (uncompressed) objects from R2 at the same prefix'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: read
+
+env:
+  NODE_VERSION: '22'
+
+jobs:
+  compress-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Ghostscript
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ghostscript
+          gs --version
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Compress PDFs
+        run: |
+          echo "=== PDF Compression ==="
+          echo "Source: ${{ inputs.source_path }}"
+          echo "Quality: ${{ inputs.quality }}"
+          echo "Output: dist/compressed"
+          echo ""
+
+          node scripts/compress-pdfs.mjs \
+            --src "${{ inputs.source_path }}" \
+            --out dist/compressed \
+            --quality "${{ inputs.quality }}"
+
+      - name: Show compression summary
+        run: |
+          echo "=== Compressed files ==="
+          find dist/compressed -name "*.pdf" -exec ls -lh {} \;
+          echo ""
+          echo "=== Manifest ==="
+          cat dist/compressed/manifest.json 2>/dev/null || echo "No manifest"
+
+      - name: Upload compressed PDFs to R2
+        if: inputs.dry_run != 'true'
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET || 'agrospear-files-prod' }}
+        run: |
+          R2_PREFIX="${{ inputs.r2_prefix }}"
+          UPLOADED=0
+          FAILED=0
+          TOTAL=0
+
+          find dist/compressed -name "*.pdf" | sort | while read -r file; do
+            TOTAL=$((TOTAL + 1))
+            # Build R2 key: site/downloads/qcqa/AGROSPEAR_SC_WDG_Production_QC_SOP.pdf
+            REL_PATH="${file#dist/compressed/}"
+            R2_KEY="${R2_PREFIX}/${REL_PATH}"
+
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+              -X PUT \
+              -H "Authorization: Bearer ${CF_API_TOKEN}" \
+              -H "Content-Type: application/pdf" \
+              -H "Cache-Control: public, max-age=31536000, immutable" \
+              --data-binary "@${file}" \
+              "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/r2/buckets/${R2_BUCKET}/objects/${R2_KEY}")
+
+            if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "201" ]; then
+              echo "  ✓ ${R2_KEY}"
+              UPLOADED=$((UPLOADED + 1))
+            else
+              echo "  ✗ ${R2_KEY} (HTTP ${HTTP_CODE})"
+              FAILED=$((FAILED + 1))
+            fi
+          done
+
+          echo ""
+          echo "Upload complete: ${UPLOADED} uploaded, ${FAILED} failed"
+          if [ "$FAILED" -gt 0 ]; then
+            echo "::error::${FAILED} PDF(s) failed to upload"
+            exit 1
+          fi
+
+      - name: Delete original (uncompressed) PDFs from R2
+        if: inputs.dry_run != 'true' && inputs.delete_originals == 'true'
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET || 'agrospear-files-prod' }}
+        run: |
+          R2_PREFIX="${{ inputs.r2_prefix }}"
+          echo "=== Listing objects at ${R2_PREFIX}/ for potential cleanup ==="
+
+          # Note: R2 HTTP API doesn't support prefix listing directly.
+          # Use wrangler if available for reliable prefix listing.
+          npx wrangler r2 object list "$R2_BUCKET" --prefix "$R2_PREFIX" --page-size 100 2>&1 || \
+            echo "::warning::Could not list R2 objects. Delete originals manually if needed."
+
+      - name: Dry-run summary
+        if: inputs.dry_run == 'true'
+        run: |
+          echo "=== DRY RUN — PDFs compressed but not uploaded ==="
+          echo ""
+          echo "To upload, re-run this workflow with dry_run=false"
+          echo "To also delete old uncompressed originals, set delete_originals=true"
+          echo ""
+          echo "Compressed files are in dist/compressed/"
+
+      - name: Upload compressed PDFs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compressed-pdfs-${{ inputs.quality }}
+          path: dist/compressed/
+          retention-days: 7
