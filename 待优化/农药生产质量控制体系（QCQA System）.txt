@@ -1,0 +1,54 @@
+AGROSPEAR CROPCARE CO.,LTD. 农药生产质量控制体系（QC/QA System）涵盖从原辅料进厂到成品出厂的全生命周期管理，严格遵循 FAO/WHO 农药规格标准及 CIPAC 检测方法。一、 农药生产品控全流程 (QC/QA Process Workflow)1.1. 原辅料入厂检验 (IQC - Incoming Quality Control):合格前严禁入库与投入生产.原药 (Technical Material / TC/TK): 有效成分含量 (HPLC/GC)、酸碱度/pH、水分 (Karl Fischer 法)、相关杂质与不溶物检测。助剂与溶剂 (Adjuvants & Solvents): 乳化性能、表面张力、闪点、含水量及相容性测试。包材检验 (Packaging Material): 瓶/桶耐压强度、跌落测试、阻隔性、封口防渗漏性及标签合规审核。2.2. 生产制程控制 (IPQC - In-Process Quality Control):按剂型实行首检、巡检与关键工艺参数监控.悬浮剂 (SC / FS): 监控砂磨细度（激光粒度分析 $D_{50}/D_{90}$）、黏度（布氏旋转黏度计）、沉降率与热储稳定性。乳油/微乳剂 (EC / ME): 监控乳化稳定性（0℃/54℃ 透明度）、低温结晶析出情况。水分散粒剂 (WDG / SG): 监控造粒湿度、干燥残余水分、崩解时间及悬浮率。灌装与包装线: 每 30 分钟进行净含量抽检、封口密封性检测及喷码追溯码校验。3.3. 成品出厂检验 (FQC/OQC - Final Quality Control):每批次全项指标检测，出具 COA.理化常规指标: 标称有效成分含量、悬浮率/乳化性、起泡性（CIPAC MT 47.2）、pH/酸碱度范围。加速稳定性测试 (Accelerated Storage): 热储（54±2℃ 下 14 天）与冷储（0±2℃ 下 7 天）对比测试。合规放行: QA 负责人核对批生产记录（BMR）与实验室检验单，签发《成品放行审批单》。4.4. 留样与追溯管理 (Retained Samples & Traceability):全生命周期质保体系.每批成品留样至少保留至产品保质期结束后 1 年。建立一物一码追溯系统，实现原料批号、生产设备参数、质检员与发货流向的双向追踪。二、 核心质检佐证文件标准范本（中英双语对照版）以下为打印/导出为 PDF 格式的标准单据模板，适用于海关商检、客户交付及内部质量审计。1. 成品检验报告单 (Certificate of Analysis - COA)Plaintext========================================================================================================
+                                    AGROSPEAR CROPCARE CO.,LTD.
+                         CERTIFICATE OF ANALYSIS / 产品检验分析报告单
+========================================================================================================
+Product Name / 产品名称: Chlorantraniliprole 200g/L SC (氯虫苯甲酰胺 200g/L 悬浮剂)
+Batch No. / 生产批号: AS-20260826-01                Quantity / 批量: 5,000 Liters
+Manufacture Date / 生产日期: 2026-08-26             Expiry Date / 有效期至: 2028-08-25
+Sampling Date / 取样日期: 2026-08-26                Inspection Date / 检测日期: 2026-08-27
+Standard Reference / 执行标准: FAO Specification / Enterprise Standard Q/AS-0826
+--------------------------------------------------------------------------------------------------------
+Test Item / 检测项目              Specification / 标准指标           Test Result / 检测结果    Method / 检验方法
+--------------------------------------------------------------------------------------------------------
+Appearance / 外观                 Off-white to light beige liquid   Conforms / 符合要求       Visual / 目测
+                                  (类白色至浅米色均质液体)
+Active Ingredient Content / 含量   200.0 ± 10.0 g/L (190 - 210 g/L)  202.4 g/L                HPLC (高效液相)
+pH Value / pH 值范围              5.0 - 8.5                         6.8                      CIPAC MT 75.3
+Suspensibility / 悬浮率           ≥ 90.0 %                          95.6 %                   CIPAC MT 184
+Particle Size / 粒度 (D90)        ≤ 5.0 µm                          3.2 µm                   Laser Diffraction
+Wet Sieve Test / 湿筛试验 (75µm)  ≥ 99.0 % through                  99.8 %                   CIPAC MT 185
+Persistent Foaming / 持续起泡性   ≤ 60 mL (after 1 min)             15 mL                    CIPAC MT 47.2
+Pourability / 倾倒性 (Residue)    ≤ 5.0 %                           2.1 %                    CIPAC MT 148.1
+Low Temp. Stability / 低温稳定性   No phase separation / 无分层析出    Conforms / 合格           CIPAC MT 39.3
+Heat Stability / 热储稳定性 (54℃) Active degradation ≤ 5%           Degradation 1.2%         CIPAC MT 46.3
+--------------------------------------------------------------------------------------------------------
+Conclusion / 检验结论:
+PASS - This batch complies with the quality specifications and is approved for release.
+合格 - 本批次产品各项指标均符合质量标准，准予放行出厂。
+--------------------------------------------------------------------------------------------------------
+Analyst / 检验员: [ Zhang Wei ]     Reviewer / 复核员: [ Li Ming ]     QA Director / QA总监: [ Johnathan Doe ]
+Date / 日期: 2026-08-27             Date / 日期: 2026-08-27            Date / 日期: 2026-08-27
+========================================================================================================
+2. 批生产质量放行单 (Batch Release Authorization Form)Plaintext========================================================================================================
+                                    AGROSPEAR CROPCARE CO.,LTD.
+                    BATCH QUALITY RELEASE FORM / 批生产质量审核放行单
+========================================================================================================
+Product Name / 品名: ___________________________    Batch No. / 批号: ________________________________
+Formulation / 剂型: ___________________________     Packaging Spec / 包装规格: _______________________
+--------------------------------------------------------------------------------------------------------
+Verification Checkpoints / 审核核对项目                         Status / 状态         Verified By / 审核人
+--------------------------------------------------------------------------------------------------------
+1. Raw Material QC Reports verified (IQC / 原料检验报告齐备)      [ ] Pass  [ ] Fail   __________________
+2. Batch Manufacturing Record completed (BMR / 批生产记录合规)   [ ] Pass  [ ] Fail   __________________
+3. In-process control parameters met (IPQC / 制程关键点达标)     [ ] Pass  [ ] Fail   __________________
+4. Lab Finished Product COA approved (FQC / 实验室成品合格)      [ ] Pass  [ ] Fail   __________________
+5. Packaging & Secondary label check (包材防伪与喷码核对)        [ ] Pass  [ ] Fail   __________________
+6. Retained samples archived (留样已归档入库)                    [ ] Pass  [ ] Fail   __________________
+--------------------------------------------------------------------------------------------------------
+Quality Assurance Disposition / 质量保证部放行决议:
+[  ] RELEASED / 准予放行出厂
+[  ] REJECTED / 判定不合格（报废/返工）
+[  ] QUARANTINE / 待复检隔离
+
+QA Manager Signature / 质量部门主管签章: ________________________      Date / 日期: ____________________
+==========================================================================================

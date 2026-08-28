@@ -42,13 +42,13 @@ moq_tiers:
       icon_bg: blue
       title: 'Full-Custom Volume OEM — 20+ Tons per Batch'
       desc: 'Determined by the production economics of custom agrochemical formulation to ensure optimal material utilization and batch consistency. · 100% full customization: exclusive formulation and custom concentration · Full-surface label and regulatory artwork coverage · Custom branded packaging, printed drums and branded accessories · Maximum cost efficiency and economies of scale'
-      link: '/contact#custom-oem'
+      link: /contact#custom-oem'
       link_label: 'Inquire for Volume OEM'
     - icon: B
       icon_bg: green
       title: 'Small-Batch Co-Branding — 1–4 Tons'
       desc: 'A low-barrier solution built on our field-tested formulation platforms for distributors, registrars and cooperatives — zero heavy inventory. · Fixed formulation and concentration: field-tested products with ICAMA registration support · Primary identifier: official Agrospear formulation reference in the central section · Secondary custom branding: your logo printed on label and drums · 100% full-run stability and content analysis testing'
-      link: '/contact#cobranding'
+      link: /contact#cobranding'
       link_label: 'Start Small-Batch Co-Branding'
 
 moq_fees:
@@ -116,13 +116,13 @@ moq_downloads:
       icon_bg: blue
       title: 'Flexible Branding & MOQ Guide (PDF)'
       desc: 'Official B2B guide (Part I, DOC-MOQ-EXP-2026-EN, released 14 Aug 2026): the engineering logic behind production batch yields (20+ tons), the co-branding program from 1–4 tons, transparent label printing fees and the three production stages.'
-      link: 'https://assets.agrospear.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link: /oem-moq-guide
       link_label: 'Download Guide (PDF)'
     - icon: P
       icon_bg: green
       title: 'Flexible Branding & Co-Branding Policy (PDF)'
       desc: 'Official policy dossier (Part 1, POL-MOQ-2026-V1): small-batch co-branding rules, the project-specific MOQ framework, the four factors that drive minimums, and joint sign-off by Sales VP, Chief Engineer and QA Director.'
-      link: 'https://assets.agrospear.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link: /oem-moq-guide
       link_label: 'Download Policy (PDF)'
 
 moq_faqs:

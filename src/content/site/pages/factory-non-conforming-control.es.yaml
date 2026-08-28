@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Descargar SOP de control de productos no conformes (PDF)
       variant: primary
-      href: 'https://assets.agrospear.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: /manufacturing/factory/non-conforming-control
     - text: Descargar certificado de destruccion (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: /manufacturing/factory/non-conforming-control
     - text: Solicitar revision de calidad
       href: /es/contact
 
@@ -189,25 +189,25 @@ nc_downloads:
       icon_bg: blue
       title: SOP de control de productos no conformes (PDF)
       desc: 'SOP bilingue basado en la ISO 9001:2015 Clausula 8.7: control de bucle cerrado en 8 etapas, matriz de disposicion de defectos agroquimicos, estructura de datos NCR y compromiso de calidad con el cliente.'
-      link: 'https://assets.agrospear.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link: /manufacturing/factory/non-conforming-control
       link_label: Descargar PDF
     - icon: S
       icon_bg: orange
       title: Certificado de destruccion y desguace (PDF)
       desc: 'VAT-QA-SCRAP-CERT-2026: trazabilidad de producto y lote, conclusion del MRB, protocolo de destruccion fisica en 4 pasos, campos de fotos de testigo y bloque de doble firma.'
-      link: 'https://assets.agrospear.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link: /manufacturing/factory/non-conforming-control
       link_label: Descargar PDF
     - icon: R
       icon_bg: green
       title: Gobernanza controlada de retrabajo (pagina)
       desc: 'Pagina complementaria de las tarjetas de metodo de retrabajo de especificacion aprobadas MC-RW-01 a MC-RW-06 y el flujo de retrabajo controlado de 7 pasos.'
-      link: '/es/manufacturing/factory/quality-inspection'
+      link: /es/manufacturing/factory/quality-inspection'
       link_label: Ver pagina
     - icon: C
       icon_bg: purple
       title: Estandar de control de cambios de retrabajo (pagina)
       desc: 'Control de cambios formal segun ISO 9001 para parametros de retrabajo: ECR, clasificacion de riesgos, matriz de aprobacion, plan de validacion y salvaguardas Poka-Yoke — QMS-SOP-QC-CC-001 Rev 2.0.'
-      link: '/es/manufacturing/factory/quality-change-control'
+      link: /es/manufacturing/factory/quality-change-control'
       link_label: Ver pagina
 
 faqs:
@@ -237,6 +237,6 @@ cta:
       variant: primary
       href: /es/contact
     - text: Descargar SOP de control de no conformes (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: /manufacturing/factory/non-conforming-control
     - text: Descargar certificado de destruccion (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: /manufacturing/factory/non-conforming-control

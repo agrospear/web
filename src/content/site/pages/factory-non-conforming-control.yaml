@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Download NCP Control SOP (PDF)
       variant: primary
-      href: 'https://assets.agrospear.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: /manufacturing/factory/non-conforming-control
     - text: Download Scrap & Destruction Certificate (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: /manufacturing/factory/non-conforming-control
     - text: Request Quality Review
       href: /contact
 
@@ -189,25 +189,25 @@ nc_downloads:
       icon_bg: blue
       title: Non-Conforming Product Control SOP (PDF)
       desc: 'ISO 9001:2015 Clause 8.7 based bilingual SOP: 8-stage closed-loop control, the agrochemical defect disposition matrix, NCR data structure and customer quality commitment.'
-      link: 'https://assets.agrospear.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      link: /manufacturing/factory/non-conforming-control
       link_label: Download PDF
     - icon: S
       icon_bg: orange
       title: Scrap & Destruction Certificate (PDF)
       desc: 'VAT-QA-SCRAP-CERT-2026: product and batch traceability, MRB conclusion, the 4-step physical destruction protocol, witness photo fields and dual sign-off block.'
-      link: 'https://assets.agrospear.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      link: /manufacturing/factory/non-conforming-control
       link_label: Download PDF
     - icon: R
       icon_bg: green
       title: Controlled Rework Governance (Page)
       desc: 'Companion page for the approved specification rework method cards MC-RW-01 to MC-RW-06 and the 7-step controlled rework workflow.'
-      link: '/manufacturing/factory/quality-inspection'
+      link: /manufacturing/factory/quality-inspection'
       link_label: View page
     - icon: C
       icon_bg: purple
       title: Rework Change Control Standard (Page)
       desc: 'Formal ISO 9001 change control for rework parameters: ECR, risk classification, approval matrix, validation plan and Poka-Yoke safeguards — QMS-SOP-QC-CC-001 Rev 2.0.'
-      link: '/manufacturing/factory/quality-change-control'
+      link: /manufacturing/factory/quality-change-control'
       link_label: View page
 
 faqs:
@@ -237,6 +237,6 @@ cta:
       variant: primary
       href: /contact
     - text: Download NCP Control SOP (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf?dl=1'
+      href: /manufacturing/factory/non-conforming-control
     - text: Download Scrap Certificate (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf?dl=1'
+      href: /manufacturing/factory/non-conforming-control

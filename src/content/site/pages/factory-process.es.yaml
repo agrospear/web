@@ -62,19 +62,19 @@ evidence_gates:
   items:
     - title: 'PPM — Planificacion de calidad del proyecto'
       description: 'La reunion previa a la produccion fija el alcance, la muestra patron y el Plan de Inspeccion de Calidad antes de arrancar la linea. Los puntos sin resolver bloquean la liberacion a produccion.'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar QIP (PDF)'
       image: https://assets.agrospear.com/site/quality/node01-ppm.avif
       alt: Reunion previa a la produccion revisando la muestra patron y el plan de inspeccion de calidad de un pedido OEM agroquimico
     - title: 'IQC — Inspeccion de materiales entrantes'
       description: 'Cada lote entrante de ingredientes activos, solventes y embalaje se comprueba contra la especificacion aprobada. Los lotes no conformes se ponen en cuarentena y se rechazan antes de liberarlos a la linea.'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar informes IQC (PDF)'
       image: https://assets.agrospear.com/site/quality/node02-iqc.avif
       alt: Inspeccion de materiales entrantes de ingredientes activos y componentes en la fabrica
     - title: 'IPQC / FAI — Control en proceso'
       description: 'La primera pieza se verifica contra las lineas base bloqueadas y cada turno mantiene controles de patrulla en la linea. La aprobacion FAI bloquea la version de formulacion, especificaciones y BOM.'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar informes IPQC (PDF)'
       image: https://assets.agrospear.com/site/quality/node03-ipqc-fai.avif
       alt: Inspeccion en proceso y control de la primera pieza durante la produccion agroquimica
@@ -86,19 +86,19 @@ evidence_gates:
       alt: Prueba de estabilidad y verificacion de especificaciones de un lote agroquimico
     - title: 'FQC — Inspeccion final del producto'
       description: 'Los lotes terminados se miden contra los limites de especificacion y se inspeccionan visualmente bajo iluminacion estandar contra la muestra patron aprobada.'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar informes FQC (PDF)'
       image: https://assets.agrospear.com/site/quality/node05-fqc.avif
       alt: Inspeccion final del producto de formulaciones agroquimicas terminadas antes del embalaje
     - title: 'PSI — Inspeccion de embalaje y previa al envio'
       description: 'El envio embalado se comprueba al 100% contra el BOM aprobado por el cliente — escaneo de codigo de barras (grado ≥ B), marcas de contenedor e integridad del embalaje antes de la carga.'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar informes PSI (PDF)'
       image: https://assets.agrospear.com/site/quality/node06-psi.avif
       alt: Inspeccion previa al envio comprobando el envio agroquimico embalado contra el BOM
     - title: 'Liberacion de envio y trazabilidad'
       description: 'Calidad firma la liberacion del lote solo cuando las seis puertas anteriores estan cerradas. Los numeros de lote se asignan al envio y el dosier se entrega con la entrega.'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar informes de liberacion (PDF)'
       image: https://assets.agrospear.com/site/quality/node07-shipment-release.avif
       alt: Firma de liberacion de envio y entrega del registro de trazabilidad del lote

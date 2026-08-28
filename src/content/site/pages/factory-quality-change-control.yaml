@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Download Change Control SOP (PDF)
       variant: primary
-      href: 'https://assets.agrospear.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      href: /manufacturing/factory/quality-change-control
     - text: Download Execution Annex A (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      href: /manufacturing/factory/quality-change-control
     - text: Request Quality Review
       href: /contact
 
@@ -296,25 +296,25 @@ cc_downloads:
       icon_bg: blue
       title: Rework Change Control SOP (PDF)
       desc: 'QMS-SOP-QC-CC-001 Rev 2.0: change classification table, cross-department authorization matrix, engineering validation parameters, containment red lines and quality signature blocks.'
-      link: 'https://assets.agrospear.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link: /manufacturing/factory/quality-change-control
       link_label: Download PDF
     - icon: A
       icon_bg: green
       title: Execution Annex A (PDF)
       desc: 'ECR data schema, the quantified engineering execution matrix for the four core rework processes, Poka-Yoke block logic and the tri-party release sign-off block.'
-      link: 'https://assets.agrospear.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link: /manufacturing/factory/quality-change-control
       link_label: Download PDF
     - icon: R
       icon_bg: purple
       title: Controlled Rework Governance (Page)
       desc: 'Companion page for the specification rework system: defect classification A–G, approved method cards MC-RW-01 to MC-RW-06, and the 7-step controlled rework workflow.'
-      link: '/manufacturing/factory/quality-inspection'
+      link: /manufacturing/factory/quality-inspection'
       link_label: View page
     - icon: N
       icon_bg: orange
       title: Non-Conforming Product Control (Page)
       desc: 'ISO 9001:2015 Clause 8.7 control of non-conforming outputs: NCR registration, quarantine, severity-based disposition authority, controlled rework under SRI instructions, independent re-inspection and the witnessed destruction protocol.'
-      link: '/manufacturing/factory/non-conforming-control'
+      link: /manufacturing/factory/non-conforming-control'
       link_label: View page
 
 faqs:
@@ -344,6 +344,6 @@ cta:
       variant: primary
       href: /contact
     - text: Download Change Control SOP (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      href: /manufacturing/factory/quality-change-control
     - text: Download Execution Annex A (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      href: /manufacturing/factory/quality-change-control

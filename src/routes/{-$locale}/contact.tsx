@@ -13,7 +13,7 @@ import { InquiryForm } from '@/features/inquiry/components/inquiry-form'
 import { pick, products } from '@/product/content'
 import { dictionaries } from '@/features/i18n/locale'
 import { JsonLd, contactPageLd, faqLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
-import { SITE_NAME, BRAND_CONTACT, BRAND_ASSETS_CDN, SITE_URL } from '@/config'
+import { SITE_NAME, BRAND_CONTACT, SITE_URL } from '@/config'
 
 export const Route = createFileRoute('/{-$locale}/contact')({
   validateSearch: (s: Record<string, unknown>) => ({
@@ -138,7 +138,7 @@ function ContactPage() {
             <p className="mt-3 text-[14.5px] leading-relaxed text-fg-2">{t('agro.contact.trustSubtitle')}</p>
             <div className="mt-7">
               <a
-                href={`${BRAND_ASSETS_CDN}/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf`}
+                href={'/oem-trust-assurance'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="marine-card flex items-center gap-4 p-5"

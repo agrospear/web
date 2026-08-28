@@ -49,13 +49,13 @@ role_boundary:
       icon_bg: blue
       title: 'What We Are —a Verifiable Manufacturer'
       desc: '· A registered legal entity: Qingdao Vatrad Group Co., Ltd. —registration details shared under NDA or during audit · A physical factory: 20,000 m² in the Laixi Economic Development Zone, Qingdao, with 4 specialized workshops, 200+ workers and 8 formulation lines · A manufacturing team: the people who answer your questions are the people who formulate your products · Real documents: QMS SOPs, inspection standards and anonymized quality records available for download · Independent verification welcome: SGS, BV or Intertek inspections at your choice, per ISO 2859-1 Level II'
-      link: '/manufacturing/factory'
+      link: /manufacturing/factory'
       link_label: 'Visit the Factory Page'
     - icon: B
       icon_bg: green
       title: 'What We Are Not —the Trading-Desk Profile'
       desc: '· No trading company: we do not forward your order to a third factory or add broker margins · No brand of our own on your products: you own the brand, the market and the customer · No vague minimums: MOQ is calculated from formulation batch requirements and confirmed per project · No certificates "on request only": the list is published and audit records can be reviewed · No verbal-only claims: active ingredient content, stability data and batch traceability are documented per batch number'
-      link: '/oem-moq-guide'
+      link: /oem-moq-guide'
       link_label: 'See the Transparent MOQ Guide'
 
 trust_steps:
@@ -134,19 +134,19 @@ trust_downloads:
       icon_bg: blue
       title: 'OEM Buyer Trust & Factory Assurance Guide (PDF)'
       desc: 'Official B2B guide (Part II, DOC-ENG-2026-EN): factory verification step by step —entity registration, physical audit, real engineers, QMS papers, third-party inspection, contract protection and governance sign-offs.'
-      link: 'https://assets.agrospear.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link: /oem-trust-assurance
       link_label: 'Download Guide (PDF)'
     - icon: P
       icon_bg: green
       title: 'Flexible Branding & MOQ Guide (PDF)'
       desc: 'Official B2B guide (Part I, DOC-MOQ-EXP-2026-EN): the formulation logic behind batch yields, co-branding from lower quantities, pilot batches 5 tons, and the three production stages.'
-      link: 'https://assets.agrospear.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link: /oem-moq-guide
       link_label: 'Download MOQ Guide (PDF)'
     - icon: Q
       icon_bg: orange
       title: 'The Quality System Behind These Claims'
       desc: 'One page that ties it together: the 7-stage inspection gate system, the four standards that govern it, and the 00–15 document register with every SOP and report you can download — QIP, inspection standards, traceability dossier, NCP and rework SOPs.'
-      link: '/manufacturing/quality-control'
+      link: /manufacturing/quality-control'
       link_label: 'Explore the Quality System'
 
 evidence_review:
@@ -158,7 +158,7 @@ cta:
   title: 'Start With Verification —Then We Talk Specs'
   subtitle: 'Send your NDA request, ask for the registration pack, or book an audit slot. Verification comes first; the order conversation follows. Submitting an inquiry does not commit you to an order.'
   button_text: 'Request Verification Pack'
-  button_link: '/contact#trust-verification'
+  button_link: /contact#trust-verification'
   actions:
     - text: Factory Audit Checklist
       href: /manufacturing/factory-audit

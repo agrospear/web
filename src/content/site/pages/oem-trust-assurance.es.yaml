@@ -49,13 +49,13 @@ role_boundary:
       icon_bg: blue
       title: 'Qué somos — un fabricante verificable'
       desc: '· Una entidad legal registrada: Qingdao Vatrad Group Co., Ltd. — datos del registro compartidos bajo NDA o durante la auditoría · Una fábrica física: 20.000 m² en la Zona de Desarrollo Económico de Laixi, Qingdao, con 4 talleres especializados, 200+ trabajadores y 8 líneas de formulación automatizadas · Un equipo de fabricación: las personas que responden tus preguntas son las que formulan tus productos · Documentos reales: SOP de QMS, estándares de inspección y registros de calidad anonimizados descargables · Verificación independiente bienvenida: inspecciones SGS, BV o Intertek a tu elección, según ISO 2859-1 Nivel II'
-      link: '/es/manufacturing/factory'
+      link: /es/manufacturing/factory'
       link_label: 'Visita la página de la fábrica'
     - icon: B
       icon_bg: green
       title: 'Qué no somos — el perfil de mesa comercial'
       desc: '· Sin trading: no reenviamos tu pedido a una tercera fábrica ni añadimos márgenes de intermediario · Sin marca propia sobre tus productos: tú eres dueño de la marca, el mercado y el cliente · Sin mínimos vagos: el MOQ se calcula a partir de los requisitos de lote de formulación y se confirma por proyecto · Sin certificados "solo bajo petición": la lista está publicada y los registros de auditoría se pueden revisar · Sin afirmaciones solo verbales: contenido de ingrediente activo, datos de estabilidad y trazabilidad documentados por número de lote'
-      link: '/es/oem-moq-guide'
+      link: /es/oem-moq-guide'
       link_label: 'Consulta la guía MOQ transparente'
 
 trust_steps:
@@ -134,19 +134,19 @@ trust_downloads:
       icon_bg: blue
       title: 'Guía de Confianza y Garantía de Fábrica para Compradores OEM (PDF)'
       desc: 'Guía B2B oficial (Parte II, DOC-ENG-2026-EN): verificación de la fábrica paso a paso — registro de la entidad, auditoría física, ingenieros reales, documentos QMS, inspección de terceros, protección contractual y firmas de gobernanza.'
-      link: 'https://assets.agrospear.com/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf'
+      link: /oem-trust-assurance
       link_label: 'Descargar guía (PDF)'
     - icon: P
       icon_bg: green
       title: 'Guía de Branding Flexible y MOQ (PDF)'
       desc: 'Guía B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN): la lógica de formulación detrás de los rendimientos por lote, co-branding desde cantidades menores, lotes piloto de 5 toneladas y las tres etapas de producción.'
-      link: 'https://assets.agrospear.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link: /oem-moq-guide
       link_label: 'Descargar guía de MOQ (PDF)'
     - icon: Q
       icon_bg: orange
       title: 'El sistema de calidad detrás de estas afirmaciones'
       desc: 'Una página que lo une todo: el sistema de inspección de 7 puertas, los cuatro estándares que lo rigen y el registro de documentos 00–15 con cada SOP e informe descargable — QIP, estándares de inspección, dosier de trazabilidad, SOP de NCP y retrabajo.'
-      link: '/es/manufacturing/quality-control'
+      link: /es/manufacturing/quality-control'
       link_label: 'Explorar el sistema de calidad'
 
 evidence_review:
@@ -157,7 +157,7 @@ cta:
   title: 'Empieza por la verificación — después hablamos de especificaciones'
   subtitle: 'Envía tu solicitud de NDA, pide el paquete de registro o reserva una visita de auditoría. La verificación va primero; la conversación del pedido viene después. Enviar una consulta no te compromete a ningún pedido.'
   button_text: 'Solicitar paquete de verificación'
-  button_link: '/es/contact#trust-verification'
+  button_link: /es/contact#trust-verification'
   actions:
     - text: Lista de Verificación de Auditoría de Fábrica
       href: /es/manufacturing/factory-audit

@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Descargar SOP de control de cambios (PDF)
       variant: primary
-      href: 'https://assets.agrospear.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      href: /manufacturing/factory/quality-change-control
     - text: Descargar Anexo de ejecucion A (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      href: /manufacturing/factory/quality-change-control
     - text: Solicitar revision de calidad
       href: /es/contact
 
@@ -295,25 +295,25 @@ cc_downloads:
       icon_bg: blue
       title: SOP de control de cambios de retrabajo (PDF)
       desc: 'QMS-SOP-QC-CC-001 Rev 2.0: tabla de clasificacion de cambios, matriz de autorizacion interdepartamental, parametros de validacion de ingenieria, lineas rojas de contencion y bloques de firmas de calidad.'
-      link: 'https://assets.agrospear.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      link: /manufacturing/factory/quality-change-control
       link_label: Descargar PDF
     - icon: A
       icon_bg: green
       title: Anexo de ejecucion A (PDF)
       desc: 'Esquema de datos ECR, la matriz de ejecucion de ingenieria cuantificada de los cuatro procesos basicos de retrabajo, la logica de bloqueo Poka-Yoke y el bloque de liberacion con firma tripartita.'
-      link: 'https://assets.agrospear.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      link: /manufacturing/factory/quality-change-control
       link_label: Descargar PDF
     - icon: R
       icon_bg: purple
       title: Gobernanza controlada de retrabajo (pagina)
       desc: 'Pagina complementaria del sistema de retrabajo de especificaciones: clasificacion de defectos A–G, tarjetas de metodo aprobadas MC-RW-01 a MC-RW-06 y el flujo de retrabajo controlado de 7 pasos.'
-      link: '/es/manufacturing/factory/quality-inspection'
+      link: /es/manufacturing/factory/quality-inspection'
       link_label: Ver pagina
     - icon: N
       icon_bg: orange
       title: Control de productos no conformes (pagina)
       desc: 'Control de salidas no conformes segun la ISO 9001:2015 Clausula 8.7: registro NCR, cuarentena, autoridad de disposicion por gravedad, retrabajo controlado bajo instrucciones SRI, reinspeccion independiente y el protocolo de destruccion presenciada.'
-      link: '/es/manufacturing/factory/non-conforming-control'
+      link: /es/manufacturing/factory/non-conforming-control'
       link_label: Ver pagina
 
 faqs:
@@ -343,6 +343,6 @@ cta:
       variant: primary
       href: /es/contact
     - text: Descargar SOP de control de cambios (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf?dl=1'
+      href: /manufacturing/factory/quality-change-control
     - text: Descargar Anexo de ejecucion A (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/rework-execution-annex-a-qms-sop-qc-cc-001.pdf?dl=1'
+      href: /manufacturing/factory/quality-change-control

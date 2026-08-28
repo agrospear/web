@@ -42,13 +42,13 @@ moq_tiers:
       icon_bg: blue
       title: 'OEM de Volumen Totalmente Personalizado — 20+ Toneladas por Lote'
       desc: 'Determinado por la economía de producción de formulaciones agroquímicas a medida para garantizar la utilización óptima del material y la consistencia por lote. · Personalización 100% total: formulación exclusiva y concentración a medida · Cobertura total de etiqueta y arte regulatorio · Empaque personalizado, tambores impresos y accesorios con tu marca · Máxima eficiencia de costos y economías de escala'
-      link: '/es/contact#custom-oem'
+      link: /es/contact#custom-oem'
       link_label: 'Consultar por OEM de Volumen'
     - icon: B
       icon_bg: green
       title: 'Co-Branding de Lotes Pequeños — 1–4 Toneladas'
       desc: 'Una solución de baja barrera basada en nuestras plataformas de formulación probadas en campo para distribuidores, registradores y cooperativas — sin inventario pesado. · Formulación y concentración fijas: productos probados con soporte de registro ICAMA · Identificador principal: referencia de formulación oficial Agrospear en la sección central · Marca secundaria personalizada: tu logo impreso en etiqueta y tambores · Pruebas de estabilidad y análisis de contenido al 100% de la serie'
-      link: '/es/contact#cobranding'
+      link: /es/contact#cobranding'
       link_label: 'Iniciar Co-Branding de Lotes Pequeños'
 
 moq_fees:
@@ -116,13 +116,13 @@ moq_downloads:
       icon_bg: blue
       title: 'Guía de Branding Flexible y MOQ (PDF)'
       desc: 'Guía B2B oficial (Parte I, DOC-MOQ-EXP-2026-EN, publicada el 14 ago 2026): la lógica de ingeniería detrás del rendimiento de lotes de producción (20+ toneladas), el programa de co-branding de 1–4 toneladas, las tarifas de impresión de etiquetas transparentes y las tres etapas de producción.'
-      link: 'https://assets.agrospear.com/site/downloads/flexible-branding-and-moq-guide.pdf'
+      link: /oem-moq-guide
       link_label: 'Descargar Guía (PDF)'
     - icon: P
       icon_bg: green
       title: 'Política de Branding Flexible y Co-Branding (PDF)'
       desc: 'Expediente de política oficial (Parte 1, POL-MOQ-2026-V1): reglas de co-branding de lotes pequeños, el marco de MOQ específico por proyecto, los cuatro factores que definen los mínimos y la firma conjunta de Vicepresidente de Ventas, Ingeniero Jefe y Director de QA.'
-      link: 'https://assets.agrospear.com/site/downloads/flexible-branding-and-moq-policy.pdf'
+      link: /oem-moq-guide
       link_label: 'Descargar Política (PDF)'
 
 moq_faqs:

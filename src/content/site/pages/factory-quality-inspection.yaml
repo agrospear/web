@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Download Quality Assurance Package
       variant: primary
-      href: 'https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: /manufacturing/qcqa-documents
     - text: Download Sample Quality Pack (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/Qingdao_Vatrad_Group_Agrochemical_Quality_Documentation_Pack.pdf?dl=1'
+      href: /manufacturing/qcqa-documents
     - text: Request OEM Quality Information
       href: /contact
 
@@ -396,49 +396,49 @@ document_pack:
       icon_bg: blue
       title: Quality Documentation Pack (PDF)
       desc: 'Full 00–15 controlled document structure: project index, specification, BOM, label and packing references, Quality Inspection Plan (QIP), inspection records, NCR, change control, third-party briefing, and pre-shipment release summary.'
-      link: 'https://assets.agrospear.com/site/downloads/Qingdao_Vatrad_Group_Agrochemical_Quality_Documentation_Pack.pdf?dl=1'
+      link: /manufacturing/qcqa-documents
       link_label: Download PDF
     - icon: T
       icon_bg: green
       title: Third-Party Inspection Brief (PDF)
       desc: 'One-page brief for SGS / BV / Intertek / QIMA inspectors: order quantity, AQL sampling level, applicable revisions, and critical-to-quality checks including active content verification, stability record, suspensibility, kit completeness, barcode scan, and carton drop test.'
-      link: 'https://assets.agrospear.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link: /manufacturing/qcqa-documents
       link_label: Download PDF
     - icon: C
       icon_bg: purple
       title: Change Control Protocol (PDF)
       desc: 'Change Control Log covering label, customer-approved BOM, and carton-marking revisions —with change summary, reason, impact assessment, customer approval status, effective batch, and obsolete document withdrawal.'
-      link: 'https://assets.agrospear.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link: /manufacturing/qcqa-documents
       link_label: Download PDF
     - icon: R
       icon_bg: orange
       title: Pre-Shipment Release Summary (PDF)
       desc: 'One-page release sign-off: quality gate verification (IQC, IPQC, stability, final inspection, packing), open NCR status, and the authorized release decision signed by quality and operations.'
-      link: 'https://assets.agrospear.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link: /manufacturing/qcqa-documents
       link_label: Download PDF
     - icon: W
       icon_bg: blue
       title: Specification Rework Instruction (PDF)
       desc: 'Controlled work instruction WI-QC-SPEC-001 Rev A: scope and boundaries, defect classification, NCR and rework authorization, controlled execution, stabilization, re-inspection and release for agrochemical formulations.'
-      link: 'https://assets.agrospear.com/site/downloads/specification-rework-instruction-wi-qc-spec-001.pdf?dl=1'
+      link: /manufacturing/factory/quality-change-control
       link_label: Download PDF
     - icon: M
       icon_bg: green
       title: Method Card Index (PDF)
       desc: 'Controlled document SOP-QC-SPEC-IDX-001 Rev A: the numbered method card system MC-RW-01 to MC-RW-06, plus MC-RW-00 for scrap and reject, linked to the specification rework instruction.'
-      link: 'https://assets.agrospear.com/site/downloads/method-card-index-sop-qc-spec-idx-001.pdf?dl=1'
+      link: /manufacturing/qcqa-documents
       link_label: Download PDF
     - icon: V
       icon_bg: orange
       title: Rework Change Control Standard (Page)
       desc: 'Formal ISO 9001 change control for rework parameters: ECR, risk classification, cross-department approval matrix, 9-step closed-loop, quantified engineering validation and Poka-Yoke safeguards — with bilingual SOP QMS-SOP-QC-CC-001 Rev 2.0.'
-      link: '/manufacturing/factory/quality-change-control'
+      link: /manufacturing/factory/quality-change-control'
       link_label: View page
     - icon: N
       icon_bg: blue
       title: Non-Conforming Product Control (Page)
       desc: 'ISO 9001:2015 Clause 8.7 control of non-conforming outputs: NCR registration, quarantine, severity-based disposition authority, controlled rework under SRI, independent re-inspection and witnessed destruction vaulted under SHA-256 — with bilingual SOP and scrap certificate downloads.'
-      link: '/manufacturing/factory/non-conforming-control'
+      link: /manufacturing/factory/non-conforming-control'
       link_label: View page
 
 faqs:
@@ -472,6 +472,6 @@ cta:
       variant: primary
       href: /contact
     - text: Download Sample Quality Pack (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/Qingdao_Vatrad_Group_Agrochemical_Quality_Documentation_Pack.pdf?dl=1'
+      href: /manufacturing/qcqa-documents
     - text: Download QC Protocol & Specification Checklist
-      href: 'https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: /manufacturing/qcqa-documents

@@ -17,9 +17,9 @@ hero:
   actions:
     - text: Descargar el paquete de garantia de calidad
       variant: primary
-      href: 'https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: /manufacturing/qcqa-documents
     - text: Descargar el paquete de calidad de muestra (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/Qingdao_Vatrad_Group_Agrochemical_Quality_Documentation_Pack.pdf?dl=1'
+      href: /manufacturing/qcqa-documents
     - text: Solicitar informacion de calidad OEM
       href: /es/contact
 
@@ -396,49 +396,49 @@ document_pack:
       icon_bg: blue
       title: Paquete de documentacion de calidad (PDF)
       desc: 'Estructura documental controlada completa 00–15: indice de proyecto, especificacion, BOM, referencias de etiqueta y embalaje, Plan de Inspeccion de Calidad (QIP), registros de inspeccion, NCR, control de cambios, brief de inspeccion de terceros y resumen de liberacion de pre-embarque.'
-      link: 'https://assets.agrospear.com/site/downloads/Qingdao_Vatrad_Group_Agrochemical_Quality_Documentation_Pack.pdf?dl=1'
+      link: /manufacturing/qcqa-documents
       link_label: Descargar PDF
     - icon: T
       icon_bg: green
       title: Brief de inspeccion de terceros (PDF)
       desc: 'Brief de una pagina para inspectores de SGS / BV / Intertek / QIMA: cantidad del pedido, nivel de muestreo AQL, revisiones aplicables y controles criticos de calidad, incluida la verificacion del contenido activo, el registro de estabilidad, la suspensibilidad, la integridad del kit, el escaneo de codigo de barras y la prueba de caida del carton.'
-      link: 'https://assets.agrospear.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf?dl=1'
+      link: /manufacturing/qcqa-documents
       link_label: Descargar PDF
     - icon: C
       icon_bg: purple
       title: Protocolo de control de cambios (PDF)
       desc: 'Registro de control de cambios que cubre la etiqueta, la BOM aprobada por el cliente y las revisiones de marcado del carton — con resumen del cambio, motivo, evaluacion de impacto, estado de aprobacion del cliente, lote efectivo y retirada de documentos obsoletos.'
-      link: 'https://assets.agrospear.com/site/downloads/Change_Control_Protocol_Bilingual.pdf?dl=1'
+      link: /manufacturing/qcqa-documents
       link_label: Descargar PDF
     - icon: R
       icon_bg: orange
       title: Resumen de liberacion de pre-embarque (PDF)
       desc: 'Firma de liberacion de una pagina: verificacion de puertas de calidad (IQC, IPQC, estabilidad, inspeccion final, embalaje), estado de NCR abiertas y la decision de liberacion autorizada firmada por calidad y operaciones.'
-      link: 'https://assets.agrospear.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf?dl=1'
+      link: /manufacturing/qcqa-documents
       link_label: Descargar PDF
     - icon: W
       icon_bg: blue
       title: Instruccion de retrabajo de especificacion (PDF)
       desc: 'Instruccion de trabajo controlada WI-QC-SPEC-001 Rev A: alcance y limites, clasificacion de defectos, NCR y autorizacion de retrabajo, ejecucion controlada, estabilizacion, reinspeccion y liberacion para formulaciones agroquimicas.'
-      link: 'https://assets.agrospear.com/site/downloads/specification-rework-instruction-wi-qc-spec-001.pdf?dl=1'
+      link: /manufacturing/factory/quality-change-control
       link_label: Descargar PDF
     - icon: M
       icon_bg: green
       title: Indice de tarjetas de metodo (PDF)
       desc: 'Documento controlado SOP-QC-SPEC-IDX-001 Rev A: el sistema de tarjetas de metodo numeradas MC-RW-01 a MC-RW-06, mas MC-RW-00 para desecho y rechazo, vinculado a la instruccion de retrabajo de especificacion.'
-      link: 'https://assets.agrospear.com/site/downloads/method-card-index-sop-qc-spec-idx-001.pdf?dl=1'
+      link: /manufacturing/qcqa-documents
       link_label: Descargar PDF
     - icon: V
       icon_bg: orange
       title: Estandar de control de cambios de retrabajo (pagina)
       desc: 'Control de cambios formal segun ISO 9001 para parametros de retrabajo: ECR, clasificacion de riesgos, matriz de aprobacion interdepartamental, bucle cerrado de 9 pasos, validacion de ingenieria cuantificada y salvaguardas Poka-Yoke — con el SOP bilingue QMS-SOP-QC-CC-001 Rev 2.0.'
-      link: '/es/manufacturing/factory/quality-change-control'
+      link: /es/manufacturing/factory/quality-change-control'
       link_label: Ver pagina
     - icon: N
       icon_bg: blue
       title: Control de productos no conformes (pagina)
       desc: 'Control de salidas no conformes segun la ISO 9001:2015 Clausula 8.7: registro NCR, cuarentena, autoridad de disposicion por gravedad, retrabajo controlado bajo SRI, reinspeccion independiente y destruccion presenciada con boveda SHA-256 — con SOP bilingue y descargas de certificado de desguace.'
-      link: '/es/manufacturing/factory/non-conforming-control'
+      link: /es/manufacturing/factory/non-conforming-control'
       link_label: Ver pagina
 
 faqs:
@@ -472,6 +472,6 @@ cta:
       variant: primary
       href: /es/contact
     - text: Descargar el paquete de calidad de muestra (PDF)
-      href: 'https://assets.agrospear.com/site/downloads/Qingdao_Vatrad_Group_Agrochemical_Quality_Documentation_Pack.pdf?dl=1'
+      href: /manufacturing/qcqa-documents
     - text: Descargar el protocolo de QC y la lista de especificacion
-      href: 'https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf?dl=1'
+      href: /manufacturing/qcqa-documents

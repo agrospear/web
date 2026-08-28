@@ -99,8 +99,8 @@ qc_flow:
       record: 'QIP + actas de la reunión previa, registros de muestra aprobada.'
       image: https://assets.agrospear.com/site/quality/node01-ppm.avif
       alt: Reunión previa a la producción revisando la muestra dorada y el plan de inspección de calidad de un pedido OEM agroquímico
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
-      link_label: 'Descargar QIP (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - stage: ETAPA 02
       title: 'Inspección de materiales entrantes (IQC)'
       summary: 'Las materias primas se verifican contra la especificación aprobada del proveedor antes de entrar en producción.'
@@ -116,8 +116,8 @@ qc_flow:
       record: 'Informes de ensayo IQC con referencias de lote y disposiciones.'
       image: https://assets.agrospear.com/site/quality/node02-iqc.avif
       alt: Inspección de materiales entrantes de ingredientes activos y coformulantes en la fábrica
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
-      link_label: 'Descargar informes IQC (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - stage: ETAPA 03
       title: 'Control en proceso y primera pieza (IPQC / FAI)'
       summary: 'Los métodos de formulación y los puntos de control se seleccionan según la plataforma de formulación aprobada y la configuración del proyecto. La primera pieza se comprueba contra las líneas base bloqueadas; cada turno mantiene controles de ronda en la línea.'
@@ -133,8 +133,8 @@ qc_flow:
       record: 'Registro FAI, registros de ronda por turno, notas de retrabajo y disposición.'
       image: https://assets.agrospear.com/site/quality/node03-ipqc-fai.avif
       alt: Inspección en proceso y comprobación de primera pieza durante la producción agroquímica
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
-      link_label: 'Descargar informes IPQC (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - stage: ETAPA 04
       title: 'Ensayo de calidad de formulación y estabilidad'
       summary: 'Cada lote terminado se somete a análisis completo de ingrediente activo y verificación de propiedades físicas antes del embalaje — el 100% de los lotes, no una muestra.'
@@ -167,8 +167,8 @@ qc_flow:
       record: 'Informes FQC con firma del inspector y disposición.'
       image: https://assets.agrospear.com/site/quality/node05-fqc.avif
       alt: Inspección final de formulaciones agroquímicas terminadas antes del embalaje
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
-      link_label: 'Descargar informes FQC (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - stage: ETAPA 06
       title: 'Embalaje e inspección pre-embarque (PSI)'
       summary: 'El pedido embalado se comprueba en integridad, precisión del marcado y preparación para el envío.'
@@ -184,8 +184,8 @@ qc_flow:
       record: 'Listas de comprobación PSI y registros de embalaje por envío.'
       image: https://assets.agrospear.com/site/quality/node06-psi.avif
       alt: Inspección pre-embarque comprobando el pedido agroquímico embalado contra la BOM
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
-      link_label: 'Descargar informes PSI (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - stage: ETAPA 07
       title: 'Liberación de envío y trazabilidad'
       summary: 'Calidad firma la liberación del lote solo cuando las seis puertas anteriores están cerradas y todos los registros están completos.'
@@ -201,8 +201,8 @@ qc_flow:
       record: 'Autorización de liberación de envío y dosier de trazabilidad del lote.'
       image: https://assets.agrospear.com/site/quality/node07-shipment-release.avif
       alt: Firma de liberación de envío y entrega de registros de trazabilidad de lote
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
-      link_label: 'Descargar informes de liberación (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
 system_map:
   tagline: El sistema de calidad
   title: 'Un sistema, cuatro estándares controlados'
@@ -246,8 +246,8 @@ intelligence_cards:
         - { label: Etapa, value: '02 · IQC' }
         - { label: Lote, value: 'LOT-DEMO-AI-0814' }
         - { label: Resultado, value: 'Apto · Aprobado para producción' }
-      link: 'https://assets.agrospear.com/site/downloads/anonymized-quality-record-samples.pdf#page=1'
-      link_label: 'Ver muestra anonimizada (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - icon: 2
       icon_bg: green
       title: Registro de inspección de primera pieza (FAI)
@@ -256,8 +256,8 @@ intelligence_cards:
         - { label: Etapa, value: '03 · IPQC' }
         - { label: Código de muestra, value: 'BAT-DEMO-FAI-001' }
         - { label: Resultado, value: 'Apto · FAI aprobada' }
-      link: 'https://assets.agrospear.com/site/downloads/anonymized-quality-record-samples.pdf#page=2'
-      link_label: 'Ver muestra anonimizada (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - icon: 3
       icon_bg: purple
       title: Registro de ensayo de calidad de formulación y estabilidad
@@ -266,8 +266,8 @@ intelligence_cards:
         - { label: Etapa, value: '04 · Calidad de Formulación' }
         - { label: Condición de ensayo, value: 'Según métodos CIPAC FAO/OMS' }
         - { label: Resultado, value: 'Apto · Aprobado para inspección final' }
-      link: 'https://assets.agrospear.com/site/downloads/anonymized-quality-record-samples.pdf#page=3'
-      link_label: 'Ver muestra anonimizada (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - icon: 4
       icon_bg: orange
       title: Informe de inspección final de producto
@@ -276,8 +276,8 @@ intelligence_cards:
         - { label: Etapa, value: '05 · FQC' }
         - { label: IA, value: 'Dentro de ±5% Declarado' }
         - { label: Resultado, value: 'Apto · Aprobado para embalaje' }
-      link: 'https://assets.agrospear.com/site/downloads/anonymized-quality-record-samples.pdf#page=4'
-      link_label: 'Ver muestra anonimizada (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - icon: 5
       icon_bg: green
       title: Lista de comprobación de embalaje y pre-embarque
@@ -286,8 +286,8 @@ intelligence_cards:
         - { label: Etapa, value: '06 · PSI' }
         - { label: Kit, value: '100% según BOM' }
         - { label: Resultado, value: 'Apto · Aprobado para envío' }
-      link: 'https://assets.agrospear.com/site/downloads/anonymized-quality-record-samples.pdf#page=5'
-      link_label: 'Ver muestra anonimizada (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
 doc_register:
   tagline: Registro documental controlado
   title: 'Cada documento detrás de un envío, listado'
@@ -296,28 +296,28 @@ doc_register:
     - title: '00 · Plan de Inspección de Calidad del proyecto (QIP)'
       description: 'El contrato de calidad por pedido: puertas, alcance de inspección, métodos, criterios de aceptación y registros que recibirás.'
       icon: '00'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_SUP_OEM_QIP.pdf
-      link_label: 'Descargar QIP (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - title: '01 · Estándares de inspección de calidad'
       description: 'El estándar completo de inspección y aseguramiento aplicado a pedidos OEM/ODM agroquímicos a medida.'
       icon: '01'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_Quality_Inspection_Standards.pdf
-      link_label: 'Descargar estándares (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - title: '02 · Pack de documentación de calidad'
       description: 'La estructura documental completa que recibe un proyecto, en un pack de visión general.'
       icon: '02'
-      link: https://assets.agrospear.com/site/downloads/Qingdao_Vatrad_Group_SUP_Quality_Documentation_Pack.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar pack (PDF)'
     - title: '03 · Informes de ensayo IQC'
       description: 'Informes de inspección de materiales entrantes — ingredientes activos, coformulantes, disolventes y materiales de embalaje.'
       icon: '03'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IQC_TEST_REPORTS.pdf
-      link_label: 'Descargar informes IQC (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - title: '04 · Informes de ensayo IPQC'
       description: 'Informes de inspección en proceso y de primera pieza contra la revisión bloqueada.'
       icon: '04'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_IPQC_TEST_REPORTS.pdf
-      link_label: 'Descargar informes IPQC (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - title: '05 · Informes de calidad de formulación y estabilidad'
       description: 'Análisis de ingrediente activo al 100%, ensayo de propiedades físicas y registros de estabilidad acelerada.'
       icon: '05'
@@ -326,52 +326,52 @@ doc_register:
     - title: '06 · Informes de ensayo FQC'
       description: 'Inspección final del producto contra la muestra aprobada — contenido de ingrediente activo, apariencia, etiquetado y embalaje.'
       icon: '06'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_FQC_TEST_REPORTS.pdf
-      link_label: 'Descargar informes FQC (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - title: '07 · Informes de ensayo PSI'
       description: 'Inspección de embalaje y pre-embarque — integridad del kit al 100%, grado de código de barras, precisión de etiquetas.'
       icon: '07'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_PSI_TEST_REPORTS.pdf
-      link_label: 'Descargar informes PSI (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - title: '08 · Informes de liberación de envío'
       description: 'Autorización de liberación firmada cuando todas las puertas están cerradas, con el dosier del lote.'
       icon: '08'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_SHIPMENT_RELEASE_REPORTS.pdf
-      link_label: 'Descargar informes de liberación (PDF)'
+      link: /manufacturing/qcqa-documents
+      link_label: 'Ver biblioteca de documentos QC/QA'
     - title: '09 · Dosier de trazabilidad y NCR'
       description: 'Trazabilidad de lote vinculada a especificación/etiqueta/BOM, más los registros de control de no conformidades.'
       icon: '09'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar dosier (PDF)'
     - title: '10 · SOP de control de productos no conformes (ISO 8.7)'
       description: 'El procedimiento controlado para cuarentena, disposición, retrabajo y liberación de productos no conformes.'
       icon: '10'
-      link: https://assets.agrospear.com/site/downloads/non-conforming-product-control-sop-iso-8-7.pdf
+      link: /manufacturing/factory/non-conforming-control
       link_label: 'Descargar SOP (PDF)'
     - title: '11 · SOP de control de cambios de retrabajo + Anexo'
       description: 'El procedimiento de control de cambios y su anexo de ejecución — contención, aprobación y validación.'
       icon: '11'
-      link: https://assets.agrospear.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link: /manufacturing/factory/quality-change-control
       link_label: 'Descargar SOP (PDF)'
     - title: '12 · Resumen de liberación pre-embarque'
       description: 'El resumen bilingüe con el que se envía cada lote, que une el registro documental.'
       icon: '12'
-      link: https://assets.agrospear.com/site/downloads/Pre_Shipment_Release_Summary_Bilingual.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar resumen (PDF)'
     - title: '13 · Plantilla de brief de inspección de terceros'
       description: 'La plantilla que usan los inspectores para anunciar, planificar y reportar una inspección pre-embarque.'
       icon: '13'
-      link: https://assets.agrospear.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar plantilla (PDF)'
     - title: '14 · Lista de comprobación PSI'
       description: 'La lista de pre-embarque en planta — integridad del kit, grado de código de barras, marcas y seguridad del embalaje.'
       icon: '14'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar lista de comprobación (PDF)'
     - title: '15 · Guía de viabilidad y calidad de proyectos OEM'
       description: 'Cómo pasa un proyecto de la consulta a la muestra dorada aprobada — pasos de ingeniería y calidad antes de la producción en serie.'
       icon: '15'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar guía (PDF)'
 traceability:
   tagline: Trazabilidad a nivel de lote
@@ -381,22 +381,22 @@ traceability:
     - title: '¿Qué se produjo?'
       description: 'Producto, formulación, concentración y revisión vinculados al número de pedido y a la revisión de especificación aprobada.'
       icon: '1'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Ver dosier de trazabilidad (PDF)'
     - title: '¿Qué materiales se utilizaron?'
       description: 'Cada lote de material del lote de producción se registra con su proveedor, certificado y disposición IQC.'
       icon: '2'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Ver dosier de trazabilidad (PDF)'
     - title: '¿Quién inspeccionó y cuándo?'
       description: 'Cada registro lleva el rol del inspector, la fecha, las herramientas utilizadas y el resultado — sin firmas anónimas.'
       icon: '3'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Ver dosier de trazabilidad (PDF)'
     - title: '¿Cómo se liberó el lote?'
       description: 'La liberación la autoriza calidad solo cuando todas las puertas están cerradas; la disposición queda documentada en el registro.'
       icon: '4'
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_BATCH_TRACEABILITY_AND_NCR_CONTROL_DOSSIER.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Ver dosier de trazabilidad (PDF)'
 non_conformance:
   tagline: Control de productos no conformes
@@ -417,12 +417,12 @@ non_conformance:
     - title: 'Control de desechos'
       description: 'El material desechado se destruye con un certificado de destrucción firmado, para que nunca vuelva al stock ni al mercado.'
       icon: tabler:trash
-      link: https://assets.agrospear.com/site/downloads/scrap-destruction-certificate-vat-qa-scrap-cert-2026.pdf
+      link: /manufacturing/factory/non-conforming-control
       link_label: 'Certificado de desecho y destrucción (PDF)'
     - title: 'Retroalimentación de causa raíz'
       description: 'Los defectos repetidos activan una acción correctiva con el proceso o proveedor responsable — circuito cerrado, no papeleo.'
       icon: tabler:refresh
-      link: https://assets.agrospear.com/site/downloads/rework-change-control-sop-qms-sop-qc-cc-001.pdf
+      link: /manufacturing/factory/quality-change-control
       link_label: 'SOP de control de cambios de retrabajo (PDF)'
 third_party:
   tagline: Inspección designada por el comprador e independiente
@@ -437,22 +437,22 @@ third_party:
     - title: 'Plantilla de briefing pre-embarque'
       description: 'La plantilla que usan los inspectores para anunciar, planificar e informar una inspección pre-embarque en nuestras instalaciones.'
       icon: tabler:file-report
-      link: https://assets.agrospear.com/site/downloads/Third_Party_Inspection_Brief_Template.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar plantilla de briefing (PDF)'
     - title: 'Lista de comprobación PSI'
       description: 'La lista de comprobación pre-embarque usada en planta — integridad del kit, grado de código de barras, marcas y seguridad del embalaje.'
       icon: tabler:clipboard-check
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_SUP_Pre_Shipment_Inspection_Checklist.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar lista de comprobación PSI (PDF)'
     - title: 'Pack completo de documentación de calidad'
       description: 'Un dosier que cubre todo el sistema documental — QIP, registros de puertas, trazabilidad y control de NCR.'
       icon: tabler:books
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_COMPLETE_SUP_QUALITY_DOSSIER.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar pack de documentación (PDF)'
     - title: 'Guía de viabilidad de proyecto OEM y calidad'
       description: 'Cómo pasa un proyecto de la consulta a la muestra dorada aprobada — los pasos de ingeniería y calidad antes de la producción en masa.'
       icon: tabler:route
-      link: https://assets.agrospear.com/site/downloads/QINGDAO_VATRAD_GROUP_OEM_PROJECT_FEASIBILITY_AND_QUALITY_GUIDE.pdf
+      link: /manufacturing/qcqa-documents
       link_label: 'Descargar guía de proyecto (PDF)'
 content_certifications:
   tagline: Certificaciones y estándares
