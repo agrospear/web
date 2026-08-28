@@ -32,43 +32,43 @@ document_groups:
       icon_bg: blue
       title: 'SC & WDG Production QC SOP'
       desc: 'Bilingual SOP covering suspension concentrate and water-dispersible granule production, process checkpoints and quality inspection requirements.'
-      link: /downloads/qcqa/agrospear-sc-wdg-production-qc-sop.pdf
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_SC_WDG_Production_QC_SOP.pdf
       link_label: 'Download PDF'
     - icon: H
       icon_bg: green
       title: 'Herbicide QC System & Dossier'
       desc: 'Quality-control framework and supporting dossier for herbicide production and release.'
-      link: /downloads/qcqa/agrospear-herbicide-qc-system-and-dossier.pdf
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Herbicide_QC_System_and_Dossier.pdf
       link_label: 'Download PDF'
     - icon: I
       icon_bg: purple
       title: 'Insecticide QC System & Dossier'
       desc: 'Core insecticide quality-control system and supporting documentation.'
-      link: /downloads/qcqa/agrospear-insecticide-qc-system-and-dossier.pdf
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Insecticide_QC_System_and_Dossier.pdf
       link_label: 'Download PDF'
     - icon: 4
       icon_bg: orange
       title: 'Insecticide 4-Stage Release Dossier'
       desc: 'Four-stage evidence chain covering incoming inspection, in-process control, final release and retained-sample traceability.'
-      link: /downloads/qcqa/agrospear-insecticide-4stage-qc-and-release-dossier.pdf
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Insecticide_4Stage_QC_and_Release_Dossier.pdf
       link_label: 'Download PDF'
     - icon: F
       icon_bg: blue
       title: 'Fungicide QC System & Dossier'
       desc: 'Fungicide production QC/QA framework and supporting evidence dossier.'
-      link: /downloads/qcqa/agrospear-fungicide-qc-system-and-dossier.pdf
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Fungicide_QC_System_and_Dossier.pdf
       link_label: 'Download PDF'
     - icon: A
       icon_bg: green
       title: 'Acaricide & Nematicide QC Dossier'
       desc: 'Product-group-specific quality-control system for acaricide and nematicide production.'
-      link: /downloads/qcqa/agrospear-acaricides-nematicides-qc-system-and-dossier.pdf
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Acaricides_Nematicides_QC_System_and_Dossier.pdf
       link_label: 'Download PDF'
     - icon: P
       icon_bg: purple
       title: 'PGR QC System Dossier'
       desc: 'Quality-control overview for plant growth regulator formulation and production.'
-      link: /downloads/qcqa/agrospear-pgr-qc-system-and-dossier.pdf
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_PGR_QC_System_and_Dossier.pdf
       link_label: 'Download PDF'
 
 evidence_images:

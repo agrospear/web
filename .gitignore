@@ -42,6 +42,8 @@ playwright-report/
 public/assets/videos/
 public/assets/quality/
 public/assets/products/
-public/downloads/
+public/downloads/*
+!public/downloads/qcqa/
+!public/downloads/qcqa/*.pdf
 
 dev-server-opt.err
