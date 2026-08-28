@@ -2,7 +2,7 @@
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, works } from '@/product/content'
-import { BRAND_ASSETS_CDN } from '@/config/branding'
+
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 
@@ -23,8 +23,8 @@ export function HowItWorks() {
   ]
 
   const pdfLinks = [
-    { label: t('agro.nav.oemDropdown.trustPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/oem-buyer-trust-and-factory-assurance-guide.pdf` },
-    { label: t('agro.nav.oemDropdown.moqPdf'), href: `${BRAND_ASSETS_CDN}/site/downloads/flexible-branding-and-moq-guide.pdf` },
+    { label: t('agro.nav.oemDropdown.trustPdf'), href: '/oem-trust-assurance' },
+    { label: t('agro.nav.oemDropdown.moqPdf'), href: '/oem-moq-guide' },
   ]
 
   return (
