@@ -3,18 +3,22 @@ name: Compress & upload PDFs to R2
 # Compresses PDF files using Ghostscript (CI), then uploads the smaller
 # versions to Cloudflare R2 so the website can serve them via CDN.
 #
-# Usage:
-#   1. Place PDFs in public/downloads/qcqa/ (or set source_path input)
-#   2. Run this workflow via Actions → "Run workflow"
-#   3. Choose quality preset and whether to upload
+# Workflow:
+#   1. Downloads existing PDFs from R2 (source_prefix) if present
+#   2. Compresses them with Ghostscript
+#   3. Uploads compressed versions to R2 (target_prefix)
+#   4. Optionally deletes the original uncompressed objects
+#
+# Since public/downloads/ is gitignored, PDFs come from R2 itself.
+# For initial upload of new PDFs, use the upload-site-assets workflow first.
 
 on:
   workflow_dispatch:
     inputs:
-      source_path:
-        description: 'Source directory containing PDFs (relative to repo root)'
+      source_prefix:
+        description: 'R2 prefix to download existing PDFs from (leave empty to skip download)'
         required: false
-        default: 'public/downloads/qcqa'
+        default: 'site/downloads/qcqa'
       quality:
         description: 'Compression quality: screen (72dpi/small), ebook (150dpi/balanced), printer (300dpi/high)'
         required: false
@@ -24,8 +28,8 @@ on:
           - screen
           - ebook
           - printer
-      r2_prefix:
-        description: 'R2 key prefix to upload compressed PDFs'
+      target_prefix:
+        description: 'R2 prefix to upload compressed PDFs to'
         required: false
         default: 'site/downloads/qcqa'
       dry_run:
@@ -34,7 +38,7 @@ on:
         default: 'true'
         type: boolean
       delete_originals:
-        description: 'After upload, delete original (uncompressed) objects from R2 at the same prefix'
+        description: 'After upload, delete original (uncompressed) objects from R2'
         required: false
         default: 'false'
         type: boolean
@@ -51,26 +55,87 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
       - name: Install Ghostscript
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ghostscript
           gs --version
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
+      - name: Download PDFs from R2
+        if: inputs.source_prefix != ''
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET || 'agrospear-files-prod' }}
+        run: |
+          SOURCE_PREFIX="${{ inputs.source_prefix }}"
+          DEST_DIR="dist/source-pdfs"
+          mkdir -p "$DEST_DIR"
+
+          echo "=== Downloading PDFs from R2: ${SOURCE_PREFIX}/ ==="
+
+          # List objects using wrangler
+          KEYS=$(npx wrangler r2 object list "$R2_BUCKET" --prefix "$SOURCE_PREFIX" --page-size 1000 2>&1 | grep -oP '(?<=Key: )\S+\.pdf' || true)
+
+          if [ -z "$KEYS" ]; then
+            echo "::warning::No PDFs found at ${SOURCE_PREFIX}/ in R2."
+            echo "If this is the first upload, use the upload-site-assets workflow first."
+            exit 1
+          fi
+
+          DOWNLOADED=0
+          FAILED=0
+          while IFS= read -r KEY; do
+            [ -z "$KEY" ] && continue
+            FILENAME=$(basename "$KEY")
+            HTTP_CODE=$(curl -s -o "${DEST_DIR}/${FILENAME}" -w "%{http_code}" \
+              -H "Authorization: Bearer ${CF_API_TOKEN}" \
+              "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/r2/buckets/${R2_BUCKET}/objects/${KEY}")
+
+            if [ "$HTTP_CODE" = "200" ]; then
+              echo "  ✓ ${FILENAME}"
+              DOWNLOADED=$((DOWNLOADED + 1))
+            else
+              echo "  ✗ ${FILENAME} (HTTP ${HTTP_CODE})"
+              rm -f "${DEST_DIR}/${FILENAME}"
+              FAILED=$((FAILED + 1))
+            fi
+          done <<< "$KEYS"
+
+          echo ""
+          echo "Downloaded ${DOWNLOADED} PDF(s), ${FAILED} failed"
 
       - name: Compress PDFs
         run: |
           echo "=== PDF Compression ==="
-          echo "Source: ${{ inputs.source_path }}"
           echo "Quality: ${{ inputs.quality }}"
           echo "Output: dist/compressed"
           echo ""
 
+          # Determine source: downloaded from R2 or local directory
+          if [ -d "dist/source-pdfs" ] && [ "$(find dist/source-pdfs -name '*.pdf' 2>/dev/null | wc -l)" -gt 0 ]; then
+            SOURCE="dist/source-pdfs"
+          else
+            SOURCE="public/downloads/qcqa"
+          fi
+
+          echo "Source: $SOURCE"
+          echo ""
+
           node scripts/compress-pdfs.mjs \
-            --src "${{ inputs.source_path }}" \
+            --src "$SOURCE" \
             --out dist/compressed \
             --quality "${{ inputs.quality }}"
 
@@ -89,16 +154,15 @@ jobs:
           CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET || 'agrospear-files-prod' }}
         run: |
-          R2_PREFIX="${{ inputs.r2_prefix }}"
+          TARGET_PREFIX="${{ inputs.target_prefix }}"
           UPLOADED=0
           FAILED=0
           TOTAL=0
 
-          find dist/compressed -name "*.pdf" | sort | while read -r file; do
+          while IFS= read -r file; do
             TOTAL=$((TOTAL + 1))
-            # Build R2 key: site/downloads/qcqa/AGROSPEAR_SC_WDG_Production_QC_SOP.pdf
             REL_PATH="${file#dist/compressed/}"
-            R2_KEY="${R2_PREFIX}/${REL_PATH}"
+            R2_KEY="${TARGET_PREFIX}/${REL_PATH}"
 
             HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
               -X PUT \
@@ -115,10 +179,10 @@ jobs:
               echo "  ✗ ${R2_KEY} (HTTP ${HTTP_CODE})"
               FAILED=$((FAILED + 1))
             fi
-          done
+          done < <(find dist/compressed -name "*.pdf" | sort)
 
           echo ""
-          echo "Upload complete: ${UPLOADED} uploaded, ${FAILED} failed"
+          echo "Upload complete: ${UPLOADED}/${TOTAL} uploaded, ${FAILED} failed"
           if [ "$FAILED" -gt 0 ]; then
             echo "::error::${FAILED} PDF(s) failed to upload"
             exit 1
@@ -131,23 +195,40 @@ jobs:
           CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET || 'agrospear-files-prod' }}
         run: |
-          R2_PREFIX="${{ inputs.r2_prefix }}"
-          echo "=== Listing objects at ${R2_PREFIX}/ for potential cleanup ==="
+          SOURCE_PREFIX="${{ inputs.source_prefix }}"
+          TARGET_PREFIX="${{ inputs.target_prefix }}"
 
-          # Note: R2 HTTP API doesn't support prefix listing directly.
-          # Use wrangler if available for reliable prefix listing.
-          npx wrangler r2 object list "$R2_BUCKET" --prefix "$R2_PREFIX" --page-size 100 2>&1 || \
-            echo "::warning::Could not list R2 objects. Delete originals manually if needed."
+          if [ "$SOURCE_PREFIX" = "$TARGET_PREFIX" ]; then
+            echo "Source and target prefixes are the same — skipping delete to avoid removing compressed files."
+            echo "To replace originals, run with source_prefix != target_prefix, then delete originals."
+            exit 0
+          fi
+
+          echo "=== Deleting original PDFs from ${SOURCE_PREFIX}/ ==="
+          KEYS=$(npx wrangler r2 object list "$R2_BUCKET" --prefix "$SOURCE_PREFIX" --page-size 1000 2>&1 | grep -oP '(?<=Key: )\S+\.pdf' || true)
+
+          if [ -z "$KEYS" ]; then
+            echo "No objects to delete."
+            exit 0
+          fi
+
+          DELETED=0
+          while IFS= read -r KEY; do
+            [ -z "$KEY" ] && continue
+            npx wrangler r2 object delete "$R2_BUCKET/$KEY" 2>&1
+            DELETED=$((DELETED + 1))
+          done <<< "$KEYS"
+
+          echo "Deleted ${DELETED} object(s) from ${SOURCE_PREFIX}/"
 
       - name: Dry-run summary
         if: inputs.dry_run == 'true'
         run: |
           echo "=== DRY RUN — PDFs compressed but not uploaded ==="
           echo ""
-          echo "To upload, re-run this workflow with dry_run=false"
-          echo "To also delete old uncompressed originals, set delete_originals=true"
-          echo ""
-          echo "Compressed files are in dist/compressed/"
+          echo "To upload, re-run with dry_run=false"
+          echo "To delete old originals, set delete_originals=true"
+          echo "  (requires source_prefix != target_prefix)"
 
       - name: Upload compressed PDFs as artifact
         if: always()
