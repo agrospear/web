@@ -61,7 +61,7 @@ jobs:
           API="https://api.cloudflare.com/client/v4"
           AUTH="Authorization: Bearer $CLOUDFLARE_API_TOKEN"
           ACCT="$CLOUDFLARE_ACCOUNT_ID"
-          CDN_BUCKET="agrospear-assets"
+          CDN_BUCKET="agrospear-files-prod"
           CDN_DOMAIN="assets.${CF_PROD_DOMAIN:-agrospear.com}"
           # 1. Create bucket (idempotent — 409 = already exists)
           BHTTP=$(curl -sS -o /tmp/bucket.json -w '%{http_code}' -X POST \
@@ -135,7 +135,7 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          R2_BUCKET: agrospear-assets
+          R2_BUCKET: agrospear-files-prod
         run: |
           if [ -d public/assets/videos ] || [ -d public/downloads ] || [ -d public/assets/quality ] || [ -d public/assets/products ]; then
             node scripts/upload-site-assets.mjs --http --missing
@@ -248,5 +248,5 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          R2_BUCKET: agrospear-assets
+          R2_BUCKET: agrospear-files-prod
         run: node scripts/upload-agrospear-images.mjs --http --missing --src scripts/agrospear-images

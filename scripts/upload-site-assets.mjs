@@ -51,7 +51,7 @@ const PREFIX = flagValue('prefix', '') // 自定义 R2 key 前缀，如 'site/vi
 const CACHE_CONTROL = flagValue('cache', 'public, max-age=31536000, immutable')
 const CONCURRENCY = 8
 
-const BUCKET = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'agrospear'}-files-prod`
+const BUCKET = process.env.R2_BUCKET ?? 'agrospear-files-prod'
 const ACCOUNT_ID = process.env[HTTP_MODE ? 'CLOUDFLARE_ACCOUNT_ID' : 'R2_ACCOUNT_ID'] ?? ''
 const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN ?? ''
 const ACCESS_KEY = process.env.R2_ACCESS_KEY_ID ?? ''
