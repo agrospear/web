@@ -3,6 +3,7 @@ import { es } from './dictionaries/es'
 import { ACTIVE_LOCALES, DEFAULT_LOCALE as CONFIG_DEFAULT_LOCALE, isLocale as configIsLocale, localizePath as configLocalizePath, stripDefaultLocalePrefix as configStripDefaultLocalePrefix, negotiateLocale as configNegotiateLocale, type Locale as ConfigLocale } from '@/config/locales'
 
 export const locales = ACTIVE_LOCALES
+export const publishedLocales = ACTIVE_LOCALES
 export type Locale = ConfigLocale
 export const defaultLocale: Locale = CONFIG_DEFAULT_LOCALE
 
