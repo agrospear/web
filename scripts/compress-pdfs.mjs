@@ -34,7 +34,7 @@ function flagValue(name, fallback) {
   return i !== -1 && args[i + 1] ? args[i + 1] : fallback
 }
 
-const SRC_DIR = flagValue('src', 'public/downloads')
+const SRC_DIR = flagValue('src', 'public/downloads/qcqa')
 const OUT_DIR = flagValue('out', 'dist/compressed')
 const QUALITY = flagValue('quality', 'ebook') // screen | ebook | printer
 const DRY_RUN = args.includes('--dry-run')
