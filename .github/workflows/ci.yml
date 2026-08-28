@@ -25,7 +25,7 @@ jobs:
       # (see scripts/check-bundle-size.mjs) — the only CI guard against silent
       # bundle regressions, since devDependencies rarely change chunk shape.
       - run: node scripts/check-bundle-size.mjs
-      # P0 regression gate: validate sitemap, llms.txt, internal links,
-      # template remnants, facts consistency and index controls against preview.
-      - run: pnpm preview > /tmp/agrospear-preview.log 2>&1 &
-      - run: sleep 5 && VERIFY_P0_RESULT="$RUNNER_TEMP/verify-p0-result.json" python "待优化/临时/Agrospear P0 修复包/fix/verify-p0.py" http://127.0.0.1:4173
+      # P0 regression gate: these repository-owned tests validate sitemap,
+      # llms.txt, internal links, facts consistency and index controls without
+      # depending on local-only optimization files.
+      - run: pnpm test -- src/features/content/content-links.node.test.ts src/features/seo/seo.node.test.ts src/features/site/llm.node.test.ts
