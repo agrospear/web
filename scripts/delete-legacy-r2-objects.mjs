@@ -6,6 +6,12 @@
  * It uses Cloudflare's R2 HTTP API and does not read the local optimization
  * directory.
  *
+ * Protected prefixes (never deleted):
+ *   site/downloads/qcqa/  - current QC/QA documents
+ *   site/quality/         - current quality inspection images
+ *   site/factory/         - current factory images (referenced by content)
+ *   images/agrochemical/  - current canonical image namespace
+ *
  * Required: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
  * Optional: R2_BUCKET (defaults to agrospear-files-prod)
  */
@@ -15,7 +21,13 @@ const dryRun = !args.includes('--confirm')
 const account = process.env.CLOUDFLARE_ACCOUNT_ID ?? ''
 const token = process.env.CLOUDFLARE_API_TOKEN ?? ''
 const bucket = process.env.R2_BUCKET ?? 'agrospear-files-prod'
-const prefixes = ['images/sups/', 'site/products/2026/all-around/']
+
+// Old water-sports and unused product prefixes
+const prefixes = [
+  'images/sups/',
+  'site/products/',
+  'site/videos/',
+]
 
 if (!account || !token) {
   console.error('Set CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN.')
@@ -58,15 +70,29 @@ async function main() {
   }
 
   const unique = [...new Set(keys)].filter((key) => prefixes.some((prefix) => key.startsWith(prefix)))
-  console.log(`${dryRun ? '[dry-run] ' : ''}${unique.length} legacy objects in ${bucket}`)
+
+  // Group by prefix for summary
+  const groups = {}
+  for (const key of unique) {
+    const prefix = prefixes.find((p) => key.startsWith(p)) ?? 'other'
+    groups[prefix] = (groups[prefix] ?? 0) + 1
+  }
+
+  console.log(`\n${dryRun ? '[dry-run] ' : ''}${unique.length} legacy objects in ${bucket}:\n`)
+  for (const [prefix, count] of Object.entries(groups)) {
+    console.log(`  ${prefix} — ${count} objects`)
+  }
+  console.log('')
+
   for (const key of unique) console.log(`  ${key}`)
+
   if (dryRun || unique.length === 0) {
-    if (dryRun) console.log('No objects deleted. Re-run with --confirm to permanently delete this allow-listed set.')
+    if (dryRun) console.log('\nNo objects deleted. Re-run with --confirm to permanently delete.')
     return
   }
 
   for (let i = 0; i < unique.length; i += 1000) await remove(unique.slice(i, i + 1000))
-  console.log(`Deleted ${unique.length} legacy objects.`)
+  console.log(`\nDeleted ${unique.length} legacy objects.`)
 }
 
 main().catch((error) => {
