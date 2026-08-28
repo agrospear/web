@@ -1,9 +1,12 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useTranslation } from '@/features/i18n/provider'
 import { assetUrl, ASSET_KEYS } from '@/product/assets'
+import { ResponsiveImage } from '@/components/ui/responsive-image'
 
 interface Slide {
   image: string
+  width: number
+  height: number
   tagline: string
   title: string
 }
@@ -11,16 +14,22 @@ interface Slide {
 const SLIDES_EN: Slide[] = [
   {
     image: assetUrl(ASSET_KEYS.factory.exterior),
+    width: 1920,
+    height: 1080,
     tagline: '20,000 m\u00b2 Factory',
     title: 'From raw active ingredient to export-ready product — all under one roof',
   },
   {
     image: assetUrl(ASSET_KEYS.factory.formulationLab),
+    width: 1920,
+    height: 1080,
     tagline: 'Formulation Lab',
     title: 'R&D and pilot-scale validation before every production commitment',
   },
   {
     image: assetUrl(ASSET_KEYS.factory.qualityLab),
+    width: 1920,
+    height: 1080,
     tagline: 'Quality & Inspection Lab',
     title: 'HPLC/GC analysis, stability chambers, particle sizing — every batch tested',
   },
@@ -29,16 +38,22 @@ const SLIDES_EN: Slide[] = [
 const SLIDES_ES: Slide[] = [
   {
     image: assetUrl(ASSET_KEYS.factory.exterior),
+    width: 1920,
+    height: 1080,
     tagline: 'F\u00e1brica de 20.000 m\u00b2',
     title: 'Del ingrediente activo al producto listo para exportar — todo bajo un mismo techo',
   },
   {
     image: assetUrl(ASSET_KEYS.factory.formulationLab),
+    width: 1920,
+    height: 1080,
     tagline: 'Laboratorio de formulaci\u00f3n',
     title: 'I+D y validaci\u00f3n a escala piloto antes de cada compromiso de producci\u00f3n',
   },
   {
     image: assetUrl(ASSET_KEYS.factory.qualityLab),
+    width: 1920,
+    height: 1080,
     tagline: 'Laboratorio de calidad e inspecci\u00f3n',
     title: 'An\u00e1lisis HPLC/GC, c\u00e1maras de estabilidad, granulometr\u00eda — cada lote analizado',
   },
@@ -67,14 +82,14 @@ export function FactoryCarousel() {
           className="absolute inset-0 transition-opacity duration-700 ease-in-out"
           style={{ opacity: i === active ? 1 : 0, zIndex: i === active ? 10 : 0 }}
         >
-          <img
+          <ResponsiveImage
             src={s.image}
             alt={s.title}
-            width={1920}
-            height={1080}
+            width={s.width}
+            height={s.height}
             sizes="100vw"
             className="h-full w-full object-cover"
-            loading={i === 0 ? 'eager' : 'lazy'}
+            eager={i === 0}
           />
           <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(3,7,18,0.9), rgba(3,7,18,0.4) 60%, rgba(3,7,18,0.2))' }} />
           <div className="absolute bottom-0 left-0 right-0 px-6 pb-10 pt-20 md:px-12 md:pb-14">

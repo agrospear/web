@@ -1,6 +1,7 @@
 import { useTranslation } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { assetUrl, ASSET_KEYS } from '@/product/assets'
+import { ResponsiveImage } from '@/components/ui/responsive-image'
 
 interface CategoryCard {
   slug: string
@@ -186,11 +187,13 @@ export function ProductCategories() {
               className="group flex flex-col md:flex-row overflow-hidden rounded-2xl border transition-all duration-300 hover:-translate-y-0.5" style={{ background: '#fff', borderColor: 'var(--border)', boxShadow: 'var(--shadow-sm)' }}
             >
               <div className="aspect-[4/3] md:aspect-auto md:w-2/5 overflow-hidden rounded-t-2xl md:rounded-t-none md:rounded-l-2xl flex items-center justify-center p-4" style={{ background: `linear-gradient(to bottom right, ${cat.gradFrom}, ${cat.gradTo})` }}>
-                <img
+                <ResponsiveImage
                   src={cat.image}
                   alt={cat.label}
+                  width={800}
+                  height={600}
+                  sizes="(max-width: 768px) 100vw, 40vw"
                   className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
                 />
               </div>
               <div className="flex flex-col justify-center px-6 py-5 md:w-3/5">

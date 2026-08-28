@@ -4,6 +4,7 @@ import { assetUrl } from '@/features/content/assets'
 import { pick, series } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
+import { ResponsiveImage } from '@/components/ui/responsive-image'
 
 /** Signature themed editions: two product cards linking to their detail pages. */
 export function SeriesSection() {
@@ -18,7 +19,7 @@ export function SeriesSection() {
           <Reveal key={s.sku} delay={i * 90}>
             <a href={s.href} className="marine-card group block h-full overflow-hidden p-0">
               <div className="zoom-img relative aspect-[4/3] overflow-hidden border-b border-border-2 bg-bg-alt">
-                <img src={assetUrl(s.image)} alt={s.title} width={800} height={600} loading="lazy" decoding="async" className="h-full w-full object-cover" />
+                <ResponsiveImage src={assetUrl(s.image)} alt={s.title} width={800} height={600} sizes="(max-width: 768px) 100vw, 50vw" className="h-full w-full object-cover" />
                 <span className="absolute left-3 top-3 rounded-full bg-card/90 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wider text-fg-3 backdrop-blur">
                   {s.sku}
                 </span>

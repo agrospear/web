@@ -28,7 +28,9 @@
     "upload:images": "node scripts/upload-agrospear-images.mjs",
     "upload:site-assets": "node scripts/upload-site-assets.mjs",
     "r2:delete-legacy-dry": "node scripts/delete-legacy-r2-objects.mjs",
-    "r2:delete-legacy": "node scripts/delete-legacy-r2-objects.mjs --confirm"
+    "r2:delete-legacy": "node scripts/delete-legacy-r2-objects.mjs --confirm",
+    "responsive": "node scripts/process-responsive-images.mjs",
+    "responsive:dry": "node scripts/process-responsive-images.mjs --dry-run"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.52.1",
@@ -77,6 +79,7 @@
     "@vitejs/plugin-react": "^6.0.1",
     "drizzle-kit": "^0.31.10",
     "eslint": "^10.4.1",
+    "sharp": "^0.35.2",
     "typescript": "^6.0.2",
     "vite": "^8.2.1",
     "vitest": "^4.1.5",

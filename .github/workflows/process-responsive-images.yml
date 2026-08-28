@@ -1,0 +1,97 @@
+name: Process & upload responsive images
+
+# Generates multiple width/format variants of source images using Sharp,
+# then uploads them to R2 so the browser can pick the best via srcset.
+# This solves the free Cloudflare R2 limitation (no on-the-fly resizing).
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview only — do not upload to R2'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: read
+
+env:
+  NODE_VERSION: '22'
+
+jobs:
+  process-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate responsive image variants
+        run: node scripts/process-responsive-images.mjs
+
+      - name: List generated variants
+        run: |
+          echo "=== Generated responsive variants ==="
+          find dist/responsive -type f \( -name "*.avif" -o -name "*.webp" \) | sort | head -60
+          echo ""
+          echo "=== File count ==="
+          find dist/responsive -type f \( -name "*.avif" -o -name "*.webp" \) | wc -l
+          echo ""
+          echo "=== Total size ==="
+          du -sh dist/responsive/
+
+      - name: Upload responsive variants to R2
+        if: inputs.dry_run != 'true'
+        env:
+          CF_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET || 'agrospear-files-prod' }}
+        run: |
+          # Upload all responsive variants to R2 under images/agrochemical/
+          CDN_PREFIX="images/agrochemical"
+          UPLOADED=0
+          FAILED=0
+
+          find dist/responsive -type f \( -name "*.avif" -o -name "*.webp" \) | while read -r file; do
+            # Build R2 key: images/agrochemical/products/hero-480.avif
+            REL_PATH="${file#dist/responsive/}"
+            R2_KEY="${CDN_PREFIX}/${REL_PATH}"
+
+            CONTENT_TYPE="image/$(echo "$file" | grep -oP '(?<=\.)\w+$')"
+            if [ "$CONTENT_TYPE" = "image/avif" ]; then
+              CONTENT_TYPE="image/avif"
+            elif [ "$CONTENT_TYPE" = "image/webp" ]; then
+              CONTENT_TYPE="image/webp"
+            fi
+
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+              -X PUT \
+              -H "Authorization: Bearer ${CF_API_TOKEN}" \
+              -H "Content-Type: ${CONTENT_TYPE}" \
+              -H "Cache-Control: public, max-age=31536000, immutable" \
+              --data-binary "@${file}" \
+              "https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/r2/buckets/${R2_BUCKET}/objects/${R2_KEY}")
+
+            if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "201" ]; then
+              echo "  ✓ ${R2_KEY}"
+            else
+              echo "  ✗ ${R2_KEY} (HTTP ${HTTP_CODE})"
+            fi
+          done
+
+          echo ""
+          echo "Upload complete."
+
+      - name: Dry-run summary
+        if: inputs.dry_run == 'true'
+        run: |
+          echo "=== DRY RUN — no files uploaded ==="
+          echo ""
+          echo "To upload, re-run this workflow with dry_run=false"

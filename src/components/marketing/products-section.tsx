@@ -5,6 +5,7 @@ import { assetUrl } from '@/features/content/assets'
 import { pick, products, productFilters, type Product } from '@/product/content'
 import { productPath } from '@/product/route-registry'
 import { Reveal } from './reveal'
+import { ResponsiveImage } from '@/components/ui/responsive-image'
 
 /** Single catalog card: real product photo with sku/price chips, then brand-book details. */
 function ProductCardInner({ product, priority = false }: { product: Product; priority?: boolean }) {
@@ -17,14 +18,14 @@ function ProductCardInner({ product, priority = false }: { product: Product; pri
     >
       <div className="marine-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">
       <div className="zoom-img relative aspect-[3/4] overflow-hidden border-b border-border-2 bg-bg-alt">
-        <img
+        <ResponsiveImage
           src={assetUrl(product.image)}
           alt={product.name}
           width={600}
           height={800}
-          loading={priority ? 'eager' : 'lazy'}
+          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
           fetchPriority={priority ? 'high' : 'auto'}
-          decoding={priority ? 'auto' : 'async'}
+          eager={priority}
           className="h-full w-full object-cover"
         />
         <div className="absolute left-3 top-3 flex items-center gap-2">
