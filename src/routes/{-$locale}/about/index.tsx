@@ -11,7 +11,8 @@ import { PageHero } from '@/components/marketing/section-head'
 import { JsonLd, aboutPageLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
 import { CtaBand } from '@/components/marketing/cta'
 import { SectionHead } from '@/components/marketing/section-head'
-import { SITE_NAME, BRAND_ASSETS_CDN, BRAND_BOILERPLATE, SITE_URL } from '@/config'
+import { SITE_NAME, BRAND_BOILERPLATE, SITE_URL } from '@/config'
+import { assetUrl, ASSET_KEYS } from '@/product/assets'
 
 export const Route = createFileRoute('/{-$locale}/about/')({
   loader: async () => ({ origin: await getOrigin() }),
@@ -64,7 +65,7 @@ function AboutPage() {
       <section className="mx-auto max-w-6xl px-5 py-14 md:px-7">
         <div className="grid gap-5 md:grid-cols-2">
           <img
-            src={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.jpg`}
+            src={assetUrl(ASSET_KEYS.factory.exterior)}
             alt={t('content.seo.aboutFactoryAlt')}
             width={1600}
             height={1000}
@@ -73,7 +74,7 @@ function AboutPage() {
             className="aspect-[16/10] w-full rounded-2xl border border-border-2 object-cover"
           />
           <img
-            src={`${BRAND_ASSETS_CDN}/site/videos/2026/oem-brand-launch.jpg`}
+            src={assetUrl(ASSET_KEYS.factory.formulationLab)}
             alt={t('content.seo.aboutOemAlt')}
             width={1600}
             height={1000}

@@ -12,7 +12,7 @@ import { HowItWorks } from '@/components/marketing/how-it-works'
 import { VideoShowcase } from '@/components/marketing/video-showcase'
 import { CtaBand } from '@/components/marketing/cta'
 import { JsonLd, siteBreadcrumbLd } from '@/features/seo/jsonld'
-import { BRAND_ASSETS_CDN } from '@/config'
+import { assetUrl, ASSET_KEYS } from '@/product/assets'
 
 export const Route = createFileRoute('/{-$locale}/how-it-works')({
   loader: async () => ({ origin: await getOrigin() }),
@@ -40,8 +40,7 @@ function WorksPage() {
     <MarketingShell>
       <PageHero kicker={c.kicker} title={c.title} sub={c.sub} />
       <VideoShowcase
-        video={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.mp4`}
-        poster={`${BRAND_ASSETS_CDN}/site/videos/2026/sup-manufacturing.jpg`}
+        poster={assetUrl(ASSET_KEYS.factory.exterior)}
         flip
         {...pick(videoShowcase, locale).process}
       />

@@ -1,4 +1,5 @@
 import { useTranslation } from '@/features/i18n/provider'
+import { assetUrl } from '@/features/content/assets'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
 import { pick, formulationCategories } from '@/product/content'
 import { SectionHead } from './section-head'
@@ -21,7 +22,7 @@ export function FormulationCategories() {
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src={item.image}
+                  src={assetUrl(item.image)}
                   alt={item.label}
                   width={800}
                   height={600}

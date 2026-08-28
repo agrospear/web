@@ -1,9 +1,13 @@
 /**
  * Uploads the Agrospear image tree to R2 under `images/agrochemical/`.
  *
- * Source:  <agrospear-repo>/public/images/agrospear/   (211 webp + 2 jpg + 1 ico)
- * Target:  R2 bucket, key prefix `images/agrochemical/` so the CDN URLs match the
- *          rewrite in src/features/content/assets.ts.
+ * Uploads agrochemical brand images to R2 under `images/agrochemical/`.
+ *
+ * Source:  approved image source directory (default: scripts/agrospear-images/)
+ *          The source is NOT committed to Git; run this from the environment
+ *          that holds the approved brand images.
+ * Target:  R2 bucket, key prefix `images/agrochemical/` so the CDN URLs match
+ *          the rewrite in src/features/content/assets.ts.
  *
  * Zero dependencies (SigV4 signing via node:crypto + fetch).
  *
@@ -23,7 +27,7 @@
  *   node scripts/upload-agrospear-images.mjs                              # S3 mode
  *   node scripts/upload-agrospear-images.mjs --http                       # HTTP API mode
  *   node scripts/upload-agrospear-images.mjs --dry-run                    # list without upload
- *   node scripts/upload-agrospear-images.mjs --src E:/github/agrospear/public/images/agrospear
+ *   node scripts/upload-agrospear-images.mjs --src /path/to/brand/images   # custom source dir
  */
 
 import { createHash, createHmac } from 'node:crypto'
@@ -48,7 +52,7 @@ const KEY_PREFIX = flagValue('prefix', 'images/agrochemical/')
 const CACHE_CONTROL = flagValue('cache', 'public, max-age=31536000, immutable')
 const CONCURRENCY = 8
 
-const BUCKET = process.env.R2_BUCKET ?? `${process.env.SITE_ID ?? 'agrospear'}-files-prod`
+const BUCKET = process.env.R2_BUCKET ?? 'agrospear-files-prod'
 const ACCOUNT_ID = process.env[HTTP_MODE ? 'CLOUDFLARE_ACCOUNT_ID' : 'R2_ACCOUNT_ID'] ?? ''
 const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN ?? ''
 const ACCESS_KEY = process.env.R2_ACCESS_KEY_ID ?? ''

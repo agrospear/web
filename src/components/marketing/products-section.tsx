@@ -1,6 +1,7 @@
 import React, { startTransition, useState, useMemo } from 'react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
+import { assetUrl } from '@/features/content/assets'
 import { pick, products, productFilters, type Product } from '@/product/content'
 import { productPath } from '@/product/route-registry'
 import { Reveal } from './reveal'
@@ -17,7 +18,7 @@ function ProductCardInner({ product, priority = false }: { product: Product; pri
       <div className="marine-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">
       <div className="zoom-img relative aspect-[3/4] overflow-hidden border-b border-border-2 bg-bg-alt">
         <img
-          src={product.image}
+          src={assetUrl(product.image)}
           alt={product.name}
           width={600}
           height={800}

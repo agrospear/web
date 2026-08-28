@@ -1,20 +1,20 @@
 /**
- * Delete legacy water-sports objects from R2.
+ * Delete legacy objects from R2 that no longer match the current site structure.
  *
- * Deliberately allow-listed: this script never deletes site/* or any other
- * prefix. Use --dry-run first, then --confirm for the irreversible operation.
+ * Deliberately allow-listed: this script only deletes the prefixes below.
+ * Use --dry-run first, then --confirm for the irreversible operation.
  * It uses Cloudflare's R2 HTTP API and does not read the local optimization
  * directory.
  *
  * Required: CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID
- * Optional: R2_BUCKET (defaults to agrospear-assets)
+ * Optional: R2_BUCKET (defaults to agrospear-files-prod)
  */
 
 const args = process.argv.slice(2)
 const dryRun = !args.includes('--confirm')
 const account = process.env.CLOUDFLARE_ACCOUNT_ID ?? ''
 const token = process.env.CLOUDFLARE_API_TOKEN ?? ''
-const bucket = process.env.R2_BUCKET ?? 'agrospear-assets'
+const bucket = process.env.R2_BUCKET ?? 'agrospear-files-prod'
 const prefixes = ['images/sups/', 'site/products/2026/all-around/']
 
 if (!account || !token) {

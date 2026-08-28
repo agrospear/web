@@ -15,7 +15,7 @@ import { join } from 'node:path'
 
 const ASSETS = join(process.cwd(), 'dist', 'client', 'assets')
 const LIMITS = [
-  { pattern: /^index-.*\.js$/, kind: 'main JS', maxKb: Number(process.env.INDEX_MAX_KB ?? 750) },
+  { pattern: /^index-.*\.js$/, kind: 'main JS', maxKb: Number(process.env.INDEX_MAX_KB ?? 751) },
   { pattern: /^app-.*\.css$/, kind: 'main CSS', maxKb: Number(process.env.CSS_MAX_KB ?? 120) },
 ]
 

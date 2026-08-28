@@ -65,11 +65,11 @@ tests:
     alt: Cámara de ensayo de estabilidad a baja temperatura para formulaciones agroquímicas líquidas
   - title: Verificación de pH y densidad
     description: El pH y la densidad se miden según métodos CIPAC para cada lote. Estos parámetros sirven como indicadores críticos de calidad y deben estar dentro del rango especificado para el tipo de formulación.
-    image: https://assets.agrospear.com/site/factory/agrospear-stock-boat-inventory.webp
+    image: https://assets.agrospear.com/images/agrochemical/factory/agrospear-factory-exterior.webp
     alt: Verificación de pH y densidad para control de calidad de formulación agroquímica
   - title: Dispersibilidad y suspensibilidad en agua
     description: Las formulaciones WDG y WP se ensayan para humectabilidad, dispersibilidad y suspensibilidad según métodos CIPAC/FAO. Estos parámetros determinan el rendimiento en campo y la uniformidad de pulverización, y deben cumplir la especificación antes de la liberación.
-    image: https://assets.agrospear.com/site/factory/agrospear-sup-manufacturing.webp
+    image: https://assets.agrospear.com/images/agrochemical/factory/agrospear-formulation-lab.webp
     alt: Ensayo de dispersibilidad y suspensibilidad en agua para formulaciones WDG y WP
   - title: Compatibilidad de envase e integridad del sellado
     description: Los tambores, botellas y contenedores llenos se ensayan para fugas, integridad del sellado y compatibilidad entre la formulación y el material de embalaje. Cada contenedor lleno supera una verificación obligatoria de fugas antes del envío.

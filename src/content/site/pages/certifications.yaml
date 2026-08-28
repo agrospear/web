@@ -65,11 +65,11 @@ tests:
     alt: Low-temperature stability test chamber for liquid agrochemical formulations
   - title: pH & Density Verification
     description: pH and density are measured per CIPAC methods for every batch. These parameters serve as critical quality indicators and must fall within the specified range for the formulation type.
-    image: https://assets.agrospear.com/site/factory/agrospear-stock-boat-inventory.webp
+    image: https://assets.agrospear.com/images/agrochemical/factory/agrospear-factory-exterior.webp
     alt: pH and density verification for agrochemical formulation quality control
   - title: Water Dispersibility & Suspensibility
     description: WDG and WP formulations are tested for wettability, dispersibility and suspensibility per CIPAC/FAO methods. These parameters determine field performance and spray uniformity, and must meet specification before release.
-    image: https://assets.agrospear.com/site/factory/agrospear-sup-manufacturing.webp
+    image: https://assets.agrospear.com/images/agrochemical/factory/agrospear-formulation-lab.webp
     alt: Water dispersibility and suspensibility testing for WDG and WP formulations
   - title: Container Compatibility & Seal Integrity
     description: Filled drums, bottles and containers are tested for leakage, seal integrity and compatibility between the formulation and the packaging material. Every filled container passes a mandatory leak check before shipping.

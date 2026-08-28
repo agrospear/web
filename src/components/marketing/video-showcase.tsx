@@ -20,7 +20,7 @@ export function VideoShowcase({
   flip = false,
   eagerPoster = false,
 }: {
-  video: string
+  video?: string
   poster: string
   badge: string
   title: string
@@ -35,7 +35,7 @@ export function VideoShowcase({
   return (
     <section className="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:px-10 md:py-24">
       <div className={`grid items-center gap-10 lg:grid-cols-2 ${flip ? 'lg:[&>*:first-child]:order-2' : ''}`}>
-        {playing ? (
+        {playing && video ? (
           <video
             controls
             autoPlay
@@ -49,9 +49,9 @@ export function VideoShowcase({
         ) : (
           <button
             type="button"
-            onClick={() => setPlaying(true)}
-            aria-label={t('common.playVideo', { title })}
-            className="group relative block aspect-video w-full overflow-hidden rounded-3xl border border-border-2 bg-bg-alt"
+            onClick={() => video && setPlaying(true)}
+            aria-label={video ? t('common.playVideo', { title }) : title}
+            className={`group relative block aspect-video w-full overflow-hidden rounded-3xl border border-border-2 bg-bg-alt ${video ? 'cursor-pointer' : 'cursor-default'}`}
           >
             <img
               src={poster}
@@ -63,11 +63,13 @@ export function VideoShowcase({
               decoding="async"
               className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
             />
-            <span className="absolute inset-0 grid place-items-center">
-              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/90 text-white shadow-[var(--shadow-lg)] transition-transform duration-300 group-hover:scale-110">
-                <Play fill="currentColor" size={26} aria-hidden="true" />
+            {video && (
+              <span className="absolute inset-0 grid place-items-center">
+                <span className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/90 text-white shadow-[var(--shadow-lg)] transition-transform duration-300 group-hover:scale-110">
+                  <Play fill="currentColor" size={26} aria-hidden="true" />
+                </span>
               </span>
-            </span>
+            )}
           </button>
         )}
         <div>

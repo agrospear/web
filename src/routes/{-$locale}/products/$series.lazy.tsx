@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { ArrowRight, CheckCircle2, Package } from 'lucide-react'
 import {  useTranslation  } from '@/features/i18n/provider'
 import { useLocalizePath } from '@/features/i18n/use-localize-path'
+import { assetUrl } from '@/features/content/assets'
 import { pick, products, productsPage } from '@/product/content'
 import { productPath } from '@/product/route-registry'
 import { seriesPages } from '@/product/series-pages'
@@ -155,7 +156,7 @@ function SeriesPage() {
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {items.map((p) => (
               <a key={p.slug} href={fl(productPath(p.slug))} className="marine-card group flex flex-col gap-4 p-5 transition-transform hover:-translate-y-0.5">
-                <img src={p.image} alt={p.name} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
+                <img src={assetUrl(p.image)} alt={p.name} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
                 <div>
                   <div className="flex items-center justify-between gap-2">
                     <h3 className="font-display text-[17px] font-bold leading-snug">{p.name}</h3>
