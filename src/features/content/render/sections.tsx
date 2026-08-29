@@ -106,7 +106,7 @@ function StatGrid({ items, heading }: { items: StatItem[]; heading?: Record<stri
       {heading && <SectionHead kicker={str(heading.tagline)} title={brandify(str(heading.title) || '')} sub={brandify(str(heading.subtitle) || str(heading.description) || '')} />}
       <dl className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
         {items.map((s) => (
-          <div key={String(s.label)} className="marine-card flex flex-col items-center px-4 py-6 text-center">
+          <div key={String(s.label)} className="agro-card flex flex-col items-center px-4 py-6 text-center">
             <dt className="font-display text-3xl font-extrabold tracking-tight text-primary md:text-4xl">{str(s.value)}</dt>
             <dd className="mt-2 text-[13px] font-semibold text-fg-2">{str(s.label)}</dd>
             {s.detail !== undefined && str(s.detail) !== '' && (
@@ -159,7 +159,7 @@ function FaqWidget({ c }: { c: Record<string, unknown> }) {
             .slice(0, 80)
           const isOpen = openFaqs.has(i)
           return (
-            <details key={String(f.q)} id={slug} className="marine-card group px-5 py-4" open={isOpen} onToggle={() => toggleFaq(i)}>
+            <details key={String(f.q)} id={slug} className="agro-card group px-5 py-4" open={isOpen} onToggle={() => toggleFaq(i)}>
               <summary aria-expanded={isOpen} className="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden">
                 <span>{brandify(str(f.q))}</span>
                 <span className="text-fg-3 transition-transform group-open:rotate-45">+</span>
@@ -331,7 +331,7 @@ function FeatureGrid({ c, grid: gridProp = 'sm:grid-cols-2 lg:grid-cols-3' }: { 
           const image = assetUrl(str(it.image))
           const icon = str(it.icon)
           const card = (
-            <div className="marine-card flex h-full flex-col p-6">
+            <div className="agro-card flex h-full flex-col p-6">
               {image && (
                 <img src={image} alt={str(it.alt) || str(it.title)} width={800} height={600} loading="lazy" decoding="async" className="mb-4 aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
               )}
@@ -393,7 +393,7 @@ function StepsWidget({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || str(c.description) || '')} />
       <ol className="mx-auto mt-10 max-w-3xl space-y-6">
         {steps.map((s, i) => (
-          <li key={String(s.stage || s.title)} className="marine-card flex gap-4 px-5 py-5">
+          <li key={String(s.stage || s.title)} className="agro-card flex gap-4 px-5 py-5">
             <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary/12 font-display text-[15px] font-extrabold text-primary">
               {str(s.step) || str(s.num) || str(s.stage) || String(i + 1)}
             </span>
@@ -419,7 +419,7 @@ function ProductionFlow({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mx-auto mt-10 max-w-4xl space-y-5">
         {stages.map((s) => (
-          <div key={String(s.stage)} className="marine-card p-6">
+          <div key={String(s.stage)} className="agro-card p-6">
             <div className="flex items-center gap-3">
               <span className="font-display text-2xl font-extrabold text-primary/40">{str(s.stage)}</span>
               <h3 className="font-display text-[17px] font-bold">{brandify(str(s.title))}</h3>
@@ -476,7 +476,7 @@ function QcFlowWidget({ c }: { c: Record<string, unknown> }) {
           const href = str(s.link)
           const external = href.startsWith('http')
           return (
-            <div key={String(s.stage)} className="marine-card overflow-hidden p-0">
+            <div key={String(s.stage)} className="agro-card overflow-hidden p-0">
               <div className="grid md:grid-cols-[260px_1fr]">
                 {image && (
                   <img
@@ -551,7 +551,7 @@ function OemCases({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 md:grid-cols-3">
         {cases.map((cs) => (
-          <div key={String(cs.challenge)} className="marine-card flex flex-col p-6">
+          <div key={String(cs.challenge)} className="agro-card flex flex-col p-6">
             <dl className="flex-1 space-y-4 text-[13px] leading-relaxed">
               <div>
                 <dt className="font-bold uppercase tracking-wide text-primary">{t('content.challenge')}</dt>
@@ -682,7 +682,7 @@ function IntelligenceCards({ c }: { c: Record<string, unknown> }) {
       {title && <SectionHead kicker={str(c.tagline)} title={brandify(title)} sub={brandify(str(c.subtitle) || '')} />}
       <div className={`grid gap-5 md:grid-cols-3 ${title ? 'mt-10' : ''}`}>
         {cards.map((card) => (
-          <div key={String(card.title)} className="marine-card flex flex-col p-6">
+          <div key={String(card.title)} className="agro-card flex flex-col p-6">
             <span className={`mb-3 inline-flex h-11 w-11 items-center justify-center rounded-2xl font-display text-lg font-extrabold ${ICON_HUE[str(card.icon_bg)] ?? 'bg-soft text-primary'}`}>
               {str(card.icon) || '✦'}
             </span>
@@ -725,7 +725,7 @@ function TestimonialsWidget({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 md:grid-cols-3">
         {items.map((t) => (
-          <figure key={String(t.quote || t.author)} className="marine-card flex flex-col p-6">
+          <figure key={String(t.quote || t.author)} className="agro-card flex flex-col p-6">
             <blockquote className="flex-1 text-[14px] leading-relaxed text-fg-2">
               “{brandify(str(t.quote) || str(t.body) || str(t.text) || '')}”
             </blockquote>
@@ -750,7 +750,7 @@ function BlogLatest({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackLatestNews'))} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {posts.map((p) => (
-          <a key={p.slug} href={localize(`/news/${p.slug}`, locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
+          <a key={p.slug} href={localize(`/news/${p.slug}`, locale)} className="agro-card group flex h-full flex-col overflow-hidden p-0">
             {p.image && (
               <img src={p.image} alt={p.title} width={1600} height={900} loading="lazy" decoding="async" className="aspect-[16/9] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
             )}
@@ -778,7 +778,7 @@ function FeaturedProducts({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || t('content.fallbackFeaturedProducts'))} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((p) => (
-          <a key={p.slug} href={localize(productPath(p.slug), locale)} className="marine-card group flex h-full flex-col overflow-hidden p-0">
+          <a key={p.slug} href={localize(productPath(p.slug), locale)} className="agro-card group flex h-full flex-col overflow-hidden p-0">
             {p.image && (
               <img src={p.image} alt={p.title} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full border-b border-border-2 object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
             )}
@@ -803,7 +803,7 @@ function TopicList({ c }: { c: Record<string, unknown> }) {
       {str(c.badge) && <SectionHead kicker={str(c.badge)} title={brandify(str(heading) || '')} sub={brandify(str(c.description) || '')} />}
       <div className="mt-10 grid gap-4 md:grid-cols-2">
         {topics.map((t) => (
-          <a key={t.slug} href={localize(`/research/${t.slug}`, locale)} className="marine-card flex items-center justify-between gap-3 px-5 py-4">
+          <a key={t.slug} href={localize(`/research/${t.slug}`, locale)} className="agro-card flex items-center justify-between gap-3 px-5 py-4">
             <div>
               <h3 className="font-display text-[15px] font-bold">{t.slug.replace(/-/g, ' ')}</h3>
               <p className="mt-1 text-[12px] font-semibold text-fg-3">{t.category} · {t.readTime}</p>
@@ -823,7 +823,7 @@ function CaseList() {
     <Container>
       <div className="mt-4 grid gap-5 md:grid-cols-2">
         {cases.map((c) => (
-          <a key={c.slug} href={localize(`/evidence/case-studies/${c.slug}`, locale)} className="marine-card group flex h-full flex-col p-6">
+          <a key={c.slug} href={localize(`/evidence/case-studies/${c.slug}`, locale)} className="agro-card group flex h-full flex-col p-6">
             <span className="pill self-start border-primary/25! bg-soft! text-primary!">{c.category}</span>
             <h3 className="mt-3 font-display text-[17px] font-bold">{c.title}</h3>
             {c.summary && <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{c.summary}</p>}
@@ -847,7 +847,7 @@ function CaseCardsWidget({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {items.map((it) => (
-          <div key={String(it.title)} className="marine-card flex h-full flex-col p-6">
+          <div key={String(it.title)} className="agro-card flex h-full flex-col p-6">
             {str(it.image) && <img src={assetUrl(str(it.image))} alt={str(it.alt) || str(it.title)} width={1600} height={900} loading="lazy" decoding="async" className="mb-4 aspect-[16/9] w-full rounded-xl border border-border-2 object-cover" />}
             <div className="flex flex-wrap items-center gap-2 text-[11.5px] font-bold uppercase tracking-wider text-fg-3">
               {str(it.industry) && <span className="pill border-primary/25! bg-soft! text-primary!">{str(it.industry)}</span>}
@@ -899,7 +899,7 @@ function EquipmentCategories({ c }: { c: Record<string, unknown> }) {
               <h3 className="font-display text-lg font-extrabold">{brandify(str(cat.title) || '')}</h3>
               <div className="mt-4 space-y-4">
                 {items.map((it) => (
-                  <div key={String(it.name)} className="marine-card p-5">
+                  <div key={String(it.name)} className="agro-card p-5">
                     <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                       <h4 className="font-display text-[15px] font-bold">{brandify(str(it.name) || '')}</h4>
                       {str(it.spec) && <span className="text-[12px] font-semibold uppercase tracking-wide text-primary">{brandify(str(it.spec))}</span>}
@@ -923,7 +923,7 @@ function CategoryBlurbs({ c }: { c: Record<string, unknown> }) {
     <Container>
       <div className="grid gap-5 md:grid-cols-3">
         {items.map((it) => (
-          <div key={String(it.title)} className="marine-card p-6">
+          <div key={String(it.title)} className="agro-card p-6">
             <h3 className="font-display text-[17px] font-bold capitalize">{brandify(str(it.title) || '')}</h3>
             <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(it.description) || '')}</p>
           </div>
@@ -1020,7 +1020,7 @@ function ReworkDecisionWidget({ c }: { c: Record<string, unknown> }) {
                   <ChevronDown size={16} className="text-fg-3" />
                 </div>
               )}
-              <div className="marine-card overflow-hidden p-0">
+              <div className="agro-card overflow-hidden p-0">
                 <button
                   type="button"
                   onClick={() => setOpen(expanded ? -1 : i)}
@@ -1077,7 +1077,7 @@ function AcademyCategories({ c }: { c: Record<string, unknown> }) {
         {cats.map((cat) => {
           const guides = arr(cat.guides) as Record<string, unknown>[]
           return (
-            <div key={String(cat.level)} className="marine-card flex h-full flex-col p-6">
+            <div key={String(cat.level)} className="agro-card flex h-full flex-col p-6">
               <div className="flex items-center gap-3">
                 <span className={`inline-flex h-9 w-9 items-center justify-center rounded-lg bg-soft font-display text-sm font-extrabold text-primary`}>
                   {String(str(cat.level).charAt(0)) || '?'}
@@ -1135,7 +1135,7 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
                 {guides.map((g) => {
                   const href = remapHref(str(g.href))
                   const card = (
-                    <div className="marine-card flex h-full flex-col p-5">
+                    <div className="agro-card flex h-full flex-col p-5">
                       <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
                       {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
                       <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
@@ -1144,7 +1144,7 @@ function AcademyKnowledge({ c }: { c: Record<string, unknown> }) {
                     </div>
                   )
                   return href ? (
-                    <a key={String(g.title)} href={localize(href, locale)} className="marine-card group flex h-full flex-col p-5">
+                    <a key={String(g.title)} href={localize(href, locale)} className="agro-card group flex h-full flex-col p-5">
                       <h4 className="font-display text-[14px] font-bold">{brandify(str(g.title))}</h4>
                       {str(g.desc) && <p className="mt-2 flex-1 text-[12.5px] leading-relaxed text-fg-3">{brandify(str(g.desc))}</p>}
                       <span className="mt-3 inline-flex items-center gap-1 text-[12.5px] font-bold text-primary">
@@ -1328,7 +1328,7 @@ function BuyerGuidesWidget({ c }: { c: Record<string, unknown> }) {
             <a
               key={href}
               href={fl(href)}
-              className="marine-card group flex h-full flex-col justify-between gap-6 p-6"
+              className="agro-card group flex h-full flex-col justify-between gap-6 p-6"
             >
               <div>
                 <h3 className="font-display text-[17px] font-bold leading-snug">{str(o.title)}</h3>
@@ -1365,7 +1365,7 @@ function FactsWidget({ c }: { c: Record<string, unknown> }) {
       {(str(c.tagline) || str(c.title)) && <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />}
       <dl className="mx-auto mt-8 grid max-w-3xl gap-3 sm:grid-cols-3">
         {entries.map(([k, v]) => (
-          <div key={k} className="marine-card p-4">
+          <div key={k} className="agro-card p-4">
             <dt className="text-[11px] font-bold uppercase tracking-[0.14em] text-fg-3">{FACTS_LABELS[k][locale] ?? FACTS_LABELS[k].en}</dt>
             <dd className="mt-1 text-[13.5px] font-semibold leading-snug text-foreground">{brandify(str(v))}</dd>
           </div>
@@ -1385,7 +1385,7 @@ function CapabilityGroups({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 md:grid-cols-2">
         {groups.map((g) => (
-          <div key={String(g.title)} className="marine-card p-6">
+          <div key={String(g.title)} className="agro-card p-6">
             <h3 className="font-display text-[16px] font-bold">{brandify(str(g.title) || '')}</h3>
             <ul className="mt-3 space-y-2.5">
               {(arr(g.items) as unknown[]).map((it) => (
@@ -1414,7 +1414,7 @@ function ServicesWidget({ c }: { c: Record<string, unknown> }) {
       <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((s) => (
-          <div key={String(s.title)} className="marine-card flex flex-col p-6">
+          <div key={String(s.title)} className="agro-card flex flex-col p-6">
             <h3 className="font-display text-[16px] font-bold">{brandify(str(s.title) || '')}</h3>
             <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{brandify(str(s.desc) || str(s.description) || '')}</p>
           </div>
@@ -1714,7 +1714,7 @@ function StatsBand() {
       </div>
       <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4">
         {stats.map((s) => (
-          <div key={s.label} className="marine-card flex flex-col items-center px-4 py-6 text-center">
+          <div key={s.label} className="agro-card flex flex-col items-center px-4 py-6 text-center">
             <span className="font-display text-3xl font-extrabold tracking-tight text-primary md:text-4xl">{brandify(s.value)}</span>
             <span className="mt-2 text-[13px] font-semibold text-fg-2">{s.label}</span>
           </div>

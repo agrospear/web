@@ -64,7 +64,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         <SectionHead kicker={t('agro.projects.snapshot.kicker')} title={t('agro.projects.snapshot.title')} />
         <dl className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {snapshot.map((s) => (
-            <div key={s.label} className="marine-card p-5">
+            <div key={s.label} className="agro-card p-5">
               <dt className="flex items-center gap-2 text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
                 <s.icon size={14} className="text-primary" /> {s.label}
               </dt>
@@ -94,19 +94,19 @@ export function ProjectPage({ page }: { page: ProjectData }) {
       <section className="border-y border-border bg-bg-alt">
         <div className="mx-auto max-w-6xl px-5 py-14 md:px-7">
           <dl className="grid gap-5 md:grid-cols-3">
-            <div className="marine-card p-6">
+            <div className="agro-card p-6">
               <dt className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
                 <Building2 size={15} className="text-primary" /> {t('agro.projects.industry')}
               </dt>
               <dd className="mt-2 text-[15px] font-semibold">{page.industry}</dd>
             </div>
-            <div className="marine-card p-6">
+            <div className="agro-card p-6">
               <dt className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
                 <ClipboardList size={15} className="text-primary" /> {t('agro.projects.requirement')}
               </dt>
               <dd className="mt-2 text-[15px] font-semibold">{page.requirement}</dd>
             </div>
-            <div className="marine-card p-6">
+            <div className="agro-card p-6">
               <dt className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">
                 <Package size={15} className="text-primary" /> {t('agro.projects.product')}
               </dt>
@@ -121,11 +121,11 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
           <SectionHead kicker={t('agro.projects.storyKicker')} title={t('agro.projects.storyTitle')} />
           <div className="mt-10 grid gap-5 md:grid-cols-2">
-            <div className="marine-card p-6">
+            <div className="agro-card p-6">
               <p className="text-[13px] font-bold uppercase tracking-[0.1em] text-sun">{t('agro.projects.challenge')}</p>
               <p className="mt-2.5 text-[14.5px] leading-relaxed text-fg-2">{page.challenge}</p>
             </div>
-            <div className="marine-card p-6">
+            <div className="agro-card p-6">
               <p className="flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-[0.1em] text-primary">
                 <CheckCircle2 size={15} /> {t('agro.projects.solution')}
               </p>
@@ -148,7 +148,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
         <SectionHead kicker={t('agro.projects.controlsKicker')} title={t('agro.projects.controlsTitle')} />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
-          <div className="marine-card p-7">
+          <div className="agro-card p-7">
             <p className="flex items-center gap-2 text-[13px] font-bold uppercase tracking-[0.1em] text-primary">
               <ShieldCheck size={16} /> {t('agro.projects.qualityLineTitle')}
             </p>
@@ -167,7 +167,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
             <p className="mt-4 text-[14.5px] font-bold">{t('agro.projects.evidenceLabel')}</p>
             <p className="mt-1.5 text-[14px] leading-relaxed text-fg-2">{t('agro.projects.evidence')}</p>
           </div>
-          <div className="marine-card p-7">
+          <div className="agro-card p-7">
             <p className="flex items-center gap-2 text-[13px] font-bold uppercase tracking-[0.1em] text-aqua">
               <Truck size={16} /> {t('agro.projects.deliveryLineTitle')}
             </p>
@@ -189,7 +189,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-fg-2">{t('agro.projects.customNote')}</p>
         <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {page.customizations.map((item) => (
-            <li key={item} className="marine-card flex items-start gap-2.5 p-4 text-[14px] font-medium leading-snug">
+            <li key={item} className="agro-card flex items-start gap-2.5 p-4 text-[14px] font-medium leading-snug">
               <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-primary" /> {item}
             </li>
           ))}
@@ -201,7 +201,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
         <SectionHead kicker={t('agro.projects.processKicker')} title={t('agro.projects.processTitle')} />
         <ol className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {page.process.map((step, i) => (
-            <li key={step.title} className="marine-card p-5">
+            <li key={step.title} className="agro-card p-5">
               <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-primary to-aqua font-display text-[13px] font-extrabold text-white">
                 {i + 1}
               </span>
@@ -255,7 +255,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
           <SectionHead kicker={t('agro.projects.takeawaysKicker')} title={t('agro.projects.takeawaysTitle')} />
           <ul className="mt-10 grid gap-4 sm:grid-cols-2">
             {page.takeaways.map((item) => (
-              <li key={item} className="marine-card flex items-start gap-3 p-5">
+              <li key={item} className="agro-card flex items-start gap-3 p-5">
                 <TrendingUp size={18} className="mt-0.5 shrink-0 text-primary" />
                 <p className="text-[14px] font-medium leading-relaxed">{item}</p>
               </li>
@@ -284,7 +284,7 @@ export function ProjectPage({ page }: { page: ProjectData }) {
                 <a
                   key={p.slug}
                   href={fl(`/projects/${p.slug}`)}
-                  className="marine-card group flex w-full flex-col justify-between gap-4 p-5 sm:w-[46%] lg:w-[31%]"
+                  className="agro-card group flex w-full flex-col justify-between gap-4 p-5 sm:w-[46%] lg:w-[31%]"
                 >
                   <div>
                     <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-primary">{p.industry}</p>

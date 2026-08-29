@@ -18,7 +18,7 @@ export function MarketsSection() {
             <Reveal key={card.region} delay={i * 70}>
               <a
                 href={fl(card.href)}
-                className="group marine-card flex h-full flex-col p-7"
+                className="group agro-card flex h-full flex-col p-7"
               >
                 <h3 className="font-display text-[17px] font-bold text-primary">{card.region}</h3>
                 <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{card.body}</p>

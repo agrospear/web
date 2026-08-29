@@ -18,7 +18,7 @@ export function ManufacturingFlow() {
             <Reveal key={step.step} delay={i * 60}>
               <a
                 href={fl(step.href)}
-                className="group marine-card flex h-full flex-col p-6"
+                className="group agro-card flex h-full flex-col p-6"
               >
                 <span className="font-display text-[28px] font-extrabold text-primary/30">{step.step}</span>
                 <h3 className="mt-2 font-display text-[16px] font-bold text-primary">{step.title}</h3>

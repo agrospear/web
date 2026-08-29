@@ -88,7 +88,7 @@ function ProjectsIndex() {
             <a
               key={p.slug}
               href={fl(`/projects/${p.slug}`)}
-              className="marine-card group flex flex-col justify-between gap-5 p-6 transition-transform hover:-translate-y-0.5 md:p-7"
+              className="agro-card group flex flex-col justify-between gap-5 p-6 transition-transform hover:-translate-y-0.5 md:p-7"
             >
               <div>
                 <p className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-primary">

@@ -26,7 +26,7 @@ export function StudioSection() {
             return (
               <div
                 key={step.title}
-                className="marine-card flex w-[280px] shrink-0 snap-start flex-col p-7 md:w-[300px]"
+                className="agro-card flex w-[280px] shrink-0 snap-start flex-col p-7 md:w-[300px]"
               >
                 <div className="flex items-center justify-between">
                   <span className="icon-tile bg-aqua/10!">

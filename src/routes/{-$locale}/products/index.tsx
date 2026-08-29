@@ -93,7 +93,7 @@ function ProductsPage() {
           <p className="mx-auto mt-3 max-w-xl text-center text-[14.5px] leading-relaxed text-fg-2">{c.customBody}</p>
           <ul className="mx-auto mt-8 grid max-w-3xl gap-3 sm:grid-cols-2">
             {c.customPoints.map((p) => (
-              <li key={p} className="marine-card flex items-center gap-3 px-5 py-3.5">
+              <li key={p} className="agro-card flex items-center gap-3 px-5 py-3.5">
                 <Check size={16} className="shrink-0 text-primary" />
                 <span className="text-[14px] font-medium">{p}</span>
               </li>

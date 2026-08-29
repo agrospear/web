@@ -19,7 +19,7 @@ export function PlantCapability() {
           const Icon = ICONS[i % ICONS.length]
           return (
             <Reveal key={item.name} delay={i * 70}>
-              <div className="marine-card h-full p-7">
+              <div className="agro-card h-full p-7">
                 <span className="icon-tile bg-aqua/10! text-primary!">
                   <Icon size={20} />
                 </span>

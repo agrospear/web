@@ -91,7 +91,7 @@ function AboutPage() {
           <SectionHead kicker={t('content.kickers.manufacturing')} title={t('content.seo.aboutManufacturing')} />
           <div className="mt-8 grid gap-5 md:grid-cols-3">
             {c.strength.map((s) => (
-              <div key={s.title} className="marine-card p-7">
+              <div key={s.title} className="agro-card p-7">
                 <h3 className="font-display text-[17px] font-bold">{s.title}</h3>
                 <p className="mt-2 text-[13.5px] leading-relaxed text-fg-2">{s.body}</p>
               </div>
@@ -116,7 +116,7 @@ function AboutPage() {
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
         <div className="grid gap-5 md:grid-cols-3">
           {c.values.map((v) => (
-            <div key={v.title} className="marine-card p-7">
+            <div key={v.title} className="agro-card p-7">
               <span className="icon-tile">
                 <BadgeCheck size={20} />
               </span>

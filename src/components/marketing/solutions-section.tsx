@@ -20,7 +20,7 @@ export function SolutionsSection({ heading }: { heading?: React.ReactNode }) {
           const Icon = ICONS[i % ICONS.length]
           return (
             <Reveal key={p.title} delay={i * 90}>
-              <div className="marine-card flex h-full flex-col p-7">
+              <div className="agro-card flex h-full flex-col p-7">
                 <span className="icon-tile bg-aqua/10!">
                   <Icon size={20} />
                 </span>

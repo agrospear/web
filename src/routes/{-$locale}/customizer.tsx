@@ -54,7 +54,7 @@ function CustomizerPage() {
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
         <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
           {/* preview stage */}
-          <div className="marine-card flex flex-col p-6 md:p-8">
+          <div className="agro-card flex flex-col p-6 md:p-8">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <span className="text-xs font-bold uppercase tracking-[0.12em] text-fg-3">{c.mockupLabel}</span>
               <span className="pill bg-aqua/10! border-aqua/30! text-aqua!">{c.mockupBrand}</span>
@@ -94,7 +94,7 @@ function CustomizerPage() {
             {c.steps.map((step, i) => {
               const Icon = STEP_ICONS[i % STEP_ICONS.length]
               return (
-                <div key={step.title} className="marine-card flex items-start gap-4 p-5">
+                <div key={step.title} className="agro-card flex items-start gap-4 p-5">
                   <span className="icon-tile bg-aqua/10!">
                     <Icon size={19} />
                   </span>

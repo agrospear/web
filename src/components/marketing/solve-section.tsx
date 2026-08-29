@@ -21,7 +21,7 @@ export function SolveSection() {
           const Icon = ICONS[i % ICONS.length]
           return (
             <Reveal key={item.title} delay={i * 80}>
-              <div className="marine-card flex h-full flex-col p-7">
+              <div className="agro-card flex h-full flex-col p-7">
                 <div className="flex items-start gap-4">
                   <span className="icon-tile shrink-0 bg-aqua/10! text-primary!">
                     <Icon size={20} />

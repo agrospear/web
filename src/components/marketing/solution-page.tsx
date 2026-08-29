@@ -52,7 +52,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
 
       {/* scenario */}
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-7 md:py-20">
-        <div className="marine-card mx-auto max-w-3xl px-6 py-7 md:px-8">
+        <div className="agro-card mx-auto max-w-3xl px-6 py-7 md:px-8">
           <div className="flex items-start gap-4">
             <span className="icon-tile shrink-0">
               <Target size={20} />
@@ -72,7 +72,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
           <SectionHead kicker={t('agro.solutions.pairsKicker')} title={t('agro.solutions.pairsTitle')} />
           <div className="mt-12 grid gap-5 md:grid-cols-2">
             {page.pairs.map((pair) => (
-              <div key={pair.problem} className="marine-card flex flex-col gap-3.5 p-6">
+              <div key={pair.problem} className="agro-card flex flex-col gap-3.5 p-6">
                 <p className="flex items-start gap-2.5 text-[13.5px] font-semibold text-fg-2">
                   <AlertCircle size={17} className="mt-0.5 shrink-0 text-sun" />
                   {pair.problem}
@@ -92,7 +92,7 @@ export function SolutionPage({ page }: { page: SolutionPageData }) {
         <SectionHead kicker={t('agro.solutions.stepsKicker')} title={t('agro.solutions.stepsTitle')} />
         <ol className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {page.steps.map((step, i) => (
-            <li key={step.title} className="marine-card p-5">
+            <li key={step.title} className="agro-card p-5">
               <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-primary to-aqua font-display text-[13px] font-extrabold text-white">
                 {i + 1}
               </span>

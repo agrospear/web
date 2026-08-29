@@ -16,7 +16,7 @@ export function GallerySection({ heading }: { heading?: React.ReactNode }) {
       <div className="mt-12 grid gap-6 md:grid-cols-3">
         {c.projects.map((p, i) => (
           <Reveal key={p.title} delay={i * 90}>
-            <div className="marine-card flex h-full flex-col overflow-hidden p-0">
+            <div className="agro-card flex h-full flex-col overflow-hidden p-0">
               <div className="zoom-img relative aspect-[4/3] overflow-hidden border-b border-border-2 bg-bg-alt">
                 <ResponsiveImage src={assetUrl(p.image)} alt={p.title} width={800} height={600} sizes="(max-width: 768px) 100vw, 33vw" className="h-full w-full object-cover" />
               </div>

@@ -509,7 +509,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
             <JsonLd data={productLd(origin, product, locale, t)} />
 
             <div className="mt-6 grid gap-3 sm:grid-cols-3">
-              <div className="marine-card p-4">
+              <div className="agro-card p-4">
                 <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
                   {t('content.product.minimumOrderShort')}
                 </p>
@@ -517,7 +517,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   {t('content.product.moqShort', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard, customMould: MOQ_SHORT.customMould })}
                 </p>
               </div>
-              <div className="marine-card p-4">
+              <div className="agro-card p-4">
                 <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
                   {t('content.product.timeline')}
                 </p>
@@ -525,7 +525,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                   {t('content.product.timelineShort', { sampleTime: FACTS.sampleTime, leadTime: FACTS.leadTime })}
                 </p>
               </div>
-              <div className="marine-card p-4">
+              <div className="agro-card p-4">
                 <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">
                   {t('content.product.qualityControl')}
                 </p>
@@ -613,11 +613,11 @@ export function ProductView({ product, related, origin, locale }: { product: Con
               {t('content.product.applicationCrops')}
             </h2>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
-              <div className="marine-card p-5">
+              <div className="agro-card p-5">
                 <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">Target Crops</p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">{product.applications.crops}</p>
               </div>
-              <div className="marine-card p-5">
+              <div className="agro-card p-5">
                 <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">Application Uses</p>
                 <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">{product.applications.uses}</p>
               </div>
@@ -631,15 +631,15 @@ export function ProductView({ product, related, origin, locale }: { product: Con
             {t('content.product.manufacturingCapability')}
           </h2>
           <div className="mt-4 grid gap-3 sm:grid-cols-3">
-            <div className="marine-card p-5">
+            <div className="agro-card p-5">
               <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">Production Lines</p>
               <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">6 lines — SC, EC, WP, WDG, SL, ME, CS, FS</p>
             </div>
-            <div className="marine-card p-5">
+            <div className="agro-card p-5">
               <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">Annual Capacity</p>
               <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">50,000+ t</p>
             </div>
-            <div className="marine-card p-5">
+            <div className="agro-card p-5">
               <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">QC Gates</p>
               <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">7-stage quality gates, 100% batch analysis</p>
             </div>
@@ -705,7 +705,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
           </p>
           <div className="mt-6 grid gap-3 sm:grid-cols-2">
             {customizationOptions(locale).map((o) => (
-              <div key={o.title} className="marine-card p-5">
+              <div key={o.title} className="agro-card p-5">
                 <p className="text-[14px] font-bold">{o.title}</p>
                 <p className="mt-1.5 text-[12.5px] leading-snug text-fg-2">{o.body}</p>
               </div>
@@ -723,7 +723,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
           </p>
           <div className="mt-6 grid gap-3 sm:grid-cols-2">
             {oemApplications(locale).map((a) => (
-              <div key={a.title} className="marine-card p-5">
+              <div key={a.title} className="agro-card p-5">
                 <p className="text-[14px] font-bold">{a.title}</p>
                 <p className="mt-1.5 text-[12.5px] leading-snug text-fg-2">{a.body}</p>
               </div>
@@ -741,7 +741,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
                 <a
                   key={r.slug}
                   href={fl(productPath(r.slug, r.category))}
-                  className="marine-card group flex flex-col overflow-hidden p-0"
+                  className="agro-card group flex flex-col overflow-hidden p-0"
                 >
                   {r.image && (
                     <img src={r.image} alt={r.title} width={800} height={600} loading="lazy" decoding="async" className="aspect-[4/3] w-full object-cover" />
@@ -764,7 +764,7 @@ export function ProductView({ product, related, origin, locale }: { product: Con
               {productFaqs(product, locale).map((f) => {
                 const anchor = faqSlug(f.q)
                 return (
-                  <FaqDetails key={f.q} q={f.q} a={f.a} anchor={anchor} className="marine-card group px-5 py-4 scroll-mt-24" summaryClassName="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden" />
+                  <FaqDetails key={f.q} q={f.q} a={f.a} anchor={anchor} className="agro-card group px-5 py-4 scroll-mt-24" summaryClassName="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden" />
                 )
               })}
             </div>
@@ -778,19 +778,19 @@ export function ProductView({ product, related, origin, locale }: { product: Con
             {t('content.product.produceUnderBrand')}
           </h2>
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
-            <a href={fl('/solutions/agrochemical-oem')} className="marine-card p-5">
+            <a href={fl('/solutions/agrochemical-oem')} className="agro-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.oemOdmTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.oemOdmDesc')}
               </p>
             </a>
-            <a href={fl('/solutions/custom-formulation')} className="marine-card p-5">
+            <a href={fl('/solutions/custom-formulation')} className="agro-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.agroDevTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.agroDevDesc')}
               </p>
             </a>
-            <a href={fl('/solutions/private-label-pesticides')} className="marine-card p-5">
+            <a href={fl('/solutions/private-label-pesticides')} className="agro-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.privateLabelTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.privateLabelDesc')}
@@ -904,7 +904,7 @@ function PostView({ post, relatedPosts, origin, path, locale }: { post: ContentP
                 <a
                   key={r.slug}
                   href={`${locale !== 'en' ? `/${locale}` : ''}/news/${r.slug}`}
-                  className="marine-card p-5"
+                  className="agro-card p-5"
                 >
                   <p className="text-[12px] font-semibold uppercase tracking-wide text-fg-3">{r.date}</p>
                   <p className="mt-1 text-[15px] font-bold leading-snug">{r.title}</p>
@@ -1006,7 +1006,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
               {guide.faqs.map((f) => {
                 const anchor = faqSlug(f.q)
                 return (
-                  <FaqDetails key={f.q} q={f.q} a={brandify(f.a)} anchor={anchor} className="marine-card group px-5 py-4 scroll-mt-24" summaryClassName="flex cursor-pointer list-none items-center justify-between gap-4 text-[14.5px] font-semibold marker:hidden" />
+                  <FaqDetails key={f.q} q={f.q} a={brandify(f.a)} anchor={anchor} className="agro-card group px-5 py-4 scroll-mt-24" summaryClassName="flex cursor-pointer list-none items-center justify-between gap-4 text-[14.5px] font-semibold marker:hidden" />
                 )
               })}
             </div>
@@ -1022,7 +1022,7 @@ function GuideView({ slug, origin, path, locale }: { slug: string; origin: strin
                 <a
                   key={r.href}
                   href={fl(r.href)}
-                  className="marine-card flex items-center justify-between gap-3 p-5"
+                  className="agro-card flex items-center justify-between gap-3 p-5"
                 >
                   <span className="text-[14px] font-semibold leading-snug">{brandify(r.label)}</span>
                   <ArrowRight size={15} className="shrink-0 text-primary" />
@@ -1090,7 +1090,7 @@ function FaqView({ faqs, origin, path, locale }: { faqs: { q: string; a: string 
           {faqs.map((f, i) => {
             const anchor = faqSlug(f.q)
             return (
-              <FaqDetails key={f.q} q={f.q} a={f.a} anchor={anchor} className="marine-card group px-5 py-4 scroll-mt-24" defaultOpen={i === 0} summaryClassName="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden" />
+              <FaqDetails key={f.q} q={f.q} a={f.a} anchor={anchor} className="agro-card group px-5 py-4 scroll-mt-24" defaultOpen={i === 0} summaryClassName="flex cursor-pointer list-none items-center justify-between gap-4 text-[15px] font-semibold marker:hidden" />
             )
           })}
         </div>

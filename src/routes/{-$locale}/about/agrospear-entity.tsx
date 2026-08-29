@@ -78,7 +78,7 @@ function EntityPage() {
           <h2 className="font-display text-xl font-bold">{c.factsTitle}</h2>
           <dl className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {ENTITY_FACTS[locale].map((f) => (
-              <div key={f.label} className="marine-card p-5">
+              <div key={f.label} className="agro-card p-5">
                 <dt className="text-[12px] font-bold uppercase tracking-[0.12em] text-fg-3">{f.label}</dt>
                 <dd className="mt-1.5 text-[14.5px] font-semibold">{f.value}</dd>
               </div>
@@ -101,7 +101,7 @@ function EntityPage() {
               <a
                 key={slug}
                 href={fl(solutionPath(slug))}
-                className="marine-card group p-5 transition-transform hover:-translate-y-0.5"
+                className="agro-card group p-5 transition-transform hover:-translate-y-0.5"
               >
                 <h3 className="font-display text-[15.5px] font-bold leading-snug group-hover:text-primary">
                   {getSolutionPage(locale, slug)?.h1 ?? en.h1}

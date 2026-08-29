@@ -16,7 +16,7 @@ function ProductCardInner({ product, priority = false }: { product: Product; pri
       href={fl(productPath(product.slug))}
       className="group block h-full text-current"
     >
-      <div className="marine-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">
+      <div className="agro-card flex h-full flex-col overflow-hidden p-0 transition-transform duration-300 group-hover:-translate-y-1">
       <div className="zoom-img relative aspect-[3/4] overflow-hidden border-b border-border-2 bg-bg-alt">
         <ResponsiveImage
           src={assetUrl(product.image)}

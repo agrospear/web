@@ -30,7 +30,7 @@ export function ProjectsShowcase() {
             <Reveal key={p.slug} delay={i * 80}>
               <a
                 href={fl(`/projects/${p.slug}`)}
-                className="marine-card group flex h-full flex-col justify-between gap-5 p-6 md:p-7"
+                className="agro-card group flex h-full flex-col justify-between gap-5 p-6 md:p-7"
               >
                 <div>
                   <p className="text-[12px] font-bold uppercase tracking-[0.12em] text-primary">{p.industry}</p>

@@ -51,7 +51,7 @@ export function CollaborationSelector() {
           const data = COLLABORATION_MODES[mode.key]
           return (
             <Reveal key={mode.key} delay={i * 80}>
-              <div className="marine-card flex h-full flex-col p-6">
+              <div className="agro-card flex h-full flex-col p-6">
                 <span className="icon-tile mb-4 bg-aqua/10! text-primary!">
                   <Icon size={20} />
                 </span>

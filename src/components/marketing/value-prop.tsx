@@ -20,7 +20,7 @@ export function ValueProp() {
             const Icon = ICONS[i % ICONS.length]
             return (
               <Reveal key={card.title} delay={(i % 3) * 80}>
-                <div className="marine-card flex h-full flex-col p-7">
+                <div className="agro-card flex h-full flex-col p-7">
                   <span className="icon-tile bg-aqua/10! text-primary!">
                     <Icon size={20} />
                   </span>

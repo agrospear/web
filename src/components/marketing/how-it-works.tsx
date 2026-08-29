@@ -69,7 +69,7 @@ export function HowItWorks() {
               <a
                 key={l.href}
                 href={fl(l.href)}
-                className="marine-card inline-flex items-center gap-1.5 px-4 py-2.5 text-[13px] font-bold text-primary"
+                className="agro-card inline-flex items-center gap-1.5 px-4 py-2.5 text-[13px] font-bold text-primary"
               >
                 {l.label} <ArrowRight size={14} />
               </a>

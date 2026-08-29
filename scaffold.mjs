@@ -202,10 +202,10 @@ replaceInFile(join(OUT, 'src/config/site.ts'), [
 ])
 
 replaceInFile(join(OUT, 'src/product/brand-constants.ts'), [
-  ['Engineering, tooling, sampling and production for SUP brands, distributors and sourcing teams. You bring the brand — we build the boards.', cfg.tagline || ''],
-  ['Create your own SUP brand without building your own factory. Custom SUP manufacturing for startups, clubs, resorts and businesses — low MOQ — pilot runs from 20–50pcs — plus full customization and design support.', cfg.description || ''],
-  ['Agrospear is the SUP product development and manufacturing division of Agrospear (Qingdao Vatrad Group Co., Ltd.), a 12,500 m\u00b2 inflatable manufacturing plant in Qingdao, China.', cfg.boilerplate || ''],
-  ['We build SUP boards to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.', cfg.build_line || ''],
+  ['Custom agrochemical OEM/ODM manufacturing from Qingdao, distributors and sourcing teams. You bring the brand — we manufacture the product.', cfg.tagline || ''],
+  ['Agrochemical formulation and manufacturing for distributors, brands and sourcing teams — low MOQ — pilot runs from 20–50pcs — plus full customization and design support.', cfg.description || ''],
+  ['Agrospear is the agrochemical manufacturing division of Qingdao Vatrad Group Co., Ltd., a 20,000 m\u00b2 formulation and manufacturing plant in Qingdao, China.', cfg.boilerplate || ''],
+  ['We manufacture agrochemical formulations to your specification — engineering, tooling, sampling, production and export. You own the brand, the market and the customer; we own the manufacturing.', cfg.build_line || ''],
   ['We do not sell to end consumers and we do not compete with our clients in any market.', cfg.not_rob || ''],
   ['agrospear-og-default', cfg.og_image_filename || 'og-default'],
 ])
@@ -228,7 +228,7 @@ replaceInFile(join(OUT, 'src/routes/$.tsx'), [
 
 // Fix logo.tsx wordmark
 replaceInFile(join(OUT, 'src/components/brand/logo.tsx'), [
-  ["SUP<span className=\"font-medium opacity-[0.62]\">sfactory</span>", "<span>" + siteName + "</span>"],
+  ["Agrospear", "<span>" + siteName + "</span>"],
   ["Agrospear wordmark", siteName + " wordmark"],
 ])
 
@@ -237,7 +237,7 @@ replaceInFile(join(OUT, 'src/config/deployment.ts'), [
   ['e.g., agrospear.com', 'e.g., ' + siteDomain],
 ])
 
-// Remove supfactory-entity route (SUP-specific)
+// Remove supfactory-entity route (legacy)
 const entityRoute = join(OUT, 'src/routes/{-$locale}/about/agrospear-entity.tsx')
 if (existsSync(entityRoute)) rmSync(entityRoute, { force: true })
 
@@ -611,8 +611,8 @@ for (const rel of contentTemplates) {
   }
 }
 
-// --- Remove SUP-specific content files ---
-console.log('  Removing SUP-specific content...')
+// --- Remove legacy SUP content files ---
+console.log('  Removing legacy SUP content...')
 const supPaths = [
   'src/content/site/products', 'src/content/site/news', 'src/content/site/case-use',
   'src/content/site/technology', 'src/product/geo',
@@ -632,7 +632,7 @@ for (const rel of ['src/content/site/products', 'src/content/site/news', 'src/co
   if (!existsSync(gitkeep)) writeFileSync(gitkeep, '')
 }
 
-// Remove SUP-named page YAML files
+// Remove legacy SUP YAML files
 const sitePagesDir = join(OUT, 'src/content/site/pages')
 if (existsSync(sitePagesDir)) {
   for (const f of readdirSync(sitePagesDir)) {
@@ -642,7 +642,7 @@ if (existsSync(sitePagesDir)) {
   }
 }
 
-// Remove SUP-named route files
+// Remove legacy SUP route files
 const routesDir = join(OUT, 'src/routes')
 if (existsSync(routesDir)) {
   for (const f of readdirSync(routesDir)) {

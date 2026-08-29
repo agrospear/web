@@ -57,7 +57,7 @@ export function CatalogDownload({ turnstileSiteKey }: { turnstileSiteKey: string
             <ShieldCheck className="h-4 w-4 text-primary" /> {c.secure}
           </p>
         </div>
-        <form onSubmit={submit} className="marine-card flex flex-col gap-4 p-6 md:p-8">
+        <form onSubmit={submit} className="agro-card flex flex-col gap-4 p-6 md:p-8">
           <Field
             id="catalog-email"
             label={c.emailLabel}

@@ -74,7 +74,7 @@ function ContactPage() {
           <div className="mt-7 flex flex-col gap-4">
             <a
               href={`mailto:${BRAND_CONTACT.email}`}
-              className="marine-card flex items-center gap-4 p-5"
+              className="agro-card flex items-center gap-4 p-5"
             >
               <span className="icon-tile"><Mail size={19} /></span>
               <div>
@@ -86,7 +86,7 @@ function ContactPage() {
               href={BRAND_CONTACT.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="marine-card flex items-center gap-4 p-5"
+              className="agro-card flex items-center gap-4 p-5"
             >
               <span className="icon-tile"><MessageCircle size={19} /></span>
               <div>
@@ -116,7 +116,7 @@ function ContactPage() {
         </div>
 
         {/* form */}
-        <div id="quality-inquiry" className="marine-card h-fit p-6 md:p-8">
+        <div id="quality-inquiry" className="agro-card h-fit p-6 md:p-8">
           <h2 className="font-display text-xl font-extrabold tracking-tight">{t('agro.contact.formTitle')}</h2>
           <p className="mt-1.5 text-[13px] text-fg-3">{t('agro.contact.formSubtitle')}</p>
           <div className="mt-6">
@@ -141,7 +141,7 @@ function ContactPage() {
                 href={'/oem-trust-assurance'}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="marine-card flex items-center gap-4 p-5"
+                className="agro-card flex items-center gap-4 p-5"
               >
                 <span className="icon-tile"><FileText size={19} /></span>
                 <div>

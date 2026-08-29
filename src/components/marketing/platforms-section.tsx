@@ -18,7 +18,7 @@ export function PlatformsSection() {
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {c.items.map((item, i) => (
             <Reveal key={item.title} delay={i * 80}>
-              <div className="marine-card flex h-full flex-col p-7">
+              <div className="agro-card flex h-full flex-col p-7">
                 <h3 className="font-display text-[18px] font-bold">{item.title}</h3>
                 <p className="mt-2 flex-1 text-[13.5px] leading-relaxed text-fg-2">{item.body}</p>
                 <div className="mt-4 flex flex-wrap gap-1.5">

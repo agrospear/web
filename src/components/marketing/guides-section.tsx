@@ -20,7 +20,7 @@ export function GuidesSection() {
           <Reveal key={g.href} delay={i * 80}>
             <a
               href={fl(g.href)}
-              className="marine-card group flex h-full flex-col justify-between gap-6 p-6"
+              className="agro-card group flex h-full flex-col justify-between gap-6 p-6"
             >
               <div>
                 <h3 className="font-display text-[17px] font-bold leading-snug">{g.title}</h3>

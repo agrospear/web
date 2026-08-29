@@ -15,7 +15,7 @@ export function QualitySteps() {
         <ol className="mt-12 grid gap-6 md:grid-cols-2">
           {c.steps.map((step, i) => (
             <Reveal as="li" key={step.title} delay={i * 70}>
-              <div className="marine-card h-full p-7">
+              <div className="agro-card h-full p-7">
                 <div className="flex items-center gap-4">
                   <span className="step-tile h-[44px]! w-[44px]! border-2 border-white bg-white! text-primary shadow-[var(--shadow-md)] ring-4 ring-aqua/20">
                     {String(i + 1).padStart(2, '0')}

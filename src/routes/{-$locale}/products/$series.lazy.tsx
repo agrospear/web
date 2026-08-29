@@ -65,7 +65,7 @@ function SeriesPage() {
             <h2 className="text-[11.5px] font-bold uppercase tracking-[0.14em] text-primary">{t('agro.procurement.snapshotTitle')}</h2>
             <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {snap.map((s) => (
-                <div key={s.label} className="marine-card p-4">
+                <div key={s.label} className="agro-card p-4">
                   <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{s.label}</p>
                   <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">{s.value}</p>
                 </div>
@@ -75,19 +75,19 @@ function SeriesPage() {
         )}
 
         <div className="mt-10 grid gap-4 sm:grid-cols-3">
-          <div className="marine-card p-4">
+          <div className="agro-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.minimumOrderShort')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
               {t('inquiry.moqSummary', { standardRun: MOQ_SHORT.standardRun, trialStandard: MOQ_SHORT.trialStandard, customMould: MOQ_SHORT.customMould })}
             </p>
           </div>
-          <div className="marine-card p-4">
+          <div className="agro-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.timeline')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
               {t('inquiry.timelineSummary', { sampleTime: FACTS.sampleTime, leadTime: FACTS.leadTime })}
             </p>
           </div>
-          <div className="marine-card p-4">
+          <div className="agro-card p-4">
             <p className="text-[11.5px] font-bold uppercase tracking-[0.12em] text-fg-3">{t('content.product.qualityControl')}</p>
             <p className="mt-1.5 text-[13.5px] font-semibold leading-snug">
               {t('inquiry.qcSummary', { qcChecklistPoints: FACTS.qcChecklistPoints, qualityTest: FACTS.qualityTest })}
@@ -156,7 +156,7 @@ function SeriesPage() {
           </h2>
           <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {items.map((p) => (
-              <a key={p.slug} href={fl(productPath(p.slug))} className="marine-card group flex flex-col gap-4 p-5 transition-transform hover:-translate-y-0.5">
+              <a key={p.slug} href={fl(productPath(p.slug))} className="agro-card group flex flex-col gap-4 p-5 transition-transform hover:-translate-y-0.5">
                 <ResponsiveImage src={assetUrl(p.image)} alt={p.name} width={800} height={600} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 33vw" className="aspect-[4/3] w-full rounded-xl border border-border-2 object-cover" />
                 <div>
                   <div className="flex items-center justify-between gap-2">
@@ -219,7 +219,7 @@ function SeriesPage() {
           <div id="rfq" className="mx-auto mt-16 max-w-3xl">
             <h2 className="text-center font-display text-2xl font-extrabold tracking-tight">{t('agro.contact.formTitle')}</h2>
             <p className="mx-auto mt-3 max-w-xl text-center text-[13.5px] leading-relaxed text-fg-2">{t('agro.contact.formSubtitle')}</p>
-            <div className="marine-card mt-6 p-6 md:p-8">
+            <div className="agro-card mt-6 p-6 md:p-8">
               <InquiryForm
                 turnstileSiteKey={turnstileSiteKey}
                 prefill={{ name: first?.name, sku: first?.sku, category: page.slug }}
@@ -246,19 +246,19 @@ function SeriesPage() {
             {t('content.product.produceUnderBrand')}
           </h2>
           <div className="mt-6 grid gap-3 sm:grid-cols-3">
-            <a href={fl('/solutions/agrochemical-oem')} className="marine-card p-5">
+            <a href={fl('/solutions/agrochemical-oem')} className="agro-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.oemOdmTitle')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 {t('content.product.oemOdmDesc')}
               </p>
             </a>
-            <a href={fl('/manufacturing/factory')} className="marine-card p-5">
+            <a href={fl('/manufacturing/factory')} className="agro-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.manufacturingCapability')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 20,000 m² plant · 8 production lines · 50,000+ t annual capacity
               </p>
             </a>
-            <a href={fl('/manufacturing/quality-control')} className="marine-card p-5">
+            <a href={fl('/manufacturing/quality-control')} className="agro-card p-5">
               <p className="text-[14px] font-bold">{t('content.product.qualityControl')}</p>
               <p className="mt-1.5 text-[12.5px] leading-snug text-fg-3">
                 7-stage QC gates · 100% batch analysis · CIPAC stability testing

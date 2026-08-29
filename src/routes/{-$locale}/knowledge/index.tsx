@@ -51,7 +51,7 @@ function KnowledgeIndex() {
             <a
               key={a.slug}
               href={fl(`/knowledge/${a.slug}`)}
-              className="marine-card group flex flex-col justify-between gap-5 p-6 transition-transform hover:-translate-y-0.5"
+              className="agro-card group flex flex-col justify-between gap-5 p-6 transition-transform hover:-translate-y-0.5"
             >
               <div>
                 <p className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-primary">
@@ -79,7 +79,7 @@ function KnowledgeIndex() {
               <a
                 key={g.slug}
                 href={fl(`/guides/${g.slug}`)}
-                className="marine-card group flex flex-col justify-between gap-5 p-6 transition-transform hover:-translate-y-0.5"
+                className="agro-card group flex flex-col justify-between gap-5 p-6 transition-transform hover:-translate-y-0.5"
               >
                 <div>
                   <p className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-primary">
@@ -109,7 +109,7 @@ function KnowledgeIndex() {
               <a
                 key={g.href}
                 href={fl(g.href)}
-                className="marine-card group flex flex-col justify-between gap-5 p-6 transition-transform hover:-translate-y-0.5"
+                className="agro-card group flex flex-col justify-between gap-5 p-6 transition-transform hover:-translate-y-0.5"
               >
                 <div>
                   <p className="flex items-center gap-2 text-[12px] font-bold uppercase tracking-[0.12em] text-primary">
