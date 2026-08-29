@@ -27,8 +27,6 @@
     "db:reset:local": "rm -rf .wrangler/state/v3/d1 && pnpm db:migrate:local && pnpm db:seed:local",
     "upload:images": "node scripts/upload-agrospear-images.mjs",
     "upload:site-assets": "node scripts/upload-site-assets.mjs",
-    "r2:delete-legacy-dry": "node scripts/delete-legacy-r2-objects.mjs",
-    "r2:delete-legacy": "node scripts/delete-legacy-r2-objects.mjs --confirm",
     "responsive": "node scripts/process-responsive-images.mjs",
     "responsive:dry": "node scripts/process-responsive-images.mjs --dry-run",
     "compress:pdfs": "node scripts/compress-pdfs.mjs",
