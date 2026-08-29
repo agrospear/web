@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * WebModel — Deploy Script
+ * Agrospear — Deploy Script
  *
  * Syncs the generated project to GitHub and deploys to Cloudflare Workers.
  *

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * WebModel — Site Scaffolder
+ * Agrospear — Site Scaffolder
  *
  * Reads site.config.yaml and generates a complete website project from the
  * agrospear template. All brand-specific values are replaced with the

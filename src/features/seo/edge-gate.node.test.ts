@@ -106,7 +106,7 @@ test('revived pages are served, not 301d (P0-5)', () => {
   expect(gatePath('/solutions/distributor-partners').action).toBe('ok')
   expect(gatePath('/manufacturing/research-development').action).toBe('ok')
   expect(gatePath('/guides/beginner-guide').action).toBe('ok')
-  expect(gatePath('/guides/inflatable-vs-hard').action).toBe('ok')
+  expect(gatePath('/guides/registration-timeline').action).toBe('ok')
   expect(gatePath('/evidence/case-studies').action).toBe('ok')
 })
 
