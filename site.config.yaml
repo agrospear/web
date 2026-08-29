@@ -1,5 +1,5 @@
 # ═══════════════════════════════════════════════════════════════════════════════
-# WebModel — B2B Website Template Configuration
+# Agrospear agrochemical B2B website configuration
 # ═══════════════════════════════════════════════════════════════════════════════
 # SINGLE source of truth for all brand/product/deployment parameters.
 # After editing: node scaffold.mjs → node deploy.mjs
@@ -22,12 +22,12 @@ not_rob: "We do not compete with our clients in any market."
 og_image_filename: "og-default"
 
 # ── Factory Name ───────────────────────────────────────────────────────────────
-# The manufacturing division / factory name (replaces "Vectoflare" in templates).
+# Manufacturing division or factory name.
 # Used for "About {factory_name}", "{factory_name} factory", etc.
-factory_name: ""                   # e.g. "Vectoflare", "Vectoflare", "AcmeWorks"
+factory_name: "Agrospear Formulation & Manufacturing"
 
 # ── Company & Parent ──────────────────────────────────────────────────────────
-company_name: "MyCompany Inc."
+company_name: "Agrospear"
 company_location: ""           # e.g. "Qingdao, China"
 company_size: ""               # e.g. "12,500 m²"
 parent_brand: ""               # leave empty if no parent brand
@@ -91,16 +91,16 @@ cron_cache_warm: "*/5 * * * *"
 # These drive the B2B content generation (hero, products, solutions, facts, etc.)
 
 # ── Product Domain ─────────────────────────────────────────────────────────────
-product_type: "formulation"           # singular noun: "board", "pump", "fixture", "module"
-product_type_plural: "formulations"   # plural noun: "boards", "pumps", "fixtures", "modules"
+product_type: "formulation"
+product_type_plural: "formulations"
 product_slug: "products"              # URL slug for product section: /products
 industry: "agrochemicals"             # primary industry: "manufacturing", "textiles", "electronics"
-industry_adjective: "agrochemical"    # adjective form: "inflatable", "industrial", "electronic"
+industry_adjective: "agrochemical"
 
 # ── Manufacturing Facts ────────────────────────────────────────────────────────
 factory_size: ""                  # e.g. "12,500 m²"
 annual_capacity: ""               # e.g. "120,000+ units"
-annual_capacity_unit: "units"     # "units", "pieces", "boards", etc.
+annual_capacity_unit: "tons"
 workers_count: ""                 # e.g. "350+"
 export_countries: ""              # e.g. "50+"
 production_lines: ""              # e.g. "4"
@@ -150,7 +150,7 @@ solutions: []
   # - slug: "wholesale"
   #   nav_label: "Wholesale"
   #   title: "Wholesale Distribution"
-  #   description: "Bulk supply for distributors and retailers."
+  #   description: "Bulk supply for distributors and crop-protection importers."
   #   cta_level: "cold"
 
 # ── Product Series ─────────────────────────────────────────────────────────────

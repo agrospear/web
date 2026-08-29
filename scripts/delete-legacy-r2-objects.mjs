@@ -24,7 +24,6 @@ const bucket = process.env.R2_BUCKET ?? 'agrospear-files-prod'
 
 // Old water-sports and unused product prefixes
 const prefixes = [
-  'images/sups/',
   'site/products/',
   'site/videos/',
 ]

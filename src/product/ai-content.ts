@@ -43,7 +43,7 @@ export const CUSTOMIZATION_OPTIONS: Record<string, { title: string; body: string
   en: [
     { title: 'Formulation type and concentration', body: 'SC, EC, WP, WDG, SL, ME, CS, FS formulations tuned to your target crop and market.' },
     { title: 'Materials and construction', body: 'Active ingredients, co-formulants, adjuvants to fit your performance and price point.' },
-    { title: 'Colors and artwork', body: 'Unlimited color combinations with your own artwork or support from our design team.' },
+    { title: 'Formulation and label requirements', body: 'Define active ingredients, concentration, co-formulants, packaging and market-specific label requirements.' },
     { title: 'Logo and branding', body: 'Digital or screen-printed logo application, with a visual proof before production.' },
     { title: 'Labeling and packaging', body: 'Custom label designs, regulatory-compliant packaging and branding on every batch.' },
     { title: 'Application equipment and accessories', body: 'Sprayer configurations, measuring tools and accessories matched to your product package.' },

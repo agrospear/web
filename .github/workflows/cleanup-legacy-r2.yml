@@ -54,7 +54,7 @@ jobs:
           echo "Bucket: $BUCKET"
           echo ""
 
-          for PREFIX in "images/sups" "site/products" "site/videos"; do
+          for PREFIX in "site/products" "site/videos"; do
             echo "--- $PREFIX/ ---"
             npx wrangler r2 object list "$BUCKET" --prefix "$PREFIX" --page-size 1000 2>&1 | head -50
             echo ""
@@ -69,7 +69,7 @@ jobs:
           BUCKET="agrospear-files-prod"
           echo "=== Deleting legacy objects from $BUCKET ==="
 
-          for PREFIX in "images/sups" "site/products" "site/videos"; do
+          for PREFIX in "site/products" "site/videos"; do
             echo "--- Deleting $PREFIX/ ---"
             KEYS=$(npx wrangler r2 object list "$BUCKET" --prefix "$PREFIX" --page-size 1000 2>&1 | grep -oP '(?<=Key: )\S+' || true)
             COUNT=$(echo "$KEYS" | grep -c . || true)

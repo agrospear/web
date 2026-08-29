@@ -140,7 +140,7 @@ scenarios:
   features:
     - icon: A
       icon_bg: orange
-      title: 'Startup Brand: Validate Before You Commit'
+      title: 'Emerging Brand: Validate Before You Commit'
       desc: 'Order 1–4 tons of sample first (7–14 days), test biological efficacy and field performance, then place a pilot order of 5 tons to test sell-through before any full run. Total first-season exposure stays under 10 tons.'
     - icon: B
       icon_bg: blue

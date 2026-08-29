@@ -1919,7 +1919,7 @@ export const faq: Localized<FaqContent> = {
         a: `We manufacture SC (suspension concentrate), EC (emulsifiable concentrate), WP (wettable powder), WDG (water dispersible granule), SL (soluble liquid), ME (micro-emulsion), CS (capsule suspension) and FS (flowable seed treatment) formulations — with ISO 9001, GMP and FAO/WHO compliant quality standards.`,
       },
       {
-        q: 'Do you work with new or startup agrochemical brands?',
+        q: 'Do you work with emerging or growing agrochemical brands?',
         a: `Yes. OEM/ODM projects are developed according to your product requirements, target market and volume — pilot runs start at 5 tons and standard volume production at ${MOQ_SHORT.standardRun}.`,
       },
       {

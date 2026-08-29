@@ -66,10 +66,6 @@ export function productPath(slug: string, category?: string): string {
 export const SHADOWED_PATHS: Set<string> = new Set([
   '/', '/solutions', '/products', '/who-we-serve', '/how-it-works', '/gallery', '/about',
   '/contact', '/customizer', '/waitlist', '/changelog',
-  '/custom-sup-manufacturing', '/private-label-sup', '/sup-for-resorts', '/sup-for-clubs',
-  '/sup-startup-brands', '/terms', '/privacy',
-  '/custom-sup-development', '/solutions/private-label-sup', '/solutions/resort-sup',
-  '/solutions/club-sup', '/solutions/school-sup', '/solutions/custom-sup',
   '/knowledge', '/oem-agrochemical-moq',
   '/agrochemical-certification-guide',
   '/manufacturing',

@@ -29,12 +29,6 @@ test('301 merge of duplicate paths (P0-4)', () => {
   expect(gatePath('/zh/oem-odm')).toEqual({ action: 'redirect', to: '/es/solutions/agrochemical-oem' })
 })
 
-test('French-slug doorways 301 to closest English page (P1-5)', () => {
-  expect(gatePath('/fabricant-sup-gonflable')).toEqual({ action: 'redirect', to: '/solutions/agrochemical-oem' })
-  expect(gatePath('/bateau-gonflable-fabricant')).toEqual({ action: 'redirect', to: '/solutions/agrochemical-oem' })
-  expect(gatePath('/fournisseur-nautique')).toEqual({ action: 'redirect', to: '/solutions/co-branding' })
-})
-
 test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
   expect(gatePath('/custom')).toEqual({ action: 'redirect', to: '/solutions/custom-formulation' })
   expect(gatePath('/es/custom')).toEqual({ action: 'redirect', to: '/es/solutions/custom-formulation' })
@@ -46,10 +40,7 @@ test('duplicate pages 301 onto their modern keepers (P1-#8)', () => {
   expect(gatePath('/es/safety')).toEqual({ action: 'redirect', to: '/es/manufacturing/quality-control' })
   expect(gatePath('/trust')).toEqual({ action: 'redirect', to: '/manufacturing/quality-control' })
   expect(gatePath('/es/trust')).toEqual({ action: 'redirect', to: '/es/manufacturing/quality-control' })
-  expect(gatePath('/solutions/resorts-hotels')).toEqual({ action: 'redirect', to: '/solutions/co-branding' })
-  expect(gatePath('/solutions/paddle-clubs')).toEqual({ action: 'redirect', to: '/solutions/distributor-partners' })
   expect(gatePath('/solutions/build-your-own-brand')).toEqual({ action: 'redirect', to: '/solutions/distributor-partners' })
-  expect(gatePath('/oem-paddle')).toEqual({ action: 'redirect', to: '/products/adjuvants' })
 })
 
 test('brand pages collapse onto /about and /about/agrospear (P1-3)', () => {
@@ -67,85 +58,20 @@ test('brand pages collapse onto /about and /about/agrospear (P1-3)', () => {
   expect(gatePath('/zh/brand/story')).toEqual({ action: 'redirect', to: '/es/about/agrospear' })
   expect(gatePath('/brand/global-presence')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/global-presence')).toEqual({ action: 'redirect', to: '/es/about' })
-  expect(gatePath('/brand/marine-expertise')).toEqual({ action: 'redirect', to: '/about' })
-  expect(gatePath('/es/brand/marine-expertise')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/brand/team')).toEqual({ action: 'redirect', to: '/about' })
   expect(gatePath('/es/brand/team')).toEqual({ action: 'redirect', to: '/es/about' })
   expect(gatePath('/brand/why-agrospear')).toEqual({ action: 'redirect', to: '/about/agrospear' })
   expect(gatePath('/es/brand/why-agrospear')).toEqual({ action: 'redirect', to: '/es/about/agrospear' })
 })
 
-test('non-agrochemical business lines 301 to agrospear.com (P1-7)', () => {
-  expect(gatePath('/commercial-workboats')).toEqual({
-    action: 'redirect',
-    to: 'https://agrospear.com/commercial-workboats',
-  })
-  expect(gatePath('/es/commercial-workboats')).toEqual({
-    action: 'redirect',
-    to: 'https://agrospear.com/es/commercial-workboats',
-  })
-  expect(gatePath('/zh/commercial-workboats')).toEqual({
-    action: 'redirect',
-    to: 'https://agrospear.com/es/commercial-workboats',
-  })
-  expect(gatePath('/maritime-safety-defense')).toEqual({
-    action: 'redirect',
-    to: 'https://agrospear.com/maritime-safety-defense',
-  })
-  expect(gatePath('/search-and-rescue')).toEqual({
-    action: 'redirect',
-    to: 'https://agrospear.com/search-and-rescue',
-  })
-  expect(gatePath('/disaster-relief-humanitarian-aid')).toEqual({
-    action: 'redirect',
-    to: 'https://agrospear.com/disaster-relief-humanitarian-aid',
-  })
-  expect(gatePath('/products/life-vest-classic')).toEqual({
-    action: 'redirect',
-    to: 'https://agrospear.com/products/life-vest-classic',
-  })
-  expect(gatePath('/products/life-vest-pro')).toEqual({
-    action: 'redirect',
-    to: 'https://agrospear.com/products/life-vest-pro',
-  })
-  expect(gatePath('/products/oars-pump-set')).toEqual({
-    action: 'redirect',
-    to: 'https://agrospear.com/products/oars-pump-set',
-  })
-})
-
 test('legacy theagrospear URLs 301 to live pages (spot checks)', () => {
-  expect(gatePath('/odm-sup-board')).toEqual({ action: 'redirect', to: '/odm-development' })
-  expect(gatePath('/sup-manufacturer')).toEqual({ action: 'redirect', to: '/solutions/agrochemical-oem' })
   expect(gatePath('/guides/herbicide-selection')).toEqual({ action: 'redirect', to: '/knowledge' })
-  expect(gatePath('/research/sup-valve-types')).toEqual({ action: 'redirect', to: '/knowledge' })
-  expect(gatePath('/solutions-fishing-boat-solutions')).toEqual({ action: 'redirect', to: '/products' })
   expect(gatePath('/use-cases/disaster-relief')).toEqual({
     action: 'redirect',
     to: 'https://agrospear.com/disaster-relief-humanitarian-aid',
   })
   expect(gatePath('/resources/download-catalog')).toEqual({ action: 'redirect', to: '/products' })
   expect(gatePath('/es/resources/download-catalog')).toEqual({ action: 'redirect', to: '/es/products' })
-  expect(gatePath('/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/solutions/agrochemical-oem' })
-  expect(gatePath('/es/whitepaper/oem-sup-manufacturing-guide')).toEqual({ action: 'redirect', to: '/es/solutions/agrochemical-oem' })
-  // consolidated news articles 301 to their successor guides
-  expect(gatePath('/news/sup-oem-shipping-logistics')).toEqual({
-    action: 'redirect',
-    to: '/news/private-label-agrochemical-oem-guide',
-  })
-  expect(gatePath('/es/news/sup-oem-shipping-logistics')).toEqual({
-    action: 'redirect',
-    to: '/es/news/private-label-agrochemical-oem-guide',
-  })
-  expect(gatePath('/news/importing-sup-from-china-guide')).toEqual({
-    action: 'redirect',
-    to: '/news/private-label-agrochemical-guide',
-  })
-  expect(gatePath('/es/news/importing-sup-from-china-guide')).toEqual({
-    action: 'redirect',
-    to: '/es/news/private-label-agrochemical-guide',
-  })
-  expect(gatePath('/touring-sup')).toEqual({ action: 'redirect', to: '/products' })
   // /search is now a live search results page (not a legacy redirect)
   expect(gatePath('/search')).toEqual({ action: 'ok' })
   expect(gatePath('/es/search')).toEqual({ action: 'ok' })
@@ -226,9 +152,6 @@ test('410 for removed template pages (P0-2)', () => {
   expect(gatePath('/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/es/changelog')).toEqual({ action: 'gone' })
   expect(gatePath('/zh/changelog')).toEqual({ action: 'gone' })
-  // marine case study removed (Agrospear is agrochemical-only)
-  expect(gatePath('/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
-  expect(gatePath('/es/evidence/case-studies/marine-professional-operations')).toEqual({ action: 'gone' })
   // '/docs/' is normalised to '/docs' first (301), then 410 on the next hop
   expect(gatePath('/docs/')).toEqual({ action: 'slash', to: '/docs' })
 })

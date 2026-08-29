@@ -14,7 +14,7 @@ export function CommercialTerms() {
       <div className="mt-12 grid gap-5 md:grid-cols-2">
         {c.cells.map((cell, i) => (
           <Reveal key={cell.label} delay={i * 70}>
-            <div className="marine-card h-full p-7">
+            <div className="agro-card h-full p-7">
               <h3 className="font-display text-[17px] font-bold text-primary">{cell.label}</h3>
               <ul className="mt-4 space-y-2.5">
                 {cell.lines.map((line) => (

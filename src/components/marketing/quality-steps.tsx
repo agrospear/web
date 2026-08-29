@@ -3,7 +3,7 @@ import { pick, quality } from '@/product/content'
 import { SectionHead } from './section-head'
 import { Reveal } from './reveal'
 
-/** Home: "How Every Board Is Verified" — the six-step documented QC flow. */
+/** Home: "How Every Batch Is Verified" — the six-step documented QC flow. */
 export function QualitySteps() {
   const { locale } = useTranslation()
   const c = pick(quality, locale)

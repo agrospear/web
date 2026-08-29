@@ -1,12 +1,12 @@
 meta:
   title: 'Matriz de Soluciones Agroquímicas B2B | Fabricante OEM China | {SITE}'
-  description: 'Matriz completa de soluciones B2B de Agrospear para 24 tipos de cliente: desde startups agroquímicas hasta agencias de compras gubernamentales.'
+  description: 'Matriz completa de soluciones B2B de Agrospear para 24 tipos de cliente: desde marcas agroquímicas emergentes hasta agencias de compras gubernamentales.'
   dateModified: '2026-08'
 
 hero:
   tagline: Soluciones B2B
   title: '24 soluciones B2B adaptadas a tu negocio'
-  subtitle: 'Desde fundadores de startups hasta distribuidores globales: encuentra la solución Agrospear exacta diseñada para tu modelo de negocio, tu sector y tus objetivos.'
+  subtitle: 'Desde equipos de marca y abastecimiento hasta distribuidores globales: encuentra la solución Agrospear exacta diseñada para tu modelo de negocio, tu sector y tus objetivos.'
   image:
     src: https://assets.agrospear.com/site/factory/agrospear-factory-aerial-1.webp
     alt: Fábrica e instalaciones de fabricación de Agrospear
@@ -20,7 +20,7 @@ solutions:
   title: Matriz de soluciones para clientes
   subtitle: 'Cada tipo de cliente, su necesidad principal y la página de solución Agrospear diseñada para él.'
   items:
-    - clientType: Fundador de startup agroquímica
+    - clientType: Marca agroquímica emergente
       need: Creación de marca
       solutionPage: Crea tu marca agroquímica
       link: /es/solutions/private-label
@@ -46,7 +46,7 @@ solutions:
       link: /es/products/seed-treatment
     - clientType: Marca de creadores
       need: Marca de influencers
-      solutionPage: Startup agroquímica de edición creador
+      solutionPage: Programa para marcas agroquímicas emergentes
       link: /es/solutions/private-label
     - clientType: Fundador de cooperativa
       need: Suministro cooperativo

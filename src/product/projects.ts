@@ -586,28 +586,28 @@ export const projects: Localized<ProjectData[]> = {
     },
     {
       slug: 'south-america-brand-launch-low-moq',
-      customerType: 'Startup Crop-Protection Brands',
+      customerType: 'Emerging Crop-Protection Brands',
       region: 'South America',
       productCategory: 'Crop Protection Brand Launch (Low MOQ)',
       projectStage: 'Concept → Pilot 5 tons → Launch 50 tons → Scale path',
       manufacturingScope: 'ODM formulation, branded packaging, low-MOQ pilot, production scaling',
       keyRequirements: 'Low-MOQ pilot run (5 tons), then 50 tons for launch, branded packaging, tooling retained',
       qualityFocus: 'Active-ingredient assay, label accuracy, packaging verification, COA per batch',
-      navLabel: 'Startup Brand Low-MOQ Launch',
+      navLabel: 'Emerging Brand Low-MOQ Launch',
       metaTitle: 'Crop Protection Brand Launch | Low MOQ Pilot — Agrospear',
       metaDescription:
-        'How a South American startup launched a crop protection brand — 5-ton pilot run, then 50 tons branded launch, with formulation ownership retained and a scale path in place.',
-      kicker: 'Startup Launch Project',
+        'How a South American emerging brand launched a crop protection brand — 5-ton pilot run, then 50 tons branded launch, with formulation ownership retained and a scale path in place.',
+      kicker: 'Emerging Brand Project',
       h1: 'From 5-Ton Pilot to 50-Ton Launch: A Crop Protection Startup Brand Story',
       intro: [
         'A South American crop-protection startup with market access but no factory wanted to launch its own brand — a low-MOQ pilot run to validate, then a branded launch order that would not sink the budget.',
       ],
-      industry: 'Startup Crop-Protection Brands',
+      industry: 'Emerging Crop-Protection Brands',
       requirement: 'ODM development at low MOQ: a 5-ton pilot run to validate, then 50 tons branded for launch, with formulation ownership retained.',
       challenge:
         'No formulation lab, no import experience and a first order too small for most manufacturers — plus a launch date tied to the regional spraying season.',
       solution:
-        'ODM formulation development from the startup\'s concept on a proven base, a 5-ton pilot run covering samples and supply verification, then a 50-ton branded launch order with formulation ownership retained for the brand.',
+        'ODM formulation development from the brand\'s concept on a proven base, a 5-ton pilot run covering samples and supply verification, then a 50-ton branded launch order with formulation ownership retained for the brand.',
       product: 'Branded crop protection product — custom formulation, branded packaging and formulation ownership for the startup.',
       process: [
         { title: 'Concept call', body: 'Target crop, pest spectrum and launch date set the formulation direction.' },

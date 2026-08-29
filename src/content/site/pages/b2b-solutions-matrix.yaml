@@ -1,6 +1,6 @@
 meta:
   title: 'B2B Agrochemical Solutions Matrix | OEM Manufacturer China | {SITE}'
-  description: 'Complete Agrospear B2B client solutions matrix covering 24 customer types — from agrochemical startups to government procurement agencies.'
+  description: 'Complete Agrospear B2B client solutions matrix covering 24 customer types — from emerging agrochemical brands to government procurement agencies.'
   dateModified: '2026-08'
   keywords:
     - 'B2B agrochemical'
@@ -10,7 +10,7 @@ meta:
 hero:
   tagline: B2B Client Solutions
   title: '24 B2B Solutions Matched to Your Business'
-  subtitle: 'From startup founders to global distributors — find the exact Agrospear solution designed for your business model, industry, and goals.'
+  subtitle: 'From brand and sourcing teams to global distributors — find the exact Agrospear solution designed for your business model, industry, and goals.'
   image:
     src: https://assets.agrospear.com/site/factory/agrospear-factory-aerial-1.webp
     alt: Agrospear factory and manufacturing facility
@@ -24,7 +24,7 @@ solutions:
   title: Client Solutions Matrix
   subtitle: 'Every customer type, their core need, and the Agrospear solution page designed for them.'
   items:
-    - clientType: Agrochemical Startup Founder
+    - clientType: Emerging Agrochemical Brand
       need: Brand Creation
       solutionPage: Build Your Agrochemical Brand
       link: /solutions/private-label
@@ -50,7 +50,7 @@ solutions:
       link: /products/seed-treatment
     - clientType: Creator Brand
       need: Influencer Brand
-      solutionPage: Creator Edition Agrochemical Startup
+      solutionPage: Emerging Agrochemical Brand Program
       link: /solutions/private-label
     - clientType: Cooperative Founder
       need: Cooperative Supply
