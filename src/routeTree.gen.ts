@@ -64,18 +64,12 @@ import { Route as ManufacturingIndexRouteImport } from './routes/manufacturing/i
 import { Route as Char123LocaleChar125WhoWeServeRouteImport } from './routes/{-$locale}/who-we-serve'
 import { Route as Char123LocaleChar125WaitlistRouteImport } from './routes/{-$locale}/waitlist'
 import { Route as Char123LocaleChar125TermsRouteImport } from './routes/{-$locale}/terms'
-import { Route as Char123LocaleChar125SupStartupBrandsRouteImport } from './routes/{-$locale}/sup-startup-brands'
-import { Route as Char123LocaleChar125SupForResortsRouteImport } from './routes/{-$locale}/sup-for-resorts'
-import { Route as Char123LocaleChar125SupForClubsRouteImport } from './routes/{-$locale}/sup-for-clubs'
 import { Route as Char123LocaleChar125SolutionsRouteImport } from './routes/{-$locale}/solutions'
 import { Route as Char123LocaleChar125SearchRouteImport } from './routes/{-$locale}/search'
-import { Route as Char123LocaleChar125PrivateLabelSupRouteImport } from './routes/{-$locale}/private-label-sup'
 import { Route as Char123LocaleChar125PrivacyRouteImport } from './routes/{-$locale}/privacy'
 import { Route as Char123LocaleChar125HowItWorksRouteImport } from './routes/{-$locale}/how-it-works'
 import { Route as Char123LocaleChar125GalleryRouteImport } from './routes/{-$locale}/gallery'
 import { Route as Char123LocaleChar125CustomizerRouteImport } from './routes/{-$locale}/customizer'
-import { Route as Char123LocaleChar125CustomSupManufacturingRouteImport } from './routes/{-$locale}/custom-sup-manufacturing'
-import { Route as Char123LocaleChar125CustomSupDevelopmentRouteImport } from './routes/{-$locale}/custom-sup-development'
 import { Route as Char123LocaleChar125ContactRouteImport } from './routes/{-$locale}/contact'
 import { Route as Char123LocaleChar125ChangelogRouteImport } from './routes/{-$locale}/changelog'
 import { Route as ManufacturingResearchDevelopmentRouteImport } from './routes/manufacturing/research-development'
@@ -102,15 +96,10 @@ import { Route as Char123LocaleChar125KnowledgeIndexRouteImport } from './routes
 import { Route as Char123LocaleChar125AppIndexRouteImport } from './routes/{-$locale}/app/index'
 import { Route as Char123LocaleChar125AdminIndexRouteImport } from './routes/{-$locale}/admin/index'
 import { Route as Char123LocaleChar125AboutIndexRouteImport } from './routes/{-$locale}/about/index'
-import { Route as Char123LocaleChar125SolutionsSchoolSupRouteImport } from './routes/{-$locale}/solutions/school-sup'
-import { Route as Char123LocaleChar125SolutionsResortSupRouteImport } from './routes/{-$locale}/solutions/resort-sup'
-import { Route as Char123LocaleChar125SolutionsPrivateLabelSupRouteImport } from './routes/{-$locale}/solutions/private-label-sup'
 import { Route as Char123LocaleChar125SolutionsPrivateLabelPesticidesRouteImport } from './routes/{-$locale}/solutions/private-label-pesticides'
 import { Route as Char123LocaleChar125SolutionsGovernmentTenderRouteImport } from './routes/{-$locale}/solutions/government-tender'
 import { Route as Char123LocaleChar125SolutionsDistributorPartnersRouteImport } from './routes/{-$locale}/solutions/distributor-partners'
-import { Route as Char123LocaleChar125SolutionsCustomSupRouteImport } from './routes/{-$locale}/solutions/custom-sup'
 import { Route as Char123LocaleChar125SolutionsCustomFormulationRouteImport } from './routes/{-$locale}/solutions/custom-formulation'
-import { Route as Char123LocaleChar125SolutionsClubSupRouteImport } from './routes/{-$locale}/solutions/club-sup'
 import { Route as Char123LocaleChar125SolutionsAgrochemicalOemRouteImport } from './routes/{-$locale}/solutions/agrochemical-oem'
 import { Route as Char123LocaleChar125ProjectsSlugRouteImport } from './routes/{-$locale}/projects/$slug'
 import { Route as Char123LocaleChar125ProductsSeedTreatmentRouteImport } from './routes/{-$locale}/products/seed-treatment'
@@ -474,24 +463,6 @@ const Char123LocaleChar125TermsRoute =
     path: '/terms',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
-const Char123LocaleChar125SupStartupBrandsRoute =
-  Char123LocaleChar125SupStartupBrandsRouteImport.update({
-    id: '/sup-startup-brands',
-    path: '/sup-startup-brands',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125SupForResortsRoute =
-  Char123LocaleChar125SupForResortsRouteImport.update({
-    id: '/sup-for-resorts',
-    path: '/sup-for-resorts',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125SupForClubsRoute =
-  Char123LocaleChar125SupForClubsRouteImport.update({
-    id: '/sup-for-clubs',
-    path: '/sup-for-clubs',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
 const Char123LocaleChar125SolutionsRoute =
   Char123LocaleChar125SolutionsRouteImport.update({
     id: '/solutions',
@@ -502,12 +473,6 @@ const Char123LocaleChar125SearchRoute =
   Char123LocaleChar125SearchRouteImport.update({
     id: '/search',
     path: '/search',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125PrivateLabelSupRoute =
-  Char123LocaleChar125PrivateLabelSupRouteImport.update({
-    id: '/private-label-sup',
-    path: '/private-label-sup',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
 const Char123LocaleChar125PrivacyRoute =
@@ -532,18 +497,6 @@ const Char123LocaleChar125CustomizerRoute =
   Char123LocaleChar125CustomizerRouteImport.update({
     id: '/customizer',
     path: '/customizer',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125CustomSupManufacturingRoute =
-  Char123LocaleChar125CustomSupManufacturingRouteImport.update({
-    id: '/custom-sup-manufacturing',
-    path: '/custom-sup-manufacturing',
-    getParentRoute: () => Char123LocaleChar125RouteRoute,
-  } as any)
-const Char123LocaleChar125CustomSupDevelopmentRoute =
-  Char123LocaleChar125CustomSupDevelopmentRouteImport.update({
-    id: '/custom-sup-development',
-    path: '/custom-sup-development',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
 const Char123LocaleChar125ContactRoute =
@@ -718,24 +671,6 @@ const Char123LocaleChar125AboutIndexRoute =
     path: '/about/',
     getParentRoute: () => Char123LocaleChar125RouteRoute,
   } as any)
-const Char123LocaleChar125SolutionsSchoolSupRoute =
-  Char123LocaleChar125SolutionsSchoolSupRouteImport.update({
-    id: '/school-sup',
-    path: '/school-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
-const Char123LocaleChar125SolutionsResortSupRoute =
-  Char123LocaleChar125SolutionsResortSupRouteImport.update({
-    id: '/resort-sup',
-    path: '/resort-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
-const Char123LocaleChar125SolutionsPrivateLabelSupRoute =
-  Char123LocaleChar125SolutionsPrivateLabelSupRouteImport.update({
-    id: '/private-label-sup',
-    path: '/private-label-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
 const Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute =
   Char123LocaleChar125SolutionsPrivateLabelPesticidesRouteImport.update({
     id: '/private-label-pesticides',
@@ -762,12 +697,6 @@ const Char123LocaleChar125SolutionsDistributorPartnersRoute =
     path: '/distributor-partners',
     getParentRoute: () => Char123LocaleChar125SolutionsRoute,
   } as any)
-const Char123LocaleChar125SolutionsCustomSupRoute =
-  Char123LocaleChar125SolutionsCustomSupRouteImport.update({
-    id: '/custom-sup',
-    path: '/custom-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
 const Char123LocaleChar125SolutionsCustomFormulationRoute =
   Char123LocaleChar125SolutionsCustomFormulationRouteImport.update({
     id: '/custom-formulation',
@@ -778,12 +707,6 @@ const Char123LocaleChar125SolutionsCustomFormulationRoute =
       (d) => d.Route,
     ),
   )
-const Char123LocaleChar125SolutionsClubSupRoute =
-  Char123LocaleChar125SolutionsClubSupRouteImport.update({
-    id: '/club-sup',
-    path: '/club-sup',
-    getParentRoute: () => Char123LocaleChar125SolutionsRoute,
-  } as any)
 const Char123LocaleChar125SolutionsAgrochemicalOemRoute =
   Char123LocaleChar125SolutionsAgrochemicalOemRouteImport.update({
     id: '/agrochemical-oem',
@@ -1071,18 +994,12 @@ export interface FileRoutesByFullPath {
   '/manufacturing/research-development': typeof ManufacturingResearchDevelopmentRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
-  '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
-  '/{-$locale}/custom-sup-manufacturing': typeof Char123LocaleChar125CustomSupManufacturingRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
-  '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRouteWithChildren
-  '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
-  '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
-  '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
   '/{-$locale}/waitlist': typeof Char123LocaleChar125WaitlistRoute
   '/{-$locale}/who-we-serve': typeof Char123LocaleChar125WhoWeServeRoute
@@ -1118,15 +1035,10 @@ export interface FileRoutesByFullPath {
   '/{-$locale}/products/seed-treatment': typeof Char123LocaleChar125ProductsSeedTreatmentRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
   '/{-$locale}/solutions/agrochemical-oem': typeof Char123LocaleChar125SolutionsAgrochemicalOemRoute
-  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-formulation': typeof Char123LocaleChar125SolutionsCustomFormulationRoute
-  '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   '/{-$locale}/solutions/government-tender': typeof Char123LocaleChar125SolutionsGovernmentTenderRoute
   '/{-$locale}/solutions/private-label-pesticides': typeof Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute
-  '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
-  '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
-  '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/about/': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
@@ -1203,17 +1115,11 @@ export interface FileRoutesByTo {
   '/manufacturing/research-development': typeof ManufacturingResearchDevelopmentRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
-  '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
-  '/{-$locale}/custom-sup-manufacturing': typeof Char123LocaleChar125CustomSupManufacturingRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
-  '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
-  '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
-  '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
-  '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
   '/{-$locale}/waitlist': typeof Char123LocaleChar125WaitlistRoute
   '/{-$locale}/who-we-serve': typeof Char123LocaleChar125WhoWeServeRoute
@@ -1249,15 +1155,10 @@ export interface FileRoutesByTo {
   '/{-$locale}/products/seed-treatment': typeof Char123LocaleChar125ProductsSeedTreatmentRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
   '/{-$locale}/solutions/agrochemical-oem': typeof Char123LocaleChar125SolutionsAgrochemicalOemRoute
-  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-formulation': typeof Char123LocaleChar125SolutionsCustomFormulationRoute
-  '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   '/{-$locale}/solutions/government-tender': typeof Char123LocaleChar125SolutionsGovernmentTenderRoute
   '/{-$locale}/solutions/private-label-pesticides': typeof Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute
-  '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
-  '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
-  '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/about': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app': typeof Char123LocaleChar125AppIndexRoute
@@ -1337,18 +1238,12 @@ export interface FileRoutesById {
   '/manufacturing/research-development': typeof ManufacturingResearchDevelopmentRoute
   '/{-$locale}/changelog': typeof Char123LocaleChar125ChangelogRoute
   '/{-$locale}/contact': typeof Char123LocaleChar125ContactRoute
-  '/{-$locale}/custom-sup-development': typeof Char123LocaleChar125CustomSupDevelopmentRoute
-  '/{-$locale}/custom-sup-manufacturing': typeof Char123LocaleChar125CustomSupManufacturingRoute
   '/{-$locale}/customizer': typeof Char123LocaleChar125CustomizerRoute
   '/{-$locale}/gallery': typeof Char123LocaleChar125GalleryRoute
   '/{-$locale}/how-it-works': typeof Char123LocaleChar125HowItWorksRoute
   '/{-$locale}/privacy': typeof Char123LocaleChar125PrivacyRoute
-  '/{-$locale}/private-label-sup': typeof Char123LocaleChar125PrivateLabelSupRoute
   '/{-$locale}/search': typeof Char123LocaleChar125SearchRoute
   '/{-$locale}/solutions': typeof Char123LocaleChar125SolutionsRouteWithChildren
-  '/{-$locale}/sup-for-clubs': typeof Char123LocaleChar125SupForClubsRoute
-  '/{-$locale}/sup-for-resorts': typeof Char123LocaleChar125SupForResortsRoute
-  '/{-$locale}/sup-startup-brands': typeof Char123LocaleChar125SupStartupBrandsRoute
   '/{-$locale}/terms': typeof Char123LocaleChar125TermsRoute
   '/{-$locale}/waitlist': typeof Char123LocaleChar125WaitlistRoute
   '/{-$locale}/who-we-serve': typeof Char123LocaleChar125WhoWeServeRoute
@@ -1384,15 +1279,10 @@ export interface FileRoutesById {
   '/{-$locale}/products/seed-treatment': typeof Char123LocaleChar125ProductsSeedTreatmentRoute
   '/{-$locale}/projects/$slug': typeof Char123LocaleChar125ProjectsSlugRoute
   '/{-$locale}/solutions/agrochemical-oem': typeof Char123LocaleChar125SolutionsAgrochemicalOemRoute
-  '/{-$locale}/solutions/club-sup': typeof Char123LocaleChar125SolutionsClubSupRoute
   '/{-$locale}/solutions/custom-formulation': typeof Char123LocaleChar125SolutionsCustomFormulationRoute
-  '/{-$locale}/solutions/custom-sup': typeof Char123LocaleChar125SolutionsCustomSupRoute
   '/{-$locale}/solutions/distributor-partners': typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   '/{-$locale}/solutions/government-tender': typeof Char123LocaleChar125SolutionsGovernmentTenderRoute
   '/{-$locale}/solutions/private-label-pesticides': typeof Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute
-  '/{-$locale}/solutions/private-label-sup': typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
-  '/{-$locale}/solutions/resort-sup': typeof Char123LocaleChar125SolutionsResortSupRoute
-  '/{-$locale}/solutions/school-sup': typeof Char123LocaleChar125SolutionsSchoolSupRoute
   '/{-$locale}/about/': typeof Char123LocaleChar125AboutIndexRoute
   '/{-$locale}/admin/': typeof Char123LocaleChar125AdminIndexRoute
   '/{-$locale}/app/': typeof Char123LocaleChar125AppIndexRoute
@@ -1473,18 +1363,12 @@ export interface FileRouteTypes {
     | '/manufacturing/research-development'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
-    | '/{-$locale}/custom-sup-development'
-    | '/{-$locale}/custom-sup-manufacturing'
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
     | '/{-$locale}/how-it-works'
     | '/{-$locale}/privacy'
-    | '/{-$locale}/private-label-sup'
     | '/{-$locale}/search'
     | '/{-$locale}/solutions'
-    | '/{-$locale}/sup-for-clubs'
-    | '/{-$locale}/sup-for-resorts'
-    | '/{-$locale}/sup-startup-brands'
     | '/{-$locale}/terms'
     | '/{-$locale}/waitlist'
     | '/{-$locale}/who-we-serve'
@@ -1520,15 +1404,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/products/seed-treatment'
     | '/{-$locale}/projects/$slug'
     | '/{-$locale}/solutions/agrochemical-oem'
-    | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-formulation'
-    | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/distributor-partners'
     | '/{-$locale}/solutions/government-tender'
     | '/{-$locale}/solutions/private-label-pesticides'
-    | '/{-$locale}/solutions/private-label-sup'
-    | '/{-$locale}/solutions/resort-sup'
-    | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/about/'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
@@ -1605,17 +1484,11 @@ export interface FileRouteTypes {
     | '/manufacturing/research-development'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
-    | '/{-$locale}/custom-sup-development'
-    | '/{-$locale}/custom-sup-manufacturing'
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
     | '/{-$locale}/how-it-works'
     | '/{-$locale}/privacy'
-    | '/{-$locale}/private-label-sup'
     | '/{-$locale}/search'
-    | '/{-$locale}/sup-for-clubs'
-    | '/{-$locale}/sup-for-resorts'
-    | '/{-$locale}/sup-startup-brands'
     | '/{-$locale}/terms'
     | '/{-$locale}/waitlist'
     | '/{-$locale}/who-we-serve'
@@ -1651,15 +1524,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/products/seed-treatment'
     | '/{-$locale}/projects/$slug'
     | '/{-$locale}/solutions/agrochemical-oem'
-    | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-formulation'
-    | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/distributor-partners'
     | '/{-$locale}/solutions/government-tender'
     | '/{-$locale}/solutions/private-label-pesticides'
-    | '/{-$locale}/solutions/private-label-sup'
-    | '/{-$locale}/solutions/resort-sup'
-    | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/about'
     | '/{-$locale}/admin'
     | '/{-$locale}/app'
@@ -1738,18 +1606,12 @@ export interface FileRouteTypes {
     | '/manufacturing/research-development'
     | '/{-$locale}/changelog'
     | '/{-$locale}/contact'
-    | '/{-$locale}/custom-sup-development'
-    | '/{-$locale}/custom-sup-manufacturing'
     | '/{-$locale}/customizer'
     | '/{-$locale}/gallery'
     | '/{-$locale}/how-it-works'
     | '/{-$locale}/privacy'
-    | '/{-$locale}/private-label-sup'
     | '/{-$locale}/search'
     | '/{-$locale}/solutions'
-    | '/{-$locale}/sup-for-clubs'
-    | '/{-$locale}/sup-for-resorts'
-    | '/{-$locale}/sup-startup-brands'
     | '/{-$locale}/terms'
     | '/{-$locale}/waitlist'
     | '/{-$locale}/who-we-serve'
@@ -1785,15 +1647,10 @@ export interface FileRouteTypes {
     | '/{-$locale}/products/seed-treatment'
     | '/{-$locale}/projects/$slug'
     | '/{-$locale}/solutions/agrochemical-oem'
-    | '/{-$locale}/solutions/club-sup'
     | '/{-$locale}/solutions/custom-formulation'
-    | '/{-$locale}/solutions/custom-sup'
     | '/{-$locale}/solutions/distributor-partners'
     | '/{-$locale}/solutions/government-tender'
     | '/{-$locale}/solutions/private-label-pesticides'
-    | '/{-$locale}/solutions/private-label-sup'
-    | '/{-$locale}/solutions/resort-sup'
-    | '/{-$locale}/solutions/school-sup'
     | '/{-$locale}/about/'
     | '/{-$locale}/admin/'
     | '/{-$locale}/app/'
@@ -2263,27 +2120,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125TermsRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
-    '/{-$locale}/sup-startup-brands': {
-      id: '/{-$locale}/sup-startup-brands'
-      path: '/sup-startup-brands'
-      fullPath: '/{-$locale}/sup-startup-brands'
-      preLoaderRoute: typeof Char123LocaleChar125SupStartupBrandsRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/sup-for-resorts': {
-      id: '/{-$locale}/sup-for-resorts'
-      path: '/sup-for-resorts'
-      fullPath: '/{-$locale}/sup-for-resorts'
-      preLoaderRoute: typeof Char123LocaleChar125SupForResortsRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/sup-for-clubs': {
-      id: '/{-$locale}/sup-for-clubs'
-      path: '/sup-for-clubs'
-      fullPath: '/{-$locale}/sup-for-clubs'
-      preLoaderRoute: typeof Char123LocaleChar125SupForClubsRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
     '/{-$locale}/solutions': {
       id: '/{-$locale}/solutions'
       path: '/solutions'
@@ -2296,13 +2132,6 @@ declare module '@tanstack/react-router' {
       path: '/search'
       fullPath: '/{-$locale}/search'
       preLoaderRoute: typeof Char123LocaleChar125SearchRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/private-label-sup': {
-      id: '/{-$locale}/private-label-sup'
-      path: '/private-label-sup'
-      fullPath: '/{-$locale}/private-label-sup'
-      preLoaderRoute: typeof Char123LocaleChar125PrivateLabelSupRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/privacy': {
@@ -2331,20 +2160,6 @@ declare module '@tanstack/react-router' {
       path: '/customizer'
       fullPath: '/{-$locale}/customizer'
       preLoaderRoute: typeof Char123LocaleChar125CustomizerRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/custom-sup-manufacturing': {
-      id: '/{-$locale}/custom-sup-manufacturing'
-      path: '/custom-sup-manufacturing'
-      fullPath: '/{-$locale}/custom-sup-manufacturing'
-      preLoaderRoute: typeof Char123LocaleChar125CustomSupManufacturingRouteImport
-      parentRoute: typeof Char123LocaleChar125RouteRoute
-    }
-    '/{-$locale}/custom-sup-development': {
-      id: '/{-$locale}/custom-sup-development'
-      path: '/custom-sup-development'
-      fullPath: '/{-$locale}/custom-sup-development'
-      preLoaderRoute: typeof Char123LocaleChar125CustomSupDevelopmentRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
     '/{-$locale}/contact': {
@@ -2529,27 +2344,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125AboutIndexRouteImport
       parentRoute: typeof Char123LocaleChar125RouteRoute
     }
-    '/{-$locale}/solutions/school-sup': {
-      id: '/{-$locale}/solutions/school-sup'
-      path: '/school-sup'
-      fullPath: '/{-$locale}/solutions/school-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsSchoolSupRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
-    '/{-$locale}/solutions/resort-sup': {
-      id: '/{-$locale}/solutions/resort-sup'
-      path: '/resort-sup'
-      fullPath: '/{-$locale}/solutions/resort-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsResortSupRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
-    '/{-$locale}/solutions/private-label-sup': {
-      id: '/{-$locale}/solutions/private-label-sup'
-      path: '/private-label-sup'
-      fullPath: '/{-$locale}/solutions/private-label-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
     '/{-$locale}/solutions/private-label-pesticides': {
       id: '/{-$locale}/solutions/private-label-pesticides'
       path: '/private-label-pesticides'
@@ -2571,25 +2365,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Char123LocaleChar125SolutionsDistributorPartnersRouteImport
       parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
-    '/{-$locale}/solutions/custom-sup': {
-      id: '/{-$locale}/solutions/custom-sup'
-      path: '/custom-sup'
-      fullPath: '/{-$locale}/solutions/custom-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsCustomSupRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
     '/{-$locale}/solutions/custom-formulation': {
       id: '/{-$locale}/solutions/custom-formulation'
       path: '/custom-formulation'
       fullPath: '/{-$locale}/solutions/custom-formulation'
       preLoaderRoute: typeof Char123LocaleChar125SolutionsCustomFormulationRouteImport
-      parentRoute: typeof Char123LocaleChar125SolutionsRoute
-    }
-    '/{-$locale}/solutions/club-sup': {
-      id: '/{-$locale}/solutions/club-sup'
-      path: '/club-sup'
-      fullPath: '/{-$locale}/solutions/club-sup'
-      preLoaderRoute: typeof Char123LocaleChar125SolutionsClubSupRouteImport
       parentRoute: typeof Char123LocaleChar125SolutionsRoute
     }
     '/{-$locale}/solutions/agrochemical-oem': {
@@ -2832,15 +2612,10 @@ const Char123LocaleChar125AdminRouteRouteWithChildren =
 
 interface Char123LocaleChar125SolutionsRouteChildren {
   Char123LocaleChar125SolutionsAgrochemicalOemRoute: typeof Char123LocaleChar125SolutionsAgrochemicalOemRoute
-  Char123LocaleChar125SolutionsClubSupRoute: typeof Char123LocaleChar125SolutionsClubSupRoute
   Char123LocaleChar125SolutionsCustomFormulationRoute: typeof Char123LocaleChar125SolutionsCustomFormulationRoute
-  Char123LocaleChar125SolutionsCustomSupRoute: typeof Char123LocaleChar125SolutionsCustomSupRoute
   Char123LocaleChar125SolutionsDistributorPartnersRoute: typeof Char123LocaleChar125SolutionsDistributorPartnersRoute
   Char123LocaleChar125SolutionsGovernmentTenderRoute: typeof Char123LocaleChar125SolutionsGovernmentTenderRoute
   Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute: typeof Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute
-  Char123LocaleChar125SolutionsPrivateLabelSupRoute: typeof Char123LocaleChar125SolutionsPrivateLabelSupRoute
-  Char123LocaleChar125SolutionsResortSupRoute: typeof Char123LocaleChar125SolutionsResortSupRoute
-  Char123LocaleChar125SolutionsSchoolSupRoute: typeof Char123LocaleChar125SolutionsSchoolSupRoute
   Char123LocaleChar125SolutionsIndexRoute: typeof Char123LocaleChar125SolutionsIndexRoute
 }
 
@@ -2848,24 +2623,14 @@ const Char123LocaleChar125SolutionsRouteChildren: Char123LocaleChar125SolutionsR
   {
     Char123LocaleChar125SolutionsAgrochemicalOemRoute:
       Char123LocaleChar125SolutionsAgrochemicalOemRoute,
-    Char123LocaleChar125SolutionsClubSupRoute:
-      Char123LocaleChar125SolutionsClubSupRoute,
     Char123LocaleChar125SolutionsCustomFormulationRoute:
       Char123LocaleChar125SolutionsCustomFormulationRoute,
-    Char123LocaleChar125SolutionsCustomSupRoute:
-      Char123LocaleChar125SolutionsCustomSupRoute,
     Char123LocaleChar125SolutionsDistributorPartnersRoute:
       Char123LocaleChar125SolutionsDistributorPartnersRoute,
     Char123LocaleChar125SolutionsGovernmentTenderRoute:
       Char123LocaleChar125SolutionsGovernmentTenderRoute,
     Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute:
       Char123LocaleChar125SolutionsPrivateLabelPesticidesRoute,
-    Char123LocaleChar125SolutionsPrivateLabelSupRoute:
-      Char123LocaleChar125SolutionsPrivateLabelSupRoute,
-    Char123LocaleChar125SolutionsResortSupRoute:
-      Char123LocaleChar125SolutionsResortSupRoute,
-    Char123LocaleChar125SolutionsSchoolSupRoute:
-      Char123LocaleChar125SolutionsSchoolSupRoute,
     Char123LocaleChar125SolutionsIndexRoute:
       Char123LocaleChar125SolutionsIndexRoute,
   }
@@ -2879,18 +2644,12 @@ interface Char123LocaleChar125RouteRouteChildren {
   Char123LocaleChar125AdminRouteRoute: typeof Char123LocaleChar125AdminRouteRouteWithChildren
   Char123LocaleChar125ChangelogRoute: typeof Char123LocaleChar125ChangelogRoute
   Char123LocaleChar125ContactRoute: typeof Char123LocaleChar125ContactRoute
-  Char123LocaleChar125CustomSupDevelopmentRoute: typeof Char123LocaleChar125CustomSupDevelopmentRoute
-  Char123LocaleChar125CustomSupManufacturingRoute: typeof Char123LocaleChar125CustomSupManufacturingRoute
   Char123LocaleChar125CustomizerRoute: typeof Char123LocaleChar125CustomizerRoute
   Char123LocaleChar125GalleryRoute: typeof Char123LocaleChar125GalleryRoute
   Char123LocaleChar125HowItWorksRoute: typeof Char123LocaleChar125HowItWorksRoute
   Char123LocaleChar125PrivacyRoute: typeof Char123LocaleChar125PrivacyRoute
-  Char123LocaleChar125PrivateLabelSupRoute: typeof Char123LocaleChar125PrivateLabelSupRoute
   Char123LocaleChar125SearchRoute: typeof Char123LocaleChar125SearchRoute
   Char123LocaleChar125SolutionsRoute: typeof Char123LocaleChar125SolutionsRouteWithChildren
-  Char123LocaleChar125SupForClubsRoute: typeof Char123LocaleChar125SupForClubsRoute
-  Char123LocaleChar125SupForResortsRoute: typeof Char123LocaleChar125SupForResortsRoute
-  Char123LocaleChar125SupStartupBrandsRoute: typeof Char123LocaleChar125SupStartupBrandsRoute
   Char123LocaleChar125TermsRoute: typeof Char123LocaleChar125TermsRoute
   Char123LocaleChar125WaitlistRoute: typeof Char123LocaleChar125WaitlistRoute
   Char123LocaleChar125WhoWeServeRoute: typeof Char123LocaleChar125WhoWeServeRoute
@@ -2931,24 +2690,13 @@ const Char123LocaleChar125RouteRouteChildren: Char123LocaleChar125RouteRouteChil
       Char123LocaleChar125AdminRouteRouteWithChildren,
     Char123LocaleChar125ChangelogRoute: Char123LocaleChar125ChangelogRoute,
     Char123LocaleChar125ContactRoute: Char123LocaleChar125ContactRoute,
-    Char123LocaleChar125CustomSupDevelopmentRoute:
-      Char123LocaleChar125CustomSupDevelopmentRoute,
-    Char123LocaleChar125CustomSupManufacturingRoute:
-      Char123LocaleChar125CustomSupManufacturingRoute,
     Char123LocaleChar125CustomizerRoute: Char123LocaleChar125CustomizerRoute,
     Char123LocaleChar125GalleryRoute: Char123LocaleChar125GalleryRoute,
     Char123LocaleChar125HowItWorksRoute: Char123LocaleChar125HowItWorksRoute,
     Char123LocaleChar125PrivacyRoute: Char123LocaleChar125PrivacyRoute,
-    Char123LocaleChar125PrivateLabelSupRoute:
-      Char123LocaleChar125PrivateLabelSupRoute,
     Char123LocaleChar125SearchRoute: Char123LocaleChar125SearchRoute,
     Char123LocaleChar125SolutionsRoute:
       Char123LocaleChar125SolutionsRouteWithChildren,
-    Char123LocaleChar125SupForClubsRoute: Char123LocaleChar125SupForClubsRoute,
-    Char123LocaleChar125SupForResortsRoute:
-      Char123LocaleChar125SupForResortsRoute,
-    Char123LocaleChar125SupStartupBrandsRoute:
-      Char123LocaleChar125SupStartupBrandsRoute,
     Char123LocaleChar125TermsRoute: Char123LocaleChar125TermsRoute,
     Char123LocaleChar125WaitlistRoute: Char123LocaleChar125WaitlistRoute,
     Char123LocaleChar125WhoWeServeRoute: Char123LocaleChar125WhoWeServeRoute,

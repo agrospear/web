@@ -5,8 +5,7 @@
  * enabling server-side behavior. When a flag is false, the feature is
  * completely disabled (no routes, no UI, no API endpoints).
  *
- * To deploy a new product: set features that the product needs to true,
- * and the rest to false. No code deletion is required.
+ * To deploy the Agrospear site: keep only agrochemical capabilities enabled.
  */
 
 export const features = {
