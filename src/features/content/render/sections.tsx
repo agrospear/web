@@ -4,7 +4,6 @@ import { PageHero, SectionHead } from '@/components/marketing/section-head'
 import { Markdown } from './markdown'
 import { brandify } from '../brand'
 import { SITE_NAME } from '@/config/site'
-import { BRAND_PARENT_URL } from '@/config/branding'
 import { ABOUT_BRAND_PATH } from '@/config/navigation'
 import { CASE_STUDY_STATS } from '@/product/ai-content'
 import { useAferIndex } from '../index-data'
@@ -194,29 +193,7 @@ const HREF_REMAP: Record<string, string> = {
   '/oem-odm': '/oem-manufacturing',
   '/brand/agrospear': ABOUT_BRAND_PATH,
   '/compare': '/oem-vs-private-label',
-  '/compare/inflatable-vs-hardboard': '/oem-vs-private-label',
-  '/v2/intermediate-techniques': '/knowledge',
-  '/learn/sup': '/knowledge',
-  '/learn/drop-stitch-core': '/research/formulation-technology',
-  '/learn/inflatable-technology': '/technology',
   '/learn/materials': '/research/adjuvant-types',
-  '/learn/water-safety': '/quality',
-  '/inflatable-sup-maintenance': '/knowledge',
-  '/guides/paddling-techniques': '/knowledge',
-  '/guides/sup-for-touring': '/knowledge',
-  '/guides/sup-maintenance': '/knowledge',
-  '/guides/sup-size-guide': '/knowledge',
-  '/use-cases/search-and-rescue': `${BRAND_PARENT_URL}/search-and-rescue`,
-  // academy skill-path topics without a ported page
-  '/sup-basics': '',
-  '/paddle-techniques': '',
-  '/safety-first': '',
-  '/touring-essentials': '',
-  '/weather-reading': '',
-  '/navigation-basics': '',
-  '/tidal-awareness': '',
-  '/multi-day-trip-planning': '',
-  '/rescue-techniques': '',
   '/night-paddling': '',
   '/cleaning-and-care': '',
   '/storage-guide': '',
