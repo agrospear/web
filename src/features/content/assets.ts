@@ -16,12 +16,6 @@ const IMAGE_SUBDIRECTORIES = new Set(['factory', 'products', 'quality', 'news', 
 
 function canonicalizeImagePath(url: string): string | undefined {
   const sitePrefix = `${CDN_BASE}/site/`
-  const legacySupPrefix = `${CDN_BASE}/images/sups/`
-
-  if (url.startsWith(legacySupPrefix)) {
-    return `${CANONICAL_IMAGE_PREFIX}${url.slice(legacySupPrefix.length)}`
-  }
-
   if (url.startsWith(sitePrefix)) {
     const relativePath = url.slice(sitePrefix.length)
     const [directory] = relativePath.split('/')
