@@ -42,6 +42,6 @@ playwright-report/
 public/assets/videos/
 public/assets/quality/
 public/assets/products/
-public/downloads/
+# PDF source files are committed so GitHub Actions can compress and upload them to R2.
 
 dev-server-opt.err

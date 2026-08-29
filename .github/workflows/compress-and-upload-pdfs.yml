@@ -9,16 +9,16 @@ name: Compress & upload PDFs to R2
 #   3. Uploads compressed versions to R2 (target_prefix)
 #   4. Optionally deletes the original uncompressed objects
 #
-# Since public/downloads/ is gitignored, PDFs come from R2 itself.
-# For initial upload of new PDFs, use the upload-site-assets workflow first.
+# PDFs in public/downloads/ are committed so this workflow can process them directly.
+# Set source_prefix when reprocessing PDFs that already exist in R2.
 
 on:
   workflow_dispatch:
     inputs:
       source_prefix:
-        description: 'R2 prefix to download existing PDFs from (leave empty to skip download)'
+        description: 'Optional R2 prefix to download PDFs from; leave empty to use public/downloads from checkout'
         required: false
-        default: 'site/downloads/qcqa'
+        default: ''
       quality:
         description: 'Compression quality: screen (72dpi/small), ebook (150dpi/balanced), printer (300dpi/high)'
         required: false
@@ -35,7 +35,7 @@ on:
       dry_run:
         description: 'Preview only — compress but do not upload to R2'
         required: false
-        default: 'true'
+        default: 'false'
         type: boolean
       delete_originals:
         description: 'After upload, delete original (uncompressed) objects from R2'
@@ -53,13 +53,13 @@ jobs:
   compress-and-upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.0.0
 
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
         with:
-          version: 10
+          version: 10.33.1
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.4.0
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: pnpm
@@ -124,11 +124,14 @@ jobs:
           echo "Output: dist/compressed"
           echo ""
 
-          # Determine source: downloaded from R2 or local directory
-          if [ -d "dist/source-pdfs" ] && [ "$(find dist/source-pdfs -name '*.pdf' 2>/dev/null | wc -l)" -gt 0 ]; then
+          # Determine source: downloaded from R2 or committed local directory
+          if [ -d "dist/source-pdfs" ] && [ "$(find dist/source-pdfs -type f -iname '*.pdf' 2>/dev/null | wc -l)" -gt 0 ]; then
             SOURCE="dist/source-pdfs"
+          elif [ -d "public/downloads" ] && [ "$(find public/downloads -type f -iname '*.pdf' 2>/dev/null | wc -l)" -gt 0 ]; then
+            SOURCE="public/downloads"
           else
-            SOURCE="public/downloads/qcqa"
+            echo "::error::No PDF files found in dist/source-pdfs or public/downloads"
+            exit 1
           fi
 
           echo "Source: $SOURCE"
@@ -155,6 +158,7 @@ jobs:
           R2_BUCKET: ${{ vars.CF_PROD_R2_BUCKET || 'agrospear-files-prod' }}
         run: |
           TARGET_PREFIX="${{ inputs.target_prefix }}"
+          TARGET_PREFIX="${TARGET_PREFIX%/}"
           UPLOADED=0
           FAILED=0
           TOTAL=0
@@ -198,6 +202,11 @@ jobs:
           SOURCE_PREFIX="${{ inputs.source_prefix }}"
           TARGET_PREFIX="${{ inputs.target_prefix }}"
 
+          if [ -z "$SOURCE_PREFIX" ]; then
+            echo "No R2 source_prefix supplied; local checkout was used, so there are no downloaded originals to delete."
+            exit 0
+          fi
+
           if [ "$SOURCE_PREFIX" = "$TARGET_PREFIX" ]; then
             echo "Source and target prefixes are the same — skipping delete to avoid removing compressed files."
             echo "To replace originals, run with source_prefix != target_prefix, then delete originals."
@@ -226,7 +235,7 @@ jobs:
         run: |
           echo "=== DRY RUN — PDFs compressed but not uploaded ==="
           echo ""
-          echo "To upload, re-run with dry_run=false"
+          echo "Compression completed without upload. Re-run with dry_run=true only for a preview."
           echo "To delete old originals, set delete_originals=true"
           echo "  (requires source_prefix != target_prefix)"
 
