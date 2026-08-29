@@ -103,6 +103,18 @@ jobs:
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
             -d "{\"name\":\"$R2_BUCKET\"}" | jq .
 
+      - uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
+        with:
+          version: 10.33.1
+
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.4.0
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+        if: steps.guard.outputs.enabled == 'true'
+
       # 图片源位于本仓库 scripts/agrospear-images/，只包含当前品牌资源。
       # --missing：只上传 R2 缺失的对象，已存在的跳过（PUT 幂等但白费 12.9MiB
       # 流量；也让"新增图忘传"在 deploy 里被自动补上）。
