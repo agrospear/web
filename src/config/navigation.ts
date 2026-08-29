@@ -38,7 +38,6 @@ export const LEGACY_REDIRECTS: Record<string, string> = {
   '/use-cases/disaster-relief': `${BRAND_PARENT_URL}/disaster-relief-humanitarian-aid`,
   '/compare': '/oem-vs-private-label',
   '/compare/agrospear-vs-traditional-manufacturers': '/about',
-  '/compare/pvc-vs-hypalon': '/knowledge',
   '/compare/single-chamber-vs-multi-chamber': '/knowledge',
   '/design-powerhouse': '/technology',
   '/engineering-perfection': '/manufacturing/research-development',
