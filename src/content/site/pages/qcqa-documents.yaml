@@ -137,7 +137,28 @@ evidence_images:
       title: 'Traceability and Retained Samples'
       desc: 'Evidence of the personnel and records supporting retained-sample and batch-traceability controls.'
 
-cta:
+faqs:
+  tagline: 'FAQ'
+  title: 'Frequently Asked Questions About QC/QA Documents'
+  items:
+    - q: 'What QC/QA documents are available for download?'
+      a: 'Our library includes 13 downloadable PDF dossiers covering SC & WDG production SOP, herbicide/insecticide/fungicide/acaricide-nematicide/PGR QC systems, 4-stage insecticide release dossier, IQC/IPQC/FQC inspection reports, COA reports, and batch traceability documents. All documents are bilingual (English/Chinese).'
+    - q: 'Are these documents project-specific or general?'
+      a: 'The documents in this library are general QC/QA frameworks and process templates. Project-specific specifications, release criteria, and inspection records are defined by the approved customer specification and quality agreement for each OEM/ODM order.'
+    - q: 'Can I request project-specific QC documentation?'
+      a: 'Yes. Contact us with your formulation type, target market, packaging configuration and inspection requirements. We can map the appropriate QC/QA dossier and provide project-specific quality records including batch COA, stability reports, and inspection certificates.'
+    - q: 'What is the 4-stage quality control process?'
+      a: 'Our 4-stage QC process includes: Stage 1 — IQC (Incoming Quality Control) for raw materials and packaging; Stage 2 — IPQC (In-Process Quality Control) with critical control points; Stage 3 — FQC/OQC (Final Quality Control) with COA and release verification; Stage 4 — Retained samples and batch traceability. Each stage has documented pass/fail criteria and traceability records.'
+    - q: 'How long are batch records retained?'
+      a: 'Batch traceability records are retained for 5 years via our ERP system. Retained samples are kept for at least 1 year beyond the product shelf life. This supports full lifecycle traceability from raw material receipt to finished product shipment.'
+    - q: 'Do you support third-party inspection?'
+      a: 'Yes. We support pre-shipment and during-production inspection by SGS, TÜV, BV, or Intertek. We provide a dedicated inspection area with calibrated HPLC/GC instruments, stability chambers, and pre-filled inspection briefs so third-party inspectors can complete their work efficiently.'
+    - q: 'What certifications does the factory hold?'
+      a: 'The factory holds ISO 9001, ISO 14001, GMP, FAO/WHO specifications, REACH, and BSCI certifications. Certificate numbers and audit records are available on request. We also support ICAMA registration for products destined for the Chinese market.'
+    - q: 'Can I use these documents for my own quality audit?'
+      a: 'Yes. These documents are provided for capability review and can be used as reference for your own quality audit process. For project-specific audits, we provide dedicated inspection briefs, QMS document packs, and access to our quality records.'
+
+call_to_action:
   title: 'Need the Quality Documents for Your OEM Project?'
   subtitle: 'Send the formulation type, target market, packaging configuration and inspection requirements. We can map the appropriate QC/QA dossier and project-specific quality records.'
   actions:

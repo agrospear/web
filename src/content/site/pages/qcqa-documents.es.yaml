@@ -137,7 +137,28 @@ evidence_images:
       title: 'Trazabilidad y Muestras Retenidas'
       desc: 'Evidencia del personal y registros que respaldan los controles de muestras retenidas y trazabilidad por lote.'
 
-cta:
+faqs:
+  tagline: 'Preguntas Frecuentes'
+  title: 'Preguntas Frecuentes Sobre Documentos QC/QA'
+  items:
+    - q: '¿Qué documentos QC/QA están disponibles para descargar?'
+      a: 'Nuestra biblioteca incluye 13 dossiers PDF descargables que cubren SOP de producción SC y WDG, sistemas QC de herbicidas/insecticidas/fungicidas/acaricidas-nematicidas/PGR, dossier de liberación en 4 etapas de insecticidas, informes de inspección IQC/IPQC/FQC, informes COA y documentos de trazabilidad por lote. Todos los documentos son bilingües (inglés/chino).'
+    - q: '¿Estos documentos son específicos por proyecto o generales?'
+      a: 'Los documentos de esta biblioteca son marcos y plantillas generales de procesos QC/QA. Las especificaciones del proyecto, criterios de liberación e informes de inspección específicos se definen por la especificación del cliente aprobada y el acuerdo de calidad para cada pedido OEM/ODM.'
+    - q: '¿Puedo solicitar documentación QC específica para mi proyecto?'
+      a: 'Sí. Contáctenos con el tipo de formulación, mercado objetivo, configuración de embalaje y requisitos de inspección. Podemos asignar el dossier QC/QA apropiado y proporcionar registros de calidad específicos del proyecto incluyendo COA por lote, informes de estabilidad y certificados de inspección.'
+    - q: '¿Qué es el proceso de control de calidad en 4 etapas?'
+      a: 'Nuestro proceso QC en 4 etapas incluye: Etapa 1 — IQC (Control de Calidad de Entrada) para materias primas y embalaje; Etapa 2 — IPQC (Control de Calidad en Proceso) con puntos de control críticos; Etapa 3 — FQC/OQC (Control de Calidad Final) con COA y verificación de liberación; Etapa 4 — Muestras retenidas y trazabilidad por lote. Cada etapa tiene criterios de aprobado/rechazo documentados y registros de trazabilidad.'
+    - q: '¿Cuánto tiempo se retienen los registros por lote?'
+      a: 'Los registros de trazabilidad por lote se retienen durante 5 años a través de nuestro sistema ERP. Las muestras retenidas se mantienen al menos 1 año más allá de la vida útil del producto. Esto soporta trazabilidad completa del ciclo de vida desde la recepción de materias primas hasta el envío del producto terminado.'
+    - q: '¿Soportan inspección de terceros?'
+      a: 'Sí. Soportamos inspección pre-envío y durante producción por SGS, TÜV, BV o Intertek. Proporcionamos un área de inspección dedicada con instrumentos HPLC/GC calibrados, cámaras de estabilidad y resúmenes de inspección prellenados para que los inspectores de terceros completen su trabajo eficientemente.'
+    - q: '¿Qué certificaciones tiene la fábrica?'
+      a: 'La fábrica posee certificaciones ISO 9001, ISO 14001, GMP, especificaciones FAO/OMS, REACH y BSCI. Los números de certificado y registros de auditoría están disponibles bajo solicitud. También soportamos registro ICAMA para productos destinados al mercado chino.'
+    - q: '¿Puedo usar estos documentos para mi propia auditoría de calidad?'
+      a: 'Sí. Estos documentos se proporcionan para revisión de capacidades y pueden usarse como referencia para su propio proceso de auditoría de calidad. Para auditorías específicas del proyecto, proporcionamos resúmenes de inspección dedicados, paquetes de documentos QMS y acceso a nuestros registros de calidad.'
+
+call_to_action:
   title: '¿Necesita los Documentos de Calidad para su Proyecto OEM?'
   subtitle: 'Envíe el tipo de formulación, mercado objetivo, configuración de embalaje y requisitos de inspección. Podemos asignar el dossier QC/QA apropiado y los registros de calidad específicos del proyecto.'
   actions:
