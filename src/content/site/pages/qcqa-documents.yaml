@@ -1,7 +1,7 @@
 meta:
   title: 'QC/QA Document Library | Agrochemical Manufacturing Evidence | Agrospear'
   description: 'Public QC/QA process, inspection and traceability dossiers from Agrospear agrochemical manufacturing operations.'
-  dateModified: '2026-08-28'
+  dateModified: '2026-08-30'
   keywords:
     - 'agrochemical QC QA documents'
     - 'agrochemical inspection report'
@@ -69,6 +69,42 @@ document_groups:
       title: 'PGR QC System Dossier'
       desc: 'Quality-control overview for plant growth regulator formulation and production.'
       link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_PGR_QC_System_and_Dossier.pdf
+      link_label: 'Download PDF'
+    - icon: 1
+      icon_bg: blue
+      title: 'Insecticide IQC Inspection Report'
+      desc: 'Stage 1: Incoming quality control inspection report for raw materials and packaging components.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Insecticide_IQC_Inspection_Report.pdf
+      link_label: 'Download PDF'
+    - icon: 2
+      icon_bg: green
+      title: 'Insecticide IPQC Inspection Report'
+      desc: 'Stage 2: In-process quality control inspection report with critical control points.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Insecticide_IPQC_Inspection_Report.pdf
+      link_label: 'Download PDF'
+    - icon: 3
+      icon_bg: purple
+      title: 'Chlorantraniliprole 200SC FQC COA Report'
+      desc: 'Stage 3: Final quality control certificate of analysis for Chlorantraniliprole 200g/L SC.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Chlorantraniliprole_200SC_FQC_COA_Report.pdf
+      link_label: 'Download PDF'
+    - icon: F
+      icon_bg: orange
+      title: 'FQC Personnel & Release Verification'
+      desc: 'Stage 3: Final quality control personnel and product release verification records.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_FQC_Personnel_and_Release_Verification.pdf
+      link_label: 'Download PDF'
+    - icon: T
+      icon_bg: blue
+      title: 'Retention & Traceability Report'
+      desc: 'Stage 4: Retained sample and batch traceability report for quality assurance.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Chlorantraniliprole_200SC_Retention_and_Traceability_Report.pdf
+      link_label: 'Download PDF'
+    - icon: 4
+      icon_bg: green
+      title: 'Stage 4 Personnel & Traceability Verification'
+      desc: 'Stage 4: Key personnel verification records for retained samples and batch traceability.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Stage4_Personnel_and_Traceability_Verification.pdf
       link_label: 'Download PDF'
 
 evidence_images:
