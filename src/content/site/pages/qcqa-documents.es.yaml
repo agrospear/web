@@ -1,0 +1,150 @@
+meta:
+  title: 'Biblioteca de Documentos QC/QA | Evidencia de Fabricación Agroquímica | Agrospear'
+  description: 'Dossiers públicos de procesos QC/QA, inspección y trazabilidad de las operaciones de fabricación agroquímica de Agrospear.'
+  dateModified: '2026-08-30'
+  keywords:
+    - 'documentos QC QA agroquímicos'
+    - 'informe de inspección agroquímica'
+    - 'sistema de calidad de plaguicidas'
+
+hero:
+  tagline: 'Biblioteca de Evidencia de Fábrica'
+  title: 'Documentos de Proceso QC/QA, Inspección y Trazabilidad'
+  subtitle: 'Una biblioteca pública de dossiers de control de producción e inspección de Agrospear: desde IQC de materias primas hasta liberación de producto terminado, muestras retenidas y trazabilidad por lote.'
+  actions:
+    - variant: primary
+      text: 'Solicitar Paquete de Calidad del Proyecto'
+      href: /es/contact#trust-verification
+    - text: 'Explorar el marco QC de 7 etapas'
+      href: /es/manufacturing/quality-control
+
+answer:
+  label: 'Qué incluye'
+  text: 'Esta biblioteca contiene los documentos públicos aprobados de procesos y evidencia suministrados para la fabricación agroquímica de Agrospear. Cubre sistemas QC/QA específicos por formulación, IQC, IPQC, FQC/OQC, registros de liberación tipo COA, muestras retenidas, trazabilidad por lote y coordinación pre-producción. Los documentos se proporcionan para revisión de capacidades; las especificaciones del proyecto y los criterios de liberación permanecen definidos por la especificación del cliente aprobada y el acuerdo de calidad.'
+  verified: '2026-08'
+
+document_groups:
+  tagline: 'Dossiers Descargables'
+  title: 'Evidencia de Producción e Inspección por Grupo de Producto'
+  subtitle: 'Los dossiers PDF bilingües originales están disponibles para revisión y descarga directa.'
+  features:
+    - icon: S
+      icon_bg: blue
+      title: 'SOP de Producción SC y WDG'
+      desc: 'SOP bilingüe que cubre la producción de concentrado en suspensión y granulado dispersable en agua, puntos de control del proceso y requisitos de inspección de calidad.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_SC_WDG_Production_QC_SOP.pdf
+      link_label: 'Descargar PDF'
+    - icon: H
+      icon_bg: green
+      title: 'Sistema y Dossier QC de Herbicidas'
+      desc: 'Marco de control de calidad y dossier de soporte para la producción y liberación de herbicidas.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Herbicide_QC_System_and_Dossier.pdf
+      link_label: 'Descargar PDF'
+    - icon: I
+      icon_bg: purple
+      title: 'Sistema y Dossier QC de Insecticidas'
+      desc: 'Sistema central de control de calidad de insecticidas y documentación de soporte.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Insecticide_QC_System_and_Dossier.pdf
+      link_label: 'Descargar PDF'
+    - icon: 4
+      icon_bg: orange
+      title: 'Dossier de Liberación en 4 Etapas de Insecticidas'
+      desc: 'Cadena de evidencia de cuatro etapas que cubre inspección de entrada, control en proceso, liberación final y trazabilidad de muestras retenidas.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Insecticide_4Stage_QC_and_Release_Dossier.pdf
+      link_label: 'Descargar PDF'
+    - icon: F
+      icon_bg: blue
+      title: 'Sistema y Dossier QC de Fungicidas'
+      desc: 'Marco QC/QA de producción de fungicidas y dossier de evidencia de soporte.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Fungicide_QC_System_and_Dossier.pdf
+      link_label: 'Descargar PDF'
+    - icon: A
+      icon_bg: green
+      title: 'Dossier QC de Acaricidas y Nematicidas'
+      desc: 'Sistema de control de calidad específico para el grupo de producto de acaricidas y nematicidas.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Acaricides_Nematicides_QC_System_and_Dossier.pdf
+      link_label: 'Descargar PDF'
+    - icon: P
+      icon_bg: purple
+      title: 'Dossier del Sistema QC de PGR'
+      desc: 'Resumen del control de calidad para la formulación y producción de reguladores de crecimiento de plantas.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_PGR_QC_System_and_Dossier.pdf
+      link_label: 'Descargar PDF'
+    - icon: 1
+      icon_bg: blue
+      title: 'Informe de Inspección IQC de Insecticidas'
+      desc: 'Etapa 1: Informe de inspección de control de calidad de entrada para materias primas y componentes de embalaje.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Insecticide_IQC_Inspection_Report.pdf
+      link_label: 'Descargar PDF'
+    - icon: 2
+      icon_bg: green
+      title: 'Informe de Inspección IPQC de Insecticidas'
+      desc: 'Etapa 2: Informe de inspección de control de calidad en proceso con puntos de control críticos.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Insecticide_IPQC_Inspection_Report.pdf
+      link_label: 'Descargar PDF'
+    - icon: 3
+      icon_bg: purple
+      title: 'Informe COA FQC de Clorantraniliprol 200SC'
+      desc: 'Etapa 3: Certificado de análisis de control de calidad final para Clorantraniliprol 200g/L SC.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Chlorantraniliprole_200SC_FQC_COA_Report.pdf
+      link_label: 'Descargar PDF'
+    - icon: F
+      icon_bg: orange
+      title: 'Verificación de Personal y Liberación FQC'
+      desc: 'Etapa 3: Registros de verificación de personal de control de calidad final y liberación de producto.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_FQC_Personnel_and_Release_Verification.pdf
+      link_label: 'Descargar PDF'
+    - icon: T
+      icon_bg: blue
+      title: 'Informe de Retención y Trazabilidad'
+      desc: 'Etapa 4: Informe de muestras retenidas y trazabilidad por lote para aseguramiento de calidad.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Chlorantraniliprole_200SC_Retention_and_Traceability_Report.pdf
+      link_label: 'Descargar PDF'
+    - icon: 4
+      icon_bg: green
+      title: 'Verificación de Personal y Trazabilidad Etapa 4'
+      desc: 'Etapa 4: Registros de verificación de personal clave para muestras retenidas y trazabilidad por lote.'
+      link: https://assets.agrospear.com/site/downloads/qcqa/AGROSPEAR_Stage4_Personnel_and_Traceability_Verification.pdf
+      link_label: 'Descargar PDF'
+
+evidence_images:
+  tagline: 'Evidencia del Piso de Fábrica'
+  title: 'Registros de Inspección y Coordinación de Producción'
+  subtitle: 'Registros fotográficos del conjunto de documentos públicos aprobados, que muestran cómo se organizan la coordinación de producción, las responsabilidades de inspección y liberación.'
+  features:
+    - image: /images/qcqa/insecticide-pre-production-meeting.jpeg
+      alt: 'Reunión de coordinación pre-producción para un proyecto de fabricación agroquímica'
+      title: 'Coordinación Pre-Producción'
+      desc: 'Coordinación de producción antes del inicio de un lote, alineando responsabilidades técnicas, de producción y de calidad.'
+    - image: /images/qcqa/insecticide-four-party-meeting-roles.jpeg
+      alt: 'Roles y responsabilidades de la reunión de cuatro partes para el control de producción agroquímica'
+      title: 'Roles y Responsabilidades Definidos'
+      desc: 'Asignación de roles para el equipo de control de producción antes de la ejecución.'
+    - image: /images/qcqa/insecticide-iqc-inspection.jpeg
+      alt: 'Inspección de control de calidad de entrada de materias primas y embalaje agroquímico'
+      title: 'Inspección IQC de Entrada'
+      desc: 'Las materias primas y el embalaje de entrada se verifican antes de entrar en producción.'
+    - image: /images/qcqa/ipqc-critical-control-points.jpeg
+      alt: 'Puntos de control críticos de control de calidad en proceso en la producción agroquímica'
+      title: 'Puntos de Control Críticos IPQC'
+      desc: 'Puntos de inspección en proceso utilizados para identificar desviaciones antes de la siguiente etapa de producción.'
+    - image: /images/qcqa/fqc-personnel-release-verification.jpeg
+      alt: 'Personal de control de calidad final y verificación de liberación de producto'
+      title: 'Verificación de Liberación FQC/OQC'
+      desc: 'Inspección final y responsabilidades de liberación autorizada antes del envío.'
+    - image: /images/qcqa/traceability-key-personnel-verification.jpeg
+      alt: 'Trazabilidad por lote y verificación de control de calidad de muestras retenidas'
+      title: 'Trazabilidad y Muestras Retenidas'
+      desc: 'Evidencia del personal y registros que respaldan los controles de muestras retenidas y trazabilidad por lote.'
+
+cta:
+  title: '¿Necesita los Documentos de Calidad para su Proyecto OEM?'
+  subtitle: 'Envíe el tipo de formulación, mercado objetivo, configuración de embalaje y requisitos de inspección. Podemos asignar el dossier QC/QA apropiado y los registros de calidad específicos del proyecto.'
+  actions:
+    - variant: primary
+      text: 'Solicitar Documentación de Calidad'
+      href: /es/contact#trust-verification
+    - text: 'Ver Estándares de Inspección de Calidad'
+      href: /es/manufacturing/factory/quality-inspection
+    - text: 'Ver Proceso de Fábrica'
+      href: /es/manufacturing/factory/process
