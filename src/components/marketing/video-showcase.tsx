@@ -61,7 +61,8 @@ export function VideoShowcase({
               loading={eagerPoster ? 'eager' : 'lazy'}
               fetchPriority={eagerPoster ? 'high' : 'auto'}
               decoding="async"
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+              className="aspect-video h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+              style={{ contentVisibility: 'auto' }}
             />
             {video && (
               <span className="absolute inset-0 grid place-items-center">

@@ -4,9 +4,28 @@
 /* ── Self-hosted fonts (latin subset, /public/fonts) ─────────────────────────
    Served same-origin instead of fonts.googleapis.com: no render-blocking
    third-party request, and reachable for visitors in mainland China.
-   CJK text falls back to system fonts (see font stacks below). */
+   CJK text falls back to system fonts (see font stacks below).
+   Fallback font metric overrides below reduce CLS from font-display:swap. */
 @font-face {
-  font-family: "Manrope";
+  font-family: 'Manrope Fallback';
+  src: local(Arial);
+  size-adjust: 96.5%;
+  ascent-override: 108.4%;
+  descent-override: 32.9%;
+  line-gap-override: 0%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter Fallback';
+  src: local(Arial);
+  size-adjust: 101.3%;
+  ascent-override: 100.3%;
+  descent-override: 25.4%;
+  line-gap-override: 0%;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Manrope';
   font-style: normal;
   font-display: swap;
   font-weight: 400;
@@ -230,10 +249,10 @@
 }
 
 @theme {
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "PingFang SC",
+  --font-sans: "Inter", "Inter Fallback", -apple-system, BlinkMacSystemFont, "PingFang SC",
     "Microsoft YaHei UI", "Microsoft YaHei", "Segoe UI", "HarmonyOS Sans SC",
     "Noto Sans CJK SC", Roboto, Arial, sans-serif;
-  --font-display: "Manrope", "Inter", -apple-system, BlinkMacSystemFont, "PingFang SC",
+  --font-display: "Manrope", "Manrope Fallback", "Inter", "Inter Fallback", -apple-system, BlinkMacSystemFont, "PingFang SC",
     "Microsoft YaHei UI", "Segoe UI", "HarmonyOS Sans SC", "Noto Sans CJK SC", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;

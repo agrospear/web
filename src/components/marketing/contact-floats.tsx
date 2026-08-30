@@ -114,7 +114,7 @@ export function ContactFloats() {
         }`}
       >
         {wechatPanel}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2" style={{ containIntrinsicSize: '44px 44px' }}>
           <a
             href={WA_URL}
             target="_blank"
