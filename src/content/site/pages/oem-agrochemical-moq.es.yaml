@@ -6,20 +6,60 @@ meta:
 sections:
   - title: "Respuesta directa"
     directAnswer:
-      answer: "Las muestras cubren 1–4 toneladas; el lote piloto sobre plataformas existentes corre 5 toneladas; el MOQ de volumen estándar es de 20+ toneladas por lote de producción."
-      condition: "El MOQ específico depende de la formulación, el ingrediente activo, el etiquetado, el embalaje y si se necesita desarrollo de formulación nueva."
-      value: "1–4 t muestra · 5 t piloto · 20+ t por lote volumen estándar"
+      answer: "Las corridas piloto sobre plataformas existentes comienzan en 5 toneladas; el MOQ de volumen estándar es de 20+ toneladas por lote."
+      condition: "El MOQ específico depende del ingrediente activo, tipo de formulación, embalaje y si se necesita desarrollo de formulación personalizada."
+      value: "Co-branding con cantidades menores · 5 t piloto · 20+ t volumen estándar"
       verifiedDate: "2026-08-20"
       sourceType: "factory-record"
     body: |
-      El MOQ en Agrospear se escalona por nivel de personalización, no es un único número.
+      El MOQ en Agrospear se escalona por nivel de personalización, no es un único número fijo.
+      Cada nivel corresponde a un escenario de producción específico:
 
       | Escenario | MOQ | Unidad | Condición |
       |-----------|-----|--------|-----------|
-      | Plataforma existente, solo logotipo/etiqueta | 1–4 t | muestra | Misma formulación, mismo ingrediente activo, mismo envase |
-      | Etiquetado/empaque personalizado sobre plataforma existente | 5 t | lote piloto | Misma formulación; el diseño nuevo requiere prueba visual |
-      | Producción de volumen estándar | 20+ t | por lote de producción | Eficiencia completa de línea; múltiples SKU = lotes separados |
-      | Formulación nueva / desarrollo a medida | 20+ t | tirada de producción | I+D de formulación suma 15–20 días; tarifa de desarrollo única |
+      | Plataforma existente, solo superposición de etiqueta | Cantidades menores | por diseño | Misma formulación, mismo embalaje, misma concentración |
+      | Etiqueta/empaque personalizado sobre plataforma existente | 5 toneladas | lote piloto | Misma formulación; diseño de etiqueta nuevo requiere prueba visual |
+      | Producción de volumen estándar (cualquier plataforma) | 20+ toneladas | por lote | Por lote de formulación; múltiples SKU = lotes separados |
+      | Formulación nueva / desarrollo personalizado | 20+ toneladas | tirada de producción | El desarrollo de formulación suma 15–20 días; tarifa de I+D única |
+
+  - title: "¿Qué cuenta como 'lote de producción'?"
+    body: |
+      Un lote de producción estándar de 20+ toneladas produce producto listo para envasado.
+      Cada SKU distinto — es decir, una concentración diferente, tipo de formulación
+      o especificación de embalaje — requiere su propio lote y por lo tanto su propio MOQ.
+
+      Por eso el MOQ se indica "por lote" y no "por diseño": dos configuraciones de embalaje
+      de la misma formulación son dos lotes, dos MOQ.
+
+  - title: "Co-branding vs piloto vs volumen"
+    body: |
+      **Co-branding (cantidades menores)**: Su marca aplicada a una plataforma existente que ya está en
+      producción para otra marca. Sin cambios de etiqueta más allá de la colocación de la marca. Ruta más rápida
+      a una muestra con su marca.
+
+      **Lote piloto (5 toneladas)**: Diseño de etiqueta personalizado, embalaje o concentración sobre una
+      plataforma de formulación existente. Requiere aprobación de prueba visual antes de la producción. Ideal para
+      pruebas de mercado con un nuevo diseño.
+
+      **Producción de volumen (20+ toneladas por lote)**: Tirada de producción completa con cualquier combinación de
+      personalización. Este es el nivel comercial estándar.
+
+  - title: "MOQ de formulación personalizada"
+    body: |
+      Cuando su diseño requiere una nueva formulación (no solo una nueva etiqueta en un producto existente),
+      se debe completar I+D dedicado. Esto se ejecuta en el nivel de volumen (20+ toneladas) porque
+      la inversión en formulación requiere una tirada de producción para amortizar. El desarrollo suma 15–20 días al
+      tiempo de entrega estándar.
+
+      Propiedad de la formulación: usted es dueño de la formulación personalizada. Se almacena en nuestra
+      instalación y se usa exclusivamente para sus tiradas de producción.
+
+  - title: "Órdenes de muestra"
+    body: |
+      Muestras pre-producción están disponibles de 1–4 toneladas para confirmación de composición y calidad.
+      Se producen según su especificación y típicamente toman 7–14 días. El costo de la muestra se acredita
+      contra su primera orden de volumen.
+
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'

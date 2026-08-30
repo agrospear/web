@@ -123,12 +123,6 @@ evidence_gates:
       desc: 'Downloadable process and inspection dossiers covering SC/WDG, herbicide, insecticide, fungicide, acaricide/nematicide and PGR production, plus IQC, IPQC, FQC/OQC and traceability evidence.'
       link: '/manufacturing/qcqa-documents'
       link_label: 'Open the document library'
-    - icon: D
-      icon_bg: purple
-      title: 'Public QC/QA document library'
-      desc: 'Downloadable process and inspection dossiers covering SC/WDG, herbicide, insecticide, fungicide, acaricide/nematicide and PGR production, plus IQC, IPQC, FQC/OQC and traceability evidence.'
-      link: '/manufacturing/qcqa-documents'
-      link_label: 'Open the document library'
     - icon: T
       icon_bg: purple
       title: 'Traceability sample & quarantine'

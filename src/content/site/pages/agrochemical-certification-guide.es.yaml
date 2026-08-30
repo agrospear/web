@@ -6,21 +6,45 @@ meta:
 sections:
   - title: "Respuesta directa"
     directAnswer:
-      answer: "Agrospear posee certificaciones BSCI, ISO 9001 e ICAMA, y prepara documentación FAO/OMS por proyecto. ICAMA es obligatorio para fabricación y exportación desde China; FAO/OMS se prepara según el mercado de destino."
-      condition: "El alcance varía según mercado objetivo y configuración del producto. Números y validez disponibles por proyecto."
-      value: "BSCI · ISO 9001 · ICAMA · FAO/OMS · Trazabilidad por Lote"
+      answer: "Agrospear posee ISO 9001, BSCI y apoya el registro ICAMA y el cumplimiento de especificaciones FAO/OMS. El registro ICAMA aplica a productos destinados al mercado chino, no universalmente a todos los productos."
+      condition: "El alcance varía según mercado objetivo y configuración del producto. Números de certificado, validez y autoridades emisoras disponibles por proyecto bajo solicitud."
+      value: "ISO 9001 · BSCI · ICAMA · FAO/OMS · Trazabilidad por Lote"
       verifiedDate: "2026-08-20"
       sourceType: "certificate"
     body: |
-      La certificación debe indicarse con precisión. Afirmaciones genéricas como "FAO/OMS en todos los productos" pueden generar desconfianza si el comprador descubre que el alcance es más limitado.
+      La certificación es una preocupación clave en el abastecimiento y debe indicarse con precisión.
+      Afirmaciones genéricas como "ICAMA en todos los productos" pueden generar problemas de confianza si el comprador
+      descubre que el alcance es más limitado de lo esperado.
 
+  - title: "Detalles de certificación"
+    body: |
       | Certificación | Alcance | Autoridad | Aplica a |
       |---------------|---------|-----------|----------|
+      | ISO 9001 | Sistema de gestión de calidad | Organismo certificador (disponible bajo solicitud) | Instalación de fabricación |
       | BSCI | Auditoría de responsabilidad social | amfori BSCI | Instalación de fabricación |
-      | ISO 9001 | Sistema de gestión de calidad | Organismo certificador | Instalación de fabricación |
-      | ICAMA | Registro de agroquímicos China | Ministerio de Agricultura | Todas las formulaciones fabricadas |
-      | FAO/OMS | Especificaciones de plaguicidas | FAO/OMS | Formulaciones según mercado de destino |
-      | Trazabilidad por Lote | Registros de producción y análisis | Interno | Todos los lotes de producción |
+      | ICAMA | Registro de agroquímicos China | Ministerio de Agricultura, RPC | Productos destinados al mercado chino |
+      | FAO/OMS | Especificaciones de calidad internacionales | FAO/OMS | Productos agroquímicos aplicables por mercado |
+      | Trazabilidad por Lote | Registros de producción e informes de prueba | Sistema QA interno | Cada lote de producción |
+
+  - title: "Notas importantes sobre el alcance"
+    body: |
+      - **ICAMA** aplica a productos configurados para venta en el mercado chino. Un producto fabricado para
+        distribución en EE.UU. o África no lleva registro ICAMA a menos que se solicite específicamente.
+      - **ISO 9001** cubre el sistema de gestión de calidad de la instalación de fabricación, no la certificación
+        de productos individuales.
+      - **FAO/OMS** cubre estándares de calidad del producto: documentación disponible para
+        importadores que deben registrar productos en países de destino.
+      - Números de certificado, fechas de validez y autoridades emisoras están disponibles por proyecto bajo
+        solicitud. No publicamos números de certificado por razones de seguridad.
+      - Inspección de terceros disponible a través de SGS, TÜV, BV o Intertek para cualquier envío.
+
+  - title: "Cómo solicitar documentos de certificación"
+    body: |
+      Durante el proceso de consulta, especifique sus mercados objetivo y confirmaremos qué
+      certificaciones aplican a la configuración específica de su producto. Copias de certificados
+      (con detalles comerciales ocultados cuando sea necesario) se proporcionan como parte del
+      paquete de documentación del proyecto.
+
 evidence_review:
   tagline: 'Evidencia y verificación'
   title: 'ESPECIFICACIONES VERIFICADAS'
