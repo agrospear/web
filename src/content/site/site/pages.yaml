@@ -187,41 +187,7 @@
 
 
 
-- slug: pgr
-  label: PGR
-  path: /pgr
-  permalink: /pgr
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: body, type: content, label: 'Body Content' }
 
-- slug: seed-treatment
-  label: Seed Treatment
-  path: /seed-treatment
-  permalink: /seed-treatment
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: body, type: content, label: 'Body Content' }
-
-- slug: mixture
-  label: Mixture
-  path: /mixture
-  permalink: /mixture
-  sections:
-    - { key: label, type: content, label: 'Page Label' }
-    - { key: headline, type: content, label: 'Headline' }
-    - { key: subtitle, type: content, label: 'Subtitle' }
-    - { key: seo, type: content, label: 'SEO Metadata' }
-    - { key: faqs, type: faqs, label: 'FAQs' }
-    - { key: body, type: content, label: 'Body Content' }
 
 - slug: gallery
   label: Gallery
