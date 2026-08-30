@@ -29,6 +29,19 @@ pnpm dev
    - PDFs: `site/downloads/` → `assets.agrospear.com/site/downloads/`
    - QC/QA documents: `site/downloads/qcqa/` → `assets.agrospear.com/site/downloads/qcqa/`
 
+### Responsive image variants (read before adding images)
+
+Homepage images (hero, factory carousel, product categories) render via
+`<picture>` with responsive srcset variants (480/768/1024/1280, AVIF + WebP).
+Free Cloudflare R2 has **no on-the-fly resizing**, so every variant must be
+pre-generated and uploaded — otherwise the browser loads a 404 and the photo
+stays blank.
+
+After adding or changing any image in `scripts/agrospear-images/`, manually run
+the **`Process & upload responsive images`** GitHub Action
+(`workflow_dispatch`, `dry_run=false`). It regenerates `dist/responsive/` with
+Sharp and uploads every variant to `images/agrochemical/` via the Cloudflare API.
+
 4. Or use: `node deploy.mjs`
 
 ## Architecture
@@ -67,6 +80,12 @@ Image key: images/agrochemical/<category>/<path>
 PDF key:   site/downloads/<path>
 CDN URL:   https://assets.agrospear.com/images/agrochemical/<category>/<path>
 ```
+
+Canonical asset keys and the `assetUrl()` resolver live in
+`src/product/assets.ts`; brand-level URLs are re-exported from
+`src/config/branding.ts`. Responsive `<picture>` variants are named
+`<base>-{480|768|1024|1280}.{avif|webp}` and are generated + uploaded by the
+manual `Process & upload responsive images` workflow.
 
 ## SEO & AI Optimization
 

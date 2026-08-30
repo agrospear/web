@@ -45,7 +45,8 @@
 │   │   └── waitlist/        # Waitlist feature
 │   ├── product/             # Product-specific code
 │   │   ├── ai-content.ts    # AI content generation
-│   │   ├── asset-map.ts     # Image asset mapping
+│   │   ├── asset-map.ts     # Legacy image asset mapping
+│   │   ├── assets.ts        # Canonical R2/CDN asset registry (ASSET_KEYS + assetUrl)
 │   │   ├── branding.ts      # Brand constants
 │   │   ├── content.ts       # Page content
 │   │   ├── edge-redirects.ts# Edge redirects
@@ -160,7 +161,7 @@ Generated from all page content.
 - `deploy.yml` — Build and deploy to Cloudflare
 - `compress-and-upload-pdfs.yml` — PDF compression and R2 upload
 - `upload-site-assets.yml` — Image upload to R2
-- `process-responsive-images.yml` — Responsive image generation
+- `process-responsive-images.yml` — Responsive image generation (manual `workflow_dispatch`; regenerates `dist/responsive/` and uploads variants to R2)
 - `ai-index.yml` — AI search index generation
 - `website-performance.yml` — Performance monitoring
 - `cf-inspect.yml` — Cloudflare inspection
@@ -182,9 +183,41 @@ Required in `.dev.vars` or GitHub Secrets:
 - API responses: Varies by endpoint
 
 ### Image Optimization
-- WebP format for all images
-- Responsive images via srcset
+- WebP + AVIF formats for all images
+- Responsive images via `<picture>` + srcset
 - Lazy loading for below-fold images
+- Hero / LCP images load eagerly with `fetchpriority="high"`
+
+#### ResponsiveImage <picture> pipeline
+`src/components/ui/responsive-image.tsx` renders a `<picture>` element that
+auto-generates responsive srcset URL variants (widths **480/768/1024/1280**,
+AVIF + WebP) from the base asset URL, e.g.:
+
+```text
+factory/agrospear-factory-exterior.webp
+  → factory/agrospear-factory-exterior-480.webp
+  → factory/agrospear-factory-exterior-768.webp
+  → factory/agrospear-factory-exterior-1024.webp
+```
+
+**Critical operational requirement:** Free Cloudflare R2 has no on-the-fly
+resizing, so every srcset variant must be **pre-generated and uploaded to R2**
+under `images/agrochemical/`. If a variant is missing, the browser's selected
+`<source>` returns 404 and the image fails to render — the homepage photos
+(factory carousel, product categories) break even though the base URL works.
+
+Variants are generated and uploaded by the manual GitHub Actions workflow
+**`Process & upload responsive images`** (`.github/workflows/process-responsive-images.yml`):
+
+1. `node scripts/process-responsive-images.mjs` reads source images from
+   `scripts/agrospear-images/` (committed) and writes AVIF+WebP variants to
+   `dist/responsive/` using Sharp.
+2. The same workflow uploads every `dist/responsive/**` file to R2 under
+   `images/agrochemical/` via the Cloudflare API in the CI step.
+
+> The workflow only triggers on **`workflow_dispatch`** (manual). Run it after
+> adding/changing any source image in `scripts/agrospear-images/`, or the
+> `<picture>` srcset variants for that image will 404 and stay invisible.
 
 ## Security
 
