@@ -1,81 +1,97 @@
 ﻿meta:
   title: 'Pruebas de Estabilidad de Formulación | Fabricante OEM Agroquímico China | {SITE}'
-  description: 'En qué se diferencian las formulaciones agroquímicas de baja, media y alta concentración en estabilidad, coste, eficacia y aplicación, con consejos sobre la concentración óptima.'
+  description: 'Cómo las formulaciones SC, EC, WP y WDG difieren en estabilidad de vida útil, resistencia a la sedimentación y propiedades físico-químicas, con consejos de pruebas aceleradas.'
   author: 'Agrospear'
   datePublished: '2026-08-04'
   dateModified: '2026-08-07'
   back_text: 'Volver a Investigación'
+  keywords:
+    - 'estabilidad de formulación'
+    - 'vida útil'
+    - 'pruebas CIPAC'
 
 hero:
   tagline: 'Ingeniería'
-  title: 'Cómo elegir la concentración de la formulación — Análisis de ingeniería'
+  title: 'Cómo Garantizar la Estabilidad de la Formulación — Ingeniería de Vida Útil'
   subtitle: '6 min de lectura'
 
 answer:
   label: 'Respuesta directa'
-  text: 'La concentración equilibra la eficacia y la estabilidad: la baja concentración (50–150 g/L) es la más estable y fácil de aplicar: ideal para productos de contacto y mercados sensibles al precio; la media (150–350 g/L) es la elección polivalente para la mayoría de las aplicaciones; la alta concentración (350–500+ g/L) maximiza la eficacia y reduce el coste logístico para tratamientos de amplio espectro. Una concentración más baja es estructuralmente más estable, por lo que una formulación de 100 g/L se sedimenta menos que una de 500 g/L bajo las mismas condiciones de almacenamiento.'
+  text: 'La estabilidad equilibra la complejidad de la formulación con la vida útil: SC es la más exigente — requiere optimización del dispersante, control del tamaño de partícula y ajuste de viscosidad para resistir la sedimentación; EC es más fácil de estabilizar pero la migración del solvente debe controlarse; WDG ofrece la vida útil más larga debido a la baja actividad del agua; FS necesita polímeros formadores de película para la estabilidad de adherencia a la semilla. Una SC a 250 g/L con D50 < 3 µm y ≥ 95 % de suspensibilidad después de 14 días a 54 °C cumple especificación premium.'
   verified: '2026-08'
 
 content_html: |
-  <h2>Las tres concentraciones estándar</h2>
+  <h2>Las Cuatro Clases Estándar de Estabilidad</h2>
 
-  <h3>Baja concentración (50–150 g/L) — Contacto y estabilidad</h3>
+  <h3>SC — Concentrado en Suspensión</h3>
   <ul>
-    <li>Máxima estabilidad: menor sedimentación bajo almacenamiento prolongado</li>
-    <li>La más fácil de aplicar: menor viscosidad, mejor dispersión en agua</li>
-    <li>Excelente compatibilidad: menos riesgo de mezclas en tanque</li>
-    <li>Ideal para: productos de contacto, mercados sensibles al precio y aplicaciones en pequeñas superficies</li>
+    <li>Gestión de estabilidad más compleja — los sólidos suspendidos deben resistir la sedimentación</li>
+    <li>Requiere optimización del dispersante y tamaño de partícula < 3 µm D50</li>
+    <li>La viscosidad debe equilibrar la vertibilidad con el esfuerzo de fluencia anti-asentamiento</li>
+    <li>Especificación premium: ≥ 95 % de suspensibilidad, sin sedimentación después de 14 d a 54 °C</li>
+    <li>Ideal para: Herbicidas, fungicidas, aplicaciones foliares de alto valor</li>
   </ul>
 
-  <h3>Media concentración (150–350 g/L) — Polivalente</h3>
+  <h3>EC — Concentrado Emulsionable</h3>
   <ul>
-    <li>Buena estabilidad: proporción equilibrada entre concentración y suspensibilidad</li>
-    <li>Coste moderado: uso estándar de materias primas</li>
-    <li>Buena eficacia y facilidad de aplicación</li>
-    <li>Ideal para: insecticidas sistémicos, herbicidas de post-emergencia y uso general en cultivos de campo</li>
+    <li>Estabilidad física más simple — solución homogénea, sin sólidos suspendidos</li>
+    <li>La estabilidad de la emulsión al diluir es el parámetro crítico</li>
+    <li>La migración del solvente y la compatibilidad del contenedor deben controlarse</li>
+    <li>Ideal para: Insecticidas sistémicos, absorción rápida por el cultivo</li>
   </ul>
 
-  <h3>Alta concentración (350–500+ g/L) — Eficacia y logística</h3>
+  <h3>WDG — Granulado Dispersable en Agua</h3>
   <ul>
-    <li>Máxima eficacia: mayor cantidad de ingrediente activo por litro</li>
-    <li>Mayor riesgo de sedimentación: más materia prima en suspensión, mayor viscosidad</li>
-    <li>Menor coste logístico: menos tambores por hectárea tratada</li>
-    <li>Ideal para: herbicidas de amplio espectro, tratamientos de grandes superficies y programas de alta intensidad</li>
+    <li>Vida útil más larga — la baja actividad del agua previene la hidrólisis</li>
+    <li>La integridad del gránulo y la desintegración rápida deben mantenerse</li>
+    <li>La absorción de humedad durante el almacenamiento es el riesgo principal</li>
+    <li>Ideal para: Fungicidas y herbicidas premium, manejo sin polvo</li>
   </ul>
 
-  <h2>Análisis de ingeniería</h2>
-  <p>La estabilidad de una formulación agroquímica viene determinada por la concentración del ingrediente activo y por la eficacia del sistema de dispersión. A 500 g/L, una formulación SC presenta aproximadamente un 30% más de sedimentación bajo almacenamiento que una de 100 g/L con el mismo sistema de dispersión. La estabilidad primaria procede de la suspensibilidad y la viscosidad; la estabilidad secundaria está influida por el tamaño de partícula y la compatibilidad de los coformulantes.</p>
+  <h3>FS — Tratamiento de Semillas Flowable</h3>
+  <ul>
+    <li>La estabilidad del polímero formador de película es crítica — debe adherirse a la semilla sin descascarillarse</li>
+    <li>El colorante y el ingrediente activo deben permanecer distribuidos homogéneamente</li>
+    <li>Se requiere estabilidad de almacenamiento a baja temperatura (prueba a 5 °C)</li>
+    <li>Ideal para: Programas de tratamiento de semillas de cereales y hortalizas</li>
+  </ul>
 
-  <h2>Concentración según el tipo de cultivo</h2>
+  <h2>Análisis de Estabilidad</h2>
+  <p>La estabilidad de vida útil de una formulación agroquímica está gobernada por sus propiedades físico-químicas y la interacción entre el ingrediente activo, los coformulantes y el embalaje. A 54 °C de almacenamiento acelerado, una SC con D50 < 3 µm y un paquete de dispersante bien optimizado muestra aproximadamente un 30 % menos de sedimentación que una SC con D50 > 5 µm. La retención del contenido del ingrediente activo se determina principalmente por el pH y la estabilidad hidrolítica; la estabilidad secundaria está influida por la compatibilidad del contenedor y el oxígeno del espacio de cabeza.</p>
+
+  <h2>Estabilidad por Tipo de Formulación y Condición de Almacenamiento</h2>
   <table class="w-full text-sm border-collapse">
     <thead>
       <tr class="bg-gray-100">
-        <th class="p-3 text-left font-semibold text-gray-900 border">Tipo de aplicación</th>
-        <th class="p-3 text-left font-semibold text-gray-900 border">Concentración recomendada</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">Condición de Almacenamiento</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">SC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">EC</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">WDG</th>
+        <th class="p-3 text-left font-semibold text-gray-900 border">FS</th>
       </tr>
     </thead>
     <tbody>
-      <tr><td class="p-3 border">Tratamiento de semillas (FS)</td><td class="p-3 border">200–500 g/L</td></tr>
-      <tr><td class="p-3 border">Herbicida de post-emergencia</td><td class="p-3 border">250–480 g/L</td></tr>
-      <tr><td class="p-3 border">Insecticida sistémico</td><td class="p-3 border">150–350 g/L</td></tr>
-      <tr><td class="p-3 border">Fungicida de contacto</td><td class="p-3 border">50–250 g/L</td></tr>
+      <tr><td class="p-3 border">54 °C / 14 d (acelerado)</td><td class="p-3 border">≥ 97 % i.a., ≥ 90 % susp.</td><td class="p-3 border">≥ 97 % i.a., emulsión pasa</td><td class="p-3 border">≥ 97 % i.a., desint. < 60 s</td><td class="p-3 border">≥ 95 % i.a., sin descascarillado</td></tr>
+      <tr><td class="p-3 border">40 °C / 75 % HR / 28 d</td><td class="p-3 border">≥ 97 % i.a., ≥ 92 % susp.</td><td class="p-3 border">≥ 98 % i.a., emulsión pasa</td><td class="p-3 border">≥ 98 % i.a., humedad < 2 %</td><td class="p-3 border">≥ 97 % i.a., película intacta</td></tr>
+      <tr><td class="p-3 border">25 °C / 60 % HR / 24 meses</td><td class="p-3 border">≥ 97 % i.a., sin sedimentación</td><td class="p-3 border">≥ 98 % i.a., emulsión pasa</td><td class="p-3 border">≥ 98 % i.a., flujo libre</td><td class="p-3 border">≥ 97 % i.a., película uniforme</td></tr>
+      <tr><td class="p-3 border">5 °C / 7 d (prueba fría)</td><td class="p-3 border">Sin cristalización</td><td class="p-3 border">Sin separación de fases</td><td class="p-3 border">N/A</td><td class="p-3 border">Sin gelificación, vertible</td></tr>
     </tbody>
   </table>
 
-  <h2>Equilibrio entre concentración y estabilidad</h2>
-  <p>Una idea errónea habitual es que un sistema de dispersión más potente puede compensar una concentración excesiva. A 500 g/L, una formulación con dispersante estándar muestra más sedimentación que una de 250 g/L con el mismo dispersante porque la carga de partículas domina la ecuación de la estabilidad coloidal. Para los distribuidores orientados a la calidad, una formulación de menor concentración con sistema de dispersión optimizado supera a una de alta concentración con dispersante insuficiente.</p>
+  <h2>Pruebas Aceleradas vs. Vida Útil Real</h2>
+  <p>Una idea errónea habitual es que pasar 14 días a 54 °C garantiza 2 años de estabilidad de vida útil. En realidad, la prueba a 54 °C predice principalmente la degradación hidrolítica y la inestabilidad física a temperaturas elevadas; la vida útil real depende del tipo de contenedor, el espacio de cabeza y la distribución de temperatura de almacenamiento. Para afirmaciones robustas de vida útil, recomendamos datos de 54 °C (14 d), 40 °C/75 % HR (28 d) y 25 °C/60 % HR (12–24 meses), más una prueba fría a 5 °C para formulaciones líquidas.</p>
 
-  <h2>Gama de Agrospear</h2>
+  <h2>Estándares de Estabilidad de Agrospear</h2>
   <ul>
-    <li><strong>Baja concentración:</strong> Lambda-cialotrina EC 50 g/L: insecticida de contacto para hortalizas y frutales</li>
-    <li><strong>Media concentración:</strong> Imidacloprid SC 350 g/L: insecticida sistémico para uso general en cultivos de campo</li>
-    <li><strong>Alta concentración:</strong> Glifosato SL 480 g/L: herbicida de amplio espectro para grandes superficies y programas de alta intensidad</li>
+    <li><strong>Productos SC:</strong> Serie SC Agrospear — D50 < 3 µm, ≥ 95 % de suspensibilidad después de 14 d a 54 °C, retención de contenido activo ≥ 97 %</li>
+    <li><strong>Productos EC:</strong> Serie EC Agrospear — estabilidad de emulsión pasa (0 mL crema, 0 mL sedimento) en aguas CIPAC C y D, retención de contenido activo ≥ 98 %</li>
+    <li><strong>Productos WDG:</strong> Serie WDG Agrospear — desintegración < 60 s, flujo libre después de 24 meses a 25 °C, absorción de humedad < 1 %</li>
   </ul>
-  <p>Todas las formulaciones utilizan sistemas de dispersión certificados con estabilidad validada por CIPAC y materias primas de grado técnico.</p>
-  <p>La concentración, el tipo de formulación y la especificación del coformulante son configurables para líneas personalizadas: descubre cómo <a href="/es/oem-manufacturing">diseñamos formulaciones para marcas OEM y de etiqueta privada</a> y recorre nuestro proceso de producción en la <a href="/es/manufacturing/factory">planta de la fábrica</a>.</p>
+  <p>Todas las formulaciones utilizan paquetes de coformulantes validados por pruebas de estabilidad aceleradas y a largo plazo según métodos CIPAC.</p>
+  <p>Los parámetros de estabilidad, la selección de coformulantes y el embalaje son configurables para líneas personalizadas — descubra cómo <a href="/es/oem-manufacturing">diseñamos formulaciones para marcas OEM y de etiqueta privada</a> y recorra nuestras pruebas de estabilidad en la <a href="/es/manufacturing/factory">planta de fabricación</a>.</p>
 
 cta:
-  title: '¿No sabes qué concentración es la adecuada para ti?'
-  subtitle: 'Explora nuestra gama de formulaciones o consulta a nuestro equipo de ingeniería.'
+  title: '¿No está seguro de qué especificación de estabilidad es adecuada para su mercado?'
+  subtitle: 'Explore nuestra gama de formulaciones o consulte a nuestro equipo de ingeniería de estabilidad.'
   button_text: 'Ver productos agroquímicos'
   button_link: /es/products
