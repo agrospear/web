@@ -377,9 +377,6 @@ export function hasLocaleVariant(path: string, locale: string): boolean {
   return false
 }
 
-/** @deprecated Use hasLocaleVariant instead. */
-export const hasSpanishVariant = hasLocaleVariant
-
 /** Live page paths that have a locale variant (for sitemap generation). */
 export function getLocalePaths(locale: string): string[] {
   const overlay = PAGE_LOCALE_MAP[locale]
@@ -387,9 +384,6 @@ export function getLocalePaths(locale: string): string[] {
   if (suffixMatch(siteLocaleGlobs[locale] ?? {}, `faqs.${locale}.yaml`)) pages.push('/faq')
   return pages
 }
-
-/** @deprecated Use getLocalePaths instead. */
-export const getEsPaths = () => getLocalePaths('es')
 
 /** Detail paths (news/products/technology/case-use) that have a locale sidecar. */
 export function getLocaleContentPaths(locale: string): string[] {
@@ -401,8 +395,6 @@ export function getLocaleContentPaths(locale: string): string[] {
   return paths
 }
 
-/** @deprecated Use getLocaleContentPaths instead. */
-export const getEsContentPaths = () => getLocaleContentPaths('es')
 
 export function getContentPages(): ContentPage[] {
   return ALL_PAGES

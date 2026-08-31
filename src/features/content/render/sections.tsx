@@ -218,7 +218,7 @@ interface CtaAction {
 
 function ctaActions(c: Record<string, unknown>): CtaAction[] {
   return (Array.isArray(c.actions) ? c.actions : [])
-    .filter((a): a is R => a !== null && typeof a === 'object')
+    .filter((a): a is Record<string, unknown> => a !== null && typeof a === 'object')
     .map((a) => ({
       variant: str(a.variant) || 'primary',
       text: str(a.text) || str(a.label) || '',
