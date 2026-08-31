@@ -53,6 +53,21 @@ product_highlights:
       link_label: 'Ver detalles de formulación'
       href: /es/products/herbicides
 
+photo_gallery:
+  tagline: Referencia de campo
+  title: Imágenes de campo de herbicidas
+  subtitle: Referencias ilustrativas de control de malezas y aplicación para la gama de herbicidas. Estas fotos de referencia apoyan la descripción anterior y no son fotografías de las propias operaciones de Agrospear.
+  note: 'Imágenes ilustrativas — no son fotografías de campo de Agrospear.'
+  items:
+    - image: https://assets.agrospear.com/images/agrochemical/field/spraying-soybean.jpg
+      alt: Máquina de pulverización defensiva aplicando protección de cultivos en una plantación de soja
+      title: Aplicación en campo
+      caption: Maquinaria de pulverización aplicando protección de cultivos en soja
+    - image: https://assets.agrospear.com/images/agrochemical/field/soybean-weeds.jpg
+      alt: Manejo de las principales malezas en un campo de soja
+      title: Espectro de malezas
+      caption: Manejo de las principales malezas en el cultivo de soja
+
 faqs:
   tagline: FAQ
   title: 'Formulaciones de herbicida — Preguntas frecuentes'

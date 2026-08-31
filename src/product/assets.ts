@@ -29,6 +29,42 @@ export const ASSET_KEYS = {
     fungicides: `${ASSETS_PREFIX}/products/fungicides-category.webp`,
     pgr: `${ASSETS_PREFIX}/products/pgr-category.webp`,
   },
+  /**
+   * Illustrative gallery imagery (architecture/field shots) added to the site
+   * during the 2026 SEO/GEO audit. Sourced as generic, unbranded imagery — NOT
+   * photographs of Agrospear's own facility. Used below any factory page block
+   * that must not claim these are actual plant photography.
+   */
+  quality: {
+    inspection: `${ASSETS_PREFIX}/quality/quality-inspection.jpg`,
+    soilAnalysis: `${ASSETS_PREFIX}/quality/soil-analysis.jpg`,
+    labViscosity: `${ASSETS_PREFIX}/quality/lab-viscosity.jpg`,
+  },
+  field: {
+    sprayingSoybean: `${ASSETS_PREFIX}/field/spraying-soybean.jpg`,
+    riceBlast: `${ASSETS_PREFIX}/field/rice-blast.jpg`,
+    soybeanWeeds: `${ASSETS_PREFIX}/field/soybean-weeds.jpg`,
+    insectApplication: `${ASSETS_PREFIX}/field/insect-application.jpg`,
+    aphids: `${ASSETS_PREFIX}/field/aphids.jpg`,
+    ricePlanthopper: `${ASSETS_PREFIX}/field/rice-planthopper.jpg`,
+    tomatoPests: `${ASSETS_PREFIX}/field/tomato-pests.jpg`,
+    cucumberDisease: `${ASSETS_PREFIX}/field/cucumber-disease.jpg`,
+    cerealRust: `${ASSETS_PREFIX}/field/cereal-rust.jpg`,
+    grapevineProtection: `${ASSETS_PREFIX}/field/grapevine-protection.jpg`,
+  },
+  equipment: {
+    mixingTank: `${ASSETS_PREFIX}/equipment/mixing-tank.jpg`,
+    cropProtectionProducts: `${ASSETS_PREFIX}/equipment/crop-protection-products.jpg`,
+    cropProtectionEquipment: `${ASSETS_PREFIX}/equipment/crop-protection-equipment.jpg`,
+  },
+  docs: {
+    sdsSample: `${ASSETS_PREFIX}/docs/sds-sample.jpg`,
+    quotationTemplate: `${ASSETS_PREFIX}/docs/quotation-template.jpg`,
+  },
+  icons: {
+    pipette: `${ASSETS_PREFIX}/icons/lab-icons-pipette.jpg`,
+    quality: `${ASSETS_PREFIX}/icons/lab-icons-quality.jpg`,
+  },
 } as const
 
 export function assetUrl(key: string): string {

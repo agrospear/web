@@ -10,6 +10,24 @@ seo:
   description: 'Full-range insecticide contract manufacturing with IRAC resistance management. SC, EC, WDG, ME formulations. GMP/BSCI certified, 200+ workers, exports to 50+ countries.'
   datePublished: '2025-01-15'
   dateModified: '2026-08-23'
+photo_gallery:
+  tagline: Field Reference
+  title: Insecticide Field Imagery
+  subtitle: Illustrative application and pest references for the insecticide range. These reference photos support the overview above and are not photographs of Agrospear's own operations.
+  note: 'Illustrative imagery — not Agrospear field photography.'
+  items:
+    - image: https://assets.agrospear.com/images/agrochemical/field/insect-application.jpg
+      alt: Farmer monitoring crop protection application in an orchard
+      title: Field Application
+      caption: Crop protection application in an orchard
+    - image: https://assets.agrospear.com/images/agrochemical/field/aphids.jpg
+      alt: Close-up of aphids on a plant
+      title: Aphids
+      caption: Aphid infestation on plant tissue
+    - image: https://assets.agrospear.com/images/agrochemical/field/rice-planthopper.jpg
+      alt: Rice planthopper insect pest on rice
+      title: Rice Planthopper
+      caption: Planthopper pest on rice
 faqs:
   - question: 'What are translaminar insecticides and when are they preferred?'
     answer: 'Translaminar insecticides such as abamectin and emamectin benzoate penetrate leaf tissue and form a reservoir within the mesophyll, controlling pests that feed on the undersides of leaves where spray coverage is limited. They are preferred in crops with dense canopies — cotton, vegetables, fruit trees — where thorough contact coverage is impractical.'

@@ -53,6 +53,21 @@ product_highlights:
       link_label: 'View formulation details'
       href: /products/pgr
 
+photo_gallery:
+  tagline: Field Reference
+  title: PGR Field Imagery
+  subtitle: Illustrative plant-growth and crop-protection references for the plant growth regulator range. These reference photos support the overview above and are not photographs of Agrospear's own operations.
+  note: 'Illustrative imagery — not Agrospear field photography.'
+  items:
+    - image: https://assets.agrospear.com/images/agrochemical/field/grapevine-protection.jpg
+      alt: Grapevine treated with crop protection in a vineyard
+      title: Grapevine Application
+      caption: Crop protection application in a vineyard
+    - image: https://assets.agrospear.com/images/agrochemical/field/soybean-weeds.jpg
+      alt: Managing key weeds in a soybean field
+      title: Crop Management
+      caption: Managing weeds in a soybean cropping system
+
 faqs:
   tagline: FAQ
   title: 'PGR Formulations — Frequently Asked Questions'

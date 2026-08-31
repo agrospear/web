@@ -38,6 +38,25 @@ product_highlights:
       desc: 'Fungicida preventivo de amplio espectro para Ascomicetos, Basidiomicetos y Oomicetos. Ideal para aplicaciones foliares con adherencia resistente a la lluvia. Disponible en formulación SC.'
       formulations: 'SC'
 
+photo_gallery:
+  tagline: Referencia de campo
+  title: Imágenes de campo de fungicidas
+  subtitle: Referencias ilustrativas de enfermedades y protección de cultivos para la gama de fungicidas. Estas fotos de referencia apoyan la descripción anterior y no son fotografías de las propias operaciones de Agrospear.
+  note: 'Imágenes ilustrativas — no son fotografías de campo de Agrospear.'
+  items:
+    - image: https://assets.agrospear.com/images/agrochemical/field/rice-blast.jpg
+      alt: Enfermedad del añublo del arroz en la planta de arroz
+      title: Añublo del arroz
+      caption: Enfermedad del añublo en el arroz
+    - image: https://assets.agrospear.com/images/agrochemical/field/cucumber-disease.jpg
+      alt: Síntomas de mildiu velloso en hojas de pepino
+      title: Enfermedad del pepino
+      caption: Síntomas de mildiu velloso en el pepino
+    - image: https://assets.agrospear.com/images/agrochemical/field/cereal-rust.jpg
+      alt: Enfermedad de la roya que afecta un cultivo de cereal
+      title: Roya de cereales
+      caption: Roya en cultivos de cereal
+
 faqs:
   tagline: FAQ
   title: 'Formulaciones de Fungicidas — Preguntas Frecuentes'

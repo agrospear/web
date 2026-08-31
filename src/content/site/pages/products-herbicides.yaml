@@ -10,6 +10,20 @@ seo:
   description: 'Full-spectrum herbicide contract manufacturing: SC, EC, WDG, WP, SL formulations with HRAC-aligned resistance management strategies. ISO 9001/GMP certified, 50 000+ t capacity.'
   datePublished: '2025-01-15'
   dateModified: '2026-08-23'
+photo_gallery:
+  tagline: Field Reference
+  title: Herbicide Field Imagery
+  subtitle: Illustrative weed-control and spraying references for the herbicide range. These reference photos support the overview above and are not photographs of Agrospear's own operations.
+  note: 'Illustrative imagery — not Agrospear field photography.'
+  items:
+    - image: https://assets.agrospear.com/images/agrochemical/field/spraying-soybean.jpg
+      alt: Defensive spraying machine applying crop protection in a soybean plantation
+      title: Field Application
+      caption: Spraying machinery applying crop protection in soybeans
+    - image: https://assets.agrospear.com/images/agrochemical/field/soybean-weeds.jpg
+      alt: Tackling the top two weeds in a soybean field
+      title: Weed Spectrum
+      caption: Managing key weeds in soybean cropping
 faqs:
   - question: 'What is the difference between selective and non-selective herbicides?'
     answer: 'Selective herbicides target specific weed species while leaving the crop unharmed — for example, nicosulfuron in maize. Non-selective herbicides such as glyphosate and glufosinate control all vegetation and are used for burndown, stale seedbed, or non-crop situations. Agrospear manufactures both classes across multiple formulation types.'

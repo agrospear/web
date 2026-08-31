@@ -210,6 +210,37 @@ qc_dashboard:
       label: Stability hold duration
       detail: Every batch at 54°C per CIPAC MT 46
 
+photo_gallery:
+  tagline: Facility & Quality Imagery
+  title: Factory & Laboratory Overview
+  subtitle: Illustrative imagery of agrochemical formulation, quality testing and manufacturing equipment. These reference photos support the overview above; they are not photographs of Agrospear's own plant.
+  note: 'Illustrative imagery — not Agrospear facility photography.'
+  items:
+    - image: https://assets.agrospear.com/images/agrochemical/quality/quality-inspection.jpg
+      alt: Quality inspector testing an agrochemical sample with a micropipette in a laboratory
+      title: Analytical Inspection
+      caption: Batch testing and specification verification in a quality laboratory
+    - image: https://assets.agrospear.com/images/agrochemical/quality/soil-analysis.jpg
+      alt: Laboratory analysis of pesticide residues in soil samples
+      title: Residue Analysis
+      caption: Pesticide residue and soil analysis
+    - image: https://assets.agrospear.com/images/agrochemical/quality/lab-viscosity.jpg
+      alt: Viscosity measurement of fertilizers and agrochemicals in a laboratory
+      title: Viscosity Testing
+      caption: Physical property verification for formulations
+    - image: https://assets.agrospear.com/images/agrochemical/equipment/mixing-tank.jpg
+      alt: Stainless steel steam-jacketed mixing tank used in agrochemical compounding
+      title: Compounding Tank
+      caption: Steam-jacketed mixing tank for formulation
+    - image: https://assets.agrospear.com/images/agrochemical/equipment/crop-protection-products.jpg
+      alt: Range of crop protection product containers in a warehouse
+      title: Finished Products
+      caption: Packed crop protection products ready for shipment
+    - image: https://assets.agrospear.com/images/agrochemical/equipment/crop-protection-equipment.jpg
+      alt: Crop protection application and plant protection demonstration equipment
+      title: Protection Equipment
+      caption: Plant protection and application equipment
+
 process_cta:
   title: See our manufacturing process
   desc: Follow a formulation through every stage of production.

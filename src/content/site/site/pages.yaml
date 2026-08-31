@@ -682,6 +682,7 @@
     - { key: workforce, type: content, label: 'Workforce' }
     - { key: material_traceability, type: content, label: 'Material Traceability' }
     - { key: qc_dashboard, type: content, label: 'QC Dashboard' }
+    - { key: photo_gallery, type: photo_gallery, label: 'Illustrative Imagery' }
     - { key: process_cta, type: cta, label: 'Process CTA' }
     - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: related, type: features, label: 'Related Solutions' }
@@ -695,6 +696,7 @@
     - { key: answer, type: answer, label: 'Direct Answer' }
     - { key: intro, type: content, label: 'Introduction' }
     - { key: product_highlights, type: features, label: 'Product Highlights' }
+    - { key: photo_gallery, type: photo_gallery, label: 'Field Imagery' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
@@ -707,6 +709,7 @@
     - { key: answer, type: answer, label: 'Direct Answer' }
     - { key: intro, type: content, label: 'Introduction' }
     - { key: product_highlights, type: features, label: 'Product Highlights' }
+    - { key: photo_gallery, type: photo_gallery, label: 'Field Imagery' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
@@ -719,6 +722,7 @@
     - { key: answer, type: answer, label: 'Direct Answer' }
     - { key: intro, type: content, label: 'Introduction' }
     - { key: product_highlights, type: features, label: 'Product Highlights' }
+    - { key: photo_gallery, type: photo_gallery, label: 'Field Imagery' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
@@ -846,6 +850,7 @@
     - { key: answer, type: answer, label: 'Direct Answer' }
     - { key: intro, type: content, label: 'Introduction' }
     - { key: product_highlights, type: features, label: 'Product Highlights' }
+    - { key: photo_gallery, type: photo_gallery, label: 'Field Imagery' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 

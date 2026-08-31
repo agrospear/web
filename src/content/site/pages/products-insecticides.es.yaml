@@ -52,6 +52,25 @@ product_highlights:
       link_label: 'Ver detalles'
       href: /es/products/insecticides
 
+photo_gallery:
+  tagline: Referencia de campo
+  title: Imágenes de campo de insecticidas
+  subtitle: Referencias ilustrativas de aplicación y plagas para la gama de insecticidas. Estas fotos de referencia apoyan la descripción anterior y no son fotografías de las propias operaciones de Agrospear.
+  note: 'Imágenes ilustrativas — no son fotografías de campo de Agrospear.'
+  items:
+    - image: https://assets.agrospear.com/images/agrochemical/field/insect-application.jpg
+      alt: Agricultor monitoreando la aplicación de protección de cultivos en un huerto
+      title: Aplicación en campo
+      caption: Aplicación de protección de cultivos en un huerto
+    - image: https://assets.agrospear.com/images/agrochemical/field/aphids.jpg
+      alt: Primer plano de pulgones en una planta
+      title: Pulgones
+      caption: Infestación de pulgones en el tejido vegetal
+    - image: https://assets.agrospear.com/images/agrochemical/field/rice-planthopper.jpg
+      alt: Plaga de saltamontes del arroz en el arrozal
+      title: Saltamontes del arroz
+      caption: Plaga de saltamontes en el arroz
+
 faqs:
   tagline: FAQ
   title: 'Formulaciones de insecticida — Preguntas frecuentes'

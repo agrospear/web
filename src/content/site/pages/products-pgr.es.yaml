@@ -53,6 +53,21 @@ product_highlights:
       link_label: 'Ver detalles de formulación'
       href: /es/products/pgr
 
+photo_gallery:
+  tagline: Referencia de campo
+  title: Imágenes de campo de fitorreguladores
+  subtitle: Referencias ilustrativas de crecimiento vegetal y protección de cultivos para la gama de fitorreguladores. Estas fotos de referencia apoyan la descripción anterior y no son fotografías de las propias operaciones de Agrospear.
+  note: 'Imágenes ilustrativas — no son fotografías de campo de Agrospear.'
+  items:
+    - image: https://assets.agrospear.com/images/agrochemical/field/grapevine-protection.jpg
+      alt: Vid tratada con protección de cultivos en un viñedo
+      title: Aplicación en vid
+      caption: Aplicación de protección de cultivos en un viñedo
+    - image: https://assets.agrospear.com/images/agrochemical/field/soybean-weeds.jpg
+      alt: Manejo de las principales malezas en un campo de soja
+      title: Manejo de cultivos
+      caption: Manejo de malezas en un sistema de cultivo de soja
+
 faqs:
   tagline: FAQ
   title: 'Formulaciones de PGR — Preguntas frecuentes'

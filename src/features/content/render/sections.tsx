@@ -1451,6 +1451,7 @@ const KEY_WIDGETS: Record<string, (c: Record<string, unknown>) => ReactNode | nu
   rd_services: (c) => <ServicesWidget c={c} />,
   features3_cases: (c) => <CaseCardsWidget c={c} />,
   categories: (c) => <CategoriesWidget c={c} />,
+  photo_gallery: (c) => <PhotoGalleryWidget c={c} />,
   table: (c) => <SizeTableWidget c={c} />,
   defect_matrix: (c) => <SizeTableWidget c={c} />,
   method_cards: (c) => <SizeTableWidget c={c} />,
@@ -1491,6 +1492,54 @@ const TYPE_WIDGETS: Record<string, (c: Record<string, unknown>) => ReactNode | n
   html: (c) => <HtmlWidget html={str(c)} />,
   answer: (c) => <DirectAnswerWidget c={c} />,
   content: (c) => <ContentWidget c={c} />,
+  photo_gallery: (c) => <PhotoGalleryWidget c={c} />,
+}
+
+/* ─────────────────────────── photo gallery ─────────────────────────── */
+
+/**
+ * Responsive photo gallery (audit §16 image SEO). Reads `items` with
+ * { image, alt, title, caption } and renders an image grid. The gallery is used
+ * for illustrative imagery below factory/field copy — it is NOT labeled as
+ * Agrospear's own facility photography.
+ */
+function PhotoGalleryWidget({ c }: { c: Record<string, unknown> }) {
+  const items = (arr(c.items).length ? arr(c.items) : arr(c.photos)) as Record<string, unknown>[]
+  if (items.length === 0) return null
+  const note = str(c.note) || str(c.attribution) || ''
+  return (
+    <Container>
+      {(str(c.tagline) || str(c.title) || str(c.subtitle)) && (
+        <SectionHead kicker={str(c.tagline)} title={brandify(str(c.title) || '')} sub={brandify(str(c.subtitle) || '')} />
+      )}
+      <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {items.map((it) => {
+          const image = assetUrl(str(it.image))
+          if (!image) return null
+          return (
+            <figure key={String(it.title) || String(it.image)} className="agro-card overflow-hidden p-0">
+              <img
+                src={image}
+                alt={str(it.alt) || str(it.title) || str(it.caption) || ''}
+                width={800}
+                height={600}
+                loading="lazy"
+                decoding="async"
+                className="aspect-[4/3] w-full border-b border-border-2 bg-bg-alt object-cover"
+              />
+              {(str(it.title) || str(it.caption)) && (
+                <figcaption className="p-4">
+                  {str(it.title) && <h3 className="font-display text-[15px] font-bold">{brandify(str(it.title))}</h3>}
+                  {str(it.caption) && <p className="mt-1 text-[12.5px] leading-relaxed text-fg-2">{brandify(str(it.caption))}</p>}
+                </figcaption>
+              )}
+            </figure>
+          )
+        })}
+      </div>
+      {note && <p className="mt-6 text-[11.5px] text-fg-3">{brandify(note)}</p>}
+    </Container>
+  )
 }
 
 /* ─────────────────────── generic object-array table ─────────────────────── */

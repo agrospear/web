@@ -10,6 +10,24 @@ seo:
   description: 'Contract fungicide manufacturing with FRAC resistance management. SC, WDG, WP, FS formulations for foliar and seed treatment. ISO 9001/GMP certified, 50 000+ t capacity.'
   datePublished: '2025-01-15'
   dateModified: '2026-08-23'
+photo_gallery:
+  tagline: Field Reference
+  title: Fungicide Field Imagery
+  subtitle: Illustrative disease and crop-protection references for the fungicide range. These reference photos support the overview above and are not photographs of Agrospear's own operations.
+  note: 'Illustrative imagery — not Agrospear field photography.'
+  items:
+    - image: https://assets.agrospear.com/images/agrochemical/field/rice-blast.jpg
+      alt: Rice blast disease on rice plant
+      title: Rice Blast
+      caption: Rice blast disease on rice
+    - image: https://assets.agrospear.com/images/agrochemical/field/cucumber-disease.jpg
+      alt: Cucumber downy mildew disease symptoms on leaves
+      title: Cucumber Disease
+      caption: Downy mildew symptoms on cucumber
+    - image: https://assets.agrospear.com/images/agrochemical/field/cereal-rust.jpg
+      alt: Rust disease affecting a cereal crop
+      title: Cereal Rust
+      caption: Rust on cereal crops
 faqs:
   - question: 'What is the difference between preventive and curative fungicide action?'
     answer: 'Preventive (protective) fungicides such as mancozeb and chlorothalonil form a chemical barrier on the plant surface before infection occurs. Curative (systemic) fungicides like propiconazole and tebuconazole are absorbed into plant tissue and can arrest early-stage infections that have already penetrated. Effective disease programs typically combine both modes for layered protection.'

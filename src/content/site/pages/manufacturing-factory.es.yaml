@@ -210,6 +210,37 @@ qc_dashboard:
       label: Duración de la retención de estabilidad
       detail: Cada lote a 54 °C según CIPAC MT 46
 
+photo_gallery:
+  tagline: Imágenes de planta y calidad
+  title: Resumen de la fábrica y el laboratorio
+  subtitle: Imágenes ilustrativas de formulación agroquímica, pruebas de calidad y equipos de fabricación. Estas fotos de referencia apoyan la descripción anterior; no son fotografías de la propia planta de Agrospear.
+  note: 'Imágenes ilustrativas — no son fotografías de la planta de Agrospear.'
+  items:
+    - image: https://assets.agrospear.com/images/agrochemical/quality/quality-inspection.jpg
+      alt: Inspector de calidad probando una muestra agroquímica con micropipeta en un laboratorio
+      title: Inspección analítica
+      caption: Pruebas de lote y verificación de especificaciones en un laboratorio de calidad
+    - image: https://assets.agrospear.com/images/agrochemical/quality/soil-analysis.jpg
+      alt: Análisis de laboratorio de residuos de plaguicidas en muestras de suelo
+      title: Análisis de residuos
+      caption: Análisis de residuos de plaguicidas y del suelo
+    - image: https://assets.agrospear.com/images/agrochemical/quality/lab-viscosity.jpg
+      alt: Medición de viscosidad de fertilizantes y agroquímicos en un laboratorio
+      title: Prueba de viscosidad
+      caption: Verificación de propiedades físicas de las formulaciones
+    - image: https://assets.agrospear.com/images/agrochemical/equipment/mixing-tank.jpg
+      alt: Tanque mezclador de acero inoxidable con camisa de vapor utilizado en la mezcla de agroquímicos
+      title: Tanque de mezcla
+      caption: Tanque mezclador con camisa de vapor para formulación
+    - image: https://assets.agrospear.com/images/agrochemical/equipment/crop-protection-products.jpg
+      alt: Variedad de contenedores de productos fitosanitarios en un almacén
+      title: Productos terminados
+      caption: Productos fitosanitarios envasados listos para su envío
+    - image: https://assets.agrospear.com/images/agrochemical/equipment/crop-protection-equipment.jpg
+      alt: Equipo de aplicación y demostración de protección de cultivos
+      title: Equipo de protección
+      caption: Equipo de protección y aplicación de cultivos
+
 process_cta:
   title: Ver nuestro proceso de fabricación
   desc: Sigue una formulación a través de cada etapa de producción.
