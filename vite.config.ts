@@ -9,7 +9,12 @@ import tailwindcss from '@tailwindcss/vite'
 import { cloudflare } from '@cloudflare/vite-plugin'
 
 const config = defineConfig({
-  build: { target: 'es2022' },
+  build: {
+    target: 'es2022',
+    rolldownOptions: {
+      external: ['cloudflare:workers'],
+    },
+  },
   resolve: { tsconfigPaths: true },
   plugins: [
     mdx(),

@@ -12,6 +12,8 @@ import { MarketingShell } from '@/components/marketing/shell'
 import { Hero } from '@/components/marketing/hero'
 
 const CollaborationSelector = lazy(() => import('@/components/marketing/collaboration-selector').then((m) => ({ default: m.CollaborationSelector })))
+const WhyGlobalBuyers = lazy(() => import('@/components/marketing/why-global-buyers').then((m) => ({ default: m.WhyGlobalBuyers })))
+const WhyUs = lazy(() => import('@/components/marketing/why-us').then((m) => ({ default: m.WhyUs })))
 const PlantCapability = lazy(() => import('@/components/marketing/plant-capability').then((m) => ({ default: m.PlantCapability })))
 const QualitySteps = lazy(() => import('@/components/marketing/quality-steps').then((m) => ({ default: m.QualitySteps })))
 const CommercialTerms = lazy(() => import('@/components/marketing/commercial-terms').then((m) => ({ default: m.CommercialTerms })))
@@ -53,6 +55,8 @@ function Home() {
     <MarketingShell>
       <Hero />
       <Suspense fallback={null}><TrustBar /></Suspense>
+      <Suspense fallback={null}><WhyGlobalBuyers /></Suspense>
+      <Suspense fallback={null}><WhyUs /></Suspense>
       <Suspense fallback={null}><FactoryCarousel /></Suspense>
       <Suspense fallback={null}><ProductCategories /></Suspense>
       <Suspense fallback={null}><ManufacturingFlow /></Suspense>

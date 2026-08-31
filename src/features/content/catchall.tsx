@@ -269,6 +269,7 @@ function productLd(origin: string, product: ContentProduct, locale: Locale, t: (
     '@type': 'Product',
     name: product.title,
     sku: product.sku,
+    category: product.category,
     description: brandify(product.description ?? product.summary ?? ''),
     image: abs(product.image) ? [abs(product.image)!] : undefined,
     brand: { '@type': 'Brand', name: BRAND_PARENT_BRAND },

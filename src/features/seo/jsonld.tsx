@@ -66,6 +66,36 @@ export function siteBreadcrumbLd(crumbs: { name: string; path: string }[]): Reco
   return breadcrumbLd(SITE_ORIGIN, crumbs)
 }
 
+export interface BuyerReasonLdItem {
+  title: string
+  body: string
+  evidence: string
+}
+
+/**
+ * Structured list of the "Why Global Buyers Choose Agrospear" purchasing
+ * factors shown on the homepage — each reason tagged with its name, detail
+ * and supporting evidence so AI engines can cite it as a first-party answer.
+ */
+export function whyGlobalBuyersLd(
+  title: string,
+  reasons: BuyerReasonLdItem[],
+  locale?: string,
+): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: title,
+    ...(locale ? { inLanguage: locale } : {}),
+    itemListElement: reasons.map((r, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: r.title,
+      description: `${r.body} Evidence: ${r.evidence}`,
+    })),
+  }
+}
+
 export function itemListLd(items: { name: string; path: string }[]): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
