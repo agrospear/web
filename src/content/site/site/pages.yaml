@@ -438,22 +438,6 @@
     - { key: detail, type: content, label: 'Detail' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
-- slug: oem-trust-assurance
-  label: OEM Trust & Assurance
-  path: /oem-trust-assurance
-  permalink: /oem-trust-assurance
-  sections:
-    - { key: hero, type: hero, label: 'Top Hero' }
-    - { key: answer, type: answer, label: 'Quick Answer' }
-    - { key: trust_stats, type: stats, label: 'Trust Stats' }
-    - { key: role_boundary, type: features, label: 'Role Boundary' }
-    - { key: trust_steps, type: steps, label: 'Trust Steps' }
-    - { key: trust_faqs, type: faqs, label: 'Trust FAQs' }
-    - { key: governance, type: content, label: 'Governance' }
-    - { key: trust_downloads, type: features, label: 'Trust Downloads' }
-    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
-    - { key: cta, type: cta, label: 'Bottom CTA' }
-
 - slug: agrochemical-oem-west-asia
   label: Agrochemical OEM West Asia
   path: /oem/agrochemical-oem-west-asia
@@ -591,7 +575,7 @@
     - { key: process_steps, type: steps, label: 'Onboarding Gates' }
     - { key: collaboration_modes, type: features, label: 'Collaboration Modes' }
     - { key: checklist, type: content, label: 'Pre-Brief Checklist' }
-    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
@@ -631,7 +615,7 @@
     - { key: identity_detail, type: features, label: 'Identity Detail' }
     - { key: manufacturing_scope, type: content, label: 'Manufacturing Scope' }
     - { key: brand_positioning, type: content, label: 'Brand Positioning' }
-    - { key: evidence_review, type: evidence_review, label: 'Evidence & Verification' }
+    - { key: evidence_review, type: content, label: 'Evidence & Verification' }
     - { key: faqs, type: faqs, label: 'FAQs' }
     - { key: cta, type: cta, label: 'Bottom CTA' }
 
