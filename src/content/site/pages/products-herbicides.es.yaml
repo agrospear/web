@@ -65,6 +65,18 @@ faqs:
       a: 'Concentrado en suspensión (SC), concentrado emulsionable (EC), polvo mojable (WP), gránulo dispersable en agua (WDG), líquido soluble (SL), microemulsión (ME) y suspensión encapsulada (CS).'
     - q: '¿Proporcionáis documentación de registro de herbicidas?'
       a: 'Sí. Suministramos paquetes completos de apoyo al registro: certificados ICAMA, cumplimiento de especificaciones FAO/OMS, análisis de cinco lotes, datos de estabilidad y expedientes de registro local.'
+    - q: '¿Cuándo debo elegir un herbicida pre-emergencia frente a uno de post-emergencia?'
+      a: 'Los herbicidas residuales de pre-emergencia se aplican antes de la germinación para suprimir las primeras apariciones y prolongar el control durante toda la temporada, mientras que los de post-emergencia actúan tras la aparición, a menudo cuando las malas hierbas son pequeñas. Muchos programas combinan una base residual con un socio de post-emergencia, y diseñamos premezclas para ese reparto.'
+    - q: '¿Cómo se comparan el glifosato y el glufosinato para la quema?'
+      a: 'El glifosato es un herbicida sistémico no selectivo ideal para quema en plantaciones y pre-siembra, mientras que el glufosinato actúa con mayor rapidez por contacto y se prefiere a menudo donde hay resistencia al glifosato. Ambos se fabrican como SL y pueden combinarse con socios residuales.'
+    - q: '¿Cómo diseñáis premezclas conformes con HRAC?'
+      a: 'Combinamos activos de diferentes sitios de acción — por ejemplo un auxina del Grupo 4 con un EPSPS del Grupo 9 o un HPPD del Grupo 27 — para que una sola aplicación ofrezca mecanismos superpuestos que reduzcan la selección de biotipos resistentes. La compatibilidad y la estabilidad se validan antes de la producción piloto.'
+    - q: '¿Qué tipo de formulación se adapta a mi mercado de herbicidas?'
+      a: 'El SL se adapta al glifosato y glufosinato para mercados líquidos de bajo coste; el SC y el WDG a activos de alta carga con bajo polvo y fuerte adherencia; el EC a activos lipofílicos; y el WP a mercados sensibles al coste. Recomendamos el tipo que equilibra eficacia, manejo y preferencia de registro regional.'
+    - q: '¿Qué datos de registro suministráis para herbicidas?'
+      a: 'Proporcionamos análisis de cinco lotes, estabilidad acelerada y a largo plazo, métodos analíticos, datos de toxicología y residuos, e informes de eficacia de campo — el expediente completo para registrar tu marca de herbicida en tus mercados objetivo.'
+    - q: '¿Qué documentación de exportación se incluye con los envíos de herbicidas?'
+      a: 'Cada envío incluye certificado de análisis, certificado de origen, FDS/MSDS, etiquetado conforme a GHS y documentación fitosanitaria, para que el despacho de aduanas sea fluido en tu mercado de destino.'
 
 cta:
   title: 'Inicia tu proyecto de herbicida'

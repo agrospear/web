@@ -19,6 +19,18 @@ faqs:
     answer: 'We manufacture Suspension Concentrates (SC), Emulsifiable Concentrates (EC), Water-Dispersible Granules (WDG), Wettable Powders (WP), and Soluble Liquids (SL). Formulation choice depends on the active ingredient properties, target application method, and regional registration preferences.'
   - question: 'What MOQ tiers are available for herbicide products?'
     answer: 'Sample orders start at 1–4 t for registration trials, pilot runs at 5 t, and standard production orders at 20+ t. Volume discounts apply at 50 t and 100 t thresholds. Lead time is 25–35 days from confirmed specification.'
+  - question: When should I choose a pre-emergent over a post-emergent herbicide?
+    answer: Pre-emergent residual herbicides are applied before weed germination to suppress early flushes and extend season-long control, while post-emergent products act after emergence, often when weeds are small. Many programmes pair a residual base with a post-emergent partner, and we design premixes to match that split.
+  - question: How do glyphosate and glufosinate compare for burndown?
+    answer: Glyphosate is a systemic, non-selective herbicide ideal for plantation and pre-sowing burndown, while glufosinate acts more rapidly with contact activity and is often preferred where glyphosate resistance is present. Both are manufactured as SL formulations and can be combined with residual partners.
+  - question: How do you design HRAC-compliant premixes?
+    answer: We pair actives from different sites of action — for example a Group 4 auxin with a Group 9 EPSPS or a Group 27 HPPD — so that a single application delivers overlapping mechanisms that reduce selection for resistant weed biotypes. Compatibility and stability are validated before pilot production.
+  - question: Which formulation type suits my herbicide market?
+    answer: SL suits glyphosate and glufosinate for low-cost liquid markets; SC and WDG suit high-loading actives with low dust and strong adhesion; EC suits lipophilic actives; WP suits cost-sensitive markets. We recommend the type that balances efficacy, handling and regional registration preference.
+  - question: What registration data do you supply for herbicides?
+    answer: We provide five-batch analysis, accelerated and long-term stability, analytical methods, toxicology and residue data, and field-efficacy reports — the complete dossier to register your herbicide brand in your target markets.
+  - question: What export documentation is included with herbicide shipments?
+    answer: Each shipment includes certificate of analysis, certificate of origin, MSDS/SDS, GHS-compliant labelling and phytosanitary documentation, so customs clearance is smooth in your destination market.
 body: |
   <h2>Comprehensive Herbicide Portfolio for Global Crop Protection</h2>
   <p>Weed competition remains the single largest yield-reducing factor across broad-acre row crops. Agrospear's herbicide portfolio spans both selective and non-selective chemistries, covering pre-emergent residual control through post-emergent foliar applications. Our formulation capabilities include Suspension Concentrates (SC) for low-drift foliar delivery, Emulsifiable Concentrates (EC) for rapid penetration, Water-Dispersible Granules (WDG) for dust-free handling, Wettable Powders (WP) for cost-sensitive markets, and Soluble Liquids (SL) for systemic translocation. Each formulation is optimized for stability, bioavailability, and compliance with international packaging and labelling standards.</p>

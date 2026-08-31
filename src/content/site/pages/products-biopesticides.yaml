@@ -22,6 +22,20 @@ faqs:
     answer: Biopesticides typically follow a streamlined registration pathway compared to synthetic chemicals. ICAMA, EPA and EU regulations each have reduced data requirements for microbial and botanical active ingredients. Our regulatory team guides the process from dossier preparation to certificate.
   - question: What MOQ is needed to launch a biopesticide brand?
     answer: Sample batches start at 1–4 tons for formulation validation. Pilot production runs at 5 tons for market testing. Standard volume production runs at 20+ tons per batch. Private-label co-branding on proven biopesticide platforms starts from lower quantities.
+  - question: How do you preserve viability in microbial formulations?
+    answer: We use cold-flow production for temperature-sensitive strains, validated shelf-life testing under recommended storage, and per-batch CFU counts at manufacture and through the stability period. Cold-chain shipping options are available for microbial concentrates.
+  - question: What formulation types work for microbial and botanical actives?
+    answer: Suspension Concentrates (SC) are the standard for microbial actives, preserving spore viability and uniform dispersion. Water-Dispersible Granules (WDG) and Wettable Powders (WP) suit spore-based and botanical powders, while Emulsifiable Concentrates (EC) and Oil Dispersions (OD) are preferred for botanical oil actives such as neem and pyrethrin.
+  - question: Can biopesticides be combined with synthetic chemistry?
+    answer: Yes. Many programmes position biopesticides as the backbone of an IPM strategy with synthetic products used only at thresholds. We can formulate compatible tank-mix partners and advise on timing so the biological and chemical components work together without degrading viability.
+  - question: What cold-chain support do you provide?
+    answer: For heat-sensitive microbial concentrates we can supply cold-chain shipping, insulated packaging and cold-storage validation. For ambient-stable formulations we provide documented stability confirming viability at normal warehouse temperatures.
+  - question: Do biopesticides support organic certification claims?
+    answer: Many microbial and botanical actives are permitted in organic and low-input programmes. We can tailor the formulation, inert ingredients and documentation to support the certification standard in your target market, whether OMRI, EU organic or another scheme.
+  - question: What quality controls apply to biopesticide batches?
+    answer: Each batch is released against CFU/g or titre specifications, germination rate for fungal actives, and purity checks, with a certificate of analysis supplied per shipment. We maintain full batch traceability and retain samples through the shelf-life period.
+  - question: What registration data do you provide for biopesticides?
+    answer: We provide strain identification, pathogenicity/toxicity and non-target organism studies, efficacy trial data and the analytical package for your active and formulation. Our regulatory team tailors the dossier to reduced-risk or accelerated pathways in your market.
 body: |
   <h2>Why Biopesticides?</h2>
   <p>Biopesticides offer unique advantages that synthetic chemical pesticides cannot match. Their reduced pre-harvest intervals allow application closer to harvest, their lower toxicity profiles simplify regulatory approval, and growing consumer demand for residue-free produce drives market growth year over year. The global biopesticide market is projected to exceed $10 billion by 2028.</p>
